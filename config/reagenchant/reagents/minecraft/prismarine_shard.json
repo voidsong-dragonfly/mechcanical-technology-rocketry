@@ -1,0 +1,19 @@
+{
+	"item": "minecraft:prismarine_shard",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:aqua_affinity",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 1,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:lure",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 3,
+			"reagentCost": 1
+		}
+	]
+}

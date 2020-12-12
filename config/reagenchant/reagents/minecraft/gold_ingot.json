@@ -1,0 +1,26 @@
+{
+	"item": "minecraft:gold_ingot",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:silk_touch",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 1,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:protection",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 4,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:sweeping",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 3,
+			"reagentCost": 1
+		}
+	]
+}

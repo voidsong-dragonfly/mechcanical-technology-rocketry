@@ -1,0 +1,110 @@
+{
+    "machine": "fission_reactor_calandria",
+    "registryName": "fission_reactor_calandria",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:control_rod_bundle",
+            "amount": 1,
+            "chance": 0.0
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "water",
+            "amount": 60000,
+            "chance": 0.0
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 0
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 0
+        }
+    ]
+}

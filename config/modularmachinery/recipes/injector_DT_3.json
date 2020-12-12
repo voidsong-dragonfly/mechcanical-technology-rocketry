@@ -1,0 +1,24 @@
+{
+    "machine": "fusion_reactor_3_injector",
+    "registryName": "injector_DT_3",
+    "recipeTime": 25000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquiddeuterium",
+            "amount": 1
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquidtritium",
+            "amount": 1
+        }
+    ]
+}

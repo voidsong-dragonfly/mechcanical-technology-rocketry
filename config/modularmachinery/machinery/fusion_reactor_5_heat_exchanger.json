@@ -1,0 +1,290 @@
+{
+    "registryname": "fusion_reactor_5_heat_exchanger",
+    "localizedname": "Fusion Reactor - Heat Exchanger - Radius 5",
+    "color": "A4A4A4",
+    "modifiers": [
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "description": "Each injector increases supercritical water output",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -6,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 6,
+            "nbt": {"statusTag":{"type":"2"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 200
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:toroid_upkeep_5_sub_0"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@5"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -5,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        }
+    ]}

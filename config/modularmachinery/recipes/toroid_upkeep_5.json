@@ -1,0 +1,25 @@
+{
+    "machine": "fusion_reactor_5_toroid",
+    "registryName": "toroid_upkeep_5",
+    "recipeTime": 1,
+    "startCommands": ["/playsound immersivetech:turbine master @a[x=~,y=~,z=~,r=21] ~ ~ ~ 1 1 1"],
+    "requirements": [
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 12288
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquidnitrogen",
+            "amount": 48
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "nitrogengas",
+            "amount": 48
+        }
+    ]
+}

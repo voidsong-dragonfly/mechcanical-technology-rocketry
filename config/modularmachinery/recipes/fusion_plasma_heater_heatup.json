@@ -1,0 +1,18 @@
+{
+    "machine": ["fusion_reactor_plasma_heater"],
+    "registryName": "plasma_heatup",
+    "recipeTime": 4,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "heat",
+            "amount": 1
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 3850
+        }
+    ]
+}

@@ -1,0 +1,22 @@
+# BLOCKS
+tile.alternatingflux.connector.connector_af.name=AF Wire Connector
+tile.alternatingflux.connector.relay_af.name=AF Wire Relay
+tile.alternatingflux.connector.transformer_af.name=AF Transformer
+
+# ITEMS
+item.alternatingflux.material.wire_constantan.name=Constantan Wire
+item.alternatingflux.wirecoil.af.name=AF Wire Coil
+
+#CREATIVE
+itemGroup.alternatingflux=Alternating Flux
+
+# MANUAL
+ie.manual.entry.alternatingflux.name=High-Voltage Direct Current
+ie.manual.entry.alternatingflux.subtext=Not for use on animals
+ie.manual.entry.alternatingflux0=By transforming to high voltages and rectifying the Alternating Current (AC) normally used in machines, it is possible to transmit it over great distances with minimal power loss. This form of power is called §lHigh Voltage Direct Current (HVDC)§r. However, because all machines operate on normal AC, HVDC cannot be directly used for powering machines.
+ie.manual.entry.alternatingfluxWire=By forming Aluminium and Steel into wire and coating it in <link;graphite;§o§nGraphite§r>, the wire has a slightly greater resistance than pure silver or copper, but is able to be strung greater distances.
+ie.manual.entry.alternatingflux1=HVDC Wires have much lower power loss than other wires due to the increased voltage and lowered current run through the wires. This makes HVDC an excellent choice of wire for long-distance power transfer. Like other wires, the loss is further reduced as the connectors near their maximum capacity.
+ie.manual.entry.alternatingfluxRelay=§lHVDC Relays§r are made in a similar fashion to HV Relays, however, because HVDC cannot power machines, HVDC Connectors cannot be created.
+ie.manual.entry.alternatingfluxTransformer=To rectify and transform AC into HVDC and back, a special HVDC Transformer§r will be required. HVDC converts to and from AC at a 1:1 rate.
+ie.manual.entry.alternatingflux2=There are only a few other devices that can handle HVDC properly.<br>The <link;eMeter;§o§nCurrent Transformer§r> can be used to monitor the power usage over an HVDC line.<br>A <link;breaker;§o§nRedstone Breaker§r> (unlike a Breaker Switch) is strong enough to handle HVDC, and can be connected to an HVDC line to easily disconnect it.
+ie.manual.entry.alternatingflux3=To help you calculate loss rates and required materials, here are some statistics about HVDC wire:<br>§oMax. Length:§r <config;i;alternatingflux_afMaxLength>m<br>§oMax. Current:§r <config;i;alternatingflux_afTransferRate> Flux/t<br>§oLoss over 1024m:§r ~<config;d;alternatingflux_afkmLossMin>-<config;d;alternatingflux_afkmLossMax>%%

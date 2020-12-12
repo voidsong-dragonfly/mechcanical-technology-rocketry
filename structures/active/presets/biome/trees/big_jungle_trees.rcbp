@@ -1,0 +1,38 @@
+{
+  "data": [
+    {
+      "biomes": "id=traverse:mini_jungle | id=jungle_edge | id=mutated_jungle_edge",
+      "weight": 0.025
+    },
+    {
+      "biomes": "$THEMED_TREES",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$WATER",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$SPOOKY | $DEAD",
+      "weight": 0.0
+    },
+    {
+      "biomes": "!$HOT",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$SANDY",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$JUNGLE \u0026 $DENSE",
+      "weight": 0.1
+    }
+  ],
+  "metadata": {
+    "title": "Big Jungle Trees",
+    "description": [
+      "Biomes suitable for big jungle trees."
+    ]
+  }
+}

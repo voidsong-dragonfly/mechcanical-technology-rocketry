@@ -1,0 +1,14 @@
+{
+    "machine": "fission_reactor_fuel_bundle",
+    "registryName": "fission_reactor_fuel_bundle_cooldown",
+    "recipeTime": 1,
+    "priority": 4,
+    "requirements": [
+        {
+            "type": "mekheat",
+            "io-type": "input",
+            "temperatureRequiredMin": 30,
+            "temperature": -4
+        }
+    ]
+}

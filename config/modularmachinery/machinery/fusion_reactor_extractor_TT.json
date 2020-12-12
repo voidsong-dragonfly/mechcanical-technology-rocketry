@@ -1,0 +1,565 @@
+{
+    "registryname": "fusion_reactor_extractor_TT",
+    "localizedname": "Fusion Reactor - Product Extractor - Tritium-Tritium",
+    "color": "A4A4A4",
+    "requires-blueprint": true,
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": -12,
+            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:injector_tt_sub_0"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "description": "Requires an Injector radially opposite to function",
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 1
+            }
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -16,
+            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:injector_tt_sub_0"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "output",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 1
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 0,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 1,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 3,
+
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -1,
+
+            "elements": [
+                "contenttweaker:outer_fusion_casing"
+            ]
+        }
+    ]}

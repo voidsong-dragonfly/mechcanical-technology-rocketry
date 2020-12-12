@@ -1,0 +1,26 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"inventory": [{
+			"model": "contenttweaker:metal_barrel_shell",
+			"textures": {
+				"side": "contenttweaker:blocks/metal_barrel_shell_side",
+				"up": "contenttweaker:blocks/metal_barrel_shell_top",
+				"down": "contenttweaker:blocks/metal_barrel_shell_top",
+				"particle": "contenttweaker:blocks/metal_barrel_shell_side"
+			}
+		}],
+		"normal": [{
+			"model": "contenttweaker:metal_barrel_shell",
+			"textures": {
+				"side": "contenttweaker:blocks/metal_barrel_shell_side",
+				"up": "contenttweaker:blocks/metal_barrel_shell_top",
+				"down": "contenttweaker:blocks/metal_barrel_shell_top",
+				"particle": "contenttweaker:blocks/metal_barrel_shell_side"
+			}
+        }]
+	}
+}

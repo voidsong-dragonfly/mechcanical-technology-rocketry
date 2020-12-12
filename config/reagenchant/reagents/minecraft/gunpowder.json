@@ -1,0 +1,19 @@
+{
+	"item": "minecraft:gunpowder",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:smite",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 5,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:feather_falling",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 4,
+			"reagentCost": 1
+		}
+	]
+}

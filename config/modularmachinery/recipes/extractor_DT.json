@@ -1,0 +1,18 @@
+{
+    "machine": ["fusion_reactor_extractor_DT"],
+    "registryName": "extractor_DT",
+    "recipeTime": 270,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "helium",
+            "amount": 10
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        }
+    ]
+}

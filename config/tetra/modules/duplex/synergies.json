@@ -1,0 +1,75 @@
+[
+    {
+        "modules": ["duplex/basic_hammer", "duplex/basic_axe"],
+        "name": "duplex/axe_hammer"
+    },
+    {
+        "modules": ["duplex/basic_axe", "duplex/basic_axe"],
+        "name": "duplex/axe_axe",
+        "damageMultiplier": 1.2,
+        "attackSpeedMultiplier": 0.9
+    },
+    {
+        "modules": ["duplex/basic_axe", "duplex/basic_pickaxe"],
+        "name": "duplex/axe_pickaxe"
+    },
+    {
+        "modules": ["duplex/basic_hammer", "duplex/basic_pickaxe"],
+        "name": "duplex/hammer_pickaxe"
+    },
+    {
+        "modules": ["duplex/adze", "duplex/basic_pickaxe"],
+        "name": "duplex/adze_pickaxe"
+    },
+    {
+        "modules": ["duplex/adze", "duplex/basic_axe"],
+        "name": "duplex/adze_axe"
+    },
+    {
+        "modules": ["duplex/claw", "duplex/basic_hammer"],
+        "name": "duplex/claw_hammer"
+    },
+    {
+        "modules": ["duplex/claw", "duplex/basic_axe"],
+        "name": "duplex/claw_axe"
+    },
+    {
+        "moduleVariants": ["basic_hammer/iron", "basic_hammer/iron"],
+        "damage": 1,
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "moduleVariants": ["basic_hammer/copper", "basic_hammer/copper"],
+        "integrity": 1,
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "moduleVariants": ["basic_hammer/tin", "basic_hammer/tin"],
+        "integrity": 1,
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "moduleVariants": ["basic_hammer/lead", "basic_hammer/lead"],
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "moduleVariants": ["basic_hammer/electrum", "basic_hammer/electrum"],
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "moduleVariants": ["basic_pickaxe/steel", "basic_pickaxe/steel"],
+        "capabilities": {
+            "pickaxe": 1
+        }
+    }
+]

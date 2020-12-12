@@ -1,0 +1,21 @@
+{
+    "machine": "fission_reactor_fuel_bundle",
+    "registryName": "fission_reactor_fuel_bundle_heatup",
+    "recipeTime": 1,
+    "priority": 3,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:fresh_fuel_bundle",
+            "amount": 10,
+            "chance": 0.0
+        },
+        {
+            "type": "mekheat",
+            "io-type": "input",
+            "temperatureRequiredMax": 1210,
+            "temperature": 2
+        }
+    ]
+}

@@ -1,0 +1,1862 @@
+{
+    "registryname": "fusion_reactor_3_toroid",
+    "localizedname": "Fusion Reactor - Toroid - Radius 3",
+    "color": "A4A4A4",
+    "parts": [
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -6,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -6,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 5,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 4,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -2,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 2,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -2,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 2,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 3,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:fusion_coil"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "contenttweaker:inner_fusion_casing"
+            ]
+        }
+    ]}

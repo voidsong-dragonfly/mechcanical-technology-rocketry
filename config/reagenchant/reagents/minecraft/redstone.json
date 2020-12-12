@@ -1,0 +1,33 @@
+{
+	"item": "minecraft:redstone",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:sharpness",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 5,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:efficiency",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 5,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:thorns",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 3,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:power",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 5,
+			"reagentCost": 1
+		}
+	]
+}

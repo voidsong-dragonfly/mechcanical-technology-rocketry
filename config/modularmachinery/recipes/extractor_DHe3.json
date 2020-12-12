@@ -1,0 +1,24 @@
+{
+    "machine": ["fusion_reactor_extractor_DHe3"],
+    "registryName": "extractor_DHe3",
+    "recipeTime": 282,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "liquidhydrogen",
+            "amount": 10
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 512
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "helium",
+            "amount": 10
+        }
+    ]
+}

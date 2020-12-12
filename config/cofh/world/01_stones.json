@@ -1,0 +1,97 @@
+{
+    "populate": {
+        "Black Slate": {
+            "generator": {
+                "type": "plate",
+                "block": "rustic:slate",
+                "radius": 24,
+                "height": {"min": 1, "max": 2}
+            },
+            "distribution": "uniform",
+            "cluster-count": 1,
+            "chunk-chance": 24,
+            "min-height": 8,
+            "max-height": 32,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {"type": "dictionary", "entry": "COLD"}
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "Colored Slate": {
+            "generator": [
+                {
+                    "type": "plate",
+                    "block": "earthworks:block_slate",
+                    "radius": 24,
+                    "height": {"min": 1, "max": 2}
+                },
+                {
+                    "type": "plate",
+                    "block": "earthworks:block_slate_green",
+                    "radius": 24,
+                    "height": {"min": 1, "max": 2}
+                },
+                {
+                    "type": "plate",
+                    "block": "earthworks:block_slate_purple",
+                    "radius": 24,
+                    "height": {"min": 1, "max": 2}
+                }
+            ],
+            "distribution": "uniform",
+            "cluster-count": 1,
+            "chunk-chance": 24,
+            "min-height": 20,
+            "max-height": 40,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {"type": "dictionary", "entry": "SNOWY"}
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        },
+        "Siltstone": {
+            "generator": {
+                "type": "plate",
+                "block": "pvj:siltstone",
+                "radius": 24,
+                "height": {"min": 1, "max": 2}
+            },
+            "material": [
+                "minecraft:stone"
+            ],
+            "distribution": "uniform",
+            "cluster-count": 1,
+            "chunk-chance": 8,
+            "min-height": 48,
+            "max-height": 72,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [
+                    {"type": "dictionary", "entry": "RIVER"},
+                    {"type": "dictionary", "entry": "BEACH"}
+                ]
+            },
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    0
+                ]
+            }
+        }
+    }
+}

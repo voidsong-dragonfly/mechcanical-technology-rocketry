@@ -1,0 +1,70 @@
+{
+    "registryname": "fission_reactor_fuel_bundle",
+    "localizedname": "Fission Reactor Fuel Bundle Assembly Holder",
+    "color": "545454",
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "rustic:stone_pillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "rustic:stone_pillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "rustic:stone_pillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "rustic:stone_pillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "rustic:stone_pillar@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "modulardiversity:blockmekheatinput@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 7,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        }
+    ]}

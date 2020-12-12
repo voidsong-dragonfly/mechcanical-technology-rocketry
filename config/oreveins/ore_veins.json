@@ -1,0 +1,619 @@
+{
+  "comment": "
+  Bit of background about this file - all ore generation is based entirely upon the IE excavator veins, which with some tweaks, are in turn derived from the 1.16 veins IE has
+  Weight from the IE vein determines rarity - for Overworld or similar veins this is 1024 for a vein with a weight of 25, then adding 256 per decrease in 5 of the weight - it isn't perfect but it makes some veins easier to find
+  For the Nether a weight of 20 corresponds to 256, and it scales as you would expect, with the ratio of the weights
+  The percentage of ore that the vein contains (something added by the pack, not IE native) determines the density, 60% is 192, 40% is 128, and 20% is 64. The scale is somewhat off here but we work with it
+  The fail chance of the vein determines the size, a fail chance of 0.05 is 8x32, a fail chance of 0.1 is 7x28, a fail chance of 0.15 is 6x24, and a fail chance of 0.2 is 5x20 - Veins that are 5x20 you may be better off mining an excavator vein
+  Fail chance for Nether veins is halved to determine size because Nether has fewer veins and so a higher fail chance to spread veins out
+  The ores contained within the vein, excluding sulfur dust because there is no sulfur ore, are represented with their vein weight in the weight of the ores
+  This file covers Overworld veins first, Nether veins second, Special veins (Cryolite) third, and Planetary (Dilithium, possibly Naquadah) veins last",
+  "bituminous_coal": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "minecraft:coal_ore",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockcoal", "weight": 100}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1024,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": -24,
+    "use_relative_y": true,
+    "max_y": 0,
+    "density": 192
+  },
+  "pentlandite": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 35
+      },
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 35,
+        "meta": 4
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockiron", "weight": 75}, {"block": "simpleoresamples:sampleblocknickel", "weight": 35}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1280,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 4,
+    "max_y": 28,
+    "density": 192
+  },
+  "chalcopyrite": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 35
+      },
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 35,
+        "meta": 0
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockcopper", "weight": 35}, {"block": "simpleoresamples:sampleblockiron", "weight": 35}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1024,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 12,
+    "max_y": 36,
+    "density": 192
+  },
+  "laterite": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 80,
+        "meta": 1
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 20
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockbauxite", "weight": 80}, {"block": "simpleoresamples:sampleblockiron", "weight": 20}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1280,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": -16,
+    "use_relative_y": true,
+    "max_y": 0,
+    "density": 192
+  },
+  "banded_iron": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockiron", "weight": 100}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1024,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 4,
+    "max_y": 24,
+    "density": 128
+  },
+  "auricupride": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 75,
+        "meta": 0
+      },
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 25
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockcopper", "weight": 75}, {"block": "simpleoresamples:sampleblockgold", "weight": 25}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1536,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 16,
+    "max_y": 40,
+    "density": 128
+  },
+  "galena": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 40,
+        "meta": 2
+      },
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 20,
+        "meta": 3
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblocklead", "weight": 40}, {"block": "simpleoresamples:sampleblocksilver", "weight": 20}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1280,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 20,
+    "max_y": 40,
+    "density": 128
+  },
+  "cinnabar": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "minecraft:redstone_ore",
+        "weight": 70
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockredstone", "weight": 60}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1536,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 4,
+    "max_y": 24,
+    "density": 128
+  },
+  "cassiterite": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "libvulpes:ore0",
+        "weight": 100,
+        "meta": 5
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblocktin", "weight": 100}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 1536,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 52,
+    "max_y": 72,
+    "density": 128
+  },
+  "uraninite": {
+    "type": "sphere",
+    "vertical_size": 6,
+    "horizontal_size": 24,
+    "ore": [
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 70,
+        "meta": 5
+      },
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 20,
+        "meta": 2
+      },
+      {
+        "block": "immersive_energy:ore",
+        "weight": 10,
+        "meta": 0
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockuranium", "weight": 70}, {"block": "simpleoresamples:sampleblocklead", "weight": 20}, {"block": "simpleoresamples:sampleblockthorium", "weight": 10}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 2048,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 4,
+    "max_y": 24,
+    "density": 256
+  },
+  "beryl": {
+    "type": "sphere",
+    "vertical_size": 5,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "minecraft:emerald_ore",
+        "weight": 50
+      },
+      {
+        "block": "minecraft:monster_egg",
+        "weight": 50
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockemerald", "weight": 100}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "comment": "This differentiates from the patterns because it's biome restricted",
+    "rarity": 1024,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 16,
+    "max_y": 32,
+    "density": 128,
+    "biomes": [
+      "mountain",
+      "extreme_hills",
+      "extreme_hills_with_trees",
+      "mutated_extreme_hills",
+      "mutated_extreme_hills_with_trees"
+    ]
+  },
+  "wolframite": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "immersive_energy:ore",
+        "weight": 75,
+        "meta": 1
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 25
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblocktungsten", "weight": 75}, {"block": "simpleoresamples:sampleblockiron", "weight": 25}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 3072,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 16,
+    "max_y": 36,
+    "density": 128
+  },
+  "thorite": {
+    "type": "sphere",
+    "vertical_size": 6,
+    "horizontal_size": 24,
+    "ore": [
+      {
+        "block": "immersive_energy:ore",
+        "weight": 75,
+        "meta": 0
+      },
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 15,
+        "meta": 5
+      },
+      {
+        "block": "contenttweaker:pyrochlore_ore",
+        "weight": 10,
+        "meta": 2
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockthorium", "weight": 75}, {"block": "simpleoresamples:sampleblockuranium", "weight": 15}, {"block": "simpleoresamples:sampleblockpyrochlore", "weight": 10}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 2048,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 12,
+    "max_y": 32,
+    "density": 128
+  },
+  "kimberlite": {
+    "type": "cone",
+    "shape": 0.125,
+    "inverted": true,
+    "vertical_size": 32,
+    "horizontal_size": 4,
+    "ore": [
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 95
+      },
+      {
+        "block": "minecraft:lava",
+        "weight": 5
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockdiamond", "weight": 100}],
+      "rarity": 2,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 3072,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 4,
+    "max_y": 48,
+    "density": 128
+  },
+  "lapis": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "minecraft:lapis_ore",
+        "weight": 70
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 25
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblocklapis", "weight": 70}, {"block": "simpleoresamples:sampleblocklapis", "weight": 25}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 2048,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 12,
+    "max_y": 24,
+    "density": 128
+  },
+  "cooperite": {
+    "type": "sphere",
+    "vertical_size": 5,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "immersiveengineering:ore",
+        "meta": 4,
+        "weight": 70
+      },
+      {
+        "block": "contenttweaker:platinum_ore",
+        "weight": 20
+      },
+      {
+        "block": "libvulpes:ore0",
+        "meta": 10,
+        "weight": 10
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblocknickel", "weight": 70}, {"block": "simpleoresamples:sampleblockplatinum", "weight": 20}, {"block": "simpleoresamples:sampleblockiridium", "weight": 10}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 3072,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 0,
+    "max_y": 20,
+    "density": 64
+  },
+  "ilmenite": {
+    "type": "sphere",
+    "vertical_size": 5,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "libvulpes:ore0",
+        "meta": 8,
+        "weight": 60
+      },
+      {
+        "block": "contenttweaker:zircon_ore",
+        "weight": 25
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 15
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockilmenite", "weight": 60}, {"block": "simpleoresamples:sampleblockzircon", "weight": 25}, {"block": "simpleoresamples:sampleblockiron", "weight": 15}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 3072,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 16,
+    "max_y": 36,
+    "density": 64
+  },
+  "cryolite": {
+    "type": "sphere",
+    "vertical_size": 4,
+    "horizontal_size": 16,
+    "ore": [
+      {
+        "block": "contenttweaker:cryolite",
+        "weight": 100
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockcryolite", "weight": 100}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 2048,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": -32,
+    "use_relative_y": true,
+    "density": 1024
+  },
+  "mephitic_quartzite": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "minecraft:quartz_ore",
+        "weight": 60
+      },
+      {
+        "block": "contenttweaker:nether_gold_ore",
+        "weight": 20
+      }
+    ],
+    "stone": ["minecraft:netherrack"],
+    "rarity": 256,
+    "count": 1,
+    "dimensions": [-1],
+    "dimensions_is_whitelist": true,
+    "min_y": 48,
+    "max_y": 96,
+    "density": 128
+  },
+  "cinnabaric_quartzite": {
+    "type": "sphere",
+    "vertical_size": 5,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "minecraft:quartz_ore",
+        "weight": 60
+      },
+      {
+        "block": "contenttweaker:cinnabar_ore",
+        "weight": 30
+      },
+      {
+        "block": "contenttweaker:nether_gold_ore",
+        "weight": 10
+      }
+    ],
+    "stone": ["minecraft:netherrack"],
+    "rarity": 512,
+    "count": 1,
+    "dimensions": [-1],
+    "dimensions_is_whitelist": true,
+    "min_y": 16,
+    "max_y": 96,
+    "density": 128
+  },
+  "dilithium_ore": {
+    "type": "sphere",
+    "vertical_size": 5,
+    "horizontal_size": 20,
+    "ore": [
+      {
+        "block": "libvulpes:ore0",
+        "weight": 85,
+        "meta": 0
+      },
+      {
+        "block": "minecraft:diamond_ore",
+        "weight": 15
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockdilithium", "weight": 85}, {"block": "simpleoresamples:sampleblockdiamond", "weight": 15}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", "pvj:siltstone", "rustic:slate", "quark:marble", "quark:slate", "quark:jasper", "quark:limestone", "earthworks:block_chalk", "earthworks:block_slate", "earthworks:block_slate_green", "earthworks:block_slate_purple"],
+    "rarity": 512,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": false,
+    "min_y": 0,
+    "max_y": 16,
+    "density": 96
+  }
+}

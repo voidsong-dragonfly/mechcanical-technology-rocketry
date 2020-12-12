@@ -1,0 +1,240 @@
+[
+    {
+        "key": "wide_guard/oak",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "9d804e",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/spruce",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "694f2f",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/birch",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "c8b77d",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/jungle",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "996e4c",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/acacia",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "ac5d33",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/dark_oak",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "3c2712",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/iron",
+        "durability": 45,
+        "integrity": -1,
+        "attackSpeed": -0.3,
+        "effects": {
+            "armor": 2
+        },
+        "glyph": {
+            "tint": "d8d8d8",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/flint",
+        "durability": 28,
+        "integrity": -1,
+        "attackSpeed": 0,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "343434",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/gold",
+        "durability": 9,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "eaee57",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/copper",
+        "durability": 58,
+        "integrity": -1,
+        "attackSpeed": -0.05,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "df7646",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/tin",
+        "durability": 43,
+        "integrity": -1,
+        "attackSpeed": 0,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "b3c9c1",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/silver",
+        "durability": 12,
+        "integrity": -1,
+        "attackSpeed": -0.1,
+        "effects": {
+            "armor": 1
+        },
+        "glyph": {
+            "tint": "d6f6ff",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/nickel",
+        "durability": 41,
+        "integrity": -2,
+        "attackSpeed": -0.4,
+        "effects": {
+            "armor": 2
+        },
+        "glyph": {
+            "tint": "c2d3a6",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/lead",
+        "durability": 77,
+        "integrity": -2,
+        "attackSpeed": -0.7,
+        "effects": {
+            "armor": 3
+        },
+        "glyph": {
+            "tint": "897a9b",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/bronze",
+        "durability": 46,
+        "integrity": -2,
+        "attackSpeed": -0.3,
+        "effects": {
+            "armor": 4
+        },
+        "glyph": {
+            "tint": "b2712c",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/electrum",
+        "durability": 9,
+        "integrity": -2,
+        "attackSpeed": -0.3,
+        "effects": {
+            "armor": 2
+        },
+        "glyph": {
+            "tint": "e4da4c",
+            "textureX": 40,
+            "textureY": 16
+        }
+    },
+    {
+        "key": "wide_guard/steel",
+        "durability": 68,
+        "integrity": -3,
+        "attackSpeed": -0.2,
+        "effects": {
+            "armor": 5
+        },
+        "glyph": {
+            "tint": "888888",
+            "textureX": 40,
+            "textureY": 16
+        }
+    }
+]

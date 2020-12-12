@@ -1,0 +1,26 @@
+{
+	"item": "minecraft:prismarine_crystals",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:luck_of_the_sea",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 3,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:respiration",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 3,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:depth_strider",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 3,
+			"reagentCost": 1
+		}
+	]
+}

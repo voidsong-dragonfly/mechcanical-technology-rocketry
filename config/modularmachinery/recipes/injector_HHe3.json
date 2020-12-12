@@ -1,0 +1,24 @@
+{
+    "machine": ["fusion_reactor_injector"],
+    "registryName": "injector_HHe3",
+    "recipeTime": 29000,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquidhydrogen",
+            "amount": 1
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 1024
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "helium3",
+            "amount": 1
+        }
+    ]
+}

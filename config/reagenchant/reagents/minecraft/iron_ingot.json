@@ -1,0 +1,26 @@
+{
+	"item": "minecraft:iron_ingot",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:projectile_protection",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 4,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:knockback",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 2,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:punch",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 2,
+			"reagentCost": 1
+		}
+	]
+}

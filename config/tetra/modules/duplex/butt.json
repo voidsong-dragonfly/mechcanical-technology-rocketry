@@ -1,0 +1,167 @@
+[
+    {
+        "key": "butt/oak",
+        "durability": 0,
+        "magicCapacity": 15,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.3,
+        "glyph": {
+            "tint": "866526",
+            "textureX": 160
+        }
+    },
+    {
+        "key": "butt/flint",
+        "durability": 15,
+        "magicCapacity": 5,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "343434",
+            "textureX": 160
+        }
+    },
+    {
+        "key": "butt/iron",
+        "durability": 26,
+        "magicCapacity": 14,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "d8d8d8",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "key": "butt/gold",
+        "durability": 11,
+        "magicCapacity": 22,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "eaee57",
+            "textureX": 160
+        }
+    },
+    {
+        "key": "butt/copper",
+        "durability": 18,
+        "magicCapacity": 13,
+        "integrity": 0,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "df7646",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "key": "butt/tin",
+        "durability": 15,
+        "magicCapacity": 12,
+        "integrity": 0,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "b3c9c1",
+            "textureX": 160
+        }
+    },
+    {
+        "key": "butt/silver",
+        "durability": 17,
+        "magicCapacity": 21,
+        "integrity": 0,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "d6f6ff",
+            "textureX": 160
+        }
+    },
+    {
+        "key": "butt/nickel",
+        "durability": 31,
+        "magicCapacity": 12,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "c2d3a6",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "key": "butt/lead",
+        "durability": 16,
+        "magicCapacity": 11,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.3,
+        "glyph": {
+            "tint": "897a9b",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "key": "butt/bronze",
+        "durability": 47,
+        "magicCapacity": 13,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "b2712c",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "key": "butt/electrum",
+        "durability": 8,
+        "magicCapacity": 24,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.2,
+        "glyph": {
+            "tint": "e4da4c",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    },
+    {
+        "key": "butt/steel",
+        "durability": 53,
+        "magicCapacity": 11,
+        "integrity": -1,
+        "damage": 1,
+        "attackSpeed": -0.25,
+        "glyph": {
+            "tint": "888888",
+            "textureX": 160
+        },
+        "capabilities": {
+            "hammer": 1
+        }
+    }
+]

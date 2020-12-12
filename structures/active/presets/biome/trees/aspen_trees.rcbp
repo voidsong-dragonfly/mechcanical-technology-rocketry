@@ -1,0 +1,41 @@
+{
+  "data": [
+    {
+      "biomes": "id=pvj:aspen_grove",
+      "weight": 4.0
+    },
+    {
+      "biomes": "!id=pvj:aspen_grove",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$THEMED_TREES",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$WATER",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$SPOOKY | $DEAD",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$HOT | $COLD",
+      "weight": 0.0
+    },
+    {
+      "biomes": "$WET | $DRY | $SANDY",
+      "weight": 0.0
+    },
+    {
+      "biomes": ""
+    }
+  ],
+  "metadata": {
+    "title": "Aspen Trees",
+    "description": [
+      "Biomes suitable for aspen trees."
+    ]
+  }
+}

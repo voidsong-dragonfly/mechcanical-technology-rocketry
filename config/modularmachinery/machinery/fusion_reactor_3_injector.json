@@ -1,0 +1,78 @@
+{
+    "registryname": "fusion_reactor_3_injector",
+    "localizedname": "Fusion Reactor - Fuel Injector - Radius 3",
+    "color": "A4A4A4",
+    "parts": [
+        {
+            "x": 0,
+            "y": 2,
+            "z": 6,
+            
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -6,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 6,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -6,
+            
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        }
+    ]}

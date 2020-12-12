@@ -1,0 +1,359 @@
+[
+    {
+        "key": "machete/oak",
+        "durability": 50,
+        "integrity": -2,
+        "magicCapacity": 15,
+        "damage": 3,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "9d804e",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [0, 0.9375]
+        }
+    },
+    {
+        "key": "machete/spruce",
+        "durability": 50,
+        "integrity": -2,
+        "magicCapacity": 15,
+        "damage": 3,
+        "attackSpeed": 0.2,
+        "glyph": {
+            "tint": "694f2f",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [0, 0.9375]
+        }
+    },
+    {
+        "key": "machete/birch",
+        "durability": 50,
+        "integrity": -2,
+        "magicCapacity": 15,
+        "damage": 3,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "c8b77d",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [0, 0.9375]
+        }
+    },
+    {
+        "key": "machete/jungle",
+        "durability": 50,
+        "integrity": -2,
+        "magicCapacity": 17,
+        "damage": 3,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "996e4c",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [0, 0.9375]
+        }
+    },
+    {
+        "key": "machete/acacia",
+        "durability": 50,
+        "integrity": -2,
+        "magicCapacity": 15,
+        "damage": 4,
+        "attackSpeed": -0.3,
+        "glyph": {
+            "tint": "ac5d33",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [0, 0.9375]
+        }
+    },
+    {
+        "key": "machete/dark_oak",
+        "durability": 50,
+        "integrity": -2,
+        "magicCapacity": 17,
+        "damage": 3,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "3c2712",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [0, 0.9375]
+        }
+    },
+    {
+        "key": "machete/iron",
+        "durability": 221,
+        "integrity": -2,
+        "magicCapacity": 15,
+        "damage": 5,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "d8d8d8",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/flint",
+        "durability": 150,
+        "integrity": -2,
+        "magicCapacity": 14,
+        "damage": 4,
+        "attackSpeed": 0.2,
+        "glyph": {
+            "tint": "343434",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/gold",
+        "durability": 15,
+        "integrity": -2,
+        "magicCapacity": 22,
+        "damage": 3,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "eaee57",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/copper",
+        "durability": 148,
+        "integrity": -1,
+        "magicCapacity": 13,
+        "damage": 4,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "df7646",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/tin",
+        "durability": 126,
+        "integrity": -1,
+        "magicCapacity": 12,
+        "damage": 4,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "b3c9c1",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/silver",
+        "durability": 60,
+        "integrity": -2,
+        "magicCapacity": 21,
+        "damage": 4,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "d6f6ff",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/nickel",
+        "durability": 200,
+        "integrity": -2,
+        "magicCapacity": 12,
+        "damage": 5.5,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "c2d3a6",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/lead",
+        "durability": 108,
+        "integrity": -3,
+        "magicCapacity": 11,
+        "damage": 6,
+        "attackSpeed": -0.1,
+        "glyph": {
+            "tint": "897a9b",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/bronze",
+        "durability": 320,
+        "integrity": -1,
+        "magicCapacity": 13,
+        "damage": 5,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "b2712c",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/electrum",
+        "durability": 53,
+        "integrity": -2,
+        "magicCapacity": 24,
+        "damage": 4,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "e4da4c",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    },
+    {
+        "key": "machete/steel",
+        "durability": 380,
+        "integrity": -2,
+        "magicCapacity": 11,
+        "damage": 6,
+        "attackSpeed": 0,
+        "glyph": {
+            "tint": "888888",
+            "textureY": 32,
+            "textureX": 48
+        },
+        "effects": {
+            "sweeping": 1,
+            "strikingCut": 1,
+            "sweepingStrike": 1
+        },
+        "capabilities": {
+            "cut": [1, 0.9375]
+        }
+    }
+]

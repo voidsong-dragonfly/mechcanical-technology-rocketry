@@ -1,0 +1,19 @@
+{
+    "machine": "fusion_reactor_3_heat_exchanger",
+    "registryName": "heat_exchanger_3",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 200
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 200
+        }
+    ]
+}

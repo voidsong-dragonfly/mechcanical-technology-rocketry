@@ -1,0 +1,12 @@
+{
+	"item": "minecraft:packed_ice",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:frost_walker",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 2,
+			"reagentCost": 1
+		}
+	]
+}

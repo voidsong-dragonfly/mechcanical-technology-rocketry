@@ -1,0 +1,10 @@
+{
+    "assembly_cleanroom_sides": [
+        "contenttweaker:plascrete@0",
+        "modularmachinery:blockenergyinputhatch@2",
+        "modularmachinery:blockfluidinputhatch@2",
+        "modularmachinery:blockfluidoutputhatch@2",
+        "modularmachinery:blockinputbus@1",
+        "modularmachinery:blockoutputbus@1"
+    ]
+}

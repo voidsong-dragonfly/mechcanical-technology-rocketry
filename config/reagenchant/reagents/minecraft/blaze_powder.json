@@ -1,0 +1,26 @@
+{
+	"item": "minecraft:blaze_powder",
+	"enchantments": [
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:fire_aspect",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 2,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:fire_protection",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 4,
+			"reagentCost": 1
+		}, 
+		{
+			"minimumEnchantmentLevel": 1,
+			"enchantment": "minecraft:flame",
+			"probability": 0.5,
+			"maximumEnchantmentLevel": 1,
+			"reagentCost": 1
+		}
+	]
+}

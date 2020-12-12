@@ -1,0 +1,6 @@
+{
+    "electrolytic_power_inputs": [
+        "immersiveengineering:sheetmetal@8",
+        "modularmachinery:blockenergyinputhatch@2"
+    ]
+}
