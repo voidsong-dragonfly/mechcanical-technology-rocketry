@@ -22,8 +22,8 @@ icon.png
 /config/splash.properties
 /config/BiomeTweaker/output
 /config/jei/bookmarks.ini
-/config/Tails.cfg
-/config/InvTweaks.cfg
+/config/tails.cfg
+/config/InvTweaks
 /config/MouseTweaks.cfg
 /config/ichunutil.cfg
 /config/ichunutil_keybinds.cfg
