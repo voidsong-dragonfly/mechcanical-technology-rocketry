@@ -393,5 +393,10 @@
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false
+  },
+  "pvj:baobab_fields": {
+    "enable_seasonal_effects": true,
+    "use_tropical_seasons": true,
+    "disable_crops": false
   }
 }

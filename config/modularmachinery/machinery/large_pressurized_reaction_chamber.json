@@ -57,7 +57,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@7"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -82,7 +82,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@4"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -90,7 +90,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@5"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -114,7 +114,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@6"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -197,7 +197,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@1"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -205,7 +205,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@2"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -213,7 +213,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@3"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
@@ -221,7 +221,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "traverse:blue_rock_cobblestone_stairs@0"
+                "traverse:blue_rock_cobblestone_stairs"
             ]
         },
         {
