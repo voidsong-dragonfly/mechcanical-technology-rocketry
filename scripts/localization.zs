@@ -234,7 +234,7 @@ game.setLocalization("fluid.uranium_hexafluoride_000", "Depleted Uranium Hexaflu
 game.setLocalization("item.contenttweaker.small_zirconium_niobium_pipe.name", "Small Zirconium-Niobium Alloy Pipe");
 game.setLocalization("item.contenttweaker.fresh_fuel_bundle.name", "Fresh Fuel Rod Bundle");
 game.setLocalization("item.contenttweaker.spent_fuel_bundle.name", "Spent Fuel Rod Bundle");
-game.setLocalization("item.contenttweaker.depleted_fuel_bundle.name", "Depleted Rod Fuel Bundle");
+game.setLocalization("item.contenttweaker.depleted_fuel_bundle.name", "Depleted Fuel Rod Bundle");
 game.setLocalization("item.contenttweaker.control_rod_bundle.name", "Control Rod Bundle");
 game.setLocalization("item.contenttweaker.uranium_fuel_pellet.name", "Uranium Fuel Pellet");
 game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing_shell.name", "Fission Reactor Calandria Casing Shell");
