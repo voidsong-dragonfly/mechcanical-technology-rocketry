@@ -4,6 +4,7 @@ import mods.immersivetechnology.SteamTurbine;
 import mods.immersivetechnology.GasTurbine;
 import mods.immersivetechnology.Distiller;
 import mods.immersivetechnology.Boiler;
+import mods.immersivetechnology.HeatExchanger;
 import mods.immersivetechnology.CoolingTower;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Mixer;
@@ -64,6 +65,7 @@ Boiler.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 10);
 Boiler.removeFuel(<liquid:diesel>);
 Boiler.removeFuel(<liquid:gasoline>);
 Boiler.removeFuel(<liquid:biodiesel>);
+Boiler.removeFuel(<liquid:fluegas>);
 Boiler.addFuel(<liquid:refinerygas> * 140, 10, 10);
 Boiler.addFuel(<liquid:methane> * 140, 10, 10);
 Boiler.addFuel(<liquid:gasoline> * 100, 10, 10);
@@ -74,7 +76,18 @@ Boiler.addFuel(<liquid:biodiesel> * 100, 10, 10);
 Boiler.addFuel(<liquid:ethanol> * 150, 10, 10);
 Boiler.addFuel(<liquid:liquidethene> * 110, 10, 10);
 Boiler.addFuel(<liquid:liquidhydrogen> * 530, 10, 10);
-Boiler.addFuel(<liquid:lava> * 400, 10, 10);
+
+//Heat Exchanger fuels
+HeatExchanger.removeRecipe(<liquid:water> * 250, <liquid:fluegas> * 1000);
+HeatExchanger.removeRecipe(<liquid:distwater> * 250, <liquid:fluegas> * 1000);
+
+HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:fluegas> * 1000, 0, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:fluegas> * 1000, 0, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:lava> * 400, 0, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:lava> * 400, 0, 10);
+
+HeatExchanger.addRecipe(<liquid:steam> * 18000, <liquid:distwater> * 1000, <liquid:water> * 250, <liquid:superheatedwater> * 1000, 0, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 20000, <liquid:distwater> * 1000, <liquid:distwater> * 250, <liquid:superheatedwater> * 1000, 0, 10);
 
 //Allow cooling tower to process much more steam
 CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
@@ -430,7 +443,7 @@ Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:slickplasticblock:*>, 240
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:reinforcedplasticblock:*>, 2400, <mekanism:dust:2>, 0.2);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:glowplasticblock:*>, 2400, <minecraft:glowstone_dust>, 0.3);
 BlastFurnace.addFuel(<contenttweaker:petroleum_coke>, 1200);
-Squeezer.addRecipe(<immersiveengineering:material:18>, <liquid:water> * 0, <contenttweaker:petroleum_coke_dust> * 8, 19200);
+Squeezer.addRecipe(<immersiveengineering:material:18>, null, <contenttweaker:petroleum_coke_dust> * 8, 19200);
     
 //Make Insulating Glass made in the Alloy Kiln with Glass and Iron dust
 recipes.remove(<immersiveengineering:stone_decoration:8>);
@@ -443,7 +456,7 @@ Squeezer.addRecipe(<minecraft:packed_ice>, <liquid:ice> * 3000, <ore:blockIce> *
 Squeezer.addRecipe(<biomesoplenty:hard_ice>, <liquid:ice> * 3000, <ore:blockPackedIce> * 4, 512000);
 Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard_ice> * 4, 512000);
 Squeezer.removeFluidRecipe(<liquid:blood>);
-Squeezer.addRecipe(<minecraft:quartz_block>, <liquid:water> * 0, <contenttweaker:silicon_dioxide_dust_block>, 1024000);
+Squeezer.addRecipe(<minecraft:quartz_block>, null, <contenttweaker:silicon_dioxide_dust_block>, 1024000);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 125, <witherskelefix:fragment> * 16, 512000);
 
 
