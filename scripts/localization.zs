@@ -48,6 +48,10 @@ game.setLocalization("fluid.magnesiumchloridesolution", "Magnesium Chloride Solu
 game.setLocalization("fluid.lithiumchloridesolution", "Lithium Chloride Solution");
 game.setLocalization("fluid.richbrine", "Rich Brine");
 
+//Molten metals from salts
+game.setLocalization("fluid.moltenmagnesium", "Molten Magnesium");
+game.setLocalization("fluid.moltencalcium", "Molten Calcium");
+
 //Salts
 game.setLocalization("item.contenttweaker.magnesium_chloride.name", "Magnesium Chloride");
 game.setLocalization("item.contenttweaker.lithium_chloride.name", "Lithium Chloride");
@@ -56,16 +60,15 @@ game.setLocalization("fluid.moltenmagnesiumchloride", "Molten Magnesium Chloride
 game.setLocalization("fluid.moltenlithiumchloride", "Molten Lithium Chloride");
 game.setLocalization("fluid.moltencalciumchloride", "Molten Calcium Chloride");
 
-//Magnesium, gallium, quartz, and stone
+//Freestanding dusts & grits
 game.setLocalization("item.contenttweaker.charcoal_dust.name", "Charcoal Dust");
 game.setLocalization("item.contenttweaker.stone_dust.name", "Stone Dust");
+game.setLocalization("item.contenttweaker.calcium_dust.name", "Calcium Dust");
+game.setLocalization("item.contenttweaker.quartz_dust.name", "Quartz Dust");
+game.setLocalization("item.contenttweaker.gallium_dust.name", "Gallium Grit");
 game.setLocalization("item.contenttweaker.magnesium_dust.name", "Magnesium Grit");
 game.setLocalization("item.contenttweaker.cobalt_dust.name", "Cobalt Grit");
-game.setLocalization("item.contenttweaker.calcium_dust.name", "Calcium Dust");
-game.setLocalization("item.contenttweaker.gallium_dust.name", "Gallium Grit");
-game.setLocalization("item.contenttweaker.quartz_dust.name", "Quartz Dust");
-game.setLocalization("fluid.moltenmagnesium", "Molten Magnesium");
-game.setLocalization("fluid.moltencalcium", "Molten Calcium");
+game.setLocalization("item.contenttweaker.indium_dust.name", "Indium Grit");
 
 //Materials
 //New Materials
@@ -75,6 +78,7 @@ localize_material("platinum", "Platinum");
 localize_material("tungstensteel", "Tungstensteel");
 localize_material("niobium", "Niobium");
 localize_material("niobium_titanium", "Niobium-Titanium Alloy");
+localize_material("silver_indium", "Silver-Indium Alloy");
 localize_material("zirconium", "Zirconium");
 localize_material("zirconium_niobium", "Zirconium-Niobium Alloy");
 //Additional Materials
@@ -218,8 +222,8 @@ game.setLocalization("tile.contenttweaker.warp_ring_engineering_block.name", "Wa
 game.setLocalization("tile.contenttweaker.warp_core_engineering_block.name", "Warp Engineering Block - Core");
 
 //Uranium enrichment pieces
-game.setLocalization("item.contenttweaker.uranium_dioxide_dust_035.name", "3.5%% Enriched Uranium Dioxide Dust");
-game.setLocalization("item.contenttweaker.uranium_dioxide_dust_000.name", "Depleted Uranium Dioxide Dust");
+game.setLocalization("item.contenttweaker.uranium_dioxide_dust_035.name", "3.5%% Enriched Uranium Dioxide Grit");
+game.setLocalization("item.contenttweaker.uranium_dioxide_dust_000.name", "Depleted Uranium Dioxide Grit");
 game.setLocalization("item.contenttweaker.uranium_tetrafluoride_dust_007.name", "Uranium Tetrafluoride Dust");
 game.setLocalization("item.contenttweaker.uranyl_fluoride_dust_035.name", "3.5%% Enriched Uranyl Fluoride Dust");
 game.setLocalization("item.contenttweaker.uranyl_fluoride_dust_000.name", "Depleted Uranyl Fluoride Dust");
@@ -235,6 +239,7 @@ game.setLocalization("item.contenttweaker.small_zirconium_niobium_pipe.name", "S
 game.setLocalization("item.contenttweaker.fresh_fuel_bundle.name", "Fresh Fuel Rod Bundle");
 game.setLocalization("item.contenttweaker.spent_fuel_bundle.name", "Spent Fuel Rod Bundle");
 game.setLocalization("item.contenttweaker.depleted_fuel_bundle.name", "Depleted Fuel Rod Bundle");
+game.setLocalization("item.contenttweaker.deformed_fuel_bundle.name", "Deformed Fuel Rod Bundle");
 game.setLocalization("item.contenttweaker.control_rod_bundle.name", "Control Rod Bundle");
 game.setLocalization("item.contenttweaker.uranium_fuel_pellet.name", "Uranium Fuel Pellet");
 game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing_shell.name", "Fission Reactor Calandria Casing Shell");
@@ -326,7 +331,7 @@ game.setLocalization("item.contenttweaker.tungsten_trioxide.name", "Tungsten Tri
 
 //Copper Processing
 game.setLocalization("item.contenttweaker.washed_copper_ore_dust.name", "Copper Ore Dust - Washed");
-game.setLocalization("item.contenttweaker.copper_derived_anode_slime.name", "Copper-Derived Anode Slime - Au, Au");
+game.setLocalization("item.contenttweaker.copper_derived_anode_slime.name", "Copper-Derived Anode Slime - Ag, Au, In");
 game.setLocalization("fluid.coppersulfatesolution", "Copper Sulfate Solution");
 
 //Nickel Processing

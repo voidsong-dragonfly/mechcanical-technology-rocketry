@@ -176,6 +176,13 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:nuggetZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_nugget>);
 <ore:stickZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_stick>);
 
+//Silver-Indium oredictionary
+<ore:dustSilverIndium>.add(<contenttweaker:silver_indium_dust>);
+<ore:ingotSilverIndium>.add(<contenttweaker:silver_indium_ingot>);
+<ore:plateSilverIndium>.add(<contenttweaker:silver_indium_plate>);
+<ore:nuggetSilverIndium>.add(<contenttweaker:silver_indium_nugget>);
+<ore:stickSilverIndium>.add(<contenttweaker:silver_indium_stick>);
+
 //Ore oredictionary
 <ore:oreZirconium>.add(<contenttweaker:zircon_ore>);
 <ore:oreNiobium>.add(<contenttweaker:pyrochlore_ore>);
@@ -303,6 +310,7 @@ hide(<libvulpes:productingot:3>);
 <ore:dustRutile>.add(<contenttweaker:rutile_dust>);
 <ore:dustMagnesium>.add(<contenttweaker:magnesium_dust>);
 <ore:dustCobalt>.add(<contenttweaker:cobalt_dust>);
+<ore:dustIndium>.add(<contenttweaker:indium_dust>);
 <ore:dustGallium>.add(<contenttweaker:gallium_dust>);
 <ore:dustQuartz>.add(<contenttweaker:quartz_dust>);
 <ore:dustAnyCarbon>.addAll(<ore:dustCoke>);
@@ -943,6 +951,16 @@ recipes.addShapeless(<contenttweaker:zirconium_niobium_nugget> * 9, [<ore:ingotZ
 recipes.addShapeless(<contenttweaker:zirconium_niobium_plate>, [<immersiveengineering:tool:0>, <ore:ingotZirconiumNiobium>]);
 MetalPress.addRecipe(<contenttweaker:zirconium_niobium_plate>, <ore:ingotZirconiumNiobium>, <immersiveengineering:mold:0>, 3600);
 MetalPress.addRecipe(<contenttweaker:zirconium_niobium_stick> * 2, <ore:ingotZirconiumNiobium>, <immersiveengineering:mold:2>, 3600);
+
+//Silver-Indium
+crusher.addRecipe(<ore:ingotSilverIndium>, <contenttweaker:silver_indium_dust>);
+Crusher.addRecipe(<contenttweaker:silver_indium_dust>, <ore:ingotSilverIndium>, 1600);
+furnace.addRecipe(<contenttweaker:silver_indium_ingot>, <ore:dustSilverIndium>);
+recipes.addShapeless(<contenttweaker:silver_indium_ingot>, [<ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>, <ore:nuggetSilverIndium>]);
+recipes.addShapeless(<contenttweaker:silver_indium_nugget> * 9, [<ore:ingotSilverIndium>]);
+recipes.addShapeless(<contenttweaker:silver_indium_plate>, [<immersiveengineering:tool:0>, <ore:ingotSilverIndium>]);
+MetalPress.addRecipe(<contenttweaker:silver_indium_plate>, <ore:ingotSilverIndium>, <immersiveengineering:mold:0>, 3600);
+MetalPress.addRecipe(<contenttweaker:silver_indium_stick> * 2, <ore:ingotSilverIndium>, <immersiveengineering:mold:2>, 3600);
 
 //Silicon
 Crusher.removeRecipe(<libvulpes:productdust:3>);

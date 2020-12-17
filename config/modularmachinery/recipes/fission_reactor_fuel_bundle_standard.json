@@ -1,7 +1,7 @@
 {
     "machine": "fission_reactor_fuel_bundle",
     "registryName": "fission_reactor_fuel_bundle_standard",
-    "recipeTime": 31900000,
+    "recipeTime": 6380000,
     "priority": 2,
     "requirements": [
         {

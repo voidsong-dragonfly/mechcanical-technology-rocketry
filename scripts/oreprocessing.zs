@@ -294,16 +294,16 @@ copper_electrolysis.build();
 var copper_derived_anode_slime = newBuilder("copper_derived_anode_slime", "magnetic_separator", 3200);
 copper_derived_anode_slime.addEnergyPerTickInput(3072);
 copper_derived_anode_slime.addItemInput(<contenttweaker:copper_derived_anode_slime> * 8);
-copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
-copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
-copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
-copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19>).setChance(0.8);
-copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19>).setChance(0.4);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:12> * 2).setChance(0.5);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:12> * 2).setChance(0.5);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:12>).setChance(0.5);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:12>).setChance(0.4);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:12>).setChance(0.2);
+copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
+copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
+copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
+copper_derived_anode_slime.addItemOutput(<contenttweaker:indium_dust>).setChance(0.8);
+copper_derived_anode_slime.addItemOutput(<contenttweaker:indium_dust>).setChance(0.4);
 copper_derived_anode_slime.build();
 
 //Nickel Processing

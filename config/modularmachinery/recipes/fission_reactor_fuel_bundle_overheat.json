@@ -8,20 +8,13 @@
             "type": "item",
             "io-type": "input",
             "item": "contenttweaker:fresh_fuel_bundle",
-            "amount": 9,
-            "chance": 0.0
-        },
-        {
-            "type": "item",
-            "io-type": "input",
-            "item": "contenttweaker:fresh_fuel_bundle",
-            "amount": 1
+            "amount": 9
         },
         {
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:zirconium_niobium_nugget",
-            "amount": 20
+            "item": "contenttweaker:deformed_fuel_bundle",
+            "amount": 9
         },
         {
             "type": "mekheat",

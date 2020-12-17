@@ -77,15 +77,11 @@ Boiler.addFuel(<liquid:ethanol> * 150, 10, 10);
 Boiler.addFuel(<liquid:liquidethene> * 110, 10, 10);
 Boiler.addFuel(<liquid:liquidhydrogen> * 530, 10, 10);
 
-//Heat Exchanger fuels
-HeatExchanger.removeRecipe(<liquid:water> * 250, <liquid:fluegas> * 1000);
-HeatExchanger.removeRecipe(<liquid:distwater> * 250, <liquid:fluegas> * 1000);
-
+//Heat Exchanger recipes
 HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:fluegas> * 1000, 0, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:fluegas> * 1000, 0, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:lava> * 400, 0, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:lava> * 400, 0, 10);
-
 HeatExchanger.addRecipe(<liquid:steam> * 18000, <liquid:distwater> * 1000, <liquid:water> * 250, <liquid:superheatedwater> * 1000, 0, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 20000, <liquid:distwater> * 1000, <liquid:distwater> * 250, <liquid:superheatedwater> * 1000, 0, 10);
 
@@ -548,6 +544,8 @@ Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reacto
 Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<contenttweaker:maraging_steel_scaffolding_panel> * 6, <contenttweaker:maraging_steel_sheet> * 6, <ore:sheetLead> * 6]);
 recipes.remove(<immersiveengineering:stone_decoration:7>);
 Blueprint.addRecipe("Fission Reactor Components", <immersiveengineering:stone_decoration:7>, [<engineersdecor:rebar_concrete>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fresh_fuel_bundle>, [<contenttweaker:small_zirconium_niobium_pipe> * 9, <contenttweaker:uranium_fuel_pellet> * 64, <contenttweaker:uranium_fuel_pellet> * 8]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:control_rod_bundle>, [<contenttweaker:small_zirconium_niobium_pipe> * 20, <ore:stickSilverIndium> * 20]);
 
 //Rocketry blueprint
 Blueprint.addRecipe("Rocket Components", <contenttweaker:titanium_compressor_blade> * 32, [<ore:stickTitanium>, <ore:plateTitanium>, <ore:stickTitanium>, <ore:plateTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]);

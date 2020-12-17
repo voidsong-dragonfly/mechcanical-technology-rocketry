@@ -103,6 +103,8 @@ Magnesium - 928a89
 Osmium - 94a4ab
 Tungsten - bfc5c9
 Silver - d0dce4
+Indium - 433253
+Silver-Indium - 9e90ab
 Nickel - c2c7b6
 Tin - CDD5D8
 Titanium - CCC8FA
@@ -112,7 +114,24 @@ Aluminium - b3babd
 Iron - 83766d
 Gold - facd40
 Lithium - 
+Uranium (standard) - 585858
+Uranium (3.5% enriched) - 576258
+Uranium (depleted) - 363636
+Uranium (90% enriched) - [Standard IE tex]
 */
+//New nonmetal dusts - salts & others
+createItem("magnesium_chloride").register();
+createItem("lithium_chloride").register();
+createItem("calcium_chloride").register();
+createItem("charcoal_dust").register();
+createItem("stone_dust").register();
+createItem("calcium_dust").register();
+createItem("quartz_dust").register();
+//New metal dusts
+createItem("magnesium_dust").register();
+createItem("cobalt_dust").register();
+createItem("indium_dust").register();
+createItem("gallium_dust").register();
 //New Materials
 create_metal_material_block("high_carbon_steel", true, true, true, true, true, true, true, false, 5.0, 10.0, 0);
 create_metal_material_block("maraging_steel", true, true, true, true, true, true, true, false, 7.5, 15.0, 0);
@@ -121,8 +140,9 @@ create_metal_material_block("tungstensteel", true, true, false, false, false, fa
 create_metal_material("niobium", true, false, false, false, false, false, false, false);
 create_metal_material("niobium_titanium", true, true, true, false, false, false, false, false);
 create_metal_material("zirconium", true, false, false, false, false, false, false, false);
+create_metal_material("silver_indium", true, false, false, false, false, false, false, false);
 create_metal_material("zirconium_niobium", true, true, false, false, false, false, true, true);
-//Material Additions
+//Material additions
 create_metal_material("iron", false, true, false, false, false, false, false, false);
 create_metal_material("lead", false, false, false, true, false, false, false, false);
 create_metal_material("silver", false, false, true, false, false, false, false, false);
@@ -158,19 +178,6 @@ create_block_sound("tin_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel",
 create_block_sound("titanium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("niobium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 
-//Salts
-createItem("magnesium_chloride").register();
-createItem("lithium_chloride").register();
-createItem("calcium_chloride").register();
-
-//Dusts and grits
-createItem("charcoal_dust").register();
-createItem("stone_dust").register();
-createItem("magnesium_dust").register();
-createItem("cobalt_dust").register();
-createItem("calcium_dust").register();
-createItem("gallium_dust").register();
-createItem("quartz_dust").register();
 
 //Crushed blocks
 create_block_sound("crushed_dolomite", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
@@ -250,6 +257,9 @@ spent_fuel_bundle.register();
 var depleted_fuel_bundle = createItem("depleted_fuel_bundle");
 depleted_fuel_bundle.setMaxStackSize(9);
 depleted_fuel_bundle.register();
+var deformed_fuel_bundle = createItem("deformed_fuel_bundle");
+deformed_fuel_bundle.setMaxStackSize(9);
+deformed_fuel_bundle.register();
 var control_rod_bundle = createItem("control_rod_bundle");
 control_rod_bundle.setMaxStackSize(1);
 control_rod_bundle.register();
