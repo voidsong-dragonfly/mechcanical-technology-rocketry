@@ -57,7 +57,7 @@ Excavator.addMineral("Laterite", 20, 0.05, ["cobblestone", "gravel", "dirt", "or
 Excavator.addMineral("Banded Iron", 25, 0.1, ["cobblestone", "gravel", "dirt", "oreIron"], [1.0, 0.375, 0.125, 1.0], [0], false);
 Excavator.addMineral("Auricupride", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreCopper", "oreGold"], [1.0, 0.375, 0.125, 0.75, 0.25], [0], false);
 Excavator.addMineral("Galena", 20, 0.05, ["cobblestone", "gravel", "dirt", "oreLead", "dustSulfur", "oreSilver"], [1.0, 0.375, 0.125, 0.4, 0.4, 0.2], [0], false);
-Excavator.addMineral("Cinnabar", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreRedstone", "dustSulfur"], [1.0, 0.375, 0.125, 0.1, 0.3], [0], false);
+Excavator.addMineral("Cinnabar", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreRedstone", "dustSulfur", "oreCinnabar"], [1.0, 0.375, 0.125, 0.32, 0.04, 0.04], [0], false);
 Excavator.addMineral("Cassiterite", 15, 0.05, ["cobblestone", "gravel", "dirt", "oreTin"], [1.0, 0.375, 0.125, 1.0], [0], false);
 //Rare
 //Medium (40% ore)
@@ -73,4 +73,5 @@ Excavator.addMineral("Ilmenite", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreI
 //Nether
 //Medium (40% ore)
 Excavator.addMineral("Mephitic Quartizite", 20, 0.2, ["netherrack", "soulsand", "oreQuartz", "dustSulfur", "oreNetherGold"], [1.25, 0.25, 0.6, 0.2, 0.2], [-1], false);
-Excavator.addMineral("Cinnabaric Quartzite", 10, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreCinnabar", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);
+Excavator.addMineral("Fluoritic Quartzite", 15, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreFluorite", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);
+Excavator.addMineral("Cinnabaric Quartzite", 10, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreNetherCinnabar", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);

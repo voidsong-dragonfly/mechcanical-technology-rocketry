@@ -1,7 +1,7 @@
 {
   "enableRain": false,
   "wallBlock": {
-    "block": "biomesoplenty:flesh",
+    "block": "minecraft:netherrack",
     "properties": {}
   },
   "rainfall": 0.0,

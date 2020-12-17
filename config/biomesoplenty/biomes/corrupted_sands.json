@@ -1,7 +1,7 @@
 {
   "enableRain": false,
   "wallBlock": {
-    "block": "minecraft:soul_sand",
+    "block": "minecraft:netherrack",
     "properties": {}
   },
   "rainfall": 0.0,

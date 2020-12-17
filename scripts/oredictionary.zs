@@ -190,6 +190,8 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:oreGold>.add(<contenttweaker:nether_gold_ore>);
 <ore:oreNetherGold>.add(<contenttweaker:nether_gold_ore>);
 <ore:oreCinnabar>.add(<contenttweaker:cinnabar_ore>);
+<ore:oreNetherCinnabar>.add(<contenttweaker:nether_cinnabar_ore>);
+<ore:oreFluorite>.add(<contenttweaker:fluorite_ore>);
 
 //Lens oredictionary
 <ore:lensGlass>.add(<contenttweaker:glass_lens>);
@@ -201,6 +203,10 @@ import mods.immersiveengineering.BottlingMachine;
 
 //Cinnabar oredictionary
 <ore:dustCinnabar>.add(<contenttweaker:cinnabar_dust>);
+
+//Fluorite oredictionary
+<ore:gemFluorite>.add(<contenttweaker:fluorite>);
+<ore:dustFluorite>.add(<contenttweaker:fluorite_dust>);
 
 //Emerald oredictionary
 <ore:dustEmerald>.add(<contenttweaker:emerald_dust>);
@@ -961,6 +967,10 @@ recipes.addShapeless(<contenttweaker:silver_indium_nugget> * 9, [<ore:ingotSilve
 recipes.addShapeless(<contenttweaker:silver_indium_plate>, [<immersiveengineering:tool:0>, <ore:ingotSilverIndium>]);
 MetalPress.addRecipe(<contenttweaker:silver_indium_plate>, <ore:ingotSilverIndium>, <immersiveengineering:mold:0>, 3600);
 MetalPress.addRecipe(<contenttweaker:silver_indium_stick> * 2, <ore:ingotSilverIndium>, <immersiveengineering:mold:2>, 3600);
+
+//Fluorite
+crusher.addRecipe(<ore:gemFluorite>, <contenttweaker:fluorite_dust>);
+Crusher.addRecipe(<contenttweaker:fluorite_dust>, <ore:gemFluorite>, 2400);
 
 //Silicon
 Crusher.removeRecipe(<libvulpes:productdust:3>);

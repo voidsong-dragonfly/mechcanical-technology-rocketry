@@ -72,6 +72,14 @@ ammonia.setIcon("blocks/gas");
 ammonia.setNeedFluid(true);
 ammonia.register();
 
+//Fluorine
+var fluorine = GasFactory.createGas("fluorine");
+fluorine.setColor(Color.fromHex("CEBD89").getIntColor());
+fluorine.setColorize(true);
+fluorine.setIcon("blocks/gas");
+fluorine.setNeedFluid(true);
+fluorine.register();
+
 //Nitrogen and Nitrogen Dioxide
 var nitrogengas = GasFactory.createGas("nitrogengas");
 nitrogengas.setColor(Color.fromHex("DFE5FE").getIntColor());
