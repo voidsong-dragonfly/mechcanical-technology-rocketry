@@ -557,7 +557,7 @@ Blueprint.addRecipe("Rocket Components", <advancedrocketry:rocketmotor>, [<conte
 Blueprint.addRecipe("Rocket Components", <advancedrocketry:advrocketmotor>, [<contenttweaker:maraging_steel_scaffolding_panel> * 2, <contenttweaker:turbopump>, <contenttweaker:small_titanium_pipe> * 4, <contenttweaker:advanced_rocket_engine_bell>]);
 Blueprint.addRecipe("Rocket Components", <contenttweaker:mirror_assembly>, [<ore:sheetAluminum> * 64, <ore:sheetAluminum> * 64, <ore:wireAluminum> * 32, <ore:stickAluminum> * 16]);
 Blueprint.addRecipe("Rocket Components", <contenttweaker:collection_array>, [<advancedrocketry:satellitepowersource:1> * 8, <libvulpes:structuremachine>, <immersiveengineering:metal_decoration0:2> * 2, <immersiveengineering:material:14> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:drill>, [<contenttweaker:mirror_assembly> * 4, <contenttweaker:collection_array> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:drill> * 4, [<contenttweaker:mirror_assembly> * 4, <contenttweaker:collection_array>]);
 
 //Scaffolding blueprint
 Blueprint.addRecipe("Scaffolding Assembly", <immersiveengineering:metal_decoration1:1> * 1, [<contenttweaker:steel_scaffolding_panel> * 6]);

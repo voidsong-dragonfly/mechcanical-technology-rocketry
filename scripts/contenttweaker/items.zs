@@ -62,6 +62,7 @@ createItem("uranyl_fluoride_dust_035").register();
 
 //Fission reactor pieces
 var fresh_fuel_bundle = createItem("fresh_fuel_bundle");
+fresh_fuel_bundle.setMaxStackSize(9);
 fresh_fuel_bundle.register();
 var spent_fuel_bundle = createItem("spent_fuel_bundle");
 spent_fuel_bundle.setMaxStackSize(9);

@@ -105,6 +105,12 @@
             "io-type": "output",
             "fluid": "superheatedwater",
             "amount": 0
+        },
+        {
+            "type": "mekheat",
+            "io-type": "input",
+            "temperatureRequiredMin": 1500,
+            "temperature": 0
         }
     ]
 }
