@@ -269,3 +269,6 @@ game.setLocalization("item.chestplateDiamond.name", "Monocrystalline Diamond Che
 game.setLocalization("item.leggingsDiamond.name", "Monocrystalline Diamond Leggings");
 game.setLocalization("item.bootsDiamond.name", "Monocrystalline Diamond Boots");
    
+//Turn Earthworks saw into "Engineer's Stonecutting Saw" and compass into "Engineer's Chisel"
+game.setLocalization("item.earthworks.tool_saw.name", "Engineer's Stonecutting Saw");
+game.setLocalization("item.earthworks.tool_compass.name", "Engineer's Chisel");
