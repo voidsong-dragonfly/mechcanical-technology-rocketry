@@ -27,7 +27,9 @@ var traverseBlocksToRemove = [<traverse:red_autumnal_leaves>,
                               <traverse:blue_rock_slab>,
                               <traverse:blue_rock_bricks_chiseled>,
                               <traverse:blue_rock>,
-                              <traverse:blue_rock_bricks>
+                              <traverse:blue_rock_bricks>,
+                              <traverse:blue_rock_bricks_slab>,
+                              <traverse:blue_rock_bricks_stairs>
                        ] as IItemStack[];
 for item in traverseBlocksToRemove{
     removeAndHide(item);
@@ -38,7 +40,6 @@ recipes.remove(<traverse:red_rock>);
 furnace.remove(<traverse:blue_rock>);
 
 //Make crag rock brick stuff into crucible bits
-recipes.replaceAllOccurences(<traverse:blue_rock_bricks>, <ore:blockSteel>);
 recipes.remove(<traverse:blue_rock_cobblestone_stairs>);
 recipes.addShaped(<traverse:blue_rock_cobblestone_stairs>,
  [[<ore:stickSteel>, <ore:sheetSteel>, null],

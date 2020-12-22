@@ -182,8 +182,6 @@ game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.vacuum.name", 
 
 //Turn Traverse Crag blocks into crucible bits
 game.setLocalization("tile.traverse:blue_rock_cobblestone_stairs.name", "Pressure Vessel Wall");
-game.setLocalization("tile.traverse:blue_rock_bricks_stairs.name", "Crucible Wall Side");
-game.setLocalization("tile.traverse:blue_rock_bricks_slab.name", "Crucible Wall Top/Bottom");
 
 //Redo Biomes O Plenty logs that conflict in naming
 //Willow -> Cypress
