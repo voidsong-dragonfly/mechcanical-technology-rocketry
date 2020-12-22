@@ -626,6 +626,16 @@ recipes.addShaped(<mekanism:atomicdisassembler>,
  [[<ore:ingotTitanium>, <ore:circuitAdvanced>, <ore:ingotTitanium>],
  [<ore:dustDiamond>, <mekanism:energytablet>, <ore:dustDiamond>],
  [null, <mekanism:polyethene:3>, null]]);
+recipes.remove(<mekanism:jetpack>);
+recipes.remove(<mekanism:armoredjetpack>);
+recipes.addShaped(<mekanism:jetpack>,
+ [[<ore:ingotBronze>, <ore:circuitBasic>, <ore:ingotBronze>],
+ [<immersiveengineering:toolupgrade:7>, <mekanism:gastank>.withTag({tier: 0}), <immersiveengineering:toolupgrade:7>],
+ [null, <immersiveengineering:toolupgrade:7>, null]]);
+recipes.addShaped(<mekanism:armoredjetpack>,
+ [[<mekanism:polyethene:2>, null, <mekanism:polyethene:2>],
+ [<ore:ingotBronze>, <immersiveengineering:steel_armor_chest>, <ore:ingotBronze>],
+ [<mekanism:polyethene:2>, <mekanism:jetpack>, <mekanism:polyethene:2>]]);
  
 //Robit
 recipes.remove(<mekanism:robit>);
