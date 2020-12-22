@@ -89,8 +89,11 @@ create_fluid("magnesiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("richbrine", "D6CC91", 300, 1000, 1000);
 
-//Fusion reactor fluids
-create_fluid("superheatedwater", "609EED", 1500, 1000, 1000);
+//Reactor fluids 7079E0
+create_fluid("lithiatedwater", "7079e0", 300, 1000, 1000);
+create_fluid("processedlithiatedwater", "7099e0", 300, 1000, 1000);
+create_fluid("tritiatedwater", "70bfe0", 300, 1000, 1000);
+create_fluid("superheatedwater", "609eed", 1500, 1000, 1000);
 create_fluid("heat", "EC422E", 1000000, 1000, 1000);
 
 //Uranium enrichment fluids

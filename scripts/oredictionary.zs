@@ -686,7 +686,7 @@ crusher.removeRecipe(<contenttweaker:washed_uranium_ore_dust>);
 crusher.addRecipe(<ore:oreUranium>, <mekores:mekanismore:3> * 2);
 Crusher.removeRecipesForInput(<immersiveengineering:ore:5>);
 Crusher.addRecipe(<mekores:mekanismore:3> * 2, <ore:oreUranium>, 4000, <immersiveengineering:metal:11>, 0.1);
-furnace.addRecipe(<immersiveengineering:metal:5>, <mekores:mekanismore:3>);
+furnace.remove(<immersiveengineering:metal:5>, <ore:oreUranium>);
 enrichment.removeRecipe(<contenttweaker:washed_uranium_ore_dust>);
 enrichment.removeRecipe(<immersiveengineering:ore:5>);
 MetalPress.removeRecipe(<immersive_energy:stick_uranium>);
