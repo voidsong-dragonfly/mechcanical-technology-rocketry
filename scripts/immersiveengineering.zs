@@ -367,6 +367,10 @@ Refinery.addRecipe(<liquid:crackednaphtha> * 25, <liquid:naphtha> * 20, <liquid:
 Refinery.addRecipe(<liquid:crackedethene> * 25, <liquid:liquidethene> * 20, <liquid:steam> * 100, 320);
 Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:steam> * 100, 320);
 
+//RP-1 Recipes
+Refinery.addRecipe(<liquid:hydrotreatedkerosene> * 200, <liquid:kerosene> * 200, <liquid:liquidhydrogen> * 1, 80);
+Distiller.addRecipe(<liquid:lowcontaminatekerosene> * 1000, <liquid:lowsulfurkerosene> * 1000, <forestry:ash>, 10000, 200, 0.01);
+
 //Lithiated water
 Mixer.addRecipe(<liquid:lithiatedwater> * 100, <liquid:water> * 100, [<ore:dustLithium>], 2000);
 

@@ -7,6 +7,8 @@ import scripts.localization.functions.localize_material;
 //Cryogenic Distillation fluids and gasses
 game.setLocalization("fluid.liquidair", "Liquid Air");
 game.setLocalization("fluid.liquidnitrogen", "Liquid Nitrogen");
+game.setLocalization("fluid.coldliquidoxygen", "Liquid Oxygen");
+game.setLocalization("fluid.coldliquidhydrogen", "Liquid Hydrogen");
 game.setLocalization("fluid.air", "Air");
 game.setLocalization("gas.air", "Pressurized Air");
 game.setLocalization("fluid.carbondioxide", "Carbon Dioxide");
@@ -24,6 +26,10 @@ game.setLocalization("fluid.kerosene", "Kerosene");
 game.setLocalization("fluid.hydrogensulfide", "Hydrogen Sulfide");
 game.setLocalization("fluid.polyethene", "Molten Polyethylene");
 game.setLocalization("gas.hydrogensulfide", "Pressurized Hydrogen Sulfide");
+game.setLocalization("fluid.hydrotreatedkerosene", "Hydrotreated Kerosene");
+game.setLocalization("fluid.lowsulfurkerosene", "Low-Sulfur Kerosene");
+game.setLocalization("fluid.lowcontaminatekerosene", "Low-Contaminate Kerosene");
+game.setLocalization("fluid.rp1", "RP-1");
 
 //Gas processing fluids and gasses
 game.setLocalization("fluid.naturalgas", "Natural Gas");

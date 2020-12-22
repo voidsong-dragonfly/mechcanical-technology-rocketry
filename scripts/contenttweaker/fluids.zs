@@ -24,6 +24,8 @@ import scripts.contenttweaker.contenttweaker_functions.create_block_transparent;
 //Cryogenic Distillation liquids and gas liquids
 create_fluid("liquidnitrogen", "D1D9FF", 77, 750, 250);
 create_fluid("liquidair", "8FD0FF", 58, 870, 250);
+create_fluid("coldliquidoxygen", "61CFFE", 90, 1140, 250);
+create_fluid("coldliquidhydrogen", "EAF7F5", 20, 70, 250);
 create_gas("argon", "97D8DF");
 create_gas("air", "C1E6FF");
 create_gas("carbondioxide", "FFFFFF");
@@ -64,6 +66,11 @@ create_fluid("naphtha", "FCC1B8", 300, 750, 750);
 create_fluid("kerosene", "FFF4D1", 300, 810, 750);
 create_gas("hydrogensulfide", "F9F0D8");
 create_solid_fluid("polyethene", "FFFFFF", 400, 800, 2250);
+create_fluid("hydrotreatedkerosene", "FFF4D1", 300, 810, 750);
+create_fluid("lowsulfurkerosene", "FFF4D1", 300, 810, 750);
+create_fluid("lowcontaminatekerosene", "FFE3D1", 300, 810, 750);
+create_fluid("rp1", "EB2045", 300, 850, 750);
+
 
 //Gas processing fluids
 create_gas("naturalgas", "FFFFFF");
@@ -90,10 +97,10 @@ create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("richbrine", "D6CC91", 300, 1000, 1000);
 
 //Reactor fluids 7079E0
-create_fluid("lithiatedwater", "7079e0", 300, 1000, 1000);
-create_fluid("processedlithiatedwater", "7099e0", 300, 1000, 1000);
-create_fluid("tritiatedwater", "70bfe0", 300, 1000, 1000);
-create_fluid("superheatedwater", "609eed", 1500, 1000, 1000);
+create_fluid("lithiatedwater", "7079E0", 300, 1000, 1000);
+create_fluid("processedlithiatedwater", "7099E0", 300, 1000, 1000);
+create_fluid("tritiatedwater", "70BFE0", 300, 1000, 1000);
+create_fluid("superheatedwater", "609EED", 1500, 1000, 1000);
 create_fluid("heat", "EC422E", 1000000, 1000, 1000);
 
 //Uranium enrichment fluids
