@@ -104,6 +104,8 @@ createItem("diamond_lens").register();
 createItem("induction_tablet").register();
 createItem("reaction_wheel").register();
 createItem("small_battery_hull").register();
+createItem("supercapacitor_hull").register();
+createItem("supercapacitor").register();
 
 //Molds & Dies
 createItem("ingot_mold").register();

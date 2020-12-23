@@ -17,6 +17,7 @@ import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Blueprint;
 import mods.immersivetweaker.Recycling;
+import mods.alfinivia.ImmersiveEngineering.addRailgunBullet;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
@@ -258,6 +259,10 @@ recipes.addShaped(<immersive_energy:arrow_penetrating> * 8,
 //Make bayonet use a Tetra iron sword
 recipes.replaceAllOccurences(<minecraft:iron_sword>, <tetra:sword_modular>.withTag({"sword/basic_hilt_material": "basic_hilt/treated_wood", "sword/counterweight_material": "counterweight/iron", "sword/hilt": "sword/basic_hilt", "sword/blade": "sword/basic_blade", "sword/basic_blade_material": "basic_blade/iron", "sword/pommel": "sword/counterweight"}), <immersiveengineering:toolupgrade:4>);
  
+//Redo things that would have used HV capacitors and now use battery banks to be supercapacitors
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <contenttweaker:supercapacitor>, <immersiveengineering:railgun>);
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <contenttweaker:supercapacitor>, <immersiveengineering:toolupgrade:9>);
+ 
 //Add a diamond-tungsten-steel drill head
 recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -22000}),
  [[<ore:ingotTungsten>, <ore:dustDiamond>, null],
@@ -316,7 +321,13 @@ recipes.remove(<immersiveengineering:axe_steel>);
 //Make "Components" blueprint craftable without aluminium
 recipes.replaceAllOccurences(<ore:ingotAluminum>, <ore:ingotTin>, <immersiveengineering:blueprint>.withTag({blueprint: "components"}));
 recipes.replaceAllOccurences(<ore:plateAluminum>, <ore:plateTin>, <immersiveengineering:toolbox>);
- 
+
+//Make "Circuit Assembly" blueprint craftable
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Circuit Assembly"}),
+ [[null, <immersiveengineering:material:26>, null],
+ [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+ [<ore:paper>, <ore:paper>, <ore:paper>]]); 
+
 //Make "Machine Structures" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Machine Structures"}),
  [[null, <ore:ingotOsmium>, null],
@@ -403,6 +414,9 @@ BottlingMachine.addRecipe(<contenttweaker:platinum_backed_plastic_circuit_board>
 
 //Helium botting machine recipes
 BottlingMachine.addRecipe(<contenttweaker:pressurized_helium_tank>, <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
+
+//Supercapacitor bottling machine recipes
+BottlingMachine.addRecipe(<contenttweaker:supercapacitor>, <contenttweaker:supercapacitor_hull>, <liquid:distwater> * 125);
 
 //Superconductor Cable bottling machine recipes
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <contenttweaker:unfilled_superconductor_cable>, <liquid:liquidnitrogen> * 125);
@@ -500,6 +514,12 @@ Blueprint.addRecipe("components", <immersiveengineering:material:9>, [<immersive
 Blueprint.addRecipe("components", <contenttweaker:high_carbon_steel_mechanical_component>, [<ore:plateHighCarbonSteel>, <ore:plateHighCarbonSteel>, <ore:ingotCopper>]);
 Blueprint.addRecipe("components", <contenttweaker:maraging_steel_mechanical_component>, [<ore:plateMaragingSteel>, <ore:plateMaragingSteel>, <ore:ingotCopper>]);
 
+//Circuit pieces blueprint
+Blueprint.removeRecipe(<immersiveengineering:material:27>);
+Blueprint.addRecipe("Circuit Assembly", <immersiveengineering:material:27>, [<ore:plateSteel>, <immersiveengineering:stone_decoration:8>, <ore:wireCopper> * 4, <ore:electronTube> * 2]);
+Blueprint.addRecipe("Circuit Assembly", <contenttweaker:treated_wood_circuit_board>, [<ore:slabTreatedWood>]);
+Blueprint.addRecipe("Circuit Assembly", <mekanism:controlcircuit>, [<immersiveengineering:material:27> * 2, <contenttweaker:treated_wood_circuit_board>, <immersiveengineering:wirecoil:5> * 2]);
+
 //Molds
 Blueprint.addRecipe("molds", <contenttweaker:ingot_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 
@@ -514,15 +534,10 @@ Blueprint.addRecipe("Extrusion Dies", <contenttweaker:wire_die>, [<ore:plateStee
 Blueprint.addRecipe("Heavy Metal Press Dies", <contenttweaker:bell_die>, [<ore:blockSteel>, <earthworks:tool_compass>,  <immersiveengineering:tool:0>]);
 Blueprint.addRecipe("Heavy Metal Press Dies", <contenttweaker:scaffolding_panel_die>, [<ore:blockSteel>, <earthworks:tool_compass>, <immersiveengineering:tool:0>]);
 
-//Small Battery Hull and batteries
+//Crafting components
 Blueprint.addRecipe("components", <contenttweaker:small_battery_hull> * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>]);
-
-//Make circuit assembly make more sense
-Blueprint.removeRecipe(<immersiveengineering:material:27>);
 Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireTungsten>, <ore:dustRedstone>]);
-Blueprint.addRecipe("components", <immersiveengineering:material:27>, [<ore:plateSteel>, <immersiveengineering:stone_decoration:8>, <ore:wireCopper> * 4, <ore:electronTube> * 2]);
-Blueprint.addRecipe("components", <contenttweaker:treated_wood_circuit_board>, [<ore:slabTreatedWood>]);
-Blueprint.addRecipe("components", <mekanism:controlcircuit>, [<immersiveengineering:material:27> * 2, <contenttweaker:treated_wood_circuit_board>, <immersiveengineering:wirecoil:5> * 2]);
+Blueprint.addRecipe("components", <contenttweaker:supercapacitor_hull>, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
 
 //Environmental Suit blueprint
 Blueprint.removeRecipe(<immersive_energy:power_armor_suit_head>);
@@ -630,3 +645,12 @@ for item in industrialWiresRemovals {
 //Hide unfinished Questionably Immersive items
 hide(<questionablyimmersive:metal_device>);
 hide(<questionablyimmersive:metal_device:1>);
+
+
+/*
+    Railgun tweaks
+*/
+var titanium = [[0xcac6f7], [0xcac6f7], [0xcac6f7], [0xb1add9], [0x9491b5], [0x9491b5]] as int[][];
+var titanium_aluminide = [[0xaec2de], [0xaec2de], [0xaec2de], [0x97a9c1], [0x8c9cb2], [0x8c9cb2]] as int[][];
+addRailgunBullet(<ore:stickTitanium>, 28.0, 0.95, titanium);
+addRailgunBullet(<ore:stickTitaniumAluminide>, 32.0, 0.85, titanium_aluminide);

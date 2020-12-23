@@ -15,8 +15,10 @@ game.setLocalization("item.PlaStick.name", "HDPE Rod");
 //Reaction Wheel
 game.setLocalization("item.contenttweaker.reaction_wheel.name", "Reaction Wheel");
 
-//Small Battery Hull
+//Small battery & supercapacitor pieces
 game.setLocalization("item.contenttweaker.small_battery_hull.name", "Small Battery Hull");
+game.setLocalization("item.contenttweaker.supercapacitor_hull.name", "Supercapacitor Hull");
+game.setLocalization("item.contenttweaker.supercapacitor.name", "Supercapacitor");
 
 //Molds & Dies
 game.setLocalization("item.contenttweaker.ingot_mold.name", "Metal Press Mod: Ingot");
