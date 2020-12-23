@@ -653,4 +653,4 @@ hide(<questionablyimmersive:metal_device:1>);
 var titanium = [[0xcac6f7], [0xcac6f7], [0xcac6f7], [0xb1add9], [0x9491b5], [0x9491b5]] as int[][];
 var titanium_aluminide = [[0xaec2de], [0xaec2de], [0xaec2de], [0x97a9c1], [0x8c9cb2], [0x8c9cb2]] as int[][];
 addRailgunBullet(<ore:stickTitanium>, 28.0, 0.95, titanium);
-addRailgunBullet(<ore:stickTitaniumAluminide>, 32.0, 0.85, titanium_aluminide);
+addRailgunBullet(<ore:stickTitaniumAluminide>, 32.0, 0.9, titanium_aluminide);
