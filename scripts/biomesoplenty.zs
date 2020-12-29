@@ -9,11 +9,13 @@ var biomesOfPlentyToRemove = [<biomesoplenty:gem_ore:*>,
                               <biomesoplenty:biome_block>,
                               <biomesoplenty:bamboo_thatching>,
                               <biomesoplenty:earth>,
-                              <biomesoplenty:grass:5>,
                               <biomesoplenty:crystal_shard>,
                               <biomesoplenty:biome_essence>,
                               <biomesoplenty:terrestrial_artifact>,
                               <biomesoplenty:biome_finder>,
+                              <biomesoplenty:grass:5>,
+                              <biomesoplenty:leaves_2:8>,
+                              <biomesoplenty:sapling_1>,
                               <biomesoplenty:log_4:4>,
                               <biomesoplenty:leaves_6:8>,
                               <biomesoplenty:leaves_6:9>,
@@ -84,7 +86,10 @@ var biomesOfPlentyToRemove = [<biomesoplenty:gem_ore:*>,
                               <biomesoplenty:redwood_fence_gate>,
                               <biomesoplenty:redwood_door>,
                               <biomesoplenty:sapling_2:2>,
-                              <biomesoplenty:boat_redwood>
+                              <biomesoplenty:boat_redwood>,
+                              <biomesoplenty:terrarium:10>,
+                              <biomesoplenty:terrarium:12>,
+                              <biomesoplenty:terrarium:13>
                        ] as IItemStack[];
 for item in biomesOfPlentyToRemove{
     removeAndHide(item);

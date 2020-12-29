@@ -108,9 +108,6 @@ furnace.setFuel(<ore:dustCharcoal>, 2000);
 //Pantograph has iron rods instead of ingots
 recipes.replaceAllOccurences(<ore:listAllmetalingots>, <ore:stickIron>, <pantography:pantograph>);
 
-//Sandwiches don't have Rustic olive oil
-recipes.remove(<culinaryconstruct:sandwich>);
-
 //Make bed require treated wood
 //I'm not making GT:NH I swear
 recipes.remove(<ore:bed>);
