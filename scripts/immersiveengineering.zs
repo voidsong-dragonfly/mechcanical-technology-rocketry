@@ -17,7 +17,6 @@ import mods.immersiveengineering.Squeezer;
 import mods.immersiveengineering.AlloySmelter;
 import mods.immersiveengineering.Blueprint;
 import mods.immersivetweaker.Recycling;
-import mods.alfinivia.ImmersiveEngineering.addRailgunBullet;
 import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
@@ -646,11 +645,3 @@ for item in industrialWiresRemovals {
 hide(<questionablyimmersive:metal_device>);
 hide(<questionablyimmersive:metal_device:1>);
 
-
-/*
-    Railgun tweaks
-*/
-var titanium = [[0xcac6f7], [0xcac6f7], [0xcac6f7], [0xb1add9], [0x9491b5], [0x9491b5]] as int[][];
-var titanium_aluminide = [[0xaec2de], [0xaec2de], [0xaec2de], [0x97a9c1], [0x8c9cb2], [0x8c9cb2]] as int[][];
-addRailgunBullet(<ore:stickTitanium>, 28.0, 0.95, titanium);
-addRailgunBullet(<ore:stickTitaniumAluminide>, 32.0, 0.9, titanium_aluminide);
