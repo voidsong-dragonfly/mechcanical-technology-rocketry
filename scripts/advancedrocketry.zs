@@ -402,11 +402,17 @@ recipes.addShaped(<advancedrocketry:atmanalyser>,
  [<ore:plateTin>, <ore:circuitElite>, <ore:plateTin>]]);
 
 //Ore Scanner recipe
+recipes.remove(<advancedrocketry:sealdetector>);
+recipes.addShaped(<advancedrocketry:sealdetector>,
+ [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <ore:fanSteel>],
+ [<ore:plateTin>, <libvulpes:battery:1>, <ore:plateTin>]]);
+
+//Seal Detector recipe
 recipes.remove(<advancedrocketry:orescanner>);
 recipes.addShaped(<advancedrocketry:orescanner>,
  [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <advancedrocketry:ic:1>],
  [<ore:plateTin>, <libvulpes:battery:1>, <ore:plateTin>]]);
- 
+
 //Battery recipe removal
 recipes.remove(<libvulpes:battery>);
 

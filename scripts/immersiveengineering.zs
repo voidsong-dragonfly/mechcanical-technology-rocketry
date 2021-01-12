@@ -11,6 +11,7 @@ import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BottlingMachine;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.BlastFurnace;
+import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Crusher;
 import mods.industrialwires.MarxGenerator;
 import mods.immersiveengineering.Squeezer;
@@ -433,6 +434,8 @@ furnace.addRecipe(<contenttweaker:calcined_crushed_dolomite>, <contenttweaker:cr
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
 BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 
+//Wither ash to charcoal dust and stygian acid (tiny tiny bits)
+CokeOven.addRecipe(<contenttweaker:charcoal_dust>, 0, <quark:black_ash>, 300);
 
 //Make Marx Generator only process gem ores but do it very well
 MarxGenerator.removeRecipe(<ore:oreIron>);

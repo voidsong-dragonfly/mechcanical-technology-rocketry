@@ -442,6 +442,7 @@ recipes.remove(<mekanism:machineblock2:5>);
 recipes.remove(<mekanism:machineblock2:6>);
 recipes.remove(<mekanism:machineblock2:7>);
 recipes.remove(<mekanism:machineblock2:8>);
+recipes.remove(<mekanism:machineblock2:9>);
 recipes.remove(<mekanism:machineblock2:10>);
 recipes.remove(<mekanism:machineblock2:12>);
 recipes.remove(<mekanism:machineblock2:13>);
@@ -506,6 +507,10 @@ recipes.addShaped(<mekanism:machineblock2:8>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<mekanism:gastank>, <mekanism:basicblock:8>, <mekanism:gastank>],
  [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
+recipes.addShaped(<mekanism:machineblock2:9>,
+ [[<ore:ingotSteel>, <ore:paneGlassColorless>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <engineersdecor:thin_steel_pole>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:10>,
  [[<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>],
  [<ore:circuitAdvanced>, <mekanism:basicblock:8>, <ore:circuitAdvanced>],
@@ -619,7 +624,15 @@ recipes.addShaped(<mekanism:electricbow>,
  [[null, <ore:stickSteel>, <ore:mechanicalComponentSteel>],
  [<ore:plateSteel>, <mekanism:energytablet>, <ore:wireAluminum>],
  [null, <ore:stickSteel>, <ore:mechanicalComponentSteel>]]);
-recipes.replaceAllOccurences(<ore:alloyAdvanced>, <ore:stickSteel>, <mekanism:configurator>);
+recipes.remove(<mekanism:seismicreader>);
+recipes.addShaped(<mekanism:seismicreader>, 
+ [[<ore:sheetSteel>, <ore:circuitBasic>, <ore:paneGlassColorless>],
+ [<ore:sheetSteel>, <mekanism:energytablet>, <ore:sheetSteel>]]);
+recipes.remove(<mekanism:configurator>);
+recipes.addShaped(<mekanism:configurator>, 
+ [[null, <ore:dyeBlue>, <ore:stickSteel>],
+ [<mekanism:polyethene:2>, <mekanism:energytablet>, <ore:circuitBasic>],
+ [<mekanism:polyethene:3>, <mekanism:polyethene:2>, null]]);
 recipes.replaceAllOccurences(<ore:alloyAdvanced>, <mekanism:polyethene:2>, <mekanism:configurationcard>);
 recipes.remove(<mekanism:atomicdisassembler:*>);
 recipes.addShaped(<mekanism:atomicdisassembler>,
