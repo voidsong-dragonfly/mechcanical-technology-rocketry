@@ -58,7 +58,7 @@ var logDuals = {"oak": [<debark:debarked_log_minecraft_log>, <minecraft:log>],
                 } as IItemStack[][string];
 //Actually register the recipes
 for log, itemArray in logDuals {
-    recipes.addShapeless(<leatherworks:bark_oak> * 2, [<tetra:sword_modular>.anyDamage().transformDamage().marked("shortblade"), itemArray[1].giveBack(itemArray[0])] as IIngredient[],
+    recipes.addShapeless(<leatherworks:bark_oak> * 2, [<tetra:sword_modular>.anyDamage().transformDamage().marked("shortblade"), itemArray[1].transformReplace(itemArray[0])] as IIngredient[],
     function(output, inputs, craftingInfo) {
         var isShortblade = false;
         for item in inputs.shortblade.itemArray {

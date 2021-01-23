@@ -259,8 +259,12 @@ recipes.addShaped(<immersive_energy:arrow_penetrating> * 8,
 //Make bayonet use a Tetra iron sword
 recipes.replaceAllOccurences(<minecraft:iron_sword>, <tetra:sword_modular>.withTag({"sword/basic_hilt_material": "basic_hilt/treated_wood", "sword/counterweight_material": "counterweight/iron", "sword/hilt": "sword/basic_hilt", "sword/blade": "sword/basic_blade", "sword/basic_blade_material": "basic_blade/iron", "sword/pommel": "sword/counterweight"}), <immersiveengineering:toolupgrade:4>);
  
-//Redo things that would have used HV capacitors and now use battery banks to be supercapacitors
-recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <contenttweaker:supercapacitor>, <immersiveengineering:railgun>);
+//Redo railgun crafting to use supercapacitors and to be closer to 1.16 IE
+recipes.remove(<immersiveengineering:railgun>);
+recipes.addShaped(<immersiveengineering:railgun>,
+ [[null, <contenttweaker:supercapacitor>, <immersiveengineering:material:13>],
+ [<ore:ingotSteel>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:material:27>],
+ [<immersiveengineering:metal_decoration0:1>, <ore:ingotSteel>, null]]);
 recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <contenttweaker:supercapacitor>, <immersiveengineering:toolupgrade:9>);
  
 //Add a diamond-tungsten-steel drill head
