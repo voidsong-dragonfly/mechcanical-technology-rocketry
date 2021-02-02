@@ -90,9 +90,9 @@ recipes.addShaped(<modularmachinery:blockcontroller>,
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcasing:5>, 
- [[<ore:sheetSteel>, <ore:circuitElite>, <ore:sheetSteel>],
+ [[<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:circuitElite>, <ore:sheetSteel>]]);
+ [<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>]]);
 recipes.addShaped(<modulardiversity:blockmekheatinput>,
  [[<ore:sheetSteel>, <ore:ingotCopper>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],

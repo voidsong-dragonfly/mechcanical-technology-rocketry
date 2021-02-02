@@ -279,26 +279,6 @@
             <fluidStack>liquidsulfurdioxide;4800</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="600" power="256">
-		<input>
-			<itemStack>contenttweaker:fine_yellowcake;24</itemStack>
-            <fluidStack>liquidhydrogen;1600</fluidStack>
-        </input>
-		<output>
-			<itemStack>immersiveengineering:metal;24;14</itemStack>
-            <fluidStack>water;1600</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="600" power="256">
-		<input>
-            <fluidStack>ammonia;600</fluidStack>
-            <fluidStack>uraniumsulfatesolution;2400</fluidStack>
-        </input>
-		<output>
-			<itemStack>contenttweaker:ammonium_diuranate;6</itemStack>
-            <fluidStack>uraniumtailingssolution;2400</fluidStack>
-		</output>
-	</Recipe>
     <Recipe timeRequired="300" power="512">
 		<input>
             <itemStack>contenttweaker:niobium_pentoxide_dust;12</itemStack>
@@ -451,6 +431,85 @@
             <itemStack>mekanism:dust;2;2</itemStack>
             <itemStack>immersiveengineering:material;1;7</itemStack>
             <fluidStack>sulfuricacid;200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="256">
+		<input>
+            <fluidStack>ammonia;600</fluidStack>
+            <fluidStack>uraniumsulfatesolution;2400</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ammonium_diuranate;6</itemStack>
+            <fluidStack>uraniumtailingssolution;2400</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="256">
+		<input>
+			<itemStack>contenttweaker:fine_yellowcake;24</itemStack>
+            <fluidStack>liquidhydrogen;1600</fluidStack>
+        </input>
+		<output>
+			<itemStack>immersiveengineering:metal;24;14</itemStack>
+            <fluidStack>water;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="96">
+		<input>
+			<oreDict>dustUranium;8</oreDict>
+            <fluidStack>hydrofluoricacid;3200</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:uranium_tetrafluoride_dust_007;8</itemStack>
+            <fluidStack>water;3200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="75" power="96">
+		<input>
+			<itemStack>contenttweaker:uranium_tetrafluoride_dust_007;8</itemStack>
+            <fluidStack>fluorine;800</fluidStack>
+        </input>
+		<output>
+            <fluidStack>uraniumhexafluoride_007;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="1536">
+		<input>
+			<fluidStack>uraniumhexafluoride_000;800</fluidStack>
+            <fluidStack>water;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:uranyl_fluoride_dust_000;8</itemStack>
+            <fluidStack>hydrofluoricacid;3200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="1536">
+		<input>
+			<fluidStack>uraniumhexafluoride_035;800</fluidStack>
+            <fluidStack>water;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:uranyl_fluoride_dust_035;8</itemStack>
+            <fluidStack>hydrofluoricacid;3200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="1024">
+		<input>
+			<itemStack>contenttweaker:uranyl_fluoride_dust_000;8</itemStack>
+            <fluidStack>liquidhydrogen;800</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:uranium_dioxide_dust_000;8</itemStack>
+            <fluidStack>hydrofluoricacid;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="1024">
+		<input>
+			<itemStack>contenttweaker:uranyl_fluoride_dust_035;8</itemStack>
+            <fluidStack>liquidhydrogen;800</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:uranium_dioxide_dust_035;8</itemStack>
+            <fluidStack>hydrofluoricacid;1600</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>

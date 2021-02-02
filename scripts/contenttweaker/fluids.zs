@@ -109,10 +109,10 @@ create_fluid("superheatedwater", "609EED", 1500, 1000, 1000);
 create_fluid("heat", "EC422E", 1000000, 1000, 1000);
 
 //Uranium enrichment fluids
-create_fluid("hydrofluoric_acid", "689B9A", 300, 1300, 1000);
-create_fluid("uranium_hexafluoride_000", "F1EDDA", 300, 5030, 1000);
-create_fluid("uranium_hexafluoride_007", "F1EDDA", 300, 5030, 1000);
-create_fluid("uranium_hexafluoride_014", "F1EDDA", 300, 5030, 1000);
-create_fluid("uranium_hexafluoride_021", "F1EDDA", 300, 5030, 1000);
-create_fluid("uranium_hexafluoride_028", "F1EDDA", 300, 5030, 1000);
-create_fluid("uranium_hexafluoride_035", "F1EDDA", 300, 5030, 1000);
+create_fluid("hydrofluoricacid", "689B9A", 300, 1300, 1000);
+create_fluid("uraniumhexafluoride_000", "F1EDDA", 300, 5030, 1000);
+create_fluid("uraniumhexafluoride_007", "F1EDDA", 300, 5030, 1000);
+create_fluid("uraniumhexafluoride_014", "F1EDDA", 300, 5030, 1000);
+create_fluid("uraniumhexafluoride_021", "F1EDDA", 300, 5030, 1000);
+create_fluid("uraniumhexafluoride_028", "F1EDDA", 300, 5030, 1000);
+create_fluid("uraniumhexafluoride_035", "F1EDDA", 300, 5030, 1000);

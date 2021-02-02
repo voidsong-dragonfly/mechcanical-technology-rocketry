@@ -3,165 +3,8 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 import mods.jei.JEI.addItem;
-import mods.mekanism.chemical.injection;
-import mods.mekanism.GasConversion;
-import mods.mekanism.compressor;
-import mods.mekanism.thermalevaporation;
-import mods.mekanism.separator;
-import mods.mekanism.chemical.crystallizer;
-import mods.mekanism.chemical.dissolution;
-import mods.mekanism.chemical.washer;
 
 
-//Remove Mekanism boilers and turbines, we have those in Immersive Technology already
-//With much better balance and mechanics that make sense, too!
-var mekSteamRemovals = [<mekanism:basicblock2:5>,
-                        <mekanism:basicblock2:6>,
-                        <mekanism:basicblock2:7>,
-                        <mekanism:basicblock2:8>,
-                        <mekanismgenerators:turbineblade>,
-                        <mekanismgenerators:generator:7>,
-                        <mekanismgenerators:generator:8>,
-                        <mekanismgenerators:generator:9>,
-                        <mekanismgenerators:generator:10>,
-                        <mekanismgenerators:generator:11>,
-                        <mekanismgenerators:generator:12>,
-                        <mekanismgenerators:generator:13>
-                        ] as IItemStack[];
-for item in mekSteamRemovals{
-    removeAndHide(item);
-    }
-    
-//Remove Mekanism ore processing items that are unused
-var mekOresRemovals = [<mekanism:clump:*>,
-                       <mekanism:shard:*>,
-                       <mekanism:crystal:*>,
-                       <mekores:mekanismore:0>,
-                       <mekores:mekanismore:1>,
-                       <mekores:mekanismore:2>,
-                       <mekores:mekanismore:10>,
-                       <mekores:mekanismore:11>,
-                       <mekores:mekanismore:12>,
-                       <mekores:mekanismore:15>,
-                       <mekores:mekanismore:16>,
-                       <mekores:mekanismore:17>,
-                       <mekores:mekanismore:20>,
-                       <mekores:mekanismore:21>,
-                       <mekores:mekanismore:22>,
-                       <mekores:mekanismore:30>,
-                       <mekores:mekanismore:31>,
-                       <mekores:mekanismore:32>,
-                       <mekores:mekanismore:75>,
-                       <mekores:mekanismore:76>,
-                       <mekores:mekanismore:77>,
-                       <mekores:mekanismore:80>,
-                       <mekores:mekanismore:81>,
-                       <mekores:mekanismore:82>,
-                       <mekores:mekanismore:85>,
-                       <mekores:mekanismore:86>,
-                       <mekores:mekanismore:87>,
-                       <mekores:mekanismore:105>,
-                       <mekores:mekanismore:106>,
-                       <mekores:mekanismore:107>,
-                       <mekores:mekanismore:125>,
-                       <mekores:mekanismore:126>,
-                       <mekores:mekanismore:127>
-                       ] as IItemStack[];
-for item in mekOresRemovals{
-    removeAndHide(item);
-    }
-
-//Remove Mekanism tools, glowstone and lapis are unrealistic, steel tools are already present in IE, and paxels usurp the REDIA
-var mekToolsRemovals = [<mekanismtools:steelpickaxe>,
-                        <mekanismtools:steelaxe>,
-                        <mekanismtools:steelshovel>,
-                        <mekanismtools:steelhoe>,
-                        <mekanismtools:steelsword>,
-                        <mekanismtools:steelpaxel>,
-                        <mekanismtools:steelhelmet>,
-                        <mekanismtools:steelchestplate>,
-                        <mekanismtools:steelleggings>,
-                        <mekanismtools:steelboots>,
-                        <mekanismtools:lapislazulipickaxe>,
-                        <mekanismtools:lapislazuliaxe>,
-                        <mekanismtools:lapislazulishovel>,
-                        <mekanismtools:lapislazulihoe>,
-                        <mekanismtools:lapislazulisword>,
-                        <mekanismtools:lapislazulipaxel>,
-                        <mekanismtools:lapislazulihelmet>,
-                        <mekanismtools:lapislazulichestplate>,
-                        <mekanismtools:lapislazulileggings>,
-                        <mekanismtools:lapislazuliboots>,
-                        <mekanismtools:woodpaxel>,
-                        <mekanismtools:stonepaxel>,
-                        <mekanismtools:ironpaxel>,
-                        <mekanismtools:goldpaxel>,
-                        <mekanismtools:diamondpaxel>,
-                        <mekanismtools:bronzepickaxe>,
-                        <mekanismtools:bronzeaxe>,
-                        <mekanismtools:bronzeshovel>,
-                        <mekanismtools:bronzehoe>,
-                        <mekanismtools:bronzesword>,
-                        <mekanismtools:bronzepaxel>,
-                        <mekanismtools:osmiumpickaxe>,
-                        <mekanismtools:osmiumaxe>,
-                        <mekanismtools:osmiumshovel>,
-                        <mekanismtools:osmiumhoe>,
-                        <mekanismtools:osmiumsword>,
-                        <mekanismtools:osmiumpaxel>,
-                        <mekanismtools:obsidianpickaxe>,
-                        <mekanismtools:obsidianaxe>,
-                        <mekanismtools:obsidianshovel>,
-                        <mekanismtools:obsidianhoe>,
-                        <mekanismtools:obsidiansword>,
-                        <mekanismtools:obsidianpaxel>,
-                        <mekanismtools:glowstonepickaxe>,
-                        <mekanismtools:glowstoneaxe>,
-                        <mekanismtools:glowstoneshovel>,
-                        <mekanismtools:glowstonehoe>,
-                        <mekanismtools:glowstonesword>,
-                        <mekanismtools:glowstonepaxel>
-                        ] as IItemStack[];
-for item in mekToolsRemovals{
-    removeAndHide(item);
-    }
-    
-    
-//Hide unused Mekanism items
-hide(<mekanism:enrichediron>);
-removeAndHide(<mekanism:filterupgrade>);
-removeAndHide(<mekanism:electrolyticcore>);
-removeAndHide(<mekanismgenerators:solarpanel>);
-removeAndHide(<mekanism:tierinstaller:*>);
-removeAndHide(<mekanism:walkietalkie>);
-hide(<mekanism:enrichedalloy>);
-hide(<mekanism:reinforcedalloy>);
-hide(<mekanism:atomicalloy>);
-hide(<mekanism:compressedcarbon>);
-hide(<mekanism:compressedredstone>);
-hide(<mekanism:compresseddiamond>);
-hide(<mekanism:compressedobsidian>);
-
-//Remove energy cubes, if you don't have the resources for an Induction Matrix use flywheels
-removeAndHide(<mekanism:energycube:*>);
-
-//Remove obsidian TNT, why would that change anything other than make it worse IRL?
-removeAndHide(<mekanism:obsidiantnt>);
-
-//Remove gas upgrades, use the full amount and produce it, no skimping here
-removeAndHide(<mekanism:gasupgrade>);
-
-//Remove gunpowder coversion recipes that don't work IRL
-injection.removeRecipe(<mekanism:otherdust:3>);
-
-//Remove unrealistic item->gas conversions, readd osmium->gas conversion
-//Because seriously, who took a look at flint and said "you know what? you can get pure O2 out of that super easily"
-GasConversion.unregisterAll();
-GasConversion.register(<ore:ingotOsmium>, <gas:liquidosmium> * 200);
-
-//Remove handcrafting of HDPE and move it to plastic extruder
-removeAndHide(<mekanism:polyethene:1>);
-recipes.remove(<mekanism:polyethene:*>);
 
 //Make Steel Casing take HDPE Sheets
 recipes.remove(<mekanism:basicblock:8>);
@@ -172,35 +15,6 @@ recipes.addShaped(<mekanism:basicblock:8>,
 
 //Make Osmium only arc-furnace-able
 furnace.remove(<ore:ingotOsmium>);
-
-
-//Add some use to the chemical injection chamber
-injection.addRecipe(<contenttweaker:stone_dust>, <gas:water> * 125, <minecraft:clay_ball>);
-injection.addRecipe(<contenttweaker:stone_dust> * 4, <gas:water> * 500, <minecraft:clay>);
-injection.addRecipe(<inspirations:materials:6> * 3, <gas:hydrogenchloride> * 250, <immersiveengineering:metal:12>);
-injection.addRecipe(<ore:rodBlaze>, <gas:hydrogenchloride> * 125, <minecraft:blaze_powder> * 6);
-injection.addRecipe(<ore:gemPrismarine>, <gas:hydrogenchloride> * 125, <minecraft:prismarine_crystals> * 2);
-injection.addRecipe(<ore:bone>, <gas:nitrogengas> * 125, <minecraft:dye:15> * 8);
-injection.addRecipe(<minecraft:end_stone>, <gas:endacid> * 500, <stygian:endmagma>);
-injection.addRecipe(<quark:soul_bead>, <gas:endacid> * 4000, <minecraft:ender_pearl>);
-injection.addRecipe(<inspirations:materials:6>, <gas:endacid> * 125, <charm:endermite_powder>);
-injection.addRecipe(<ore:obsidian>, <gas:endacid> * 250, <mekanism:otherdust:6> * 8);
-injection.addRecipe(<ore:enderpearl>, <gas:endacid> * 125, <portalgun:item_dust_ender_pearl> * 4);
-injection.addRecipe(<ore:rodBlaze>, <gas:endacid> * 125, <minecraft:blaze_powder> * 8);
-injection.addRecipe(<ore:gemPrismarine>, <gas:endacid> * 125, <minecraft:prismarine_crystals> * 3);
-
-//Refined Obsidian and Glowstone processing
-compressor.removeRecipe(<mekanism:ingot:3>);
-dissolution.addRecipe(<contenttweaker:impure_refined_obsidian_dust>, <gas:impurerefinedobsidian> * 100);
-washer.addRecipe(<gas:impurerefinedobsidian>, <gas:refinedobsidian>);
-crystallizer.addRecipe(<gas:refinedobsidian> * 100, <mekanism:otherdust:5>);
-dissolution.addRecipe(<contenttweaker:impure_refined_glowstone_dust>, <gas:impurerefinedglowstone> * 100);
-washer.addRecipe(<gas:impurerefinedglowstone>, <gas:refinedglowstone>);
-crystallizer.addRecipe(<gas:refinedglowstone> * 100, <contenttweaker:refined_glowstone_dust>);
-compressor.addRecipe(<contenttweaker:refined_glowstone_dust>, <gas:liquidosmium> * 200, <mekanism:ingot:3>);
-
-//Lithium in the crystalliser
-crystallizer.addRecipe(<gas:lithium> * 100, <mekanism:otherdust:4>);
 
 //Mekanism transmitter recipes, make universal cables into superconductors
 removeAndHide(<mekanism:transmitter:*>);
@@ -257,15 +71,6 @@ recipes.addShaped(<mekanism:machineblock3:4>,
  [[<ore:ingotTin>, <ore:ingotConstantan>, <ore:ingotTin>],
  [<ore:ingotConstantan>, <immersiveengineering:metal_device1:1>, <ore:ingotConstantan>],
  [<ore:ingotTin>, <immersiveengineering:metal_device0:2>, <ore:ingotTin>]]);
-
-//Brine and lithium changes and additions
-thermalevaporation.removeRecipe(<liquid:brine>);
-thermalevaporation.addRecipe(<liquid:saltwater> * 10, <liquid:richbrine>);
-thermalevaporation.addRecipe(<liquid:brine> * 10, <liquid:lithiumchloridesolution>);
-thermalevaporation.addRecipe(<liquid:richbrine> * 10, <liquid:magnesiumchloridesolution>);
-separator.removeRecipe(<liquid:brine>);
-separator.addRecipe(<liquid:brine> * 10, 1200, <gas:hydrogen>, <gas:chlorine>);
-separator.addRecipe(<liquid:richbrine> * 3, 1200, <gas:hydrogen> * 1, <gas:chlorine> * 1);
 
 //Mekanism machine recipes
 //T1 is Tungsten-Basic Circuit

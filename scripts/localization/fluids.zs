@@ -83,13 +83,13 @@ game.setLocalization("gas.endacid", "Pressurized Stygian Acid");
 game.setLocalization("fluid.hydrazine", "Hydrazine");
 
 //Uranium enrichment bits
-game.setLocalization("fluid.hydrofluoric_acid", "Hydrofluoric Acid");
-game.setLocalization("fluid.uranium_hexafluoride_007", "0.7%% Enriched Uranium Hexafluoride");
-game.setLocalization("fluid.uranium_hexafluoride_014", "1.4%% Enriched Uranium Hexafluoride");
-game.setLocalization("fluid.uranium_hexafluoride_021", "2.1%% Enriched Uranium Hexafluoride");
-game.setLocalization("fluid.uranium_hexafluoride_028", "2.8%% Enriched Uranium Hexafluoride");
-game.setLocalization("fluid.uranium_hexafluoride_035", "3.5%% Enriched Uranium Hexafluoride");
-game.setLocalization("fluid.uranium_hexafluoride_000", "Depleted Uranium Hexafluoride");
+game.setLocalization("fluid.hydrofluoricacid", "Hydrofluoric Acid");
+game.setLocalization("fluid.uraniumhexafluoride_007", "0.7%% Enriched Uranium Hexafluoride");
+game.setLocalization("fluid.uraniumhexafluoride_014", "1.4%% Enriched Uranium Hexafluoride");
+game.setLocalization("fluid.uraniumhexafluoride_021", "2.1%% Enriched Uranium Hexafluoride");
+game.setLocalization("fluid.uraniumhexafluoride_028", "2.8%% Enriched Uranium Hexafluoride");
+game.setLocalization("fluid.uraniumhexafluoride_035", "3.5%% Enriched Uranium Hexafluoride");
+game.setLocalization("fluid.uraniumhexafluoride_000", "Depleted Uranium Hexafluoride");
 
 //Reactor fluids
 game.setLocalization("fluid.lithiatedwater", "Lithiated Water");

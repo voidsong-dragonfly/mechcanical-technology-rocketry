@@ -1,0 +1,58 @@
+//Hatch recipes
+recipes.remove(<libvulpes:hatch:*>);
+recipes.remove(<libvulpes:forgepowerinput>);
+recipes.remove(<libvulpes:forgepoweroutput>);
+recipes.remove(<advancedrocketry:loader:0>);
+recipes.addShaped(<libvulpes:hatch:0>,
+ [[<ore:sheetAluminum>, null, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <engineersdecor:factory_hopper>, <ore:sheetAluminum>]]);
+recipes.addShaped(<libvulpes:hatch:1>,
+ [[<ore:sheetAluminum>, <engineersdecor:factory_hopper>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, null, <ore:sheetAluminum>]]);
+recipes.addShaped(<libvulpes:hatch:2>,
+ [[<ore:sheetAluminum>, null, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <immersiveengineering:metal_device1:6>, <ore:sheetAluminum>]]);
+recipes.addShaped(<libvulpes:hatch:3>,
+ [[<ore:sheetAluminum>, <immersiveengineering:metal_device1:6>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, null, <ore:sheetAluminum>]]);
+recipes.addShaped(<libvulpes:forgepowerinput>,
+ [[<ore:sheetAluminum>, null, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <libvulpes:battery:1>, <ore:sheetAluminum>]]);
+recipes.addShaped(<libvulpes:forgepoweroutput>,
+ [[<ore:sheetAluminum>, <libvulpes:battery:1>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, null, <ore:sheetAluminum>]]);
+recipes.addShaped(<advancedrocketry:loader:0>,
+ [[<ore:sheetAluminum>, <advancedrocketry:dataunit>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:scaffoldingAluminum>, <ore:sheetAluminum>],
+ [<ore:sheetAluminum>, <ore:circuitBasic>, <ore:sheetAluminum>]]);
+ 
+//Make LibVulpes motors require gears
+recipes.remove(<libvulpes:motor>);
+recipes.remove(<libvulpes:advancedmotor>);
+recipes.remove(<libvulpes:enhancedmotor>);
+recipes.remove(<libvulpes:elitemotor>);
+recipes.addShaped(<libvulpes:motor>, 
+ [[null, <ore:plateSteel>, <ore:plateSteel>],
+ [<ore:stickSteel>, <ore:gearSteel>, <ore:coilCopper>],
+ [null, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<libvulpes:advancedmotor>, 
+ [[null, <ore:plateSteel>, <ore:plateSteel>],
+ [<ore:stickSteel>, <ore:gearSteel>, <ore:coilGold>],
+ [null, <ore:plateSteel>, <ore:plateSteel>]]);
+recipes.addShaped(<libvulpes:enhancedmotor>, 
+ [[null, <ore:plateTitanium>, <ore:plateTitanium>],
+ [<ore:stickTitanium>, <ore:gearTitanium>, <ore:coilAluminum>],
+ [null, <ore:plateTitanium>, <ore:plateTitanium>]]);
+recipes.addShaped(<libvulpes:elitemotor>, 
+ [[null, <ore:plateIridium>, <ore:plateIridium>],
+ [<ore:stickIridium>, <ore:gearTitaniumIridium>, <ore:coilTitanium>],
+ [null, <ore:plateIridium>, <ore:plateIridium>]]);
+ 
+//Battery recipe removal
+recipes.remove(<libvulpes:battery>);
