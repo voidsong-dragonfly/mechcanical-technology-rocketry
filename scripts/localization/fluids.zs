@@ -79,6 +79,9 @@ game.setLocalization("fluid.nitricacidhydrochloride", "Nitric Acid Hydrochloride
 //Stygian Acid Gas
 game.setLocalization("gas.endacid", "Pressurized Stygian Acid");
 
+//Hydrazine
+game.setLocalization("fluid.hydrazine", "Hydrazine");
+
 //Uranium enrichment bits
 game.setLocalization("fluid.hydrofluoric_acid", "Hydrofluoric Acid");
 game.setLocalization("fluid.uranium_hexafluoride_007", "0.7%% Enriched Uranium Hexafluoride");

@@ -85,6 +85,7 @@ createItem("titanium_compressor").register();
 createItem("titanium_compressor_blade").register();
 createItem("fuel_tank_shell").register();
 createItem("pressurized_helium_tank").register();
+createItem("catalytic_turbopump").register();
 createItem("turbopump").register();
 createItem("collection_array").register();
 createItem("mirror_assembly").register();

@@ -120,14 +120,6 @@ bitumen.build();
     Salt Processing - From brine to chlorine and molten salts
 */
 
-//Brine Conversion
-var brine_conversion = newBuilder("brine_conversion", "large_pressurized_reaction_chamber", 200);
-brine_conversion.addEnergyPerTickInput(256);
-brine_conversion.addFluidInput(<liquid:richbrine> * 300);
-brine_conversion.addFluidInput(<liquid:water> * 500);
-brine_conversion.addFluidOutput(<liquid:brine> * 800);
-brine_conversion.build();
-
 //Drying
 var magnesium_chloride = newBuilder("magnesium_chloride", "drying_bed", 9000);
 magnesium_chloride.addFluidInput(<liquid:magnesiumchloridesolution> * 9000);
@@ -214,154 +206,8 @@ nitrogen_liquefaction.build();
 
 
 /*
-    Chemical processing - HDPE, H2SO4, Ammonia
-*/
-
-//Fischer–Tropsch processes
-var fischer_tropsch_methane = newBuilder("fischer_tropsch_methane", "large_pressurized_reaction_chamber", 200);
-fischer_tropsch_methane.addEnergyPerTickInput(768);
-fischer_tropsch_methane.addFluidInput(<liquid:carbondioxide> * 800);
-fischer_tropsch_methane.addFluidInput(<liquid:liquidhydrogen> * 2400);
-fischer_tropsch_methane.addItemInput(<ore:dustCobalt>, 8).setChance(0);
-fischer_tropsch_methane.addFluidOutput(<liquid:methane> * 800);
-fischer_tropsch_methane.addFluidOutput(<liquid:water> * 800);
-fischer_tropsch_methane.build();
-var fischer_tropsch_ethene = newBuilder("fischer_tropsch_ethene", "large_pressurized_reaction_chamber", 400);
-fischer_tropsch_ethene.addEnergyPerTickInput(768);
-fischer_tropsch_ethene.addFluidInput(<liquid:carbondioxide> * 1600);
-fischer_tropsch_ethene.addFluidInput(<liquid:liquidhydrogen> * 3200);
-fischer_tropsch_ethene.addItemInput(<ore:dustIron>, 8).setChance(0);
-fischer_tropsch_ethene.addFluidOutput(<liquid:liquidethene> * 800);
-fischer_tropsch_ethene.addFluidOutput(<liquid:water> * 1600);
-fischer_tropsch_ethene.build();
-
-//Pidgeon Process (Magnesium from Dolomite)
-var pidgeon_process = newBuilder("pidgeon_process", "large_pressurized_reaction_chamber", 900);
-pidgeon_process.addEnergyPerTickInput(400);
-pidgeon_process.addMekanismHeatInput(0, 1800, (1.0/0));
-pidgeon_process.addItemInput(<contenttweaker:calcined_crushed_dolomite> * 2);
-pidgeon_process.addItemInput(<libvulpes:productdust:3>);
-pidgeon_process.addItemOutput(<contenttweaker:magnesium_dust> * 2);
-pidgeon_process.addItemOutput(<immersiveengineering:material:7>);
-pidgeon_process.build();
-
-//HDPE Pellet Production
-var molten_polyethene = newBuilder("molten_polyethene", "large_pressurized_reaction_chamber", 1920);
-molten_polyethene.addEnergyPerTickInput(800);
-molten_polyethene.addFluidInput(<liquid:liquidethene> * 1600);
-molten_polyethene.addFluidInput(<liquid:liquidoxygen> * 50);
-molten_polyethene.addFluidOutput(<liquid:polyethene> * 4000);
-molten_polyethene.build();
-var hdpe_pellet = newBuilder("hdpe_pellet", "large_pressurized_reaction_chamber", 1920);
-hdpe_pellet.addEnergyPerTickInput(800);
-hdpe_pellet.addFluidInput(<liquid:liquidethene> * 1600);
-hdpe_pellet.addFluidInput(<liquid:liquidoxygen> * 50);
-hdpe_pellet.addItemInput(<mekanism:substrate> * 32);
-hdpe_pellet.addItemOutput(<mekanism:polyethene:0> * 32);
-hdpe_pellet.build();
-
-//Carbon Dioxide
-var carbon_dioxide = newBuilder("carbon_dioxide", "large_pressurized_reaction_chamber", 2400);
-carbon_dioxide.addEnergyPerTickInput(384);
-carbon_dioxide.addItemInput(<ore:dustAnyCarbon>, 8);
-carbon_dioxide.addItemInput(<contenttweaker:silicon_dioxide_dust_block>);
-carbon_dioxide.addItemOutput(<libvulpes:productdust:3> * 8);
-carbon_dioxide.addFluidOutput(<liquid:carbondioxide> * 800);
-carbon_dioxide.build();
-
-//Sulfuric Acid
-var sulfur_dioxide = newBuilder("sulfur_dioxide", "large_pressurized_reaction_chamber", 100);
-sulfur_dioxide.addEnergyPerTickInput(512);
-sulfur_dioxide.addFluidInput(<liquid:hydrogensulfide> * 800);
-sulfur_dioxide.addFluidInput(<liquid:liquidoxygen> * 1200);
-sulfur_dioxide.addFluidOutput(<liquid:liquidsulfurdioxide> * 800);
-sulfur_dioxide.addFluidOutput(<liquid:water> * 800);
-sulfur_dioxide.build();
-var sulfur_trioxide = newBuilder("sulfur_trioxide", "large_pressurized_reaction_chamber", 100);
-sulfur_trioxide.addEnergyPerTickInput(512);
-sulfur_trioxide.addFluidInput(<liquid:liquidsulfurdioxide> * 800);
-sulfur_trioxide.addFluidInput(<liquid:liquidoxygen> * 400);
-sulfur_trioxide.addFluidOutput(<liquid:liquidsulfurtrioxide> * 800);
-sulfur_trioxide.build();
-var sulfuric_acid = newBuilder("sulfuric_acid", "large_pressurized_reaction_chamber", 100);
-sulfuric_acid.addEnergyPerTickInput(512);
-sulfuric_acid.addFluidInput(<liquid:liquidsulfurtrioxide> * 800);
-sulfuric_acid.addFluidInput(<liquid:water> * 800);
-sulfuric_acid.addFluidOutput(<liquid:sulfuricacid> * 800);
-sulfuric_acid.build();
-
-//Haber-Bosch Process
-var ammonia = newBuilder("ammonia", "large_pressurized_reaction_chamber", 100);
-ammonia.addEnergyPerTickInput(2048);
-ammonia.addFluidInput(<liquid:liquidhydrogen> * 1200);
-ammonia.addFluidInput(<liquid:nitrogengas> * 400);
-ammonia.addFluidOutput(<liquid:ammonia> * 800);
-ammonia.build();
-
-//Hydrogen Chloride
-var hydrogen_chloride = newBuilder("hydrogen_chloride", "large_pressurized_reaction_chamber", 100);
-hydrogen_chloride.addEnergyPerTickInput(512);
-hydrogen_chloride.addFluidInput(<liquid:liquidhydrogen> * 400);
-hydrogen_chloride.addFluidInput(<liquid:liquidchlorine> * 400);
-hydrogen_chloride.addFluidOutput(<liquid:liquidhydrogenchloride> * 800);
-hydrogen_chloride.build();
-
-//Nitric Acid
-var hydrogen_peroxide = newBuilder("hydrogen_peroxide", "large_pressurized_reaction_chamber", 100);
-hydrogen_peroxide.addEnergyPerTickInput(512);
-hydrogen_peroxide.addFluidInput(<liquid:liquidhydrogen> * 800);
-hydrogen_peroxide.addFluidInput(<liquid:liquidoxygen> * 800);
-hydrogen_peroxide.addFluidOutput(<liquid:hydrogenperoxide> * 800);
-hydrogen_peroxide.build();
-var nitrogen_dioxide = newBuilder("nitrogen_dioxide", "large_pressurized_reaction_chamber", 100);
-nitrogen_dioxide.addEnergyPerTickInput(512);
-nitrogen_dioxide.addFluidInput(<liquid:nitrogengas> * 400);
-nitrogen_dioxide.addFluidInput(<liquid:liquidoxygen> * 800);
-nitrogen_dioxide.addFluidOutput(<liquid:nitrogendioxide> * 800);
-nitrogen_dioxide.build();
-var nitric_acid = newBuilder("nitric_acid", "large_pressurized_reaction_chamber", 100);
-nitric_acid.addEnergyPerTickInput(512);
-nitric_acid.addFluidInput(<liquid:nitrogendioxide> * 800);
-nitric_acid.addFluidInput(<liquid:hydrogenperoxide> * 400);
-nitric_acid.addFluidOutput(<liquid:nitricacid> * 800);
-nitric_acid.build();
-var nitric_acid_hydrochloride = newBuilder("nitric_acid_hydrochloride", "large_pressurized_reaction_chamber", 100);
-nitric_acid_hydrochloride.addEnergyPerTickInput(512);
-nitric_acid_hydrochloride.addFluidInput(<liquid:nitricacid> * 200);
-nitric_acid_hydrochloride.addFluidInput(<liquid:liquidhydrogenchloride> * 600);
-nitric_acid_hydrochloride.addFluidOutput(<liquid:nitricacidhydrochloride> * 800);
-nitric_acid_hydrochloride.build();
-
-//Ammonium Chloride
-var ammonium_chloride = newBuilder("ammonium_chloride", "large_pressurized_reaction_chamber", 100);
-ammonium_chloride.addEnergyPerTickInput(512);
-ammonium_chloride.addFluidInput(<liquid:ammonia> * 800);
-ammonium_chloride.addFluidInput(<liquid:liquidhydrogenchloride> * 800);
-ammonium_chloride.addItemOutput(<contenttweaker:ammonium_chloride> * 8);
-ammonium_chloride.build();
-
-
-/*
     Circuit Crafting - From silicon boule to finished circuit
 */
-
-//Silicon Boules
-var gallium_doped_silicon_boule = newBuilder("gallium_doped_silicon_boule", "large_pressurized_reaction_chamber", 4800);
-gallium_doped_silicon_boule.addEnergyPerTickInput(1024);
-gallium_doped_silicon_boule.addItemInput(<libvulpes:productdust:3> * 64);
-gallium_doped_silicon_boule.addItemInput(<contenttweaker:gallium_dust>);
-gallium_doped_silicon_boule.addFluidInput(<liquid:argon> * 4000);
-gallium_doped_silicon_boule.addItemOutput(<contenttweaker:gallium_doped_silicon_boule>);
-gallium_doped_silicon_boule.addFluidOutput(<liquid:argon> * 3900);
-gallium_doped_silicon_boule.build();
-var lithium_doped_silicon_boule = newBuilder("lithium_doped_silicon_boule", "large_pressurized_reaction_chamber", 4800);
-lithium_doped_silicon_boule.addEnergyPerTickInput(2048);
-lithium_doped_silicon_boule.addItemInput(<libvulpes:productdust:3> * 64);
-lithium_doped_silicon_boule.addItemInput(<mekanism:otherdust:4>);
-lithium_doped_silicon_boule.addFluidInput(<liquid:argon> * 4000);
-lithium_doped_silicon_boule.addItemOutput(<contenttweaker:lithium_doped_silicon_boule>);
-lithium_doped_silicon_boule.addFluidOutput(<liquid:argon> * 3900);
-lithium_doped_silicon_boule.build();
 
 //Wafers & SMD resistor
 var integrated_circuit_wafer = newBuilder("integrated_circuit_wafer", "precision_laser_engraver", 300);
@@ -416,17 +262,6 @@ smd_resistor.addItemInput(<ore:dustAnyCarbon>, 2);
 smd_resistor.addItemInput(<mekanism:polyethene:2> * 4);
 smd_resistor.addItemOutput(<contenttweaker:smd_resistor> * 16);
 smd_resistor.build();
-
-//Crystal Processor pieces
-var raw_processor_crystal = newBuilder("raw_processor_crystal", "crystal_growth_chamber", 3600);
-raw_processor_crystal.addBiomeRequirement(["advancedrocketry:space"]);
-raw_processor_crystal.addEnergyPerTickInput(8192);
-raw_processor_crystal.addItemInput(<contenttweaker:emerald_dust> * 16);
-raw_processor_crystal.addItemInput(<mekanism:dust:2> * 2);
-raw_processor_crystal.addFluidInput(<liquid:helium> * 16000);
-raw_processor_crystal.addItemOutput(<contenttweaker:raw_processor_crystal> * 16);
-raw_processor_crystal.addFluidOutput(<liquid:helium> * 15800);
-raw_processor_crystal.build();
 var engraved_processor_crystal = newBuilder("engraved_processor_crystal", "precision_laser_engraver", 600);
 engraved_processor_crystal.addItemInput(<contenttweaker:raw_processor_crystal>);
 engraved_processor_crystal.addItemInput(<contenttweaker:ruby_lens>).setChance(0);
@@ -598,13 +433,6 @@ biome_changer.addItemInput(<mekanism:controlcircuit:3> * 4);
 biome_changer.addItemInput(<ore:mechanicalComponentSteel>, 2);
 biome_changer.addItemOutput(<advancedrocketry:satelliteprimaryfunction:5>);
 biome_changer.build();
-var lens_block = newBuilder("lens_block", "assembly_cleanroom", 1800);
-lens_block.addEnergyPerTickInput(256);
-lens_block.addItemInput(<contenttweaker:glass_lens> * 6);
-lens_block.addItemInput(<ore:stickSteel>, 4);
-lens_block.addItemInput(<ore:mechanicalComponentSteel>, 2);
-lens_block.addItemOutput(<advancedrocketry:blocklens>);
-lens_block.build();
 
 //Cleanroom fusion pieces
 var fusion_casing_inner = newBuilder("fusion_casing_inner", "assembly_cleanroom", 300);

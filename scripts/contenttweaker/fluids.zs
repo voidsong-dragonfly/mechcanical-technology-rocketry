@@ -38,6 +38,8 @@ create_gas("ammonia", "B3CDE2");
 create_gas("nitrogengas", "DFE5FE");
 create_gas("nitrogendioxide", "D95E4C");
 create_gas("fluorine", "CEBD89");
+create_gas("titaniumtetrachloride", "E7EBC8");
+create_gas("zirconiumtetrachloride", "E7EBC8");
 
 //Nitric Acid Production
 create_fluid("hydrogenperoxide", "DBF1FF", 300, 1540, 1260);
@@ -82,6 +84,9 @@ create_gas("methane", "E6E6FF");
 create_fluid("crackednaphtha", "FCC1B8", 300, 750, 750);
 create_gas("crackedethene", "EACCF9");
 create_gas("crackedmethane", "E6E6FF");
+
+//Hydrazine
+create_fluid("hydrazine", "B3C4E2", 300, 1020, 1000);
 
 //Molten Magnesium, Lithium, and Calcium Chloride, and Molten Magnesium
 create_molten_fluid("moltenmagnesium", "AB9F9E", 930, 1580, 10000);

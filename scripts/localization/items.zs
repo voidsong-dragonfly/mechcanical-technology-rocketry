@@ -91,6 +91,7 @@ game.setLocalization("item.contenttweaker.titanium_compressor.name",  "Titanium 
 game.setLocalization("item.contenttweaker.titanium_compressor_blade.name",  "Titanium Compressor Blade");
 game.setLocalization("item.contenttweaker.fuel_tank_shell.name",  "Liquid Fuel Tank Shell");
 game.setLocalization("item.contenttweaker.pressurized_helium_tank.name",  "Pressurized Helium Tank");
+game.setLocalization("item.contenttweaker.catalytic_turbopump.name",  "Catalytic Turbopump Assembly");
 game.setLocalization("item.contenttweaker.turbopump.name",  "Turbopump Assembly");
 game.setLocalization("item.contenttweaker.collection_array.name",  "Collection Array Spectrometry Assembly");
 game.setLocalization("item.contenttweaker.mirror_assembly.name",  "Mirror Assembly");

@@ -57,11 +57,13 @@ var titanium_tetrachloride = GasFactory.createGas("titaniumtetrachloride");
 titanium_tetrachloride.setColor(Color.fromHex("E7EBC8").getIntColor());
 titanium_tetrachloride.setColorize(true);
 titanium_tetrachloride.setIcon("blocks/gas");
+titanium_tetrachloride.setNeedFluid(true);
 titanium_tetrachloride.register();
 var zirconium_tetrachloride = GasFactory.createGas("zirconiumtetrachloride");
 zirconium_tetrachloride.setColor(Color.fromHex("E7EBC8").getIntColor());
 zirconium_tetrachloride.setColorize(true);
 zirconium_tetrachloride.setIcon("blocks/gas");
+zirconium_tetrachloride.setNeedFluid(true);
 zirconium_tetrachloride.register();
 
 //Ammonia

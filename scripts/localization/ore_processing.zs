@@ -80,6 +80,7 @@ game.setLocalization("fluid.moltensilver", "Molten Silver");
 //Titanium Processing
 game.setLocalization("item.contenttweaker.washed_ilmenite_ore_dust.name", "Ilmenite Ore Dust - Washed");
 game.setLocalization("item.contenttweaker.rutile_dust.name", "Rutile Dust");
+game.setLocalization("fluid.titaniumtetrachloride", "Titanium Tetrachloride");
 game.setLocalization("gas.titaniumtetrachloride", "Pressurized Titanium Tetrachloride");
 
 //Platinum Processing
@@ -128,4 +129,5 @@ game.setLocalization("item.contenttweaker.impure_niobium_dust.name", "Impure Nio
 game.setLocalization("tile.contenttweaker.zircon_ore.name", "Zircon Ore");
 game.setLocalization("item.contenttweaker.zircon_ore_dust.name", "Zircon Ore Dust");
 game.setLocalization("item.contenttweaker.washed_zircon_ore_dust.name", "Washed Zircon Ore Dust");
+game.setLocalization("fluid.zirconiumtetrachloride", "Zirconium Tetrachloride");
 game.setLocalization("gas.zirconiumtetrachloride", "Pressurized Zirconium Tetrachloride");

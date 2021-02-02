@@ -12,27 +12,6 @@ removeAndHide(<advancedrocketry:astrobed>);
 removeAndHide(<advancedrocketry:lightsource>);
 removeAndHide(<advancedrocketry:airlock_door>);
 
-//Hide AR fluids that are broken (wheee! broken textures) and are usurped by other fluids
-hide(<advancedrocketry:oxygenfluid>);
-hide(<advancedrocketry:hydrogenfluid>);
-hide(<advancedrocketry:nitrogenfluid>);
-hide(<advancedrocketry:rocketfuel>);
-hide(<advancedrocketry:enrichedlavafluid>);
-hide(<advancedrocketry:bucketoxygen>);
-hide(<advancedrocketry:buckethydrogen>);
-hide(<advancedrocketry:bucketnitrogen>);
-hide(<advancedrocketry:bucketrocketfuel>);
-hide(<advancedrocketry:bucketenrichedlava>);
-
-//Remove AR Solar Generators in favor of IE-Style solar, balance recipes and make realistic
-removeAndHide(<advancedrocketry:solargenerator>);
-recipes.remove(<advancedrocketry:solarpanel>);
-recipes.remove(<advancedrocketry:satellitepowersource>);
-recipes.remove(<advancedrocketry:satellitepowersource:1>);
-Blueprint.addRecipe("solar", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <immersive_energy:material:1>, <immersive_energy:material:1>]);
-Blueprint.addRecipe("solar", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
-Blueprint.addRecipe("solar", <advancedrocketry:solarpanel>, [<immersive_energy:material:1>, <ore:plateAluminum>, <ore:plateAluminum>, <libvulpes:structuremachine>, <ore:mechanicalComponentSteel>, <immersiveengineering:metal_device0>]);
-
 //Remove AR block tanks because IE barrels fill this with a more balanced fluid storage amount
 removeAndHide(<advancedrocketry:liquidtank>);
 
@@ -132,8 +111,12 @@ recipes.addShaped(<advancedrocketry:loader:1>,
 
 //Rocket pieces need more involved recipes than three ingots and three plates
 recipes.remove(<advancedrocketry:rocketmotor>);
-recipes.remove(<advancedrocketry:advrocketmotor>);
+recipes.remove(<advancedrocketry:bipropellantrocketmotor>);
+removeAndHide(<advancedrocketry:advrocketmotor>);
+recipes.remove(<advancedrocketry:advbipropellantrocketmotor>);
 recipes.remove(<advancedrocketry:fueltank>);
+recipes.remove(<advancedrocketry:bipropellantfueltank>);
+recipes.remove(<advancedrocketry:oxidizerfueltank>);
  
 //Fueling station needs a pump
 recipes.remove(<advancedrocketry:fuelingstation>);
@@ -398,7 +381,7 @@ recipes.addShaped(<advancedrocketry:itemupgrade:3>,
  [[<ore:stickSteel>, <ore:circuitElite>, <ore:stickSteel>],
  [<ore:plateSteel>, <minecraft:leather_boots>, <ore:plateSteel>]]);
 recipes.addShaped(<advancedrocketry:atmanalyser>, 
- [[<quark:grate>, <ore:itemLens>, <ore:itemBattery>],
+ [[<quark:grate>, <ore:lensGlass>, <ore:itemBattery>],
  [<ore:plateTin>, <ore:circuitElite>, <ore:plateTin>]]);
 
 //Ore Scanner recipe

@@ -3,17 +3,12 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 import mods.jei.JEI.addItem;
-import mods.mekanism.enrichment;
-import mods.mekanism.crusher;
 import mods.mekanism.chemical.injection;
 import mods.mekanism.GasConversion;
 import mods.mekanism.compressor;
-import mods.mekanism.reaction;
-import mods.mekanism.sawmill;
 import mods.mekanism.thermalevaporation;
 import mods.mekanism.separator;
 import mods.mekanism.chemical.crystallizer;
-import mods.mekanism.chemical.infuser;
 import mods.mekanism.chemical.dissolution;
 import mods.mekanism.chemical.washer;
 
@@ -142,11 +137,6 @@ removeAndHide(<mekanism:walkietalkie>);
 hide(<mekanism:enrichedalloy>);
 hide(<mekanism:reinforcedalloy>);
 hide(<mekanism:atomicalloy>);
-//Hide and remove "compressed" infusion types from JEI, unused and unrealistic
-enrichment.removeRecipe(<minecraft:coal:*>);
-enrichment.removeRecipe(<minecraft:redstone>);
-enrichment.removeRecipe(<minecraft:diamond>);
-enrichment.removeRecipe(<mekanism:otherdust:5>);
 hide(<mekanism:compressedcarbon>);
 hide(<mekanism:compressedredstone>);
 hide(<mekanism:compresseddiamond>);
@@ -162,10 +152,6 @@ removeAndHide(<mekanism:obsidiantnt>);
 removeAndHide(<mekanism:gasupgrade>);
 
 //Remove gunpowder coversion recipes that don't work IRL
-enrichment.removeRecipe(<immersiveengineering:material:24>);
-enrichment.removeRecipe(<immersiveengineering:material:25>);
-enrichment.removeRecipe(<mekanism:otherdust:3>);
-crusher.removeRecipe(<minecraft:gunpowder>);
 injection.removeRecipe(<mekanism:otherdust:3>);
 
 //Remove unrealistic item->gas conversions, readd osmium->gas conversion
@@ -173,12 +159,7 @@ injection.removeRecipe(<mekanism:otherdust:3>);
 GasConversion.unregisterAll();
 GasConversion.register(<ore:ingotOsmium>, <gas:liquidosmium> * 200);
 
-//Remove some miscelaneous unrealistic recipes
-crusher.removeRecipe(<minecraft:string>);
-crusher.removeRecipe(<libvulpes:productingot:3>);
-
 //Remove handcrafting of HDPE and move it to plastic extruder
-enrichment.removeRecipe(<mekanism:polyethene:0>);
 removeAndHide(<mekanism:polyethene:1>);
 recipes.remove(<mekanism:polyethene:*>);
 
@@ -191,43 +172,6 @@ recipes.addShaped(<mekanism:basicblock:8>,
 
 //Make Osmium only arc-furnace-able
 furnace.remove(<ore:ingotOsmium>);
-
-//Sawmill plank compat
-//PVJ
-sawmill.addRecipe(<pvj:log_willow>, <pvj:planks_willow> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_mangrove>, <pvj:planks_mangrove> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_palm>, <pvj:planks_palm> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_redwood>, <pvj:planks_redwood> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_fir>, <pvj:planks_fir> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_pine>, <pvj:planks_pine> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_aspen>, <pvj:planks_aspen> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_maple>, <pvj:planks_maple> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_baobab>, <pvj:planks_baobab> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_cottonwood>, <pvj:planks_cottonwood> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_juniper>, <pvj:planks_juniper> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_cherry_blossom>, <pvj:planks_cherry_blossom> * 6, <mekanism:sawdust>, 1.0);
-sawmill.addRecipe(<pvj:log_jacaranda>, <pvj:planks_jacaranda> * 6, <mekanism:sawdust>, 1.0);
-//Sawmill stick compat
-//PVJ
-sawmill.addRecipe(<pvj:planks_willow>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_mangrove>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_palm>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_redwood>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_fir>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_pine>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_aspen>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_maple>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_baobab>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_cottonwood>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_juniper>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_cherry_blossom>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-sawmill.addRecipe(<pvj:planks_jacaranda>, <minecraft:stick> * 6, <mekanism:sawdust>, 0.25);
-//Sawmill composter wierdness removal
-//Why? Why did logs with no planks made _charm composters_? The world will never know.
-sawmill.removeRecipe(<biomesoplenty:log_4:4>);
-sawmill.removeRecipe(<biomesoplenty:log_4:5>);
-sawmill.removeRecipe(<minecraft:log:*>, <charm:composter>);
-sawmill.removeRecipe(<minecraft:log2:*>, <charm:composter>);
 
 
 //Add some use to the chemical injection chamber
@@ -259,109 +203,12 @@ compressor.addRecipe(<contenttweaker:refined_glowstone_dust>, <gas:liquidosmium>
 crystallizer.addRecipe(<gas:lithium> * 100, <mekanism:otherdust:4>);
 
 //Mekanism transmitter recipes, make universal cables into superconductors
-//Some of these are on the verge of being removed if not for the fact that logistical transporters are pretty dumb routing-wise and sometimes LogisticsPipes just doesn't cut it
-//Mechanical pipes are just ITCHING to go, though
-recipes.remove(<mekanism:transmitter:*>);
+removeAndHide(<mekanism:transmitter:*>);
 //Universal cables (ultimate to superconductor)
-hide(<mekanism:transmitter:0>);
-hide(<mekanism:transmitter:0>.withTag({tier: 1}));
-hide(<mekanism:transmitter:0>.withTag({tier: 2}));
 addItem(<mekanism:transmitter:0>.withTag({tier: 3}));
-//Mechanical Pipes
-recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 0}) * 8,
- [[<ore:ingotSteel>, <ore:blockGlass>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 1}) * 8,
- [[<mekanism:transmitter:1>.withTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0})],
- [<mekanism:transmitter:1>.withTag({tier: 0}), <ore:circuitAdvanced>, <mekanism:transmitter:1>.withTag({tier: 0})],
- [<mekanism:transmitter:1>.withTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0}), <mekanism:transmitter:1>.withTag({tier: 0})]]);
-recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 2}) * 8,
- [[<mekanism:transmitter:1>.withTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1})],
- [<mekanism:transmitter:1>.withTag({tier: 1}), <ore:circuitElite>, <mekanism:transmitter:1>.withTag({tier: 1})],
- [<mekanism:transmitter:1>.withTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1}), <mekanism:transmitter:1>.withTag({tier: 1})]]);
-recipes.addShaped(<mekanism:transmitter:1>.withTag({tier: 3}) * 8,
- [[<mekanism:transmitter:1>.withTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2})],
- [<mekanism:transmitter:1>.withTag({tier: 2}), <ore:circuitUltimate>, <mekanism:transmitter:1>.withTag({tier: 2})],
- [<mekanism:transmitter:1>.withTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2}), <mekanism:transmitter:1>.withTag({tier: 2})]]);
-//Pressurized Tubes
-recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 0}) * 8,
- [[<ore:ingotSteel>, <mekanism:basicblock:10>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 1}) * 8,
- [[<mekanism:transmitter:2>.withTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0})],
- [<mekanism:transmitter:2>.withTag({tier: 0}), <ore:circuitAdvanced>, <mekanism:transmitter:2>.withTag({tier: 0})],
- [<mekanism:transmitter:2>.withTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0}), <mekanism:transmitter:2>.withTag({tier: 0})]]);
-recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 2}) * 8,
- [[<mekanism:transmitter:2>.withTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1})],
- [<mekanism:transmitter:2>.withTag({tier: 1}), <ore:circuitElite>, <mekanism:transmitter:2>.withTag({tier: 1})],
- [<mekanism:transmitter:2>.withTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1}), <mekanism:transmitter:2>.withTag({tier: 1})]]);
-recipes.addShaped(<mekanism:transmitter:2>.withTag({tier: 3}) * 8,
- [[<mekanism:transmitter:2>.withTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2})],
- [<mekanism:transmitter:2>.withTag({tier: 2}), <ore:circuitUltimate>, <mekanism:transmitter:2>.withTag({tier: 2})],
- [<mekanism:transmitter:2>.withTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2}), <mekanism:transmitter:2>.withTag({tier: 2})]]);
-//Logistical Transporter
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 0}) * 8,
- [[<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 1}) * 8,
- [[<mekanism:transmitter:3>.withTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0})],
- [<mekanism:transmitter:3>.withTag({tier: 0}), <ore:circuitAdvanced>, <mekanism:transmitter:3>.withTag({tier: 0})],
- [<mekanism:transmitter:3>.withTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0}), <mekanism:transmitter:3>.withTag({tier: 0})]]);
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 2}) * 8,
- [[<mekanism:transmitter:3>.withTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1})],
- [<mekanism:transmitter:3>.withTag({tier: 1}), <ore:circuitElite>, <mekanism:transmitter:3>.withTag({tier: 1})],
- [<mekanism:transmitter:3>.withTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1}), <mekanism:transmitter:3>.withTag({tier: 1})]]);
-recipes.addShaped(<mekanism:transmitter:3>.withTag({tier: 3}) * 8,
- [[<mekanism:transmitter:3>.withTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2})],
- [<mekanism:transmitter:3>.withTag({tier: 2}), <ore:circuitUltimate>, <mekanism:transmitter:3>.withTag({tier: 2})],
- [<mekanism:transmitter:3>.withTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2}), <mekanism:transmitter:3>.withTag({tier: 2})]]);
-//Restrictive and Diversion
-recipes.addShaped(<mekanism:transmitter:4> * 2,
- [[<ore:ingotSteel>, <ore:barsIron>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:transmitter:5> * 2,
- [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
- [<ore:ingotSteel>, <ore:barsIron>, <ore:ingotSteel>],
- [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
-//Thermodynamic conductors
-recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 0}) * 8,
- [[<ore:ingotSteel>, <ore:ingotCopper>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 1}) * 8,
- [[<mekanism:transmitter:6>.withTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0})],
- [<mekanism:transmitter:6>.withTag({tier: 0}), <ore:circuitAdvanced>, <mekanism:transmitter:6>.withTag({tier: 0})],
- [<mekanism:transmitter:6>.withTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0}), <mekanism:transmitter:6>.withTag({tier: 0})]]);
-recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 2}) * 8,
- [[<mekanism:transmitter:6>.withTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1})],
- [<mekanism:transmitter:6>.withTag({tier: 1}), <ore:circuitElite>, <mekanism:transmitter:6>.withTag({tier: 1})],
- [<mekanism:transmitter:6>.withTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1}), <mekanism:transmitter:6>.withTag({tier: 1})]]);
-recipes.addShaped(<mekanism:transmitter:6>.withTag({tier: 3}) * 8,
- [[<mekanism:transmitter:6>.withTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2})],
- [<mekanism:transmitter:6>.withTag({tier: 2}), <ore:circuitUltimate>, <mekanism:transmitter:6>.withTag({tier: 2})],
- [<mekanism:transmitter:6>.withTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2}), <mekanism:transmitter:6>.withTag({tier: 2})]]);
-
 
 //Mekanism side of circuit production
-//If/when I backport the IE sawmill block these are moving over to that and the sawmill is being removed
-sawmill.addRecipe(<ore:blockGlassColorless>, <contenttweaker:glass_lens> * 4);
-sawmill.addRecipe(<ore:blockLapis>, <contenttweaker:lapis_lens> * 4);
-sawmill.addRecipe(<ore:blockEmerald>, <contenttweaker:emerald_lens> * 4);
-sawmill.addRecipe(<advancedrocketry:crystal:2>, <contenttweaker:emerald_lens> * 4);
-sawmill.addRecipe(<charm:ender_pearl_block>, <contenttweaker:ender_pearl_lens> * 4);
-sawmill.addRecipe(<advancedrocketry:crystal:3>, <contenttweaker:ruby_lens> * 4);
-sawmill.addRecipe(<ore:blockDiamond>, <contenttweaker:diamond_lens> * 4);
 recipes.remove(<mekanism:controlcircuit:*>);
-sawmill.addRecipe(<ore:plankTreatedWood>, <contenttweaker:treated_wood_circuit_board> * 6);
-sawmill.addRecipe(<contenttweaker:gallium_doped_silicon_boule>, <contenttweaker:gallium_doped_silicon_wafer> * 16);
-sawmill.addRecipe(<contenttweaker:lithium_doped_silicon_boule>, <contenttweaker:lithium_doped_silicon_wafer> * 16);
-sawmill.addRecipe(<contenttweaker:integrated_circuit_wafer>, <contenttweaker:integrated_circuit_plate> * 8);
-sawmill.addRecipe(<contenttweaker:cpu_wafer>, <contenttweaker:cpu_plate> * 8);
-sawmill.addRecipe(<contenttweaker:nand_memory_wafer>, <contenttweaker:nand_memory_plate> * 8);
-sawmill.addRecipe(<contenttweaker:ram_wafer>, <contenttweaker:ram_plate> * 16);
-sawmill.addRecipe(<contenttweaker:soc_wafer>, <contenttweaker:soc_plate> * 4);
-
-//Remove Enrichment Chamber gem ore processing, use the Marx Generator
-enrichment.removeRecipe(<ore:oreCoal>);
-enrichment.removeRecipe(<ore:oreLapis>);
-enrichment.removeRecipe(<ore:oreRedstone>);
-enrichment.removeRecipe(<ore:oreQuartz>);
-enrichment.removeRecipe(<ore:oreDiamond>);
-enrichment.removeRecipe(<ore:oreEmerald>);
 
 //Mekanism multiblock pieces
 recipes.remove(<mekanism:basicblock:9>);
@@ -373,7 +220,7 @@ recipes.remove(<mekanism:basicblock2:1>);
 recipes.remove(<mekanism:basicblock2:2>);
 recipes.addShaped(<mekanism:basicblock:9> * 4,
  [[<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <engineersdecor:rebar_concrete>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <contenttweaker:plascrete>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>]]);
 recipes.addShaped(<mekanism:basicblock:11>,
  [[<engineersdecor:straight_pipe_valve>, <mekanism:basicblock:9>, <engineersdecor:straight_pipe_valve>],
@@ -426,31 +273,19 @@ separator.addRecipe(<liquid:richbrine> * 3, 1200, <gas:hydrogen> * 1, <gas:chlor
 //T3 is Titanium Aluminide-Elite Circuit
 //T4 is Titanium-Ultimate Circuit
 //The colors match really well!
-recipes.remove(<mekanism:machineblock:0>);
 recipes.remove(<mekanism:machineblock:1>);
 recipes.remove(<mekanism:machineblock:2>);
-recipes.remove(<mekanism:machineblock:3>);
-recipes.remove(<mekanism:machineblock:4>);
 recipes.remove(<mekanism:machineblock:9>);
-recipes.remove(<mekanism:machineblock:10>);
 recipes.remove(<mekanism:machineblock2:0>);
 recipes.remove(<mekanism:machineblock2:1>);
-recipes.remove(<mekanism:machineblock2:2>);
 recipes.remove(<mekanism:machineblock2:3>);
 recipes.remove(<mekanism:machineblock2:4>);
-recipes.remove(<mekanism:machineblock2:5>);
 recipes.remove(<mekanism:machineblock2:6>);
 recipes.remove(<mekanism:machineblock2:7>);
 recipes.remove(<mekanism:machineblock2:8>);
 recipes.remove(<mekanism:machineblock2:9>);
-recipes.remove(<mekanism:machineblock2:10>);
-recipes.remove(<mekanism:machineblock2:12>);
 recipes.remove(<mekanism:machineblock2:13>);
 recipes.remove(<mekanism:machineblock2:14>);
-recipes.addShaped(<mekanism:machineblock:0>,
- [[<ore:ingotConstantan>, <ore:circuitAdvanced>, <ore:ingotConstantan>],
- [<minecraft:cauldron>, <mekanism:basicblock:8>, <minecraft:cauldron>],
- [<ore:ingotConstantan>, <ore:circuitAdvanced>, <ore:ingotConstantan>]]);
 recipes.addShaped(<mekanism:machineblock:1>,
  [[<ore:ingotConstantan>, <ore:circuitAdvanced>, <ore:ingotConstantan>],
  [<mekanism:machineblock:13>, <mekanism:basicblock:8>, <mekanism:machineblock:13>],
@@ -459,18 +294,6 @@ recipes.addShaped(<mekanism:machineblock:2>,
  [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
  [<mekanism:machineblock:13>, <mekanism:basicblock:8>, <mekanism:machineblock:13>],
  [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
-recipes.addShaped(<mekanism:machineblock:3>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<ore:dustDiamond>, <mekanism:basicblock:8>, <ore:dustDiamond>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
-recipes.addShaped(<mekanism:machineblock:4>,
- [[<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>],
- [<mekanism:teleportationcore>, <mekanism:robit>, <mekanism:teleportationcore>],
- [<mekanism:machineblock:15>, <mekanism:basicblock:8>, <mekanism:machineblock:15>]]);
-recipes.addShaped(<mekanism:machineblock:10>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<immersiveengineering:metal_device1:1>, <mekanism:basicblock:8>, <immersiveengineering:metal_device1:1>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
 recipes.addShaped(<mekanism:machineblock2:0>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<mekanism:gastank>, <mekanism:basicblock:8>, <immersivetech:metal_barrel:2>],
@@ -479,10 +302,6 @@ recipes.addShaped(<mekanism:machineblock2:1>,
  [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
  [<mekanism:machineblock:13>, <mekanism:basicblock:9>, <mekanism:gastank>],
  [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
-recipes.addShaped(<mekanism:machineblock2:2>,
- [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
- [<mekanism:gastank>, <mekanism:basicblock:9>, <mekanism:gastank>],
- [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
 recipes.addShaped(<mekanism:machineblock2:3>,
  [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
  [<mekanism:gastank>, <mekanism:basicblock:9>, <mekanism:machineblock:13>],
@@ -490,10 +309,6 @@ recipes.addShaped(<mekanism:machineblock2:3>,
 recipes.addShaped(<mekanism:machineblock2:4>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<immersiveengineering:graphite_electrode>, <mekanism:basicblock:8>, <immersiveengineering:graphite_electrode>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
-recipes.addShaped(<mekanism:machineblock2:5>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<advancedrocketry:sawbladeiron>, <mekanism:basicblock:8>, <advancedrocketry:sawbladeiron>],
  [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
 recipes.addShaped(<mekanism:machineblock2:6>,
  [[<ore:circuitUltimate>, <mekanism:gastank>, <ore:circuitUltimate>],
@@ -511,14 +326,6 @@ recipes.addShaped(<mekanism:machineblock2:9>,
  [[<ore:ingotSteel>, <ore:paneGlassColorless>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <engineersdecor:thin_steel_pole>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:machineblock2:10>,
- [[<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>],
- [<ore:circuitAdvanced>, <mekanism:basicblock:8>, <ore:circuitAdvanced>],
- [<mekanism:gastank>, <mekanism:basicblock:9>, <mekanism:gastank>]]);
-recipes.addShaped(<mekanism:machineblock2:12>,
- [[<ore:ingotTin>, <ore:barsIron>, <ore:ingotTin>],
- [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
- [<ore:ingotTin>, <ore:barsIron>, <ore:ingotTin>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<mekanism:energytablet>, <mekanism:basicblock:8>, <contenttweaker:glass_lens>],
@@ -693,12 +500,3 @@ recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 3}),
  [[<ore:circuitUltimate>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitUltimate>],
  [<forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <mekanism:basicblock2:4>.withTag({tier: 2}), <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000})],
  [<ore:circuitUltimate>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitUltimate>]]);
-
-//H2SO4 from oil products
-//You should really be using the MM or IE versions of these but ah well. Sure, use these. They're as expensive as anything but I guess smaller.
-infuser.addRecipe(<gas:hydrogensulfide> * 2, <gas:oxygen> * 3, <gas:sulfurdioxide> * 2);
-infuser.addRecipe(<gas:nitrogengas>, <gas:oxygen> * 2, <gas:nitrogendioxide> * 2);
-infuser.addRecipe(<gas:nitrogengas>, <gas:hydrogen> * 3, <gas:ammonia> * 2);
-
-//Simple separator recipes
-separator.addRecipe(<liquid:moltenlithiumchloride> * 2, 480, <gas:lithium> * 2, <gas:chlorine>);

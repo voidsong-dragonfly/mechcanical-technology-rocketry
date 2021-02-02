@@ -15,15 +15,6 @@ dirty_water_reclamation.addItemOutput(<minecraft:clay_ball>).setChance(0.02);
 dirty_water_reclamation.addFluidOutput(<liquid:water> * 20);
 dirty_water_reclamation.build();
 
-//Mercury production
-var mercury = newBuilder("mercury", "large_pressurized_reaction_chamber", 600);
-mercury.addMekanismHeatInput(0, 400, (1.0/0));
-mercury.addFluidInput(<liquid:liquidoxygen> * 4800);
-mercury.addItemInput(<contenttweaker:cinnabar_dust> * 48);
-mercury.addFluidOutput(<liquid:mercury> * 4800);
-mercury.addFluidOutput(<liquid:liquidsulfurdioxide> * 4800);
-mercury.build();
-
 //Heated Air production
 var heated_air = newBuilder("heated_air", "blast_preheater", 1);
 heated_air.addMekanismHeatInput(0, 1500, (1.0/0));
@@ -37,14 +28,6 @@ slag.addFluidInput(<liquid:moltenslag> * 1200);
 slag.addItemOutput(<immersiveengineering:material:7> * 12);
 slag.build();
 
-//Aluminium hydroxide pre-Bayer production
-var aluminium_hydroxide = newBuilder("aluminium_hydroxide", "large_pressurized_reaction_chamber", 300);
-aluminium_hydroxide.addEnergyPerTickInput(1024);
-aluminium_hydroxide.addItemInput(<contenttweaker:alumina_dust> * 16);
-aluminium_hydroxide.addFluidInput(<liquid:distwater> * 4800);
-aluminium_hydroxide.addItemOutput(<contenttweaker:aluminium_hydroxide> * 16);
-aluminium_hydroxide.build();
-
 //Aluminium Processing
 var washed_bauxite_ore_dust = newBuilder("washed_bauxite_ore_dust", "washing_plant", 600);
 washed_bauxite_ore_dust.addEnergyPerTickInput(320);
@@ -53,20 +36,6 @@ washed_bauxite_ore_dust.addFluidInput(<liquid:water> * 3200);
 washed_bauxite_ore_dust.addItemOutput(<contenttweaker:washed_bauxite_ore_dust> * 24);
 washed_bauxite_ore_dust.addFluidOutput(<liquid:dirtywater> * 3200);
 washed_bauxite_ore_dust.build();
-var impure_sodium_aluminate = newBuilder("impure_sodium_aluminate", "large_pressurized_reaction_chamber", 300);
-impure_sodium_aluminate.addEnergyPerTickInput(256);
-impure_sodium_aluminate.addMekanismHeatInput(0, 250, 290);
-impure_sodium_aluminate.addItemInput(<contenttweaker:washed_bauxite_ore_dust> * 16);
-impure_sodium_aluminate.addFluidInput(<liquid:sodiumhydroxidesolution> * 2400);
-impure_sodium_aluminate.addFluidOutput(<liquid:impuresodiumaluminatesolution> * 2400);
-impure_sodium_aluminate.build();
-var sodium_aluminate = newBuilder("sodium_aluminate", "large_pressurized_reaction_chamber", 300);
-sodium_aluminate.addEnergyPerTickInput(128);
-sodium_aluminate.addItemInput(<earthworks:item_quicklime> * 12);
-sodium_aluminate.addFluidInput(<liquid:impuresodiumaluminatesolution> * 2400);
-sodium_aluminate.addFluidOutput(<liquid:sodiumaluminatesolution> * 2400);
-sodium_aluminate.addItemOutput(<contenttweaker:red_mud_sludge> * 6);
-sodium_aluminate.build();
 furnace.addRecipe(<contenttweaker:calcined_red_mud>, <contenttweaker:red_mud_sludge>);
 var red_mud_separation = newBuilder("red_mud_separation", "magnetic_separator", 4800);
 red_mud_separation.addEnergyPerTickInput(3072);
@@ -82,13 +51,6 @@ red_mud_separation.addItemOutput(<contenttweaker:rutile_dust>).setChance(0.4);
 red_mud_separation.addItemOutput(<contenttweaker:gallium_dust>).setChance(0.5);
 red_mud_separation.addItemOutput(<contenttweaker:gallium_dust>).setChance(0.25);
 red_mud_separation.build();
-var sodium_hydroxide_solution = newBuilder("sodium_hydroxide_solution", "large_pressurized_reaction_chamber", 300);
-sodium_hydroxide_solution.addEnergyPerTickInput(256);
-sodium_hydroxide_solution.addItemInput(<contenttweaker:aluminium_hydroxide>);
-sodium_hydroxide_solution.addFluidInput(<liquid:sodiumaluminatesolution> * 2400);
-sodium_hydroxide_solution.addFluidOutput(<liquid:sodiumhydroxidesolution> * 2400);
-sodium_hydroxide_solution.addItemOutput(<contenttweaker:aluminium_hydroxide> * 25);
-sodium_hydroxide_solution.build();
 furnace.addRecipe(<contenttweaker:alumina_dust>, <contenttweaker:aluminium_hydroxide>);
 furnace.addRecipe(<contenttweaker:alumina_dust>, <contenttweaker:washed_bauxite_ore_dust>);
 Mixer.addRecipe(<liquid:moltencryolitesolution> * 100, <liquid:moltencryolite> * 100, [<contenttweaker:alumina_dust>], 4000);
@@ -116,6 +78,7 @@ cast_aluminium_rod.addItemInput(<immersiveengineering:mold:2>).setChance(0);
 cast_aluminium_rod.addItemOutput(<immersiveengineering:material:3> * 16);
 cast_aluminium_rod.build();
 
+
 //Uranium processing
 var washed_uranium_ore_dust = newBuilder("washed_uranium_ore_dust", "washing_plant", 600);
 washed_uranium_ore_dust.addEnergyPerTickInput(320);
@@ -125,13 +88,6 @@ washed_uranium_ore_dust.addItemOutput(<contenttweaker:washed_uranium_ore_dust> *
 washed_uranium_ore_dust.addFluidOutput(<liquid:dirtywater> * 3200);
 washed_uranium_ore_dust.build();
 Mixer.addRecipe(<liquid:uraniumsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<contenttweaker:washed_uranium_ore_dust>], 4000);
-var ammonium_diuranate = newBuilder("ammonium_diuranate", "large_pressurized_reaction_chamber", 600);
-ammonium_diuranate.addEnergyPerTickInput(256);
-ammonium_diuranate.addFluidInput(<liquid:ammonia> * 600);
-ammonium_diuranate.addFluidInput(<liquid:uraniumsulfatesolution> * 2400);
-ammonium_diuranate.addFluidOutput(<liquid:uraniumtailingssolution> * 2400);
-ammonium_diuranate.addItemOutput(<contenttweaker:ammonium_diuranate> * 6);
-ammonium_diuranate.build();
 var uranium_tailings = newBuilder("uranium_tailings", "washing_plant", 100);
 uranium_tailings.addEnergyPerTickInput(320);
 uranium_tailings.addItemInput(<contenttweaker:stone_dust> * 16);
@@ -147,13 +103,7 @@ yellowcake_agglomerate.addFluidInput(<liquid:water> * 800);
 yellowcake_agglomerate.addItemOutput(<contenttweaker:yellowcake_agglomerate> * 24);
 yellowcake_agglomerate.build();
 Crusher.addRecipe(<contenttweaker:fine_yellowcake>, <contenttweaker:yellowcake_agglomerate>, 2400);
-var uranium_dioxide = newBuilder("uranium_dioxide", "large_pressurized_reaction_chamber", 600);
-uranium_dioxide.addEnergyPerTickInput(256);
-uranium_dioxide.addItemInput(<contenttweaker:fine_yellowcake> * 24);
-uranium_dioxide.addFluidInput(<liquid:liquidhydrogen> * 1600);
-uranium_dioxide.addItemOutput(<immersiveengineering:metal:14> * 24);
-uranium_dioxide.addFluidOutput(<liquid:water> * 1600);
-uranium_dioxide.build();
+
 
 //Iron Processing
 var washed_iron_ore_dust = newBuilder("washed_iron_ore_dust", "washing_plant", 600);
@@ -391,14 +341,6 @@ washed_lead_ore_dust.addFluidInput(<liquid:water> * 3200);
 washed_lead_ore_dust.addItemOutput(<contenttweaker:washed_lead_ore_dust> * 24);
 washed_lead_ore_dust.addFluidOutput(<liquid:dirtywater> * 3200);
 washed_lead_ore_dust.build();
-var lead_sinter = newBuilder("lead_sinter", "large_pressurized_reaction_chamber", 600);
-lead_sinter.addMekanismHeatInput(0, 1600, (1.0/0));
-lead_sinter.addItemInput(<contenttweaker:washed_lead_ore_dust> * 32);
-lead_sinter.addItemInput(<ore:dustIron>, 8);
-lead_sinter.addItemInput(<ore:sand>, 16);
-lead_sinter.addItemInput(<ore:flux>, 16);
-lead_sinter.addItemOutput(<contenttweaker:lead_sinter> * 48);
-lead_sinter.build();
 var molten_lead = newBuilder("molten_lead", "large_blast_furnace", 2400);
 molten_lead.addFluidInput(<liquid:heatedair> * 96000);
 molten_lead.addItemInput(<contenttweaker:lead_sinter> * 192);
@@ -462,23 +404,6 @@ rutile_dust.addItemOutput(<contenttweaker:rutile_dust> * 64);
 rutile_dust.addItemOutput(<contenttweaker:rutile_dust> * 64);
 rutile_dust.addItemOutput(<contenttweaker:rutile_dust> * 64);
 rutile_dust.build();
-var titanium_tetrachloride = newBuilder("titanium_tetrachloride", "large_pressurized_reaction_chamber", 2400);
-titanium_tetrachloride.addEnergyPerTickInput(800);
-titanium_tetrachloride.addItemInput(<contenttweaker:rutile_dust> * 8);
-titanium_tetrachloride.addItemInput(<ore:dustAnyCarbon>, 16);
-titanium_tetrachloride.addGasInput("chlorine", 1600);
-titanium_tetrachloride.addGasOutput("titaniumtetrachloride", 800);
-titanium_tetrachloride.build();
-var titanium = newBuilder("titanium", "large_pressurized_reaction_chamber", 2400);
-titanium.addEnergyPerTickInput(100);
-titanium.addMekanismHeatInput(0, 800, (1.0/0));
-titanium.addItemInput(<contenttweaker:magnesium_dust> * 16);
-titanium.addGasInput("titaniumtetrachloride", 800);
-titanium.addItemOutput(<libvulpes:productdust:7> * 8);
-//Low return for a reason, keep producing that magnesium chloride
-titanium.addItemOutput(<contenttweaker:magnesium_chloride> * 8);
-titanium.addItemOutput(<contenttweaker:magnesium_chloride> * 8).setChance(0.875);
-titanium.build();
 
 //Platinum Processing
 var platinum_group_metal_dust_pt = newBuilder("platinum_group_metal_dust_pt", "sluice", 75);
@@ -502,78 +427,8 @@ platinum_group_metal_dust_os.build();
 Mixer.addRecipe(<liquid:nitricacidhydrochloridept> * 100, <liquid:nitricacidhydrochloride> * 100, [<contenttweaker:platinum_group_metal_dust_pt>], 4000);
 Mixer.addRecipe(<liquid:nitricacidhydrochlorideir> * 100, <liquid:nitricacidhydrochloride> * 100, [<contenttweaker:platinum_group_metal_dust_ir>], 4000);
 Mixer.addRecipe(<liquid:nitricacidhydrochlorideos> * 100, <liquid:nitricacidhydrochloride> * 100, [<contenttweaker:platinum_group_metal_dust_os>], 4000);
-var ammonium_chloroplatinate_pt = newBuilder("ammonium_chloroplatinate_pt", "large_pressurized_reaction_chamber", 1600);
-ammonium_chloroplatinate_pt.addEnergyPerTickInput(1024);
-ammonium_chloroplatinate_pt.addFluidInput(<liquid:nitricacidhydrochloridept> * 1600);
-ammonium_chloroplatinate_pt.addItemInput(<contenttweaker:ammonium_chloride> * 24);
-ammonium_chloroplatinate_pt.addFluidOutput(<liquid:nitricacidhydrochlorideptprocessed> * 1600);
-ammonium_chloroplatinate_pt.addItemOutput(<contenttweaker:ammonium_chloroplatinate> * 12);
-ammonium_chloroplatinate_pt.build();
-var ammonium_chloroplatinate_ir = newBuilder("ammonium_chloroplatinate_ir", "large_pressurized_reaction_chamber", 1600);
-ammonium_chloroplatinate_ir.addEnergyPerTickInput(1024);
-ammonium_chloroplatinate_ir.addFluidInput(<liquid:nitricacidhydrochlorideir> * 1600);
-ammonium_chloroplatinate_ir.addItemInput(<contenttweaker:ammonium_chloride> * 8);
-ammonium_chloroplatinate_ir.addFluidOutput(<liquid:nitricacidhydrochlorideirprocessed> * 1600);
-ammonium_chloroplatinate_ir.addItemOutput(<contenttweaker:ammonium_chloroplatinate> * 4);
-ammonium_chloroplatinate_ir.build();
-var ammonium_chloroplatinate_os = newBuilder("ammonium_chloroplatinate_os", "large_pressurized_reaction_chamber", 1600);
-ammonium_chloroplatinate_os.addEnergyPerTickInput(1024);
-ammonium_chloroplatinate_os.addFluidInput(<liquid:nitricacidhydrochlorideos> * 1600);
-ammonium_chloroplatinate_os.addItemInput(<contenttweaker:ammonium_chloride> * 4);
-ammonium_chloroplatinate_os.addFluidOutput(<liquid:nitricacidhydrochlorideosprocessed> * 1600);
-ammonium_chloroplatinate_os.addItemOutput(<contenttweaker:ammonium_chloroplatinate> * 2);
-ammonium_chloroplatinate_os.build();
 furnace.addRecipe(<contenttweaker:platinum_ingot>, <contenttweaker:ammonium_chloroplatinate>);
-var leach_residue_pt = newBuilder("leach_residue_pt", "large_pressurized_reaction_chamber", 1600);
-leach_residue_pt.addEnergyPerTickInput(256);
-leach_residue_pt.addFluidInput(<liquid:nitricacidhydrochlorideptprocessed> * 1600);
-leach_residue_pt.addItemInput(<immersiveengineering:material:24> * 4);
-leach_residue_pt.addFluidOutput(<liquid:nitricacidhydrochloride> * 1600);
-leach_residue_pt.addItemOutput(<contenttweaker:platinum_group_metal_leach_residue_pt> * 4);
-leach_residue_pt.build();
-var leach_residue_ir = newBuilder("leach_residue_ir", "large_pressurized_reaction_chamber", 1600);
-leach_residue_ir.addEnergyPerTickInput(256);
-leach_residue_ir.addFluidInput(<liquid:nitricacidhydrochlorideirprocessed> * 1600);
-leach_residue_ir.addItemInput(<immersiveengineering:material:24> * 12);
-leach_residue_ir.addFluidOutput(<liquid:nitricacidhydrochloride> * 1600);
-leach_residue_ir.addItemOutput(<contenttweaker:platinum_group_metal_leach_residue_ir> * 12);
-leach_residue_ir.build();
-var leach_residue_os = newBuilder("leach_residue_os", "large_pressurized_reaction_chamber", 1600);
-leach_residue_os.addEnergyPerTickInput(256);
-leach_residue_os.addFluidInput(<liquid:nitricacidhydrochlorideosprocessed> * 1600);
-leach_residue_os.addItemInput(<immersiveengineering:material:24> * 14);
-leach_residue_os.addFluidOutput(<liquid:nitricacidhydrochloride> * 1600);
-leach_residue_os.addItemOutput(<contenttweaker:platinum_group_metal_leach_residue_os> * 14);
-leach_residue_os.build();
-var osmium_acidic_solution_pt = newBuilder("osmium_acidic_solution_pt", "large_pressurized_reaction_chamber", 800);
-osmium_acidic_solution_pt.addEnergyPerTickInput(512);
-osmium_acidic_solution_pt.addFluidInput(<liquid:sulfuricacid> * 100);
-osmium_acidic_solution_pt.addItemInput(<contenttweaker:platinum_group_metal_leach_residue_pt> * 4);
-osmium_acidic_solution_pt.addFluidOutput(<liquid:osacidicsolution> * 100);
-osmium_acidic_solution_pt.addItemOutput(<libvulpes:productdust:10> * 3);
-osmium_acidic_solution_pt.build();
-var osmium_acidic_solution_ir = newBuilder("osmium_acidic_solution_ir", "large_pressurized_reaction_chamber", 800);
-osmium_acidic_solution_ir.addEnergyPerTickInput(512);
-osmium_acidic_solution_ir.addFluidInput(<liquid:sulfuricacid> * 400);
-osmium_acidic_solution_ir.addItemInput(<contenttweaker:platinum_group_metal_leach_residue_ir> * 12);
-osmium_acidic_solution_ir.addFluidOutput(<liquid:osacidicsolution> * 400);
-osmium_acidic_solution_ir.addItemOutput(<libvulpes:productdust:10> * 8);
-osmium_acidic_solution_ir.build();
-var osmium_acidic_solution_os = newBuilder("osmium_acidic_solution_os", "large_pressurized_reaction_chamber", 800);
-osmium_acidic_solution_os.addEnergyPerTickInput(512);
-osmium_acidic_solution_os.addFluidInput(<liquid:sulfuricacid> * 800);
-osmium_acidic_solution_os.addItemInput(<contenttweaker:platinum_group_metal_leach_residue_os> * 14);
-osmium_acidic_solution_os.addFluidOutput(<liquid:osacidicsolution> * 800);
-osmium_acidic_solution_os.addItemOutput(<libvulpes:productdust:10> * 6);
-osmium_acidic_solution_os.build();
-var osmium_dust = newBuilder("osmium_dust", "large_pressurized_reaction_chamber", 400);
-osmium_dust.addEnergyPerTickInput(256);
-osmium_dust.addFluidInput(<liquid:osacidicsolution> * 200);
-osmium_dust.addItemInput(<contenttweaker:magnesium_dust>);
-osmium_dust.addItemOutput(<mekanism:dust:2> * 2);
-osmium_dust.addItemOutput(<immersiveengineering:material:7> * 1);
-osmium_dust.addFluidOutput(<liquid:sulfuricacid> * 200);
-osmium_dust.build();
+
 
 //Gold Processing
 var impure_gold_riffle = newBuilder("impure_gold_riffle", "sluice", 150);
@@ -599,6 +454,7 @@ mercury_gold_amalgam.addFluidOutput(<liquid:mercury> * 1000);
 mercury_gold_amalgam.build();
 furnace.addRecipe(<minecraft:gold_ingot>, <contenttweaker:mercury_gold_amalgam>);
 
+
 //Silver processing
 var impure_silver_riffle = newBuilder("impure_silver_riffle", "sluice", 150);
 impure_silver_riffle.addFluidInput(<liquid:water> * 1800);
@@ -623,6 +479,7 @@ mercury_silver_amalgam.addFluidOutput(<liquid:mercury> * 1000);
 mercury_silver_amalgam.build();
 furnace.addRecipe(<immersiveengineering:metal:3>, <contenttweaker:mercury_silver_amalgam>);
 
+
 //Niobium processing
 //Associated with zirconium - same vein for both
 Crusher.addRecipe(<contenttweaker:pyrochlore_ore_dust> * 2, <ore:oreNiobium>, 4000, <immersive_energy:metal:2>, 0.1);
@@ -643,19 +500,11 @@ niobium_pentoxide.addFluidOutput(<liquid:moltenslag> * 100);
 niobium_pentoxide.addFluidOutput(<liquid:moltencrudeiron> * 300);
 niobium_pentoxide.addItemOutput(<contenttweaker:niobium_pentoxide_dust> * 12);
 niobium_pentoxide.build();
-var impure_niobium_dust = newBuilder("impure_niobium_dust", "large_pressurized_reaction_chamber", 300);
-impure_niobium_dust.addEnergyPerTickInput(512);
-impure_niobium_dust.addItemInput(<contenttweaker:niobium_pentoxide_dust> * 12);
-impure_niobium_dust.addItemInput(<ore:dustAluminum>, 40);
-impure_niobium_dust.addItemOutput(<contenttweaker:impure_niobium_dust> * 12);
-impure_niobium_dust.addItemOutput(<contenttweaker:alumina_dust> * 40);
-impure_niobium_dust.build();
 var niobium_ingot = newBuilder("niobium_ingot", "precision_laser_engraver", 200);
 niobium_ingot.addItemInput(<contenttweaker:impure_niobium_dust>);
 niobium_ingot.addItemInput(<contenttweaker:glass_lens>).setChance(0);
 niobium_ingot.addItemOutput(<contenttweaker:niobium_ingot>);
 niobium_ingot.build();
-
 
 
 //Zirconium processing
@@ -668,21 +517,3 @@ washed_zircon_ore_dust.addFluidInput(<liquid:water> * 3200);
 washed_zircon_ore_dust.addItemOutput(<contenttweaker:washed_zircon_ore_dust> * 24);
 washed_zircon_ore_dust.addFluidOutput(<liquid:dirtywater> * 3200);
 washed_zircon_ore_dust.build();
-var zirconium_tetrachloride = newBuilder("zirconium_tetrachloride", "large_pressurized_reaction_chamber", 2400);
-zirconium_tetrachloride.addEnergyPerTickInput(800);
-zirconium_tetrachloride.addItemInput(<contenttweaker:washed_zircon_ore_dust> * 8);
-zirconium_tetrachloride.addItemInput(<ore:dustAnyCarbon>, 16);
-zirconium_tetrachloride.addGasInput("chlorine", 1600);
-zirconium_tetrachloride.addGasOutput("zirconiumtetrachloride", 800);
-zirconium_tetrachloride.addItemOutput(<immersiveengineering:material:7> * 8);
-zirconium_tetrachloride.build();
-var zirconium = newBuilder("zirconium", "large_pressurized_reaction_chamber", 2400);
-zirconium.addEnergyPerTickInput(100);
-zirconium.addMekanismHeatInput(0, 800, (1.0/0));
-zirconium.addItemInput(<contenttweaker:magnesium_dust> * 16);
-zirconium.addGasInput("zirconiumtetrachloride", 800);
-zirconium.addItemOutput(<contenttweaker:zirconium_dust> * 8);
-//Low return for a reason, keep producing that magnesium chloride
-zirconium.addItemOutput(<contenttweaker:magnesium_chloride> * 8);
-zirconium.addItemOutput(<contenttweaker:magnesium_chloride> * 8).setChance(0.875);
-zirconium.build();

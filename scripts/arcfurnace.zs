@@ -61,6 +61,8 @@ ArcFurnace.addRecipe(<minecraft:glass> * 4, <contenttweaker:silicon_dioxide_dust
 
 //Ore processing
 ArcFurnace.addRecipe(<contenttweaker:niobium_ferroalloy_ingot> * 3, <contenttweaker:washed_pyrochlore_ore_dust> * 4, <immersiveengineering:material:7> * 2, 400, 512, [<ore:flux>]);
+ArcFurnace.addRecipe(<contenttweaker:lead_sinter> * 48, <contenttweaker:washed_lead_ore_dust> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);
+
 
 //Smelting (dusts)
 ArcFurnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, null, 100, 512, null, "Smelting");
