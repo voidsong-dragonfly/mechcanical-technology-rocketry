@@ -32,4 +32,257 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>minecraft:log</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:planks;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>minecraft:log;1;1</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:planks;6;1</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>minecraft:log;1;2</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:planks;6;2</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>minecraft:log;1;3</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:planks;6;3</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>minecraft:log2</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:planks;6;4</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>minecraft:log2;1;1</itemStack>
+        </input>
+		<output>
+			<itemStack>minecraft:planks;6;5</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>advancedrocketry:alienwood</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedrocketry:planks;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_willow</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_willow;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_mangrove</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_mangrove;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_palm</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_palm;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_redwood</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_redwood;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_fir</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_fir;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_pine</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_pine;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_aspen</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_aspen;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_maple</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_maple;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_baobab</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_baobab;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_cottonwood</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_cottonwood;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_juniper</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_juniper;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_cherry_blossom</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_cherry_blossom;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<itemStack>pvj:log_jacaranda</itemStack>
+        </input>
+		<output>
+			<itemStack>pvj:planks_jacaranda;6</itemStack>
+            <itemStack>mekanism:sawdust</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<oreDict>plankWood;4</oreDict>
+        </input>
+		<output>
+			<itemStack>minecraft:stick;24</itemStack>
+            <itemStack>mekanism:sawdust;1</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="128">
+		<input>
+			<oreDict>slabTreatedWood</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:treated_wood_circuit_board;4</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1200" power="192">
+		<input>
+			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:gallium_doped_silicon_wafer;16</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1200" power="192">
+		<input>
+			<itemStack>contenttweaker:lithium_doped_silicon_boule</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:lithium_doped_silicon_wafer;16</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="192">
+		<input>
+			<itemStack>contenttweaker:integrated_circuit_wafer</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:integrated_circuit_plate;8</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="192">
+		<input>
+			<itemStack>contenttweaker:cpu_wafer</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:cpu_plate;8</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="192">
+		<input>
+			<itemStack>contenttweaker:nand_memory_wafer</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:nand_memory_plate;8</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="192">
+		<input>
+			<itemStack>contenttweaker:ram_wafer</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ram_plate;16</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="192">
+		<input>
+			<itemStack>contenttweaker:soc_wafer</itemStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:soc_plate;4</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

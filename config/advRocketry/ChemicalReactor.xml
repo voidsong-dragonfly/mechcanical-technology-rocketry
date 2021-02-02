@@ -32,4 +32,425 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <Recipe timeRequired="200" power="256">
+		<input>
+			<fluidStack>richbrine;300</fluidStack>
+            <fluidStack>water;500</fluidStack>
+        </input>
+		<output>
+			<fluidStack>brine;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="768">
+		<input>
+			<fluidStack>carbondioxide;800</fluidStack>
+            <fluidStack>liquidhydrogen;2400</fluidStack>
+            <oreDict>dustCobalt;8</oreDict>
+        </input>
+		<output>
+			<fluidStack>methane;800</fluidStack>
+            <fluidStack>water;800</fluidStack>
+            <itemStack>contenttweaker:cobalt_dust;8</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="200" power="768">
+		<input>
+			<fluidStack>carbondioxide;800</fluidStack>
+            <fluidStack>liquidhydrogen;2400</fluidStack>
+            <oreDict>dustIron;8</oreDict>
+        </input>
+		<output>
+            <itemStack>immersiveengineering:metal;8;18</itemStack>
+			<fluidStack>liquidethene;800</fluidStack>
+            <fluidStack>water;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="1024">
+		<input>
+			<itemStack>contenttweaker:calcined_crushed_dolomite;2</itemStack>
+            <oreDict>dustSilicon</oreDict>
+        </input>
+		<output>
+            <itemStack>contenttweaker:magnesium_dust;2</itemStack>
+            <itemStack>immersiveengineering:material;1;7</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1920" power="800">
+		<input>
+			<fluidStack>liquidethene;1600</fluidStack>
+            <fluidStack>liquidoxygen;50</fluidStack>
+        </input>
+		<output>
+			<fluidStack>polyethene;4000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1920" power="800">
+		<input>
+			<fluidStack>liquidethene;1600</fluidStack>
+            <fluidStack>liquidoxygen;50</fluidStack>
+            <itemStack>mekanism:substrate;32</itemStack>
+        </input>
+		<output>
+            <itemStack>mekanism:polyethene;32</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="384">
+		<input>
+            <itemStack>contenttweaker:silicon_dioxide_dust_block</itemStack>
+			<oreDict>dustAnyCarbon;8</oreDict>
+        </input>
+		<output>
+			<fluidStack>carbondioxide;800</fluidStack>
+            <itemStack>libvulpes:productdust;8;3</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>hydrogensulfide;800</fluidStack>
+            <fluidStack>liquidoxygen;1200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidsulfurdioxide;800</fluidStack>
+            <fluidStack>water;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>liquidsulfurdioxide;800</fluidStack>
+            <fluidStack>liquidoxygen;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidsulfurtrioxide;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>liquidsulfurtrioxide;800</fluidStack>
+            <fluidStack>water;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuricacid;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="2048">
+		<input>
+			<fluidStack>liquidhydrogen;1200</fluidStack>
+            <fluidStack>nitrogengas;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>ammonia;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="2048">
+		<input>
+			<fluidStack>liquidhydrogen;400</fluidStack>
+            <fluidStack>liquidchlorine;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogenchloride;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>liquidhydrogen;800</fluidStack>
+            <fluidStack>liquidoxygen;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>hydrogenperoxide;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power="384">
+		<input>
+			<fluidStack>ammonia;1600</fluidStack>
+            <fluidStack>hydrogenperoxide;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>hydrazine;800</fluidStack>
+            <fluidStack>water;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>nitrogengas;400</fluidStack>
+            <fluidStack>liquidoxygen;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>nitrogendioxide;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>nitrogendioxide;800</fluidStack>
+            <fluidStack>hydrogenperoxide;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>nitricacid;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>nitricacid;200</fluidStack>
+            <fluidStack>liquidhydrogenchloride;600</fluidStack>
+        </input>
+		<output>
+			<fluidStack>nitricacidhydrochloride;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>ammonia;800</fluidStack>
+            <fluidStack>liquidhydrogenchloride;800</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ammonium_chloride;8</itemStack>
+		</output>
+	</Recipe>
+    
+    <Recipe timeRequired="4800" power="1024">
+		<input>
+			<oreDict>dustSilicon;64</oreDict>
+            <oreDict>dustGallium</oreDict>
+            <fluidStack>argon;4000</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+            <fluidStack>argon;3900</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="4800" power="2048">
+		<input>
+			<oreDict>dustSilicon;64</oreDict>
+            <oreDict>dustLithium</oreDict>
+            <fluidStack>argon;4000</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:lithium_doped_silicon_boule</itemStack>
+            <fluidStack>argon;3900</fluidStack>
+		</output>
+	</Recipe>
+    
+    
+    
+    <Recipe timeRequired="300" power="256">
+		<input>
+			<itemStack>contenttweaker:aluminium_hydroxide</itemStack>
+            <fluidStack>sodiumaluminatesolution;2400</fluidStack>
+        </input>
+		<output>
+            <fluidStack>sodiumhydroxidesolution;2400</fluidStack>
+            <itemStack>contenttweaker:aluminium_hydroxide;25</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="384">
+		<input>
+			<itemStack>contenttweaker:washed_bauxite_ore_dust;16</itemStack>
+            <fluidStack>sodiumhydroxidesolution;2400</fluidStack>
+        </input>
+		<output>
+            <fluidStack>impuresodiumaluminatesolution;2400</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="128">
+		<input>
+			<itemStack>earthworks:item_quicklime;12</itemStack>
+            <fluidStack>impuresodiumaluminatesolution;2400</fluidStack>
+        </input>
+		<output>
+            <fluidStack>sodiumaluminatesolution;2400</fluidStack>
+            <itemStack>contenttweaker:red_mud_sludge;6</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="1024">
+		<input>
+			<itemStack>contenttweaker:alumina_dust;16</itemStack>
+            <fluidStack>distwater;4800</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:aluminium_hydroxide;16</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="256">
+		<input>
+			<itemStack>contenttweaker:cinnabar_dust;48</itemStack>
+            <fluidStack>liquidoxygen;4800</fluidStack>
+        </input>
+		<output>
+            <fluidStack>mercury;4800</fluidStack>
+            <fluidStack>liquidsulfurdioxide;4800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="256">
+		<input>
+			<itemStack>contenttweaker:fine_yellowcake;24</itemStack>
+            <fluidStack>liquidhydrogen;1600</fluidStack>
+        </input>
+		<output>
+			<itemStack>immersiveengineering:metal;24;14</itemStack>
+            <fluidStack>water;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="256">
+		<input>
+            <fluidStack>ammonia;600</fluidStack>
+            <fluidStack>uraniumsulfatesolution;2400</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ammonium_diuranate;6</itemStack>
+            <fluidStack>uraniumtailingssolution;2400</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="300" power="512">
+		<input>
+            <itemStack>contenttweaker:niobium_pentoxide_dust;12</itemStack>
+            <oreDict>dustAluminum;40</oreDict>
+            <fluidStack>osacidicsolution;200</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:impure_niobium_dust;12</itemStack>
+            <itemStack>contenttweaker:alumina_dust;40</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="800">
+		<input>
+            <oreDict>dustRutile;8</oreDict>
+            <oreDict>dustAnyCarbon;16</oreDict>
+            <fluidStack>liquidchlorine;1600</fluidStack>
+        </input>
+		<output>
+            <fluidStack>titaniumtetrachloride;800</fluidStack>
+            <fluidStack>carbondioxide;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="384">
+		<input>
+            <oreDict>dustMagnesium;16</oreDict>
+            <fluidStack>titaniumtetrachloride;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>libvulpes:productdust;8;7</itemStack>
+            <itemStack>contenttweaker:magnesium_chloride;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="800">
+		<input>
+            <itemStack>contenttweaker:washed_zircon_ore_dust;8</itemStack>
+            <oreDict>dustAnyCarbon;16</oreDict>
+            <fluidStack>liquidchlorine;1600</fluidStack>
+        </input>
+		<output>
+            <fluidStack>zirconiumtetrachloride;800</fluidStack>
+            <fluidStack>carbondioxide;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="384">
+		<input>
+            <oreDict>dustMagnesium;16</oreDict>
+            <fluidStack>zirconiumtetrachloride;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:zirconium_dust;8</itemStack>
+            <itemStack>contenttweaker:magnesium_chloride;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1600" power="1024">
+		<input>
+            <itemStack>contenttweaker:ammonium_chloride;16</itemStack>
+            <fluidStack>nitricacidhydrochloridept;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:ammonium_chloroplatinate;12</itemStack>
+            <fluidStack>nitricacidhydrochlorideptprocessed;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1600" power="1024">
+		<input>
+            <itemStack>contenttweaker:ammonium_chloride;16</itemStack>
+            <fluidStack>nitricacidhydrochlorideir;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:ammonium_chloroplatinate;4</itemStack>
+            <fluidStack>nitricacidhydrochlorideirprocessed;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1600" power="1024">
+		<input>
+            <itemStack>contenttweaker:ammonium_chloride;16</itemStack>
+            <fluidStack>nitricacidhydrochlorideos;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:ammonium_chloroplatinate;2</itemStack>
+            <fluidStack>nitricacidhydrochlorideosprocessed;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1600" power="256">
+		<input>
+            <itemStack>immersiveengineering:material;4;24</itemStack>
+            <fluidStack>nitricacidhydrochlorideptprocessed;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:platinum_group_metal_leach_residue_pt;4</itemStack>
+            <fluidStack>nitricacidhydrochloride;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1600" power="256">
+		<input>
+            <itemStack>immersiveengineering:material;4;24</itemStack>
+            <fluidStack>nitricacidhydrochlorideirprocessed;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:platinum_group_metal_leach_residue_ir;12</itemStack>
+            <fluidStack>nitricacidhydrochloride;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1600" power="256">
+		<input>
+            <itemStack>immersiveengineering:material;4;24</itemStack>
+            <fluidStack>nitricacidhydrochlorideosprocessed;1600</fluidStack>
+        </input>
+		<output>
+            <itemStack>contenttweaker:platinum_group_metal_leach_residue_os;14</itemStack>
+            <fluidStack>nitricacidhydrochloride;1600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="800" power="512">
+		<input>
+            <itemStack>contenttweaker:platinum_group_metal_leach_residue_pt;4</itemStack>
+            <fluidStack>sulfuricacid;100</fluidStack>
+        </input>
+		<output>
+            <itemStack>libvulpes:productdust;3;10</itemStack>
+            <fluidStack>osacidicsolution;100</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="800" power="512">
+		<input>
+            <itemStack>contenttweaker:platinum_group_metal_leach_residue_ir;12</itemStack>
+            <fluidStack>sulfuricacid;400</fluidStack>
+        </input>
+		<output>
+            <itemStack>libvulpes:productdust;8;10</itemStack>
+            <fluidStack>osacidicsolution;400</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="800" power="512">
+		<input>
+            <itemStack>contenttweaker:platinum_group_metal_leach_residue_os;14</itemStack>
+            <fluidStack>sulfuricacid;800</fluidStack>
+        </input>
+		<output>
+            <itemStack>libvulpes:productdust;6;10</itemStack>
+            <fluidStack>osacidicsolution;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power="256">
+		<input>
+            <oreDict>dustMagnesium</oreDict>
+            <fluidStack>osacidicsolution;200</fluidStack>
+        </input>
+		<output>
+            <itemStack>mekanism:dust;2;2</itemStack>
+            <itemStack>immersiveengineering:material;1;7</itemStack>
+            <fluidStack>sulfuricacid;200</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>

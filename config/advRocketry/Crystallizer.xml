@@ -32,4 +32,15 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <Recipe timeRequired="3600" power="8192">
+		<input>
+			<oreDict>dustEmerald;16</oreDict>
+            <oreDict>dustOsmium;2</oreDict>
+            <fluidStack>helium;16000</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:raw_processor_crystal;16</itemStack>
+            <fluidStack>helium;15800</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>
