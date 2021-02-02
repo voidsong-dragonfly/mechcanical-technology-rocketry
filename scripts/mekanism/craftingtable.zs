@@ -261,6 +261,16 @@ recipes.addShaped(<mekanism:armoredjetpack>,
  [[<mekanism:polyethene:2>, null, <mekanism:polyethene:2>],
  [<ore:ingotBronze>, <immersiveengineering:steel_armor_chest>, <ore:ingotBronze>],
  [<mekanism:polyethene:2>, <mekanism:jetpack>, <mekanism:polyethene:2>]]);
+recipes.remove(<mekanism:scubatank>);
+recipes.remove(<mekanism:gasmask>);
+recipes.addShaped(<mekanism:gasmask>,
+ [[<ore:ingotBronze>, <mekanism:polyethene:2>, <ore:ingotBronze>],
+ [<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
+ [null, <ore:circuitBasic>, null]]);
+recipes.addShaped(<mekanism:scubatank>,
+ [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
+ [<advancedrocketry:pressuretank:1>, <ore:ingotSteel>, <advancedrocketry:pressuretank:1>],
+ [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
  
 //Robit
 recipes.remove(<mekanism:robit>);

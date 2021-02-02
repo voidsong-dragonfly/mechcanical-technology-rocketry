@@ -24,6 +24,7 @@ game.setLocalization("fluid.hydrotreatedoil", "Hydrotreated Oil");
 game.setLocalization("fluid.naphtha", "Naphtha");
 game.setLocalization("fluid.kerosene", "Kerosene");
 game.setLocalization("fluid.hydrogensulfide", "Hydrogen Sulfide");
+game.setLocalization("fluid.dilutedsulfuricacid", "Diluted Sulfuric Acid");
 game.setLocalization("fluid.polyethene", "Molten Polyethylene");
 game.setLocalization("gas.hydrogensulfide", "Pressurized Hydrogen Sulfide");
 game.setLocalization("fluid.hydrotreatedkerosene", "Hydrotreated Kerosene");

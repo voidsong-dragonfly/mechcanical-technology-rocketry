@@ -65,6 +65,16 @@
             <fluidStack>water;800</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="600" power="768">
+		<input>
+			<fluidStack>ethanol;800</fluidStack>
+            <fluidStack>sulfuricacid;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidethene;800</fluidStack>
+            <fluidStack>dilutedsulfuricacid;800</fluidStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="900" power="1024">
 		<input>
 			<itemStack>contenttweaker:calcined_crushed_dolomite;2</itemStack>
@@ -283,7 +293,6 @@
 		<input>
             <itemStack>contenttweaker:niobium_pentoxide_dust;12</itemStack>
             <oreDict>dustAluminum;40</oreDict>
-            <fluidStack>osacidicsolution;200</fluidStack>
         </input>
 		<output>
             <itemStack>contenttweaker:impure_niobium_dust;12</itemStack>
@@ -430,7 +439,7 @@
 		<output>
             <itemStack>mekanism:dust;2;2</itemStack>
             <itemStack>immersiveengineering:material;1;7</itemStack>
-            <fluidStack>sulfuricacid;200</fluidStack>
+            <fluidStack>sulfuricacid;175</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="600" power="256">

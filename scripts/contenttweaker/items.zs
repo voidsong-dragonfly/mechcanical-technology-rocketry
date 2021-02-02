@@ -27,6 +27,9 @@ createItem("petroleum_coke_dust").register();
 createItem("injection_mold_hdpe_rod").register();
 createItem("injection_mold_hdpe_sheet").register();
 
+//Charcoal processing items
+createItem("charcoal_precursor").register();
+
 //Circuit Pieces 
 createItem("tin_solder").register();
 createItem("smd_resistor").register();

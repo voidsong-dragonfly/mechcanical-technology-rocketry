@@ -232,6 +232,8 @@ recipes.remove(<immersiveengineering:shovel_steel>);
 recipes.remove(<immersiveengineering:pickaxe_steel>);
 recipes.remove(<immersiveengineering:axe_steel>);
 
+//Charcoal precursor
+recipes.addShapeless(<contenttweaker:charcoal_precursor>, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <immersivepetroleum:material>]);
 
 
 

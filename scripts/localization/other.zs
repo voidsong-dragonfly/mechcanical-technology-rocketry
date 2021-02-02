@@ -13,6 +13,9 @@ game.setLocalization("item.sawBlade.0.name", "Diamond Saw Blade");
 //Ultimate Universal Cable to "Superconducting Cable"
 game.setLocalization("tile.Transmitter.UltimateUniversalCable.name", "Superconducting Cable");
 
+//Bio Fuel to "Lightly Sulfated Ethanol Residue"
+game.setLocalization("item.BioFuel.name", "Lightly Sulfated Ethanol Resiude");
+
 //Make mekanism gasses "pressurized" but fluids normal
 game.setLocalization("gas.hydrogen", "Pressurized Hydrogen");
 game.setLocalization("gas.oxygen", "Pressurized Oxygen");

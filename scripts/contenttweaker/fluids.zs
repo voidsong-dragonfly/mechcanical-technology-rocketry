@@ -67,12 +67,12 @@ hydrotreatedoil.register();
 create_fluid("naphtha", "FCC1B8", 300, 750, 750);
 create_fluid("kerosene", "FFF4D1", 300, 810, 750);
 create_gas("hydrogensulfide", "F9F0D8");
+create_fluid("dilutedsulfuricacid", "755C27", 300, 1000, 1000);
 create_solid_fluid("polyethene", "FFFFFF", 400, 800, 2250);
 create_fluid("hydrotreatedkerosene", "FFF4D1", 300, 810, 750);
 create_fluid("lowsulfurkerosene", "FFF4D1", 300, 810, 750);
 create_fluid("lowcontaminatekerosene", "FFE3D1", 300, 810, 750);
 create_fluid("rp1", "EB2045", 300, 850, 750);
-
 
 //Gas processing fluids
 create_gas("naturalgas", "FFFFFF");

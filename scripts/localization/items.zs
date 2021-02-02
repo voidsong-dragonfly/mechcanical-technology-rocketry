@@ -12,6 +12,9 @@ game.setLocalization("item.contenttweaker.injection_mold_hdpe_sheet.name", "HDPE
 game.setLocalization("tile.contenttweaker.plascrete.name", "Plastic-Coated Rebar Concrete");
 game.setLocalization("item.PlaStick.name", "HDPE Rod");
 
+//Charcoal processing items
+game.setLocalization("item.contenttweaker.charcoal_precursor.name", "Charcoal Precursor");
+
 //Reaction Wheel
 game.setLocalization("item.contenttweaker.reaction_wheel.name", "Reaction Wheel");
 

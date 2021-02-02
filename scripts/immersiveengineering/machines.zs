@@ -1,4 +1,5 @@
 //Import
+import mods.immersivetechnology.Distiller;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BottlingMachine;
@@ -28,6 +29,9 @@ Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:
 //RP-1 Recipes
 Refinery.addRecipe(<liquid:hydrotreatedkerosene> * 200, <liquid:kerosene> * 200, <liquid:liquidhydrogen> * 1, 80);
 Distiller.addRecipe(<liquid:lowcontaminatekerosene> * 1000, <liquid:lowsulfurkerosene> * 1000, <forestry:ash>, 10000, 200, 0.01);
+
+//Diluted sulfuric acid -> sulfuric acid (small amount of loss)
+Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:dilutedsulfuricacid> * 1000, <mekanism:biofuel>, 250, 200, 1.0);
 
 //Lithiated water
 Mixer.addRecipe(<liquid:lithiatedwater> * 100, <liquid:water> * 100, [<ore:dustLithium>], 2000);
@@ -82,6 +86,7 @@ BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_
 BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits)
+CokeOven.addRecipe(<minecraft:coal:1>, 500, <contenttweaker:charcoal_precursor>, 900);
 CokeOven.addRecipe(<contenttweaker:charcoal_dust>, 0, <quark:black_ash>, 300);
 
 //Make Marx Generator only process gem ores but do it very well
