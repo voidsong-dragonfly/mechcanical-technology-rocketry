@@ -109,3 +109,6 @@ CharcoalWall.removeWall(<minecraft:end_bricks>.asBlock());
 //Add coke brick and reinforced coke brick as options
 CharcoalWall.addWallStack(<immersiveengineering:stone_decoration>, 4);
 CharcoalWall.addWallStack(<immersivetech:stone_decoration>, 7);
+
+//Remove MC cobweb recipes
+recipes.remove(<minecraft:web>);

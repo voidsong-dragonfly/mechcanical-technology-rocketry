@@ -2,7 +2,6 @@
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.Crusher;
 import mods.modularmachinery.RecipeBuilder.newBuilder;
-import mods.mekanism.crusher;
 import crafttweaker.oredict.IOreDictEntry;
 
 
@@ -482,8 +481,6 @@ furnace.addRecipe(<immersiveengineering:metal:3>, <contenttweaker:mercury_silver
 
 //Niobium processing
 //Associated with zirconium - same vein for both
-Crusher.addRecipe(<contenttweaker:pyrochlore_ore_dust> * 2, <ore:oreNiobium>, 4000, <immersive_energy:metal:2>, 0.1);
-crusher.addRecipe(<ore:oreNiobium>, <contenttweaker:pyrochlore_ore_dust> * 2);
 var washed_pyrochlore_ore_dust = newBuilder("washed_pyrochlore_ore_dust", "washing_plant", 600);
 washed_pyrochlore_ore_dust.addEnergyPerTickInput(320);
 washed_pyrochlore_ore_dust.addItemInput(<contenttweaker:pyrochlore_ore_dust> * 24);
@@ -508,8 +505,6 @@ niobium_ingot.build();
 
 
 //Zirconium processing
-Crusher.addRecipe(<contenttweaker:zircon_ore_dust> * 2, <ore:oreZirconium>, 4000, <contenttweaker:rutile_dust>, 0.05);
-crusher.addRecipe(<ore:oreZirconium>, <contenttweaker:zircon_ore_dust> * 2);
 var washed_zircon_ore_dust = newBuilder("washed_zircon_ore_dust", "washing_plant", 600);
 washed_zircon_ore_dust.addEnergyPerTickInput(320);
 washed_zircon_ore_dust.addItemInput(<contenttweaker:zircon_ore_dust> * 24);
