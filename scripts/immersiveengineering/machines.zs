@@ -33,6 +33,10 @@ Distiller.addRecipe(<liquid:lowcontaminatekerosene> * 1000, <liquid:lowsulfurker
 //Diluted sulfuric acid -> sulfuric acid (small amount of loss)
 Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:dilutedsulfuricacid> * 1000, <mekanism:biofuel>, 250, 200, 1.0);
 
+//Distiller recipes for salt drying
+Distiller.addRecipe(<liquid:water> * 1000, <liquid:magnesiumchloridesolution> * 1000, <contenttweaker:magnesium_chloride> * 10, 200, 250, 1.0);
+Distiller.addRecipe(<liquid:water> * 1000, <liquid:lithiumchloridesolution> * 1000, <contenttweaker:lithium_chloride> * 10, 200, 250, 1.0);
+
 //Lithiated water
 Mixer.addRecipe(<liquid:lithiatedwater> * 100, <liquid:water> * 100, [<ore:dustLithium>], 2000);
 
@@ -85,9 +89,10 @@ furnace.addRecipe(<contenttweaker:calcined_crushed_dolomite>, <contenttweaker:cr
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
 BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 
-//Wither ash to charcoal dust and stygian acid (tiny tiny bits)
+//Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <contenttweaker:charcoal_precursor>, 900);
 CokeOven.addRecipe(<contenttweaker:charcoal_dust>, 0, <quark:black_ash>, 300);
+CokeOven.addRecipe(<contenttweaker:petroleum_coke>, 0, <immersivepetroleum:material>, 20);
 
 //Make Marx Generator only process gem ores but do it very well
 MarxGenerator.removeRecipe(<ore:oreIron>);

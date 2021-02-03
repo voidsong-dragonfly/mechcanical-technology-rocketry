@@ -103,32 +103,11 @@ recipes.addShaped(<modulardiversity:blockbiomedetector>,
  [<ore:sheetSteel>, <ore:fanSteel>, <ore:sheetSteel>]]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:1>, [<modularmachinery:blockfluidinputhatch:2>]);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidoutputhatch:2>]);
- 
- 
-/*
-    Fluid Cracking
-*/
-
-var bitumen = newBuilder("bitumen", "coking_unit", 900);
-bitumen.addMekanismHeatInput(0, 450, 550);
-bitumen.addItemInput(<immersivepetroleum:material> * 64);
-bitumen.addItemOutput(<contenttweaker:petroleum_coke> * 64);
-bitumen.build();
 
 
 /*
     Salt Processing - From brine to chlorine and molten salts
 */
-
-//Drying
-var magnesium_chloride = newBuilder("magnesium_chloride", "drying_bed", 9000);
-magnesium_chloride.addFluidInput(<liquid:magnesiumchloridesolution> * 9000);
-magnesium_chloride.addItemOutput(<contenttweaker:magnesium_chloride> * 90);
-magnesium_chloride.build();
-var lithium_chloride = newBuilder("lithium_chloride", "drying_bed", 9000);
-lithium_chloride.addFluidInput(<liquid:lithiumchloridesolution> * 9000);
-lithium_chloride.addItemOutput(<contenttweaker:lithium_chloride> * 90);
-lithium_chloride.build();
 
 //Salt Melting
 var molten_magnesium_chloride = newBuilder("molten_magnesium_chloride", "melting_crucible", "600");
