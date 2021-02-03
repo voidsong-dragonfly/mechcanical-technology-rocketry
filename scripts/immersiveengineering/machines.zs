@@ -76,6 +76,9 @@ BottlingMachine.addRecipe(<contenttweaker:supercapacitor>, <contenttweaker:super
 //Superconductor Cable bottling machine recipes
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <contenttweaker:unfilled_superconductor_cable>, <liquid:liquidnitrogen> * 125);
 
+//Steam bottling machine recipes
+BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liquid:steam> * 8000);
+
 //Remove Steel Block Recipe, it makes no sense
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 

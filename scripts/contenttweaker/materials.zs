@@ -25,6 +25,7 @@ import scripts.contenttweaker.contenttweaker_functions.create_block_transparent;
 /*
 ---- Colors ----
 HCS - A6A6AA
+UHCS - 707070
 Platinum - C9E3F9
 Tungstensteel - 83919E
 Niobium - BFBECC
@@ -38,6 +39,7 @@ Osmium - 94a4ab
 Tungsten - 5b5b5c
 Silver - d0dce4
 Indium - 433253
+Lead - 404453
 Silver-Indium - 9e90ab
 Nickel - c2c7b6
 Tin - CDD5D8
@@ -47,6 +49,9 @@ Copper - b27255
 Aluminium - b3babd
 Iron - 83766d
 Gold - facd40
+Electrum - f3b74a
+Constantan - ef876c
+Bronze - b88c5d
 Lithium - 
 Uranium (standard) - 585858
 Uranium (3.5% enriched) - 576258
