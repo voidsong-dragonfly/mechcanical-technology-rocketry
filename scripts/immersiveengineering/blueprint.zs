@@ -103,8 +103,8 @@ Blueprint.removeRecipe(<immersive_energy:metal_generators0>);
 Blueprint.addRecipe("solar", <immersive_energy:material:1>, [<ore:paneGlassColorless>, <contenttweaker:lithium_doped_silicon_wafer>, <ore:plateAluminum>]);
 Blueprint.addRecipe("solar", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <immersive_energy:material:1>, <immersive_energy:material:1>]);
 Blueprint.addRecipe("solar", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
-Blueprint.addRecipe("solar", <advancedrocketry:solarpanel>, [<immersive_energy:material:1>, <ore:plateAluminum>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
-Blueprint.addRecipe("solar", <advancedrocketry:solargenerator>, [<immersive_energy:material:1>, <ore:plateAluminum>, <ore:plateAluminum>, <libvulpes:structuremachine>, <libvulpes:battery:1>, <libvulpes:battery:1>]);
+Blueprint.addRecipe("solar", <advancedrocketry:solarpanel>, [<immersive_energy:material:1>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
+Blueprint.addRecipe("solar", <advancedrocketry:solargenerator>, [<immersive_energy:material:1>, <ore:plateAluminum>, <libvulpes:structuremachine>, <libvulpes:battery>]);
 
 //Mechanical Components
 Blueprint.removeRecipe(<immersiveengineering:material:8>);
@@ -152,10 +152,6 @@ Blueprint.addRecipe("powerarmor", <advancedrocketry:spacehelmet>, [<minecraft:le
 Blueprint.addRecipe("powerarmor", <advancedrocketry:spacechestplate>, [<minecraft:leather_chestplate>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <advancedrocketry:fueltank>]);
 Blueprint.addRecipe("powerarmor", <advancedrocketry:spaceleggings>, [<minecraft:leather_leggings>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <ore:stickSteel>]);
 Blueprint.addRecipe("powerarmor", <advancedrocketry:spaceboots>, [<minecraft:leather_boots>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:plateSteel>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:pressuretank:0>, [<ore:sheetIron>, <ore:stickIron>, <ore:stickIron>, <ore:sheetIron>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:pressuretank:1>, [<ore:sheetSteel>, <ore:stickSteel>, <ore:stickSteel>, <ore:sheetSteel>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:pressuretank:2>, [<ore:sheetAluminum>, <ore:stickAluminum>, <ore:stickAluminum>, <ore:sheetAluminum>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:pressuretank:3>, [<ore:sheetTitanium>, <ore:stickTitanium>, <ore:stickTitanium>, <ore:sheetTitanium>]);
 
 //Fission reactor blueprint
 recipes.remove(<rustic:stone_pillar>);

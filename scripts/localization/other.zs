@@ -143,6 +143,11 @@ game.setLocalization("tile.amethyst.name", "Large Amethyst Crystal");
 //AR "Some Random Data" to "Undefined Data Type"
 game.setLocalization("data.undefined.name", "Undefined Data Type");
 
+//Make AR circuits respect their actual uses
+game.setLocalization("item.circuitIC.3.name", "Item IO Circuit Board");
+game.setLocalization("item.circuitIC.4.name", "Energy IO Circuit Board");
+game.setLocalization("item.circuitIC.5.name", "Liquid IO Circuit Board");
+
 //Rename Uranium items to Uranium Dioxide items
 game.setLocalization("tile.immersiveengineering.storage.uranium.name", "Block of Uranium Dioxide");
 game.setLocalization("tile.immersiveengineering.storage_slab.uranium.name", "Uranium Dioxide Slab");

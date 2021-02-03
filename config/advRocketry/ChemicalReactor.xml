@@ -65,7 +65,7 @@
             <fluidStack>water;800</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="600" power="768">
+    <Recipe timeRequired="600" power="96">
 		<input>
 			<fluidStack>ethanol;800</fluidStack>
             <fluidStack>sulfuricacid;400</fluidStack>

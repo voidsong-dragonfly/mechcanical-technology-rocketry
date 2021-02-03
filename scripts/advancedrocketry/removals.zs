@@ -37,3 +37,6 @@ removeAndHide(<advancedrocketry:blastbrick>);
 
 //Remove some unused Advanced Rocketry items
 removeAndHide(<advancedrocketry:lens>);
+
+//Remove highest tier tank, so oxygen is more of a concern and something to be engaged in
+removeAndHide(<advancedrocketry:pressuretank:3>);

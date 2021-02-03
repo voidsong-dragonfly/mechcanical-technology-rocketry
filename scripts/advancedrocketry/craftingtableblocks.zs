@@ -13,49 +13,6 @@ recipes.addShaped(<advancedrocketry:concrete> * 8,
  [<ore:sand>, <minecraft:water_bucket>, <ore:sand>],
  [<ore:dustStone>, <earthworks:item_chalk>, <ore:dustStone>]]);
 
-//Black Hole Generator needs high-tier motors
-recipes.remove(<advancedrocketry:blackholegenerator>);
-recipes.addShaped(<advancedrocketry:blackholegenerator>, 
- [[<ore:sheetTitaniumAluminide>, <advancedrocketry:structuretower>, <ore:sheetTitaniumAluminide>],
- [<ore:sheetTitaniumAluminide>, <libvulpes:advstructuremachine>, <ore:sheetTitaniumAluminide>],
- [<libvulpes:enhancedmotor>, <advancedrocketry:structuretower>, <libvulpes:enhancedmotor>]]);
-
-//Harder, more involved machine structure recipes
-recipes.remove(<libvulpes:structuremachine>);
-recipes.remove(<libvulpes:advstructuremachine>);
-recipes.addShaped(<libvulpes:structuremachine>,
- [[<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>]]);
-recipes.addShaped(<libvulpes:structuremachine>,
- [[<mekanism:polyethene:2>, null, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);
- 
-//Give turn the drill into a spectrometry array and solar collector
-recipes.remove(<advancedrocketry:drill>);
-
-//Rocket monitoring station needs a circuit
-recipes.remove(<advancedrocketry:monitoringstation>);
-recipes.addShaped(<advancedrocketry:monitoringstation>,
- [[<ore:stickCopper>, <advancedrocketry:satelliteprimaryfunction:0>, <ore:stickCopper>],
- [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
- [<ore:stickCopper>, <ore:circuitBasic>, <ore:stickCopper>]]);
-
-//Guidance computer access hatch needs correct circuits
-recipes.remove(<advancedrocketry:loader:6>);
-recipes.addShaped(<advancedrocketry:loader:6>,
- [[<mekanism:polyethene:3>, <ore:circuitBasic>, <mekanism:polyethene:3>],
- [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
- [<mekanism:polyethene:3>, <ore:circuitBasic>, <mekanism:polyethene:3>]]);
-
-//Satellite bay needs Ti3Al
-recipes.remove(<advancedrocketry:loader:1>);
-recipes.addShaped(<advancedrocketry:loader:1>,
- [[<ore:stickAluminum>, <ore:sheetTitaniumAluminide>, <ore:stickAluminum>],
- [<ore:sheetTitaniumAluminide>, <libvulpes:structuremachine>, <ore:sheetTitaniumAluminide>],
- [<ore:stickAluminum>, <ore:sheetTitaniumAluminide>, <ore:stickAluminum>]]); 
-
 //Rocket pieces need more involved recipes than three ingots and three plates
 recipes.remove(<advancedrocketry:rocketmotor>);
 recipes.remove(<advancedrocketry:bipropellantrocketmotor>);
@@ -65,44 +22,9 @@ recipes.remove(<advancedrocketry:fueltank>);
 recipes.remove(<advancedrocketry:bipropellantfueltank>);
 recipes.remove(<advancedrocketry:oxidizerfueltank>);
  
-//Fueling station needs a pump
-recipes.remove(<advancedrocketry:fuelingstation>);
-recipes.addShaped(<advancedrocketry:fuelingstation>,
- [[<ore:plateTin>, <immersiveengineering:metal_device0:5>, <ore:plateTin>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
- [<ore:plateTin>, <immersivetech:metal_barrel:2>, <ore:plateTin>]]);
-
 //Landing pad needs launchpad
 recipes.replaceAllOccurences(<advancedrocketry:concrete>, <advancedrocketry:launchpad>, <advancedrocketry:landingpad>);
  
-//Make satellite terminal require HDPE
-recipes.remove(<advancedrocketry:satellitecontrolcenter>);
-recipes.addShaped(<advancedrocketry:satellitecontrolcenter>,
- [[<mekanism:polyethene:2>, <advancedrocketry:satelliteprimaryfunction:3>, <mekanism:polyethene:2>],
- [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
- [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>]]);
- 
-//Station maneuvering blocks need nozzles and reaction wheels
-recipes.remove(<advancedrocketry:gravitycontroller>);
-recipes.remove(<advancedrocketry:altitudecontroller>);
-recipes.remove(<advancedrocketry:orientationcontroller>);
-recipes.addShaped(<advancedrocketry:altitudecontroller>,
- [[<contenttweaker:reaction_wheel>, <libvulpes:structuremachine>, <contenttweaker:reaction_wheel>],
- [<immersiveengineering:toolupgrade:7>, <immersiveengineering:toolupgrade:7>, <immersiveengineering:toolupgrade:7>]]);
-recipes.addShaped(<advancedrocketry:gravitycontroller>,
- [[<immersiveengineering:toolupgrade:7>, <libvulpes:structuremachine>, <immersiveengineering:toolupgrade:7>],
- [null, <contenttweaker:reaction_wheel>, null]]);
-recipes.addShaped(<advancedrocketry:orientationcontroller>,
- [[<contenttweaker:reaction_wheel>, <libvulpes:structuremachine>, <contenttweaker:reaction_wheel>],
- [null, <immersiveengineering:toolupgrade:7>, null]]);
- 
-//Observatory needs HDPE
-recipes.remove(<advancedrocketry:observatory>);
-recipes.addShaped(<advancedrocketry:observatory>,
- [[<mekanism:polyethene:2>, <ore:paneGlassColorless>, <mekanism:polyethene:2>],
- [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
- [<mekanism:polyethene:3>, <mekanism:polyethene:3>, <mekanism:polyethene:3>]]);
-
 //Make suit workstation require HDPE
 recipes.remove(<advancedrocketry:suitworkstation>);
 recipes.addShaped(<advancedrocketry:suitworkstation>, 
@@ -116,42 +38,6 @@ recipes.addShaped(<advancedrocketry:pipesealer> * 2,
  [[<mekanism:polyethene:3>, <ore:mechanicalComponentSteel>, <mekanism:polyethene:3>],
  [<ore:sheetAluminum>, <ore:sheetAluminum>, <ore:sheetAluminum>],
  [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
- 
-//Oxygen system to require HDPE not iron bars and be somewhat simpler
-recipes.remove(<advancedrocketry:oxygenscrubber>);
-recipes.remove(<advancedrocketry:oxygenvent>);
-recipes.remove(<advancedrocketry:carbonscrubbercartridge>);
-recipes.remove(<advancedrocketry:oxygencharger>);
-recipes.remove(<advancedrocketry:oxygendetection>);
-recipes.addShaped(<advancedrocketry:oxygenscrubber>,
- [[<mekanism:polyethene:2>, <ore:fanSteel>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <libvulpes:structuremachine>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:ingotCarbon>, <mekanism:polyethene:2>]]);
-recipes.addShaped(<advancedrocketry:oxygenvent>,
- [[<mekanism:polyethene:2>, <ore:fanSteel>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <libvulpes:structuremachine>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <immersivetech:metal_barrel:2>, <mekanism:polyethene:2>]]);
-recipes.addShaped(<advancedrocketry:carbonscrubbercartridge>,
- [[<ore:sheetSteel>, <quark:grate>, <ore:sheetSteel>],
- [<ore:sheetSteel>, null, <ore:sheetSteel>],
- [<ore:sheetSteel>, <mekanism:polyethene:2>, <ore:sheetSteel>]]);
-recipes.addShaped(<advancedrocketry:oxygencharger>,
- [[<mekanism:polyethene:2>, <minecraft:heavy_weighted_pressure_plate>, <mekanism:polyethene:2>],
- [<ore:fanSteel>, <libvulpes:structuremachine>, <ore:fanSteel>]]);
-recipes.addShaped(<advancedrocketry:oxygendetection>,
- [[<mekanism:polyethene:2>, <quark:grate>, <mekanism:polyethene:2>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
- [<mekanism:polyethene:2>, <ore:fanSteel>, <mekanism:polyethene:2>]]);
-
-//Satellite builder recipe to require HDPE and be cleaner
-recipes.remove(<advancedrocketry:satellitebuilder>);
-recipes.addShaped(<advancedrocketry:satellitebuilder>,
- [[<mekanism:polyethene:3>, <advancedrocketry:sawbladeiron>, <mekanism:polyethene:3>],
- [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
- [<mekanism:polyethene:3>, <minecraft:anvil>, <mekanism:polyethene:3>]]);
- 
-//Make Biome Scanner have circuitry
-recipes.replaceAllOccurences(<libvulpes:battery>, <ore:circuitElite>, <advancedrocketry:biomescanner>);
 
 //Make assembling machines not tier up crafting and more complicated
 recipes.remove(<advancedrocketry:deployablerocketbuilder>);
@@ -170,55 +56,12 @@ recipes.addShaped(<advancedrocketry:rocketbuilder>,
  [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
  [<ore:gearTitanium>, <advancedrocketry:launchpad>, <ore:gearTitanium>]]);
 
-//Make Gas Intake require grates instead of hoppers
-recipes.remove(<advancedrocketry:intake>);
-recipes.addShaped(<advancedrocketry:intake>,
- [[<ore:stickMaragingSteel>, <quark:grate>, <ore:stickMaragingSteel>],
- [<quark:grate>, <libvulpes:structuremachine>, <quark:grate>],
- [<ore:stickMaragingSteel>, <quark:grate>, <ore:stickMaragingSteel>]]);
-
 //Wireless transciever to use basic circuits
 recipes.remove(<advancedrocketry:wirelesstransciever>);
 recipes.addShaped(<advancedrocketry:wirelesstransciever> * 2,
  [[<mekanism:polyethene:2>, <ore:sheetAluminum>, <mekanism:polyethene:2>],
  [<ore:circuitBasic>, <advancedrocketry:dataunit>, <ore:circuitBasic>],
  [<mekanism:polyethene:2>, <ore:sheetAluminum>, <mekanism:polyethene:2>]]);
- 
- 
-//Give docking ports a more involved recipe
-recipes.remove(<advancedrocketry:stationmarker>);
-recipes.addShaped(<advancedrocketry:stationmarker>, 
- [[<mekanism:polyethene:2>, <ore:plateTin>, <mekanism:polyethene:2>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
- [<mekanism:polyethene:2>, <advancedrocketry:ic:1>, <mekanism:polyethene:2>]]);
-
-//Railgun requires steel sheets and a HV coil block
-recipes.remove(<advancedrocketry:railgun>);
-recipes.addShaped(<advancedrocketry:railgun>,
- [[<ore:sheetSteel>, <advancedrocketry:ic:1>, <ore:sheetSteel>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
- [<ore:sheetSteel>, <immersiveengineering:metal_decoration0:2>, <ore:sheetSteel>]]);
-
-//Add HV coil block to the space elevator as well
-recipes.remove(<advancedrocketry:spaceelevatorcontroller>);
-recipes.addShaped(<advancedrocketry:spaceelevatorcontroller>,
- [[<ore:sheetAluminum>, <ore:sheetAluminum>, <ore:sheetAluminum>],
- [<ore:circuitElite>, <libvulpes:structuremachine>, <ore:circuitElite>],
- [<ore:sheetAluminum>, <immersiveengineering:metal_decoration0:2>, <ore:sheetAluminum>]]);
-
-//Force Field Projector to use an IE coil block
-recipes.remove(<advancedrocketry:forcefieldprojector>);
-recipes.addShaped(<advancedrocketry:forcefieldprojector>,
- [[<ore:sheetAluminum>, <ore:gemDilithium>, <ore:sheetAluminum>],
- [<ore:sheetAluminum>, <libvulpes:structuremachine>, <ore:sheetAluminum>],
- [<ore:sheetAluminum>, <immersiveengineering:metal_decoration0:0>, <ore:sheetAluminum>]]);
-
-//Beacon to use IE coil as well
-recipes.remove(<advancedrocketry:beacon>);
-recipes.addShaped(<advancedrocketry:beacon>,
- [[<ore:sheetSteel>, <advancedrocketry:ic:1>, <ore:sheetSteel>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
- [<ore:sheetSteel>, <immersiveengineering:metal_decoration0:0>, <ore:sheetSteel>]]);
  
 //Put some computing power in the guidance computer
 recipes.remove(<advancedrocketry:guidancecomputer>);
@@ -227,40 +70,97 @@ recipes.addShaped(<advancedrocketry:guidancecomputer>,
  [<ore:circuitElite>, <libvulpes:structuremachine>, <ore:circuitElite>],
  [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);
 
-//Put some computing power in the ABDP
-recipes.remove(<advancedrocketry:planetanalyser>);
-recipes.addShaped(<advancedrocketry:planetanalyser>,
- [[<advancedrocketry:ic:1>, <advancedrocketry:planetidchip>, <advancedrocketry:ic:1>],
- [<ore:circuitElite>, <libvulpes:structuremachine>, <ore:circuitElite>],
- [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);
- 
 //Holo planet selector to use plastic and iron buttons
 recipes.remove(<advancedrocketry:planetholoselector>);
 recipes.addShaped(<advancedrocketry:planetholoselector>,
  [[<mekanism:polyethene:3>, <quark:iron_button>, <mekanism:polyethene:3>],
  [<quark:iron_button>, <ore:lensGlass>, <quark:iron_button>],
  [<mekanism:polyethene:3>, <advancedrocketry:guidancecomputer>, <mekanism:polyethene:3>]]);
+ 
+//Make satellite monitor and rocket monitor not take the (now significantly more expensive) optical sensors
+recipes.remove(<advancedrocketry:monitoringstation>);
+recipes.remove(<advancedrocketry:satellitecontrolcenter>);
+recipes.addShaped(<advancedrocketry:monitoringstation>,
+ [[<ore:stickCopper>, <advancedrocketry:misc>, <ore:stickCopper>],
+ [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
+ [<ore:stickCopper>, <libvulpes:battery>, <ore:stickCopper>]]);
+recipes.addShaped(<advancedrocketry:satellitecontrolcenter>,
+ [[<ore:stickCopper>, <advancedrocketry:misc>, <ore:stickCopper>],
+ [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
+ [<advancedrocketry:dataunit>, <libvulpes:battery>, <advancedrocketry:ic:1>]]);
 
-//Make Orbital Laser Drill recipe more involved and include laser
-recipes.remove(<advancedrocketry:spacelaser>);
-recipes.addShaped(<advancedrocketry:spacelaser>,
- [[<ore:ingotIridium>, <mekanism:machineblock2:13>, <ore:ingotIridium>],
- [<ore:circuitUltimate>, <ore:lensRuby>, <ore:circuitUltimate>],
- [<ore:gearTitaniumIridium>, <libvulpes:advstructuremachine>, <ore:gearTitaniumIridium>]]);
-  
+//Satellite assembler to use tools
+recipes.remove(<advancedrocketry:satellitebuilder>);
+recipes.addShaped(<advancedrocketry:satellitebuilder>,
+ [[<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>],
+ [<immersiveengineering:tool>, <libvulpes:structuremachine>, <immersiveengineering:tool:1>],
+ [<ore:blockMotor>, <minecraft:anvil>, <advancedrocketry:sawblade>]]);
+ 
+//Warp controller needs ultimate circuits
+recipes.remove(<advancedrocketry:warpmonitor>);
+recipes.addShaped(<advancedrocketry:warpmonitor>,
+ [[<ore:circuitUltimate>, <advancedrocketry:misc>, <ore:circuitUltimate>],
+ [<advancedrocketry:dataunit>, <libvulpes:structuremachine>, <advancedrocketry:dataunit>],
+ [<ore:circuitUltimate>, <advancedrocketry:dataunit>, <ore:circuitUltimate>]]);
+ 
+//Atmosphere detector/etc uses correct basic circuit
+recipes.replaceAllOccurences(<advancedrocketry:ic:0>, <ore:circuitBasic>, <advancedrocketry:oxygendetection>);
+recipes.remove(<advancedrocketry:loader:6>);
+recipes.addShaped(<advancedrocketry:loader:6>,
+ [[null, <ore:circuitBasic>, null],
+ [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
+ [null, <ore:circuitBasic>, null]]);
+
+//Redo oxygen system parts to use fewer iron bars
+recipes.remove(<advancedrocketry:oxygenscrubber>);
+recipes.remove(<advancedrocketry:oxygenvent>);
+recipes.remove(<advancedrocketry:oxygencharger>);
+recipes.addShaped(<advancedrocketry:oxygenscrubber>,
+ [[<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>],
+ [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<mekanism:polyethene:2>, <ore:ingotCarbon>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:oxygenvent>,
+ [[<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>],
+ [<libvulpes:battery>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<mekanism:polyethene:2>, <ore:fanSteel>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:oxygencharger>,
+ [[<mekanism:polyethene:2>, <immersiveengineering:metal_decoration1_slab:5>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);
+
+//Fuel loader doesn't use _three_ machine structures
+recipes.remove(<advancedrocketry:fuelingstation>);
+recipes.addShaped(<advancedrocketry:fuelingstation>,
+ [[<mekanism:polyethene:2>, <advancedrocketry:misc>, <mekanism:polyethene:2>],
+ [<libvulpes:battery>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);
+ 
+//Station controllers have a little more sensical recipes
+recipes.remove(<advancedrocketry:gravitycontroller>);
+recipes.remove(<advancedrocketry:altitudecontroller>);
+recipes.remove(<advancedrocketry:orientationcontroller>);
+recipes.addShaped(<advancedrocketry:gravitycontroller>,
+ [[<libvulpes:structuremachine>, <advancedrocketry:misc>],
+ [<ore:circuitAdvanced>, <contenttweaker:reaction_wheel>]]);
+recipes.addShaped(<advancedrocketry:altitudecontroller>,
+ [[<libvulpes:structuremachine>, <advancedrocketry:misc>],
+ [<contenttweaker:reaction_wheel>, <ore:circuitAdvanced>]]);
+recipes.addShaped(<advancedrocketry:orientationcontroller>,
+ [[<libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<advancedrocketry:misc>, <contenttweaker:reaction_wheel>]]);
+
+//Force field slight recipe tweak
+recipes.remove(<advancedrocketry:forcefieldprojector>);
+recipes.addShaped(<advancedrocketry:forcefieldprojector>,
+ [[null, <ore:gemDilithium>, null],
+ [<immersiveengineering:metal_decoration0>, <libvulpes:structuremachine>, <immersiveengineering:metal_decoration0>],
+ [<mekanism:polyethene:2>, <ore:gemDilithium>, <mekanism:polyethene:2>]]);
+ 
 //Make Warp Core recipe slightly more involved
 recipes.remove(<advancedrocketry:warpcore>);
 recipes.addShaped(<advancedrocketry:warpcore>,
  [[<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>],
  [<ore:circuitUltimate>, <contenttweaker:warp_ring_engineering_block>, <ore:circuitUltimate>],
  [<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>]]);
-
-//Make Warp Controller recipe have more computing power
-recipes.remove(<advancedrocketry:warpmonitor>);
-recipes.addShaped(<advancedrocketry:warpmonitor>,
- [[<ore:plateMaragingSteel>, <ore:paneGlass>, <ore:plateMaragingSteel>],
- [<ore:sheetMaragingSteel>, <libvulpes:advstructuremachine>, <ore:sheetMaragingSteel>],
- [<ore:plateMaragingSteel>, <ore:circuitUltimate>, <ore:plateMaragingSteel>]]);
 
 //Add Warp Engineering Block recipes
 recipes.addShaped(<contenttweaker:warp_ring_engineering_block> * 2,
@@ -272,37 +172,6 @@ recipes.addShaped(<contenttweaker:warp_core_engineering_block>,
  [<ore:circuitUltimate>, <ore:blockUranium>, <ore:circuitUltimate>],
  [<ore:platePlatinum>, <ore:blockOsmium>, <ore:platePlatinum>]]);
 
-//Make microwave reciever have a more sensical recipe
-recipes.remove(<advancedrocketry:microwavereciever>);
-recipes.addShaped(<advancedrocketry:microwavereciever>,
- [[<immersive_energy:material:1>, <immersive_energy:material:1>, <immersive_energy:material:1>],
- [<advancedrocketry:ic:1>, <libvulpes:structuremachine>, <advancedrocketry:ic:1>],
- [<ore:circuitElite>, <advancedrocketry:satelliteprimaryfunction>, <ore:circuitElite>]]);
-
-//Convert from dust blocks to dusts
-//Nonmetals
-//recipes.addShapeless(<contenttweaker:silicon_dioxide_dust_block>, [<> * 8]);
-recipes.addShapeless(<contenttweaker:charcoal_dust> * 8, [<contenttweaker:charcoal_dust_block>]);
-recipes.addShapeless(<immersiveengineering:material:18> * 8, [<contenttweaker:hop_graphite_dust_block>]);
-recipes.addShapeless(<immersiveengineering:material:25> * 8, [<contenttweaker:sulfur_dust_block>]);
-recipes.addShapeless(<mekanism:otherdust:4> * 8, [<contenttweaker:lithium_dust_block>]);
-//Metals
-recipes.addShapeless(<contenttweaker:magnesium_dust> * 8, [<contenttweaker:magnesium_dust_block>]);
-recipes.addShapeless(<immersiveengineering:metal:18> * 8, [<contenttweaker:iron_dust_block>]);
-recipes.addShapeless(<immersiveengineering:metal:13> * 8, [<contenttweaker:nickel_dust_block>]);
-recipes.addShapeless(<contenttweaker:cobalt_dust> * 8, [<contenttweaker:cobalt_dust_block>]);
-recipes.addShapeless(<immersiveengineering:metal:9> * 8, [<contenttweaker:copper_dust_block>]);
-recipes.addShapeless(<immersiveengineering:metal:10> * 8, [<contenttweaker:aluminium_dust_block>]);
-recipes.addShapeless(<immersiveengineering:metal:19> * 8, [<contenttweaker:gold_dust_block>]);
-recipes.addShapeless(<immersiveengineering:metal:12> * 8, [<contenttweaker:silver_dust_block>]);
-recipes.addShapeless(<contenttweaker:platinum_dust> * 8, [<contenttweaker:platinum_dust_block>]);
-recipes.addShapeless(<libvulpes:productdust:10> * 8, [<contenttweaker:iridium_dust_block>]);
-recipes.addShapeless(<mekanism:dust:2> * 8, [<contenttweaker:osmium_dust_block>]);
-recipes.addShapeless(<immersive_energy:metal:3> * 8, [<contenttweaker:tungsten_dust_block>]);
-recipes.addShapeless(<libvulpes:productdust:5> * 8, [<contenttweaker:tin_dust_block>]);
-recipes.addShapeless(<libvulpes:productdust:7> * 8, [<contenttweaker:titanium_dust_block>]);
-recipes.addShapeless(<contenttweaker:niobium_dust> * 8, [<contenttweaker:niobium_dust_block>]);
- 
 //Make Launchpad require steel
 recipes.remove(<advancedrocketry:launchpad>);
 recipes.addShaped(<advancedrocketry:launchpad> * 2,
@@ -312,3 +181,4 @@ recipes.addShaped(<advancedrocketry:launchpad> * 2,
 
 //Iridium Crubible
 recipes.remove(<advancedrocketry:iquartzcrucible>);
+ 

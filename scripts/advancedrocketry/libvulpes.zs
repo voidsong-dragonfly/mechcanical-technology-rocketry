@@ -56,3 +56,15 @@ recipes.addShaped(<libvulpes:elitemotor>,
  
 //Battery recipe removal
 recipes.remove(<libvulpes:battery>);
+
+//Harder, more involved machine structure recipes
+recipes.remove(<libvulpes:structuremachine>);
+recipes.remove(<libvulpes:advstructuremachine>);
+recipes.addShaped(<libvulpes:structuremachine>,
+ [[<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<libvulpes:structuremachine>,
+ [[<mekanism:polyethene:2>, null, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);

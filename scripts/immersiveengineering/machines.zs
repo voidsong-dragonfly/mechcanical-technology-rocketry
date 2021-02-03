@@ -129,3 +129,6 @@ Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard
 Squeezer.removeFluidRecipe(<liquid:blood>);
 Squeezer.addRecipe(<minecraft:quartz_block>, null, <contenttweaker:silicon_dioxide_dust_block>, 1024000);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:fragment> * 16, 512000);
+
+//Remove metal press rod recipes. Use the lathe
+MetalPress.removeRecipeByMold(<immersiveengineering:mold:2>);

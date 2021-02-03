@@ -145,9 +145,6 @@ removeAndHide(<mekanism:obsidiantnt>);
 //Remove gas upgrades, use the full amount and produce it, no skimping here
 removeAndHide(<mekanism:gasupgrade>);
 
-//Remove gunpowder coversion recipes that don't work IRL
-injection.removeRecipe(<mekanism:otherdust:3>);
-
 //Remove unrealistic item->gas conversions, readd osmium->gas conversion
 //Because seriously, who took a look at flint and said "you know what? you can get pure O2 out of that super easily"
 GasConversion.unregisterAll();

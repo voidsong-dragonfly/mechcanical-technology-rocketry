@@ -31,7 +31,207 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="false">
+<Recipes useDefault="true">
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotHighCarbonSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:high_carbon_steel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotAluminum</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material;2;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotUranium</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:platinum_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>immersive_energy:material;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotSilverIndium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:silver_indium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;7</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotNiobiumTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:niobium_titanium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotMixedPlatinumGroupMetal</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:platinum_group_metal_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:material;2;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotMaragingSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:maraging_steel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;6</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;3</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotZirconium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:zirconium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotZirconiumNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:zirconium_niobium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;4</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>libvulpes:productrod;2;10</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotTungstensteel</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:tungstensteel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotConstantan</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveposts:metal_rods;2;5</itemStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="900" power="192">
 		<input>
 			<oreDict>plateGlass</oreDict>
@@ -88,7 +288,7 @@
 			<itemStack>advancedrocketry:blocklens</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="300" power="256">
+    <Recipe timeRequired="150" power="256">
 		<input>
 			<oreDict>ingotSteel</oreDict>
         </input>
