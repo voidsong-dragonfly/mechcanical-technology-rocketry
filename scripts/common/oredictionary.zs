@@ -44,11 +44,6 @@ import mods.immersiveengineering.BottlingMachine;
 //Soul Sand
 <ore:soulsand>.add(<minecraft:soul_sand>);
 
-//Glass pane recification
-<ore:paneGlass>.remove(<hgp:hgppane:1>);
-<ore:paneGlassColorless>.remove(<hgp:hgppane:1>);
-<ore:barsIron>.add(<hgp:hgppane:1>);
-
 //Add oredictionary to ContentTweaker petroleum items
 <ore:fuelPetroleumCoke>.add(<contenttweaker:petroleum_coke>);
 <ore:dustCoke>.add(<contenttweaker:petroleum_coke_dust>);
