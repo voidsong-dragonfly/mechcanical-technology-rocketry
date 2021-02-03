@@ -11,7 +11,7 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Color;
 
-function create_metal_material(name as string, basic as bool, hot_ingot as bool, wire as bool, sheet as bool, component as bool, gear as bool, scaffold as bool, pipe as bool) {
+function create_metal_material(name as string, basic as bool, wire as bool, sheet as bool, component as bool, gear as bool, scaffold as bool, pipe as bool) {
     if (basic) {
         createItem(name + "_ingot").register();
         createItem(name + "_nugget").register();
@@ -36,9 +36,6 @@ function create_metal_material(name as string, basic as bool, hot_ingot as bool,
     }
     if (pipe) {
         createItem("small_" + name + "_pipe").register();
-    }
-    if (hot_ingot) {
-        createItem("hot_" + name + "_ingot").register();
     }
 }
 
@@ -111,7 +108,7 @@ function create_block_transparent(name as string, material as BlockMaterial, har
 
 }
 
-function create_metal_material_block(name as string, basic as bool, hot_ingot as bool, wire as bool, sheet as bool, component as bool, gear as bool, scaffold as bool, pipe as bool, hardness as double, resistance as double, level as int) {
+function create_metal_material_block(name as string, basic as bool, wire as bool, sheet as bool, component as bool, gear as bool, scaffold as bool, pipe as bool, hardness as double, resistance as double, level as int) {
     if (basic) {
         createItem(name + "_ingot").register();
         createItem(name + "_nugget").register();
@@ -136,9 +133,6 @@ function create_metal_material_block(name as string, basic as bool, hot_ingot as
     }
     if (pipe) {
         createItem("small_" + name + "_pipe").register();
-    }
-    if (hot_ingot) {
-        createItem("hot_" + name + "_ingot").register();
     }
     create_block(name + "_block", <blockmaterial:iron>, hardness, resistance, "pickaxe", level);
 }
