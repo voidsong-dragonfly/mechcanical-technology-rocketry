@@ -49,6 +49,7 @@ game.setLocalization("fluid.moltensteel", "Molten Ultra High Carbon Steel");
 game.setLocalization("fluid.moltenslag", "Molten Slag");
 
 //Tungsten Processing
+game.setLocalization("tile.contenttweaker.tungsten_ore.name", "Tungsten Ore");
 game.setLocalization("item.contenttweaker.washed_tungsten_ore_dust.name", "Tungsten Ore Dust - Washed");
 game.setLocalization("item.contenttweaker.hydrated_tungsten_trioxide.name", "Hydrated Tungsten Trioxide");
 game.setLocalization("item.contenttweaker.tungsten_trioxide.name", "Tungsten Trioxide");

@@ -116,12 +116,6 @@ game.setLocalization("item.alternatingflux.wirecoil.af.name", "HVDC Wire Coil");
 game.setLocalization("itemGroup.alternatingflux", "HVDC");
 //Manual stuff is in lang file because it didn't work here
 
-//REDIA Repair Blueprint and manual entries, manual stuff same as above
-game.setLocalization("desc.immersiveengineering.info.blueprint.advanced_tool", "REDIA Crafting and Repair");
-
-//Clear tooltips on Immersive Energy rods
-<immersive_energy:stick_uranium>.clearTooltip();
-
 //Rustic stone pillar to Fission Reactor Fuel Assembly Channel
 //This wouldn't need to be done if ContentTweaker could make log or pillar-style blocks
 game.setLocalization("tile.rustic.stone_pillar.name", "Fission Reactor Fuel Assembly Channel");

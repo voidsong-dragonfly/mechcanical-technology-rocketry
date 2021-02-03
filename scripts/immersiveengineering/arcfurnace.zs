@@ -11,10 +11,6 @@ ArcFurnace.removeRecipe(<immersiveengineering:metal:2>);
 ArcFurnace.removeRecipe(<immersiveengineering:metal:3>);
 ArcFurnace.removeRecipe(<immersiveengineering:metal:4>);
 ArcFurnace.removeRecipe(<immersiveengineering:metal:5>);
-ArcFurnace.removeRecipe(<immersive_energy:metal:0>);
-ArcFurnace.removeRecipe(<immersive_energy:metal:1>);
-ArcFurnace.removeRecipe(<immersive_energy:metal:2>);
-ArcFurnace.removeRecipe(<immersive_energy:metal:3>);
 ArcFurnace.removeRecipe(<libvulpes:productingot:3>);
 ArcFurnace.removeRecipe(<libvulpes:productingot:5>);
 ArcFurnace.removeRecipe(<libvulpes:productingot:7>);
@@ -73,8 +69,7 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:2>, <ore:dustLead>, null, 100, 
 ArcFurnace.addRecipe(<immersiveengineering:metal:3>, <ore:dustSilver>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:4>, <ore:dustNickel>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:5>, <ore:dustUranium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:0>, <ore:dustThorium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:1>, <ore:dustTungsten>, null, 100, 512, null, "Smelting");
+ArcFurnace.addRecipe(<contenttweaker:tungsten_ingot>, <ore:dustTungsten>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5>, <ore:dustTin>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:7>, <ore:dustTitanium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<contenttweaker:niobium_ingot>, <ore:dustNiobium>, null, 100, 512, null, "Smelting");
@@ -104,8 +99,7 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:2>, <ore:plateLead>, null, 100,
 ArcFurnace.addRecipe(<immersiveengineering:metal:3>, <ore:plateSilver>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:4>, <ore:plateNickel>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:5>, <ore:plateUranium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:0>, <ore:plateThorium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:1>, <ore:plateTungsten>, null, 100, 512, null, "Smelting");
+ArcFurnace.addRecipe(<contenttweaker:tungsten_ingot>, <ore:plateTungsten>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5>, <ore:plateTin>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:7>, <ore:plateTitanium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<contenttweaker:niobium_ingot>, <ore:plateNiobium>, null, 100, 512, null, "Smelting");
@@ -131,8 +125,7 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:0>, <ore:dustDirtyCopper>, null
 ArcFurnace.addRecipe(<immersiveengineering:metal:2>, <ore:dustDirtyLead>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:23> * 6, <ore:dustDirtySilver>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:4>, <ore:dustDirtyNickel>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:0>, <ore:dustDirtyThorium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:1>, <ore:dustDirtyTungsten>, null, 100, 512, [<ore:dustAnyCarbon> * 2], "Smelting");
+ArcFurnace.addRecipe(<contenttweaker:tungsten_ingot>, <ore:dustDirtyTungsten>, null, 100, 512, [<ore:dustAnyCarbon> * 2], "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5>, <ore:dustDirtyTin>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<contenttweaker:platinum_nugget>, <ore:dustDirtyPlatinum>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productnugget:10>, <ore:dustDirtyIridium>, null, 100, 512, null, "Smelting");
@@ -145,7 +138,6 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:0> * 2, <ore:oreCopper>, <immer
 ArcFurnace.addRecipe(<immersiveengineering:metal:2> * 2, <ore:oreLead>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:23> * 12, <ore:oreSilver>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
 ArcFurnace.addRecipe(<immersiveengineering:metal:4> * 2, <ore:oreNickel>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:0> * 2, <ore:oreThorium>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5> * 2, <ore:oreTin>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
 ArcFurnace.addRecipe(<contenttweaker:platinum_nugget> * 2, <ore:orePlatinum>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
 ArcFurnace.addRecipe(<libvulpes:productnugget:10> * 2, <ore:oreIridium>, <immersiveengineering:material:7>, 200, 512, null, "Ore Smelting");
@@ -162,7 +154,7 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:3> * 8, <contenttweaker:silver_
 ArcFurnace.addRecipe(<contenttweaker:platinum_ingot> * 8, <contenttweaker:platinum_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:10> * 8, <contenttweaker:iridium_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<mekanism:ingot:1> * 8, <contenttweaker:osmium_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
-ArcFurnace.addRecipe(<immersive_energy:metal:1> * 8, <contenttweaker:tungsten_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
+ArcFurnace.addRecipe(<contenttweaker:tungsten_ingot> * 8, <contenttweaker:tungsten_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5> * 8, <contenttweaker:tin_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:7> * 8, <contenttweaker:titanium_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<contenttweaker:niobium_ingot> * 8, <contenttweaker:niobium_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");

@@ -79,32 +79,19 @@ Blueprint.addRecipe("electrode", <immersiveengineering:graphite_electrode>.withT
 
 //Add REDIA Repair blueprint, and make REDIA tool crafting make more sense [changed from adv. tools blueprint]
 recipes.remove(<engineerstools:redia_tool>);
-Blueprint.removeRecipe(<immersive_energy:toolupgrade:0>);
-Blueprint.removeRecipe(<immersive_energy:toolupgrade:1>);
-Blueprint.removeRecipe(<immersive_energy:toolupgrade:2>);
-Blueprint.removeRecipe(<immersive_energy:toolupgrade:3>);
-Blueprint.removeRecipe(<immersive_energy:hefty_wrench>);
-hide(<immersive_energy:toolupgrade:0>);
-hide(<immersive_energy:toolupgrade:1>);
-hide(<immersive_energy:toolupgrade:2>);
-hide(<immersive_energy:toolupgrade:3>);
-hide(<immersive_energy:hefty_wrench>);
-Blueprint.addRecipe("advanced_tool", <engineerstools:redia_tool>, [<engineerstools:redia_tool>.anyDamage(), <ore:dustDiamond>, <ore:stickSteel>]);
-Blueprint.addRecipe("advanced_tool", <engineerstools:redia_tool>, [<ore:dustDiamond>, <ore:stickSteel> * 2, <ore:plateSteel> * 2, <ore:ingotSteel>, <ore:stickTreatedWood> * 2]);
+Blueprint.addRecipe("REDIA", <engineerstools:redia_tool>, [<engineerstools:redia_tool>.anyDamage(), <ore:dustDiamond>, <ore:stickSteel>]);
+Blueprint.addRecipe("REDIA", <engineerstools:redia_tool>, [<ore:dustDiamond>, <ore:stickSteel> * 2, <ore:plateSteel> * 2, <ore:ingotSteel>, <ore:stickTreatedWood> * 2]);
 
 //Make Advanced Rocketry solar panels recipes closer to that of 1st generation PV cells (1950s), and make them use IEn crafting materials
 recipes.remove(<advancedrocketry:solarpanel>);
 recipes.remove(<advancedrocketry:solargenerator>);
 recipes.remove(<advancedrocketry:satellitepowersource>);
 recipes.remove(<advancedrocketry:satellitepowersource:1>);
-hide(<immersive_energy:metal_generators0>);
-Blueprint.removeRecipe(<immersive_energy:material:1>);
-Blueprint.removeRecipe(<immersive_energy:metal_generators0>);
-Blueprint.addRecipe("solar", <immersive_energy:material:1>, [<ore:paneGlassColorless>, <contenttweaker:lithium_doped_silicon_wafer>, <ore:plateAluminum>]);
-Blueprint.addRecipe("solar", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <immersive_energy:material:1>, <immersive_energy:material:1>]);
-Blueprint.addRecipe("solar", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
-Blueprint.addRecipe("solar", <advancedrocketry:solarpanel>, [<immersive_energy:material:1>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
-Blueprint.addRecipe("solar", <advancedrocketry:solargenerator>, [<immersive_energy:material:1>, <ore:plateAluminum>, <libvulpes:structuremachine>, <libvulpes:battery>]);
+Blueprint.addRecipe("Solar Panels", <contenttweaker:solar_panel>, [<ore:paneGlassColorless>, <contenttweaker:lithium_doped_silicon_wafer>, <ore:plateAluminum>]);
+Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <contenttweaker:solar_panel>, <contenttweaker:solar_panel>]);
+Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
+Blueprint.addRecipe("Solar Panels", <advancedrocketry:solarpanel>, [<contenttweaker:solar_panel>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
+Blueprint.addRecipe("Solar Panels", <advancedrocketry:solargenerator>, [<contenttweaker:solar_panel>, <ore:plateAluminum>, <libvulpes:structuremachine>, <libvulpes:battery>]);
 
 //Mechanical Components
 Blueprint.removeRecipe(<immersiveengineering:material:8>);
@@ -140,18 +127,14 @@ Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:
 Blueprint.addRecipe("components", <contenttweaker:supercapacitor_hull>, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
 
 //Environmental Suit blueprint
-Blueprint.removeRecipe(<immersive_energy:power_armor_suit_head>);
-Blueprint.removeRecipe(<immersive_energy:power_armor_suit_body>);
-Blueprint.removeRecipe(<immersive_energy:power_armor_suit_leggs>);
-Blueprint.removeRecipe(<immersive_energy:power_armor_suit_boots>);
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_head>, [<immersiveengineering:steel_armor_head>, <ore:plateTungsten>, <ore:fabricHemp> * 4, <immersiveengineering:earmuffs>]);
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_body>, [<immersiveengineering:steel_armor_chest>, <ore:plateTungsten> * 2, <ore:fabricHemp> * 4, <immersiveengineering:metal_device0:2>]);
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_leggs>, [<immersiveengineering:steel_armor_legs>, <ore:plateTungsten> * 2, <ore:fabricHemp> * 4, <immersiveengineering:wirecoil:2> * 4]);
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_boots>, [<immersiveengineering:steel_armor_feet>, <ore:plateTungsten>, <ore:fabricHemp> * 4, <ore:blockSlime>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:spacehelmet>, [<minecraft:leather_helmet>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:paneGlass>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:spacechestplate>, [<minecraft:leather_chestplate>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <advancedrocketry:fueltank>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:spaceleggings>, [<minecraft:leather_leggings>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <ore:stickSteel>]);
-Blueprint.addRecipe("powerarmor", <advancedrocketry:spaceboots>, [<minecraft:leather_boots>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:plateSteel>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacehelmet>, [<minecraft:leather_helmet>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:paneGlass>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacechestplate>, [<minecraft:leather_chestplate>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <advancedrocketry:fueltank>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceleggings>, [<minecraft:leather_leggings>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <ore:stickSteel>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceboots>, [<minecraft:leather_boots>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:plateSteel>]);
 
 //Fission reactor blueprint
 recipes.remove(<rustic:stone_pillar>);

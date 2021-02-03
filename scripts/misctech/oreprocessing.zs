@@ -220,7 +220,7 @@ var tungsten_dust = newBuilder("tungsten_dust", "oxygen_converter", 400);
 tungsten_dust.addItemInput(<contenttweaker:tungsten_trioxide> * 16);
 tungsten_dust.addFluidInput(<liquid:liquidhydrogen> * 4800);
 tungsten_dust.addFluidInput(<liquid:water> * 9600);
-tungsten_dust.addItemOutput(<immersive_energy:metal:3> * 16);
+tungsten_dust.addItemOutput(<contenttweaker:tungsten_dust> * 16);
 tungsten_dust.build();
 
 //Copper processing

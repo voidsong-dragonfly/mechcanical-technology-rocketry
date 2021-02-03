@@ -58,6 +58,15 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:dustMagnesiumChloride>.add(<contenttweaker:magnesium_chloride>);
 <ore:dustLithiumChloride>.add(<contenttweaker:lithium_chloride>);
 
+//Tungsten oredictionary
+<ore:blockTungsten>.add(<contenttweaker:tungsten_block>);
+<ore:ingotTungsten>.add(<contenttweaker:tungsten_ingot>);
+<ore:nuggetTungsten>.add(<contenttweaker:tungsten_nugget>);
+<ore:dustTungsten>.add(<contenttweaker:tungsten_dust>);
+<ore:plateTungsten>.add(<contenttweaker:tungsten_plate>);
+<ore:stickTungsten>.add(<contenttweaker:tungsten_stick>);
+<ore:wireTungsten>.add(<contenttweaker:tungsten_wire>);
+
 //Low Carbon Steel oredictionary
 <ore:blockHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_block>);
 <ore:ingotHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_ingot>);
@@ -190,6 +199,7 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:oreCinnabar>.add(<contenttweaker:cinnabar_ore>);
 <ore:oreNetherCinnabar>.add(<contenttweaker:nether_cinnabar_ore>);
 <ore:oreFluorite>.add(<contenttweaker:fluorite_ore>);
+<ore:oreTungsten>.add(<contenttweaker:tungsten_ore>);
 
 //Lens oredictionary
 <ore:lensGlass>.add(<contenttweaker:glass_lens>);
@@ -381,13 +391,11 @@ hide(<libvulpes:productnugget:9>);
 <ore:stickIron>.remove(<libvulpes:productrod:1>);
 <ore:stickSteel>.remove(<libvulpes:productrod:6>);
 <ore:stickCopper>.remove(<libvulpes:productrod:4>);
-<ore:stickUranium>.remove(<immersive_energy:stick_uranium>);
 <ore:stickWoodAny>.addAll(<ore:stickTreatedWood>);
 <ore:stickWoodAny>.addAll(<ore:stickWood>);
 hide(<libvulpes:productrod:1>);
 hide(<libvulpes:productrod:6>);
 hide(<libvulpes:productrod:4>);
-removeAndHide(<immersive_energy:stick_uranium>);
 
 //Plates
 <ore:plateIron>.remove(<libvulpes:productplate:1>);

@@ -30,11 +30,11 @@ localize_material("niobium_titanium", "Niobium-Titanium Alloy");
 localize_material("silver_indium", "Silver-Indium Alloy");
 localize_material("zirconium", "Zirconium");
 localize_material("zirconium_niobium", "Zirconium-Niobium Alloy");
+localize_material("tungsten", "Tungsten");
 //Additional Materials
 localize_material("iron", "Iron");
 localize_material("lead", "Lead");
 localize_material("silver", "Silver");
-localize_material("tungsten", "Tungsten");
 localize_material("aluminium", "Aluminium");
 localize_material("steel", "Ultra High Carbon Steel");
 localize_material("titanium_aluminide", "Titanium Aluminide");

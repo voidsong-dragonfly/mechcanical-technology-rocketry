@@ -92,7 +92,7 @@
 			<fluidStack>lubricant;240</fluidStack>
 		</input>
 		<output>
-			<itemStack>immersive_energy:metal;1;7</itemStack>
+			<itemStack>contenttweaker:tungsten_plate;</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">

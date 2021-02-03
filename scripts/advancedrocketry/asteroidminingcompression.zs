@@ -17,7 +17,7 @@ recipes.addShapeless(<immersiveengineering:metal:12> * 8, [<contenttweaker:silve
 recipes.addShapeless(<contenttweaker:platinum_dust> * 8, [<contenttweaker:platinum_dust_block>]);
 recipes.addShapeless(<libvulpes:productdust:10> * 8, [<contenttweaker:iridium_dust_block>]);
 recipes.addShapeless(<mekanism:dust:2> * 8, [<contenttweaker:osmium_dust_block>]);
-recipes.addShapeless(<immersive_energy:metal:3> * 8, [<contenttweaker:tungsten_dust_block>]);
+recipes.addShapeless(<contenttweaker:tungsten_dust> * 8, [<contenttweaker:tungsten_dust_block>]);
 recipes.addShapeless(<libvulpes:productdust:5> * 8, [<contenttweaker:tin_dust_block>]);
 recipes.addShapeless(<libvulpes:productdust:7> * 8, [<contenttweaker:titanium_dust_block>]);
 recipes.addShapeless(<contenttweaker:niobium_dust> * 8, [<contenttweaker:niobium_dust_block>]);

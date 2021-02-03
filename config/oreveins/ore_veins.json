@@ -390,13 +390,13 @@
         "meta": 2
       },
       {
-        "block": "immersive_energy:ore",
+        "block": "immersiveengineering:ore",
         "weight": 10,
-        "meta": 0
+        "meta": 3
       }
     ],
     "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockuranium", "weight": 70}, {"block": "simpleoresamples:sampleblocklead", "weight": 20}, {"block": "simpleoresamples:sampleblockthorium", "weight": 10}],
+      "blocks": [{"block": "simpleoresamples:sampleblockuranium", "weight": 70}, {"block": "simpleoresamples:sampleblocklead", "weight": 20}, {"block": "simpleoresamples:sampleblocksilver", "weight": 10}],
       "rarity": 16,
       "max_depth": 128
     },
@@ -477,9 +477,8 @@
     "horizontal_size": 28,
     "ore": [
       {
-        "block": "immersive_energy:ore",
-        "weight": 75,
-        "meta": 1
+        "block": "contenttweaker:tungsten_ore",
+        "weight": 75
       },
       {
         "block": "minecraft:iron_ore",
@@ -511,54 +510,6 @@
     "dimensions_is_whitelist": true,
     "min_y": 16,
     "max_y": 36,
-    "density": 128
-  },
-  "thorite": {
-    "type": "sphere",
-    "vertical_size": 6,
-    "horizontal_size": 24,
-    "ore": [
-      {
-        "block": "immersive_energy:ore",
-        "weight": 75,
-        "meta": 0
-      },
-      {
-        "block": "immersiveengineering:ore",
-        "weight": 15,
-        "meta": 5
-      },
-      {
-        "block": "contenttweaker:pyrochlore_ore",
-        "weight": 10,
-        "meta": 2
-      }
-    ],
-    "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockthorium", "weight": 75}, {"block": "simpleoresamples:sampleblockuranium", "weight": 15}, {"block": "simpleoresamples:sampleblockpyrochlore", "weight": 10}],
-      "rarity": 16,
-      "max_depth": 128
-    },
-    "stone": ["minecraft:stone", 
-              {"block": "minecraft:stone", "meta": 1},
-              {"block": "minecraft:stone", "meta": 3},
-              {"block": "minecraft:stone", "meta": 5},
-              "pvj:siltstone",
-              "rustic:slate",
-              "quark:marble",
-              "quark:slate",
-              "quark:jasper",
-              "quark:limestone",
-              "earthworks:block_chalk",
-              "earthworks:block_slate",
-              "earthworks:block_slate_green",
-              "earthworks:block_slate_purple"],
-    "rarity": 2048,
-    "count": 1,
-    "dimensions": [0],
-    "dimensions_is_whitelist": true,
-    "min_y": 12,
-    "max_y": 32,
     "density": 128
   },
   "kimberlite": {

@@ -17,6 +17,7 @@ game.setLocalization("item.contenttweaker.charcoal_precursor.name", "Charcoal Pr
 
 //Reaction Wheel
 game.setLocalization("item.contenttweaker.reaction_wheel.name", "Reaction Wheel");
+game.setLocalization("item.contenttweaker.solar_panel.name", "Photovoltaic Cell Panel");
 
 //Small battery & supercapacitor pieces
 game.setLocalization("item.contenttweaker.small_battery_hull.name", "Small Battery Hull");

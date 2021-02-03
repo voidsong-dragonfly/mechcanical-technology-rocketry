@@ -155,17 +155,6 @@ recipes.addShaped(<engineerstools:sleeping_bag>,
  [<minecraft:carpet:*>, <minecraft:carpet:*>, <ore:wool>],
  [<ore:leatherSheet>, <ore:leatherSheet>, <ore:leatherSheet>]]);
 
-//Immersive Energy arrows
-recipes.replaceAllOccurences(<minecraft:flint>, <flintmod:tool_part_flint>, <immersive_energy:arrow_shocking>);
-recipes.addShaped(<immersive_energy:arrow_shocking> * 6,
- [[null, <ore:nuggetElectrum>, <ore:nuggetIron>],
- [<immersiveengineering:wirecoil:7>, <ore:stickTreatedWood>, <ore:nuggetIron>],
- [<ore:feather>, <ore:nuggetLead>, null]]);
-recipes.addShaped(<immersive_energy:arrow_penetrating> * 8,
- [[null, null, <ore:nuggetTungsten>],
- [null, <ore:stickTreatedWood>, <ore:nuggetTungsten>],
- [<ore:feather>, null, null]]);
- 
 //Make bayonet use a Tetra iron sword
 recipes.replaceAllOccurences(<minecraft:iron_sword>, <tetra:sword_modular>.withTag({"sword/basic_hilt_material": "basic_hilt/treated_wood", "sword/counterweight_material": "counterweight/iron", "sword/hilt": "sword/basic_hilt", "sword/blade": "sword/basic_blade", "sword/basic_blade_material": "basic_blade/iron", "sword/pommel": "sword/counterweight"}), <immersiveengineering:toolupgrade:4>);
  

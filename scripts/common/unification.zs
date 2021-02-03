@@ -170,16 +170,14 @@ furnace.remove(<ore:ingotIridium>);
 recipes.removeByRecipeName("advancedrocketry:stickiridium");
 
 //Tungsten
-Crusher.removeRecipesForInput(<immersive_energy:ore:1>);
 Crusher.addRecipe(<mekores:mekanismore:108> * 2, <ore:oreTungsten>, 4000, <mekanism:dirtydust>, 0.15);
-furnace.remove(<ore:ingotTungsten>);
-recipes.removeByRecipeName("immersive_energy:material/plate_tungsten");
+Crusher.addRecipe(<contenttweaker:tungsten_dust>, <ore:ingotTungsten>, 1600);
+recipes.addShapeless(<contenttweaker:tungsten_block>, [<ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>, <ore:ingotTungsten>]);
+recipes.addShapeless(<contenttweaker:tungsten_ingot>, [<ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>, <ore:nuggetTungsten>]);
+recipes.addShapeless(<contenttweaker:tungsten_ingot> * 9, [<ore:blockTungsten>]);
+recipes.addShapeless(<contenttweaker:tungsten_nugget> * 9, [<ore:ingotTungsten>]);
+MetalPress.addRecipe(<contenttweaker:tungsten_plate>, <ore:ingotTungsten>, <immersiveengineering:mold:0>, 3600);
 MetalPress.addRecipe(<contenttweaker:tungsten_wire> * 2, <ore:ingotTungsten>, <immersiveengineering:mold:4>, 3600);
-
-//Thorium
-Crusher.removeRecipesForInput(<immersive_energy:ore:0>);
-Crusher.addRecipe(<mekores:mekanismore:78> * 2, <ore:oreThorium>, 4000, <contenttweaker:pyrochlore_ore_dust>, 0.05);
-furnace.addRecipe(<immersive_energy:metal:0>, <mekores:mekanismore:78>);
 
 //Steel
 Crusher.removeRecipesForInput(<contenttweaker:high_carbon_steel_ingot>);
@@ -209,7 +207,7 @@ MetalPress.addRecipe(<immersiveengineering:metal:38>, <immersiveengineering:meta
 MetalPress.addRecipe(<libvulpes:productsheet:6>, <immersiveengineering:metal:38>, <immersiveengineering:mold>, 3600);
 MetalPress.addRecipe(<immersiveengineering:material:23> * 2, <immersiveengineering:metal:8>, <immersiveengineering:mold:4>, 3600);
 
-//Low Carbon Steel
+//High Carbon Steel
 Crusher.addRecipe(<contenttweaker:high_carbon_steel_dust>, <ore:ingotHighCarbonSteel>, 1600);
 furnace.addRecipe(<contenttweaker:high_carbon_steel_ingot>, <ore:dustHighCarbonSteel>);
 recipes.addShapeless(<contenttweaker:high_carbon_steel_block>, [<ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>, <ore:ingotHighCarbonSteel>]);

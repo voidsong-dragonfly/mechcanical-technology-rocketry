@@ -278,7 +278,7 @@ induction_tablet.build();
 //Cleanroom satellite precision parts
 var reaction_wheel = newBuilder("reaction_wheel", "assembly_cleanroom", 600);
 reaction_wheel.addEnergyPerTickInput(128);
-reaction_wheel.addItemInput(<immersive_energy:storage:1>);
+reaction_wheel.addItemInput(<ore:blockTungsten>, 1);
 reaction_wheel.addItemInput(<immersiveengineering:material:2> * 4);
 reaction_wheel.addItemInput(<immersiveengineering:material:9> * 4);
 reaction_wheel.addFluidInput(<liquid:lubricant> * 1000);

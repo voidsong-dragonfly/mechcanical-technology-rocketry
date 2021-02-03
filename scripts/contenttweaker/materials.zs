@@ -21,7 +21,7 @@ import scripts.contenttweaker.contenttweaker_functions.create_block_transparent;
 
 
 
-//Format is [name, basic parts, hot ingot, wire, sheet, mechanical component, gear, scaffolding panel, small pipe] or [name, basic parts, hot ingot, wire, sheet, mechanical component, gear, scaffolding panel, small pipe, hardness, resistance, level]
+//Format is [name, basic parts, wire, sheet, mechanical component, gear, scaffolding panel, small pipe] or [name, basic parts, hot ingot, wire, sheet, mechanical component, gear, scaffolding panel, small pipe, hardness, resistance, level]
 /*
 ---- Colors ----
 HCS - A6A6AA
@@ -35,7 +35,7 @@ Cobalt - 25436A
 Maraging Steel - ACACA6
 Magnesium - 928a89
 Osmium - 94a4ab
-Tungsten - bfc5c9
+Tungsten - 5b5b5c
 Silver - d0dce4
 Indium - 433253
 Silver-Indium - 9e90ab
@@ -80,10 +80,10 @@ create_metal_material("niobium_titanium", true, true, false, false, false, false
 create_metal_material("zirconium", true, false, false, false, false, false, false);
 create_metal_material("silver_indium", true, false, false, false, false, false, false);
 create_metal_material("zirconium_niobium", true, false, false, false, false, true, true);
+create_metal_material_block("tungsten", true, true, false, false, false, false, false, 10.0, 100.0, 3);
 //Material additions
 create_metal_material("lead", false, false, true, false, false, false, false);
 create_metal_material("silver", false, true, false, false, false, false, false);
-create_metal_material("tungsten", false, true, false, false, false, false, false);
 create_metal_material("aluminium", false, false, false, false, false, true, false);
 create_metal_material("steel", false, false, false, false, false, true, false);
 create_metal_material("titanium_aluminide", false, false, false, false, false, true, false);

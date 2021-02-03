@@ -107,6 +107,7 @@ createItem("diamond_lens").register();
 //Miscellaneous small parts
 createItem("induction_tablet").register();
 createItem("reaction_wheel").register();
+createItem("solar_panel").register();
 createItem("small_battery_hull").register();
 createItem("supercapacitor_hull").register();
 createItem("supercapacitor").register();

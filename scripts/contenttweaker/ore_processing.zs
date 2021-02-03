@@ -101,6 +101,8 @@ create_molten_fluid("moltenhighcarbonsteel", "C79C5A", 2000, 8050, 10000);
 create_molten_fluid("moltensteel", "CB8A44", 2000, 7750, 10000);
 create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
 
+//Tungsten processing blocks
+create_block("tungsten_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
 //Tungsten processing items
 createItem("washed_tungsten_ore_dust").register();
 createItem("hydrated_tungsten_trioxide").register();
