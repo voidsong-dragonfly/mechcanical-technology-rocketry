@@ -1,13 +1,13 @@
 {
     "machine": ["fusion_reactor_extractor_THe3"],
     "registryName": "extractor_THe3",
-    "recipeTime": 221,
+    "recipeTime": 22100,
     "requirements": [
         {
             "type": "fluid",
             "io-type": "output",
             "fluid": "liquiddeuterium",
-            "amount": 10
+            "amount": 1
         },
         {
             "type": "energy",
@@ -18,7 +18,7 @@
             "type": "fluid",
             "io-type": "output",
             "fluid": "helium",
-            "amount": 10
+            "amount": 1
         }
     ]
 }

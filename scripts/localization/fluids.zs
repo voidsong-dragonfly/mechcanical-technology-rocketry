@@ -98,3 +98,17 @@ game.setLocalization("fluid.processedlithiatedwater", "Bombarded Lithiated Water
 game.setLocalization("fluid.tritiatedwater", "Tritiated Water");
 game.setLocalization("fluid.superheatedwater", "Superheated Water");
 game.setLocalization("fluid.heat", "Temperature - MK");
+
+//Gas giant mining fluids
+game.setLocalization("fluid.densebalancedgas", "Dense Balanced Gas Mix");
+game.setLocalization("fluid.lightbalancedgas", "Light Balanced Gas Mix");
+game.setLocalization("fluid.cloudbalancedgas", "Cloudlayer Balanced Gas Mix");
+game.setLocalization("fluid.densehydrogenrichgas", "Dense Hydrogen-Rich Gas Mix");
+game.setLocalization("fluid.lighthydrogenrichgas", "Light Hydrogen-Rich Gas Mix");
+game.setLocalization("fluid.cloudhydrogenrichgas", "Cloudlayer Hydrogen-Rich Gas Mix");
+game.setLocalization("fluid.denseammoniarichgas", "Dense Ammonia-Rich Gas Mix");
+game.setLocalization("fluid.lightammoniarichgas", "Light Ammonia-Rich Gas Mix");
+game.setLocalization("fluid.cloudammoniarichgas", "Cloudlayer Ammonia-Rich Gas Mix");
+game.setLocalization("fluid.denseheliumrichgas", "Dense Helium-Rich Gas Mix");
+game.setLocalization("fluid.lightheliumrichgas", "Light Helium-Rich Gas Mix");
+game.setLocalization("fluid.cloudheliumrichgas", "Cloudlayer Helium-Rich Gas Mix");

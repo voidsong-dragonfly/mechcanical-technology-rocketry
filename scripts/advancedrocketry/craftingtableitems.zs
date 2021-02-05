@@ -10,7 +10,6 @@ recipes.remove(<advancedrocketry:satelliteidchip>);
 recipes.remove(<advancedrocketry:asteroidchip>);
 recipes.remove(<advancedrocketry:spacestationchip>);
 recipes.remove(<advancedrocketry:planetidchip>);
-recipes.addShapeless(<advancedrocketry:ic:1>, [<ore:circuitAdvanced>]);
 recipes.addShaped(<advancedrocketry:satelliteidchip>,
  [[<mekanism:configurator:*>, <contenttweaker:tin_solder>, null],
  [null, <advancedrocketry:ic:1>, null],
@@ -31,6 +30,9 @@ recipes.addShaped(<advancedrocketry:planetidchip>,
  [[<mekanism:configurator:*>, null, null],
  [null, <advancedrocketry:ic:1>, null],
  [null, <contenttweaker:tin_solder>, null]]);
+
+//Add full data chip to GPS unit craft. 250 data per elite circuit, 500 per ultimate
+recipes.addShapeless(<contenttweaker:gps_unit> * 4, [<advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 1, Data: 1000}).transformReplace(<advancedrocketry:dataunit>)]);
  
 //Suit upgrade recipes
 recipes.addShapeless(<advancedrocketry:beaconfinder>, [<advancedrocketry:itemupgrade:4>, <advancedrocketry:ic:1>]);

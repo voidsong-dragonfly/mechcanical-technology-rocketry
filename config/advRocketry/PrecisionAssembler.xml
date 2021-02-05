@@ -180,4 +180,17 @@
 			<itemStack>advancedrocketry:dataunit</itemStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="450" power="256">
+		<input>
+			<itemStack>contenttweaker:ram_plate;8</itemStack>
+            <itemStack>contenttweaker:integrated_circuit_plate;2</itemStack>
+            <itemStack>contenttweaker:nand_memory_plate</itemStack>
+            <itemStack>immersiveengineering:material;2;22</itemStack>
+            <itemStack>contenttweaker:tin_solder;4</itemStack>
+            <itemStack>contenttweaker:plastic_circuit_board</itemStack>
+        </input>
+		<output>
+			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

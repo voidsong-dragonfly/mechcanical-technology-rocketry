@@ -34,42 +34,195 @@
 <Recipes useDefault="false">
     <Recipe timeRequired="12000" power="3072">
 		<input>
-			<fluidStack>uraniumhexafluoride_007;800</fluidStack>
+			<fluidStack>uraniumhexafluoride_007;1000</fluidStack>
             
         </input>
 		<output>
-			<fluidStack>uraniumhexafluoride_000;400</fluidStack>
-            <fluidStack>uraniumhexafluoride_014;400</fluidStack>
+			<fluidStack>uraniumhexafluoride_000;500</fluidStack>
+            <fluidStack>uraniumhexafluoride_014;500</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="12000" power="3072">
 		<input>
-			<fluidStack>uraniumhexafluoride_014;800</fluidStack>
+			<fluidStack>uraniumhexafluoride_014;1000</fluidStack>
             
         </input>
 		<output>
-			<fluidStack>uraniumhexafluoride_007;400</fluidStack>
-            <fluidStack>uraniumhexafluoride_021;400</fluidStack>
+			<fluidStack>uraniumhexafluoride_007;500</fluidStack>
+            <fluidStack>uraniumhexafluoride_021;500</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="12000" power="3072">
 		<input>
-			<fluidStack>uraniumhexafluoride_021;800</fluidStack>
+			<fluidStack>uraniumhexafluoride_021;1000</fluidStack>
             
         </input>
 		<output>
-			<fluidStack>uraniumhexafluoride_014;400</fluidStack>
-            <fluidStack>uraniumhexafluoride_028;400</fluidStack>
+			<fluidStack>uraniumhexafluoride_014;500</fluidStack>
+            <fluidStack>uraniumhexafluoride_028;500</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="12000" power="3072">
 		<input>
-			<fluidStack>uraniumhexafluoride_028;800</fluidStack>
+			<fluidStack>uraniumhexafluoride_028;1000</fluidStack>
             
         </input>
 		<output>
-			<fluidStack>uraniumhexafluoride_021;400</fluidStack>
-            <fluidStack>uraniumhexafluoride_035;400</fluidStack>
+			<fluidStack>uraniumhexafluoride_021;500</fluidStack>
+            <fluidStack>uraniumhexafluoride_035;500</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>densebalancedgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;8700</fluidStack>
+            <fluidStack>helium;1200</fluidStack>
+            <fluidStack>methane;66</fluidStack>
+            <fluidStack>ammonia;30</fluidStack>
+            <fluidStack>liquiddeuterium;3</fluidStack>
+            <fluidStack>helium3;1</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>lightbalancedgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;9100</fluidStack>
+            <fluidStack>helium;950</fluidStack>
+            <fluidStack>methane;29</fluidStack>
+            <fluidStack>ammonia;20</fluidStack>
+            <fluidStack>liquiddeuterium;1</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>cloudbalancedgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;8500</fluidStack>
+            <fluidStack>helium;800</fluidStack>
+            <fluidStack>methane;50</fluidStack>
+            <fluidStack>ammonia;500</fluidStack>
+            <fluidStack>water;150</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>densehydrogenrichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;9475</fluidStack>
+            <fluidStack>helium;400</fluidStack>
+            <fluidStack>methane;65</fluidStack>
+            <fluidStack>ammonia;200</fluidStack>
+            <fluidStack>liquiddeuterium;40</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>lighthydrogenrichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;9850</fluidStack>
+            <fluidStack>helium;100</fluidStack>
+            <fluidStack>methane;65</fluidStack>
+            <fluidStack>ammonia;30</fluidStack>
+            <fluidStack>liquiddeuterium;20</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>cloudhydrogenrichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;9400</fluidStack>
+            <fluidStack>helium;100</fluidStack>
+            <fluidStack>methane;60</fluidStack>
+            <fluidStack>ammonia;300</fluidStack>
+            <fluidStack>water;140</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>denseammoniarichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;7950</fluidStack>
+            <fluidStack>helium;1650</fluidStack>
+            <fluidStack>methane;250</fluidStack>
+            <fluidStack>ammonia;100</fluidStack>
+            <fluidStack>water;32</fluidStack>
+            <fluidStack>liquiddeuterium;15</fluidStack>
+            <fluidStack>helium3;3</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>lightammoniarichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;8600</fluidStack>
+            <fluidStack>helium;1100</fluidStack>
+            <fluidStack>methane;200</fluidStack>
+            <fluidStack>ammonia;60</fluidStack>
+            <fluidStack>water;28</fluidStack>
+            <fluidStack>liquiddeuterium;10</fluidStack>
+            <fluidStack>helium3;2</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>cloudammoniarichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;7800</fluidStack>
+            <fluidStack>helium;1200</fluidStack>
+            <fluidStack>methane;200</fluidStack>
+            <fluidStack>ammonia;600</fluidStack>
+            <fluidStack>water;200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>denseheliumrichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;7400</fluidStack>
+            <fluidStack>helium;2100</fluidStack>
+            <fluidStack>methane;200</fluidStack>
+            <fluidStack>ammonia;200</fluidStack>
+            <fluidStack>water;20</fluidStack>
+            <fluidStack>liquiddeuterium;80</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>lightheliumrichgas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidhydrogen;8250</fluidStack>
+            <fluidStack>helium;1550</fluidStack>
+            <fluidStack>methane;100</fluidStack>
+            <fluidStack>ammonia;70</fluidStack>
+            <fluidStack>water;10</fluidStack>
+            <fluidStack>liquiddeuterium;10</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3000" power="2048">
+		<input>
+			<fluidStack>cloudheliumrichgas;10000</fluidStack>
+        </input>
+		<output>7400
+			<fluidStack>liquidhydrogen;500</fluidStack>
+            <fluidStack>helium;1800</fluidStack>
+            <fluidStack>methane;150</fluidStack>
+            <fluidStack>ammonia;500</fluidStack>
+            <fluidStack>water;149</fluidStack>
+            <fluidStack>liquiddeuterium;1</fluidStack>
+		</output>
+	</Recipe>
+    
 </Recipes>

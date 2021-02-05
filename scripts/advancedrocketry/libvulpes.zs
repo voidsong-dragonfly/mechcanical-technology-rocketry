@@ -68,3 +68,9 @@ recipes.addShaped(<libvulpes:structuremachine>,
  [[<mekanism:polyethene:2>, null, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);
+ 
+//Make holoprojector not take (expensive) optical sensors
+recipes.remove(<libvulpes:holoprojector>);
+recipes.addShaped(<libvulpes:holoprojector>,
+ [[<ore:plateIron>, <ore:lensGlass>, <ore:plateIron>, ],
+ [<ore:plateIron>, <immersiveengineering:metal_device1:9>, <ore:plateIron>]]);

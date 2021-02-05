@@ -3,8 +3,7 @@ import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 import mods.immersiveengineering.CokeOven;
 
-//Add full data chip to GPS unit craft
-recipes.addShapeless(<contenttweaker:gps_unit>, [<advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 1, Data: 1000, locked: 0 as byte}), <ore:stickAluminum>]);
+
  
 //Turn AR concrete into Cement
 recipes.remove(<advancedrocketry:concrete>);

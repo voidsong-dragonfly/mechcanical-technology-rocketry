@@ -116,3 +116,19 @@ create_fluid("uraniumhexafluoride_014", "F1EDDA", 300, 5030, 1000);
 create_fluid("uraniumhexafluoride_021", "F1EDDA", 300, 5030, 1000);
 create_fluid("uraniumhexafluoride_028", "F1EDDA", 300, 5030, 1000);
 create_fluid("uraniumhexafluoride_035", "F1EDDA", 300, 5030, 1000);
+
+//Gas giant mining gasses
+create_gas("densebalancedgas", "e85d5a");
+create_gas("lightbalancedgas", "fa8e66");
+create_gas("cloudbalancedgas", "5e322d");
+create_gas("densehydrogenrichgas", "977d5c");
+create_gas("lighthydrogenrichgas", "a99279");
+create_gas("cloudhydrogenrichgas", "896a3d");
+create_gas("denseammoniarichgas", "5d6fb4");
+create_gas("lightammoniarichgas", "7fa1f6");
+create_gas("cloudammoniarichgas", "32435b");
+create_gas("denseheliumrichgas", "5d6fb4");
+create_gas("lightheliumrichgas", "7fa1f6");
+create_gas("cloudheliumrichgas", "32435b");
+
+

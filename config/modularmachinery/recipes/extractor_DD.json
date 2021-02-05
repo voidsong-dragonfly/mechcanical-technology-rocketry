@@ -1,13 +1,13 @@
 {
     "machine": ["fusion_reactor_extractor_DD"],
     "registryName": "extractor_DD",
-    "recipeTime": 51,
+    "recipeTime": 5100,
     "requirements": [
         {
             "type": "fluid",
             "io-type": "output",
             "fluid": "liquidhydrogen",
-            "amount": 10
+            "amount": 1
         },
         {
             "type": "energy",
@@ -18,7 +18,7 @@
             "type": "fluid",
             "io-type": "output",
             "fluid": "liquidtritium",
-            "amount": 10
+            "amount": 1
         }
     ]
 }
