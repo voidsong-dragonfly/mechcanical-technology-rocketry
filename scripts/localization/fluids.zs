@@ -112,3 +112,4 @@ game.setLocalization("fluid.cloudammoniarichgas", "Cloudlayer Ammonia-Rich Gas M
 game.setLocalization("fluid.denseheliumrichgas", "Dense Helium-Rich Gas Mix");
 game.setLocalization("fluid.lightheliumrichgas", "Light Helium-Rich Gas Mix");
 game.setLocalization("fluid.cloudheliumrichgas", "Cloudlayer Helium-Rich Gas Mix");
+game.setLocalization("fluid.precipitategas", "Precipitate Gas Mix");

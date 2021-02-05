@@ -130,5 +130,5 @@ create_gas("cloudammoniarichgas", "32435b");
 create_gas("denseheliumrichgas", "5d6fb4");
 create_gas("lightheliumrichgas", "7fa1f6");
 create_gas("cloudheliumrichgas", "32435b");
-
+create_gas("precipitategas", "7ebad1");
 

@@ -103,6 +103,12 @@ createItem("emerald_lens").register();
 createItem("ender_pearl_lens").register();
 createItem("ruby_lens").register();
 createItem("diamond_lens").register();
+createItem("glass_plate").register();
+createItem("lapis_plate").register();
+createItem("emerald_plate").register();
+createItem("ender_pearl_plate").register();
+createItem("ruby_plate").register();
+createItem("diamond_plate").register();
 
 //Miscellaneous small parts
 createItem("induction_tablet").register();

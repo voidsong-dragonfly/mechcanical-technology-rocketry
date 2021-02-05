@@ -285,4 +285,69 @@
 			<itemStack>contenttweaker:soc_plate;4</itemStack>
 		</output>
 	</Recipe>
+    
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>blockGlass</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:glass_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>blockLapis</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:lapis_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>blockEmerald</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:emerald_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>crystalLargeEmerald</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:emerald_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>blockEnderPearl</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ender_pearl_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>blockRuby</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ruby_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>crystalLargeRuby</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:ruby_plate;9</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="192">
+		<input>
+			<oreDict>blockDiamond</oreDict>
+        </input>
+		<output>
+			<itemStack>contenttweaker:diamond_plate;9</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

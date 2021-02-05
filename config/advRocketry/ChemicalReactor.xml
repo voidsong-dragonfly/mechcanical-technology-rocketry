@@ -224,7 +224,7 @@
         </input>
 		<output>
 			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
-            <fluidStack>argon;3900</fluidStack>
+            <fluidStack>argon;3500</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="4800" power="2048">
@@ -235,7 +235,7 @@
         </input>
 		<output>
 			<itemStack>contenttweaker:lithium_doped_silicon_boule</itemStack>
-            <fluidStack>argon;3900</fluidStack>
+            <fluidStack>argon;3500</fluidStack>
 		</output>
 	</Recipe>
     

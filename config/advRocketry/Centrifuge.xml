@@ -215,8 +215,8 @@
 		<input>
 			<fluidStack>cloudheliumrichgas;10000</fluidStack>
         </input>
-		<output>7400
-			<fluidStack>liquidhydrogen;500</fluidStack>
+		<output>
+			<fluidStack>liquidhydrogen;7400</fluidStack>
             <fluidStack>helium;1800</fluidStack>
             <fluidStack>methane;150</fluidStack>
             <fluidStack>ammonia;500</fluidStack>
@@ -224,5 +224,15 @@
             <fluidStack>liquiddeuterium;1</fluidStack>
 		</output>
 	</Recipe>
-    
+    <Recipe timeRequired="2500" power="2048">
+		<input>
+			<fluidStack>precipitategas;10000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>nitrogengas;4700</fluidStack>
+            <fluidStack>liquidoxygen;4000</fluidStack>
+            <fluidStack>argon;200</fluidStack>
+            <fluidStack>carbondioxide;100</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>

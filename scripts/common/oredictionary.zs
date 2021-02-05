@@ -203,6 +203,12 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:lensEnderPearl>.add(<contenttweaker:ender_pearl_lens>);
 <ore:lensRuby>.add(<contenttweaker:ruby_lens>);
 <ore:lensDiamond>.add(<contenttweaker:diamond_lens>);
+<ore:plateGlass>.add(<contenttweaker:glass_plate>);
+<ore:plateLapis>.add(<contenttweaker:lapis_plate>);
+<ore:plateEmerald>.add(<contenttweaker:emerald_plate>);
+<ore:plateEnderPearl>.add(<contenttweaker:ender_pearl_plate>);
+<ore:plateRuby>.add(<contenttweaker:ruby_plate>);
+<ore:plateDiamond>.add(<contenttweaker:diamond_plate>);
 
 //Cinnabar oredictionary
 <ore:dustCinnabar>.add(<contenttweaker:cinnabar_dust>);

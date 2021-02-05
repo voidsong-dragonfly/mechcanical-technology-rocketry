@@ -43,4 +43,26 @@
             <fluidStack>helium;15800</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="2400" power="1024">
+		<input>
+			<oreDict>dustSilicon;64</oreDict>
+            <oreDict>dustGallium</oreDict>
+            <fluidStack>argon;4000</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+            <fluidStack>argon;3900</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="2048">
+		<input>
+			<oreDict>dustSilicon;64</oreDict>
+            <oreDict>dustLithium</oreDict>
+            <fluidStack>argon;4000</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+            <fluidStack>argon;3900</fluidStack>
+		</output>
+    </Recipe>
 </Recipes>
