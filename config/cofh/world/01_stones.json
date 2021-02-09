@@ -9,7 +9,7 @@
             },
             "distribution": "uniform",
             "cluster-count": 1,
-            "chunk-chance": 24,
+            "chunk-chance": 32,
             "min-height": 8,
             "max-height": 32,
             "biome": {
@@ -48,7 +48,7 @@
             ],
             "distribution": "uniform",
             "cluster-count": 1,
-            "chunk-chance": 24,
+            "chunk-chance": 48,
             "min-height": 20,
             "max-height": 40,
             "biome": {

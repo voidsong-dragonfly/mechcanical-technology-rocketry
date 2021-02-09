@@ -16,38 +16,38 @@
       "mainSelector": {
         "entries": {
           "minecraft:air": 0.2,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
           "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.1,
-          "minecraft:stonebrick[variant=stonebrick]": 0.05,
-          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.1
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
+          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.1,
+          "minecraft:stonebrick[variant=stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
       "floorSelector": {
         "entries": {
-          "minecraft:sand[variant=red_sand]": 0.3,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
           "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
+          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.1,
           "minecraft:stonebrick[variant=stonebrick]": 0.05,
-          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.1
+          "minecraft:sand[variant=red_sand]": 0.3
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
       "brickSelector": {
         "entries": {
-          "minecraft:red_sandstone[type=red_sandstone]": 0.5,
           "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.2,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.2
+          "minecraft:red_sandstone[type=red_sandstone]": 0.5,
+          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.2,
+          "minecraft:stonebrick[variant=stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
       "legSelector": {
         "entries": {
-          "minecraft:red_sandstone[type=red_sandstone]": 0.5,
           "minecraft:red_sandstone[type=smooth_red_sandstone]": 0.2,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.2
+          "minecraft:red_sandstone[type=red_sandstone]": 0.5,
+          "minecraft:red_sandstone[type=chiseled_red_sandstone]": 0.2,
+          "minecraft:stonebrick[variant=stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:red_sandstone[type=red_sandstone]"
       },
@@ -121,21 +121,21 @@
       ],
       "mainSelector": {
         "entries": {
-          "minecraft:air": 0.2,
           "minecraft:stained_hardened_clay[color=yellow]": 0.1,
-          "minecraft:stained_hardened_clay[color=white]": 0.1,
+          "minecraft:air": 0.2,
           "minecraft:stained_hardened_clay[color=brown]": 0.1,
-          "minecraft:stained_hardened_clay[color=orange]": 0.1
+          "minecraft:stained_hardened_clay[color=orange]": 0.1,
+          "minecraft:stained_hardened_clay[color=white]": 0.1
         },
         "defaultBlock": "minecraft:planks[variant=dark_oak]"
       },
       "floorSelector": {
         "entries": {
-          "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
           "minecraft:stained_hardened_clay[color=yellow]": 0.05,
-          "minecraft:stained_hardened_clay[color=white]": 0.05,
+          "minecraft:stonebrick[variant=mossy_stonebrick]": 0.1,
           "minecraft:stained_hardened_clay[color=brown]": 0.05,
           "minecraft:stained_hardened_clay[color=orange]": 0.05,
+          "minecraft:stained_hardened_clay[color=white]": 0.05,
           "minecraft:stonebrick[variant=stonebrick]": 0.1,
           "minecraft:stonebrick[variant=chiseled_stonebrick]": 0.1
         },
@@ -344,8 +344,8 @@
         "entries": {
           "minecraft:air": 0.2,
           "minecraft:sandstone[type=smooth_sandstone]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
           "minecraft:sandstone[type=chiseled_sandstone]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
           "minecraft:stonebrick[variant=stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
@@ -354,27 +354,27 @@
         "entries": {
           "minecraft:sand[variant=sand]": 0.3,
           "minecraft:sandstone[type=smooth_sandstone]": 0.1,
-          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
           "minecraft:sandstone[type=chiseled_sandstone]": 0.1,
+          "minecraft:stonebrick[variant=cracked_stonebrick]": 0.05,
           "minecraft:stonebrick[variant=stonebrick]": 0.05
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
       "brickSelector": {
         "entries": {
-          "minecraft:sandstone[type=sandstone]": 0.5,
           "minecraft:sandstone[type=smooth_sandstone]": 0.2,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:sandstone[type=chiseled_sandstone]": 0.2
+          "minecraft:sandstone[type=chiseled_sandstone]": 0.2,
+          "minecraft:sandstone[type=sandstone]": 0.5,
+          "minecraft:stonebrick[variant=stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
       "legSelector": {
         "entries": {
-          "minecraft:sandstone[type=sandstone]": 0.5,
           "minecraft:sandstone[type=smooth_sandstone]": 0.2,
-          "minecraft:stonebrick[variant=stonebrick]": 0.1,
-          "minecraft:sandstone[type=chiseled_sandstone]": 0.2
+          "minecraft:sandstone[type=chiseled_sandstone]": 0.2,
+          "minecraft:sandstone[type=sandstone]": 0.5,
+          "minecraft:stonebrick[variant=stonebrick]": 0.1
         },
         "defaultBlock": "minecraft:sandstone[type=sandstone]"
       },
