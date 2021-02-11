@@ -1,3 +1,12 @@
+# ----------------------------------------------------------- #
+# ########################################################### #
+#                ### lush_caves.cave Info ###                 #
+# ########################################################### #
+#   This preset is designed to demonstrate a basic use case   #
+# for this mod. It is a descendant of a modified tunnels and  #
+# spirals preset. It makes lush caves with large amounts of   #
+# greenery similar to the first screenshot of 1.17 lush caves #
+# ----------------------------------------------------------- #
 {
   # Whether the preset is enabled globally.
   enabled: true
@@ -9,13 +18,35 @@
   #We only want these caves in the overworld because only the overworld would support them
   dimensions: [ 0 ]
   useDimensionBlacklist: false
+  #Add some greenery to the floor
   wallDecorators: [
+    #Water patches
+    {
+      states: water
+      minHeight: 32
+      maxHeight: 40
+      directions: down
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      preference: replace_match
+      noise3D: { "frequency": 0.075 }
+    }
+    #Fix water patches
+    {
+      states: stone
+      chance: 0.9
+      minHeight: 32
+      maxHeight: 40
+      directions: side
+      matchers: water
+      preference: replace_match
+    }
+    #Bottom variation, coarse dirt, grass, and mossy cobble
     {
       states: grass
       chance: 0.5
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -24,7 +55,7 @@
       chance: 0.2
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -33,7 +64,7 @@
       chance: 0.2
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -42,19 +73,84 @@
       chance: 0.075
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
       directions: down
       preference: replace_match
     }
+    #Vegetation blocks this time
+    # Spawns extra ferns on the ground.
+    {
+      states: tallgrass:2
+      chance: 0.05
+      minHeight: 32
+      maxHeight: 52
+      directions: down
+      matchers: grass
+      preference: replace_original
+    }
+    # Extra tall grass on the ground.
+    {
+      states: tallgrass:1
+      chance: 0.2
+      minHeight: 32
+      maxHeight: 52
+      directions: down
+      matchers: grass
+      preference: replace_original
+    }
+    # Mushrooms
+    {
+      states: [ "red_mushroom", "brown_mushroom" ]
+      chance: 0.02
+      minHeight: 32
+      maxHeight: 52
+      directions: down
+      matchers: [ "grass", "stone" ]
+      preference: replace_original
+    }
+    # Lily Pads
+    {
+      states: waterlily
+      chance: 0.075
+      minHeight: 32
+      maxHeight: 52
+      directions: down
+      matchers: water
+      preference: replace_original
+    }
+    # Hanging leaves
+    {
+      states: leaves
+      chance: 0.5
+      minHeight: 32
+      maxHeight: 56
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      directions: up
+      preference: replace_original
+    }
+    # Make those cave walls a little more interesting
+    # Cobblestone
+    {
+      states: cobblestone
+      chance: 0.1
+      minHeight: 32
+      maxHeight: 52
+      directions: side
+      matchers: [ "stone" ]
+      preference: replace_match
+    }
   ]
+  #Nice large rooms so we have some space for the fun stuff
   rooms: {
     scale: 16
     scaleY: 0.375
   }
+  #Curvy tunnels, but not too curvy or perfect. Add some variation in those spirals
   tunnels: {
     frequency: 2
     minHeight: 40
     maxHeight: 52
+    #One tunnel going down, then a single large room that always spawns
     systemChance: 1
     isolatedChance: 0.03125
     systemDensity: 1

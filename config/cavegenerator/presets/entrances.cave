@@ -31,5 +31,8 @@
       startVal: 1
       startValRandFactor: 0
     }
+    scale: {
+      randFactor: 0.125
+    }
   }
 }
