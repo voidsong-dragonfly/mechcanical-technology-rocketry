@@ -1,0 +1,84 @@
+{
+  # Whether the preset is enabled globally.
+  enabled: true
+  #We don't want spirals in any biomes with ocean features, because they then (can) cause problems
+  biomes: {
+    types: [ "OCEAN" ]
+  }
+  useBiomeBlacklist: true
+  #We only want these caves in the overworld because only the overworld would support them
+  dimensions: [ 0 ]
+  useDimensionBlacklist: false
+  wallDecorators: [
+    {
+      states: grass
+      chance: 0.5
+      minHeight: 32
+      maxHeight: 52
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      directions: down
+      preference: replace_match
+    }
+    {
+      states: dirt:1
+      chance: 0.2
+      minHeight: 32
+      maxHeight: 52
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      directions: down
+      preference: replace_match
+    }
+    {
+      states: mossy_cobblestone
+      chance: 0.2
+      minHeight: 32
+      maxHeight: 52
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      directions: down
+      preference: replace_match
+    }
+    {
+      states: water
+      chance: 0.075
+      minHeight: 32
+      maxHeight: 52
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone", "quark:biome_cobblestone" ]
+      directions: down
+      preference: replace_match
+    }
+  ]
+  rooms: {
+    scale: 16
+    scaleY: 0.375
+  }
+  tunnels: {
+    frequency: 2
+    minHeight: 40
+    maxHeight: 52
+    systemChance: 1
+    isolatedChance: 0.03125
+    systemDensity: 1
+    roomChance: 1
+    noiseYReduction: false
+    distance: 128
+    dYaw: {
+      factor: 1
+      randFactor: 0.375
+      startVal: 1.25
+    }
+    dPitch: {
+      factor: 1
+      randFactor: 0
+    }
+    pitch: {
+      startVal: 1
+      startValRandFactor: 0
+    }
+    scale: {
+      factor: 0.125
+      randFactor: 0.125
+      startVal: 1.5
+      startValRandFactor: 1
+    }
+  }
+}

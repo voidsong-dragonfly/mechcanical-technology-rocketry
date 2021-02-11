@@ -1,0 +1,35 @@
+{
+  # Whether the preset is enabled globally.
+  enabled: true
+  #We don't want spirals in any biomes with ocean features, because they then (can) cause problems
+  biomes: {
+    types: [ "OCEAN" ]
+  }
+  useBiomeBlacklist: true
+  #We only want these caves in the overworld because only the overworld would support them
+  dimensions: [ 0 ]
+  useDimensionBlacklist: false
+  tunnels: {
+    frequency: 2
+    minHeight: 12
+    maxHeight: 64
+    systemChance: 0.00010
+    isolatedChance: 0.1
+    systemDensity: 1
+    noiseYReduction: false
+    distance: 320
+    dYaw: {
+      factor: 1
+      randFactor: 0.375
+      startVal: 1.25
+    }
+    dPitch: {
+      factor: 1
+      randFactor: 0
+    }
+    pitch: {
+      startVal: 1
+      startValRandFactor: 0
+    }
+  }
+}
