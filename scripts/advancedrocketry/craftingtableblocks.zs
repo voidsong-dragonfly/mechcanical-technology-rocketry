@@ -178,6 +178,6 @@ recipes.addShaped(<advancedrocketry:launchpad> * 2,
  [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
  [<engineersdecor:rebar_concrete>, <immersiveengineering:metal_device1:6>, <engineersdecor:rebar_concrete>]]);
 
-//Iridium Crubible
+//Iridium Crubible & asteroid mining
 recipes.remove(<advancedrocketry:iquartzcrucible>);
- 
+recipes.remove(<advancedrocketry:drill>); 

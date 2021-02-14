@@ -50,7 +50,7 @@ recipes.addShaped(<immersiveengineering:wooden_device0:3>,
  [[<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>],
  [<ore:ingotAluminum>, <immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}), <ore:ingotAluminum>],
  [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);
-recipes.addShaped(<immersiveengineering:wooden_device0:3>,
+recipes.addShaped(<immersiveengineering:wooden_device0:7>,
  [[<ore:plankTreatedWood>, <ore:dustRedstone>, <ore:plankTreatedWood>],
  [<ore:ingotAluminum>, <immersiveengineering:metal_device1:6>, <ore:ingotAluminum>],
  [<ore:plankTreatedWood>, <immersiveengineering:material:8>, <ore:plankTreatedWood>]]);

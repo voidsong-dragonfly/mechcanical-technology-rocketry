@@ -239,6 +239,27 @@ engraved_processor_crystal.addItemInput(<contenttweaker:raw_processor_crystal>);
 engraved_processor_crystal.addItemInput(<contenttweaker:ruby_lens>).setChance(0);
 engraved_processor_crystal.addItemOutput(<contenttweaker:engraved_processor_crystal>);
 engraved_processor_crystal.build();
+//Basic & advanced circuits in the assembly cleanroom such that the precision assembly loop is fixed
+var basic_circuit = newBuilder("basic_circuit", "assembly_cleanroom", 450);
+basic_circuit.addEnergyPerTickInput(256);
+basic_circuit.addItemInput(<contenttweaker:integrated_circuit_plate>);
+basic_circuit.addItemInput(<mekanism:polyethene:2>);
+basic_circuit.addItemInput(<contenttweaker:smd_resistor> * 2);
+basic_circuit.addItemInput(<immersiveengineering:material:20> * 2);
+basic_circuit.addItemInput(<contenttweaker:tin_solder> * 2);
+basic_circuit.addItemInput(<contenttweaker:plastic_circuit_board>);
+basic_circuit.addItemOutput(<mekanism:controlcircuit>);
+basic_circuit.build();
+var advanced_circuit = newBuilder("advanced_circuit", "assembly_cleanroom", 450);
+advanced_circuit.addEnergyPerTickInput(256);
+advanced_circuit.addItemInput(<contenttweaker:integrated_circuit_plate> * 2);
+advanced_circuit.addItemInput(<contenttweaker:cpu_plate>);
+advanced_circuit.addItemInput(<contenttweaker:smd_resistor> * 2);
+advanced_circuit.addItemInput(<immersiveengineering:material:21> * 2);
+advanced_circuit.addItemInput(<contenttweaker:tin_solder> * 4);
+advanced_circuit.addItemInput(<contenttweaker:plastic_circuit_board>);
+advanced_circuit.addItemOutput(<mekanism:controlcircuit:1>);
+advanced_circuit.build();
 
 
 /*
