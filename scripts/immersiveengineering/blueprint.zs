@@ -109,9 +109,9 @@ recipes.remove(<advancedrocketry:ic:5>);
 Blueprint.addRecipe("Circuit Assembly", <immersiveengineering:material:27>, [<ore:plateSteel>, <immersiveengineering:stone_decoration:8>, <ore:wireCopper> * 4, <ore:electronTube> * 2]);
 Blueprint.addRecipe("Circuit Assembly", <contenttweaker:treated_wood_circuit_board>, [<ore:slabTreatedWood>]);
 Blueprint.addRecipe("Circuit Assembly", <mekanism:controlcircuit>, [<immersiveengineering:material:27> * 2, <contenttweaker:treated_wood_circuit_board>, <immersiveengineering:wirecoil:5> * 2]);
-Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:3>, [<ore:circuitBasic> * 3, <contenttweaker:tin_solder> * 4, <ore:plateCopper> * 3, <contenttweaker:treated_wood_circuit_board>]);
-Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:4>, [<ore:circuitBasic> * 3, <contenttweaker:tin_solder> * 4, <ore:plateGold> * 3, <contenttweaker:treated_wood_circuit_board>]);
-Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:5>, [<ore:circuitBasic> * 3, <contenttweaker:tin_solder> * 4, <ore:plateSilver> * 3, <contenttweaker:treated_wood_circuit_board>]);
+Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:3>, [<ore:circuitBasic> * 1, <contenttweaker:tin_solder> * 4, <ore:plateCopper> * 3, <contenttweaker:treated_wood_circuit_board>]);
+Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:4>, [<ore:circuitBasic> * 1, <contenttweaker:tin_solder> * 4, <ore:plateGold> * 3, <contenttweaker:treated_wood_circuit_board>]);
+Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:5>, [<ore:circuitBasic> * 1, <contenttweaker:tin_solder> * 4, <ore:plateSilver> * 3, <contenttweaker:treated_wood_circuit_board>]);
 
 //Molds
 Blueprint.addRecipe("molds", <contenttweaker:ingot_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);

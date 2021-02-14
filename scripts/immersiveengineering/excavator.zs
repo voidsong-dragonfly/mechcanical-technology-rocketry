@@ -53,7 +53,7 @@ Excavator.addMineral("Laterite", 20, 0.05, ["cobblestone", "gravel", "dirt", "or
 Excavator.addMineral("Banded Iron", 25, 0.1, ["cobblestone", "gravel", "dirt", "oreIron"], [1.0, 0.375, 0.125, 1.0], [0], false);
 Excavator.addMineral("Auricupride", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreCopper", "oreGold"], [1.0, 0.375, 0.125, 0.75, 0.25], [0], false);
 Excavator.addMineral("Galena", 20, 0.05, ["cobblestone", "gravel", "dirt", "oreLead", "dustSulfur", "oreSilver"], [1.0, 0.375, 0.125, 0.4, 0.4, 0.2], [0], false);
-Excavator.addMineral("Cinnabar", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreRedstone", "dustSulfur", "oreCinnabar"], [1.0, 0.375, 0.125, 0.32, 0.04, 0.04], [0], false);
+Excavator.addMineral("Cinnabar", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreRedstone", "dustSulfur", "oreCinnabar"], [1.0, 0.375, 0.125, 0.7, 0.15, 0.15], [0], false);
 Excavator.addMineral("Cassiterite", 15, 0.05, ["cobblestone", "gravel", "dirt", "oreTin"], [1.0, 0.375, 0.125, 1.0], [0], false);
 //Rare
 //Medium (40% ore)

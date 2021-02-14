@@ -81,6 +81,7 @@ function create_block(name as string, material as BlockMaterial, hardness as dou
     block.setBlockResistance(resistance);
     block.setToolClass(tool);
     block.setToolLevel(level);
+    block.setTranslucent(false);
     block.register();
 
 }
