@@ -9,12 +9,14 @@
   #We only want these caves in the overworld because only the overworld would support them
   dimensions: [ 0 ]
   useDimensionBlacklist: false
+  #Replace more blocks than usual
+  replaceableBlocks: [ "stone", "dirt", "sand", "sandstone", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15" ]
   tunnels: {
     frequency: 2
     minHeight: 12
     maxHeight: 64
     systemChance: 0.00010
-    isolatedChance: 0.1
+    isolatedChance: 0.075
     systemDensity: 1
     noiseYReduction: false
     distance: 320

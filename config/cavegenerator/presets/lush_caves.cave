@@ -18,6 +18,8 @@
   #We only want these caves in the overworld because only the overworld would support them
   dimensions: [ 0 ]
   useDimensionBlacklist: false
+  #Replace more blocks than usual
+  replaceableBlocks: [ "stone", "dirt", "sand", "sandstone", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15" ]
   #Add some greenery to the floor
   wallDecorators: [
     #Water patches
@@ -26,7 +28,7 @@
       minHeight: 32
       maxHeight: 40
       directions: down
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       preference: replace_match
       noise3D: { "frequency": 0.075 }
     }
@@ -46,7 +48,7 @@
       chance: 0.5
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -55,7 +57,7 @@
       chance: 0.2
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -64,7 +66,7 @@
       chance: 0.2
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -73,7 +75,7 @@
       chance: 0.075
       minHeight: 32
       maxHeight: 52
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
       preference: replace_match
     }
@@ -98,6 +100,16 @@
       matchers: grass
       preference: replace_original
     }
+    # Glowflowers for light
+    {
+      states: biomesoplenty:flower_0:3
+      chance: 0.05
+      minHeight: 32
+      maxHeight: 52
+      directions: down
+      matchers: grass
+      preference: replace_original
+    }
     # Mushrooms
     {
       states: [ "red_mushroom", "brown_mushroom" ]
@@ -110,8 +122,8 @@
     }
     # Lily Pads
     {
-      states: waterlily
-      chance: 0.075
+      states: [ "minecraft:waterlily", "biomesoplenty:waterlily:0", "biomesoplenty:waterlily:1", "biomesoplenty:waterlily:2", "biomesoplenty:waterlily:3" ]
+      chance: 0.025
       minHeight: 32
       maxHeight: 52
       directions: down
@@ -124,7 +136,17 @@
       chance: 0.5
       minHeight: 32
       maxHeight: 56
-      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "cobblestone" ]
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
+      directions: up
+      preference: replace_original
+    }
+    # Hanging glowshroom
+    {
+      states: quark:glowshroom_block:14
+      chance: 0.03125
+      minHeight: 32
+      maxHeight: 56
+      matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: up
       preference: replace_original
     }
