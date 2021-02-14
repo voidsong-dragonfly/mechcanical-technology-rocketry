@@ -104,6 +104,25 @@
             <itemStack>mekanism:polyethene;32</itemStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="1920" power="800">
+		<input>
+			<fluidStack>liquidethene;1600</fluidStack>
+            <fluidStack>air;50</fluidStack>
+        </input>
+		<output>
+			<fluidStack>polyethene;3000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1920" power="800">
+		<input>
+			<fluidStack>liquidethene;1600</fluidStack>
+            <fluidStack>air;50</fluidStack>
+            <itemStack>mekanism:substrate;32</itemStack>
+        </input>
+		<output>
+            <itemStack>mekanism:polyethene;24</itemStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="2400" power="384">
 		<input>
             <itemStack>contenttweaker:silicon_dioxide_dust_block</itemStack>
@@ -112,6 +131,25 @@
 		<output>
 			<fluidStack>carbondioxide;800</fluidStack>
             <itemStack>libvulpes:productdust;8;3</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>hydrogensulfide;800</fluidStack>
+            <fluidStack>air;1200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidsulfurdioxide;600</fluidStack>
+            <fluidStack>water;600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<fluidStack>liquidsulfurdioxide;800</fluidStack>
+            <fluidStack>air;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidsulfurtrioxide;600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="100" power="512">
