@@ -7,20 +7,12 @@ import mods.mekanism.GasConversion;
 
 
 
-//Remove Mekanism boilers and turbines, we have those in Immersive Technology already
+//Remove Mekanism boilers, we have those in Immersive Technology already
 //With much better balance and mechanics that make sense, too!
 var mekSteamRemovals = [<mekanism:basicblock2:5>,
                         <mekanism:basicblock2:6>,
                         <mekanism:basicblock2:7>,
-                        <mekanism:basicblock2:8>,
-                        <mekanismgenerators:turbineblade>,
-                        <mekanismgenerators:generator:7>,
-                        <mekanismgenerators:generator:8>,
-                        <mekanismgenerators:generator:9>,
-                        <mekanismgenerators:generator:10>,
-                        <mekanismgenerators:generator:11>,
-                        <mekanismgenerators:generator:12>,
-                        <mekanismgenerators:generator:13>
+                        <mekanism:basicblock2:8>
                         ] as IItemStack[];
 for item in mekSteamRemovals{
     removeAndHide(item);
@@ -125,7 +117,6 @@ for item in mekToolsRemovals{
 hide(<mekanism:enrichediron>);
 removeAndHide(<mekanism:filterupgrade>);
 removeAndHide(<mekanism:electrolyticcore>);
-removeAndHide(<mekanismgenerators:solarpanel>);
 removeAndHide(<mekanism:tierinstaller:*>);
 removeAndHide(<mekanism:walkietalkie>);
 hide(<mekanism:enrichedalloy>);

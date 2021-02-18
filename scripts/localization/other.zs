@@ -5,8 +5,6 @@ import scripts.localization.functions.localize_material;
 
 
 //Consistency changes in other mods
-//Redo tooltips for laser focus matrix
-game.setLocalization("tooltip.ReactorLaserFocusMatrix", "A set of mobile glass lenses that focus the laser in a precision laser engraver to the appropriate spot on the item being engraved.");
 //Make AR Sawbade item from "Iron" to "Diamond"
 game.setLocalization("item.sawBlade.0.name", "Diamond Saw Blade");
 
