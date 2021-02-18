@@ -153,6 +153,22 @@ recipes.addShaped(<advancedrocketry:forcefieldprojector>,
  [[null, <ore:gemDilithium>, null],
  [<immersiveengineering:metal_decoration0>, <libvulpes:structuremachine>, <immersiveengineering:metal_decoration0>],
  [<mekanism:polyethene:2>, <ore:gemDilithium>, <mekanism:polyethene:2>]]);
+
+//Laser recipe tweak
+//Force field slight recipe tweak
+recipes.remove(<advancedrocketry:vacuumlaser>);
+recipes.addShaped(<advancedrocketry:vacuumlaser>,
+ [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
+ [<forge:bucketfilled>.withTag({FluidName: "helium", Amount: 1000}), <libvulpes:structuremachine>, <ore:lensGlass>],
+ [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:vacuumlaser>,
+ [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
+ [<forge:bucketfilled>.withTag({FluidName: "argon", Amount: 1000}), <libvulpes:structuremachine>, <ore:lensGlass>],
+ [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:vacuumlaser>,
+ [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
+ [<forge:bucketfilled>.withTag({FluidName: "carbondioxide", Amount: 1000}), <libvulpes:structuremachine>, <ore:lensGlass>],
+ [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
  
 //Make Warp Core recipe slightly more involved
 recipes.remove(<advancedrocketry:warpcore>);

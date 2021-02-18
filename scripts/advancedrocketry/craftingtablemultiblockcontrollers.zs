@@ -17,7 +17,14 @@ recipes.addShaped(<advancedrocketry:precisionassemblingmachine>,
  [[<mekanism:polyethene:2>, <advancedrocketry:misc>, <mekanism:polyethene:2>],
  [<advancedrocketry:ic:5>, <ore:scaffoldingAluminum>, <advancedrocketry:ic:3>],
  [<ore:circuitBasic>, <advancedrocketry:ic:4>, <ore:circuitBasic>]]);
- 
+
+//Precision laser etcher
+recipes.remove(<advancedrocketry:precisionlaseretcher>);
+recipes.addShaped(<advancedrocketry:precisionlaseretcher>,
+ [[<mekanism:polyethene:2>, <advancedrocketry:misc>, <mekanism:polyethene:2>],
+ [<advancedrocketry:ic:4>, <ore:scaffoldingAluminum>, <advancedrocketry:ic:4>],
+ [<ore:circuitBasic>, <advancedrocketry:ic:3>, <ore:circuitBasic>]]);
+
 //Rolling machine
 recipes.remove(<advancedrocketry:rollingmachine>);
 recipes.addShaped(<advancedrocketry:rollingmachine>,

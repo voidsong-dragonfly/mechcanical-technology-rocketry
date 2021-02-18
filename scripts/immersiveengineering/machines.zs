@@ -66,6 +66,12 @@ BottlingMachine.addRecipe(<contenttweaker:unprepared_platinum_backed_plastic_cir
 BottlingMachine.addRecipe(<libvulpes:battery>, <contenttweaker:small_battery_hull>, <liquid:sulfuricacid> * 125);
 BottlingMachine.addRecipe(<contenttweaker:plastic_circuit_board>, <contenttweaker:unprepared_plastic_circuit_board>, <liquid:sulfuricacid> * 125);
 BottlingMachine.addRecipe(<contenttweaker:platinum_backed_plastic_circuit_board>, <contenttweaker:unprepared_platinum_backed_plastic_circuit_board>, <liquid:sulfuricacid> * 125);
+recipes.addShapeless(<contenttweaker:prepared_integrated_circuit_wafer>, [<contenttweaker:gallium_doped_silicon_wafer>, <contenttweaker:integrated_circuit_etching_plate>]);
+recipes.addShapeless(<contenttweaker:prepared_cpu_wafer>, [<contenttweaker:gallium_doped_silicon_wafer>, <contenttweaker:cpu_etching_plate>]);
+recipes.addShapeless(<contenttweaker:integrated_circuit_wafer>, [<contenttweaker:etched_integrated_circuit_wafer>.transformReplace(<contenttweaker:integrated_circuit_etching_plate>)]);
+recipes.addShapeless(<contenttweaker:cpu_wafer>, [<contenttweaker:etched_cpu_wafer>.transformReplace(<contenttweaker:cpu_etching_plate>)]);
+BottlingMachine.addRecipe(<contenttweaker:etched_integrated_circuit_wafer>, <contenttweaker:prepared_integrated_circuit_wafer>, <liquid:sulfuricacid> * 125);
+BottlingMachine.addRecipe(<contenttweaker:etched_cpu_wafer>, <contenttweaker:prepared_cpu_wafer>, <liquid:sulfuricacid> * 125);
 
 //Helium botting machine recipes
 BottlingMachine.addRecipe(<contenttweaker:pressurized_helium_tank>, <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);

@@ -320,7 +320,7 @@
 	</Recipe>
     <Recipe timeRequired="150" power="192">
 		<input>
-			<oreDict>blockEnderPearl</oreDict>
+            <itemStack>charm:ender_pearl_block</itemStack>
         </input>
 		<output>
 			<itemStack>contenttweaker:ender_pearl_plate;9</itemStack>

@@ -31,6 +31,7 @@ createItem("injection_mold_hdpe_sheet").register();
 createItem("charcoal_precursor").register();
 
 //Circuit Pieces 
+//Basic circuit pieces
 createItem("tin_solder").register();
 createItem("smd_resistor").register();
 createItem("treated_wood_circuit_board").register();
@@ -38,10 +39,19 @@ createItem("unprepared_plastic_circuit_board").register();
 createItem("unprepared_platinum_backed_plastic_circuit_board").register();
 createItem("plastic_circuit_board").register();
 createItem("platinum_backed_plastic_circuit_board").register();
+//Basic silicon pieces
 createItem("gallium_doped_silicon_boule").register();
 createItem("lithium_doped_silicon_boule").register();
 createItem("gallium_doped_silicon_wafer").register();
 createItem("lithium_doped_silicon_wafer").register();
+//Basic etching pieces
+createItem("integrated_circuit_etching_plate").register();
+createItem("cpu_etching_plate").register();
+createItem("prepared_integrated_circuit_wafer").register();
+createItem("prepared_cpu_wafer").register();
+createItem("etched_integrated_circuit_wafer").register();
+createItem("etched_cpu_wafer").register();
+//Advanced etching pieces
 createItem("integrated_circuit_wafer").register();
 createItem("integrated_circuit_plate").register();
 createItem("cpu_wafer").register();

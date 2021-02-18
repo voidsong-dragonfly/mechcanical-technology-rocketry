@@ -44,6 +44,7 @@ game.setLocalization("gas.refinedglowstone", "Refined Glowstone");
 game.setLocalization("item.contenttweaker.refined_glowstone_dust.name", "Refined Glowstone Dust");
 
 //Circuit items
+//Basic items
 game.setLocalization("item.contenttweaker.tin_solder.name", "Tin Solder");
 game.setLocalization("item.contenttweaker.smd_resistor.name", "SMD Resistor");
 game.setLocalization("item.contenttweaker.treated_wood_circuit_board.name", "Treated Wood Circuit Board");
@@ -51,10 +52,19 @@ game.setLocalization("item.contenttweaker.plastic_circuit_board.name", "Plastic 
 game.setLocalization("item.contenttweaker.platinum_backed_plastic_circuit_board.name", "Platinum Backed Plastic Circuit Board");
 game.setLocalization("item.contenttweaker.unprepared_plastic_circuit_board.name", "Unprepared Plastic Circuit Board");
 game.setLocalization("item.contenttweaker.unprepared_platinum_backed_plastic_circuit_board.name", "Unprepared Platinum Backed Plastic Circuit Board");
+//Basic Silicon
 game.setLocalization("item.contenttweaker.gallium_doped_silicon_boule.name", "Gallium Doped Silicon Boule");
 game.setLocalization("item.contenttweaker.lithium_doped_silicon_boule.name", "Lithium Doped Silicon Boule");
 game.setLocalization("item.contenttweaker.gallium_doped_silicon_wafer.name", "Gallium Doped Silicon Wafer");
 game.setLocalization("item.contenttweaker.lithium_doped_silicon_wafer.name", "Lithium Doped Silicon Wafer");
+//Basic Etching silicon
+game.setLocalization("item.contenttweaker.integrated_circuit_etching_plate.name", "Integrated Circuit Etching Plate");
+game.setLocalization("item.contenttweaker.cpu_etching_plate.name", "Central Processing Unit Etching Plate");
+game.setLocalization("item.contenttweaker.prepared_integrated_circuit_wafer.name", "Prepared Integrated Circuit Silicon Wafer");
+game.setLocalization("item.contenttweaker.prepared_cpu_wafer.name", "Prepared Central Processing Unit Silicon Wafer");
+game.setLocalization("item.contenttweaker.etched_integrated_circuit_wafer.name", "Etched Integrated Circuit Wafer");
+game.setLocalization("item.contenttweaker.etched_cpu_wafer.name", "Etched Central Processing Unit Wafer");
+//Advanced etching silicon
 game.setLocalization("item.contenttweaker.integrated_circuit_wafer.name", "Integrated Circuit Wafer");
 game.setLocalization("item.contenttweaker.cpu_wafer.name", "Central Processing Unit Wafer");
 game.setLocalization("item.contenttweaker.nand_memory_wafer.name", "NAND Memory Wafer");

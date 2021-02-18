@@ -184,61 +184,11 @@ nitrogen_liquefaction.addFluidOutput(<liquid:liquidnitrogen> * 12000);
 nitrogen_liquefaction.build();
 
 
+
 /*
-    Circuit Crafting - From silicon boule to finished circuit
+    Assembly Cleanroom pieces - basic circuits, superconductors, satellite pieces
 */
 
-//Wafers & SMD resistor
-var integrated_circuit_wafer = newBuilder("integrated_circuit_wafer", "precision_laser_engraver", 300);
-integrated_circuit_wafer.addItemInput(<contenttweaker:gallium_doped_silicon_wafer>);
-integrated_circuit_wafer.addItemInput(<contenttweaker:glass_lens>).setChance(0);
-integrated_circuit_wafer.addItemOutput(<contenttweaker:integrated_circuit_wafer>);
-integrated_circuit_wafer.build();
-var cpu_wafer = newBuilder("cpu_wafer", "precision_laser_engraver", 300);
-cpu_wafer.addItemInput(<contenttweaker:gallium_doped_silicon_wafer>);
-cpu_wafer.addItemInput(<contenttweaker:lapis_lens>).setChance(0);
-cpu_wafer.addItemOutput(<contenttweaker:cpu_wafer>);
-cpu_wafer.build();
-var nand_memory_wafer = newBuilder("nand_memory_wafer", "precision_laser_engraver", 300);
-nand_memory_wafer.addItemInput(<contenttweaker:gallium_doped_silicon_wafer>);
-nand_memory_wafer.addItemInput(<contenttweaker:emerald_lens>).setChance(0);
-nand_memory_wafer.addItemOutput(<contenttweaker:nand_memory_wafer>);
-nand_memory_wafer.build();
-var ram_wafer = newBuilder("ram_wafer", "precision_laser_engraver", 300);
-ram_wafer.addItemInput(<contenttweaker:gallium_doped_silicon_wafer>);
-ram_wafer.addItemInput(<contenttweaker:diamond_lens>).setChance(0);
-ram_wafer.addItemOutput(<contenttweaker:ram_wafer>);
-ram_wafer.build();
-var integrated_circuit_wafer_lithium = newBuilder("integrated_circuit_wafer_lithium", "precision_laser_engraver", 300);
-integrated_circuit_wafer_lithium.addItemInput(<contenttweaker:lithium_doped_silicon_wafer>);
-integrated_circuit_wafer_lithium.addItemInput(<contenttweaker:glass_lens>).setChance(0);
-integrated_circuit_wafer_lithium.addItemOutput(<contenttweaker:integrated_circuit_wafer>);
-integrated_circuit_wafer_lithium.build();
-var cpu_wafer_lithium = newBuilder("cpu_wafer_lithium", "precision_laser_engraver", 300);
-cpu_wafer_lithium.addItemInput(<contenttweaker:lithium_doped_silicon_wafer>);
-cpu_wafer_lithium.addItemInput(<contenttweaker:lapis_lens>).setChance(0);
-cpu_wafer_lithium.addItemOutput(<contenttweaker:cpu_wafer>);
-cpu_wafer_lithium.build();
-var nand_memory_wafer_lithium = newBuilder("nand_memory_wafer_lithium", "precision_laser_engraver", 300);
-nand_memory_wafer_lithium.addItemInput(<contenttweaker:lithium_doped_silicon_wafer>);
-nand_memory_wafer_lithium.addItemInput(<contenttweaker:emerald_lens>).setChance(0);
-nand_memory_wafer_lithium.addItemOutput(<contenttweaker:nand_memory_wafer>);
-nand_memory_wafer_lithium.build();
-var ram_wafer_lithium = newBuilder("ram_wafer_lithium", "precision_laser_engraver", 300);
-ram_wafer_lithium.addItemInput(<contenttweaker:lithium_doped_silicon_wafer>);
-ram_wafer_lithium.addItemInput(<contenttweaker:diamond_lens>).setChance(0);
-ram_wafer_lithium.addItemOutput(<contenttweaker:ram_wafer>);
-ram_wafer_lithium.build();
-var soc_wafer = newBuilder("soc_wafer", "precision_laser_engraver", 450);
-soc_wafer.addItemInput(<contenttweaker:lithium_doped_silicon_wafer>);
-soc_wafer.addItemInput(<contenttweaker:ender_pearl_lens>).setChance(0);
-soc_wafer.addItemOutput(<contenttweaker:soc_wafer>);
-soc_wafer.build();
-var engraved_processor_crystal = newBuilder("engraved_processor_crystal", "precision_laser_engraver", 600);
-engraved_processor_crystal.addItemInput(<contenttweaker:raw_processor_crystal>);
-engraved_processor_crystal.addItemInput(<contenttweaker:ruby_lens>).setChance(0);
-engraved_processor_crystal.addItemOutput(<contenttweaker:engraved_processor_crystal>);
-engraved_processor_crystal.build();
 //Basic & advanced circuits in the assembly cleanroom such that the precision assembly loop is fixed
 var basic_circuit = newBuilder("basic_circuit", "assembly_cleanroom", 450);
 basic_circuit.addEnergyPerTickInput(256);
@@ -260,11 +210,6 @@ advanced_circuit.addItemInput(<contenttweaker:tin_solder> * 4);
 advanced_circuit.addItemInput(<contenttweaker:plastic_circuit_board>);
 advanced_circuit.addItemOutput(<mekanism:controlcircuit:1>);
 advanced_circuit.build();
-
-
-/*
-    Other Miscellaneous Cleanroom Pieces - Induction, satellites, superconductors
-*/
 
 //Cleanroom Induction Matrix tablets
 var induction_tablet = newBuilder("induction_tablet", "assembly_cleanroom", 240);
@@ -373,6 +318,7 @@ uncooled_superconductor_cable.addItemInput(<contenttweaker:small_tungstensteel_p
 uncooled_superconductor_cable.addItemInput(<ore:circuitElite>, 1);
 uncooled_superconductor_cable.addItemOutput(<contenttweaker:unfilled_superconductor_cable> * 4);
 uncooled_superconductor_cable.build();
+
 
 
 /*
@@ -575,6 +521,8 @@ molten_cryolite.addMekanismHeatInput(0, 1100, (1.0/0));
 molten_cryolite.addItemInput(<contenttweaker:cryolite>);
 molten_cryolite.addFluidOutput(<liquid:moltencryolite> * 900);
 molten_cryolite.build();
+
+
 
 /*
     Miscellaneous

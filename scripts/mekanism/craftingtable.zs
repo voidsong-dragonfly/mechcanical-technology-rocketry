@@ -58,13 +58,6 @@ recipes.addShaped(<mekanism:basicblock2:2>,
  [[<immersiveengineering:wirecoil:2>, <mekanism:basicblock2:1>, <immersiveengineering:wirecoil:2>],
  [null, <ore:circuitElite>, null]]);
  
-//Laser Focus Matrix
-recipes.remove(<mekanismgenerators:reactorglass:1>);
-recipes.addShaped(<mekanismgenerators:reactorglass:1>,
- [[<ore:plateSteel>, <ore:mechanicalComponentSteel>, <ore:plateSteel>],
- [<ore:stickSteel>, <contenttweaker:glass_lens>, <ore:stickSteel>],
- [<ore:plateSteel>, null, <ore:plateSteel>]]);
- 
 //Resistive Heater
 recipes.remove(<mekanism:machineblock3:4>);
 recipes.addShaped(<mekanism:machineblock3:4>,
@@ -131,10 +124,6 @@ recipes.addShaped(<mekanism:machineblock2:9>,
  [[<ore:ingotSteel>, <ore:paneGlassColorless>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <engineersdecor:thin_steel_pole>, <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:machineblock2:13>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<mekanism:energytablet>, <mekanism:basicblock:8>, <contenttweaker:glass_lens>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<mekanism:energytablet>, <mekanism:basicblock:8>, <contenttweaker:ruby_lens>],
