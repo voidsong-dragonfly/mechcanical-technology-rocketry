@@ -185,6 +185,24 @@ recipes.addShaped(<immersivetech:metal_barrel:2>,
  [<contenttweaker:steel_barrel_shell>],
  [<ore:plateSteel>]]);
 
+//Scaffolding recipes
+recipes.addShaped(<immersiveengineering:metal_decoration1:1>,
+ [[null, <ore:scaffoldingPanelSteel>, <ore:scaffoldingPanelSteel>],
+ [<ore:scaffoldingPanelSteel>, null, <ore:scaffoldingPanelSteel>],
+ [<ore:scaffoldingPanelSteel>, <ore:scaffoldingPanelSteel>, null]]);
+recipes.addShaped(<immersiveengineering:metal_decoration1:5>,
+ [[null, <ore:scaffoldingPanelAluminum>, <ore:scaffoldingPanelAluminum>],
+ [<ore:scaffoldingPanelAluminum>, null, <ore:scaffoldingPanelAluminum>],
+ [<ore:scaffoldingPanelAluminum>, <ore:scaffoldingPanelAluminum>, null]]);
+recipes.addShaped(<contenttweaker:zirconium_niobium_frame>,
+ [[null, <ore:scaffoldingPanelZirconiumNiobium>, <ore:scaffoldingPanelZirconiumNiobium>],
+ [<ore:scaffoldingPanelZirconiumNiobium>, null, <ore:scaffoldingPanelZirconiumNiobium>],
+ [<ore:scaffoldingPanelZirconiumNiobium>, <ore:scaffoldingPanelZirconiumNiobium>, null]]);
+recipes.addShaped(<contenttweaker:titanium_frame>,
+ [[null, <ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>],
+ [<ore:scaffoldingPanelTitanium>, null, <ore:scaffoldingPanelTitanium>],
+ [<ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>, null]]);
+ 
 //HVDC and HV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!
 recipes.addShapeless(<contenttweaker:silver_wire>, [<ore:plateSilver>, <immersiveengineering:tool:1>]);

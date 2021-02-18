@@ -48,7 +48,8 @@ create_block_transparent("steel_barrel_shell", <blockmaterial:iron>, 5.0, 20.0, 
 create_block("fission_reactor_calandria_casing_shell", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 2);
 create_block("fission_reactor_calandria_casing", <blockmaterial:iron>, 8.0, 100.0, "pickaxe", 2);
 create_block("fission_reactor_fuel_rod_assembly_pipe_connector", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 2);
-create_block("zirconium_niobium_frame", <blockmaterial:iron>, 8.0, 16.0, "pickaxe", 2);
+create_block_transparent("zirconium_niobium_frame", <blockmaterial:iron>, 8.0, 16.0, "pickaxe", <soundtype:metal>, 2);
+create_block_transparent("titanium_frame", <blockmaterial:iron>, 8.0, 16.0, "pickaxe", <soundtype:metal>, 2);
 
 //Fusion reactor pieces
 create_block("inner_fusion_casing", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 2);

@@ -264,6 +264,13 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:dustAsh>.remove(<mysticalwildlife:dusk_ash>);
 <ore:dyeBlack>.remove(<mysticalwildlife:dusk_ash>);
 
+//Scaffolding panels
+<ore:scaffoldingPanelSteel>.add(<contenttweaker:steel_scaffolding_panel>);
+<ore:scaffoldingPanelSteel>.add(<contenttweaker:high_carbon_steel_scaffolding_panel>);
+<ore:scaffoldingPanelSteel>.add(<contenttweaker:maraging_steel_scaffolding_panel>);
+<ore:scaffoldingPanelAluminum>.add(<contenttweaker:aluminium_scaffolding_panel>);
+<ore:scaffoldingPanelZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_scaffolding_panel>);
+<ore:scaffoldingPanelTitanium>.add(<contenttweaker:titanium_scaffolding_panel>);
 
 
 /*

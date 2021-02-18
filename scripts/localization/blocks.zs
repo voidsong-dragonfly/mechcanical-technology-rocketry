@@ -60,6 +60,7 @@ game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing_shell
 game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing.name", "Fission Reactor Calandria Casing");
 game.setLocalization("tile.contenttweaker.fission_reactor_fuel_rod_assembly_pipe_connector.name", "Fission Reactor Fuel Rod Assembly Pipe Connector");
 game.setLocalization("tile.contenttweaker.zirconium_niobium_frame.name", "Zirconium-Niobium Alloy Frame");
+game.setLocalization("tile.contenttweaker.titanium_frame.name", "Titanium Frame");
 
 //Fusion reactor pieces
 game.setLocalization("tile.contenttweaker.inner_fusion_casing.name", "Fusion Reactor Casing - Inner");

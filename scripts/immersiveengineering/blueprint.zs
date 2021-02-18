@@ -60,12 +60,6 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Heavy Me
  [[null, <ore:blockSteel>, null],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]);
-
-//Make "Scaffolding Assembly" blueprint craftable
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Scaffolding Assembly"}),
- [[null, <ore:scaffoldingSteel>, null],
- [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
- [<ore:paper>, <ore:paper>, <ore:paper>]]);
  
  
  
@@ -179,13 +173,3 @@ Blueprint.addRecipe("Rocket Components", <advancedrocketry:advbipropellantrocket
 Blueprint.addRecipe("Asteroid Mining Components", <contenttweaker:mirror_assembly>, [<ore:sheetAluminum> * 64, <ore:sheetAluminum> * 64, <ore:wireAluminum> * 32, <ore:stickAluminum> * 16]);
 Blueprint.addRecipe("Asteroid Mining Components", <contenttweaker:collection_array>, [<advancedrocketry:satellitepowersource:1> * 8, <libvulpes:structuremachine>, <immersiveengineering:metal_decoration0:2> * 2, <immersiveengineering:material:14> * 4]);
 Blueprint.addRecipe("Asteroid Mining Components", <advancedrocketry:drill> * 4, [<contenttweaker:mirror_assembly> * 4, <contenttweaker:collection_array>]);
-
-//Scaffolding blueprint
-Blueprint.addRecipe("Scaffolding Assembly", <immersiveengineering:metal_decoration1:1> * 1, [<contenttweaker:steel_scaffolding_panel> * 6]);
-Blueprint.addRecipe("Scaffolding Assembly", <immersiveengineering:metal_decoration1:1> * 1, [<contenttweaker:high_carbon_steel_scaffolding_panel> * 6]);
-Blueprint.addRecipe("Scaffolding Assembly", <immersiveengineering:metal_decoration1:1> * 1, [<contenttweaker:maraging_steel_scaffolding_panel> * 6]);
-Blueprint.addRecipe("Scaffolding Assembly", <immersiveengineering:metal_decoration1:5> * 1, [<contenttweaker:aluminium_scaffolding_panel> * 6]);
-Blueprint.addRecipe("Scaffolding Assembly", <contenttweaker:zirconium_niobium_frame> * 1, [<contenttweaker:zirconium_niobium_scaffolding_panel> * 6]);
-Blueprint.addRecipe("Scaffolding Assembly", <advancedrocketry:structuretower> * 1, [<contenttweaker:steel_scaffolding_panel> * 4]);
-Blueprint.addRecipe("Scaffolding Assembly", <advancedrocketry:structuretower> * 1, [<contenttweaker:high_carbon_steel_scaffolding_panel> * 4]);
-Blueprint.addRecipe("Scaffolding Assembly", <advancedrocketry:structuretower> * 1, [<contenttweaker:maraging_steel_scaffolding_panel> * 4]);

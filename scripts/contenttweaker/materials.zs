@@ -92,4 +92,4 @@ create_metal_material("silver", false, true, false, false, false, false, false);
 create_metal_material("aluminium", false, false, false, false, false, true, false);
 create_metal_material("steel", false, false, false, false, false, true, false);
 create_metal_material("titanium_aluminide", false, false, false, false, false, true, false);
-create_metal_material("titanium", false, false, false, false, false, false, true);
+create_metal_material("titanium", false, false, false, false, false, true, true);
