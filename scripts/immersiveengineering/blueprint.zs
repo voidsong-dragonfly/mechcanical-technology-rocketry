@@ -112,6 +112,8 @@ Blueprint.addRecipe("Circuit Assembly", <mekanism:controlcircuit>, [<immersiveen
 Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:3>, [<ore:circuitBasic> * 1, <contenttweaker:tin_solder> * 4, <ore:plateCopper> * 3, <contenttweaker:treated_wood_circuit_board>]);
 Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:4>, [<ore:circuitBasic> * 1, <contenttweaker:tin_solder> * 4, <ore:plateGold> * 3, <contenttweaker:treated_wood_circuit_board>]);
 Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:5>, [<ore:circuitBasic> * 1, <contenttweaker:tin_solder> * 4, <ore:plateSilver> * 3, <contenttweaker:treated_wood_circuit_board>]);
+Blueprint.addRecipe("Circuit Assembly", <contenttweaker:integrated_circuit_etching_plate>, [<ore:plateNickel> * 5, <immersiveengineering:tool:1>]);
+Blueprint.addRecipe("Circuit Assembly", <contenttweaker:cpu_etching_plate>, [<ore:plateNickel> * 5, <immersiveengineering:tool:1>]);
 
 //Molds
 Blueprint.addRecipe("molds", <contenttweaker:ingot_mold>, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
