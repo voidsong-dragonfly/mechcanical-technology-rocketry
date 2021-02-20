@@ -34,8 +34,8 @@ Distiller.addRecipe(<liquid:lowcontaminatekerosene> * 1000, <liquid:lowsulfurker
 Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:dilutedsulfuricacid> * 1000, <mekanism:biofuel>, 250, 200, 1.0);
 
 //Distiller recipes for salt drying
-Distiller.addRecipe(<liquid:water> * 1000, <liquid:magnesiumchloridesolution> * 1000, <contenttweaker:magnesium_chloride> * 10, 200, 250, 1.0);
-Distiller.addRecipe(<liquid:water> * 1000, <liquid:lithiumchloridesolution> * 1000, <contenttweaker:lithium_chloride> * 10, 200, 250, 1.0);
+Distiller.addRecipe(<liquid:water> * 1000, <liquid:magnesiumchloridesolution> * 1000, <contenttweaker:material_part:112> * 10, 200, 250, 1.0);
+Distiller.addRecipe(<liquid:water> * 1000, <liquid:lithiumchloridesolution> * 1000, <contenttweaker:material_part:113> * 10, 200, 250, 1.0);
 
 //Lithiated water
 Mixer.addRecipe(<liquid:lithiatedwater> * 100, <liquid:water> * 100, [<ore:dustLithium>], 2000);
@@ -100,7 +100,7 @@ BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <im
 
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <contenttweaker:charcoal_precursor>, 900);
-CokeOven.addRecipe(<contenttweaker:charcoal_dust>, 0, <quark:black_ash>, 300);
+CokeOven.addRecipe(<contenttweaker:material_part:116>, 0, <quark:black_ash>, 300);
 CokeOven.addRecipe(<contenttweaker:petroleum_coke>, 0, <immersivepetroleum:material>, 20);
 
 //Make Marx Generator only process gem ores but do it very well
@@ -120,7 +120,7 @@ Crusher.removeRecipe(<minecraft:string>);
 
 //Add petroleum related recipes
 Crusher.addRecipe(<contenttweaker:petroleum_coke_dust>, <contenttweaker:petroleum_coke>, 2400);
-Crusher.addRecipe(<contenttweaker:charcoal_dust>, <minecraft:coal:1>, 2400);
+Crusher.addRecipe(<contenttweaker:material_part:116>, <minecraft:coal:1>, 2400);
 Crusher.addRecipe(<mekanism:polyethene>, <mekanism:polyethene:3>, 1600);
 Crusher.addRecipe(<mekanism:polyethene> * 2, <mekanism:polyethene:2>, 1600);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:plasticblock:*>, 2400);

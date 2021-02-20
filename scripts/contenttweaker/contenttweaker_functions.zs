@@ -11,34 +11,6 @@ import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Color;
 
-function create_metal_material(name as string, basic as bool, wire as bool, sheet as bool, component as bool, gear as bool, scaffold as bool, pipe as bool) {
-    if (basic) {
-        createItem(name + "_ingot").register();
-        createItem(name + "_nugget").register();
-        createItem(name + "_dust").register();
-        createItem(name + "_plate").register();
-        createItem(name + "_stick").register();
-    }
-    if (wire) {
-        createItem(name + "_wire").register();
-    }
-    if (sheet) {
-        createItem(name + "_sheet").register();
-    }
-    if (component) {
-        createItem(name + "_mechanical_component").register();
-    }
-    if (gear) {
-        createItem(name + "_gear").register();
-    }
-    if (scaffold) {
-        createItem(name + "_scaffolding_panel").register();
-    }
-    if (pipe) {
-        createItem("small_" + name + "_pipe").register();
-    }
-}
-
 function create_fluid(name as string, color as string, temperature as int, density as int, viscosity as int) {
     var fluid = createFluid(name, Color.fromHex(color));
     fluid.temperature = temperature;
@@ -107,33 +79,4 @@ function create_block_transparent(name as string, material as BlockMaterial, har
     block.setBlockLayer("TRANSLUCENT");
     block.register();
 
-}
-
-function create_metal_material_block(name as string, basic as bool, wire as bool, sheet as bool, component as bool, gear as bool, scaffold as bool, pipe as bool, hardness as double, resistance as double, level as int) {
-    if (basic) {
-        createItem(name + "_ingot").register();
-        createItem(name + "_nugget").register();
-        createItem(name + "_dust").register();
-        createItem(name + "_plate").register();
-        createItem(name + "_stick").register();
-    }
-    if (wire) {
-        createItem(name + "_wire").register();
-    }
-    if (sheet) {
-        createItem(name + "_sheet").register();
-    }
-    if (component) {
-        createItem(name + "_mechanical_component").register();
-    }
-    if (gear) {
-        createItem(name + "_gear").register();
-    }
-    if (scaffold) {
-        createItem(name + "_scaffolding_panel").register();
-    }
-    if (pipe) {
-        createItem("small_" + name + "_pipe").register();
-    }
-    create_block(name + "_block", <blockmaterial:iron>, hardness, resistance, "pickaxe", level);
 }

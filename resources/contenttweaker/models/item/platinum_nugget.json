@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/platinum_nugget"
+    "layer0": "base:items/nugget"
   }
 }

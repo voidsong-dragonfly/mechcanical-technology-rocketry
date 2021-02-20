@@ -9,8 +9,6 @@ import mods.contenttweaker.Fluid;
 import mods.contenttweaker.Item;
 import mods.contenttweaker.Block;
 import mods.contenttweaker.Color;
-import scripts.contenttweaker.contenttweaker_functions.create_metal_material;
-import scripts.contenttweaker.contenttweaker_functions.create_metal_material_block;
 import scripts.contenttweaker.contenttweaker_functions.create_fluid;
 import scripts.contenttweaker.contenttweaker_functions.create_solid_fluid;
 import scripts.contenttweaker.contenttweaker_functions.create_molten_fluid;

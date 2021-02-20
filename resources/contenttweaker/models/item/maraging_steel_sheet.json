@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/maraging_steel_sheet"
+    "layer0": "contenttweaker:items/sheet"
   }
 }

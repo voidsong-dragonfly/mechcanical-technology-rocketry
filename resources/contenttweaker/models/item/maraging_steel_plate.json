@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/maraging_steel_plate"
+    "layer0": "base:items/plate"
   }
 }

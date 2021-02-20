@@ -49,143 +49,26 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:dustCoke>.add(<contenttweaker:petroleum_coke_dust>);
 <ore:dustPetroleumCoke>.add(<contenttweaker:petroleum_coke_dust>);
 
-//Salts oredictionary
-<ore:dustMagnesiumChloride>.add(<contenttweaker:magnesium_chloride>);
-<ore:dustLithiumChloride>.add(<contenttweaker:lithium_chloride>);
-
-//Tungsten oredictionary
-<ore:blockTungsten>.add(<contenttweaker:tungsten_block>);
-<ore:ingotTungsten>.add(<contenttweaker:tungsten_ingot>);
-<ore:nuggetTungsten>.add(<contenttweaker:tungsten_nugget>);
-<ore:dustTungsten>.add(<contenttweaker:tungsten_dust>);
-<ore:plateTungsten>.add(<contenttweaker:tungsten_plate>);
-<ore:stickTungsten>.add(<contenttweaker:tungsten_stick>);
-<ore:wireTungsten>.add(<contenttweaker:tungsten_wire>);
-
-//Low Carbon Steel oredictionary
-<ore:blockHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_block>);
-<ore:ingotHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_ingot>);
-<ore:nuggetHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_nugget>);
-<ore:dustHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_dust>);
-<ore:plateHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_plate>);
-<ore:sheetHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_sheet>);
-<ore:stickHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_stick>);
-<ore:wireHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_wire>);
-<ore:gearHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_gear>);
-<ore:mechanicalComponentHighCarbonSteel>.add(<contenttweaker:high_carbon_steel_mechanical_component>);
-
-//Maraging Steel oredictionary
-<ore:blockMaragingSteel>.add(<contenttweaker:maraging_steel_block>);
-<ore:ingotMaragingSteel>.add(<contenttweaker:maraging_steel_ingot>);
-<ore:nuggetMaragingSteel>.add(<contenttweaker:maraging_steel_nugget>);
-<ore:dustMaragingSteel>.add(<contenttweaker:maraging_steel_dust>);
-<ore:plateMaragingSteel>.add(<contenttweaker:maraging_steel_plate>);
-<ore:sheetMaragingSteel>.add(<contenttweaker:maraging_steel_sheet>);
-<ore:stickMaragingSteel>.add(<contenttweaker:maraging_steel_stick>);
-<ore:wireMaragingSteel>.add(<contenttweaker:maraging_steel_wire>);
-<ore:gearMaragingSteel>.add(<contenttweaker:maraging_steel_gear>);
-<ore:mechanicalComponentMaragingSteel>.add(<contenttweaker:maraging_steel_mechanical_component>);
-
 //Combined steel oredictionary
 <ore:blockUhcsteel>.add(<immersiveengineering:storage:8>);
-<ore:blockHcsteel>.add(<contenttweaker:high_carbon_steel_block>);
-<ore:blockMaragingsteel>.add(<contenttweaker:maraging_steel_block>);
-<ore:blockSteel>.add(<contenttweaker:high_carbon_steel_block>);
-<ore:ingotSteel>.add(<contenttweaker:high_carbon_steel_ingot>);
-<ore:nuggetSteel>.add(<contenttweaker:high_carbon_steel_nugget>);
-<ore:dustSteel>.add(<contenttweaker:high_carbon_steel_dust>);
-<ore:plateSteel>.add(<contenttweaker:high_carbon_steel_plate>);
-<ore:sheetSteel>.add(<contenttweaker:high_carbon_steel_sheet>);
-<ore:stickSteel>.add(<contenttweaker:high_carbon_steel_stick>);
-<ore:wireSteel>.add(<contenttweaker:high_carbon_steel_wire>);
-<ore:gearSteel>.add(<contenttweaker:high_carbon_steel_gear>);
-<ore:blockSteel>.add(<contenttweaker:maraging_steel_block>);
-<ore:ingotSteel>.add(<contenttweaker:maraging_steel_ingot>);
-<ore:nuggetSteel>.add(<contenttweaker:maraging_steel_nugget>);
-<ore:dustSteel>.add(<contenttweaker:maraging_steel_dust>);
-<ore:plateSteel>.add(<contenttweaker:maraging_steel_plate>);
-<ore:sheetSteel>.add(<contenttweaker:maraging_steel_sheet>);
-<ore:stickSteel>.add(<contenttweaker:maraging_steel_stick>);
-<ore:wireSteel>.add(<contenttweaker:maraging_steel_wire>);
-<ore:gearSteel>.add(<contenttweaker:maraging_steel_gear>);
-<ore:mechanicalComponentSteel>.add(<contenttweaker:high_carbon_steel_mechanical_component>);
-<ore:mechanicalComponentSteel>.add(<contenttweaker:maraging_steel_mechanical_component>);
+<ore:blockHcsteel>.add(<contenttweaker:sub_block_holder_0:3>);
+<ore:blockMaragingsteel>.add(<contenttweaker:sub_block_holder_0:1>);
+<ore:mechanicalComponentSteel>.add(<contenttweaker:material_part:87>);
+<ore:mechanicalComponentSteel>.add(<contenttweaker:material_part:92>);
 <ore:mechanicalComponentSteel>.add(<immersiveengineering:material:9>);
 <ore:mechanicalComponentAny>.add(<immersiveengineering:material:8>);
-<ore:mechanicalComponentAny>.add(<immersiveengineering:material:9>);
-<ore:mechanicalComponentAny>.add(<contenttweaker:high_carbon_steel_mechanical_component>);
-<ore:mechanicalComponentAny>.add(<contenttweaker:maraging_steel_mechanical_component>);
+<ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentSteel>);
 
 //Platinum Group Metal Oredictionary
-<ore:orePlatinum>.add(<contenttweaker:platinum_ore>);
-<ore:dustPlatinum>.add(<contenttweaker:platinum_dust>);
-<ore:ingotPlatinum>.add(<contenttweaker:platinum_ingot>);
-<ore:platePlatinum>.add(<contenttweaker:platinum_plate>);
-<ore:sheetPlatinum>.add(<contenttweaker:platinum_sheet>);
-<ore:nuggetPlatinum>.add(<contenttweaker:platinum_nugget>);
-<ore:stickPlatinum>.add(<contenttweaker:platinum_stick>);
-<ore:wirePlatinum>.add(<contenttweaker:platinum_wire>);
-<ore:dustMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_dust_pt>);
-<ore:dustMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_dust_ir>);
-<ore:dustMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_dust_os>);
-<ore:ingotMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_ingot>);
-<ore:plateMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_plate>);
-<ore:sheetMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_sheet>);
-<ore:nuggetMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_nugget>);
-<ore:stickMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_stick>);
-<ore:wireMixedPlatinumGroupMetal>.add(<contenttweaker:platinum_group_metal_wire>);
-<ore:ingotPGMAny>.add(<contenttweaker:platinum_ingot>);
-<ore:ingotPGMAny>.add(<contenttweaker:platinum_group_metal_ingot>);
+<ore:ingotPGMAny>.addAll(<ore:ingotPlatinum>);
+<ore:ingotPGMAny>.addAll(<ore:ingotMixedPlatinumGroupMetal>);
 <ore:ingotPGMAny>.addAll(<ore:ingotOsmium>);
 <ore:ingotPGMAny>.addAll(<ore:ingotIridium>);
-<ore:wirePGMAny>.add(<contenttweaker:platinum_wire>);
-<ore:wirePGMAny>.add(<contenttweaker:platinum_group_metal_wire>);
-
-//Tungstensteel oredictionary
-<ore:blockTungstensteel>.add(<contenttweaker:tungstensteel_block>);
-<ore:dustTungstensteel>.add(<contenttweaker:tungstensteel_dust>);
-<ore:ingotTungstensteel>.add(<contenttweaker:tungstensteel_ingot>);
-<ore:plateTungstensteel>.add(<contenttweaker:tungstensteel_plate>);
-<ore:nuggetTungstensteel>.add(<contenttweaker:tungstensteel_nugget>);
-<ore:stickTungstensteel>.add(<contenttweaker:tungstensteel_stick>);
-
-//Niobium oredictionary
-<ore:dustNiobium>.add(<contenttweaker:niobium_dust>);
-<ore:ingotNiobium>.add(<contenttweaker:niobium_ingot>);
-<ore:plateNiobium>.add(<contenttweaker:niobium_plate>);
-<ore:nuggetNiobium>.add(<contenttweaker:niobium_nugget>);
-<ore:stickNiobium>.add(<contenttweaker:niobium_stick>);
-
-//Niobium-Titanium Alloy oredictionary
-<ore:dustNiobiumTitanium>.add(<contenttweaker:niobium_titanium_dust>);
-<ore:ingotNiobiumTitanium>.add(<contenttweaker:niobium_titanium_ingot>);
-<ore:plateNiobiumTitanium>.add(<contenttweaker:niobium_titanium_plate>);
-<ore:nuggetNiobiumTitanium>.add(<contenttweaker:niobium_titanium_nugget>);
-<ore:stickNiobiumTitanium>.add(<contenttweaker:niobium_titanium_stick>);
-<ore:wireNiobiumTitanium>.add(<contenttweaker:niobium_titanium_wire>);
-
-//Zirconium oredictionary
-<ore:dustZirconium>.add(<contenttweaker:zirconium_dust>);
-<ore:ingotZirconium>.add(<contenttweaker:zirconium_ingot>);
-<ore:plateZirconium>.add(<contenttweaker:zirconium_plate>);
-<ore:nuggetZirconium>.add(<contenttweaker:zirconium_nugget>);
-<ore:stickZirconium>.add(<contenttweaker:zirconium_stick>);
-
-//Zirconium-Niobium oredictionary
-<ore:dustZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_dust>);
-<ore:ingotZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_ingot>);
-<ore:plateZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_plate>);
-<ore:nuggetZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_nugget>);
-<ore:stickZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_stick>);
-
-//Silver-Indium oredictionary
-<ore:dustSilverIndium>.add(<contenttweaker:silver_indium_dust>);
-<ore:ingotSilverIndium>.add(<contenttweaker:silver_indium_ingot>);
-<ore:plateSilverIndium>.add(<contenttweaker:silver_indium_plate>);
-<ore:nuggetSilverIndium>.add(<contenttweaker:silver_indium_nugget>);
-<ore:stickSilverIndium>.add(<contenttweaker:silver_indium_stick>);
+<ore:wirePGMAny>.addAll(<ore:wirePlatinum>);
+<ore:wirePGMAny>.addAll(<ore:wireMixedPlatinumGroupMetal>);
 
 //Ore oredictionary
+<ore:orePlatinum>.add(<contenttweaker:platinum_ore>);
 <ore:oreZirconium>.add(<contenttweaker:zircon_ore>);
 <ore:oreNiobium>.add(<contenttweaker:pyrochlore_ore>);
 <ore:oreCryolite>.add(<contenttweaker:cryolite>);
@@ -197,34 +80,12 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:oreTungsten>.add(<contenttweaker:tungsten_ore>);
 
 //Lens oredictionary
-<ore:lensGlass>.add(<contenttweaker:glass_lens>);
-<ore:lensLapis>.add(<contenttweaker:lapis_lens>);
-<ore:lensEmerald>.add(<contenttweaker:emerald_lens>);
-<ore:lensEnderPearl>.add(<contenttweaker:ender_pearl_lens>);
-<ore:lensRuby>.add(<contenttweaker:ruby_lens>);
-<ore:lensDiamond>.add(<contenttweaker:diamond_lens>);
-<ore:lensPrecisionLaserEtcher>.add(<contenttweaker:glass_lens>);
-<ore:lensPrecisionLaserEtcher>.add(<contenttweaker:lapis_lens>);
-<ore:lensPrecisionLaserEtcher>.add(<contenttweaker:emerald_lens>);
-<ore:lensPrecisionLaserEtcher>.add(<contenttweaker:ender_pearl_lens>);
-<ore:lensPrecisionLaserEtcher>.add(<contenttweaker:ruby_lens>);
-<ore:lensPrecisionLaserEtcher>.add(<contenttweaker:diamond_lens>);
-<ore:plateGlass>.add(<contenttweaker:glass_plate>);
-<ore:plateLapis>.add(<contenttweaker:lapis_plate>);
-<ore:plateEmerald>.add(<contenttweaker:emerald_plate>);
-<ore:plateEnderPearl>.add(<contenttweaker:ender_pearl_plate>);
-<ore:plateRuby>.add(<contenttweaker:ruby_plate>);
-<ore:plateDiamond>.add(<contenttweaker:diamond_plate>);
-
-//Cinnabar oredictionary
-<ore:dustCinnabar>.add(<contenttweaker:cinnabar_dust>);
-
-//Fluorite oredictionary
-<ore:gemFluorite>.add(<contenttweaker:fluorite>);
-<ore:dustFluorite>.add(<contenttweaker:fluorite_dust>);
-
-//Emerald oredictionary
-<ore:dustEmerald>.add(<contenttweaker:emerald_dust>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensGlass>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensLapis>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensEmerald>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensEnderPearl>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensRuby>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensDiamond>);
 
 //Add oredictionary to PVJ blocks
 <ore:stoneSiltstone>.add(<pvj:siltstone>);
@@ -239,12 +100,6 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:oreBauxite>.add(<immersiveengineering:ore:1>);
 <ore:oreRutile>.remove(<libvulpes:ore0:8>);
 <ore:oreIlmenite>.addAll(<ore:oreTitanium>);
-
-//Warp block changes
-<ore:blockWarpCoreRim>.remove(<libvulpes:metal0:7>);
-<ore:blockWarpCoreCore>.remove(<minecraft:gold_block>);
-<ore:blockWarpCoreRim>.add(<contenttweaker:warp_ring_engineering_block>);
-<ore:blockWarpCoreCore>.add(<contenttweaker:warp_core_engineering_block>);
 
 //Advanced Rocketry crystal entries
 <ore:crystalLargeAmethyst>.add(<advancedrocketry:crystal:0>);
@@ -263,14 +118,6 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:ash>.remove(<mysticalwildlife:dusk_ash>);
 <ore:dustAsh>.remove(<mysticalwildlife:dusk_ash>);
 <ore:dyeBlack>.remove(<mysticalwildlife:dusk_ash>);
-
-//Scaffolding panels
-<ore:scaffoldingPanelSteel>.add(<contenttweaker:steel_scaffolding_panel>);
-<ore:scaffoldingPanelSteel>.add(<contenttweaker:high_carbon_steel_scaffolding_panel>);
-<ore:scaffoldingPanelSteel>.add(<contenttweaker:maraging_steel_scaffolding_panel>);
-<ore:scaffoldingPanelAluminum>.add(<contenttweaker:aluminium_scaffolding_panel>);
-<ore:scaffoldingPanelZirconiumNiobium>.add(<contenttweaker:zirconium_niobium_scaffolding_panel>);
-<ore:scaffoldingPanelTitanium>.add(<contenttweaker:titanium_scaffolding_panel>);
 
 
 /*
@@ -323,14 +170,8 @@ hide(<libvulpes:productingot:3>);
 <ore:dustSalt>.remove(<mekanism:salt>);
 <ore:itemSalt>.remove(<mekanism:salt>);
 <ore:foodSalt>.remove(<mekanism:salt>);
-<ore:dustCharcoal>.add(<contenttweaker:charcoal_dust>);
 <ore:dustStone>.add(<contenttweaker:stone_dust>);
 <ore:dustRutile>.add(<contenttweaker:rutile_dust>);
-<ore:dustMagnesium>.add(<contenttweaker:magnesium_dust>);
-<ore:dustCobalt>.add(<contenttweaker:cobalt_dust>);
-<ore:dustIndium>.add(<contenttweaker:indium_dust>);
-<ore:dustGallium>.add(<contenttweaker:gallium_dust>);
-<ore:dustQuartz>.add(<contenttweaker:quartz_dust>);
 <ore:dustAnyCarbon>.addAll(<ore:dustCoke>);
 <ore:dustAnyCarbon>.addAll(<ore:dustCharcoal>);
 hide(<mekanism:dust:0>);
@@ -486,11 +327,6 @@ hide(<mekanism:oreblock:1>);
 hide(<libvulpes:ore0:4>);
 hide(<mekanism:oreblock:2>);
 hide(<libvulpes:ore0:9>);
-
-//Extraneous parts
-<ore:wireSilver>.add(<contenttweaker:silver_wire>);
-<ore:wireTungsten>.add(<contenttweaker:tungsten_wire>);
-<ore:sheetLead>.add(<contenttweaker:lead_sheet>);
 
 //Boule
 hide(<libvulpes:productboule:3>);

@@ -64,26 +64,26 @@ recipes.addShaped(<forestry:fertilizer_compound> * 6,
  [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, null]]);
 //Medium Quality
 recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<contenttweaker:calcium_dust>, <ore:dustSaltpeter>, <mekanism:biofuel>],
+ [[<ore:dustCalcium>, <ore:dustSaltpeter>, <mekanism:biofuel>],
  [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 6,
  [[<minecraft:dye:15>, <ore:dustSaltpeter>, <mekanism:biofuel>],
  [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<contenttweaker:calcium_dust>, <ore:dustAsh>, <mekanism:biofuel>],
+ [[<ore:dustCalcium>, <ore:dustAsh>, <mekanism:biofuel>],
  [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 6,
  [[<minecraft:dye:15>, <ore:dustAsh>, <mekanism:biofuel>],
  [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
 //Highest Quality
 recipes.addShaped(<forestry:fertilizer_compound> * 8,
- [[<contenttweaker:calcium_dust>, <ore:dustSaltpeter>, <forestry:fertilizer_bio>],
+ [[<ore:dustCalcium>, <ore:dustSaltpeter>, <forestry:fertilizer_bio>],
  [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 8,
  [[<minecraft:dye:15>, <ore:dustSaltpeter>, <forestry:fertilizer_bio>],
  [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 8,
- [[<contenttweaker:calcium_dust>, <ore:dustAsh>, <forestry:fertilizer_bio>],
+ [[<ore:dustCalcium>, <ore:dustAsh>, <forestry:fertilizer_bio>],
  [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 8,
  [[<minecraft:dye:15>, <ore:dustAsh>, <forestry:fertilizer_bio>],

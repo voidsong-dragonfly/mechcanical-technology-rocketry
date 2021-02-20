@@ -27,19 +27,19 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Machine 
 
 //Make "Fission Reactor Components" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Fission Reactor Components"}),
- [[<immersiveengineering:metal_device1:6>, <ore:ingotZirconiumNiobium>, <immersiveengineering:metal_device1:6>],
+ [[<immersiveengineering:metal_device1:6>, <ore:ingotZirconiumNiobiumAlloy>, <immersiveengineering:metal_device1:6>],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]); 
 
 //Make "Rocket Engine Components" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Rocket Engine Components"}),
- [[<immersiveengineering:metal_device1:6>, <contenttweaker:small_titanium_pipe>, <immersiveengineering:metal_device1:6>],
+ [[<immersiveengineering:metal_device1:6>, <ore:smallPipeTitanium, <immersiveengineering:metal_device1:6>],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]); 
  
 //Make "Rocketry Components" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Rocket Components"}),
- [[<immersiveengineering:metal_device1:6>, <contenttweaker:titanium_aluminide_scaffolding_panel>, <immersiveengineering:metal_device1:6>],
+ [[<immersiveengineering:metal_device1:6>, <ore:scaffoldingPanelTitaniumAluminide>, <immersiveengineering:metal_device1:6>],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]); 
  
@@ -87,13 +87,16 @@ Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource:1>, [
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solarpanel>, [<contenttweaker:solar_panel>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solargenerator>, [<contenttweaker:solar_panel>, <ore:plateAluminum>, <libvulpes:structuremachine>, <libvulpes:battery>]);
 
-//Mechanical Components
+//Crafting components
 Blueprint.removeRecipe(<immersiveengineering:material:8>);
 Blueprint.removeRecipe(<immersiveengineering:material:9>);
 Blueprint.addRecipe("components", <immersiveengineering:material:8>, [<ore:plateIron>, <ore:plateIron>, <ore:ingotCopper>]);
 Blueprint.addRecipe("components", <immersiveengineering:material:9>, [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <ore:ingotCopper>]);
-Blueprint.addRecipe("components", <contenttweaker:high_carbon_steel_mechanical_component>, [<ore:plateHighCarbonSteel>, <ore:plateHighCarbonSteel>, <ore:ingotCopper>]);
-Blueprint.addRecipe("components", <contenttweaker:maraging_steel_mechanical_component>, [<ore:plateMaragingSteel>, <ore:plateMaragingSteel>, <ore:ingotCopper>]);
+Blueprint.addRecipe("components", <contenttweaker:material_part:87>, [<ore:plateHighCarbonSteel>, <ore:plateHighCarbonSteel>, <ore:ingotCopper>]);
+Blueprint.addRecipe("components", <contenttweaker:material_part:92>, [<ore:plateMaragingSteel>, <ore:plateMaragingSteel>, <ore:ingotCopper>]);
+Blueprint.addRecipe("components", <contenttweaker:small_battery_hull> * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>]);
+Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireTungsten>, <ore:dustRedstone>]);
+Blueprint.addRecipe("components", <contenttweaker:supercapacitor_hull>, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
 
 //Circuit pieces blueprint
 Blueprint.removeRecipe(<immersiveengineering:material:27>);
@@ -123,11 +126,6 @@ Blueprint.addRecipe("Extrusion Dies", <contenttweaker:wire_die>, [<ore:plateStee
 Blueprint.addRecipe("Heavy Metal Press Dies", <contenttweaker:bell_die>, [<ore:blockSteel>, <earthworks:tool_compass>,  <immersiveengineering:tool:0>]);
 Blueprint.addRecipe("Heavy Metal Press Dies", <contenttweaker:scaffolding_panel_die>, [<ore:blockSteel>, <earthworks:tool_compass>, <immersiveengineering:tool:0>]);
 
-//Crafting components
-Blueprint.addRecipe("components", <contenttweaker:small_battery_hull> * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>]);
-Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireTungsten>, <ore:dustRedstone>]);
-Blueprint.addRecipe("components", <contenttweaker:supercapacitor_hull>, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
-
 //Environmental Suit blueprint
 /*
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_head>, [<immersiveengineering:steel_armor_head>, <ore:plateTungsten>, <ore:fabricHemp> * 4, <immersiveengineering:earmuffs>]);
@@ -142,32 +140,32 @@ Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceboots>, [<minecraft
 
 //Fission reactor blueprint
 recipes.remove(<rustic:stone_pillar>);
-Blueprint.addRecipe("Fission Reactor Components", <rustic:stone_pillar>, [<contenttweaker:zirconium_niobium_frame>, <contenttweaker:small_zirconium_niobium_pipe> * 9]);
+Blueprint.addRecipe("Fission Reactor Components", <rustic:stone_pillar>, [<contenttweaker:zirconium_niobium_frame>, <ore:smallPipeZirconiumNiobiumAlloy> * 9]);
 Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_fuel_rod_assembly_pipe_connector>, [<immersiveengineering:metal_decoration1:1>, <engineersdecor:straight_pipe_valve_redstone_analog>, <immersiveengineering:metal_device1:6>]);
-Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<contenttweaker:steel_scaffolding_panel> * 6, <libvulpes:productsheet:6> * 6, <ore:sheetLead> * 6]);
-Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<contenttweaker:high_carbon_steel_scaffolding_panel> * 6, <contenttweaker:high_carbon_steel_sheet> * 6, <ore:sheetLead> * 6]);
-Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<contenttweaker:maraging_steel_scaffolding_panel> * 6, <contenttweaker:maraging_steel_sheet> * 6, <ore:sheetLead> * 6]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<ore:scaffoldingPanelSteel> * 6, <libvulpes:productsheet:6> * 6, <ore:sheetLead> * 6]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<ore:scaffoldingPanelHighCarbonSteel> * 6, <ore:sheetHighCarbonSteel> * 6, <ore:sheetLead> * 6]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reactor_calandria_casing_shell>, [<ore:scaffoldingPanelMaragingSteel> * 6, <ore:sheetMaragingSteel> * 6, <ore:sheetLead> * 6]);
 recipes.remove(<immersiveengineering:stone_decoration:7>);
 Blueprint.addRecipe("Fission Reactor Components", <immersiveengineering:stone_decoration:7>, [<engineersdecor:rebar_concrete>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>]);
-Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fresh_fuel_bundle>, [<contenttweaker:small_zirconium_niobium_pipe> * 9, <contenttweaker:uranium_fuel_pellet> * 64, <contenttweaker:uranium_fuel_pellet> * 8]);
-Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:control_rod_bundle>, [<contenttweaker:small_zirconium_niobium_pipe> * 20, <ore:stickSilverIndium> * 20]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fresh_fuel_bundle>, [<ore:smallPipeZirconiumNiobiumAlloy> * 9, <contenttweaker:uranium_fuel_pellet> * 64, <contenttweaker:uranium_fuel_pellet> * 8]);
+Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:control_rod_bundle>, [<ore:smallPipeZirconiumNiobiumAlloy> * 20, <ore:stickSilverIndiumAlloy> * 20]);
 
 //Rocket engine components blueprint
 Blueprint.addRecipe("Rocket Engine Components", <contenttweaker:titanium_compressor_blade> * 32, [<ore:stickTitanium>, <ore:plateTitanium>, <ore:stickTitanium>, <ore:plateTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]);
 Blueprint.addRecipe("Rocket Engine Components", <contenttweaker:titanium_compressor>, [<contenttweaker:titanium_compressor_blade> * 16, <ore:stickSteel>]);
-Blueprint.addRecipe("Rocket Engine Components", <contenttweaker:turbopump>, [<ore:plateSteel> * 4, <contenttweaker:titanium_compressor>, <ore:circuitAdvanced>, <contenttweaker:small_titanium_pipe> * 4]);
-Blueprint.addRecipe("Rocket Engine Components", <contenttweaker:catalytic_turbopump>, [<ore:plateSteel> * 3, <contenttweaker:titanium_compressor>, <ore:platePlatinum>, <contenttweaker:small_titanium_pipe> * 4, <ore:circuitAdvanced>, <contenttweaker:alumina_dust> * 2]);
+Blueprint.addRecipe("Rocket Engine Components", <contenttweaker:turbopump>, [<ore:plateSteel> * 4, <contenttweaker:titanium_compressor>, <ore:circuitAdvanced>, <ore:smallPipeTitanium> * 4]);
+Blueprint.addRecipe("Rocket Engine Components", <contenttweaker:catalytic_turbopump>, [<ore:plateSteel> * 3, <contenttweaker:titanium_compressor>, <ore:platePlatinum>, <ore:smallPipeTitanium> * 4, <ore:circuitAdvanced>, <contenttweaker:alumina_dust> * 2]);
 
 //Rocketry blueprint
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:fueltank>, [<contenttweaker:titanium_aluminide_scaffolding_panel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickTitaniumAluminide> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:fueltank>, [<contenttweaker:maraging_steel_scaffolding_panel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickMaragingSteel> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:bipropellantfueltank>, [<contenttweaker:titanium_aluminide_scaffolding_panel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickTitaniumAluminide> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:bipropellantfueltank>, [<contenttweaker:maraging_steel_scaffolding_panel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickMaragingSteel> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:oxidizerfueltank>, [<contenttweaker:titanium_aluminide_scaffolding_panel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickTitaniumAluminide> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:oxidizerfueltank>, [<contenttweaker:maraging_steel_scaffolding_panel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickMaragingSteel> * 4]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:rocketmotor>, [<contenttweaker:titanium_aluminide_scaffolding_panel> * 2, <contenttweaker:catalytic_turbopump>, <contenttweaker:small_titanium_pipe> * 4, <immersiveengineering:toolupgrade:7>, <contenttweaker:rocket_engine_bell>]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:bipropellantrocketmotor>, [<contenttweaker:titanium_aluminide_scaffolding_panel> * 2, <contenttweaker:turbopump>, <contenttweaker:small_titanium_pipe> * 4, <immersiveengineering:toolupgrade:7>, <immersiveengineering:toolupgrade:7>, <contenttweaker:rocket_engine_bell>]);
-Blueprint.addRecipe("Rocket Components", <advancedrocketry:advbipropellantrocketmotor>, [<contenttweaker:maraging_steel_scaffolding_panel> * 2, <contenttweaker:turbopump>, <contenttweaker:small_titanium_pipe> * 4, <immersiveengineering:toolupgrade:7>, <immersiveengineering:toolupgrade:7>, <contenttweaker:advanced_rocket_engine_bell>]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:fueltank>, [<ore:scaffoldingPanelTitaniumAluminide> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickTitaniumAluminide> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:fueltank>, [<ore:scaffoldingPanelMaragingSteel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickMaragingSteel> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:bipropellantfueltank>, [<ore:scaffoldingPanelTitaniumAluminide> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickTitaniumAluminide> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:bipropellantfueltank>, [<ore:scaffoldingPanelMaragingSteel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickMaragingSteel> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:oxidizerfueltank>, [<ore:scaffoldingPanelTitaniumAluminide> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickTitaniumAluminide> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:oxidizerfueltank>, [<ore:scaffoldingPanelMaragingSteel> * 2, <contenttweaker:pressurized_helium_tank>, <contenttweaker:fuel_tank_shell>, <ore:stickMaragingSteel> * 4]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:rocketmotor>, [<ore:scaffoldingPanelTitaniumAluminide> * 2, <contenttweaker:catalytic_turbopump>, <ore:smallPipeTitanium> * 4, <immersiveengineering:toolupgrade:7>, <contenttweaker:rocket_engine_bell>]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:bipropellantrocketmotor>, [<ore:scaffoldingPanelTitaniumAluminide> * 2, <contenttweaker:turbopump>, <ore:smallPipeTitanium> * 4, <immersiveengineering:toolupgrade:7>, <immersiveengineering:toolupgrade:7>, <contenttweaker:rocket_engine_bell>]);
+Blueprint.addRecipe("Rocket Components", <advancedrocketry:advbipropellantrocketmotor>, [<ore:scaffoldingPanelMaragingSteel> * 2, <contenttweaker:turbopump>, <ore:smallPipeTitanium> * 4, <immersiveengineering:toolupgrade:7>, <immersiveengineering:toolupgrade:7>, <contenttweaker:advanced_rocket_engine_bell>]);
 
 //Asteroid Mining blueprint
 Blueprint.addRecipe("Asteroid Mining Components", <contenttweaker:mirror_assembly>, [<ore:sheetAluminum> * 64, <ore:sheetAluminum> * 64, <ore:wireAluminum> * 32, <ore:stickAluminum> * 16]);

@@ -127,3 +127,7 @@ game.setLocalization("item.contenttweaker.emerald_plate.name", "Emerald Plate");
 game.setLocalization("item.contenttweaker.ender_pearl_plate.name", "Ender Pearl Plate");
 game.setLocalization("item.contenttweaker.ruby_plate.name", "Ruby Plate");
 game.setLocalization("item.contenttweaker.diamond_plate.name", "Diamond Plate");
+
+//Dusts
+game.setLocalization("item.contenttweaker.fluorite.name", "Fluorite");
+game.setLocalization("item.contenttweaker.stone_dust.name", "Stone Dust");

@@ -195,9 +195,9 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:5>,
  [<ore:scaffoldingPanelAluminum>, null, <ore:scaffoldingPanelAluminum>],
  [<ore:scaffoldingPanelAluminum>, <ore:scaffoldingPanelAluminum>, null]]);
 recipes.addShaped(<contenttweaker:zirconium_niobium_frame>,
- [[null, <ore:scaffoldingPanelZirconiumNiobium>, <ore:scaffoldingPanelZirconiumNiobium>],
- [<ore:scaffoldingPanelZirconiumNiobium>, null, <ore:scaffoldingPanelZirconiumNiobium>],
- [<ore:scaffoldingPanelZirconiumNiobium>, <ore:scaffoldingPanelZirconiumNiobium>, null]]);
+ [[null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
+ [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
+ [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, null]]);
 recipes.addShaped(<contenttweaker:titanium_frame>,
  [[null, <ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>],
  [<ore:scaffoldingPanelTitanium>, null, <ore:scaffoldingPanelTitanium>],
@@ -205,7 +205,6 @@ recipes.addShaped(<contenttweaker:titanium_frame>,
  
 //HVDC and HV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!
-recipes.addShapeless(<contenttweaker:silver_wire>, [<ore:plateSilver>, <immersiveengineering:tool:1>]);
 recipes.remove(<immersiveengineering:wirecoil:2>);
 recipes.addShaped(<immersiveengineering:wirecoil:2> * 4,
  [[null, <ore:wireSilver>, null],

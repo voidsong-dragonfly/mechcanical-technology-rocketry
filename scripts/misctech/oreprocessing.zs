@@ -47,8 +47,8 @@ red_mud_separation.addItemOutput(<immersiveengineering:metal:18>).setChance(0.2)
 red_mud_separation.addItemOutput(<contenttweaker:rutile_dust> * 2).setChance(0.5);
 red_mud_separation.addItemOutput(<contenttweaker:rutile_dust> * 2).setChance(0.5);
 red_mud_separation.addItemOutput(<contenttweaker:rutile_dust>).setChance(0.4);
-red_mud_separation.addItemOutput(<contenttweaker:gallium_dust>).setChance(0.5);
-red_mud_separation.addItemOutput(<contenttweaker:gallium_dust>).setChance(0.25);
+red_mud_separation.addItemOutput(<contenttweaker:material_part:111>).setChance(0.5);
+red_mud_separation.addItemOutput(<contenttweaker:material_part:111>).setChance(0.25);
 red_mud_separation.build();
 furnace.addRecipe(<contenttweaker:alumina_dust>, <contenttweaker:aluminium_hydroxide>);
 furnace.addRecipe(<contenttweaker:alumina_dust>, <contenttweaker:washed_bauxite_ore_dust>);
@@ -172,17 +172,17 @@ cast_iron_rod.build();
 var high_carbon_steel_ingot = newBuilder("high_carbon_steel_ingot", "casting_basin", 400);
 high_carbon_steel_ingot.addFluidInput(<liquid:moltenhighcarbonsteel> * 1200);
 high_carbon_steel_ingot.addItemInput(<contenttweaker:ingot_mold>).setChance(0);
-high_carbon_steel_ingot.addItemOutput(<contenttweaker:high_carbon_steel_ingot> * 12);
+high_carbon_steel_ingot.addItemOutput(<contenttweaker:material_part:5> * 12);
 high_carbon_steel_ingot.build();
 var high_carbon_steel_plate = newBuilder("high_carbon_steel_plate", "casting_basin", 400);
 high_carbon_steel_plate.addFluidInput(<liquid:moltenhighcarbonsteel> * 1200);
 high_carbon_steel_plate.addItemInput(<immersiveengineering:mold>).setChance(0);
-high_carbon_steel_plate.addItemOutput(<contenttweaker:high_carbon_steel_plate> * 12);
+high_carbon_steel_plate.addItemOutput(<contenttweaker:material_part:6> * 12);
 high_carbon_steel_plate.build();
 var high_carbon_steel_rod = newBuilder("high_carbon_steel_rod", "casting_basin", 200);
 high_carbon_steel_rod.addFluidInput(<liquid:moltenhighcarbonsteel> * 600);
 high_carbon_steel_rod.addItemInput(<immersiveengineering:mold:2>).setChance(0);
-high_carbon_steel_rod.addItemOutput(<contenttweaker:high_carbon_steel_stick> * 12);
+high_carbon_steel_rod.addItemOutput(<contenttweaker:material_part:9> * 12);
 high_carbon_steel_rod.build();
 var steel_ingot = newBuilder("steel_ingot", "casting_basin", 400);
 steel_ingot.addFluidInput(<liquid:moltensteel> * 1200);
@@ -213,14 +213,14 @@ hydrated_tungsten_trioxide.addEnergyPerTickInput(160);
 hydrated_tungsten_trioxide.addItemInput(<contenttweaker:washed_tungsten_ore_dust> * 24);
 hydrated_tungsten_trioxide.addFluidInput(<liquid:liquidhydrogenchloride> * 7200);
 hydrated_tungsten_trioxide.addItemOutput(<contenttweaker:hydrated_tungsten_trioxide> * 36);
-hydrated_tungsten_trioxide.addItemOutput(<contenttweaker:calcium_chloride> * 36);
+hydrated_tungsten_trioxide.addItemOutput(<contenttweaker:material_part:114> * 36);
 hydrated_tungsten_trioxide.build();
 furnace.addRecipe(<contenttweaker:tungsten_trioxide>, <contenttweaker:hydrated_tungsten_trioxide>);
 var tungsten_dust = newBuilder("tungsten_dust", "oxygen_converter", 400);
 tungsten_dust.addItemInput(<contenttweaker:tungsten_trioxide> * 16);
 tungsten_dust.addFluidInput(<liquid:liquidhydrogen> * 4800);
 tungsten_dust.addFluidInput(<liquid:water> * 9600);
-tungsten_dust.addItemOutput(<contenttweaker:tungsten_dust> * 16);
+tungsten_dust.addItemOutput(<contenttweaker:material_part:80> * 16);
 tungsten_dust.build();
 
 //Copper processing
@@ -251,8 +251,8 @@ copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:12>).setCha
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
 copper_derived_anode_slime.addItemOutput(<immersiveengineering:metal:19> * 2).setChance(0.5);
-copper_derived_anode_slime.addItemOutput(<contenttweaker:indium_dust>).setChance(0.8);
-copper_derived_anode_slime.addItemOutput(<contenttweaker:indium_dust>).setChance(0.4);
+copper_derived_anode_slime.addItemOutput(<contenttweaker:material_part:110>).setChance(0.8);
+copper_derived_anode_slime.addItemOutput(<contenttweaker:material_part:110>).setChance(0.4);
 copper_derived_anode_slime.build();
 
 //Nickel Processing
@@ -426,7 +426,7 @@ platinum_group_metal_dust_os.build();
 Mixer.addRecipe(<liquid:nitricacidhydrochloridept> * 100, <liquid:nitricacidhydrochloride> * 100, [<contenttweaker:platinum_group_metal_dust_pt>], 4000);
 Mixer.addRecipe(<liquid:nitricacidhydrochlorideir> * 100, <liquid:nitricacidhydrochloride> * 100, [<contenttweaker:platinum_group_metal_dust_ir>], 4000);
 Mixer.addRecipe(<liquid:nitricacidhydrochlorideos> * 100, <liquid:nitricacidhydrochloride> * 100, [<contenttweaker:platinum_group_metal_dust_os>], 4000);
-furnace.addRecipe(<contenttweaker:platinum_ingot>, <contenttweaker:ammonium_chloroplatinate>);
+furnace.addRecipe(<contenttweaker:material_part:72>, <contenttweaker:ammonium_chloroplatinate>);
 
 
 //Gold Processing
@@ -500,7 +500,7 @@ niobium_pentoxide.build();
 var niobium_ingot = newBuilder("niobium_ingot", "precision_laser_engraver", 200);
 niobium_ingot.addItemInput(<contenttweaker:impure_niobium_dust>);
 niobium_ingot.addItemInput(<contenttweaker:glass_lens>).setChance(0);
-niobium_ingot.addItemOutput(<contenttweaker:niobium_ingot>);
+niobium_ingot.addItemOutput(<contenttweaker:material_part:32>);
 niobium_ingot.build();
 
 

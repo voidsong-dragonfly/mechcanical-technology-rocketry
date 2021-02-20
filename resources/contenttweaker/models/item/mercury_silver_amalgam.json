@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/mercury_silver_amalgam"
+    "layer0": "contenttweaker:items/amalgam"
   }
 }
