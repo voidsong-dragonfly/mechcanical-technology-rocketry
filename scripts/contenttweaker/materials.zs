@@ -181,6 +181,7 @@ static materials as Material[string] = {
     "Impure Tin" : MaterialSystem.getMaterialBuilder().setName("Impure Tin").setColor(Color.fromHex("928c87")).build(),
     "Nickel Matte" : MaterialSystem.getMaterialBuilder().setName("Nickel Matte").setColor(Color.fromHex("5b574f")).build(),
     "Lead Sinter" : MaterialSystem.getMaterialBuilder().setName("Lead Sinter").setColor(Color.fromHex("242023")).build(),
+    "Niobium Ferroalloy" : MaterialSystem.getMaterialBuilder().setName("Niobium Ferroalloy").setColor(Color.fromHex("756e77")).build(),
     //Metal Sludge
     "Platinum Rich PGM Leach" : MaterialSystem.getMaterialBuilder().setName("Platinum Rich PGM Leach").setColor(Color.fromHex("323649")).build(),
     "Iridium Rich PGM Leach" : MaterialSystem.getMaterialBuilder().setName("Iridium Rich PGM Leach").setColor(Color.fromHex("323649")).build(),
@@ -323,6 +324,7 @@ static parts as string[][string] = {
     "Impure Tin" : ["slag"],
     "Nickel Matte" : ["slag"],
     "Lead Sinter" : ["slag"],
+    "Niobium Ferroalloy" : ["slag"],
     //Metal Sludge
     "Platinum Rich PGM Leach" : ["sludge"],
     "Iridium Rich PGM Leach" : ["sludge"],

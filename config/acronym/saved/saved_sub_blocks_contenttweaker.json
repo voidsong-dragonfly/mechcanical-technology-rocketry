@@ -1,3 +1,32 @@
 {
-  "savedSubBlockNames": {}
+  "savedSubBlockNames": {
+    "0": {
+      "0": "ore_cryoliteore",
+      "1": "maraging_steel_block",
+      "2": "high_carbon_steel_block",
+      "3": "tungstensteel_block",
+      "4": "tungsten_block",
+      "5": "titanium_frame",
+      "6": "zirconium_niobium_alloy_frame",
+      "7": "metal_barrel_shell_machinecasing",
+      "8": "steel_barrel_shell_machinecasing",
+      "9": "superconductive_coil_machinecasing",
+      "10": "fusion_reactor_inner_casing_machinecasing",
+      "11": "fusion_reactor_outer_casing_machinecasing",
+      "12": "fission_reactor_calandria_casing_shell_machinecasing",
+      "13": "fission_reactor_calandria_casing_machinecasing",
+      "14": "fission_reactor_fuel_rod_assembly_pipe_connector_machinecasing",
+      "15": "plastic_coated_rebar_concrete_machinecasing"
+    },
+    "1": {
+      "0": "ore_netherfluoriteore",
+      "1": "ore_nethergoldore",
+      "2": "ore_nethercinnabarore",
+      "3": "ore_cinnabarore",
+      "4": "ore_platinumore",
+      "5": "ore_tungstenore",
+      "6": "ore_niobiumore",
+      "7": "ore_zirconiumore"
+    }
+  }
 }

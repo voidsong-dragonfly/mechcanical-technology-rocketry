@@ -1,12 +1,7 @@
 //Import
 import crafttweaker.formatting.IFormattedText;
-import scripts.localization.functions.localize_material;
 
 
-
-//Barrel Shells
-game.setLocalization("tile.contenttweaker.metal_barrel_shell.name", "Metal Barrel Shell");
-game.setLocalization("tile.contenttweaker.steel_barrel_shell.name", "Steel Barrel Shell");
 
 //Dolomite
 game.setLocalization("tile.contenttweaker.crushed_dolomite.name", "Crushed Dolomite");
@@ -15,9 +10,6 @@ game.setLocalization("tile.contenttweaker.calcined_crushed_dolomite.name", "Calc
 //Fluxes
 game.setLocalization("tile.contenttweaker.crushed_limestone.name", "Crushed Limestone");
 game.setLocalization("tile.contenttweaker.crushed_marble.name", "Crushed Marble");
-
-//Nether Ores
-game.setLocalization("tile.contenttweaker.nether_gold_ore.name", "Nether Gold Ore");
 
 //Ices
 game.setLocalization("tile.contenttweaker.oxygen_ice.name", "Oxygen Ice");
@@ -50,19 +42,3 @@ game.setLocalization("tile.contenttweaker.tungsten_dust_block.name", "Compressed
 game.setLocalization("tile.contenttweaker.tin_dust_block.name", "Compressed Tin Grit");
 game.setLocalization("tile.contenttweaker.titanium_dust_block.name", "Compressed Titanium Grit");
 game.setLocalization("tile.contenttweaker.niobium_dust_block.name", "Compressed Niobium Grit");
-
-//Warp Core blocks
-game.setLocalization("tile.contenttweaker.warp_ring_engineering_block.name", "Warp Engineering Block - Ring");
-game.setLocalization("tile.contenttweaker.warp_core_engineering_block.name", "Warp Engineering Block - Core");
-
-//Fission reactor pieces
-game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing_shell.name", "Fission Reactor Calandria Casing Shell");
-game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing.name", "Fission Reactor Calandria Casing");
-game.setLocalization("tile.contenttweaker.fission_reactor_fuel_rod_assembly_pipe_connector.name", "Fission Reactor Fuel Rod Assembly Pipe Connector");
-game.setLocalization("tile.contenttweaker.zirconium_niobium_frame.name", "Zirconium-Niobium Alloy Frame");
-game.setLocalization("tile.contenttweaker.titanium_frame.name", "Titanium Frame");
-
-//Fusion reactor pieces
-game.setLocalization("tile.contenttweaker.inner_fusion_casing.name", "Fusion Reactor Casing - Inner");
-game.setLocalization("tile.contenttweaker.outer_fusion_casing.name", "Fusion Reactor Casing - Outer");
-game.setLocalization("tile.contenttweaker.fusion_coil.name", "Superconducting Coil");
