@@ -149,20 +149,20 @@ recipes.addShaped(<logisticspipes:pipe_remote_orderer>,
 //Item recipes
 //Chips
 recipes.addShaped(<logisticspipes:chip_fpga> * 8,
- [[<immersiveengineering:wirecoil:5>, <contenttweaker:integrated_circuit_plate>, <immersiveengineering:wirecoil:5>],
- [<contenttweaker:integrated_circuit_plate>, <contenttweaker:plastic_circuit_board>, <contenttweaker:integrated_circuit_plate>],
- [<immersiveengineering:wirecoil:5>, <contenttweaker:integrated_circuit_plate>, <immersiveengineering:wirecoil:5>]]);
+ [[<immersiveengineering:wirecoil:5>, <ore:circuitPlateIntegratedCircuit>, <immersiveengineering:wirecoil:5>],
+ [<ore:circuitPlateIntegratedCircuit>, <ore:circuitBoardPlastic>, <ore:circuitPlateIntegratedCircuit>],
+ [<immersiveengineering:wirecoil:5>, <ore:circuitPlateIntegratedCircuit>, <immersiveengineering:wirecoil:5>]]);
 recipes.addShaped(<logisticspipes:chip_basic> * 4,
- [[<ore:wireCopper>, <contenttweaker:integrated_circuit_plate>, <ore:wireCopper>],
- [<contenttweaker:integrated_circuit_plate>, <contenttweaker:plastic_circuit_board>, <contenttweaker:integrated_circuit_plate>],
- [<ore:wireCopper>, <contenttweaker:integrated_circuit_plate>, <ore:wireCopper>]]);
+ [[<ore:wireCopper>, <ore:circuitPlateIntegratedCircuit>, <ore:wireCopper>],
+ [<ore:circuitPlateIntegratedCircuit>, <ore:circuitBoardPlastic>, <ore:circuitPlateIntegratedCircuit>],
+ [<ore:wireCopper>, <ore:circuitPlateIntegratedCircuit>, <ore:wireCopper>]]);
 recipes.addShaped(<logisticspipes:chip_advanced> * 4,
- [[<ore:wireElectrum>, <contenttweaker:cpu_plate>, <ore:wireElectrum>],
- [<contenttweaker:cpu_plate>, <contenttweaker:plastic_circuit_board>, <contenttweaker:cpu_plate>],
- [<ore:wireElectrum>, <contenttweaker:cpu_plate>, <ore:wireElectrum>]]);
+ [[<ore:wireElectrum>, <ore:circuitPlateCentralProcessingUnit>, <ore:wireElectrum>],
+ [<ore:circuitPlateCentralProcessingUnit>, <ore:circuitBoardPlastic>, <ore:circuitPlateCentralProcessingUnit>],
+ [<ore:wireElectrum>, <ore:circuitPlateCentralProcessingUnit>, <ore:wireElectrum>]]);
 //Modules
 recipes.addShaped(<logisticspipes:module_blank>,
- [[<contenttweaker:plastic_circuit_board>, <ore:wireElectrum>],
+ [[<ore:circuitBoardPlastic>, <ore:wireElectrum>],
  [<ore:wireElectrum>, <immersiveengineering:wirecoil:5>]]);
 recipes.addShaped(<logisticspipes:module_item_sink>,
  [[<logisticspipes:module_blank>, <immersiveengineering:wirecoil:5>, <logisticspipes:logistics_programmer>],
@@ -224,47 +224,47 @@ recipes.addShaped(<logisticspipes:module_extractor_advanced>,
  [<logisticspipes:module_extractor>]]);
 //Upgrades
 recipes.addShaped(<logisticspipes:upgrade_speed>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_fpga>, <logisticspipes:logistics_programmer>],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_fpga>, <logisticspipes:logistics_programmer>],
  [null, null, null],
  [null, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_item_extraction>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_basic>, <logisticspipes:logistics_programmer>],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_basic>, <logisticspipes:logistics_programmer>],
  [null, null, null],
  [null, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_action_speed>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_basic>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_basic>, null],
  [null, null, <logisticspipes:logistics_programmer>],
  [null, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_fuzzy>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_basic>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_basic>, null],
  [null, null, null],
  [null, null, <logisticspipes:logistics_programmer>]]);
 recipes.addShaped(<logisticspipes:upgrade_crafting_byproduct>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_basic>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_basic>, null],
  [null, null, null],
  [null, <logisticspipes:logistics_programmer>, null]]);
 recipes.addShaped(<logisticspipes:upgrade_sneaky>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_basic>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_basic>, null],
  [null, null, null],
  [<logisticspipes:logistics_programmer>, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_item_stack_extraction>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_advanced>, <logisticspipes:logistics_programmer>],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_advanced>, <logisticspipes:logistics_programmer>],
  [null, null, null],
  [null, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_module_upgrade>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_advanced>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_advanced>, null],
  [null, null, <logisticspipes:logistics_programmer>],
  [null, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_crafting_monitoring>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_advanced>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_advanced>, null],
  [null, null, null],
  [null, null, <logisticspipes:logistics_programmer>]]);
 recipes.addShaped(<logisticspipes:upgrade_pattern>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_advanced>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_advanced>, null],
  [null, null, null],
  [null, <logisticspipes:logistics_programmer>, null]]);
 recipes.addShaped(<logisticspipes:upgrade_satellite_advanced>,
- [[<contenttweaker:plastic_circuit_board>, <logisticspipes:chip_advanced>, null],
+ [[<ore:circuitBoardPlastic>, <logisticspipes:chip_advanced>, null],
  [null, null, null],
  [<logisticspipes:logistics_programmer>, null, null]]);
 recipes.addShaped(<logisticspipes:upgrade_crafting_cleanup>,

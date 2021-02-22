@@ -50,7 +50,7 @@
 		<output>
 			<fluidStack>methane;800</fluidStack>
             <fluidStack>water;800</fluidStack>
-            <itemStack>contenttweaker:cobalt_dust;8</itemStack>
+            <oreDict>dustCobalt;8</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="200" power="768">
@@ -60,7 +60,7 @@
             <oreDict>dustIron;8</oreDict>
         </input>
 		<output>
-            <itemStack>immersiveengineering:metal;8;18</itemStack>
+            <oreDict>dustIron;8</oreDict>
 			<fluidStack>liquidethene;800</fluidStack>
             <fluidStack>water;800</fluidStack>
 		</output>
@@ -81,7 +81,7 @@
             <oreDict>dustSilicon</oreDict>
         </input>
 		<output>
-            <itemStack>contenttweaker:magnesium_dust;2</itemStack>
+            <oreDict>dustMagnesium;2</oreDict>
             <itemStack>immersiveengineering:material;1;7</itemStack>
 		</output>
 	</Recipe>
@@ -250,7 +250,7 @@
             <fluidStack>liquidhydrogenchloride;800</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:ammonium_chloride;8</itemStack>
+            <oreDict>dustAmmoniumChloride;8</oreDict>
 		</output>
 	</Recipe>
     
@@ -261,7 +261,7 @@
             <fluidStack>argon;4000</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+            <oreDict>bouleGalliumDopedSilicon</oreDict>
             <fluidStack>argon;3500</fluidStack>
 		</output>
 	</Recipe>
@@ -272,26 +272,25 @@
             <fluidStack>argon;4000</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:lithium_doped_silicon_boule</itemStack>
+			<oreDict>bouleLithiumDopedSilicon</oreDict>
             <fluidStack>argon;3500</fluidStack>
 		</output>
 	</Recipe>
     
     
     
-    <Recipe timeRequired="300" power="256">
+    <Recipe timeRequired="300" power="1024">
 		<input>
-			<itemStack>contenttweaker:aluminium_hydroxide</itemStack>
-            <fluidStack>sodiumaluminatesolution;2400</fluidStack>
+			<oreDict>dustAlumina;16</oreDict>
+            <fluidStack>distwater;4800</fluidStack>
         </input>
 		<output>
-            <fluidStack>sodiumhydroxidesolution;2400</fluidStack>
-            <itemStack>contenttweaker:aluminium_hydroxide;25</itemStack>
+            <oreDict>dustAluminiumHydroxide;16</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="300" power="384">
 		<input>
-			<itemStack>contenttweaker:washed_bauxite_ore_dust;16</itemStack>
+			<oreDict>dustWashedBauxite;16</oreDict>
             <fluidStack>sodiumhydroxidesolution;2400</fluidStack>
         </input>
 		<output>
@@ -308,18 +307,19 @@
             <itemStack>contenttweaker:red_mud_sludge;6</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="300" power="1024">
+    <Recipe timeRequired="300" power="256">
 		<input>
-			<itemStack>contenttweaker:alumina_dust;16</itemStack>
-            <fluidStack>distwater;4800</fluidStack>
+            <oreDict>dustAluminiumHydroxide</oreDict>
+            <fluidStack>sodiumaluminatesolution;2400</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:aluminium_hydroxide;16</itemStack>
+            <fluidStack>sodiumhydroxidesolution;2400</fluidStack>
+            <oreDict>dustAluminiumHydroxide;25</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="600" power="256">
 		<input>
-			<itemStack>contenttweaker:cinnabar_dust;48</itemStack>
+			<oreDict>dustCinnabar;48</oreDict>
             <fluidStack>liquidoxygen;4800</fluidStack>
         </input>
 		<output>
@@ -329,12 +329,12 @@
 	</Recipe>
     <Recipe timeRequired="300" power="512">
 		<input>
-            <itemStack>contenttweaker:niobium_pentoxide_dust;12</itemStack>
+            <oreDict>dustNiobiumPentoxide;12</oreDict>
             <oreDict>dustAluminum;40</oreDict>
         </input>
 		<output>
-            <itemStack>contenttweaker:impure_niobium_dust;12</itemStack>
-            <itemStack>contenttweaker:alumina_dust;40</itemStack>
+            <oreDict>dustNiobium;12</oreDict>
+            <oreDict>dustAlumina;40</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power="800">
@@ -355,12 +355,12 @@
         </input>
 		<output>
             <itemStack>libvulpes:productdust;8;7</itemStack>
-            <itemStack>contenttweaker:magnesium_chloride;12</itemStack>
+            <oreDict>dustMagnesiumChloride;12</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power="800">
 		<input>
-            <itemStack>contenttweaker:washed_zircon_ore_dust;8</itemStack>
+            <oreDict>dustWashedZirconium;8</oreDict>
             <oreDict>dustAnyCarbon;16</oreDict>
             <fluidStack>liquidchlorine;1600</fluidStack>
         </input>
@@ -375,37 +375,37 @@
             <fluidStack>zirconiumtetrachloride;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:zirconium_dust;8</itemStack>
-            <itemStack>contenttweaker:magnesium_chloride;12</itemStack>
+            <oreDict>dustZirconium;8</oreDict>
+            <oreDict>dustMagnesiumChloride;12</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1600" power="1024">
 		<input>
-            <itemStack>contenttweaker:ammonium_chloride;16</itemStack>
+            <oreDict>dustAmmoniumChloride;16</oreDict>
             <fluidStack>nitricacidhydrochloridept;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:ammonium_chloroplatinate;12</itemStack>
+            <oreDict>dustAmmoniumChloroplatinate;12</oreDict>
             <fluidStack>nitricacidhydrochlorideptprocessed;1600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1600" power="1024">
 		<input>
-            <itemStack>contenttweaker:ammonium_chloride;16</itemStack>
+            <oreDict>dustAmmoniumChloride;16</oreDict>
             <fluidStack>nitricacidhydrochlorideir;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:ammonium_chloroplatinate;4</itemStack>
+            <oreDict>dustAmmoniumChloroplatinate;4</oreDict>
             <fluidStack>nitricacidhydrochlorideirprocessed;1600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1600" power="1024">
 		<input>
-            <itemStack>contenttweaker:ammonium_chloride;16</itemStack>
+            <oreDict>dustAmmoniumChloride;16</oreDict>
             <fluidStack>nitricacidhydrochlorideos;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:ammonium_chloroplatinate;2</itemStack>
+            <oreDict>dustAmmoniumChloroplatinate;2</oreDict>
             <fluidStack>nitricacidhydrochlorideosprocessed;1600</fluidStack>
 		</output>
 	</Recipe>
@@ -415,33 +415,33 @@
             <fluidStack>nitricacidhydrochlorideptprocessed;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:platinum_group_metal_leach_residue_pt;4</itemStack>
+            <oreDict>sludgePlatinumRichPGMLeach;4</oreDict>
             <fluidStack>nitricacidhydrochloride;1600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1600" power="256">
 		<input>
-            <itemStack>immersiveengineering:material;4;24</itemStack>
+            <itemStack>immersiveengineering:material;12;24</itemStack>
             <fluidStack>nitricacidhydrochlorideirprocessed;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:platinum_group_metal_leach_residue_ir;12</itemStack>
+            <oreDict>sludgeIridiumRichPGMLeach;12</oreDict>
             <fluidStack>nitricacidhydrochloride;1600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1600" power="256">
 		<input>
-            <itemStack>immersiveengineering:material;4;24</itemStack>
+            <itemStack>immersiveengineering:material;14;24</itemStack>
             <fluidStack>nitricacidhydrochlorideosprocessed;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:platinum_group_metal_leach_residue_os;14</itemStack>
+            <oreDict>sludgeOsmiumRichPGMLeach;14</oreDict>
             <fluidStack>nitricacidhydrochloride;1600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="800" power="512">
 		<input>
-            <itemStack>contenttweaker:platinum_group_metal_leach_residue_pt;4</itemStack>
+            <oreDict>sludgePlatinumRichPGMLeach;4</oreDict>
             <fluidStack>sulfuricacid;100</fluidStack>
         </input>
 		<output>
@@ -451,7 +451,7 @@
 	</Recipe>
     <Recipe timeRequired="800" power="512">
 		<input>
-            <itemStack>contenttweaker:platinum_group_metal_leach_residue_ir;12</itemStack>
+            <oreDict>sludgeIridiumRichPGMLeach;12</oreDict>
             <fluidStack>sulfuricacid;400</fluidStack>
         </input>
 		<output>
@@ -461,7 +461,7 @@
 	</Recipe>
     <Recipe timeRequired="800" power="512">
 		<input>
-            <itemStack>contenttweaker:platinum_group_metal_leach_residue_os;14</itemStack>
+            <oreDict>sludgeOsmiumRichPGMLeach;14</oreDict>
             <fluidStack>sulfuricacid;800</fluidStack>
         </input>
 		<output>
@@ -486,13 +486,13 @@
             <fluidStack>uraniumsulfatesolution;2400</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:ammonium_diuranate;6</itemStack>
+			<oreDict>dustAmmoniumDiuranate;6</oreDict>
             <fluidStack>uraniumtailingssolution;2400</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="600" power="256">
 		<input>
-			<itemStack>contenttweaker:fine_yellowcake;24</itemStack>
+			<oreDict>dustFineYellowcake;24</oreDict>
             <fluidStack>liquidhydrogen;1600</fluidStack>
         </input>
 		<output>
@@ -506,13 +506,13 @@
             <fluidStack>hydrofluoricacid;3200</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:uranium_tetrafluoride_dust_007;8</itemStack>
+			<oreDict>dustUraniumTetrafluoride;8</oreDict>
             <fluidStack>water;3200</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="75" power="96">
 		<input>
-			<itemStack>contenttweaker:uranium_tetrafluoride_dust_007;8</itemStack>
+			<oreDict>dustUraniumTetrafluoride;8</oreDict>
             <fluidStack>fluorine;800</fluidStack>
         </input>
 		<output>
@@ -525,7 +525,7 @@
             <fluidStack>water;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:uranyl_fluoride_dust_000;8</itemStack>
+            <oreDict>dustDepletedUranylFluoride;8</oreDict>
             <fluidStack>hydrofluoricacid;3200</fluidStack>
 		</output>
 	</Recipe>
@@ -535,27 +535,27 @@
             <fluidStack>water;1600</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:uranyl_fluoride_dust_035;8</itemStack>
+            <oreDict>dustLightlyEnrichedUranylFluoride;8</oreDict>
             <fluidStack>hydrofluoricacid;3200</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="600" power="1024">
 		<input>
-			<itemStack>contenttweaker:uranyl_fluoride_dust_000;8</itemStack>
+			<oreDict>dustDepletedUranylFluoride;8</oreDict>
             <fluidStack>liquidhydrogen;800</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:uranium_dioxide_dust_000;8</itemStack>
+            <oreDict>dustDepletedUraniumDioxide;8</oreDict>
             <fluidStack>hydrofluoricacid;1600</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="600" power="1024">
 		<input>
-			<itemStack>contenttweaker:uranyl_fluoride_dust_035;8</itemStack>
+			<oreDict>dustLightlyEnrichedUranylFluoride;8</oreDict>
             <fluidStack>liquidhydrogen;800</fluidStack>
         </input>
 		<output>
-            <itemStack>contenttweaker:uranium_dioxide_dust_035;8</itemStack>
+            <oreDict>dustLightlyEnrichedUraniumDioxide;8</oreDict>
             <fluidStack>hydrofluoricacid;1600</fluidStack>
 		</output>
 	</Recipe>

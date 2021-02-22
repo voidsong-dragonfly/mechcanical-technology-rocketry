@@ -8,7 +8,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -40,7 +40,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -48,7 +48,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -56,7 +56,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -64,7 +64,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -80,7 +80,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -96,7 +96,7 @@
             "y": 1,
             "z": -1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -104,7 +104,7 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -120,7 +120,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -136,7 +136,7 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -144,7 +144,7 @@
             "y": 0,
             "z": -1,
             "elements": [
-                "contenttweaker:inner_fusion_casing@0"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -177,7 +177,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -194,7 +194,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -203,7 +203,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -211,7 +211,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -220,7 +220,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -228,7 +228,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -236,7 +236,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -244,7 +244,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -253,7 +253,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -262,7 +262,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -270,7 +270,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -278,7 +278,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -286,7 +286,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -294,7 +294,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -303,7 +303,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -312,7 +312,7 @@
             "z": 0,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -320,7 +320,7 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -328,7 +328,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -336,7 +336,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -344,7 +344,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -352,7 +352,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -360,7 +360,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -368,7 +368,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -376,7 +376,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -411,7 +411,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -428,7 +428,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -436,7 +436,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -444,7 +444,7 @@
             "y": -2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -452,7 +452,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -460,7 +460,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -468,7 +468,7 @@
             "y": 1,
             "z": -11,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -476,7 +476,7 @@
             "y": -1,
             "z": 11,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -484,7 +484,7 @@
             "y": 0,
             "z": -11,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -492,7 +492,7 @@
             "y": 0,
             "z": 11,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -500,7 +500,7 @@
             "y": 2,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -508,7 +508,7 @@
             "y": -2,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -516,7 +516,7 @@
             "y": 1,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -524,7 +524,7 @@
             "y": -1,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -532,7 +532,7 @@
             "y": -1,
             "z": -11,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -540,7 +540,7 @@
             "y": 1,
             "z": 11,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -548,7 +548,7 @@
             "y": 1,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -556,7 +556,7 @@
             "y": -1,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -564,7 +564,7 @@
             "y": 0,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -572,7 +572,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -580,7 +580,7 @@
             "y": 2,
             "z": -9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -588,7 +588,7 @@
             "y": -2,
             "z": 9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -597,7 +597,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -606,7 +606,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -615,7 +615,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -624,7 +624,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -633,7 +633,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -642,7 +642,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -651,7 +651,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -660,7 +660,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -668,7 +668,7 @@
             "y": 2,
             "z": -9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -677,7 +677,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -685,7 +685,7 @@
             "y": -2,
             "z": 9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -694,7 +694,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -703,7 +703,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -712,7 +712,7 @@
             "z": -10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -721,7 +721,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -730,7 +730,7 @@
             "z": 10,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -738,7 +738,7 @@
             "y": 0,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -746,7 +746,7 @@
             "y": 2,
             "z": -9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -754,7 +754,7 @@
             "y": 0,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -762,7 +762,7 @@
             "y": -2,
             "z": 9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -770,7 +770,7 @@
             "y": -1,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -778,7 +778,7 @@
             "y": 1,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -787,7 +787,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -796,7 +796,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -805,7 +805,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -814,7 +814,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -823,7 +823,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -832,7 +832,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -841,7 +841,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -850,7 +850,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -859,7 +859,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -868,7 +868,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -877,7 +877,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -886,7 +886,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -895,7 +895,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -904,7 +904,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -912,7 +912,7 @@
             "y": -1,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -920,7 +920,7 @@
             "y": 1,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -929,7 +929,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -938,7 +938,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -946,7 +946,7 @@
             "y": 2,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -955,7 +955,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -963,7 +963,7 @@
             "y": -2,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -972,7 +972,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -980,7 +980,7 @@
             "y": -2,
             "z": -10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -988,7 +988,7 @@
             "y": 2,
             "z": 10,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -996,7 +996,7 @@
             "y": 2,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1004,7 +1004,7 @@
             "y": -2,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1013,7 +1013,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1022,7 +1022,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1031,7 +1031,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1039,7 +1039,7 @@
             "y": 2,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1048,7 +1048,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1056,7 +1056,7 @@
             "y": -2,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1064,7 +1064,7 @@
             "y": 1,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1072,7 +1072,7 @@
             "y": -1,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1081,7 +1081,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1090,7 +1090,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1099,7 +1099,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1108,7 +1108,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1117,7 +1117,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1126,7 +1126,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1135,7 +1135,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1144,7 +1144,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1153,7 +1153,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1162,7 +1162,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1171,7 +1171,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1180,7 +1180,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1189,7 +1189,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1198,7 +1198,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1207,7 +1207,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1216,7 +1216,7 @@
             "z": -9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1225,7 +1225,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1234,7 +1234,7 @@
             "z": 9,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1243,7 +1243,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1252,7 +1252,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1261,7 +1261,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1270,7 +1270,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1278,7 +1278,7 @@
             "y": 1,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1286,7 +1286,7 @@
             "y": -1,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1294,7 +1294,7 @@
             "y": 0,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1302,7 +1302,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1311,7 +1311,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1320,7 +1320,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1328,7 +1328,7 @@
             "y": 2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1337,7 +1337,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1345,7 +1345,7 @@
             "y": -2,
             "z": -9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1353,7 +1353,7 @@
             "y": -2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1362,7 +1362,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1370,7 +1370,7 @@
             "y": 2,
             "z": 9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1378,7 +1378,7 @@
             "y": 2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1387,7 +1387,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1395,7 +1395,7 @@
             "y": -2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1404,7 +1404,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1413,7 +1413,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1421,7 +1421,7 @@
             "y": -2,
             "z": -9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1430,7 +1430,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1439,7 +1439,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1448,7 +1448,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1456,7 +1456,7 @@
             "y": 2,
             "z": 9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1465,7 +1465,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1474,7 +1474,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1492,7 +1492,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1510,7 +1510,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1519,7 +1519,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1528,7 +1528,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1537,7 +1537,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1545,7 +1545,7 @@
             "y": -2,
             "z": -9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1554,7 +1554,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1562,7 +1562,7 @@
             "y": 2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1570,7 +1570,7 @@
             "y": 2,
             "z": 9,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1579,7 +1579,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1587,7 +1587,7 @@
             "y": -2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1596,7 +1596,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1605,7 +1605,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1613,7 +1613,7 @@
             "y": 0,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1621,7 +1621,7 @@
             "y": 2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1630,7 +1630,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1638,7 +1638,7 @@
             "y": 0,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1646,7 +1646,7 @@
             "y": -2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1654,7 +1654,7 @@
             "y": -1,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1662,7 +1662,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1671,7 +1671,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1680,7 +1680,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1689,7 +1689,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1698,7 +1698,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1707,7 +1707,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1716,7 +1716,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1725,7 +1725,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1734,7 +1734,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1742,7 +1742,7 @@
             "y": 1,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1750,7 +1750,7 @@
             "y": -1,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1759,7 +1759,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1768,7 +1768,7 @@
             "z": -8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1777,7 +1777,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1786,7 +1786,7 @@
             "z": 8,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1795,7 +1795,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1803,7 +1803,7 @@
             "y": -1,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1812,7 +1812,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1821,7 +1821,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1829,7 +1829,7 @@
             "y": 1,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1838,7 +1838,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1847,7 +1847,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1856,7 +1856,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1864,7 +1864,7 @@
             "y": -2,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1872,7 +1872,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1880,7 +1880,7 @@
             "y": 2,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1889,7 +1889,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1897,7 +1897,7 @@
             "y": -2,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1906,7 +1906,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1915,7 +1915,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1924,7 +1924,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -1950,7 +1950,7 @@
             "y": -2,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1966,7 +1966,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1982,7 +1982,7 @@
             "y": -2,
             "z": -8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -1991,7 +1991,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2000,7 +2000,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2017,7 +2017,7 @@
             "y": 2,
             "z": 8,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2026,7 +2026,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2035,7 +2035,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2052,7 +2052,7 @@
             "y": 2,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2061,7 +2061,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2069,7 +2069,7 @@
             "y": -2,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2078,7 +2078,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2086,7 +2086,7 @@
             "y": 1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2094,7 +2094,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2103,7 +2103,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2112,7 +2112,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2121,7 +2121,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2130,7 +2130,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2139,7 +2139,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2148,7 +2148,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2156,7 +2156,7 @@
             "y": 1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2164,7 +2164,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2172,7 +2172,7 @@
             "y": -1,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2180,7 +2180,7 @@
             "y": 1,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2188,7 +2188,7 @@
             "y": 1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2197,7 +2197,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2205,7 +2205,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2214,7 +2214,7 @@
             "z": -7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2223,7 +2223,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2232,7 +2232,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2241,7 +2241,7 @@
             "z": 7,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2250,7 +2250,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2258,7 +2258,7 @@
             "y": 1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2266,7 +2266,7 @@
             "y": -1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2274,7 +2274,7 @@
             "y": 0,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2282,7 +2282,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2290,7 +2290,7 @@
             "y": 2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2299,7 +2299,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2307,7 +2307,7 @@
             "y": -2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2315,7 +2315,7 @@
             "y": -2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2324,7 +2324,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2332,7 +2332,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2340,7 +2340,7 @@
             "y": 2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2348,7 +2348,7 @@
             "y": -2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2357,7 +2357,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2366,7 +2366,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2374,7 +2374,7 @@
             "y": -2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2382,7 +2382,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2442,7 +2442,7 @@
             "y": -2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2458,7 +2458,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2474,7 +2474,7 @@
             "y": -2,
             "z": -7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2483,7 +2483,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2500,7 +2500,7 @@
             "y": 2,
             "z": 7,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2509,7 +2509,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2527,7 +2527,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2535,7 +2535,7 @@
             "y": 2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2544,7 +2544,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2552,7 +2552,7 @@
             "y": 0,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2560,7 +2560,7 @@
             "y": 2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2568,7 +2568,7 @@
             "y": -2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2576,7 +2576,7 @@
             "y": 0,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2584,7 +2584,7 @@
             "y": -2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2592,7 +2592,7 @@
             "y": -1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2600,7 +2600,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2609,7 +2609,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2618,7 +2618,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2627,7 +2627,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2636,7 +2636,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2644,7 +2644,7 @@
             "y": 1,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2652,7 +2652,7 @@
             "y": -1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2660,7 +2660,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2668,7 +2668,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2676,7 +2676,7 @@
             "y": -1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2684,7 +2684,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2692,7 +2692,7 @@
             "y": 1,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2701,7 +2701,7 @@
             "z": -6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2709,7 +2709,7 @@
             "y": -1,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2718,7 +2718,7 @@
             "z": 6,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2727,7 +2727,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2735,7 +2735,7 @@
             "y": -1,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2744,7 +2744,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2752,7 +2752,7 @@
             "y": 1,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2761,7 +2761,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2770,7 +2770,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2779,7 +2779,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2787,7 +2787,7 @@
             "y": -2,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2796,7 +2796,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2804,7 +2804,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2812,7 +2812,7 @@
             "y": 2,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2820,7 +2820,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2898,7 +2898,7 @@
             "y": -2,
             "z": -6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2914,7 +2914,7 @@
             "y": 2,
             "z": 6,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2931,7 +2931,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2948,7 +2948,7 @@
             "y": 2,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2957,7 +2957,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2975,7 +2975,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -2983,7 +2983,7 @@
             "y": -2,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -2992,7 +2992,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3001,7 +3001,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3010,7 +3010,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3019,7 +3019,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3028,7 +3028,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3036,7 +3036,7 @@
             "y": 1,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3044,7 +3044,7 @@
             "y": -1,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3052,7 +3052,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3060,7 +3060,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3068,7 +3068,7 @@
             "y": -1,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3076,7 +3076,7 @@
             "y": 1,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3084,7 +3084,7 @@
             "y": 1,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3093,7 +3093,7 @@
             "z": -5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3101,7 +3101,7 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3110,7 +3110,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3119,7 +3119,7 @@
             "z": 5,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3128,7 +3128,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3136,7 +3136,7 @@
             "y": -2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3144,7 +3144,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3153,7 +3153,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3161,7 +3161,7 @@
             "y": -2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3170,7 +3170,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3178,7 +3178,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3187,7 +3187,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3196,7 +3196,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3264,7 +3264,7 @@
             "y": -2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3273,7 +3273,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3289,7 +3289,7 @@
             "y": -2,
             "z": -5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3297,7 +3297,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3306,7 +3306,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3315,7 +3315,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3323,7 +3323,7 @@
             "y": 2,
             "z": 5,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3332,7 +3332,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3341,7 +3341,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3350,7 +3350,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3359,7 +3359,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3368,7 +3368,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3376,7 +3376,7 @@
             "y": -1,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3384,7 +3384,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3392,7 +3392,7 @@
             "y": -1,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3400,7 +3400,7 @@
             "y": 1,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3409,7 +3409,7 @@
             "z": -4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3418,7 +3418,7 @@
             "z": 4,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3427,7 +3427,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3436,7 +3436,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3445,7 +3445,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3454,7 +3454,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3463,7 +3463,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3471,7 +3471,7 @@
             "y": -2,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3480,7 +3480,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3488,7 +3488,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3523,7 +3523,7 @@
             "y": -2,
             "z": -4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3540,7 +3540,7 @@
             "y": 2,
             "z": 4,
             "elements": [
-                "contenttweaker:fusion_coil"
+                "fusion_coil"
             ]
         },
         {
@@ -3549,7 +3549,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3558,7 +3558,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3567,7 +3567,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3576,7 +3576,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3585,7 +3585,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3594,7 +3594,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3603,7 +3603,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3612,7 +3612,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3621,7 +3621,7 @@
             "z": -3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3630,7 +3630,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3639,7 +3639,7 @@
             "z": 3,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3648,7 +3648,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3657,7 +3657,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3666,7 +3666,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3675,7 +3675,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3684,7 +3684,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3693,7 +3693,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3702,7 +3702,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3711,7 +3711,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3720,7 +3720,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3729,7 +3729,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3738,7 +3738,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3747,7 +3747,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3756,7 +3756,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3765,7 +3765,7 @@
             "z": -2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3774,7 +3774,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3783,7 +3783,7 @@
             "z": 2,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3792,7 +3792,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3801,7 +3801,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3810,7 +3810,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3819,7 +3819,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3828,7 +3828,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3837,7 +3837,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3846,7 +3846,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3855,7 +3855,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3864,7 +3864,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3873,7 +3873,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3882,7 +3882,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3891,7 +3891,7 @@
             "z": -1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         },
         {
@@ -3900,7 +3900,7 @@
             "z": 1,
             
             "elements": [
-                "contenttweaker:inner_fusion_casing"
+                "inner_fusion_casing"
             ]
         }
     ]}

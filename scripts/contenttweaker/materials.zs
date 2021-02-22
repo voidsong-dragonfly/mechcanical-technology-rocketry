@@ -20,7 +20,7 @@ MaterialSystem.getPartBuilder().setName("salt").setPartType(MaterialSystem.getPa
 MaterialSystem.getPartBuilder().setName("gemdust").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dust").build();
 MaterialSystem.getPartBuilder().setName("nonmetaldust").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dust").build();
 MaterialSystem.getPartBuilder().setName("dustunshaded").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("dust").build();
-MaterialSystem.getPartBuilder().setName("washedoredust").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("dustWashed").setAdditionalOreDictNames("dustDirty").build();
+MaterialSystem.getPartBuilder().setName("washedoredust").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("dustWashed").build();
 MaterialSystem.getPartBuilder().setName("riffle").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dustWashed").setAdditionalOreDictNames("dustDirty").build();
 MaterialSystem.getPartBuilder().setName("amalgam").setPartType(MaterialSystem.getPartType("item")).setOreDictName("amalgam").build();
 //New parts - other types
@@ -101,7 +101,6 @@ static order as string[] = ["ingot", "plate", "gemplate", "nugget", "rod", "gear
 static materials as Material[string] = {
     //Metals
     "Steel" : MaterialSystem.getMaterialBuilder().setName("Steel").setColor(Color.fromHex("707070")).build(),
-    "High Carbon Steel" : MaterialSystem.getMaterialBuilder().setName("High Carbon Steel").setColor(Color.fromHex("A6A6AA")).build(),
     "Maraging Steel" : MaterialSystem.getMaterialBuilder().setName("Maraging Steel").setColor(Color.fromHex("ACACA6")).build(),
     "Tungstensteel" : MaterialSystem.getMaterialBuilder().setName("Tungstensteel").setColor(Color.fromHex("83919E")).build(),
     "Titanium" : MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("CCC8FA")).build(),
@@ -117,9 +116,9 @@ static materials as Material[string] = {
     "Platinum" : MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("C9E3F9")).build(),
     "Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     "Tungsten" : MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(Color.fromHex("5b5b5c")).build(),
-    "Depleted Uranium" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranium").setColor(Color.fromHex("363636")).build(),
-    "Lightly Enriched Uranium" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium").setColor(Color.fromHex("576258")).build(),
-    "Highly Enriched Uranium" : MaterialSystem.getMaterialBuilder().setName("Highly Enriched Uranium").setColor(Color.fromHex("667c59")).build(),
+    "Depleted Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranium Dioxide").setColor(Color.fromHex("363636")).build(),
+    "Lightly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium Dioxide").setColor(Color.fromHex("576258")).build(),
+    "Highly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Highly Enriched Uranium Dioxide").setColor(Color.fromHex("667c59")).build(),
     //Metals, ore dust(s) only
     "Iron" : MaterialSystem.getMaterialBuilder().setName("Iron").setColor(Color.fromHex("ffffff")).build(),
     "Bauxite" : MaterialSystem.getMaterialBuilder().setName("Bauxite").setColor(Color.fromHex("ffffff")).build(),
@@ -244,7 +243,6 @@ static materials as Material[string] = {
 static parts as string[][string] = {
     //Metals
     "Steel" : ["scaffoldingpanel"],
-    "High Carbon Steel" : ["ingot", "plate", "nugget", "dust", "rod", "gear", "wire", "sheet", "scaffoldingpanel", "mechanicalcomponent", "block"],
     "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "gear", "wire", "sheet", "scaffoldingpanel", "mechanicalcomponent", "block"],
     "Tungstensteel" : ["ingot", "plate", "nugget", "dust", "rod", "scaffoldingpanel", "smallpipe", "block"],
     "Titanium" : ["scaffoldingpanel", "smallpipe", "compressorblade", "compressor", "frame"],
@@ -260,9 +258,9 @@ static parts as string[][string] = {
     "Platinum" : ["ingot", "plate", "nugget", "dust", "rod", "sheet", "wire"],
     "Mixed Platinum Group Metal" : ["ingot", "plate", "nugget", "dust", "rod", "sheet", "wire"],
     "Tungsten" : ["ingot", "plate", "nugget", "dust", "rod", "wire", "block", "washedoredust"],
-    "Depleted Uranium" : ["ingot", "plate", "nugget", "dust", "rod"],
-    "Lightly Enriched Uranium" : ["ingot", "plate", "nugget", "dust", "rod", "fuelpellet"],
-    "Highly Enriched Uranium" : ["ingot", "plate", "nugget", "dust", "rod", "fuelpellet"],
+    "Depleted Uranium Dioxide" : ["ingot", "plate", "nugget", "dust", "rod"],
+    "Lightly Enriched Uranium Dioxide" : ["ingot", "plate", "nugget", "dust", "rod", "fuelpellet"],
+    "Highly Enriched Uranium Dioxide" : ["ingot", "plate", "nugget", "dust", "rod", "fuelpellet"],
     //Metals, ore dust only
     "Iron" : ["washedoredust"],
     "Bauxite" : ["washedoredust"],

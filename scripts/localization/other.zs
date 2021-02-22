@@ -1,6 +1,5 @@
 //Import
 import crafttweaker.formatting.IFormattedText;
-import scripts.localization.functions.localize_material;
 
 
 
@@ -101,8 +100,7 @@ game.setLocalization("item.dirtySilverDust.name", "Silver Ore Dust");
 game.setLocalization("item.dirtyLeadDust.name", "Lead Ore Dust");
 
 //Induction Tablet
-<contenttweaker:induction_tablet>.addShiftTooltip("A Lithium-Ion battery cell designed for long life, large storage, and a slim profile. Many of these can be slotted into a casing, along with a circuit to control them, to make an induction cell. Note that by being designed for an Induction Matrix, they are theyfore not able to hold a charge outside of one.", "Hold" ~ format.darkBlue(" LSHIFT ") ~ format.gray("for details."));
-game.setLocalization("item.contenttweaker.induction_tablet.name", "Induction Tablet");
+<ore:inductionTabletItem>.firstItem.addShiftTooltip("A Lithium-Ion battery cell designed for long life, large storage, and a slim profile. Many of these can be slotted into a casing, along with a circuit to control them, to make an induction cell. Note that by being designed for an Induction Matrix, they are theyfore not able to hold a charge outside of one.", "Hold" ~ format.darkBlue(" LSHIFT ") ~ format.gray("for details."));
 
 //AF to "HVDC"
 //Blocks

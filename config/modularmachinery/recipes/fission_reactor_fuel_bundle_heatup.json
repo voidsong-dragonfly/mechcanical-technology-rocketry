@@ -7,7 +7,7 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:fresh_fuel_bundle",
+            "item": "contenttweaker:material_part@195",
             "amount": 9,
             "chance": 0.0
         },

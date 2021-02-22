@@ -1,6 +1,5 @@
 //Import
 import crafttweaker.formatting.IFormattedText;
-import scripts.localization.functions.localize_material;
 
 
 

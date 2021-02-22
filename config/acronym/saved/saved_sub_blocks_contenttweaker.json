@@ -1,9 +1,9 @@
 {
   "savedSubBlockNames": {
     "0": {
-      "0": "ore_cryoliteore",
-      "1": "maraging_steel_block",
-      "2": "high_carbon_steel_block",
+      "0": "ore_zirconiumore",
+      "1": "ore_cryoliteore",
+      "2": "maraging_steel_block",
       "3": "tungstensteel_block",
       "4": "tungsten_block",
       "5": "titanium_frame",
@@ -25,8 +25,7 @@
       "3": "ore_cinnabarore",
       "4": "ore_platinumore",
       "5": "ore_tungstenore",
-      "6": "ore_niobiumore",
-      "7": "ore_zirconiumore"
+      "6": "ore_niobiumore"
     }
   }
 }

@@ -112,7 +112,7 @@ recipes.remove(<mekanism:basicblock:13>);
 recipes.remove(<mekanism:nugget:6>);
 recipes.addShapeless(<libvulpes:productplate:5>, [<immersiveengineering:tool:0>, <ore:ingotTin>]);
 MetalPress.removeRecipe(<forestry:gear_tin>);
-MetalPress.addRecipe(<contenttweaker:tin_solder> * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
+MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 
 //Osmium
 Crusher.removeRecipesForInput(<mekanism:oreblock:0>);
@@ -172,8 +172,6 @@ recipes.removeByRecipeName("advancedrocketry:stickiridium");
 Crusher.addRecipe(<mekores:mekanismore:108> * 2, <ore:oreTungsten>, 4000, <mekanism:dirtydust>, 0.15);
 
 //Steel
-Crusher.removeRecipesForInput(<contenttweaker:material_part:5>);
-Crusher.addRecipe(<immersiveengineering:metal:17>, <immersiveengineering:metal:8>, 1600);
 furnace.remove(<mekanism:ingot:4>);
 furnace.remove(<libvulpes:productingot:6>);
 recipes.remove(<mekanism:basicblock:5>);
@@ -183,27 +181,8 @@ recipes.remove(<libvulpes:productnugget:6>);
 recipes.remove(<libvulpes:productrod:6>);
 recipes.remove(<mekanism:ingot:4>);
 recipes.remove(<libvulpes:productingot:6>);
-recipes.replaceAllOccurences(<ore:ingotSteel>, <immersiveengineering:metal:8>, <ore:stickSteel>);
-recipes.replaceAllOccurences(<ore:ingotSteel>, <immersiveengineering:metal:8>, <ore:plateSteel>);
-recipes.replaceAllOccurences(<ore:plateSteel>, <immersiveengineering:metal:38>, <immersiveengineering:material:9>);
-recipes.replaceAllOccurences(<ore:plateSteel>, <immersiveengineering:metal:38>, <immersiveengineering:material:23>);
 recipes.remove(<libvulpes:productgear:6>);
-recipes.addShaped(<libvulpes:productgear:6>,
- [[<immersiveengineering:material:2>, <immersiveengineering:metal:38>, <immersiveengineering:material:2>],
- [null, <immersiveengineering:metal:8>, null],
- [<immersiveengineering:material:2>, <immersiveengineering:metal:38>, <immersiveengineering:material:2>]]);
-MetalPress.removeRecipe(<immersiveengineering:metal:38>);
-MetalPress.removeRecipe(<immersiveengineering:material:23>);
-MetalPress.removeRecipe(<libvulpes:productgear:6>);
-MetalPress.addRecipe(<immersiveengineering:metal:38>, <immersiveengineering:metal:8>, <immersiveengineering:mold>, 3600);
-MetalPress.addRecipe(<libvulpes:productsheet:6>, <immersiveengineering:metal:38>, <immersiveengineering:mold>, 3600);
-MetalPress.addRecipe(<immersiveengineering:material:23> * 2, <immersiveengineering:metal:8>, <immersiveengineering:mold:4>, 3600);
-
-//High Carbon Steel
-MetalPress.addRecipe(<contenttweaker:material_part:84>, <ore:plateHighCarbonSteel>, <immersiveengineering:mold:0>, 3600);
-
-//Maraging Steel
-MetalPress.addRecipe(<contenttweaker:material_part:89>, <ore:plateMaragingSteel>, <immersiveengineering:mold:0>, 3600);
+MetalPress.addRecipe(<libvulpes:productsheet:6>, <ore:plateSteel>, <immersiveengineering:mold>, 3600);
 
 //Titanium Aluminide and Titanium Iridium
 furnace.remove(<ore:ingotTitaniumAluminide>);
@@ -213,26 +192,15 @@ recipes.removeByRecipeName("advancedrocketry:sticktitaniumiridium");
 MetalPress.removeRecipe(<advancedrocketry:productgear:0>);
 MetalPress.removeRecipe(<advancedrocketry:productgear:1>);
 
-//Platinum Group Metal
-furnace.addRecipe(<contenttweaker:platinum_group_metal_ingot>, <ore:dustMixedPlatinumGroupMetal>);
-recipes.addShapeless(<contenttweaker:platinum_group_metal_ingot>, [<ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>, <ore:nuggetMixedPlatinumGroupMetal>]);
-recipes.addShapeless(<contenttweaker:platinum_group_metal_nugget> * 9, [<ore:ingotMixedPlatinumGroupMetal>]);
-recipes.addShapeless(<contenttweaker:platinum_group_metal_plate>, [<immersiveengineering:tool:0>, <ore:ingotMixedPlatinumGroupMetal>]);
-recipes.addShapeless(<contenttweaker:platinum_group_metal_wire>, [<immersiveengineering:tool:1>, <ore:plateMixedPlatinumGroupMetal>]);
-MetalPress.addRecipe(<contenttweaker:platinum_group_metal_plate>, <ore:ingotMixedPlatinumGroupMetal>, <immersiveengineering:mold:0>, 3600);
-MetalPress.addRecipe(<contenttweaker:platinum_group_metal_sheet>, <ore:plateMixedPlatinumGroupMetal>, <immersiveengineering:mold:0>, 3600);
-MetalPress.addRecipe(<contenttweaker:platinum_group_metal_wire> * 2, <ore:ingotMixedPlatinumGroupMetal>, <immersiveengineering:mold:4>, 3600);
-
 //Platinum
-Crusher.removeRecipesForInput(<contenttweaker:platinum_ore>);
+Crusher.removeRecipesForInput(<ore:orePlatinum>.firstItem);
 Crusher.addRecipe(<mekores:mekanismore:18> * 2, <ore:orePlatinum>, 4000, <mekores:mekanismore:13>, 0.1);
-MetalPress.addRecipe(<contenttweaker:material_part:124>, <ore:platePlatinum>, <immersiveengineering:mold:0>, 3600);
 
 //Niobium
-Crusher.addRecipe(<contenttweaker:pyrochlore_ore_dust> * 2, <ore:oreNiobium>, 4000, <mekores:mekanismore:78>, 0.1);
+Crusher.addRecipe(<ore:dustDirtyNiobium>.firstItem * 2, <ore:oreNiobium>, 4000, <mekores:mekanismore:78>, 0.1);
 
 //Zirconium
-Crusher.addRecipe(<contenttweaker:zircon_ore_dust> * 2, <ore:oreZirconium>, 4000, <contenttweaker:rutile_dust>, 0.05);
+Crusher.addRecipe(<ore:dustDirtyZirconium>.firstItem * 2, <ore:oreZirconium>, 4000, <ore:dustRutile>.firstItem, 0.05);
 
 //Misc. dusts
 oxidizer.removeRecipe(<gas:sulfurdioxide> * 100, <mekanism:otherdust:3>);

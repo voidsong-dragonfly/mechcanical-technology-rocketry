@@ -34,92 +34,92 @@
 <Recipes useDefault="false">
 	<Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:gallium_doped_silicon_wafer</itemStack>
+			<oreDict>waferGalliumDopedSilicon</oreDict>
 			<oreDict>lensGlass</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:integrated_circuit_wafer</itemStack>
+			<oreDict>waferIntegratedCircuit</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:gallium_doped_silicon_wafer</itemStack>
+			<oreDict>waferGalliumDopedSilicon</oreDict>
 			<oreDict>lensLapis</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:cpu_wafer</itemStack>
+			<oreDict>waferCentralProcessingUnit</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:gallium_doped_silicon_wafer</itemStack>
+			<oreDict>waferGalliumDopedSilicon</oreDict>
 			<oreDict>lensEmerald</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:nand_memory_wafer</itemStack>
+			<oreDict>waferNANDMemory</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:gallium_doped_silicon_wafer</itemStack>
+			<oreDict>waferGalliumDopedSilicon</oreDict>
 			<oreDict>lensDiamond</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:ram_wafer</itemStack>
+			<oreDict>waferRandomAccessMemory</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:lithium_doped_silicon_wafer</itemStack>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
 			<oreDict>lensGlass</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:integrated_circuit_wafer</itemStack>
+			<oreDict>waferIntegratedCircuit</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:lithium_doped_silicon_wafer</itemStack>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
 			<oreDict>lensLapis</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:cpu_wafer</itemStack>
+			<oreDict>waferCentralProcessingUnit</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:lithium_doped_silicon_wafer</itemStack>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
 			<oreDict>lensEmerald</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:nand_memory_wafer</itemStack>
+			<oreDict>waferNANDMemory</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power ="1920">
 		<input>
-			<itemStack>contenttweaker:lithium_doped_silicon_wafer</itemStack>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
 			<oreDict>lensDiamond</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:ram_wafer</itemStack>
+			<oreDict>waferRandomAccessMemory</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1800" power ="3840">
 		<input>
-			<itemStack>contenttweaker:lithium_doped_silicon_wafer</itemStack>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
 			<oreDict>lensEnderPearl</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:soc_wafer</itemStack>
+			<oreDict>waferSystemOnChip</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power ="7680">
 		<input>
-			<itemStack>contenttweaker:raw_processor_crystal</itemStack>
+			<oreDict>processorCrystalRaw</oreDict>
 			<oreDict>lensRuby</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:engraved_processor_crystal</itemStack>
+			<oreDict>processorCrystalEngraved</oreDict>
 		</output>
 	</Recipe>
 </Recipes>

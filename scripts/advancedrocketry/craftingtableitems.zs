@@ -11,28 +11,28 @@ recipes.remove(<advancedrocketry:asteroidchip>);
 recipes.remove(<advancedrocketry:spacestationchip>);
 recipes.remove(<advancedrocketry:planetidchip>);
 recipes.addShaped(<advancedrocketry:satelliteidchip>,
- [[<mekanism:configurator:*>, <contenttweaker:tin_solder>, null],
+ [[<mekanism:configurator:*>, <ore:solderItem>, null],
  [null, <advancedrocketry:ic:1>, null],
  [null, null, null]]);
 recipes.addShaped(<advancedrocketry:asteroidchip>,
- [[<mekanism:configurator:*>, null, <contenttweaker:tin_solder>],
+ [[<mekanism:configurator:*>, null, <ore:solderItem>],
  [null, <advancedrocketry:ic:1>, null],
  [null, null, null]]);
 recipes.addShaped(<advancedrocketry:elevatorchip>,
  [[<mekanism:configurator:*>, null, null],
- [null, <advancedrocketry:ic:1>, <contenttweaker:tin_solder>],
+ [null, <advancedrocketry:ic:1>, <ore:solderItem>],
  [null, null, null]]);
 recipes.addShaped(<advancedrocketry:spacestationchip>,
  [[<mekanism:configurator:*>, null, null],
  [null, <advancedrocketry:ic:1>, null],
- [null, null, <contenttweaker:tin_solder>]]);
+ [null, null, <ore:solderItem>]]);
 recipes.addShaped(<advancedrocketry:planetidchip>,
  [[<mekanism:configurator:*>, null, null],
  [null, <advancedrocketry:ic:1>, null],
- [null, <contenttweaker:tin_solder>, null]]);
+ [null, <ore:solderItem>, null]]);
 
 //Add full data chip to GPS unit craft. 250 data per elite circuit, 500 per ultimate
-recipes.addShapeless(<contenttweaker:gps_unit> * 4, [<advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 1, Data: 1000}).transformReplace(<advancedrocketry:dataunit>)]);
+recipes.addShapeless(<ore:gpsUnitItem>.firstItem * 4, [<advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 1, Data: 1000}).transformReplace(<advancedrocketry:dataunit>)]);
  
 //Suit upgrade recipes
 recipes.addShapeless(<advancedrocketry:beaconfinder>, [<advancedrocketry:itemupgrade:4>, <advancedrocketry:ic:1>]);

@@ -45,19 +45,15 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:soulsand>.add(<minecraft:soul_sand>);
 
 //Add oredictionary to ContentTweaker petroleum items
-<ore:fuelPetroleumCoke>.add(<contenttweaker:petroleum_coke>);
-<ore:dustCoke>.add(<contenttweaker:petroleum_coke_dust>);
-<ore:dustPetroleumCoke>.add(<contenttweaker:petroleum_coke_dust>);
+<ore:dustCoke>.addAll(<ore:dustPetroleumCoke>);
 
 //Combined steel oredictionary
 <ore:blockUhcsteel>.add(<immersiveengineering:storage:8>);
-<ore:blockHcsteel>.add(<contenttweaker:sub_block_holder_0:3>);
-<ore:blockMaragingsteel>.add(<contenttweaker:sub_block_holder_0:1>);
-<ore:mechanicalComponentSteel>.add(<contenttweaker:material_part:87>);
-<ore:mechanicalComponentSteel>.add(<contenttweaker:material_part:92>);
+<ore:blockMaragingsteel>.addAll(<ore:blockMaragingSteel>);
 <ore:mechanicalComponentSteel>.add(<immersiveengineering:material:9>);
 <ore:mechanicalComponentAny>.add(<immersiveengineering:material:8>);
 <ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentSteel>);
+<ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentMaragingSteel>);
 
 //Platinum Group Metal Oredictionary
 <ore:ingotPGMAny>.addAll(<ore:ingotPlatinum>);
@@ -68,16 +64,16 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:wirePGMAny>.addAll(<ore:wireMixedPlatinumGroupMetal>);
 
 //Ore oredictionary
-<ore:orePlatinum>.add(<contenttweaker:platinum_ore>);
-<ore:oreZirconium>.add(<contenttweaker:zircon_ore>);
-<ore:oreNiobium>.add(<contenttweaker:pyrochlore_ore>);
-<ore:oreCryolite>.add(<contenttweaker:cryolite>);
-<ore:oreGold>.add(<contenttweaker:nether_gold_ore>);
-<ore:oreNetherGold>.add(<contenttweaker:nether_gold_ore>);
-<ore:oreCinnabar>.add(<contenttweaker:cinnabar_ore>);
-<ore:oreNetherCinnabar>.add(<contenttweaker:nether_cinnabar_ore>);
-<ore:oreFluorite>.add(<contenttweaker:fluorite_ore>);
-<ore:oreTungsten>.add(<contenttweaker:tungsten_ore>);
+<ore:orePlatinum>.add(<contenttweaker:sub_block_holder_1:4>);
+<ore:oreZirconium>.add(<contenttweaker:sub_block_holder_0:0>);
+<ore:oreNiobium>.add(<contenttweaker:sub_block_holder_1:6>);
+<ore:oreCryolite>.add(<contenttweaker:sub_block_holder_0:1>);
+<ore:oreGold>.add(<contenttweaker:sub_block_holder_1:1>);
+<ore:oreNetherGold>.add(<contenttweaker:sub_block_holder_1:1>);
+<ore:oreCinnabar>.add(<contenttweaker:sub_block_holder_1:3>);
+<ore:oreNetherCinnabar>.add(<contenttweaker:sub_block_holder_1:2>);
+<ore:oreFluorite>.add(<contenttweaker:sub_block_holder_1>);
+<ore:oreTungsten>.add(<contenttweaker:sub_block_holder_1:5>);
 
 //Lens oredictionary
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensGlass>);
@@ -170,8 +166,6 @@ hide(<libvulpes:productingot:3>);
 <ore:dustSalt>.remove(<mekanism:salt>);
 <ore:itemSalt>.remove(<mekanism:salt>);
 <ore:foodSalt>.remove(<mekanism:salt>);
-<ore:dustStone>.add(<contenttweaker:stone_dust>);
-<ore:dustRutile>.add(<contenttweaker:rutile_dust>);
 <ore:dustAnyCarbon>.addAll(<ore:dustCoke>);
 <ore:dustAnyCarbon>.addAll(<ore:dustCharcoal>);
 hide(<mekanism:dust:0>);
@@ -192,21 +186,6 @@ hide(<mekanism:salt>);
 //Gems
 <ore:gemApatite>.remove(<forestry:apatite>);
 hide(<forestry:apatite>);
-
-//Ore Dusts
-<ore:dustDirtyIron>.add(<contenttweaker:washed_iron_ore_dust>);
-<ore:dustDirtyCopper>.add(<contenttweaker:washed_copper_ore_dust>);
-<ore:dustDirtyTin>.add(<contenttweaker:washed_tin_ore_dust>);
-<ore:dustDirtyLead>.add(<contenttweaker:washed_lead_ore_dust>);
-<ore:dustDirtyNickel>.add(<contenttweaker:washed_nickel_ore_dust>);
-<ore:dustDirtyTungsten>.add(<contenttweaker:washed_tungsten_ore_dust>);
-<ore:dustDirtyAluminum>.add(<contenttweaker:washed_bauxite_ore_dust>);
-<ore:dustDirtyUranium>.add(<contenttweaker:washed_uranium_ore_dust>);
-<ore:dustDirtyTitanium>.add(<contenttweaker:washed_ilmenite_ore_dust>);
-<ore:dustDirtyNiobium>.add(<contenttweaker:pyrochlore_ore_dust>);
-<ore:dustDirtyNiobium>.add(<contenttweaker:washed_pyrochlore_ore_dust>);
-<ore:dustDirtyZirconium>.add(<contenttweaker:zircon_ore_dust>);
-<ore:dustDirtyZirconium>.add(<contenttweaker:washed_zircon_ore_dust>);
 
 //Blocks
 <ore:blockSteel>.remove(<mekanism:basicblock:5>);

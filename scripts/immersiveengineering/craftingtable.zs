@@ -115,7 +115,7 @@ recipes.addShaped(<immersiveengineering:metal_device0:2>,
  [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<libvulpes:battery:0>, 
  [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
- [<ore:dustRedstone>, <contenttweaker:small_battery_hull>, <ore:dustRedstone>],
+ [<ore:dustRedstone>, <ore:smallBatteryHullItem>, <ore:dustRedstone>],
  [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
 
 //Change engineer's hammer recipe
@@ -161,10 +161,10 @@ recipes.replaceAllOccurences(<minecraft:iron_sword>, <tetra:sword_modular>.withT
 //Redo railgun crafting to use supercapacitors and to be closer to 1.16 IE
 recipes.remove(<immersiveengineering:railgun>);
 recipes.addShaped(<immersiveengineering:railgun>,
- [[null, <contenttweaker:supercapacitor>, <immersiveengineering:material:13>],
+ [[null, <ore:supercapacitorItem>, <immersiveengineering:material:13>],
  [<ore:ingotSteel>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:material:27>],
  [<immersiveengineering:metal_decoration0:1>, <ore:ingotSteel>, null]]);
-recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <contenttweaker:supercapacitor>, <immersiveengineering:toolupgrade:9>);
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <ore:supercapacitorItem>, <immersiveengineering:toolupgrade:9>);
  
 //Add a diamond-tungsten-steel drill head
 recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -22000}),
@@ -174,15 +174,15 @@ recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -22000})
  
 //Add Barrel recipes from barrel shells
 recipes.addShaped(<immersivetech:metal_barrel:1>,
- [[<contenttweaker:metal_barrel_shell>],
+ [[<ore:machineCasingMetalBarrelShell>],
  [<ore:plateIron>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:4>,
  [[<ore:plateIron>],
- [<contenttweaker:metal_barrel_shell>],
+ [<ore:machineCasingMetalBarrelShell>],
  [<ore:plateIron>]]);
 recipes.addShaped(<immersivetech:metal_barrel:2>,
  [[<ore:plateSteel>],
- [<contenttweaker:steel_barrel_shell>],
+ [<ore:machineCasingSteelBarrelShell>],
  [<ore:plateSteel>]]);
 
 //Scaffolding recipes
@@ -191,14 +191,14 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:1>,
  [<ore:scaffoldingPanelSteel>, null, <ore:scaffoldingPanelSteel>],
  [<ore:scaffoldingPanelSteel>, <ore:scaffoldingPanelSteel>, null]]);
 recipes.addShaped(<immersiveengineering:metal_decoration1:5>,
- [[null, <ore:scaffoldingPanelAluminum>, <ore:scaffoldingPanelAluminum>],
- [<ore:scaffoldingPanelAluminum>, null, <ore:scaffoldingPanelAluminum>],
- [<ore:scaffoldingPanelAluminum>, <ore:scaffoldingPanelAluminum>, null]]);
-recipes.addShaped(<contenttweaker:zirconium_niobium_frame>,
+ [[null, <ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>],
+ [<ore:scaffoldingPanelAluminium>, null, <ore:scaffoldingPanelAluminium>],
+ [<ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>, null]]);
+recipes.addShaped(<ore:frameZirconiumNiobiumAlloy>.firstItem,
  [[null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
  [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
  [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, null]]);
-recipes.addShaped(<contenttweaker:titanium_frame>,
+recipes.addShaped(<ore:frameTitanium>.firstItem,
  [[null, <ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>],
  [<ore:scaffoldingPanelTitanium>, null, <ore:scaffoldingPanelTitanium>],
  [<ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>, null]]);
@@ -239,7 +239,7 @@ recipes.remove(<immersiveengineering:pickaxe_steel>);
 recipes.remove(<immersiveengineering:axe_steel>);
 
 //Charcoal precursor
-recipes.addShapeless(<contenttweaker:charcoal_precursor>, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <immersivepetroleum:material>]);
+recipes.addShapeless(<ore:sludgeCharcoalPrecursor>.firstItem, [<ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <ore:dustWood>, <immersivepetroleum:material>]);
 
 
 

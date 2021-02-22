@@ -39,7 +39,7 @@
             <fluidStack>helium;16000</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:raw_processor_crystal;16</itemStack>
+			<oreDict>processorCrystalRaw;16</oreDict>
             <fluidStack>helium;15800</fluidStack>
 		</output>
 	</Recipe>
@@ -50,7 +50,7 @@
             <fluidStack>argon;4000</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+			<oreDict>bouleGalliumDopedSilicon</oreDict>
             <fluidStack>argon;3900</fluidStack>
 		</output>
 	</Recipe>
@@ -61,7 +61,7 @@
             <fluidStack>argon;4000</fluidStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+			<oreDict>bouleLithiumDopedSilicon</oreDict>
             <fluidStack>argon;3900</fluidStack>
 		</output>
     </Recipe>

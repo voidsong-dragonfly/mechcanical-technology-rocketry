@@ -226,63 +226,65 @@
 			<oreDict>slabTreatedWood</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:treated_wood_circuit_board;4</itemStack>
+			<oreDict>circuitBoardTreatedWood;4</oreDict>
+		</output>
+	</Recipe>
+    
+    <Recipe timeRequired="1200" power="192">
+		<input>
+			<oreDict>bouleGalliumDopedSilicon</oreDict>
+        </input>
+		<output>
+			<oreDict>waferGalliumDopedSilicon;16</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power="192">
 		<input>
-			<itemStack>contenttweaker:gallium_doped_silicon_boule</itemStack>
+			<oreDict>bouleLithiumDopedSilicon</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:gallium_doped_silicon_wafer;16</itemStack>
+			<oreDict>waferLithiumDopedSilicon;16</oreDict>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="1200" power="192">
+    
+    <Recipe timeRequired="300" power="192">
 		<input>
-			<itemStack>contenttweaker:lithium_doped_silicon_boule</itemStack>
+			<oreDict>waferIntegratedCircuit</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:lithium_doped_silicon_wafer;16</itemStack>
+			<oreDict>circuitPlateIntegratedCircuit;8</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="300" power="192">
 		<input>
-			<itemStack>contenttweaker:integrated_circuit_wafer</itemStack>
+			<oreDict>waferCentralProcessingUnit</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:integrated_circuit_plate;8</itemStack>
+			<oreDict>circuitPlateCentralProcessingUnit;8</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="300" power="192">
 		<input>
-			<itemStack>contenttweaker:cpu_wafer</itemStack>
+			<oreDict>waferNANDMemory</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:cpu_plate;8</itemStack>
+			<oreDict>circuitPlateNANDMemory;8</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="300" power="192">
 		<input>
-			<itemStack>contenttweaker:nand_memory_wafer</itemStack>
+			<oreDict>waferRandomAccessMemory</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:nand_memory_plate;8</itemStack>
+			<oreDict>circuitPlateRandomAccessMemory;16</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="300" power="192">
 		<input>
-			<itemStack>contenttweaker:ram_wafer</itemStack>
+			<oreDict>waferSystemOnChip</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:ram_plate;16</itemStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="300" power="192">
-		<input>
-			<itemStack>contenttweaker:soc_wafer</itemStack>
-        </input>
-		<output>
-			<itemStack>contenttweaker:soc_plate;4</itemStack>
+			<oreDict>circuitPlateSystemOnChip;4</oreDict>
 		</output>
 	</Recipe>
     
@@ -291,7 +293,7 @@
 			<oreDict>blockGlass</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:glass_plate;9</itemStack>
+			<oreDict>plateGlass;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -299,7 +301,7 @@
 			<oreDict>blockLapis</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:lapis_plate;9</itemStack>
+			<oreDict>plateLapis;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -307,7 +309,7 @@
 			<oreDict>blockEmerald</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:emerald_plate;9</itemStack>
+			<oreDict>plateEmerald;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -315,7 +317,7 @@
 			<oreDict>crystalLargeEmerald</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:emerald_plate;9</itemStack>
+			<oreDict>plateEmerald;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -323,7 +325,7 @@
             <itemStack>charm:ender_pearl_block</itemStack>
         </input>
 		<output>
-			<itemStack>contenttweaker:ender_pearl_plate;9</itemStack>
+			<oreDict>plateEnderPearl;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -331,7 +333,7 @@
 			<oreDict>blockRuby</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:ruby_plate;9</itemStack>
+			<oreDict>plateRuby;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -339,7 +341,7 @@
 			<oreDict>crystalLargeRuby</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:ruby_plate;9</itemStack>
+			<oreDict>plateRuby;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">
@@ -347,7 +349,7 @@
 			<oreDict>blockDiamond</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:diamond_plate;9</itemStack>
+			<oreDict>plateDiamond;9</oreDict>
 		</output>
 	</Recipe>
 </Recipes>

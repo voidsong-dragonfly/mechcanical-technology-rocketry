@@ -10,8 +10,7 @@ import mods.mekanism.chemical.washer;
 
 
 //Add some use to the chemical injection chamber
-injection.addRecipe(<contenttweaker:stone_dust>, <gas:water> * 125, <minecraft:clay_ball>);
-injection.addRecipe(<contenttweaker:stone_dust> * 4, <gas:water> * 500, <minecraft:clay>);
+injection.addRecipe(<ore:dustStone>.firstItem, <gas:water> * 125, <minecraft:clay_ball>);
 injection.addRecipe(<inspirations:materials:6> * 3, <gas:hydrogenchloride> * 250, <immersiveengineering:metal:12>);
 injection.addRecipe(<ore:rodBlaze>, <gas:hydrogenchloride> * 125, <minecraft:blaze_powder> * 6);
 injection.addRecipe(<ore:gemPrismarine>, <gas:hydrogenchloride> * 125, <minecraft:prismarine_crystals> * 2);
@@ -26,13 +25,13 @@ injection.addRecipe(<ore:gemPrismarine>, <gas:endacid> * 125, <minecraft:prismar
 
 //Refined Obsidian and Glowstone processing
 compressor.removeRecipe(<mekanism:ingot:3>);
-dissolution.addRecipe(<contenttweaker:impure_refined_obsidian_dust>, <gas:impurerefinedobsidian> * 100);
+dissolution.addRecipe(<ore:dustImpureRefinedObsidian>, <gas:impurerefinedobsidian> * 100);
 washer.addRecipe(<gas:impurerefinedobsidian>, <gas:refinedobsidian>);
 crystallizer.addRecipe(<gas:refinedobsidian> * 100, <mekanism:otherdust:5>);
-dissolution.addRecipe(<contenttweaker:impure_refined_glowstone_dust>, <gas:impurerefinedglowstone> * 100);
+dissolution.addRecipe(<ore:dustImpureRefinedGlowstone>, <gas:impurerefinedglowstone> * 100);
 washer.addRecipe(<gas:impurerefinedglowstone>, <gas:refinedglowstone>);
-crystallizer.addRecipe(<gas:refinedglowstone> * 100, <contenttweaker:refined_glowstone_dust>);
-compressor.addRecipe(<contenttweaker:refined_glowstone_dust>, <gas:liquidosmium> * 200, <mekanism:ingot:3>);
+crystallizer.addRecipe(<gas:refinedglowstone> * 100, <ore:dustRefinedGlowstone>.firstItem);
+compressor.addRecipe(<ore:dustRefinedGlowstone>, <gas:liquidosmium> * 200, <mekanism:ingot:3>);
 
 //Lithium in the crystalliser
 crystallizer.addRecipe(<gas:lithium> * 100, <mekanism:otherdust:4>);

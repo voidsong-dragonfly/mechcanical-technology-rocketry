@@ -34,14 +34,14 @@ recipes.remove(<mekanism:basicblock2:1>);
 recipes.remove(<mekanism:basicblock2:2>);
 recipes.addShaped(<mekanism:basicblock:9> * 4,
  [[<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <contenttweaker:plascrete>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <ore:machineCasingPlasticCoatedRebarConcrete>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>]]);
 recipes.addShaped(<mekanism:basicblock:11>,
  [[<engineersdecor:straight_pipe_valve>, <mekanism:basicblock:9>, <engineersdecor:straight_pipe_valve>],
  [null, <ore:circuitBasic>, null]]);
 recipes.addShaped(<mekanism:basicblock2:0> * 4,
  [[<ore:sheetCopper>, <ore:sheetCopper>, <ore:sheetCopper>],
- [<ore:sheetCopper>, <contenttweaker:plascrete>, <ore:sheetCopper>],
+ [<ore:sheetCopper>, <ore:machineCasingPlasticCoatedRebarConcrete>, <ore:sheetCopper>],
  [<ore:sheetCopper>, <ore:sheetCopper>, <ore:sheetCopper>]]);
 recipes.addShaped(<mekanism:basicblock:15>,
  [[<engineersdecor:straight_pipe_valve>, <mekanism:basicblock2:0>, <engineersdecor:straight_pipe_valve>],
@@ -52,7 +52,7 @@ recipes.addShaped(<mekanism:basicblock:14>,
  [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
 recipes.addShaped(<mekanism:basicblock2:1> * 4,
  [[<ore:sheetAluminum>, <mekanism:polyethene:2>, <ore:sheetAluminum>],
- [<mekanism:polyethene:2>, <contenttweaker:plascrete>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:machineCasingPlasticCoatedRebarConcrete>, <mekanism:polyethene:2>],
  [<ore:sheetAluminum>, <mekanism:polyethene:2>, <ore:sheetAluminum>]]);
 recipes.addShaped(<mekanism:basicblock2:2>,
  [[<immersiveengineering:wirecoil:2>, <mekanism:basicblock2:1>, <immersiveengineering:wirecoil:2>],
@@ -126,7 +126,7 @@ recipes.addShaped(<mekanism:machineblock2:9>,
  [<ore:ingotSteel>, <engineersdecor:thin_steel_pole>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<mekanism:energytablet>, <mekanism:basicblock:8>, <contenttweaker:ruby_lens>],
+ [<mekanism:energytablet>, <mekanism:basicblock:8>, <ore:lensRuby>],
  [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
 recipes.addShaped(<mekanism:machineblock2:14>,
  [[<ore:ingotTungsten>, <ore:lensGlass>, <ore:ingotTungsten>],
@@ -273,21 +273,21 @@ recipes.addShaped(<mekanism:robit>,
 recipes.remove(<mekanism:basicblock2:3>);
 recipes.remove(<mekanism:basicblock2:4>);
 recipes.addShaped(<mekanism:basicblock2:3>.withTag({tier: 0}),
- [[<contenttweaker:induction_tablet>, <ore:circuitBasic>, <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <mekanism:basicblock:8>, <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <ore:circuitBasic>, <contenttweaker:induction_tablet>]]);
+ [[<ore:inductionTabletItem>, <ore:circuitBasic>, <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <mekanism:basicblock:8>, <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <ore:circuitBasic>, <ore:inductionTabletItem>]]);
 recipes.addShaped(<mekanism:basicblock2:3>.withTag({tier: 1}),
- [[<contenttweaker:induction_tablet>, <ore:circuitAdvanced>, <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <mekanism:basicblock2:3>.withTag({tier: 0}), <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <ore:circuitAdvanced>, <contenttweaker:induction_tablet>]]);
+ [[<ore:inductionTabletItem>, <ore:circuitAdvanced>, <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <mekanism:basicblock2:3>.withTag({tier: 0}), <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <ore:circuitAdvanced>, <ore:inductionTabletItem>]]);
 recipes.addShaped(<mekanism:basicblock2:3>.withTag({tier: 2}),
- [[<contenttweaker:induction_tablet>, <ore:circuitElite>, <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <mekanism:basicblock2:3>.withTag({tier: 1}), <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <ore:circuitElite>, <contenttweaker:induction_tablet>]]);
+ [[<ore:inductionTabletItem>, <ore:circuitElite>, <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <mekanism:basicblock2:3>.withTag({tier: 1}), <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <ore:circuitElite>, <ore:inductionTabletItem>]]);
 recipes.addShaped(<mekanism:basicblock2:3>.withTag({tier: 3}),
- [[<contenttweaker:induction_tablet>, <ore:circuitUltimate>, <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <mekanism:basicblock2:3>.withTag({tier: 2}), <contenttweaker:induction_tablet>],
- [<contenttweaker:induction_tablet>, <ore:circuitUltimate>, <contenttweaker:induction_tablet>]]);
+ [[<ore:inductionTabletItem>, <ore:circuitUltimate>, <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <mekanism:basicblock2:3>.withTag({tier: 2}), <ore:inductionTabletItem>],
+ [<ore:inductionTabletItem>, <ore:circuitUltimate>, <ore:inductionTabletItem>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 0}),
  [[<ore:circuitBasic>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitBasic>],
  [<forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <mekanism:basicblock:8>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000})],

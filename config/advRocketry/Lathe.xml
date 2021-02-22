@@ -31,13 +31,13 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
+<Recipes useDefault="false">
 	<Recipe timeRequired="150" power ="160">
 		<input>
-			<oreDict>ingotHighCarbonSteel</oreDict>
+			<oreDict>ingotZirconiumNiobiumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:high_carbon_steel_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;50</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -50,10 +50,26 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
+			<oreDict>ingotDepletedUraniumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;51</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
 			<oreDict>ingotIron</oreDict>
 		</input>
 		<output>
 			<itemStack>immersiveengineering:material;2;1</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotNiobium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;52</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -66,10 +82,26 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
+			<oreDict>ingotLightlyEnrichedUraniumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;49</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
 			<oreDict>ingotPlatinum</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:platinum_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;55</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotNiobiumTitaniumAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;46</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -77,15 +109,7 @@
 			<oreDict>ingotTungsten</oreDict>
 		</input>
 		<output>
-			<itemStack>immersive_energy:material;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotSilverIndium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:silver_indium_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;48</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -106,14 +130,6 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
-			<oreDict>ingotNiobiumTitanium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:niobium_titanium_stick;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
 			<oreDict>ingotCopper</oreDict>
 		</input>
 		<output>
@@ -122,10 +138,26 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
+			<oreDict>ingotSilverIndiumAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;56</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
 			<oreDict>ingotGold</oreDict>
 		</input>
 		<output>
 			<itemStack>immersiveposts:metal_rods;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotHighlyEnrichedUraniumDioxide</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;54</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -141,7 +173,7 @@
 			<oreDict>ingotMixedPlatinumGroupMetal</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:platinum_group_metal_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;47</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -157,7 +189,7 @@
 			<oreDict>ingotMaragingSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:maraging_steel_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;45</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -181,15 +213,7 @@
 			<oreDict>ingotZirconium</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:zirconium_stick;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotZirconiumNiobium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:zirconium_niobium_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;57</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -213,7 +237,7 @@
 			<oreDict>ingotTungstensteel</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:tungstensteel_stick;2</itemStack>
+			<itemStack>contenttweaker:material_part;2;53</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -232,12 +256,13 @@
 			<itemStack>immersiveposts:metal_rods;2;5</itemStack>
 		</output>
 	</Recipe>
+    
     <Recipe timeRequired="900" power="192">
 		<input>
 			<oreDict>plateGlass</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:glass_lens</itemStack>
+			<oreDict>lensGlass</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="900" power="192">
@@ -245,7 +270,7 @@
 			<oreDict>plateLapis</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:lapis_lens</itemStack>
+			<oreDict>lensLapis</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="900" power="192">
@@ -253,7 +278,7 @@
 			<oreDict>plateDiamond</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:diamond_lens</itemStack>
+			<oreDict>lensDiamond</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="900" power="192">
@@ -261,7 +286,7 @@
 			<oreDict>plateRuby</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:ruby_lens</itemStack>
+			<oreDict>lensRuby</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="900" power="192">
@@ -269,7 +294,7 @@
 			<oreDict>plateEmerald</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:emerald_lens</itemStack>
+			<oreDict>lensEmerald</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="900" power="192">
@@ -277,7 +302,7 @@
 			<oreDict>plateEnderPearl</oreDict>
         </input>
 		<output>
-			<itemStack>contenttweaker:ender_pearl_lens</itemStack>
+			<oreDict>lensEnderPearl</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power="192">

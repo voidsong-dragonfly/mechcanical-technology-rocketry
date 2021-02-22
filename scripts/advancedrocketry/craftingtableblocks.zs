@@ -139,13 +139,13 @@ recipes.remove(<advancedrocketry:altitudecontroller>);
 recipes.remove(<advancedrocketry:orientationcontroller>);
 recipes.addShaped(<advancedrocketry:gravitycontroller>,
  [[<libvulpes:structuremachine>, <advancedrocketry:misc>],
- [<ore:circuitAdvanced>, <contenttweaker:reaction_wheel>]]);
+ [<ore:circuitAdvanced>, <ore:reactionWheelItem>]]);
 recipes.addShaped(<advancedrocketry:altitudecontroller>,
  [[<libvulpes:structuremachine>, <advancedrocketry:misc>],
- [<contenttweaker:reaction_wheel>, <ore:circuitAdvanced>]]);
+ [<ore:reactionWheelItem>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<advancedrocketry:orientationcontroller>,
  [[<libvulpes:structuremachine>, <ore:circuitAdvanced>],
- [<advancedrocketry:misc>, <contenttweaker:reaction_wheel>]]);
+ [<advancedrocketry:misc>, <ore:reactionWheelItem>]]);
 
 //Force field slight recipe tweak
 recipes.remove(<advancedrocketry:forcefieldprojector>);
@@ -174,18 +174,8 @@ recipes.addShaped(<advancedrocketry:vacuumlaser>,
 recipes.remove(<advancedrocketry:warpcore>);
 recipes.addShaped(<advancedrocketry:warpcore>,
  [[<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>],
- [<ore:circuitUltimate>, <contenttweaker:warp_ring_engineering_block>, <ore:circuitUltimate>],
+ [<ore:circuitUltimate>, <ore:frameTitanium>, <ore:circuitUltimate>],
  [<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>]]);
-
-//Add Warp Engineering Block recipes
-recipes.addShaped(<contenttweaker:warp_ring_engineering_block> * 2,
- [[<ore:ingotIridium>, <ore:circuitUltimate>, <ore:ingotIridium>],
- [<ore:mechanicalComponentMaragingSteel>, <immersiveengineering:metal_decoration0:2>, <ore:mechanicalComponentMaragingSteel>],
- [<ore:ingotIridium>, <ore:circuitUltimate>, <ore:ingotIridium>]]);
-recipes.addShaped(<contenttweaker:warp_core_engineering_block>,
- [[<ore:platePlatinum>, <ore:blockOsmium>, <ore:platePlatinum>],
- [<ore:circuitUltimate>, <ore:blockUranium>, <ore:circuitUltimate>],
- [<ore:platePlatinum>, <ore:blockOsmium>, <ore:platePlatinum>]]);
 
 //Make Launchpad require steel
 recipes.remove(<advancedrocketry:launchpad>);

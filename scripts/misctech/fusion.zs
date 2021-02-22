@@ -14,26 +14,26 @@ recipes.addShapeless(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "
 
 //Fusion plasma heaters
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:0>,
- [[<mekanism:configurator:*>, <contenttweaker:fusion_coil>, null],
+ [[<mekanism:configurator:*>, <ore:machineCasingSuperconductiveCoil>, null],
  [null, <modularmachinery:blockfluidinputhatch:2>, null],
  [null, null, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:3>,
- [[<mekanism:configurator:*>, null, <contenttweaker:fusion_coil>],
+ [[<mekanism:configurator:*>, null, <ore:machineCasingSuperconductiveCoil>],
  [null, <modularmachinery:blockfluidinputhatch:2>, null],
  [null, null, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:4>,
  [[<mekanism:configurator:*>, null, null],
- [null, <modularmachinery:blockfluidinputhatch:2>, <contenttweaker:fusion_coil>],
+ [null, <modularmachinery:blockfluidinputhatch:2>, <ore:machineCasingSuperconductiveCoil>],
  [null, null, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:5>,
  [[<mekanism:configurator:*>, null, null],
  [null, <modularmachinery:blockfluidinputhatch:2>, null],
- [null, null, <contenttweaker:fusion_coil>]]);
+ [null, null, <ore:machineCasingSuperconductiveCoil>]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:6>,
  [[<mekanism:configurator:*>, null, null],
  [null, <modularmachinery:blockfluidinputhatch:2>, null],
- [null, <contenttweaker:fusion_coil>, null]]);
+ [null, <ore:machineCasingSuperconductiveCoil>, null]]);
 recipes.addShaped(<modularmachinery:blockfluidoutputhatch:7>,
  [[<mekanism:configurator:*>, null, null],
  [null, <modularmachinery:blockfluidinputhatch:2>, null],
- [<contenttweaker:fusion_coil>, null, null]]);
+ [<ore:machineCasingSuperconductiveCoil>, null, null]]);

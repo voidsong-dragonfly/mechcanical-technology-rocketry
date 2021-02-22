@@ -46,7 +46,6 @@ create_fluid("uraniumtailingssolution", "1E221C", 300, 2000, 1000);
 
 //Iron processing fluids
 create_molten_fluid("moltencrudeiron", "BE8972", 1800, 6900, 10000);
-create_molten_fluid("moltenhighcarbonsteel", "C79C5A", 2000, 8050, 10000);
 create_molten_fluid("moltensteel", "CB8A44", 2000, 7750, 10000);
 create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
 
