@@ -92,10 +92,11 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:flux>.add(<contenttweaker:crushed_marble>);
 <ore:flux>.add(<contenttweaker:crushed_limestone>);
 
-//Rutile Ore to Ilmenite, Aluminum added to "oreBauxite"
+//Rutile Ore to Ilmenite, Aluminum added to "oreBauxite", dilithium reused for niobium
 <ore:oreBauxite>.add(<immersiveengineering:ore:1>);
 <ore:oreRutile>.remove(<libvulpes:ore0:8>);
 <ore:oreIlmenite>.addAll(<ore:oreTitanium>);
+<ore:dustDirtyNiobium>.add(<mekores:mekanismore:128>);
 
 //Advanced Rocketry crystal entries
 <ore:crystalLargeAmethyst>.add(<advancedrocketry:crystal:0>);
@@ -126,6 +127,7 @@ injection.removeAllRecipes();
 dissolution.removeAllRecipes();
 washer.removeAllRecipes();
 crystallizer.removeAllRecipes();
+MetalPress.removeRecipeByMold(<immersiveengineering:mold:1>);
 
 //Ingots
 <ore:ingotSteel>.remove(<mekanism:ingot:4>);

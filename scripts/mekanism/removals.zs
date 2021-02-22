@@ -22,7 +22,7 @@ for item in mekSteamRemovals{
 var mekOresRemovals = [<mekanism:clump:*>,
                        <mekanism:shard:*>,
                        <mekanism:crystal:*>,
-                    /*   <mekores:mekanismore:0>,
+                       <mekores:mekanismore:0>,
                        <mekores:mekanismore:1>,
                        <mekores:mekanismore:2>,
                        <mekores:mekanismore:10>,
@@ -51,7 +51,7 @@ var mekOresRemovals = [<mekanism:clump:*>,
                        <mekores:mekanismore:107>,
                        <mekores:mekanismore:125>,
                        <mekores:mekanismore:126>,
-                       <mekores:mekanismore:127>*/
+                       <mekores:mekanismore:127>
                        ] as IItemStack[];
 for item in mekOresRemovals{
     removeAndHide(item);

@@ -64,30 +64,19 @@ game.setLocalization("tile.quark:slate_wall.name", "Dolomite Wall");
 game.setLocalization("tile.quark:slate_speleothem.name", "Dolomite Speleothem");
 game.setLocalization("tile.quark:stone_slate_pavement.name", "Dolomite Pavement");
 
-//Make IE & LV Steel "Ultra High Carbon Steel"
-game.setLocalization("tile.immersiveengineering.storage.steel.name", "Block of Ultra High Carbon Steel");
-game.setLocalization("tile.immersiveengineering.storage_slab.steel.name", "Ultra High Carbon Steel Slab");
-game.setLocalization("item.immersiveengineering.metal.ingot_steel.name", "Ultra High Carbon Steel Ingot");
-game.setLocalization("item.immersiveengineering.metal.dust_steel.name", "Ultra High Carbon Steel Grit");
-game.setLocalization("item.immersiveengineering.metal.nugget_steel.name", "Ultra High Carbon Steel Nugget");
-game.setLocalization("item.immersiveengineering.metal.plate_steel.name", "Ultra High Carbon Steel Plate");
-game.setLocalization("item.immersiveengineering.material.stick_steel.name", "Ultra High Carbon Steel Rod");
-game.setLocalization("item.immersiveengineering.material.component_steel.name", "Ultra High Carbon Steel Mechanical Component");
-game.setLocalization("item.immersiveengineering.material.wire_steel.name", "Ultra High Carbon Steel Wire");
-game.setLocalization("material.Steel.name", "Ultra High Carbon Steel");
-
 //Capacitor to battery rename
 game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_mv.name", "MV Battery Bank");
 game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_hv.name", "HV Battery Bank");
 
 //Make Mekanism ore pieces the names of the actual ore they're processing
 //And make LV "Rutile" Ilmenite, and "Aluminum" Aluminium
-//Ilmenite and Bauxite
+//Ilmenite and Bauxite & dilithium
 game.setLocalization("tile.Rutile.name", "Ilmenite Ore");
 game.setLocalization("material.Rutile.name", "Ilmenite");
 game.setLocalization("mekores.ore.aluminum", "Bauxite");
 game.setLocalization("mekores.ore.titanium", "Ilmenite");
 game.setLocalization("material.Aluminum.name", "Aluminium");
+game.setLocalization("mekores.ore.dilithium", "Niobium");
 //Mekanism Ores
 game.setLocalization("item.mekores:dustDirty.name", "%s Ore Dust");
 //Mekanism
