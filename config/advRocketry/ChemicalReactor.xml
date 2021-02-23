@@ -97,30 +97,10 @@
     <Recipe timeRequired="1920" power="800">
 		<input>
 			<fluidStack>liquidethene;1600</fluidStack>
-            <fluidStack>liquidoxygen;50</fluidStack>
-            <itemStack>mekanism:substrate;32</itemStack>
-        </input>
-		<output>
-            <itemStack>mekanism:polyethene;32</itemStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1920" power="800">
-		<input>
-			<fluidStack>liquidethene;1600</fluidStack>
             <fluidStack>air;50</fluidStack>
         </input>
 		<output>
 			<fluidStack>polyethene;3000</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1920" power="800">
-		<input>
-			<fluidStack>liquidethene;1600</fluidStack>
-            <fluidStack>air;50</fluidStack>
-            <itemStack>mekanism:substrate;32</itemStack>
-        </input>
-		<output>
-            <itemStack>mekanism:polyethene;24</itemStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power="384">
