@@ -12,6 +12,7 @@ import mods.mekanism.chemical.dissolution;
 import mods.mekanism.chemical.washer;
 import mods.immersiveengineering.MetalPress;
 import mods.immersiveengineering.BottlingMachine;
+import scripts.common.recipefunctions.register;
 
 
 
@@ -185,15 +186,32 @@ furnace.remove(<ore:ingotTitaniumIridium>);
 recipes.removeByRecipeName("advancedrocketry:sticktitaniumaluminide");
 recipes.removeByRecipeName("advancedrocketry:sticktitaniumiridium");
 
-//Platinum
+//CT material ores
 Crusher.removeRecipesForInput(<ore:orePlatinum>.firstItem);
 Crusher.addRecipe(<mekores:mekanismore:18> * 2, <ore:orePlatinum>, 4000, <mekores:mekanismore:13>, 0.1);
-
-//Niobium
 Crusher.addRecipe(<mekores:mekanismore:128> * 2, <ore:oreNiobium>, 4000, <mekores:mekanismore:78>, 0.1);
-
-//Zirconium
 Crusher.addRecipe(<mekores:mekanismore:83> * 2, <ore:oreZirconium>, 4000, <ore:dustRutile>.firstItem, 0.05);
+
+//Registry of CT materials
+register([<ore:nuggetTungsten>, <ore:blockTungsten>, <ore:ingotTungsten>]);
+register([<ore:nuggetTungstensteel>, <ore:blockTungstensteel>, <ore:ingotTungstensteel>]);
+register([<ore:nuggetPlatinum>, <ore:ingotPlatinum>]);
+register([<ore:nuggetMixedPlatinumGroupMetal>, <ore:ingotMixedPlatinumGroupMetal>]);
+register([<ore:nuggetDepletedUraniumDioxide>, <ore:ingotDepletedUraniumDioxide>]);
+register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUraniumDioxide>]);
+register([<ore:nuggetHighlyEnrichedUraniumDioxide>, <ore:ingotHighlyEnrichedUraniumDioxide>]);
+register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:stickNiobiumTitaniumAlloy>, <ore:plateNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
+register([<ore:nuggetNiobium>, <ore:ingotNiobium>, <ore:stickNiobium>, <ore:plateNiobium>, <ore:dustNiobium>]);
+register([<ore:nuggetZirconium>, <ore:ingotZirconium>, <ore:stickZirconium>, <ore:plateZirconium>, <ore:dustZirconium>]);
+register([<ore:nuggetZirconiumNiobiumAlloy>, <ore:ingotZirconiumNiobiumAlloy>, <ore:stickZirconiumNiobiumAlloy>, <ore:plateZirconiumNiobiumAlloy>, <ore:dustZirconiumNiobiumAlloy>]);
+register([<ore:nuggetSilverIndiumAlloy>, <ore:ingotSilverIndiumAlloy>, <ore:stickSilverIndiumAlloy>, <ore:plateSilverIndiumAlloy>, <ore:dustSilverIndiumAlloy>]);
+register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>, <ore:gearMaragingSteel>]);
+
+//CT sheets
+MetalPress.addRecipe(<ore:sheetMaragingSteel>.firstItem, <ore:plateMaragingSteel>, <immersiveengineering:mold>, 3600);
+MetalPress.addRecipe(<ore:sheetPlatinum>.firstItem, <ore:platePlatinum>, <immersiveengineering:mold>, 3600);
+MetalPress.addRecipe(<ore:sheetMixedPlatinumGroupMetal>.firstItem, <ore:plateMixedPlatinumGroupMetal>, <immersiveengineering:mold>, 3600);
+
 
 //Misc. dusts
 oxidizer.removeRecipe(<gas:sulfurdioxide> * 100, <mekanism:otherdust:3>);
