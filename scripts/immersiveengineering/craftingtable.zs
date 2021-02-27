@@ -205,11 +205,24 @@ recipes.addShaped(<ore:frameTitanium>.firstItem,
  
 //HVDC and HV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!
-recipes.remove(<immersiveengineering:wirecoil:2>);
+//HV
+recipes.addShaped(<immersiveengineering:wirecoil:2> * 4,
+ [[null, <ore:wireSteel>, null],
+ [<ore:wireSilver>, <ore:stickWoodAny>, <ore:wireSilver>],
+ [null, <ore:wireSteel>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil:2> * 4,
  [[null, <ore:wireSilver>, null],
- [<ore:wireSilver>, <ore:stickTreatedWood>, <ore:wireSilver>],
+ [<ore:wireSteel>, <ore:stickWoodAny>, <ore:wireSteel>],
  [null, <ore:wireSilver>, null]]);
+recipes.addShaped(<immersiveengineering:connector:4> * 4,
+ [[null, <ore:ingotSilver>, null],
+ [<minecraft:hardened_clay>, <ore:ingotSilver>, <minecraft:hardened_clay>],
+ [<minecraft:hardened_clay>, <ore:ingotSilver>, <minecraft:hardened_clay>]]);
+recipes.addShaped(<immersiveengineering:connector:5> * 8,
+ [[null, <ore:ingotSilver>, null],
+ [<immersiveengineering:stone_decoration:8>, <ore:ingotSilver>, <immersiveengineering:stone_decoration:8>],
+ [<immersiveengineering:stone_decoration:8>, <ore:ingotSilver>, <immersiveengineering:stone_decoration:8>]]);
+//HVDC
 recipes.remove(<alternatingflux:wirecoil>);
 recipes.addShaped(<alternatingflux:wirecoil> * 4,
  [[<ore:dustHOPGraphite>, <ore:wireAluminum>, null],
@@ -220,16 +233,6 @@ recipes.addShaped(<alternatingflux:connector> * 8,
  [[null, <ore:ingotAluminum>, null],
  [<immersiveengineering:stone_decoration:8>, <immersivepetroleum:material>, <immersiveengineering:stone_decoration:8>],
  [<immersiveengineering:stone_decoration:8>, <ore:ingotAluminum>, <immersiveengineering:stone_decoration:8>]]);
-recipes.remove(<immersiveengineering:connector:4>);
-recipes.remove(<immersiveengineering:connector:5>);
-recipes.addShaped(<immersiveengineering:connector:4> * 4,
- [[null, <ore:ingotSilver>, null],
- [<minecraft:hardened_clay>, <ore:ingotSilver>, <minecraft:hardened_clay>],
- [<minecraft:hardened_clay>, <ore:ingotSilver>, <minecraft:hardened_clay>]]);
-recipes.addShaped(<immersiveengineering:connector:5> * 8,
- [[null, <ore:ingotSilver>, null],
- [<immersiveengineering:stone_decoration:8>, <ore:ingotSilver>, <immersiveengineering:stone_decoration:8>],
- [<immersiveengineering:stone_decoration:8>, <ore:ingotSilver>, <immersiveengineering:stone_decoration:8>]]);
 
 //Remove recipes for IE tools - use Tetra instead
 recipes.remove(<immersiveengineering:hoe_steel>);
