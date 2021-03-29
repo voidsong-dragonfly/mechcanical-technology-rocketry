@@ -5,12 +5,10 @@ import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Blueprint;
 
 //Hide some useless LibVulpes and Advanced Rocketry blocks
-removeAndHide(<libvulpes:blockphantom>);
-removeAndHide(<libvulpes:placeholder>);
 removeAndHide(<advancedrocketry:unlittorch>);
-removeAndHide(<advancedrocketry:astrobed>);
-removeAndHide(<advancedrocketry:lightsource>);
-removeAndHide(<advancedrocketry:airlock_door>);
+
+//Hide LV coil blocks as their construction makes little sense
+removeAndHide(<libvulpes:coil0:*>);
 
 //Remove AR block tanks because IE barrels fill this with a more balanced fluid storage amount
 removeAndHide(<advancedrocketry:liquidtank>);
@@ -30,7 +28,6 @@ removeAndHide(<advancedrocketry:itemcircuitplate:*>);
 //Remove unused Advanced Rocketry multiblocks
 removeAndHide(<advancedrocketry:blockpump>);
 removeAndHide(<advancedrocketry:electrolyser>);
-removeAndHide(<advancedrocketry:terraformer>);
 removeAndHide(<advancedrocketry:platepress>);
 removeAndHide(<advancedrocketry:arcfurnace>);
 removeAndHide(<advancedrocketry:blastbrick>);

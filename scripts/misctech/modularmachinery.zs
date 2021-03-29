@@ -509,12 +509,19 @@ lithium.addFluidInput(<liquid:liquidlithium> * 1200);
 lithium.addItemOutput(<mekanism:otherdust:4> * 12);
 lithium.build();
 
-//Cryolite
+//HDPE
 var molten_cryolite = newBuilder("molten_cryolite", "melting_crucible", "700");
 molten_cryolite.addMekanismHeatInput(0, 1100, (1.0/0));
 molten_cryolite.addItemInput(<ore:oreCryolite>);
 molten_cryolite.addFluidOutput(<liquid:moltencryolite> * 900);
 molten_cryolite.build();
+
+//Cryolite
+var molten_polyethene = newBuilder("molten_polyethene", "melting_crucible", "300");
+molten_polyethene.addMekanismHeatInput(0, 150, (1.0/0));
+molten_polyethene.addItemInput(<mekanism:polyethene> * 9);
+molten_polyethene.addFluidOutput(<liquid:polyethene> * 1125);
+molten_polyethene.build();
 
 
 

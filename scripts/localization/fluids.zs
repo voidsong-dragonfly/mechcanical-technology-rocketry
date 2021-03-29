@@ -112,3 +112,9 @@ game.setLocalization("fluid.denseheliumrichgas", "Dense Helium-Rich Gas Mix");
 game.setLocalization("fluid.lightheliumrichgas", "Light Helium-Rich Gas Mix");
 game.setLocalization("fluid.cloudheliumrichgas", "Cloudlayer Helium-Rich Gas Mix");
 game.setLocalization("fluid.precipitategas", "Precipitate Gas Mix");
+
+//MekaTweaker gasses
+game.setLocalization("gas.impurerefinedglowstone", "Pressurized Impure Refined Glowstone");
+game.setLocalization("gas.impurerefinedobsidian", "Pressurized Impure Refined Obsidian");
+game.setLocalization("gas.refinedglowstone", "Pressurized Refined Glowstone");
+game.setLocalization("gas.refinedobsidian", "Pressurized Refined Obsidian");

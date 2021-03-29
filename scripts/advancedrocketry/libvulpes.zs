@@ -39,19 +39,19 @@ recipes.remove(<libvulpes:enhancedmotor>);
 recipes.remove(<libvulpes:elitemotor>);
 recipes.addShaped(<libvulpes:motor>, 
  [[null, <ore:plateSteel>, <ore:plateSteel>],
- [<ore:stickSteel>, <ore:gearSteel>, <ore:coilCopper>],
+ [<ore:stickSteel>, <ore:coilCopper>, <ore:gearSteel>],
  [null, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<libvulpes:advancedmotor>, 
  [[null, <ore:plateSteel>, <ore:plateSteel>],
- [<ore:stickSteel>, <ore:gearSteel>, <ore:coilGold>],
+ [<ore:stickSteel>, <ore:coilGold>, <ore:gearSteel>],
  [null, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<libvulpes:enhancedmotor>, 
  [[null, <ore:plateTitanium>, <ore:plateTitanium>],
- [<ore:stickTitanium>, <ore:gearTitanium>, <ore:coilAluminum>],
+ [<ore:stickTitanium>, <ore:coilHighVoltage>, <ore:gearTitanium>],
  [null, <ore:plateTitanium>, <ore:plateTitanium>]]);
 recipes.addShaped(<libvulpes:elitemotor>, 
  [[null, <ore:plateIridium>, <ore:plateIridium>],
- [<ore:stickIridium>, <ore:gearTitaniumIridium>, <ore:coilTitanium>],
+ [<ore:stickIridium>, <ore:machineCasingSuperconductiveCoil>, <ore:gearTitaniumIridium>],
  [null, <ore:plateIridium>, <ore:plateIridium>]]);
  
 //Battery recipe removal

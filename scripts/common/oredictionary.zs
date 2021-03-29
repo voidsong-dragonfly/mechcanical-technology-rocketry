@@ -106,6 +106,14 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:crystalLargeCitrine>.add(<advancedrocketry:crystal:4>);
 <ore:crystalLargeWulfentite>.add(<advancedrocketry:crystal:5>);
 
+//LibVulpes coil entries
+<ore:blockCoil>.remove(<libvulpes:coil0:*>);
+<ore:coilCopper>.remove(<libvulpes:coil0:4>);
+<ore:coilGold>.remove(<libvulpes:coil0:2>);
+<ore:coilAluminum>.remove(<libvulpes:coil0:9>);
+<ore:coilTitanium>.remove(<libvulpes:coil0:7>);
+<ore:coilIridium>.remove(<libvulpes:coil0:10>);
+
 //Remove Mystical Wildlife OD entries for items that don't exist anymore
 <ore:wax>.remove(<mysticalwildlife:plumper_blubber>);
 <ore:tallow>.remove(<mysticalwildlife:plumper_blubber>);

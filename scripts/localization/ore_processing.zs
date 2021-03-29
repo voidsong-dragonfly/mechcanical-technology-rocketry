@@ -27,8 +27,7 @@ game.setLocalization("fluid.uraniumtailingssolution", "Uranium Tailings Solution
 
 //Iron Processing
 game.setLocalization("fluid.moltencrudeiron", "Molten Crude Iron");
-game.setLocalization("fluid.moltenhighcarbonsteel", "Molten High Carbon Steel");
-game.setLocalization("fluid.moltensteel", "Molten Ultra High Carbon Steel");
+game.setLocalization("fluid.moltensteel", "Molten Steel");
 game.setLocalization("fluid.moltenslag", "Molten Slag");
 
 //Copper Processing

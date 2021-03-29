@@ -72,12 +72,14 @@ Blueprint.addRecipe("REDIA", <engineerstools:redia_tool>, [<ore:dustDiamond>, <o
 
 //Make Advanced Rocketry solar panels recipes closer to that of 1st generation PV cells (1950s), and make them use IEn crafting materials
 recipes.remove(<advancedrocketry:solarpanel>);
+recipes.remove(<advancedrocketry:solararraypanel>);
 recipes.remove(<advancedrocketry:solargenerator>);
 recipes.remove(<advancedrocketry:satellitepowersource>);
 recipes.remove(<advancedrocketry:satellitepowersource:1>);
 Blueprint.addRecipe("Solar Panels", <ore:solarPanelItem>.firstItem, [<ore:paneGlassColorless>, <ore:waferLithiumDopedSilicon>, <ore:plateAluminum>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <ore:solarPanelItem>, <ore:solarPanelItem>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
+Blueprint.addRecipe("Solar Panels", <advancedrocketry:solararraypanel>, [<ore:scaffoldingPanelAluminium>, <ore:solarPanelItem>, <ore:solarPanelItem>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solarpanel>, [<ore:solarPanelItem>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solargenerator>, [<ore:solarPanelItem>, <ore:plateAluminum>, <libvulpes:structuremachine>, <libvulpes:battery>]);
 
@@ -86,9 +88,8 @@ Blueprint.removeRecipe(<immersiveengineering:material:8>);
 Blueprint.removeRecipe(<immersiveengineering:material:9>);
 Blueprint.addRecipe("components", <immersiveengineering:material:8>, [<ore:plateIron>, <ore:plateIron>, <ore:ingotCopper>]);
 Blueprint.addRecipe("components", <immersiveengineering:material:9>, [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <ore:ingotCopper>]);
-Blueprint.addRecipe("components", <ore:mechanicalComponentHighCarbonSteel>.firstItem, [<ore:plateHighCarbonSteel>, <ore:plateHighCarbonSteel>, <ore:ingotCopper>]);
 Blueprint.addRecipe("components", <ore:mechanicalComponentMaragingSteel>.firstItem, [<ore:plateMaragingSteel>, <ore:plateMaragingSteel>, <ore:ingotCopper>]);
-Blueprint.addRecipe("components", <ore:smallBatteryHullItem>.firstItem * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>, <ore:plateTin>, <ore:plateLead>]);
+Blueprint.addRecipe("components", <ore:smallBatteryHullItem>.firstItem * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateTin>, <ore:plateTin>]);
 Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireTungsten>, <ore:dustRedstone>]);
 Blueprint.addRecipe("components", <ore:supercapacitorHullItem>.firstItem, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
 

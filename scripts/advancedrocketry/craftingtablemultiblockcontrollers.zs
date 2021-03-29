@@ -38,7 +38,7 @@ recipes.addShaped(<advancedrocketry:lathe>,
  [[<mekanism:polyethene:2>, <advancedrocketry:misc>, <mekanism:polyethene:2>],
  [<advancedrocketry:ic:3>, <ore:scaffoldingAluminum>, <advancedrocketry:ic:4>],
  [<ore:circuitBasic>, null, <ore:circuitBasic>]]);
- 
+
 //Chemical reactor
 recipes.remove(<advancedrocketry:chemicalreactor>);
 recipes.addShaped(<advancedrocketry:chemicalreactor>,
@@ -49,6 +49,13 @@ recipes.addShaped(<advancedrocketry:chemicalreactor>,
  [[<ore:sheetAluminum>, <advancedrocketry:misc>, <ore:sheetAluminum>],
  [<advancedrocketry:ic:4>, <ore:scaffoldingAluminum>, <advancedrocketry:ic:3>],
  [<ore:circuitBasic>, <advancedrocketry:ic:5>, <ore:circuitBasic>]]);
+
+//Solar array controller
+recipes.remove(<advancedrocketry:solararray>);
+recipes.addShaped(<advancedrocketry:solararray>,
+ [[<mekanism:polyethene:2>, <advancedrocketry:misc>, <mekanism:polyethene:2>],
+ [<advancedrocketry:ic:4>, <ore:scaffoldingAluminum>, <advancedrocketry:ic:4>],
+ [<ore:circuitBasic>, null, <ore:circuitBasic>]]);
  
 //Observatory
 recipes.remove(<advancedrocketry:observatory>);
