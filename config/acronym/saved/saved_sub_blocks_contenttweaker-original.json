@@ -1,15 +1,15 @@
 {
   "savedSubBlockNames": {
     "0": {
-      "0": "ore_zirconiumore",
-      "1": "ore_cryoliteore",
-      "2": "maraging_steel_block",
-      "3": "tungstensteel_block",
-      "4": "tungsten_block",
-      "5": "titanium_frame",
-      "6": "zirconium_niobium_alloy_frame",
-      "7": "metal_barrel_shell_machinecasing",
-      "8": "steel_barrel_shell_machinecasing",
+      "0": "maraging_steel_block",
+      "1": "tungstensteel_block",
+      "2": "tungsten_block",
+      "3": "titanium_frame",
+      "4": "zirconium_niobium_alloy_frame",
+      "5": "metal_barrel_shell_machinecasing",
+      "6": "steel_barrel_shell_machinecasing",
+      "7": "lubricated_bearing_machinecasing",
+      "8": "magnetic_bearing_machinecasing",
       "9": "superconductive_coil_machinecasing",
       "10": "fusion_reactor_inner_casing_machinecasing",
       "11": "fusion_reactor_outer_casing_machinecasing",
@@ -21,11 +21,13 @@
     "1": {
       "0": "ore_netherfluoriteore",
       "1": "ore_nethergoldore",
-      "2": "ore_nethercinnabarore",
-      "3": "ore_cinnabarore",
-      "4": "ore_platinumore",
-      "5": "ore_tungstenore",
-      "6": "ore_niobiumore"
+      "2": "ore_cinnabarore",
+      "3": "ore_platinumore",
+      "4": "ore_tungstenore",
+      "5": "ore_niobiumore",
+      "6": "ore_zirconiumore",
+      "7": "ore_nethercinnabarore",
+      "8": "ore_cryoliteore"
     }
   }
 }

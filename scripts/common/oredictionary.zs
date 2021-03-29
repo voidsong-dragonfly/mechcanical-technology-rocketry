@@ -114,6 +114,11 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:coilTitanium>.remove(<libvulpes:coil0:7>);
 <ore:coilIridium>.remove(<libvulpes:coil0:10>);
 
+//OD for IW bearings
+<ore:blockBearing>.remove(<immersiveengineering:metal_decoration0:5>);
+<ore:blockBearing>.addAll(<ore:machineCasingLubricatedBearing>);
+<ore:blockBearingPerfect>.addAll(<ore:machineCasingMagneticBearing>);
+
 //Remove Mystical Wildlife OD entries for items that don't exist anymore
 <ore:wax>.remove(<mysticalwildlife:plumper_blubber>);
 <ore:tallow>.remove(<mysticalwildlife:plumper_blubber>);

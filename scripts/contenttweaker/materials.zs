@@ -228,6 +228,9 @@ static materials as Material[string] = {
     "Fission Reactor Calandria Casing Shell" : MaterialSystem.getMaterialBuilder().setName("Fission Reactor Calandria Casing Shell").setColor(Color.fromHex("ffffff")).build(),
     "Fission Reactor Calandria Casing" : MaterialSystem.getMaterialBuilder().setName("Fission Reactor Calandria Casing").setColor(Color.fromHex("ffffff")).build(),
     "Fission Reactor Fuel Rod Assembly Pipe Connector" : MaterialSystem.getMaterialBuilder().setName("Fission Reactor Fuel Rod Assembly Pipe Connector").setColor(Color.fromHex("ffffff")).build(),
+    //Bearings
+    "Lubricated Bearing" : MaterialSystem.getMaterialBuilder().setName("Lubricated Bearing").setColor(Color.fromHex("ffffff")).build(),
+    "Magnetic Bearing" : MaterialSystem.getMaterialBuilder().setName("Magnetic Bearing").setColor(Color.fromHex("ffffff")).build(),
     //Miscelaneous metal bits
     "Metal Barrel Shell" : MaterialSystem.getMaterialBuilder().setName("Metal Barrel Shell").setColor(Color.fromHex("ffffff")).build(),
     "Steel Barrel Shell" : MaterialSystem.getMaterialBuilder().setName("Steel Barrel Shell").setColor(Color.fromHex("ffffff")).build(),
@@ -370,6 +373,9 @@ static parts as string[][string] = {
     "Fission Reactor Calandria Casing Shell" : ["machinecasing"],
     "Fission Reactor Calandria Casing" : ["machinecasing"],
     "Fission Reactor Fuel Rod Assembly Pipe Connector" : ["machinecasing"],
+    //Bearings
+    "Lubricated Bearing" : ["machinecasing"],
+    "Magnetic Bearing" : ["machinecasing"],
     //Miscelaneous metal bits
     "Metal Barrel Shell" : ["machinecasing"],
     "Steel Barrel Shell" : ["machinecasing"],

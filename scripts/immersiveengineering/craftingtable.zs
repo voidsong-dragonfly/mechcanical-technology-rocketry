@@ -43,7 +43,13 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2,
 
 //Make heavy engineering block entirely electrum, to match light engineering block
 recipes.replaceAllOccurences(<minecraft:piston>, <ore:ingotElectrum>, <immersiveengineering:metal_decoration0:5>);
- 
+
+//Add in bearing recipe
+recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem,
+ [[<ore:stickSteel>, <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}), <ore:stickSteel>],
+ [<ore:gearSteel>, <immersiveengineering:metal_decoration0:5>, <ore:gearSteel>],
+ [<ore:stickSteel>, <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}), <ore:stickSteel>]]);
+
 //Make powder barrels more appealing
 recipes.remove(<immersiveengineering:wooden_device0:4>);
 recipes.addShaped(<immersiveengineering:wooden_device0:4>,
