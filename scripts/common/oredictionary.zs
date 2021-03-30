@@ -119,6 +119,10 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:blockBearing>.addAll(<ore:machineCasingLubricatedBearing>);
 <ore:blockBearingPerfect>.addAll(<ore:machineCasingMagneticBearing>);
 
+//Centrifuge casing
+<ore:casingCentrifuge>.remove(<libvulpes:advstructuremachine>);
+<ore:casingCentrifuge>.addAll(<ore:machineCasingCentrifugeCylinderShell>);
+
 //Remove Mystical Wildlife OD entries for items that don't exist anymore
 <ore:wax>.remove(<mysticalwildlife:plumper_blubber>);
 <ore:tallow>.remove(<mysticalwildlife:plumper_blubber>);

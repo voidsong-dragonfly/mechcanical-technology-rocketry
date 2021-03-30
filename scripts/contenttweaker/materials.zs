@@ -231,6 +231,7 @@ static materials as Material[string] = {
     //Bearings
     "Lubricated Bearing" : MaterialSystem.getMaterialBuilder().setName("Lubricated Bearing").setColor(Color.fromHex("ffffff")).build(),
     "Magnetic Bearing" : MaterialSystem.getMaterialBuilder().setName("Magnetic Bearing").setColor(Color.fromHex("ffffff")).build(),
+    "Centrifuge Cylinder Shell" : MaterialSystem.getMaterialBuilder().setName("Centrifuge Cylinder Shell").setColor(Color.fromHex("ffffff")).build(),
     //Miscelaneous metal bits
     "Metal Barrel Shell" : MaterialSystem.getMaterialBuilder().setName("Metal Barrel Shell").setColor(Color.fromHex("ffffff")).build(),
     "Steel Barrel Shell" : MaterialSystem.getMaterialBuilder().setName("Steel Barrel Shell").setColor(Color.fromHex("ffffff")).build(),
@@ -379,6 +380,7 @@ static parts as string[][string] = {
     //Miscelaneous metal bits
     "Metal Barrel Shell" : ["machinecasing"],
     "Steel Barrel Shell" : ["machinecasing"],
+    "Centrifuge Cylinder Shell" : ["machinecasing"],
     //Miscelaneous other blocks
     "Plastic Coated Rebar Concrete" : ["machinecasing"],
     //Register all the things!

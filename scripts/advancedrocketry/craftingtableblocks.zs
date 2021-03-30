@@ -187,3 +187,13 @@ recipes.addShaped(<advancedrocketry:launchpad> * 2,
 //Iridium Crubible & asteroid mining
 recipes.remove(<advancedrocketry:iquartzcrucible>);
 recipes.remove(<advancedrocketry:drill>); 
+
+//Centrifuge Cylinder Shell
+recipes.addShaped(<ore:machineCasingCentrifugeCylinderShell>.firstItem,
+ [[<ore:plateTitanium>, <ore:scaffoldingPanelTitanium>, <ore:plateTitanium>],
+ [<ore:plateTitanium>, null, <ore:plateTitanium>],
+ [<ore:plateTitanium>, <ore:scaffoldingPanelTitanium>, <ore:plateTitanium>]]);
+recipes.addShaped(<ore:machineCasingCentrifugeCylinderShell>.firstItem,
+ [[<ore:plateMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, <ore:plateMaragingSteel>],
+ [<ore:plateMaragingSteel>, null, <ore:plateMaragingSteel>],
+ [<ore:plateMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, <ore:plateMaragingSteel>]]);

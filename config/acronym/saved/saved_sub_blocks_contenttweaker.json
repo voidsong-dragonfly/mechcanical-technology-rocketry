@@ -10,13 +10,13 @@
       "6": "steel_barrel_shell_machinecasing",
       "7": "lubricated_bearing_machinecasing",
       "8": "magnetic_bearing_machinecasing",
-      "9": "superconductive_coil_machinecasing",
-      "10": "fusion_reactor_inner_casing_machinecasing",
-      "11": "fusion_reactor_outer_casing_machinecasing",
-      "12": "fission_reactor_calandria_casing_shell_machinecasing",
-      "13": "fission_reactor_calandria_casing_machinecasing",
-      "14": "fission_reactor_fuel_rod_assembly_pipe_connector_machinecasing",
-      "15": "plastic_coated_rebar_concrete_machinecasing"
+      "9": "centrifuge_cylinder_shell_machinecasing",
+      "10": "superconductive_coil_machinecasing",
+      "11": "fusion_reactor_inner_casing_machinecasing",
+      "12": "fusion_reactor_outer_casing_machinecasing",
+      "13": "fission_reactor_calandria_casing_shell_machinecasing",
+      "14": "fission_reactor_calandria_casing_machinecasing",
+      "15": "fission_reactor_fuel_rod_assembly_pipe_connector_machinecasing"
     },
     "1": {
       "0": "ore_netherfluoriteore",
@@ -27,7 +27,8 @@
       "5": "ore_niobiumore",
       "6": "ore_zirconiumore",
       "7": "ore_nethercinnabarore",
-      "8": "ore_cryoliteore"
+      "8": "ore_cryoliteore",
+      "9": "plastic_coated_rebar_concrete_machinecasing"
     }
   }
 }
