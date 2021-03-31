@@ -190,6 +190,13 @@ nitrogen_liquefaction.build();
 */
 
 //Basic & advanced circuits in the assembly cleanroom such that the precision assembly loop is fixed
+var smd_resistor = newBuilder("smd_resistor", "assembly_cleanroom", 75);
+smd_resistor.addEnergyPerTickInput(128);
+smd_resistor.addItemInput(<ore:plateGold>);
+smd_resistor.addItemInput(<ore:dustAnyCarbon>, 2);
+smd_resistor.addItemInput(<mekanism:polyethene:2> * 4);
+smd_resistor.addItemOutput(<ore:smdResistor>.firstItem * 16);
+smd_resistor.build();
 var basic_circuit = newBuilder("basic_circuit", "assembly_cleanroom", 450);
 basic_circuit.addEnergyPerTickInput(256);
 basic_circuit.addItemInput(<ore:circuitPlateIntegratedCircuit>);

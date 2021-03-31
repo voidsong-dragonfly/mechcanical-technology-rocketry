@@ -64,16 +64,16 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:wirePGMAny>.addAll(<ore:wireMixedPlatinumGroupMetal>);
 
 //Ore oredictionary
-<ore:orePlatinum>.add(<contenttweaker:sub_block_holder_1:4>);
-<ore:oreZirconium>.add(<contenttweaker:sub_block_holder_0:0>);
-<ore:oreNiobium>.add(<contenttweaker:sub_block_holder_1:6>);
-<ore:oreCryolite>.add(<contenttweaker:sub_block_holder_0:1>);
+<ore:orePlatinum>.add(<contenttweaker:sub_block_holder_1:3>);
+<ore:oreZirconium>.add(<contenttweaker:sub_block_holder_1:6>);
+<ore:oreNiobium>.add(<contenttweaker:sub_block_holder_1:5>);
+<ore:oreCryolite>.add(<contenttweaker:sub_block_holder_1:8>);
 <ore:oreGold>.add(<contenttweaker:sub_block_holder_1:1>);
 <ore:oreNetherGold>.add(<contenttweaker:sub_block_holder_1:1>);
-<ore:oreCinnabar>.add(<contenttweaker:sub_block_holder_1:3>);
-<ore:oreNetherCinnabar>.add(<contenttweaker:sub_block_holder_1:2>);
+<ore:oreCinnabar>.add(<contenttweaker:sub_block_holder_1:2>);
+<ore:oreNetherCinnabar>.add(<contenttweaker:sub_block_holder_1:7>);
 <ore:oreFluorite>.add(<contenttweaker:sub_block_holder_1>);
-<ore:oreTungsten>.add(<contenttweaker:sub_block_holder_1:5>);
+<ore:oreTungsten>.add(<contenttweaker:sub_block_holder_1:4>);
 
 //Lens oredictionary
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensGlass>);

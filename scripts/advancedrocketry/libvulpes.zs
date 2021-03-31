@@ -43,7 +43,7 @@ recipes.addShaped(<libvulpes:motor>,
  [null, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<libvulpes:advancedmotor>, 
  [[null, <ore:plateSteel>, <ore:plateSteel>],
- [<ore:stickSteel>, <ore:coilGold>, <ore:gearSteel>],
+ [<ore:stickSteel>, <ore:coilElectrum>, <ore:gearSteel>],
  [null, <ore:plateSteel>, <ore:plateSteel>]]);
 recipes.addShaped(<libvulpes:enhancedmotor>, 
  [[null, <ore:plateTitanium>, <ore:plateTitanium>],
