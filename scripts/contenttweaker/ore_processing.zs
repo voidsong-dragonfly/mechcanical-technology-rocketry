@@ -51,9 +51,11 @@ create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
 
 //Copper processing fluids
 create_fluid("coppersulfatesolution", "6E6D31", 300, 2000, 1000);
+create_fluid("coppersulfatesolutionresidue", "6E6D31", 300, 2000, 1000);
 
 //Nickel processing fluids
 create_fluid("nickelsulfatesolution", "6E6D31", 300, 2000, 1000);
+create_fluid("nickelsulfatesolutionresidue", "6E6D31", 300, 2000, 1000);
 create_molten_fluid("moltennickelmatte", "948E7F", 1800, 8900, 10000);
 
 //Tin processing fluids

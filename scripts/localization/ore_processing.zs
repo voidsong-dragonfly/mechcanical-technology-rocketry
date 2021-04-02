@@ -32,9 +32,11 @@ game.setLocalization("fluid.moltenslag", "Molten Slag");
 
 //Copper Processing
 game.setLocalization("fluid.coppersulfatesolution", "Copper Sulfate Solution");
+game.setLocalization("fluid.coppersulfatesolutionresidue", "Copper Sulfate Solution Residue");
 
 //Nickel Processing
 game.setLocalization("fluid.nickelsulfatesolution", "Nickel Sulfate Solution");
+game.setLocalization("fluid.nickelsulfatesolutionresidue", "Nickel Sulfate Solution Residue");
 game.setLocalization("fluid.moltennickelmatte", "Molten Nickel Matte");
 
 //Tin Processing

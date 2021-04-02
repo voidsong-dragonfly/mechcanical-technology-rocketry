@@ -126,38 +126,6 @@ molten_calcium_chloride.addItemInput(<ore:dustCalciumChloride>, 9);
 molten_calcium_chloride.addFluidOutput(<liquid:moltencalciumchloride> * 900);
 molten_calcium_chloride.build();
 
-//Electrolytic separation
-var water_electrolysis = newBuilder("water_electrolysis", "electrolytic_cell_battery", 100);
-water_electrolysis.addEnergyPerTickInput("3840");
-water_electrolysis.addFluidInput(<liquid:water> * 1600);
-water_electrolysis.addFluidOutput(<liquid:liquidhydrogen> * 1600);
-water_electrolysis.addFluidOutput(<liquid:liquidoxygen> * 800);
-water_electrolysis.build();
-var brine_electrolysis = newBuilder("brine_electrolysis", "electrolytic_cell_battery", 100);
-brine_electrolysis.addEnergyPerTickInput("3840");
-brine_electrolysis.addFluidInput(<liquid:brine> * 8000);
-brine_electrolysis.addFluidOutput(<liquid:liquidhydrogen> * 800);
-brine_electrolysis.addFluidOutput(<liquid:liquidchlorine> * 800);
-brine_electrolysis.addFluidOutput(<liquid:sodiumhydroxidesolution> * 8000);
-brine_electrolysis.build();
-var molten_lithium_chloride_electrolysis = newBuilder("molten_lithium_chloride_electrolysis", "electrolytic_cell_battery", 100);
-molten_lithium_chloride_electrolysis.addEnergyPerTickInput("3840");
-molten_lithium_chloride_electrolysis.addFluidInput(<liquid:moltenlithiumchloride> * 1600);
-molten_lithium_chloride_electrolysis.addFluidOutput(<liquid:liquidlithium> * 1600);
-molten_lithium_chloride_electrolysis.addFluidOutput(<liquid:liquidchlorine> * 800);
-molten_lithium_chloride_electrolysis.build();
-var molten_magnesium_chloride_electrolysis = newBuilder("molten_magnesium_chloride_electrolysis", "electrolytic_cell_battery", 100);
-molten_magnesium_chloride_electrolysis.addEnergyPerTickInput("3840");
-molten_magnesium_chloride_electrolysis.addFluidInput(<liquid:moltenmagnesiumchloride> * 800);
-molten_magnesium_chloride_electrolysis.addFluidOutput(<liquid:moltenmagnesium> * 800);
-molten_magnesium_chloride_electrolysis.addFluidOutput(<liquid:liquidchlorine> * 800);
-molten_magnesium_chloride_electrolysis.build();
-var molten_calcium_chloride_electrolysis = newBuilder("molten_calcium_chloride_electrolysis", "electrolytic_cell_battery", 100);
-molten_calcium_chloride_electrolysis.addEnergyPerTickInput("3840");
-molten_calcium_chloride_electrolysis.addFluidInput(<liquid:moltencalciumchloride> * 800);
-molten_calcium_chloride_electrolysis.addFluidOutput(<liquid:moltencalcium> * 800);
-molten_calcium_chloride_electrolysis.addFluidOutput(<liquid:liquidchlorine> * 800);
-molten_calcium_chloride_electrolysis.build();
 
 
 /*

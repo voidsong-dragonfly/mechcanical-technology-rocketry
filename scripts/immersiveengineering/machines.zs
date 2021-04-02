@@ -1,5 +1,6 @@
 //Import
 import mods.immersivetechnology.Distiller;
+import mods.immersivetechnology.ElectrolyticCrucibleBattery;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BottlingMachine;
@@ -113,6 +114,14 @@ MarxGenerator.removeRecipe(<ore:oreLead>);
 MarxGenerator.removeRecipe(<ore:oreNickel>);
 MarxGenerator.removeRecipe(<ore:oreUranium>);
 MarxGenerator.removeRecipe(<ore:oreTin>);
+
+//Non-ore-processing electrolysis recipes!
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:water> * 1600, 3840, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:liquidchlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 3840, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidlithium> * 1600, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 3840, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 3840, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 3840, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 3840, 400);
 
 //Add aquaculture fish bone bonemeal recipe
 Crusher.addRecipe(<minecraft:dye:15> * 6, <aquaculture:fish:38>, 4800);
