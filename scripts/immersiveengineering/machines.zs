@@ -1,6 +1,7 @@
 //Import
 import mods.immersivetechnology.Distiller;
 import mods.immersivetechnology.ElectrolyticCrucibleBattery;
+import mods.immersivetechnology.MeltingCrucible;
 import mods.immersiveengineering.Refinery;
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.BottlingMachine;
@@ -123,6 +124,22 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:li
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 3840, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 3840, 400);
 
+//Melting recipes
+//Non-ices
+MeltingCrucible.addRecipe(<liquid:moltenmagnesiumchloride> * 100, <ore:dustMagnesiumChloride>, 240, 40);
+MeltingCrucible.addRecipe(<liquid:moltenlithiumchloride> * 100, <ore:dustLithiumChloride>, 240, 40);
+MeltingCrucible.addRecipe(<liquid:moltencalciumchloride> * 100, <ore:dustCalciumChloride>, 240, 40);
+MeltingCrucible.addRecipe(<liquid:polyethene> * 125, <mekanism:polyethene>, 240, 5);
+MeltingCrucible.addRecipe(<liquid:moltencryolite> * 1000, <ore:oreCryolite>, 480, 320);
+//Ices
+MeltingCrucible.addRecipe(<liquid:water> * 1000, <minecraft:ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:liquidoxygen> * 1000, <contenttweaker:oxygen_ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:nitrogengas> * 1000, <contenttweaker:nitrogen_ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:methane> * 1000, <contenttweaker:methane_ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:carbondioxide> * 1000, <contenttweaker:carbon_dioxide_ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:liquidethene> * 1000, <contenttweaker:ethene_ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 480, 160);
+
 //Add aquaculture fish bone bonemeal recipe
 Crusher.addRecipe(<minecraft:dye:15> * 6, <aquaculture:fish:38>, 4800);
 Crusher.removeRecipe(<minecraft:string>);
@@ -155,3 +172,7 @@ Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:
 
 //Remove metal press rod recipes. Use the lathe
 MetalPress.removeRecipeByMold(<immersiveengineering:mold:2>);
+
+//Add in some extra metal press recipes
+MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
+MetalPress.addRecipe(<ore:fuelPelletHighlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickHighlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);

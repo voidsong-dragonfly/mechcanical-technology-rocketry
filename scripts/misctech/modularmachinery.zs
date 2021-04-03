@@ -105,28 +105,6 @@ recipes.addShapeless(<modularmachinery:blockfluidinputhatch:1>, [<modularmachine
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidoutputhatch:2>]);
 
 
-/*
-    Salt Processing - From brine to chlorine and molten salts
-*/
-
-//Salt Melting
-var molten_magnesium_chloride = newBuilder("molten_magnesium_chloride", "melting_crucible", "600");
-molten_magnesium_chloride.addMekanismHeatInput(0, 715, (1.0/0));
-molten_magnesium_chloride.addItemInput(<ore:dustMagnesiumChloride>, 9);
-molten_magnesium_chloride.addFluidOutput(<liquid:moltenmagnesiumchloride> * 900);
-molten_magnesium_chloride.build();
-var molten_lithium_chloride = newBuilder("molten_lithium_chloride", "melting_crucible", "600");
-molten_lithium_chloride.addMekanismHeatInput(0, 600, (1.0/0));
-molten_lithium_chloride.addItemInput(<ore:dustLithiumChloride>, 9);
-molten_lithium_chloride.addFluidOutput(<liquid:moltenlithiumchloride> * 900);
-molten_lithium_chloride.build();
-var molten_calcium_chloride = newBuilder("molten_calcium_chloride", "melting_crucible", "600");
-molten_calcium_chloride.addMekanismHeatInput(0, 1000, (1.0/0));
-molten_calcium_chloride.addItemInput(<ore:dustCalciumChloride>, 9);
-molten_calcium_chloride.addFluidOutput(<liquid:moltencalciumchloride> * 900);
-molten_calcium_chloride.build();
-
-
 
 /*
     Liquid Air Processing - Air collection, liquefaction
@@ -467,7 +445,7 @@ titanium_iridium_gear.build();
 
 
 /*
-    Miscellaneous Melting - anything needing melting I haven't covered yet
+    Miscellaneous Casting - anything needing casting I haven't covered yet
 */
 
 //Molten magnesium to magnesium
@@ -483,20 +461,6 @@ var lithium = newBuilder("lithium", "casting_basin", 200);
 lithium.addFluidInput(<liquid:liquidlithium> * 1200);
 lithium.addItemOutput(<mekanism:otherdust:4> * 12);
 lithium.build();
-
-//Cryolite
-var molten_cryolite = newBuilder("molten_cryolite", "melting_crucible", "700");
-molten_cryolite.addMekanismHeatInput(0, 1100, (1.0/0));
-molten_cryolite.addItemInput(<ore:oreCryolite>);
-molten_cryolite.addFluidOutput(<liquid:moltencryolite> * 900);
-molten_cryolite.build();
-
-//HDPE
-var molten_polyethene = newBuilder("molten_polyethene", "melting_crucible", "300");
-molten_polyethene.addMekanismHeatInput(0, 150, (1.0/0));
-molten_polyethene.addItemInput(<mekanism:polyethene> * 9);
-molten_polyethene.addFluidOutput(<liquid:polyethene> * 1125);
-molten_polyethene.build();
 
 
 

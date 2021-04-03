@@ -216,10 +216,13 @@ static materials as Material[string] = {
     "Pipe" : MaterialSystem.getMaterialBuilder().setName("Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Barrel" : MaterialSystem.getMaterialBuilder().setName("Barrel").setColor(Color.fromHex("ffffff")).build(),
     "Wire" : MaterialSystem.getMaterialBuilder().setName("Wire").setColor(Color.fromHex("ffffff")).build(),
+    "Fuel Pellet" : MaterialSystem.getMaterialBuilder().setName("Fuel Pellet").setColor(Color.fromHex("ffffff")).build(),
     "Scaffolding Panel" : MaterialSystem.getMaterialBuilder().setName("Scaffolding Panel").setColor(Color.fromHex("ffffff")).build(),
     "Bell" : MaterialSystem.getMaterialBuilder().setName("Bell").setColor(Color.fromHex("ffffff")).build(),
     "HDPE Sheet" : MaterialSystem.getMaterialBuilder().setName("HDPE Sheet").setColor(Color.fromHex("ffffff")).build(),
     "HDPE Rod" : MaterialSystem.getMaterialBuilder().setName("HDPE Rod").setColor(Color.fromHex("ffffff")).build(),
+    //Railgin bits
+    "Graphite Depleted Uranium Composite" : MaterialSystem.getMaterialBuilder().setName("Graphite Depleted Uranium Composite").setColor(Color.fromHex("323232")).build(),
     //Fusion reactor pieces
     "Fusion Reactor Inner Casing" : MaterialSystem.getMaterialBuilder().setName("Fusion Reactor Inner Casing").setColor(Color.fromHex("ffffff")).build(),
     "Fusion Reactor Outer Casing" : MaterialSystem.getMaterialBuilder().setName("Fusion Reactor Outer Casing").setColor(Color.fromHex("ffffff")).build(),
@@ -362,10 +365,13 @@ static parts as string[][string] = {
     "Pipe" : ["metalpressmold"],
     "Barrel" : ["metalpressmold"],
     "Wire" : ["metalpressmold"],
+    "Fuel Pellet" : ["metalpressmold"],
     "Scaffolding Panel" : ["heavymetalpressdie"],
     "Bell" : ["heavymetalpressdie"],
     "HDPE Sheet" : ["injectionmold"],
     "HDPE Rod" : ["injectionmold"],
+    //Railgin bits
+    "Graphite Depleted Uranium Composite" : ["rod"],
     //Fusion reactor pieces
     "Fusion Reactor Inner Casing" : ["machinecasing"],
     "Fusion Reactor Outer Casing" : ["machinecasing"],

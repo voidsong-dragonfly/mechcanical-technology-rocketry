@@ -160,6 +160,15 @@
 			<fluidStack>sulfuricacid;800</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+            <oreDict>dustFluorite</oreDict>
+			<fluidStack>sulfuricacid;400</fluidStack>
+        </input>
+		<output>
+			<fluidStack>hydrofluoricacid;800</fluidStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="100" power="2048">
 		<input>
 			<fluidStack>liquidhydrogen;1200</fluidStack>
@@ -293,7 +302,7 @@
             <fluidStack>sodiumaluminatesolution;2400</fluidStack>
         </input>
 		<output>
-            <fluidStack>sodiumhydroxidesolution;2400</fluidStack>
+            <fluidStack>sodiumhydroxidesolution;2000</fluidStack>
             <oreDict>dustAluminiumHydroxide;25</oreDict>
 		</output>
 	</Recipe>

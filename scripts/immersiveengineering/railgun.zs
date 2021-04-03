@@ -10,8 +10,10 @@ import mods.alfinivia.IRailgunImpact;
 */
 var titanium = [[0x9491b5], [0x9491b5], [0xb1add9], [0xcac6f7], [0xcac6f7], [0xcac6f7]] as int[][];
 var titanium_aluminide = [[0x8c9cb2], [0x8c9cb2], [0x97a9c1], [0xaec2de], [0xaec2de], [0xaec2de]] as int[][];
+var graphite_composite = [[0x000000], [0x000000], [0x272727], [0x3d3d3d], [0x3d3d3d], [0x3d3d3d]] as int[][];
 addRailgunBullet(<ore:stickTitanium>, 28.0, 0.95, titanium);
 addRailgunBullet(<ore:stickTitaniumAluminide>, 32.0, 0.9, titanium_aluminide);
+addRailgunBullet(<ore:stickGraphiteDepletedUraniumComposite>, 48.0, 0.9, graphite_composite);
 
 /*
     Railgun tweaks, advanced
