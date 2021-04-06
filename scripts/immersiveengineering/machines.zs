@@ -117,28 +117,28 @@ MarxGenerator.removeRecipe(<ore:oreUranium>);
 MarxGenerator.removeRecipe(<ore:oreTin>);
 
 //Non-ore-processing electrolysis recipes!
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:water> * 1600, 3840, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:liquidchlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 3840, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidlithium> * 1600, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 3840, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 3840, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 3840, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 3840, 400);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:water> * 1600, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:liquidchlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidlithium> * 1600, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 384000, 400);
 
 //Melting recipes
 //Non-ices
-MeltingCrucible.addRecipe(<liquid:moltenmagnesiumchloride> * 100, <ore:dustMagnesiumChloride>, 240, 40);
-MeltingCrucible.addRecipe(<liquid:moltenlithiumchloride> * 100, <ore:dustLithiumChloride>, 240, 40);
-MeltingCrucible.addRecipe(<liquid:moltencalciumchloride> * 100, <ore:dustCalciumChloride>, 240, 40);
-MeltingCrucible.addRecipe(<liquid:polyethene> * 125, <mekanism:polyethene>, 240, 5);
-MeltingCrucible.addRecipe(<liquid:moltencryolite> * 1000, <ore:oreCryolite>, 480, 320);
+MeltingCrucible.addRecipe(<liquid:moltenmagnesiumchloride> * 100, <ore:dustMagnesiumChloride>, 9600, 40);
+MeltingCrucible.addRecipe(<liquid:moltenlithiumchloride> * 100, <ore:dustLithiumChloride>, 9600, 40);
+MeltingCrucible.addRecipe(<liquid:moltencalciumchloride> * 100, <ore:dustCalciumChloride>, 9600, 40);
+MeltingCrucible.addRecipe(<liquid:polyethene> * 125, <mekanism:polyethene>, 9600, 5);
+MeltingCrucible.addRecipe(<liquid:moltencryolite> * 1000, <ore:oreCryolite>, 153600, 320);
 //Ices
-MeltingCrucible.addRecipe(<liquid:water> * 1000, <minecraft:ice>, 480, 160);
-MeltingCrucible.addRecipe(<liquid:liquidoxygen> * 1000, <contenttweaker:oxygen_ice>, 480, 160);
-MeltingCrucible.addRecipe(<liquid:nitrogengas> * 1000, <contenttweaker:nitrogen_ice>, 480, 160);
-MeltingCrucible.addRecipe(<liquid:methane> * 1000, <contenttweaker:methane_ice>, 480, 160);
-MeltingCrucible.addRecipe(<liquid:carbondioxide> * 1000, <contenttweaker:carbon_dioxide_ice>, 480, 160);
-MeltingCrucible.addRecipe(<liquid:liquidethene> * 1000, <contenttweaker:ethene_ice>, 480, 160);
-MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 480, 160);
+MeltingCrucible.addRecipe(<liquid:water> * 1000, <minecraft:ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:liquidoxygen> * 1000, <contenttweaker:oxygen_ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:nitrogengas> * 1000, <contenttweaker:nitrogen_ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:methane> * 1000, <contenttweaker:methane_ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:carbondioxide> * 1000, <contenttweaker:carbon_dioxide_ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:liquidethene> * 1000, <contenttweaker:ethene_ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 76800, 160);
 
 //Add aquaculture fish bone bonemeal recipe
 Crusher.addRecipe(<minecraft:dye:15> * 6, <aquaculture:fish:38>, 4800);

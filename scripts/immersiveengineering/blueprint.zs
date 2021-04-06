@@ -134,7 +134,6 @@ recipes.remove(<rustic:stone_pillar>);
 Blueprint.addRecipe("Fission Reactor Components", <rustic:stone_pillar>, [<ore:frameZirconiumNiobiumAlloy>, <ore:smallPipeZirconiumNiobiumAlloy> * 9]);
 Blueprint.addRecipe("Fission Reactor Components", <ore:machineCasingFissionReactorFuelRodAssemblyPipeConnector>.firstItem, [<immersiveengineering:metal_decoration1:1>, <engineersdecor:straight_pipe_valve_redstone_analog>, <immersiveengineering:metal_device1:6>]);
 Blueprint.addRecipe("Fission Reactor Components", <ore:machineCasingFissionReactorCalandriaCasingShell>.firstItem, [<ore:scaffoldingPanelSteel> * 6, <libvulpes:productsheet:6> * 6, <ore:sheetLead> * 6]);
-Blueprint.addRecipe("Fission Reactor Components", <ore:machineCasingFissionReactorCalandriaCasingShell>.firstItem, [<ore:scaffoldingPanelHighCarbonSteel> * 6, <ore:sheetHighCarbonSteel> * 6, <ore:sheetLead> * 6]);
 Blueprint.addRecipe("Fission Reactor Components", <ore:machineCasingFissionReactorCalandriaCasingShell>.firstItem, [<ore:scaffoldingPanelMaragingSteel> * 6, <ore:sheetMaragingSteel> * 6, <ore:sheetLead> * 6]);
 recipes.remove(<immersiveengineering:stone_decoration:7>);
 Blueprint.addRecipe("Fission Reactor Components", <immersiveengineering:stone_decoration:7>, [<engineersdecor:rebar_concrete>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>]);

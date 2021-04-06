@@ -62,8 +62,8 @@ recipes.addShaped(<mekanism:basicblock2:2>,
 recipes.remove(<mekanism:machineblock3:4>);
 recipes.addShaped(<mekanism:machineblock3:4>,
  [[<ore:ingotTin>, <ore:ingotConstantan>, <ore:ingotTin>],
- [<ore:ingotConstantan>, <immersiveengineering:metal_device1:1>, <ore:ingotConstantan>],
- [<ore:ingotTin>, <immersiveengineering:metal_device0:2>, <ore:ingotTin>]]);
+ [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
+ [<ore:ingotTin>, <immersiveengineering:metal_device1:1>, <ore:ingotTin>]]);
 
 //Mekanism machine recipes
 //T1 is Tungsten-Basic Circuit

@@ -84,7 +84,7 @@ recipes.addShaped(<modularmachinery:blockenergyoutputhatch:2>,
 recipes.addShaped(<modularmachinery:blockcasing:1>,
  [[<ore:sheetSteel>, <libvulpes:productfan:6>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>]]);
+ [<ore:sheetSteel>, <quark:quilted_wool>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcontroller>,
  [[<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],

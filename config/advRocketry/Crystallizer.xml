@@ -34,7 +34,7 @@
 <Recipes useDefault="false">
     <Recipe timeRequired="3600" power="8192">
 		<input>
-			<oreDict>dustEmerald;16</oreDict>
+			<oreDict>dustEmerald;64</oreDict>
             <oreDict>dustOsmium;2</oreDict>
             <fluidStack>helium;16000</fluidStack>
         </input>

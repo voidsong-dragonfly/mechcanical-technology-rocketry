@@ -132,7 +132,7 @@
     }
     # Hanging leaves
     {
-      states: leaves
+      states: leaves:4
       chance: 0.5
       minHeight: 32
       maxHeight: 56
