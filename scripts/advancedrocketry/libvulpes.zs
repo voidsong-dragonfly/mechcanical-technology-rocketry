@@ -76,5 +76,5 @@ recipes.addShaped(<libvulpes:advstructuremachine>,
 //Make holoprojector not take (expensive) optical sensors
 recipes.remove(<libvulpes:holoprojector>);
 recipes.addShaped(<libvulpes:holoprojector>,
- [[<ore:plateIron>, <ore:lensGlass>, <ore:plateIron>, ],
+ [[<ore:plateIron>, <ore:paneGlass>, <ore:plateIron>, ],
  [<ore:plateIron>, <immersiveengineering:metal_device1:9>, <ore:plateIron>]]);

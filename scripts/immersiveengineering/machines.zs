@@ -47,6 +47,10 @@ Mixer.addRecipe(<liquid:concrete> * 750, <liquid:water> * 750, [<ore:itemSlag>, 
 Mixer.addRecipe(<liquid:concrete> * 750, <liquid:water> * 750, [<ore:itemSlag>, <ore:itemSlag>, <ore:dustStone>, <ore:gravel>], 4000);
 Mixer.addRecipe(<liquid:concrete> * 500, <liquid:water> * 500, [<ore:itemSlag>, <ore:itemSlag>, <ore:dustStone>, <ore:dustStone>], 4000);
 
+//Lubricant from plant oil
+Mixer.addRecipe(<liquid:lubricant> * 1000, <liquid:plantoil> * 1000, [<ore:dustHOPGraphite>], 20000);
+Mixer.addRecipe(<liquid:lubricant> * 250, <liquid:plantoil> * 250, [<ore:dustSilicon>], 10000);
+
 //Concrete Bottling Machine recipes
 recipes.remove(<engineersdecor:rebar_concrete>);
 recipes.remove(<engineersdecor:gas_concrete>);

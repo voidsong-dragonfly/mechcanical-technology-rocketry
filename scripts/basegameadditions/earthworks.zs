@@ -41,3 +41,7 @@ recipes.addShaped(<earthworks:block_dry_stone> * 4,
  [<minecraft:stone>, null, <minecraft:stone>],
  [<earthworks:tool_square>.reuse(), <minecraft:stone>, <earthworks:tool_compass>.anyDamage().transformDamage()]]);
 
+//Quicklime compat
+furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:slate>);
+furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:limestone>);
+furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:marble>);
