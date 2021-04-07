@@ -85,6 +85,16 @@
             <itemStack>immersiveengineering:material;1;7</itemStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="900" power="1024">
+		<input>
+			<itemStack>contenttweaker:calcined_crushed_marble;4</itemStack>
+            <oreDict>dustSilicon;3</oreDict>
+        </input>
+		<output>
+            <oreDict>dustMagnesium;2</oreDict>
+            <itemStack>immersiveengineering:material;5;7</itemStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="1920" power="800">
 		<input>
 			<fluidStack>liquidethene;1600</fluidStack>
@@ -340,7 +350,7 @@
     <Recipe timeRequired="2400" power="384">
 		<input>
             <oreDict>dustMagnesium;16</oreDict>
-            <fluidStack>titaniumtetrachloride;1600</fluidStack>
+            <fluidStack>titaniumtetrachloride;800</fluidStack>
         </input>
 		<output>
             <itemStack>libvulpes:productdust;8;7</itemStack>
@@ -361,7 +371,7 @@
     <Recipe timeRequired="2400" power="384">
 		<input>
             <oreDict>dustMagnesium;16</oreDict>
-            <fluidStack>zirconiumtetrachloride;1600</fluidStack>
+            <fluidStack>zirconiumtetrachloride;800</fluidStack>
         </input>
 		<output>
             <oreDict>dustZirconium;8</oreDict>

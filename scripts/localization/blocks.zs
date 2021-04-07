@@ -10,6 +10,7 @@ game.setLocalization("tile.contenttweaker.calcined_crushed_dolomite.name", "Calc
 //Fluxes
 game.setLocalization("tile.contenttweaker.crushed_limestone.name", "Crushed Limestone");
 game.setLocalization("tile.contenttweaker.crushed_marble.name", "Crushed Marble");
+game.setLocalization("tile.contenttweaker.calcined_crushed_marble.name", "Calcined Crushed Marble");
 
 //Ices
 game.setLocalization("tile.contenttweaker.oxygen_ice.name", "Oxygen Ice");

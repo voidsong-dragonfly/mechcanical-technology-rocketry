@@ -99,6 +99,7 @@ BlastFurnace.addRecipe(<rustic:dust_tiny_iron> * 3, <advancedrocketry:hotturf>, 
 
 //Dolomite recipes
 furnace.addRecipe(<contenttweaker:calcined_crushed_dolomite>, <contenttweaker:crushed_dolomite>);
+furnace.addRecipe(<contenttweaker:calcined_crushed_marble>, <contenttweaker:crushed_marble>);
 
 //Blaze Powder to sulfur & soul sand to nitrate (gunpowder!)
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
