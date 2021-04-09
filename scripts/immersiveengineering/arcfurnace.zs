@@ -17,7 +17,7 @@ ArcFurnace.addRecipe(<ore:ingotMaragingSteel>.firstItem * 20, <ore:ingotEquivale
 ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 2, <ore:ingotEquivalentIridium>, null, 800, 1024, [<ore:ingotEquivalentTitanium>], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<ore:ingotTungstensteel>.firstItem * 2, <ore:ingotEquivalentSteel>, null, 800, 1024, [<ore:ingotEquivalentTungsten>], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<ore:dustImpureRefinedGlowstone>.firstItem * 20, <ore:dustTin>, null, 1600, 512, [<ore:dustGlowstone> * 16, <ore:dustQuartz> * 3, <ore:dustEnderPearl> * 2], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<ore:dustImpureRefinedObsidian>.firstItem * 8, <ore:dustDiamond>, null, 1600, 512, [<ore:dustGallium>, <ore:dustObsidian> * 4, <ore:dustTungsten> * 4], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<ore:dustImpureRefinedObsidian>.firstItem * 8, <ore:dustDiamond>, null, 1600, 512, [<ore:dustGallium> * 3, <ore:dustObsidian> * 4, <ore:dustTungsten> * 2], "Alloying & Steelmaking");
 
 //Glassmaking and silicon production
 //Silicon Production

@@ -19,9 +19,15 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Circuit 
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]); 
 
-//Make "Machine Structures" blueprint craftable
-recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Machine Structures"}),
- [[null, <ore:ingotOsmium>, null],
+//Make "Solar Panels" blueprint craftable
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Solar Panels"}),
+ [[<ore:paneGlass>, <ore:plateAluminum>, <ore:paneGlass>],
+ [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+ [<ore:paper>, <ore:paper>, <ore:paper>]]);
+ 
+//Make "REDIA" blueprint craftable
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "REDIA"}),
+ [[null, <ore:dustDiamond>, null],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]);
 
@@ -114,8 +120,8 @@ Blueprint.addRecipe("Metal Press Secondary Molds", <ore:metalPressMoldSmallPipe>
 Blueprint.addRecipe("Metal Press Secondary Molds", <ore:metalPressMoldPipe>.firstItem, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("Metal Press Secondary Molds", <ore:metalPressMoldBarrel>.firstItem, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("Metal Press Secondary Molds", <ore:metalPressMoldWire>.firstItem, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);
-Blueprint.addRecipe("Metal Press Secondary Molds", <ore:heavyMetalPressDieBell>.firstItem, [<ore:blockSteel>, <earthworks:tool_compass>,  <immersiveengineering:tool:0>]);
-Blueprint.addRecipe("Metal Press Secondary Molds", <ore:heavyMetalPressDieScaffoldingPanel>.firstItem, [<ore:blockSteel>, <earthworks:tool_compass>, <immersiveengineering:tool:0>]);
+Blueprint.addRecipe("Metal Press Secondary Molds", <ore:heavyMetalPressDieBell>.firstItem, [<ore:blockSteel>, <earthworks:tool_compass:*>,  <immersiveengineering:tool:0>]);
+Blueprint.addRecipe("Metal Press Secondary Molds", <ore:heavyMetalPressDieScaffoldingPanel>.firstItem, [<ore:blockSteel>, <earthworks:tool_compass:*>, <immersiveengineering:tool:0>]);
 
 //Environmental Suit blueprint
 /*
