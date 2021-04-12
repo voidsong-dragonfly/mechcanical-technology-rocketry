@@ -169,9 +169,9 @@
 	</Recipe>
     <Recipe timeRequired="900" power="256">
 		<input>
-			<oreDict>circuitPlateNANDMemory;32</oreDict>
+			<oreDict>circuitPlateNANDMemory;12</oreDict>
             <oreDict>circuitPlateRandomAccessMemory;4</oreDict>
-            <oreDict>wirePGMAny;4</oreDict>
+            <oreDict>wirePGMAny;2</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
             <itemStack>mekanism:controlcircuit</itemStack>

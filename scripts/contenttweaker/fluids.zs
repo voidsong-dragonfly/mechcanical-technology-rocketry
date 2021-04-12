@@ -24,6 +24,8 @@ create_fluid("liquidnitrogen", "D1D9FF", 77, 750, 250);
 create_fluid("liquidair", "8FD0FF", 58, 870, 250);
 create_fluid("coldliquidoxygen", "61CFFE", 90, 1140, 250);
 create_fluid("coldliquidhydrogen", "EAF7F5", 20, 70, 250);
+create_fluid("liquidmethane", "E6E6FF", 90, 1140, 250);
+create_fluid("liquidhelium", "E3FFFE", 20, 70, 250);
 create_gas("argon", "97D8DF");
 create_gas("air", "C1E6FF");
 create_gas("carbondioxide", "FFFFFF");

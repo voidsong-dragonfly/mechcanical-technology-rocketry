@@ -31,6 +31,12 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "REDIA"})
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]);
 
+//Make "Advanced Armor" blueprint craftable
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Advanced Armor"}),
+ [[null, <ore:sheetTitaniumAluminide>, null],
+ [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+ [<ore:paper>, <ore:paper>, <ore:paper>]]);
+ 
 //Make "Fission Reactor Components" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Fission Reactor Components"}),
  [[<immersiveengineering:metal_device1:6>, <ore:ingotZirconiumNiobiumAlloy>, <immersiveengineering:metal_device1:6>],
@@ -39,7 +45,7 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Fission 
 
 //Make "Rocket Engine Components" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Rocket Engine Components"}),
- [[<immersiveengineering:metal_device1:6>, <ore:smallPipeTitanium, <immersiveengineering:metal_device1:6>],
+ [[<immersiveengineering:metal_device1:6>, <ore:smallPipeTitanium>, <immersiveengineering:metal_device1:6>],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]); 
  
@@ -131,7 +137,7 @@ Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_leggs>, [<i
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_boots>, [<immersiveengineering:steel_armor_feet>, <ore:plateTungsten>, <ore:fabricHemp> * 4, <ore:blockSlime>]);
 */
 Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacehelmet>, [<minecraft:leather_helmet>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:paneGlass>]);
-Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacechestplate>, [<minecraft:leather_chestplate>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <advancedrocketry:fueltank>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacechestplate>, [<minecraft:leather_chestplate>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <advancedrocketry:pressuretank:2>]);
 Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceleggings>, [<minecraft:leather_leggings>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <ore:stickSteel>]);
 Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceboots>, [<minecraft:leather_boots>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:plateSteel>]);
 

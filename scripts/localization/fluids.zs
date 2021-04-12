@@ -3,11 +3,13 @@ import crafttweaker.formatting.IFormattedText;
 
 
 
-//Cryogenic Distillation fluids and gasses
+//Cryogenic Distillation & liquefaction fluids and gasses
 game.setLocalization("fluid.liquidair", "Liquid Air");
 game.setLocalization("fluid.liquidnitrogen", "Liquid Nitrogen");
 game.setLocalization("fluid.coldliquidoxygen", "Liquid Oxygen");
 game.setLocalization("fluid.coldliquidhydrogen", "Liquid Hydrogen");
+game.setLocalization("fluid.liquidmethane", "Liquid Methane");
+game.setLocalization("fluid.liquidhelium", "Liquid Helium");
 game.setLocalization("fluid.air", "Air");
 game.setLocalization("gas.air", "Pressurized Air");
 game.setLocalization("fluid.carbondioxide", "Carbon Dioxide");

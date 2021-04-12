@@ -116,18 +116,38 @@ air_collection.addFluidOutput(<liquid:air> * 2000);
 air_collection.build();
 
 //Air Liquefaction
-var air_liquefaction = newBuilder("air_liquefaction", "gas_liquefaction_plant", 900);
-air_liquefaction.addEnergyPerTickInput(768);
-air_liquefaction.addFluidInput(<liquid:air> * 12000);
-air_liquefaction.addFluidOutput(<liquid:liquidair> * 12000);
+var air_liquefaction = newBuilder("air_liquefaction", "gas_liquefaction_plant", 49);
+air_liquefaction.addEnergyPerTickInput(960);
+air_liquefaction.addFluidInput(<liquid:air> * 1000);
+air_liquefaction.addFluidOutput(<liquid:liquidair> * 1000);
 air_liquefaction.build();
 
-//Nitrogen Liquefaction
-var nitrogen_liquefaction = newBuilder("nitrogen_liquefaction", "gas_liquefaction_plant", 900);
-nitrogen_liquefaction.addEnergyPerTickInput(768);
-nitrogen_liquefaction.addFluidInput(<liquid:nitrogengas> * 12000);
-nitrogen_liquefaction.addFluidOutput(<liquid:liquidnitrogen> * 12000);
+//Processed gas liquefaction
+var nitrogen_liquefaction = newBuilder("nitrogen_liquefaction", "gas_liquefaction_plant", 50);
+nitrogen_liquefaction.addEnergyPerTickInput(960);
+nitrogen_liquefaction.addFluidInput(<liquid:nitrogengas> * 1000);
+nitrogen_liquefaction.addFluidOutput(<liquid:liquidnitrogen> * 1000);
 nitrogen_liquefaction.build();
+var oxygen_liqeufaction = newBuilder("oxygen_liqeufaction", "gas_liquefaction_plant", 48);
+oxygen_liqeufaction.addEnergyPerTickInput(960);
+oxygen_liqeufaction.addFluidInput(<liquid:liquidoxygen> * 1000);
+oxygen_liqeufaction.addFluidOutput(<liquid:coldliquidoxygen> * 1000);
+oxygen_liqeufaction.build();
+var methane_liquefaction = newBuilder("methane_liquefaction", "gas_liquefaction_plant", 43);
+methane_liquefaction.addEnergyPerTickInput(960);
+methane_liquefaction.addFluidInput(<liquid:methane> * 1000);
+methane_liquefaction.addFluidOutput(<liquid:liquidmethane> * 1000);
+methane_liquefaction.build();
+var hydrogen_liquefaction = newBuilder("hydrogen_liquefaction", "gas_liquefaction_plant", 63);
+hydrogen_liquefaction.addEnergyPerTickInput(960);
+hydrogen_liquefaction.addFluidInput(<liquid:liquidhydrogen> * 1000);
+hydrogen_liquefaction.addFluidOutput(<liquid:coldliquidhydrogen> * 1000);
+hydrogen_liquefaction.build();
+var helium_liquefaction = newBuilder("helium_liquefaction", "gas_liquefaction_plant", 67);
+helium_liquefaction.addEnergyPerTickInput(960);
+helium_liquefaction.addFluidInput(<liquid:liquidhydrogen> * 1000);
+helium_liquefaction.addFluidOutput(<liquid:coldliquidhydrogen> * 1000);
+helium_liquefaction.build();
 
 
 
@@ -195,7 +215,7 @@ var optical_sensor = newBuilder("optical_sensor", "assembly_cleanroom", 900);
 optical_sensor.addEnergyPerTickInput(256);
 optical_sensor.addItemInput(<ore:lensGlass>, 3);
 optical_sensor.addItemInput(<libvulpes:productrod:7> * 2);
-optical_sensor.addItemInput(<mekanism:controlcircuit:1> * 4);
+optical_sensor.addItemInput(<mekanism:controlcircuit:1>);
 optical_sensor.addItemOutput(<advancedrocketry:satelliteprimaryfunction>);
 optical_sensor.build();
 var composition_sensor = newBuilder("composition_sensor", "assembly_cleanroom", 900);
