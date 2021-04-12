@@ -197,7 +197,6 @@ induction_tablet.build();
 var reaction_wheel = newBuilder("reaction_wheel", "assembly_cleanroom", 150);
 reaction_wheel.addEnergyPerTickInput(128);
 reaction_wheel.addItemInput(<ore:plateLead>, 3);
-reaction_wheel.addItemInput(<immersiveengineering:material:2>);
 reaction_wheel.addItemInput(<immersiveengineering:material:9>);
 reaction_wheel.addFluidInput(<liquid:lubricant> * 250);
 reaction_wheel.addItemOutput(<ore:reactionWheelItem>.firstItem);

@@ -11,23 +11,23 @@ recipes.remove(<advancedrocketry:asteroidchip>);
 recipes.remove(<advancedrocketry:spacestationchip>);
 recipes.remove(<advancedrocketry:planetidchip>);
 recipes.addShaped(<advancedrocketry:satelliteidchip>,
- [[<mekanism:configurator:*>, <ore:solderItem>, null],
+ [[<mekanism:configurator:*>.giveBack(), <ore:solderItem>, null],
  [null, <advancedrocketry:ic:1>, null],
  [null, null, null]]);
 recipes.addShaped(<advancedrocketry:asteroidchip>,
- [[<mekanism:configurator:*>, null, <ore:solderItem>],
+ [[<mekanism:configurator:*>.giveBack(), null, <ore:solderItem>],
  [null, <advancedrocketry:ic:1>, null],
  [null, null, null]]);
 recipes.addShaped(<advancedrocketry:elevatorchip>,
- [[<mekanism:configurator:*>, null, null],
+ [[<mekanism:configurator:*>.giveBack(), null, null],
  [null, <advancedrocketry:ic:1>, <ore:solderItem>],
  [null, null, null]]);
 recipes.addShaped(<advancedrocketry:spacestationchip>,
- [[<mekanism:configurator:*>, null, null],
+ [[<mekanism:configurator:*>.giveBack(), null, null],
  [null, <advancedrocketry:ic:1>, null],
  [null, null, <ore:solderItem>]]);
 recipes.addShaped(<advancedrocketry:planetidchip>,
- [[<mekanism:configurator:*>, null, null],
+ [[<mekanism:configurator:*>.giveBack(), null, null],
  [null, <advancedrocketry:ic:1>, null],
  [null, <ore:solderItem>, null]]);
 
