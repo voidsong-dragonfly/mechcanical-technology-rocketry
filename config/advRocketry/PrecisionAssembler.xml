@@ -44,7 +44,7 @@
 	</Recipe>
     <Recipe timeRequired="300" power="384">
 		<input>
-			<oreDict>circuitAdvanced</oreDict>
+			<oreDict>circuitBasic</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>plateCopper</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
@@ -55,7 +55,7 @@
 	</Recipe>
     <Recipe timeRequired="300" power="384">
 		<input>
-			<oreDict>circuitAdvanced</oreDict>
+			<oreDict>circuitBasic</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>plateGold</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
@@ -66,7 +66,7 @@
 	</Recipe>
     <Recipe timeRequired="300" power="384">
 		<input>
-			<oreDict>circuitAdvanced</oreDict>
+			<oreDict>circuitBasic</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>plateSilver</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
