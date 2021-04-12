@@ -89,7 +89,7 @@ recipes.remove(<advancedrocketry:solararraypanel>);
 recipes.remove(<advancedrocketry:solargenerator>);
 recipes.remove(<advancedrocketry:satellitepowersource>);
 recipes.remove(<advancedrocketry:satellitepowersource:1>);
-Blueprint.addRecipe("Solar Panels", <ore:solarPanelItem>.firstItem, [<ore:paneGlassColorless>, <ore:waferLithiumDopedSilicon>, <ore:plateAluminum>]);
+Blueprint.addRecipe("Solar Panels", <ore:solarPanelItem>.firstItem, [<ore:plateGlass>, <ore:waferLithiumDopedSilicon>, <ore:plateAluminum>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <ore:solarPanelItem>, <ore:solarPanelItem>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solararraypanel>, [<ore:scaffoldingPanelAluminium>, <ore:solarPanelItem>, <ore:solarPanelItem>]);
