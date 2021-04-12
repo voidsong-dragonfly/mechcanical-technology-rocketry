@@ -194,13 +194,13 @@ induction_tablet.addItemOutput(<ore:inductionTabletItem>.firstItem);
 induction_tablet.build();
 
 //Cleanroom satellite precision parts
-var reaction_wheel = newBuilder("reaction_wheel", "assembly_cleanroom", 600);
+var reaction_wheel = newBuilder("reaction_wheel", "assembly_cleanroom", 150);
 reaction_wheel.addEnergyPerTickInput(128);
-reaction_wheel.addItemInput(<ore:blockTungsten>, 1);
-reaction_wheel.addItemInput(<immersiveengineering:material:2> * 4);
-reaction_wheel.addItemInput(<immersiveengineering:material:9> * 4);
-reaction_wheel.addFluidInput(<liquid:lubricant> * 1000);
-reaction_wheel.addItemOutput(<ore:reactionWheelItem>.firstItem * 4);
+reaction_wheel.addItemInput(<ore:plateLead>, 3);
+reaction_wheel.addItemInput(<immersiveengineering:material:2>);
+reaction_wheel.addItemInput(<immersiveengineering:material:9>);
+reaction_wheel.addFluidInput(<liquid:lubricant> * 250);
+reaction_wheel.addItemOutput(<ore:reactionWheelItem>.firstItem);
 reaction_wheel.build();
 var satellite_chassis = newBuilder("satellite_chassis", "assembly_cleanroom", 1200);
 satellite_chassis.addEnergyPerTickInput(1024);
@@ -240,7 +240,7 @@ microwave_transmitter.addItemInput(<immersiveposts:metal_rods:3> * 2);
 microwave_transmitter.addItemInput(<ore:wireSilver>, 4);
 microwave_transmitter.addItemInput(<libvulpes:productsheet:9> * 8);
 microwave_transmitter.addItemInput(<mekanism:controlcircuit:2>);
-microwave_transmitter.addItemInput(<ore:mechanicalComponentSteel>, 2);
+microwave_transmitter.addItemInput(<ore:mechanicalComponentSteel>);
 microwave_transmitter.addItemOutput(<advancedrocketry:satelliteprimaryfunction:3>);
 microwave_transmitter.build();
 var ore_scanner = newBuilder("ore_scanner", "assembly_cleanroom", 900);

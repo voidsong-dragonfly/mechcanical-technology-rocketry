@@ -182,8 +182,8 @@
 	</Recipe>
     <Recipe timeRequired="450" power="256">
 		<input>
-			<oreDict>circuitPlateRandomAccessMemory;8</oreDict>
-            <oreDict>circuitPlateIntegratedCircuit;2</oreDict>
+			<oreDict>circuitPlateRandomAccessMemory;4</oreDict>
+            <oreDict>circuitPlateIntegratedCircuit;1</oreDict>
             <oreDict>circuitPlateNANDMemory</oreDict>
             <itemStack>immersiveengineering:material;2;22</itemStack>
             <oreDict>solderItem;4</oreDict>
