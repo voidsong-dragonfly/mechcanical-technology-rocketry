@@ -28,6 +28,11 @@ slag.addFluidInput(<liquid:moltenslag> * 1200);
 slag.addItemOutput(<immersiveengineering:material:7> * 12);
 slag.build();
 
+//Needed crusher recipes
+Crusher.addRecipe(<ore:dustFluorite>.firstItem * 2, <ore:oreFluorite>.firstItem, 2400);
+Crusher.addRecipe(<ore:dustCinnabar>.firstItem * 2, <ore:oreCinnabar>.firstItem, 2400);
+Crusher.addRecipe(<ore:dustCinnabar>.firstItem * 2, <ore:oreNetherCinnabar>.firstItem, 2400);
+
 //Aluminium Processing
 var washed_bauxite_ore_dust = newBuilder("washed_bauxite_ore_dust", "sluice", 600);
 washed_bauxite_ore_dust.addItemInput(<mekores:mekanismore:33> * 24);

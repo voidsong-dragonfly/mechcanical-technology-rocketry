@@ -9,5 +9,5 @@ recipes.addShaped(<tetra:hammer_base>,
  [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
 recipes.addShaped(<tetra:magmatic_cell:128>,
  [[null, <ore:sheetSteel>, <ore:mechanicalComponentSteel>],
- [<ore:sheetSteel>, <ore:paneGlass>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <ore:plateGlass>, <ore:sheetSteel>],
  [<ore:mechanicalComponentSteel>, <ore:sheetSteel>, null]]);

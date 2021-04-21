@@ -17,9 +17,11 @@ recipes.remove(<advancedrocketry:rocketmotor>);
 recipes.remove(<advancedrocketry:bipropellantrocketmotor>);
 removeAndHide(<advancedrocketry:advrocketmotor>);
 recipes.remove(<advancedrocketry:advbipropellantrocketmotor>);
+recipes.remove(<advancedrocketry:nuclearrocketmotor>);
 recipes.remove(<advancedrocketry:fueltank>);
 recipes.remove(<advancedrocketry:bipropellantfueltank>);
 recipes.remove(<advancedrocketry:oxidizerfueltank>);
+recipes.remove(<advancedrocketry:nuclearfueltank>);
  
 //Landing pad needs launchpad
 recipes.replaceAllOccurences(<advancedrocketry:concrete>, <advancedrocketry:launchpad>, <advancedrocketry:landingpad>);
@@ -57,7 +59,7 @@ recipes.addShaped(<advancedrocketry:rocketbuilder>,
 
 //Wireless transciever to use basic circuits
 recipes.remove(<advancedrocketry:wirelesstransciever>);
-recipes.addShaped(<advancedrocketry:wirelesstransciever> * 2,
+recipes.addShaped(<advancedrocketry:wirelesstransciever> * 4,
  [[<mekanism:polyethene:2>, <ore:sheetAluminum>, <mekanism:polyethene:2>],
  [<ore:circuitBasic>, <advancedrocketry:dataunit>, <ore:circuitBasic>],
  [<mekanism:polyethene:2>, <ore:sheetAluminum>, <mekanism:polyethene:2>]]);

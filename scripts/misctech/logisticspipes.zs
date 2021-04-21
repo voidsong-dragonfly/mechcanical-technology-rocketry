@@ -88,9 +88,17 @@ recipes.addShaped(<logisticspipes:pipe_transport_basic>,
  [<ore:paneGlass>, null, <ore:paneGlass>],
  [<ore:stickCopper>, <ore:paneGlass>, <ore:stickCopper>]]);
 recipes.addShaped(<logisticspipes:pipe_transport_basic>,
+ [[<ore:stickCopper>, <ore:plateGlass>, <ore:stickCopper>],
+ [<ore:plateGlass>, null, <ore:plateGlass>],
+ [<ore:stickCopper>, <ore:plateGlass>, <ore:stickCopper>]]);
+recipes.addShaped(<logisticspipes:pipe_transport_basic>,
  [[<ore:stickAluminum>, <ore:paneGlass>, <ore:stickAluminum>],
  [<ore:paneGlass>, null, <ore:paneGlass>],
  [<ore:stickAluminum>, <ore:paneGlass>, <ore:stickAluminum>]]);
+recipes.addShaped(<logisticspipes:pipe_transport_basic>,
+ [[<ore:stickAluminum>, <ore:plateGlass>, <ore:stickAluminum>],
+ [<ore:plateGlass>, null, <ore:plateGlass>],
+ [<ore:stickAluminum>, <ore:plateGlass>, <ore:stickAluminum>]]);
 recipes.addShaped(<logisticspipes:pipe_basic>,
  [[<logisticspipes:chip_basic>],
  [<logisticspipes:pipe_transport_basic>],
