@@ -144,6 +144,8 @@ game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Urani
 game.setLocalization("index.page_0_entry.13", "Uranium Dioxide");
 
 //Modular Machinery hatches
+game.setLocalization("tile.modularmachinery.blockinputbus.tiny.name", "Fission Reactor Fuel Bundle Holder Input");
+game.setLocalization("tile.modularmachinery.blockoutputbus.tiny.name", "Fission Reactor Fuel Bundle Holder Output");
 game.setLocalization("tile.modularmachinery.blockinputbus.small.name", "Input Bus");
 game.setLocalization("tile.modularmachinery.blockoutputbus.small.name", "Output Bus");
 game.setLocalization("tile.modularmachinery.blockfluidinputhatch.normal.name", "Input Hatch");

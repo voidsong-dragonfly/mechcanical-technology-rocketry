@@ -2,61 +2,13 @@
     "registryname": "fission_reactor_calandria",
     "localizedname": "Fission Reactor Calandria",
     "color": "545454",
-    "modifiers": [
-        {
-            "x": [-2, -1, 0, 1, 2],
-            "y": [-5, -4, -3, -2, -1],
-            "z": 3,
-            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:fission_reactor_fuel_bundle_standard_sub_0"}},
-            "elements": [
-                "modularmachinery:blockcontroller"
-            ],
-            "description": "Each fuel bundle increases heat output",
-            "modifier": {
-                "io": "input",
-                "target": "fluid",
-                "operation": 0,
-                "multiplier": 10
-            }
-        },
-        {
-            "x": [-2, -1, 0, 1, 2],
-            "y": [-5, -4, -3, -2, -1],
-            "z": 3,
-            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:fission_reactor_fuel_bundle_standard_sub_0"}},
-            "elements": [
-                "modularmachinery:blockcontroller"
-            ],
-            "modifier": {
-                "io": "output",
-                "target": "fluid",
-                "operation": 0,
-                "multiplier": 10
-            }
-        },
-        {
-            "x": [-2, -1, 0, 1, 2],
-            "y": [-5, -4, -3, -2, -1],
-            "z": 3,
-            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:fission_reactor_fuel_bundle_standard_sub_0"}},
-            "elements": [
-                "modularmachinery:blockcontroller"
-            ],
-            "modifier": {
-                "io": "input",
-                "target": "mekheat",
-                "operation": 0,
-                "multiplier": 2
-            }
-        }
-    ],
     "parts": [
         {
             "x": -3,
             "y": -4,
             "z": -2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -72,7 +24,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -104,1602 +56,1602 @@
             "y": -6,
             "z": 5,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
             "x": 0,
             "y": -6,
             "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -5,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -4,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -5,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -3,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -4,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -6,
+            "z": -4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@14"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockinputbus@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -1,
             "elements": [
                 "modularmachinery:blockfluidinputhatch@2"
             ]
         },
         {
-            "x": 1,
-            "y": -6,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": -1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockoutputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": -5,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": -5,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": -5,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": -5,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -4,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -5,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -3,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -2,
-            "z": -2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -6,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -6,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -6,
-            "z": -4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "modularmachinery:blockinputbus@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
             "x": -1,
             "y": 0,
             "z": 1,
@@ -1720,7 +1672,7 @@
             "y": -4,
             "z": -3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1736,7 +1688,7 @@
             "y": -2,
             "z": -2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1752,7 +1704,7 @@
             "y": -3,
             "z": -2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1760,7 +1712,7 @@
             "y": -5,
             "z": -3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1768,7 +1720,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1776,7 +1728,7 @@
             "y": -5,
             "z": -3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1784,7 +1736,7 @@
             "y": -3,
             "z": -2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1792,7 +1744,7 @@
             "y": -1,
             "z": -1,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1800,7 +1752,7 @@
             "y": -4,
             "z": -2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1808,7 +1760,7 @@
             "y": -2,
             "z": -1,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1816,7 +1768,7 @@
             "y": -6,
             "z": -3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1824,7 +1776,7 @@
             "y": -6,
             "z": -3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         },
         {
@@ -1832,175 +1784,7 @@
             "y": -6,
             "z": -3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@13"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -5,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -2,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -3,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -4,
-            "z": -3,
-            "elements": [
-                "modulardiversity:blockmekheatinput@0"
+                "contenttweaker:sub_block_holder_0@14"
             ]
         }
     ]}

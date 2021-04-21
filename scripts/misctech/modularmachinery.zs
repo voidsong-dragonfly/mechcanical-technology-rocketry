@@ -13,7 +13,6 @@ hide(<modulardiversity:blockmekheatoutput>);
 hide(<modulardiversity:blockdaylightdetector>);
 hide(<modulardiversity:blockweatherdetector>);
 removeAndHide(<modularmachinery:itemmodularium>);
-removeAndHide(<modularmachinery:blockinputbus:0>);
 removeAndHide(<modularmachinery:blockinputbus:2>);
 removeAndHide(<modularmachinery:blockinputbus:3>);
 removeAndHide(<modularmachinery:blockinputbus:4>);
@@ -21,7 +20,6 @@ removeAndHide(<modularmachinery:blockinputbus:5>);
 removeAndHide(<modularmachinery:blockinputbus:6>);
 removeAndHide(<modularmachinery:blockcasing:2>);
 removeAndHide(<modularmachinery:blockcasing:3>);
-removeAndHide(<modularmachinery:blockoutputbus:0>);
 removeAndHide(<modularmachinery:blockoutputbus:2>);
 removeAndHide(<modularmachinery:blockoutputbus:3>);
 removeAndHide(<modularmachinery:blockoutputbus:4>);
@@ -89,6 +87,14 @@ recipes.addShaped(<modularmachinery:blockcontroller>,
  [[<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>]]);
+recipes.addShaped(<modularmachinery:blockinputbus:0>,
+ [[<ore:sheetSteel>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <ore:frameZirconiumNiobiumAlloy>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, null, <ore:sheetSteel>]]);
+recipes.addShaped(<modularmachinery:blockoutputbus:0>,
+ [[<ore:sheetSteel>, null, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <ore:frameZirconiumNiobiumAlloy>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcasing:5>, 
  [[<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],

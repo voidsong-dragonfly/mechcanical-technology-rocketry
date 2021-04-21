@@ -7,20 +7,20 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@195",
+            "item": "contenttweaker:material_part@196",
             "amount": 9,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@195",
+            "item": "contenttweaker:material_part@196",
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:material_part@197",
+            "item": "contenttweaker:material_part@198",
             "amount": 1
         },
         {
@@ -28,7 +28,7 @@
             "io-type": "input",
             "temperatureRequiredMin": 1200,
             "temperatureRequiredMax": 1810,
-            "temperature": 2
+            "temperature": 0
         }
     ]
 }

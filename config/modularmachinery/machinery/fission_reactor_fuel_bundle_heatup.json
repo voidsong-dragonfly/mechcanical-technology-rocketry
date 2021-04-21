@@ -1,5 +1,5 @@
 {
-    "registryname": "fission_reactor_fuel_bundle",
+    "registryname": "fission_reactor_fuel_bundle_heatup",
     "localizedname": "Fission Reactor Fuel Bundle Assembly Holder",
     "color": "545454",
     "modifiers": [
@@ -88,7 +88,7 @@
             "x": 0,
             "y": 0,
             "z": 6,
-            "nbt": {"below1800":"1b","below1200":"0b"},
+            "nbt": {"below1200":"1b"},
             "elements": [
                 "modulardiversity:blockmekheatinput"
             ]

@@ -1,89 +1,89 @@
 {
     "machine": "fission_reactor_calandria",
-    "registryName": "fission_reactor_calandria",
+    "registryName": "fission_reactor_calandria_lithiated",
     "recipeTime": 1,
     "requirements": [
-        {
+         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@199",
+            "item": "contenttweaker:material_part@200",
             "amount": 1,
             "chance": 0.0
         },
@@ -93,24 +93,6 @@
             "fluid": "lithiatedwater",
             "amount": 60000,
             "chance": 0.0
-        },
-        {
-            "type": "fluid",
-            "io-type": "input",
-            "fluid": "distwater",
-            "amount": 0
-        },
-        {
-            "type": "fluid",
-            "io-type": "output",
-            "fluid": "superheatedwater",
-            "amount": 0
-        },
-        {
-            "type": "mekheat",
-            "io-type": "input",
-            "temperatureRequiredMin": 1500,
-            "temperature": 0
         }
     ]
 }

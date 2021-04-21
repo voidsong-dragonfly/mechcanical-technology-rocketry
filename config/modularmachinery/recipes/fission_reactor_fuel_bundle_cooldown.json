@@ -1,5 +1,5 @@
 {
-    "machine": "fission_reactor_fuel_bundle",
+    "machine": ["fission_reactor_fuel_bundle_heatup", "fission_reactor_fuel_bundle", "fission_reactor_fuel_bundle_overheat"],
     "registryName": "fission_reactor_fuel_bundle_cooldown",
     "recipeTime": 1,
     "priority": 4,

@@ -1,26 +1,26 @@
 {
-    "machine": "fission_reactor_fuel_bundle",
+    "machine": "fission_reactor_fuel_bundle_overheat",
     "registryName": "fission_reactor_fuel_bundle_overheat",
-    "recipeTime": 4000,
+    "recipeTime": 400,
     "priority": 1,
     "requirements": [
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@195",
+            "item": "contenttweaker:material_part@196",
             "amount": 9
         },
         {
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:material_part@196",
+            "item": "contenttweaker:material_part@197",
             "amount": 9
         },
         {
             "type": "mekheat",
             "io-type": "input",
             "temperatureRequiredMin": 1800,
-            "temperature": 2
+            "temperature": 0
         }
     ]
 }

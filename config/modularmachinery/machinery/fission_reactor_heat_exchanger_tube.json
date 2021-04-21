@@ -1,0 +1,91 @@
+{
+    "registryname": "fission_reactor_heat_exchanger_tube",
+    "localizedname": "Fission Reactor Heat Exchanger Tube",
+    "color": "545454",
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:fission_reactor_fuel_bundle_standard_sub_0"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "description": "Processes one fuel bundle's worth of working fluid. Will vent steam if there is no place to output it",
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 10
+            }
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:fission_reactor_fuel_bundle_overheat_sub_0"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "modifier": {
+                "io": "input",
+                "target": "fluid",
+                "operation": 0,
+                "multiplier": 10
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_device1@6",
+                "modularmachinery:blockfluidoutputhatch@1",
+                "modularmachinery:blockcontroller"
+                
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 10,
+            "nbt": {"activeRecipe":{"recipeName":"modularmachinery:fission_reactor_fuel_bundle_standard_sub_0"}},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 12,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@15"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 13,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 14,
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        }
+    ]}

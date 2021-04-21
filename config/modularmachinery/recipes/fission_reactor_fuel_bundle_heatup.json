@@ -1,5 +1,5 @@
 {
-    "machine": "fission_reactor_fuel_bundle",
+    "machine": "fission_reactor_fuel_bundle_heatup",
     "registryName": "fission_reactor_fuel_bundle_heatup",
     "recipeTime": 1,
     "priority": 3,
@@ -7,7 +7,7 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@195",
+            "item": "contenttweaker:material_part@196",
             "amount": 9,
             "chance": 0.0
         },
@@ -15,7 +15,7 @@
             "type": "mekheat",
             "io-type": "input",
             "temperatureRequiredMax": 1210,
-            "temperature": 2
+            "temperature": 0
         }
     ]
 }
