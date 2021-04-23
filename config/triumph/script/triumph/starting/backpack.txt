@@ -1,0 +1,7 @@
+setIcon(<leatherworks:pack_brown>)
+setTitle("External frame superiority")
+setDescription("Craft a backpack to help carry items")
+addParent("triumph:starting/leather")
+criteria = addCriteria("backpack", "minecraft:inventory_changed")
+criteria.addItem(<leatherworks:pack_brown>)
+setPos(75,-110)

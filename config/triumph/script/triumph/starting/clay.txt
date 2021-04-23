@@ -1,0 +1,7 @@
+setIcon(<minecraft:clay>)
+setTitle("Not yet bricks")
+setDescription("Clay is useful for concrete, coking, and various high-temperature furnaces")
+addParent("triumph:starting/root")
+criteria = addCriteria("clay", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:clay_ball>)
+setPos(-275,-140)

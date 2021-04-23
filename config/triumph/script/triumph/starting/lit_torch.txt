@@ -1,0 +1,7 @@
+setIcon(<realistictorches:torch_lit>)
+setTitle("Let there be light!")
+setDescription("Use a campfire to light an unlit torch")
+addParent("triumph:starting/campfire")
+criteria = addCriteria("lit_torch", "minecraft:inventory_changed")
+criteria.addItem(<realistictorches:torch_lit>)
+setPos(-135,115)

@@ -1,0 +1,8 @@
+setIcon(<futuremc:campfire>)
+setTitle("Basic heat and light")
+setDescription("Craft a campfire for torch lighting and food cooking")
+addParent("triumph:starting/rocks")
+addParent("triumph:starting/crude_axe")
+criteria = addCriteria("campfire", "minecraft:inventory_changed")
+criteria.addItem(<futuremc:campfire>)
+setPos(-205,115)

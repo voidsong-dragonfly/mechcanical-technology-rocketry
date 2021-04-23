@@ -1,0 +1,7 @@
+setIcon(<minecraft:flint_and_steel>)
+setTitle("Does not contain magnesium")
+setDescription("Craft a flint and steel to light fires, torches, and gunpowder barrels with")
+addParent("triumph:starting/iron")
+criteria = addCriteria("flint_and_steel", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:flint_and_steel>)
+setPos(-170,-140)

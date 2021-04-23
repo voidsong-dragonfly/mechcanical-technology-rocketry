@@ -1,0 +1,7 @@
+setIcon(<minecraft:brick_block>)
+setTitle("Heatproof construction")
+setDescription("Craft bricks, needed for all basic IE heat-based multiblocks")
+addParent("triumph:starting/clay")
+criteria = addCriteria("brick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:brick_block>)
+setPos(-240,-170)

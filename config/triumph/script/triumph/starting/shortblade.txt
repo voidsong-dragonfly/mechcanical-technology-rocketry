@@ -1,0 +1,7 @@
+setIcon(<tetra:sword_modular, meta:0, count:1, nbt:{honing_progress:270,"sword/guard":"sword/makeshift_guard","sword/basic_hilt_material":"basic_hilt/oak",HideFlags:1,"sword/short_blade_material":"short_blade/iron","sword/makeshift_guard_material":"makeshift_guard/iron","sword/hilt":"sword/basic_hilt","sword/blade":"sword/short_blade","sword/pommel":"sword/decorative_pommel","sword/decorative_pommel_material":"decorative_pommel/iron"}>)
+setTitle("Sgt. Stabby's armament")
+setDescription("Craft a shortblade to start making leather")
+addParent("triumph:starting/t3_hammer")
+criteria = addCriteria("shortblade", "minecraft:inventory_changed")
+criteria.addItem(<tetra:sword_modular, meta:0, count:1, nbt:{"sword/blade":"sword/short_blade"}>)
+setPos(-100,-50)

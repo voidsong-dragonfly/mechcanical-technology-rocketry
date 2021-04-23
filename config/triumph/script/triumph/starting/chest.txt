@@ -1,0 +1,7 @@
+setIcon(<minecraft:chest>)
+setTitle("Storage solutions, unimpaired")
+setDescription("Craft a chest to store your items in")
+addParent("triumph:starting/crafting_table")
+criteria = addCriteria("chest", "minecraft:inventory_changed")
+criteria.addItem(<ore:chest>)
+setPos(-170,80)

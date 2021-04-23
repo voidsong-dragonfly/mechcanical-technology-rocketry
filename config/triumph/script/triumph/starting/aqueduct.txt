@@ -1,0 +1,7 @@
+setIcon(<aqueducts:aqueduct>)
+setTitle("Built like a true Roman citizen")
+setDescription("Create an aqueduct to easily move infinite water from rivers")
+addParent("triumph:starting/clay")
+criteria = addCriteria("aqueduct", "minecraft:inventory_changed")
+criteria.addItem(<aqueducts:aqueduct>)
+setPos(-240,-140)

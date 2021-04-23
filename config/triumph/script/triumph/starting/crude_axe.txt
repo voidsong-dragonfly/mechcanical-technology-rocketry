@@ -1,0 +1,8 @@
+setIcon(<flintmod:axe_flint>)
+setTitle("Not a battleaxe")
+setDescription("Craft a flint hatchet for woodcutting")
+addParent("triumph:starting/flint")
+addParent("triumph:starting/sticks")
+criteria = addCriteria("flint_axe", "minecraft:inventory_changed")
+criteria.addItem(<flintmod:axe_flint>)
+setPos(-240,50)

@@ -1,0 +1,8 @@
+setIcon(<flintmod:hoe_flint>)
+setTitle("Tilling the land")
+setDescription("Craft a flint hoe to start growing crops")
+addParent("triumph:starting/flint")
+addParent("triumph:starting/sticks")
+criteria = addCriteria("flint_hoe", "minecraft:inventory_changed")
+criteria.addItem(<flintmod:hoe_flint>)
+setPos(-240,90)

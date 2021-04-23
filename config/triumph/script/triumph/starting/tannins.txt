@@ -1,0 +1,7 @@
+setIcon(<leatherworks:tannin_ball>)
+setTitle("Not a source of UV radiation")
+setDescription("Scrape some bark off a log with a shortblade, then turn it into tannins")
+addParent("triumph:starting/t3_hammer")
+criteria = addCriteria("tannins", "minecraft:inventory_changed")
+criteria.addItem(<leatherworks:tannin_ball>)
+setPos(-65,-50)

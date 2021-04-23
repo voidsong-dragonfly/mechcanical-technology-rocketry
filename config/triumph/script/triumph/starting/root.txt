@@ -1,0 +1,8 @@
+setIcon(<minecraft:compass>)
+setTitle("Starting a journey")
+setDescription("From nothing to metallic tools")
+setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
+setShowToast(false)
+setAnnounceToChat(false)
+setPos(-310,50)
+addCriteria("location", "minecraft:location")

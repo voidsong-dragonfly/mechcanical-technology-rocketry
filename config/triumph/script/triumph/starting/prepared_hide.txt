@@ -1,0 +1,8 @@
+setIcon(<leatherworks:crafting_leather_soaked>)
+setTitle("Not soaked in creosote")
+setDescription("Tan your washed hide in a tannin-filled cauldron")
+addParent("triumph:starting/washed_hide")
+addParent("triumph:starting/tannin_bucket")
+criteria = addCriteria("tanned_hide", "minecraft:inventory_changed")
+criteria.addItem(<leatherworks:crafting_leather_soaked>)
+setPos(5,-95)

@@ -1,0 +1,7 @@
+setIcon(<quark:chute>)
+setTitle("Not a flame-grilled whopper")
+setDescription("Craft a chute, a worse hopper")
+addParent("triumph:starting/chest")
+criteria = addCriteria("chute", "minecraft:inventory_changed")
+criteria.addItem(<quark:chute>)
+setPos(-135,80)

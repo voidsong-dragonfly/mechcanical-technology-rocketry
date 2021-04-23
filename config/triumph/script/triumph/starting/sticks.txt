@@ -1,0 +1,7 @@
+setIcon(<minecraft:stick>)
+setTitle("A primitive tool rod")
+setDescription("Acquire a stick from the ground or leaves")
+addParent("triumph:starting/root")
+criteria = addCriteria("stick", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:stick>)
+setPos(-275,65)

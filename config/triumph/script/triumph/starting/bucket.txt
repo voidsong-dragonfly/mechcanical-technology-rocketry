@@ -1,0 +1,7 @@
+setIcon(<minecraft:bucket>)
+setTitle("Slosh slosh")
+setDescription("Craft a bucket, to carry fluids with")
+addParent("triumph:starting/iron")
+criteria = addCriteria("bucket", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bucket>)
+setPos(-170,-80)

@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:tool>)
+setTitle("HAMMAH!")
+setDescription("Craft or steal an engineer's hammer")
+addParent("triumph:starting/leather")
+criteria = addCriteria("hammer", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:tool>)
+setPos(75,-140)

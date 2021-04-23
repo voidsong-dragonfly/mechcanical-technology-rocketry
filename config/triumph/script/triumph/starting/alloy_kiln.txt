@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:stone_device:7>)
+setTitle("Mix and cast")
+setDescription("Form an alloy kiln to make advanced alloys")
+addParent("triumph:starting/engineers_hammer")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:AlloyKiln")
+setPos(110,-140)

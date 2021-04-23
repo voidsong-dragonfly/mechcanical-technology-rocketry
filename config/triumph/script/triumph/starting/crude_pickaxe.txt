@@ -1,0 +1,8 @@
+setIcon(<flintmod:pickaxe_flint>)
+setTitle("Flint Pickaxe")
+setDescription("Craft a flint pickaxe for ore collection")
+addParent("triumph:starting/flint")
+addParent("triumph:starting/sticks")
+criteria = addCriteria("flint_pickaxe", "minecraft:inventory_changed")
+criteria.addItem(<flintmod:pickaxe_flint>)
+setPos(-240,10)

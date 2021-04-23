@@ -1,0 +1,7 @@
+setIcon(<minecraft:crafting_table>)
+setTitle("A larger table")
+setDescription("Craft a crafting table for 3x3 recipes")
+addParent("triumph:starting/crude_axe")
+criteria = addCriteria("table", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:crafting_table>)
+setPos(-205,80)

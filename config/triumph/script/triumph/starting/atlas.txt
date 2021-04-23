@@ -1,0 +1,7 @@
+setIcon(<antiqueatlas:empty_antique_atlas>)
+setTitle("Handwritten notes")
+setDescription("Craft an atlas to aid you in your travels")
+addParent("triumph:starting/book")
+criteria = addCriteria("atlas", "minecraft:inventory_changed")
+criteria.addItem(<antiqueatlas:empty_antique_atlas>)
+setPos(110,-80)

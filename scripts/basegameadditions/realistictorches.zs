@@ -24,7 +24,7 @@ recipes.remove(<futuremc:campfire>);
 recipes.addShaped(<futuremc:campfire>,
  [[null, <ore:stickWood>, null],
  [<ore:stickWood>, <ore:logWood>, <ore:stickWood>],
- [<ore:logWood>, <ore:cobblestone>, <ore:logWood>]]);
+ [<ore:rocks>, <ore:logWood>, <ore:rocks>]]);
 //Matchbox requires sulfur, use a campfire
 recipes.remove(<realistictorches:matchbox>);
 recipes.addShaped(<realistictorches:matchbox>,

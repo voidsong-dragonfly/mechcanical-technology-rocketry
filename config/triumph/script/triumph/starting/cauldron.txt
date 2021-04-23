@@ -1,0 +1,7 @@
+setIcon(<minecraft:cauldron>)
+setTitle("Useable for soup")
+setDescription("Craft a cauldron for use in leatherwork")
+addParent("triumph:starting/iron")
+criteria = addCriteria("cauldron", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cauldron>)
+setPos(-170,-110)

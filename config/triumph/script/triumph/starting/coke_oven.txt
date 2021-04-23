@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:stone_device:0>)
+setTitle("Simple pyrolysis, coal edition")
+setDescription("Form a coke oven to start collecting creostoe and making coal coke")
+addParent("triumph:starting/engineers_hammer")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:CokeOven")
+setPos(110,-170)

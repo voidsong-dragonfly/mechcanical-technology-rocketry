@@ -1,0 +1,7 @@
+setIcon(<minecraft:book>)
+setTitle("Not stolen from a village library")
+setDescription("Craft or steal a book to help craft an atlas")
+addParent("triumph:starting/leather")
+criteria = addCriteria("book", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:book>)
+setPos(75,-80)

@@ -1,0 +1,7 @@
+setIcon(<pvj:stone_rocks>)
+setTitle("Stony disposition")
+setDescription("Pick up some rocks off the ground for another source of gravel")
+addParent("triumph:starting/root")
+criteria = addCriteria("rocks", "minecraft:inventory_changed")
+criteria.addItem(<ore:rocks>)
+setPos(-275, 115)

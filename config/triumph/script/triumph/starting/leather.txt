@@ -1,0 +1,7 @@
+setIcon(<leatherworks:leather_sheet>)
+setTitle("White as a sheet")
+setDescription("Leather sheet, crafted from leather made on a drying rack, is how leather is used")
+addParent("triumph:starting/prepared_hide")
+criteria = addCriteria("leather_sheet", "minecraft:inventory_changed")
+criteria.addItem(<leatherworks:leather_sheet>)
+setPos(40,-95)

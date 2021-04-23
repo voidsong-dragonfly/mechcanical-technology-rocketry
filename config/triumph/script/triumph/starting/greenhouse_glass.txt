@@ -1,0 +1,7 @@
+setIcon(<sereneseasons:greenhouse_glass>)
+setTitle("Crop growth rectification")
+setDescription("Craft greemhouse glass to remove the problematic effects of winter on crops placed below")
+addParent("triumph:starting/glass")
+criteria = addCriteria("greenhouse_glass", "minecraft:inventory_changed")
+criteria.addItem(<sereneseasons:greenhouse_glass>)
+setPos(-205,-200)
