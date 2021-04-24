@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:material:18>)
+setTitle("Purified Organized Carbon")
+setDescription("Craft HOP graphite, for electrodes and other high-end products")
+addParent("triumph:basic_tech/crusher")
+addParent("triumph:basic_tech/squeezer")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:18>)
+setPos(-95,-140)

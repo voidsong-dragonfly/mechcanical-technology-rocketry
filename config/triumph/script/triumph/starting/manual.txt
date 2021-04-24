@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:tool:3>)
+setTitle("RTFM!")
+setDescription("Craft an Engineer's Manual so you can stop asking Blu dumb questions")
+addParent("triumph:starting/book")
+criteria = addCriteria("manual", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:tool:3>)
+setPos(110,-50)

@@ -1,0 +1,7 @@
+setIcon(<minecraft:obsidian>)
+setTitle("Thinking With Portals")
+setDescription("Mine some obsidian with a steel pick")
+addParent("triumph:basic_tech/steel")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:obsidian>)
+setPos(-200,-200)

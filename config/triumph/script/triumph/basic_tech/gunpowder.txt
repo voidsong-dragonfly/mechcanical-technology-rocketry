@@ -1,0 +1,8 @@
+setIcon(<minecraft:gunpowder>)
+setTitle("Explosive Hit")
+setDescription("Craft it, loot it, or kill a mob to obtain gunpowder")
+addParent("triumph:basic_tech/sulfur")
+addParent("triumph:basic_tech/nitrate")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:gunpowder>)
+setPos(-200,-80)

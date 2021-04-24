@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:3>)
+setTitle("Simplistic Tungsten Refinery")
+setDescription("Craft tungsten ingots, for advanced machinery and drill heads")
+addParent("triumph:basic_tech/arc_furnace")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotTungsten>)
+setPos(-25,-95)

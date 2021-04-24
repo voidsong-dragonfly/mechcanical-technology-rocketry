@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_device1:9>)
+setTitle("Aziz! Light!")
+setDescription("Craft a floodlight for a large cone of light")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:9>)
+setPos(-275,-230)

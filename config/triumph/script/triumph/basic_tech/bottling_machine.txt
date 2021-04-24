@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:6>)
+setTitle("Cachunk Cachunk")
+setDescription("Form a bottling machine for injection molding and concrete pouring")
+addParent("triumph:basic_tech/improved_blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BottlingMachine")
+setPos(-130,-65)

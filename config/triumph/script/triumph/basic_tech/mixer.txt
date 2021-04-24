@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:15>)
+setTitle("Industrial Dough Machine")
+setDescription("Form a mixer for liquid concrete and potion manufacture")
+addParent("triumph:basic_tech/improved_blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Mixer")
+setPos(-130,-95)

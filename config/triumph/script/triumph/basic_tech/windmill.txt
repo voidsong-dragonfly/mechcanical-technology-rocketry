@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:wooden_device1:1>)
+setTitle("Windmill for the Land")
+setDescription("Craft a windmill to place upon your kinetic dynamo")
+addParent("triumph:basic_tech/kinetic_dynamo")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device1:1>)
+setPos(-235,35)

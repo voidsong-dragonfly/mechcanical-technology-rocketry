@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:stone_device:2>)
+setTitle("Next Level Blasting")
+setDescription("Form an improved blast furnace to produce steel much quicker")
+addParent("triumph:basic_tech/blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnaceAdvanced")
+setPos(-165,-140)

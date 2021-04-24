@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:conveyor>)
+setTitle("Road to Nowhere")
+setDescription("Craft a conveyor belt for basic item transport")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:conveyor>)
+setPos(-275,-200)

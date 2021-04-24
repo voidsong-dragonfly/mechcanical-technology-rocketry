@@ -1,0 +1,7 @@
+setIcon(<engineersdecor:gas_concrete>)
+setTitle("From Beans We Came")
+setDescription("Craft gas concrete, a lighter form of concrete that is cheaper")
+addParent("triumph:basic_tech/liquid_concrete")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<engineersdecor:gas_concrete>)
+setPos(-60,-65)

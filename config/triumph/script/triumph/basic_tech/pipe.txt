@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_device1:6>)
+setTitle("Fluid Transport Done Right")
+setDescription("Craft a pipe to transfer fluids without buckets")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:6>)
+setPos(-275,-260)

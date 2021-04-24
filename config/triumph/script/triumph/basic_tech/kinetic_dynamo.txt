@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_device1:2>)
+setTitle("Coiled Energy")
+setDescription("Craft a kinetic dynamo for basic power generation")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:2>)
+setPos(-275,20)

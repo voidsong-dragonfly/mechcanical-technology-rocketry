@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:0>)
+setTitle("Pressing Matters")
+setDescription("Form a metal press for more efficient metal manufacture")
+addParent("triumph:basic_tech/improved_blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:MetalPress")
+setPos(-130,-35)

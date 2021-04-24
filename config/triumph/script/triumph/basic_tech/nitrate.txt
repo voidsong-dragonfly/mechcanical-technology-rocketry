@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:material:24>)
+setTitle("Gunpowder Ingredience")
+setDescription("Craft some saltpeter from a crusher or the blast furnace")
+addParent("triumph:basic_tech/blast_furnace")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustSaltpeter>)
+setPos(-235,-65)

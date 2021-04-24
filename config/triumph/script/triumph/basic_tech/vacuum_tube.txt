@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:material:26>)
+setTitle("Electrical Wonders")
+setDescription("Craft a vacuum tube, for use in circuits")
+addParent("triumph:basic_tech/component_blueprint")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:26>)
+setPos(-200,95)

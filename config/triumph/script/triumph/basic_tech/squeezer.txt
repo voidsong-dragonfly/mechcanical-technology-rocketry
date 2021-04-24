@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:7>)
+setTitle("Does Not Operate by Implosion")
+setDescription("Form a squeezer for HOP graphite and plant oil")
+addParent("triumph:basic_tech/improved_blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Squeezer")
+setPos(-130,-125)

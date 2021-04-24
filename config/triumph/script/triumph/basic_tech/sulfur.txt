@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:material:25>)
+setTitle("Sulfurous Fumes")
+setDescription("Craft some sulfur from a crusher or the blast furnace")
+addParent("triumph:basic_tech/blast_furnace")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustSulfur>)
+setPos(-235,-95)

@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"Circuit Assembly"}>)
+setTitle("Synthetic Computational Constructs")
+setDescription("Craft a circuitry blueprint to get a start on circuit creation")
+addParent("triumph:basic_tech/workbench")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"Circuit Assembly"}>)
+setPos(-235,65)

@@ -1,0 +1,8 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"concrete",Amount:1000}>)
+setTitle("Liquefaction Operation")
+setDescription("Craft liquid concrete, for use in the bottling machine or in-world")
+addParent("triumph:basic_tech/mixer")
+addParent("triumph:basic_tech/bottling_machine")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"concrete",Amount:1000}>)
+setPos(-95,-80)

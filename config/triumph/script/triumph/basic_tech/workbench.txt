@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:wooden_device0:2>)
+setTitle("Time to Tinker")
+setDescription("Craft an engineer's workbench to get started on more advanced technology")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device0:2>)
+setPos(-275,65)

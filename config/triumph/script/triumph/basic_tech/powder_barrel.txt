@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:wooden_device0:4>)
+setTitle("(Un)Shaped Charges")
+setDescription("Craft a gunpowder barrel, a lossless version of TNT that's great for mining")
+addParent("triumph:basic_tech/gunpowder")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device0:4>)
+setPos(-165,-80)

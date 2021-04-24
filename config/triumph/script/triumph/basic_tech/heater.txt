@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_device1:1>)
+setTitle("Spread the Warmth")
+setDescription("Craft an external heater to speed up furnaces")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device1:1>)
+setPos(-275,-170)

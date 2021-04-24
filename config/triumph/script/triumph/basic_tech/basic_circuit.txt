@@ -1,0 +1,8 @@
+setIcon(<mekanism:controlcircuit>)
+setTitle("Can Run DOOM")
+setDescription("Craft a basic circuit for your first computing processor - The start of the Circuits page")
+addParent("triumph:basic_tech/first_circuit")
+addParent("triumph:basic_tech/basic_board")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:controlcircuit>)
+setPos(-130,35)

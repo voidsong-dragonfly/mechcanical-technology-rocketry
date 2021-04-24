@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:stone_device:1>)
+setTitle("Really Hot Topic")
+setDescription("Form a blast furnace to produce steel")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:BlastFurnace")
+setPos(-275,-110)

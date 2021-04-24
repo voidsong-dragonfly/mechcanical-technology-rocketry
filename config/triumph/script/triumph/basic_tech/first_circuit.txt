@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:material:27>)
+setTitle("ENIAC v0.1")
+setDescription("Craft a circuit board for the most basic of arithmetic")
+addParent("triumph:basic_tech/insulating_glass")
+addParent("triumph:basic_tech/vacuum_tube")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:27>)
+setPos(-165,65)

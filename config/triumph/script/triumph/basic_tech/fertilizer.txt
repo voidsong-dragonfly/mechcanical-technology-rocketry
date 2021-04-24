@@ -1,0 +1,7 @@
+setIcon(<forestry:fertilizer_compound>)
+setTitle("Fertile Soil")
+setDescription("Craft some fertilizer from saltpeter, or other methods")
+addParent("triumph:basic_tech/nitrate")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forestry:fertilizer_compound>)
+setPos(-200,-50)

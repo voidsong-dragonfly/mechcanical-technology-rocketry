@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:11>)
+setTitle("Diggy Diggy Hole")
+setDescription("Form an excavator for automated ore mining")
+addParent("triumph:basic_tech/sample_drill")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Excavator")
+setPos(-95,-215)

@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal:8>)
+setTitle("The Upgrade")
+setDescription("Craft a steel ingot, used in most machinery")
+addParent("triumph:basic_tech/blast_furnace")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotSteel>)
+setPos(-235,-140)

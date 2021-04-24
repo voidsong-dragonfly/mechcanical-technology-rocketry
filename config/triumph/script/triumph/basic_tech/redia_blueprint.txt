@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"REDIA"}>)
+setTitle("Fortunate tool")
+setDescription("Craft a REDIA Blueprint to Create and Repair the REDIA Tool")
+addParent("triumph:basic_tech/workbench")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"REDIA"}>)
+setPos(-235,125)

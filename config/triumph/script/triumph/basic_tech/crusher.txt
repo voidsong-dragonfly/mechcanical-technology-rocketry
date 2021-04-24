@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:1>)
+setTitle("Hazardous Machinery")
+setDescription("Form a crusher for ore doubling and other grinding tasks")
+addParent("triumph:basic_tech/improved_blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Crusher")
+setPos(-130,-155)

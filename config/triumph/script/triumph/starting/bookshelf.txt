@@ -1,0 +1,7 @@
+setIcon(<minecraft:bookshelf>)
+setTitle("Stacks of knowledge")
+setDescription("Craft a bookshelf for enchanting or decoration")
+addParent("triumph:starting/book")
+criteria = addCriteria("bookshelf", "minecraft:inventory_changed")
+criteria.addItem(<ore:bookshelf>)
+setPos(110,-20)

@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:wooden_device0:3>)
+setTitle("Sorting System Basics")
+setDescription("Craft an item router to sort items")
+addParent("triumph:basic_tech/conveyor")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device0:3>)
+setPos(-235,-200)

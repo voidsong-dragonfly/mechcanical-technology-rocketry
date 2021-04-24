@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_device0:5>)
+setTitle("Under Pressure")
+setDescription("Craft a pump to pressurize pipes or suck liquids from the world")
+addParent("triumph:basic_tech/pipe")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:metal_device0:5>)
+setPos(-235,-275)

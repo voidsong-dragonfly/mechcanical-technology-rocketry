@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_multiblock:8>)
+setTitle("Not for Vodka Production")
+setDescription("Form a fermenter to make ethanol from")
+addParent("triumph:basic_tech/improved_blast_furnace")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Fermenter")
+setPos(-130,-185)

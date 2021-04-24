@@ -1,0 +1,7 @@
+setIcon(<engineersdecor:treated_wood_crafting_table>)
+setTitle("Next Level Crafting")
+setDescription("Craft a treated wood crafting table for a table that stores items and remembers recipes")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<engineersdecor:treated_wood_crafting_table>)
+setPos(-275,-10)

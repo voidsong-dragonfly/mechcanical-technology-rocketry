@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:wooden_device0:7>)
+setTitle("State Comparison Not Included")
+setDescription("Craft a fluid router to sort fluids")
+addParent("triumph:basic_tech/pipe")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:wooden_device0:7>)
+setPos(-235,-245)
