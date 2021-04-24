@@ -1,0 +1,7 @@
+setIcon(<immersivepetroleum:stone_decoration>)
+setTitle("Black Gravel Mixture")
+setDescription("Craft some asphalt concrete from your leftover bitumen")
+addParent("triumph:petroleum_tech/bitumen")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersivepetroleum:stone_decoration>)
+setPos(-205,140)

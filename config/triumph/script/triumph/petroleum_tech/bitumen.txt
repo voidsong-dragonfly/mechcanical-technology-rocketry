@@ -1,0 +1,7 @@
+setIcon(<immersivepetroleum:material>)
+setTitle("Sticky Residue")
+setDescription("Acquire bitumen as a byproduct of oil distillation")
+addParent("triumph:petroleum_tech/oil")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersivepetroleum:material>)
+setPos(-240,170)

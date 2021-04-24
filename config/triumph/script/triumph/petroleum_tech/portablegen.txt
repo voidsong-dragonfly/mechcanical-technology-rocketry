@@ -1,0 +1,7 @@
+setIcon(<immersivepetroleum:metal_device:1>)
+setTitle("Punching Above Paygrade")
+setDescription("Craft a portable generator, which can run on gasoline, naphtha, or ethanol")
+addParent("triumph:petroleum_tech/gasoline")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersivepetroleum:metal_device:1>)
+setPos(-205,80)

@@ -1,0 +1,7 @@
+setIcon(<immersivetech:metal_multiblock:3>)
+setTitle("Rankine Would be Proud")
+setDescription("Form a steam turbine to turn steam into rotational power")
+addParent("triumph:petroleum_tech/boiler")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:SteamTurbine")
+setPos(-100,35)

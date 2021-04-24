@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"ethanol",Amount:1000}>)
+setTitle("Cannot Be Used In Rockets")
+setDescription("Acquire a bucket of ethanol from sweet crops")
+addParent("triumph:petroleum_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"ethanol",Amount:1000}>)
+setPos(-275,-70)

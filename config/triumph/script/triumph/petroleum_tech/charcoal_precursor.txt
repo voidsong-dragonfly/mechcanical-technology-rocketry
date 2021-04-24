@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:150>)
+setTitle("Residual Fuel")
+setDescription("Craft charcoal precursor to turn your sawdust into a cleaner-burning fuel")
+addParent("triumph:petroleum_tech/bitumen")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:sludgeCharcoalPrecursor>)
+setPos(-205,200)

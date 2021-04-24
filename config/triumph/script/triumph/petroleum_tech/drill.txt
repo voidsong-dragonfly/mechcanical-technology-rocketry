@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:drill>)
+setTitle("Power Pick")
+setDescription("Craft a drill to get 3x3 mining and a powerful mining tool")
+addParent("triumph:petroleum_tech/biodiesel")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:drill>)
+setPos(-170,-55)

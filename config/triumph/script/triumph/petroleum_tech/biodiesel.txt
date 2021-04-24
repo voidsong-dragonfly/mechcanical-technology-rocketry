@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"biodiesel",Amount:1000}>)
+setTitle("Biological Fuel Source")
+setDescription("Acquire a bucket of biodiesel from plant oil and ethanol")
+addParent("triumph:petroleum_tech/refinery")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"biodiesel",Amount:1000}>)
+setPos(-205,-55)

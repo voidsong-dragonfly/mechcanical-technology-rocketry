@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidmethane",Amount:1000}>)
+setTitle("Used in the Raptor Engine")
+setDescription("Acquire a bucket of liquid methane from the liquefaction methane")
+addParent("triumph:petroleum_tech/methane")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidmethane",Amount:1000}>)
+setPos(-205,380)

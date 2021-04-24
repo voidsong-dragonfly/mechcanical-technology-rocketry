@@ -1,0 +1,7 @@
+setIcon(<immersivetech:metal_multiblock1:2>)
+setTitle("Efficiency King Throne Reclaim")
+setDescription("Form a heat exchanger to dramatically increase fuel efficiency with gas turbine CCGT")
+addParent("triumph:petroleum_tech/gasturbine")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:HeatExchanger")
+setPos(-100,5)

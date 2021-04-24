@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"refinerygas",Amount:1000}>)
+setTitle("Better for the Environment #2")
+setDescription("Acquire a bucket of refinery gas from hydrotreating natural gas")
+addParent("triumph:petroleum_tech/gas")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"refinerygas",Amount:1000}>)
+setPos(-240,260)

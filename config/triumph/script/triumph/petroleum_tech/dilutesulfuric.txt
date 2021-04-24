@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"dilutedsulfuricacid",Amount:1000}>)
+setTitle("Diluted Sulfuric Acid Problems")
+setDescription("Acquire a bucket of diluted sulfuric acid as a byproduct of ethylene manufacture from ethanol")
+addParent("triumph:petroleum_tech/ethanol")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"dilutedsulfuricacid",Amount:1000}>)
+setPos(-240,-130)

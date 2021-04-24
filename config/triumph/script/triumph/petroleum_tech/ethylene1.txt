@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidethene",Amount:1000}>)
+setTitle("Ethylene Production, Route #1")
+setDescription("Acquire a bucket of ethylene from the dehydration of ethanol")
+addParent("triumph:petroleum_tech/ethanol")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidethene",Amount:1000}>)
+setPos(-240,-100)

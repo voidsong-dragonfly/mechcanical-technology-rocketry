@@ -1,0 +1,7 @@
+setIcon(<immersivepetroleum:metal_device>)
+setTitle("Lubrication Automation")
+setDescription("Craft an automatic lubricator for speeding up multiblocks using plant oil or lubricant")
+addParent("triumph:petroleum_tech/lubricant")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersivepetroleum:metal_device>)
+setPos(-205,-10)

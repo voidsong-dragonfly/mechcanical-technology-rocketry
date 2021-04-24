@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"crackednaphtha",Amount:1000}>)
+setTitle("Chainbreaker")
+setDescription("Acquire a bucket of cracked naphtha from cracking naphtha")
+addParent("triumph:petroleum_tech/naphtha")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"crackednaphtha",Amount:1000}>)
+setPos(-205,110)

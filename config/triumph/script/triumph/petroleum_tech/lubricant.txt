@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lubricant",Amount:1000}>)
+setTitle("Not Suitable for Personal Use")
+setDescription("Acquire a bucket of lubricant from oil distillation")
+addParent("triumph:petroleum_tech/oil")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lubricant",Amount:1000}>)
+setPos(-240,-10)

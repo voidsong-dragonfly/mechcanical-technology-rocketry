@@ -1,0 +1,7 @@
+setIcon(<immersivetech:metal_multiblock1:0>)
+setTitle("Not A Straight Upgrade")
+setDescription("Form a gas turbine to be able to easily burn any fuel, at an efficiency penalty")
+addParent("triumph:petroleum_tech/dieselgenerator")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IT:GasTurbine")
+setPos(-135,5)

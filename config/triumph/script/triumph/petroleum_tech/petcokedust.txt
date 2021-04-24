@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:127>)
+setTitle("Carbon Black Substitude")
+setDescription("Acquire petroleum coke dust from cracking methane, a very viable source of coke")
+addParent("triumph:petroleum_tech/cracked_methane")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustPetroleumCoke>)
+setPos(-170,335)

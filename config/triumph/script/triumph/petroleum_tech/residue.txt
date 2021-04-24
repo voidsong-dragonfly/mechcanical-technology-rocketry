@@ -1,0 +1,7 @@
+setIcon(<mekanism:biofuel>)
+setTitle("A Useful Useless Byproduct")
+setDescription("Acquire lightly sulfated ethanol residue from distilling diluted sulfuric acid, useable in fertilizer")
+addParent("triumph:petroleum_tech/dilutesulfuric")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:biofuel>)
+setPos(-205,-130)

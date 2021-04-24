@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"methane",Amount:1000}>)
+setTitle("The Stovetop Fuel of Choice")
+setDescription("Acquire a bucket of methane from natural gas distillation")
+addParent("triumph:petroleum_tech/gas")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"methane",Amount:1000}>)
+setPos(-240,350)

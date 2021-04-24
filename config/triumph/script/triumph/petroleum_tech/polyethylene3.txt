@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"polyethene",Amount:1000}>)
+setTitle("Plastic Production Process")
+setDescription("Acquire a bucket of molten polyethylene from the polymerization of ethylene")
+addParent("triumph:petroleum_tech/ethylene3")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"polyethene",Amount:1000}>)
+setPos(-65,290)

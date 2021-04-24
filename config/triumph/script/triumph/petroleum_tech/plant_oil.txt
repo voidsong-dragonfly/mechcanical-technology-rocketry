@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"plantoil",Amount:1000}>)
+setTitle("Not CBD Oil")
+setDescription("Acquire a bucket of plant oil from seeds")
+addParent("triumph:petroleum_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"plantoil",Amount:1000}>)
+setPos(-275,-40)

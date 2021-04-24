@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium",Amount:1000}>)
+setTitle("Funny Voice Air")
+setDescription("Acquire a bucket of helium from natural gas distillation")
+addParent("triumph:petroleum_tech/gas")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium",Amount:1000}>)
+setPos(-240,320)

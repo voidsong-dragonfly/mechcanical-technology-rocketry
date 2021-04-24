@@ -1,0 +1,8 @@
+setIcon(<immersiveengineering:metal_multiblock:9>)
+setTitle("Mix and Merge")
+setDescription("Form a refinery multiblock to make biodiesel")
+addParent("triumph:petroleum_tech/plant_oil")
+addParent("triumph:petroleum_tech/ethanol")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IE:Refinery")
+setPos(-240,-55)
