@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:ic:3>)
+setTitle("Item Sorting PLC")
+setDescription("Craft a item I/O control circuit, for use in AR multiblock machinery")
+addParent("triumph:circuit_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:ic:3>)
+setPos(-275,20)

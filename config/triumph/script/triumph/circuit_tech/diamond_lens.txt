@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:165>)
+setTitle("Sparkles like the Sun")
+setDescription("Make a diamond lens for use in making RAM wafers")
+addParent("triumph:circuit_tech/laser_engraver1")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:lensDiamond>)
+setPos(-30,110)

@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:172>)
+setTitle("Part of your SSD")
+setDescription("Etch a wafer into a NAND Memory wafer")
+addParent("triumph:circuit_tech/emerald_lens")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:waferNANDMemory>)
+setPos(5,80)

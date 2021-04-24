@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:171>)
+setTitle("Centrally Distributed")
+setDescription("Craft a CPU wafer for advanced circuits")
+addParent("triumph:circuit_tech/etched_plate")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:waferCentralProcessingUnit>)
+setPos(-135,95)

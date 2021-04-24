@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:184>)
+setTitle("Acid Burns are Good for You")
+setDescription("Etch a combined CPU plate to get a circuit wafer")
+addParent("triumph:circuit_tech/combined_plate")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:etchedWaferCentralProcessingUnit>)
+setPos(-170,95)

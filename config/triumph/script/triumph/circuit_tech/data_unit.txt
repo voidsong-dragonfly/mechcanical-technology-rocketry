@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:dataunit>)
+setTitle("Use SQL for Data Retrieval")
+setDescription("Craft a data unit for data storage and all things handling data")
+addParent("triumph:circuit_tech/nand_wafer")
+addParent("triumph:circuit_tech/ram_wafer")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:dataunit>)
+setPos(40,110)

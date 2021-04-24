@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:180>)
+setTitle("Nickel Negative")
+setDescription("Craft a CPU etching plate to make advanced circuits")
+addParent("triumph:circuit_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:etchingPlateCentralProcessingUnit>)
+setPos(-240,80)

@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:ic:1>)
+setTitle("Included in Every Mobile Phone")
+setDescription("Craft a tracking circuit for use in GPS units and AR destination chips")
+addParent("triumph:circuit_tech/nand_wafer")
+addParent("triumph:circuit_tech/ram_wafer")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:ic:1>)
+setPos(40,80)

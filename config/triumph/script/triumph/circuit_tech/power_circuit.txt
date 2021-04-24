@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:ic:4>)
+setTitle("Load Balancer Extreme")
+setDescription("Craft an energy I/O control circuit, for use in AR multiblock machinery")
+addParent("triumph:circuit_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:ic:4>)
+setPos(-275,-10)

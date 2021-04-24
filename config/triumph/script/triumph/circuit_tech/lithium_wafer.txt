@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:168>)
+setTitle("Cheating At Sports")
+setDescription("Craft a lithium-doped silicon wafer, for SoC plates")
+addParent("triumph:circuit_tech/thermal")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:waferLithiumDopedSilicon>)
+setPos(-30,170)

@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:crystallizer>)
+setTitle("Microgravity Micromanufacturing")
+setDescription("Form a crystallizer to make processor crystals and cheaper boules")
+addParent("triumph:circuit_tech/elite_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:crystallizer>)
+setPos(145,50)

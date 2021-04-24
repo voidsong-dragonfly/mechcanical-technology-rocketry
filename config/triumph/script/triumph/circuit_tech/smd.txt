@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:material_part:193>)
+setTitle("Miniaturized Electronics")
+setDescription("Craft SMD resistors for advanced circuits and cheaper basic circuits")
+addParent("triumph:circuit_tech/assembly_cleanroom")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:smdResistor>)
+setPos(-135,-10)
+hideLines()

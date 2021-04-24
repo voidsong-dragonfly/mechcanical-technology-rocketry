@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:material_part:182>)
+setTitle("Preparations for Departure")
+setDescription("Craft a CPU etching plate with a wafer to get a prepared wafer")
+addParent("triumph:circuit_tech/advanced_etch")
+addParent("triumph:circuit_tech/silicon_wafer")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:preparedWaferCentralProcessingUnit>)
+setPos(-205,95)

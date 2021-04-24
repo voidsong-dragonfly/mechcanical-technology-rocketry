@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:precisionassemblingmachine>)
+setTitle("Comes from IKEA")
+setDescription("Form a precision assembler for more complicated assembly tasks")
+addParent("triumph:circuit_tech/advanced_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:precisionassemblingmachine>)
+setPos(-65,50)

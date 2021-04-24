@@ -1,0 +1,7 @@
+setIcon(<mekanism:basicblock:14>)
+setTitle("The Opposite of Distillation")
+setDescription("Form a thermal evaporation plant to make lithium for circuits")
+addParent("triumph:circuit_tech/advanced_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:basicblock:14>)
+setPos(-65,170)

@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:precisionlaseretcher>)
+setTitle("Sliiide to the Left")
+setDescription("Form a precision laser engraver for more advanced circuit pieces")
+addParent("triumph:circuit_tech/advanced_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:precisionlaseretcher>)
+setPos(-65,80)

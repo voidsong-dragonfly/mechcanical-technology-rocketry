@@ -1,0 +1,7 @@
+setIcon(<modularmachinery:blockcasing:1>)
+setTitle("Dust Supression Required")
+setDescription("Form an assembly cleanroom for basic circuit construction")
+addParent("triumph:circuit_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<modularmachinery:blockcasing:1>)
+setPos(-135,50)

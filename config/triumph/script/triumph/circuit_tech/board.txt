@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:190>)
+setTitle("Better Backing Board")
+setDescription("Craft plastic circuit boards resistors for advanced circuits and cheaper basic circuits")
+addParent("triumph:circuit_tech/assembly_cleanroom")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:circuitBoardPlastic>)
+setPos(-135,20)

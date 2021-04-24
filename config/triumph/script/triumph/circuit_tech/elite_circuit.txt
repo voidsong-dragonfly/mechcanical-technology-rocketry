@@ -1,0 +1,8 @@
+setIcon(<mekanism:controlcircuit:2>)
+setTitle("Space Age Innovation")
+setDescription("Craft an elite circuit for space-age computing")
+addParent("triumph:circuit_tech/advanced_circuit")
+addParent("triumph:circuit_tech/gps_unit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:controlcircuit:2>)
+setPos(110,50)

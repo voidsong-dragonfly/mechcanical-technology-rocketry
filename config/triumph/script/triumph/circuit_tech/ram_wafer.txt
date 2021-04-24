@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:174>)
+setTitle("Not vRAM, Not for Graphics")
+setDescription("Etch a wafer into a RAM wafer")
+addParent("triumph:circuit_tech/diamond_lens")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:waferRandomAccessMemory>)
+setPos(5,110)

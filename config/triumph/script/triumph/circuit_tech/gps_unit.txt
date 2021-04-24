@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:material_part:194>)
+setTitle("Relativistic Tracking Network")
+setDescription("Craft a GPS unit for use in Elite and Ultimate circuits")
+addParent("triumph:circuit_tech/data_unit")
+addParent("triumph:circuit_tech/tracking_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:gpsUnitItem>)
+setPos(75,95)
