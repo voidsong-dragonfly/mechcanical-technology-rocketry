@@ -1,0 +1,7 @@
+setIcon(<mekanism:configurator>)
+setTitle("Soldering Iron Supreme")
+setDescription("Craft a configurator to do advanced configuration and chip soldering")
+addParent("triumph:advanced_tech/energy_tablet")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:configurator>)
+setPos(-205,140)

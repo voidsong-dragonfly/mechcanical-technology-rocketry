@@ -1,0 +1,7 @@
+setIcon(<mekanism:polyethene:2>)
+setTitle("Injection Molded to Perfection")
+setDescription("Craft a HDPE sheet from molten polyethylene, and preferably in bulk")
+addParent("triumph:advanced_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:polyethene:2>)
+setPos(-275,125)

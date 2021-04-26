@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:railgun>)
+setTitle("Fortune's Legacy")
+setDescription("Craft a railgun, to deal high damage with a slow charge time")
+addParent("triumph:advanced_tech/supercapacitor")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:railgun>)
+setPos(-205,110)

@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:12>)
+setTitle("Does Not Obstruct Neutrons")
+setDescription("Acquire a zirconium ingot")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotZirconium>)
+setPos(-275,185)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

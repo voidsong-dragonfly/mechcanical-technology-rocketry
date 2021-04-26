@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:sub_block_holder_0:6>)
+setTitle("Shelled From Above")
+setDescription("Extrude a steel barrel shell, used for steel barrels and the Tetra steam hammer")
+addParent("triumph:advanced_tech/barrel")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:machineCasingSteelBarrelShell>)
+setPos(-205,-145)

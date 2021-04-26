@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquiddeuterium",Amount:1000}>)
+setTitle("Slightly Over Twice The Mass")
+setDescription("Acquire a bucket of deuterium from electrolysing heavy water")
+addParent("triumph:nuclear/heavy_water")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquiddeuterium",Amount:1000}>)
+setPos(-240,5)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

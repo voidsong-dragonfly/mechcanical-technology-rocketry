@@ -1,0 +1,10 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"uraniumhexafluoride_000",Amount:1000}>)
+setTitle("Depleted For Good")
+setDescription("Acquire depleted enriched uranium hexafluoride from 0.7% enriched uranium hexafluoride")
+addParent("triumph:nuclear/naturaluf6")
+addParent("triumph:nuclear/centrifuge")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"uraniumhexafluoride_000",Amount:1000}>)
+setPos(-135,155)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

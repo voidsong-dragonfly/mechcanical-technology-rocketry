@@ -10,4 +10,3 @@ criteria0.addItem(<immersiveengineering:metal_device1:7>)
 criteria1 = addCriteria("criteria1", "immersiveengineering:multiblock_formed")
 criteria1.setMultiblock("IE:Fermenter")
 setRequirements("any")
-

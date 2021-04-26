@@ -1,0 +1,7 @@
+setIcon(<mekanism:machineblock2:6>)
+setTitle("Refined Sensibilities")
+setDescription("Craft a chemical dissolution chamber, the first step in cleaning refined dusts")
+addParent("triumph:advanced_tech/mekanism")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock2:6>)
+setPos(-170,260)

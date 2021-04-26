@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:110>)
+setTitle("Caution: Do Not Inhale Dust")
+setDescription("Acquire fluorite dust from the Nether")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustFluorite>)
+setPos(-275,35)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

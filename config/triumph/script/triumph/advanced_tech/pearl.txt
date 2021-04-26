@@ -1,0 +1,7 @@
+setIcon(<minecraft:ender_pearl>)
+setTitle("Teleportation Fabrication")
+setDescription("Inject a soul bead with stygian acid to have an easier method for obtaining ender pearls")
+addParent("triumph:advanced_tech/injection")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:ender_pearl>)
+setPos(-135,230)

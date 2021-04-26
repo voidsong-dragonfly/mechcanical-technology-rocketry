@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:mold:1>)
+setTitle("Gearing Up for Action")
+setDescription("Craft a gear metal press mold, for extruding gears in a single step")
+addParent("triumph:advanced_tech/extrusion")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:mold:1>)
+setPos(-240,-70)

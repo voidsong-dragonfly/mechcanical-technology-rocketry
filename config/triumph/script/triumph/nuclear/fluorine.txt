@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"fluorine",Amount:1000}>)
+setTitle("Does Not Use Potassium")
+setDescription("Acquire a bucket of fluorine from the electrolysis of hydrofluoric acid")
+addParent("triumph:nuclear/hydrofluoric")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"fluorine",Amount:1000}>)
+setPos(-205,50)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

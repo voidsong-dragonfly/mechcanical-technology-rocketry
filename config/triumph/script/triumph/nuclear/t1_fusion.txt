@@ -1,0 +1,10 @@
+setIcon(<contenttweaker:sub_block_holder_0:10>)
+setTitle("A 'Basic' 800 Million Kelvin")
+setDescription("Form the smallest diameter fusion reactor, only capable of fusing deuterium and tritium")
+addParent("triumph:nuclear/deuterium")
+addParent("triumph:nuclear/tritium")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:machineCasingSuperconductiveCoil>)
+setPos(285,5)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

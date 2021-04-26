@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium3",Amount:1000}>)
+setTitle("Fusion fuel #4")
+setDescription("Helium-3 is the second-heaviest fusion fuel, and one of the more useful for its combinations give the most energy per reaction. It is, however, not found on Earth and can only be found elsewhere in the solar system")
+addParent("triumph:nuclear/t1_fusion")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium3",Amount:1000}>)
+setPos(320,50)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

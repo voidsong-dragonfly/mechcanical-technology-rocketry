@@ -1,0 +1,7 @@
+setIcon(<minecraft:piston>)
+setTitle("Push and Pull")
+setDescription("Form an extrusion press multiblock for cheaper pipes and better manufacturing [Any extrusion mold will complete]")
+addParent("triumph:advanced_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:material_part, meta:218~221, count:1>)
+setPos(-275,-115)

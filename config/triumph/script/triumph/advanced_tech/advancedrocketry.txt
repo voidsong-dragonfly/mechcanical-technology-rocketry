@@ -1,0 +1,7 @@
+setIcon(<libvulpes:structuremachine>)
+setTitle("Structural Member")
+setDescription("Craft a machine structure from plastic, aluminium, and an advanced circuit. Elite circuits make this dramatically cheaper")
+addParent("triumph:advanced_tech/machines1")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<libvulpes:structuremachine>)
+setPos(-205,50)

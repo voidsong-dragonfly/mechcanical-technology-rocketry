@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:cuttingmachine>)
+setTitle("Midget Saw")
+setDescription("Form a cutting machine to cut wood more efficiently, produce sawdust, and cut crystals into plates for lenses")
+addParent("triumph:advanced_tech/advancedrocketry")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:cuttingmachine>)
+setPos(-170,80)

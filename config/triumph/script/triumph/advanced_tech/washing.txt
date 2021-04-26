@@ -1,0 +1,7 @@
+setIcon(<mekanism:machineblock2:7>)
+setTitle("Not Done With a Washboard")
+setDescription("Craft a chemical washer, the second step in cleaning refined dusts")
+addParent("triumph:advanced_tech/dissolution")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock2:7>)
+setPos(-135,260)

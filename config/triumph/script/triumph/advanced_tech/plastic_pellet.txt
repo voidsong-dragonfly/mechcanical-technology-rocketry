@@ -1,0 +1,7 @@
+setIcon(<mekanism:polyethene:0>)
+setTitle("#2 Is Always Recyclable")
+setDescription("Grind up a plastic object into plastic pellets to recycle it")
+addParent("triumph:advanced_tech/plastic")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:polyethene:0>)
+setPos(-240,80)

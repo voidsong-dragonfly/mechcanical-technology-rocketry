@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part, meta:220, count:1>)
+setTitle("Single-Pass Construction")
+setDescription("Craft a pipe metal press mold, for extruding pipes for significantly cheaper")
+addParent("triumph:advanced_tech/extrusion")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:metalPressMoldPipe>)
+setPos(-240,-130)

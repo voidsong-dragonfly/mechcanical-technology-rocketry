@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:211>)
+setTitle("Not Pressure-Inflated")
+setDescription("Extrude a fuel tank shell from titanium")
+addParent("triumph:advanced_tech/barrel")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:fuelTankShellItem>)
+setPos(-205,-175)

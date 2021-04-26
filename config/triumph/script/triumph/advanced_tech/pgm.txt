@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:2>)
+setTitle("Pick a Platinum, any Platinum")
+setDescription("Acquire any type of platinum-group metal ingot")
+addParent("triumph:advanced_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotPGMAny>)
+setPos(-275,230)

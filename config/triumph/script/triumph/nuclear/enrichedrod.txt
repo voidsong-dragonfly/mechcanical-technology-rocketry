@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:50>)
+setTitle("The Shape of a Fuel Rod")
+setDescription("Craft lightly enriched uranium dioxide rods from lightly enriched uranium dioxide ingots")
+addParent("triumph:nuclear/enrichedingot")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:stickLightlyEnrichedUraniumDioxide>)
+setPos(110,95)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

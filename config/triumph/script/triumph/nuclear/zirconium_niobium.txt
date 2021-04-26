@@ -1,0 +1,10 @@
+setIcon(<contenttweaker:material_part:5>)
+setTitle("Reactor Tube Alloy")
+setDescription("Mix zirconium and niobium together to get an alloy suitable for reactor internals")
+addParent("triumph:nuclear/zirconium")
+addParent("triumph:nuclear/niobium")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotZirconiumNiobiumAlloy>)
+setPos(-240,200)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

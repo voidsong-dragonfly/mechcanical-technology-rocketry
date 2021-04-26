@@ -102,7 +102,7 @@ recipes.addShaped(<mekanism:machineblock2:1>,
  [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
 recipes.addShaped(<mekanism:machineblock2:3>,
  [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
- [<mekanism:gastank>, <mekanism:basicblock:9>, <mekanism:machineblock:13>],
+ [<mekanism:gastank>, <mekanism:basicblock:8>, <mekanism:machineblock:13>],
  [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
 recipes.addShaped(<mekanism:machineblock2:4>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],

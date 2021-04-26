@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:lathe>)
+setTitle("Spin Doctor")
+setDescription("Form a lathe to be able to make more advanced rods, nozzles, and lenses")
+addParent("triumph:advanced_tech/advancedrocketry")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:lathe>)
+setPos(-170,50)

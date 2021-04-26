@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidhydrogen",Amount:1000}>)
+setTitle("Fusion fuel #1")
+setDescription("Hydrogen is the lightest fusion fuel, and most of its combinations are only useful in their ease of production and medium-low temperature requirements")
+addParent("triumph:nuclear/t1_fusion")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidhydrogen",Amount:1000}>)
+setPos(320,-40)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

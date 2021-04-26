@@ -1,0 +1,9 @@
+setIcon(<immersiveengineering:metal:14>)
+setTitle("Heavy Metal Poisoning is Worse")
+setDescription("Acquire natural uranium dioxide dust from uranium ore processing")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustUranium>)
+setPos(-275,95)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

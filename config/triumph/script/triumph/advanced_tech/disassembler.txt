@@ -1,0 +1,7 @@
+setIcon(<mekanism:atomicdisassembler>)
+setTitle("Tool Supreme")
+setDescription("Craft an atomic dissassembler, the ultimate tool")
+addParent("triumph:advanced_tech/titanium")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:atomicdisassembler>)
+setPos(-240,20)

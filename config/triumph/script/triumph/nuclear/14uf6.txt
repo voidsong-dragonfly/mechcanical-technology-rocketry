@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"uraniumhexafluoride_014",Amount:1000}>)
+setTitle("On the Path to Enrichment")
+setDescription("Acquire 1.4% enriched uranium hexafluoride from 0.7% enriched uranium hexafluoride")
+addParent("triumph:nuclear/naturaluf6")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"uraniumhexafluoride_014",Amount:1000}>)
+setPos(-135,95)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:sub_block_holder_0:4>)
+setTitle("Neutron-Ghost Structure")
+setDescription("Form zirconuim-niobium alloy into frames")
+addParent("triumph:nuclear/zirconium_niobium")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:frameZirconiumNiobiumAlloy>)
+setPos(-205,185)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

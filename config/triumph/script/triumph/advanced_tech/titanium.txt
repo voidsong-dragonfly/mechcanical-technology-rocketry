@@ -1,0 +1,7 @@
+setIcon(<libvulpes:productingot:7>)
+setTitle("As Strong as Steel")
+setDescription("Acquire an ingot of titanium")
+addParent("triumph:advanced_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotTitanium>)
+setPos(-275,-10)

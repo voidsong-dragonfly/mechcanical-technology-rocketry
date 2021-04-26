@@ -1,0 +1,8 @@
+setIcon(<mekanism:ingot>)
+setTitle("Obsidian Alloy Ingots Confirmed")
+setDescription("Compress refined obsidian dust ingot an ingot of osmium to get refined obsidian ingots")
+addParent("triumph:advanced_tech/refined_obsidian")
+addParent("triumph:advanced_tech/compressor")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:ingot>)
+setPos(-30,290)

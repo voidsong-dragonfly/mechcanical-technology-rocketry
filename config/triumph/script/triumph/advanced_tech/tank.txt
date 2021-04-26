@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:pressuretank, meta:0, count:1>)
+setTitle("Portable Tank Done Right")
+setDescription("Craft a pressure tank to store oxygen on the go in a space suit")
+addParent("triumph:advanced_tech/rolling_machine")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:pressuretank, meta:0~3, count:1>)
+setPos(-135,20)

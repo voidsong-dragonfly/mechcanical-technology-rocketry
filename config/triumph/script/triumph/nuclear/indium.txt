@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:91>)
+setTitle("Potent Neutron Poison")
+setDescription("Acquire some indium dust")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustIndium>)
+setPos(-275,275)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

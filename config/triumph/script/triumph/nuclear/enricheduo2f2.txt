@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:107>)
+setTitle("Ceramic Conversion Conception")
+setDescription("Acquire lightly enriched uranyl fluoride from 3.5% enriched uranium hexafluoride")
+addParent("triumph:nuclear/35uf6")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustLightlyEnrichedUranylFluoride>)
+setPos(5,95)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

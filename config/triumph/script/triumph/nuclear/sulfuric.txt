@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"sulfuricacid",Amount:1000}>)
+setTitle("Never Try This At Home")
+setDescription("Acquire a bucket of sulfuric acid from sulfur trioxide")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"sulfuricacid",Amount:1000}>)
+setPos(-275,65)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

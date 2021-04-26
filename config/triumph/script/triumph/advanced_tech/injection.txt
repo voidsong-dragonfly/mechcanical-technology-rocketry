@@ -1,0 +1,7 @@
+setIcon(<mekanism:machineblock2:3>)
+setTitle("A Different Kind of Injection")
+setDescription("Craft an injection chamber, used to convert items with gasses, and split items using stygian acid")
+addParent("triumph:advanced_tech/mekanism")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:machineblock2:3>)
+setPos(-170,230)

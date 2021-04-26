@@ -1,0 +1,10 @@
+setIcon(<contenttweaker:material_part:114>)
+setTitle("Deep Green Best Green")
+setDescription("Acquire natural uranium fluoride dust from uranium dioxide dust")
+addParent("triumph:nuclear/naturaluo2")
+addParent("triumph:nuclear/hydrofluoric")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustUraniumTetrafluoride>)
+setPos(-205,95)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

@@ -1,0 +1,7 @@
+setIcon(<mekanism:energytablet, ore:battery, meta:0, count:1, nbt:{mekData:{energyStored:1000000.0d}}>)
+setTitle("Energy Tablet not for Drink Use")
+setDescription("Craft an energy tablet, used for advanced tools")
+addParent("triumph:advanced_tech/plastic")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:energytablet>)
+setPos(-240,140)

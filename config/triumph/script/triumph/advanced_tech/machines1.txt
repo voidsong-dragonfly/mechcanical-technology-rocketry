@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:metal_decoration1:5>)
+setTitle("The Basis For Most Machinery")
+setDescription("Scaffolding and sheets are the basics for almost all machinery housings. Most require plastic, a scaffolding, and something like platinum or circuits")
+addParent("triumph:advanced_tech/plastic")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:scaffoldingAluminum>)
+setPos(-240,50)

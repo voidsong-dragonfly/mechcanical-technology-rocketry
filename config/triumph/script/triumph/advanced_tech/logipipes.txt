@@ -1,0 +1,7 @@
+setIcon(<logisticspipes:frame>)
+setTitle("Logistics Powerhouse")
+setDescription("LogisticsPipes pipes all need power, and the power junction needs a machine frame")
+addParent("triumph:advanced_tech/machines")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:frame>)
+setPos(-205,200)

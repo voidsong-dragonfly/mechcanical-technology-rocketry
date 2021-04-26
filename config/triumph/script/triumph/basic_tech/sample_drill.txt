@@ -1,6 +1,6 @@
 setIcon(<immersiveengineering:metal_device1:7>)
 setTitle("Skewed Sampling Distribution")
-setDescription("Craft a core sample drill to assist in oil and mineral prospecting")
+setDescription("Craft a core sample drill to assist in oil and mineral prospecting - One start of the Petrochem page")
 addParent("triumph:basic_tech/improved_blast_furnace")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal_device1:7>)

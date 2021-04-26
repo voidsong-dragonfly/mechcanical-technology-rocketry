@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:203>)
+setTitle("Low Voltage High Amperage")
+setDescription("Craft a supercapacitor, used in the railgun")
+addParent("triumph:advanced_tech/plastic")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:supercapacitorItem>)
+setPos(-240,110)

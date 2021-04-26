@@ -1,0 +1,7 @@
+setIcon(<tetra:hammer_base>)
+setTitle("Naysmith's Finest Construction")
+setDescription("Craft and assemble a Naysmith steam hammer for forging T4 and T5 Tetra tools")
+addParent("triumph:advanced_tech/steel_shell")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<tetra:hammer_base>)
+setPos(-170,-145)

@@ -1,0 +1,10 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"hydrofluoricacid",Amount:1000}>)
+setTitle("Worse Than The Last Time")
+setDescription("Acquire a bucket of hydrofluoric acid from sulfuric acid and fluorite")
+addParent("triumph:nuclear/sulfuric")
+addParent("triumph:nuclear/fluorite")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"hydrofluoricacid",Amount:1000}>)
+setPos(-240,50)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

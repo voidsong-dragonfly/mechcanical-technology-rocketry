@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:7>)
+setTitle("A 40:1 Ratio is Large")
+setDescription("Acquire a niobium ingot")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotZirconium>)
+setPos(-275,215)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

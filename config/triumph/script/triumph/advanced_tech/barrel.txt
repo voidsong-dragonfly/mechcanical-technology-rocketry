@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part, meta:219, count:1>)
+setTitle("Barreling Forward")
+setDescription("Craft a barrel metal press mold, for extruding barrel shells and making metal barrels cheaper")
+addParent("triumph:advanced_tech/extrusion")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:metalPressMoldBarrel>)
+setPos(-240,-160)

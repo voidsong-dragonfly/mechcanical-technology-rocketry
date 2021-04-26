@@ -1,0 +1,10 @@
+setIcon(<contenttweaker:material_part:200>)
+setTitle("A Finished Control Rod")
+setDescription("Craft a control rod bundle")
+addParent("triumph:nuclear/silver_indium_rod")
+addParent("triumph:nuclear/zirconium_niobium_pipe")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:rodBundleControl>)
+setPos(-170,260)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

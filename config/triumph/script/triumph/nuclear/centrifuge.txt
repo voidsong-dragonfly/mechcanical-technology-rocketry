@@ -1,0 +1,9 @@
+setIcon(<advancedrocketry:centrifuge>)
+setTitle("Extreme Speeds Achieved")
+setDescription("Form a centrifuge to enrich uranium to reactor grade")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:centrifuge>)
+setPos(-170,125)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

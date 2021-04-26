@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:sub_block_holder_0:13>)
+setTitle("A Huge Increase in Energy")
+setDescription("Craft a fission reactor calandria casing shell - This is the start of the Nuclear page")
+addParent("triumph:advanced_tech/steel_scaffolding")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:machineCasingFissionReactorCalandriaCasingShell>)
+setPos(-170,-235)

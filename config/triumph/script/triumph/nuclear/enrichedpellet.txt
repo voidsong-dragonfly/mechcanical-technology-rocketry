@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:81>)
+setTitle("Pellet Production Process")
+setDescription("Craft lightly enriched uranium dioxide fuel pellets from lightly enriched uranium dioxide rods")
+addParent("triumph:nuclear/enrichedrod")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:fuelPelletLightlyEnrichedUraniumDioxide>)
+setPos(145,95)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

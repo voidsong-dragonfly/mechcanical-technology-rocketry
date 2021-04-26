@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:77>)
+setTitle("Miles of Internal Tubing")
+setDescription("Form zirconuim-niobium alloy into small pipes")
+addParent("triumph:nuclear/zirconium_niobium")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:smallPipeZirconiumNiobiumAlloy>)
+setPos(-205,215)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

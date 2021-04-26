@@ -1,0 +1,8 @@
+setIcon(<mekanism:basicblock:8>)
+setTitle("Mekanically Inclined")
+setDescription("Craft a steel casing from a single PGM ingot of any type, some plastic, and a steel scaffolding")
+addParent("triumph:advanced_tech/machines")
+addParent("triumph:advanced_tech/pgm")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:basicblock:8>)
+setPos(-205,230)

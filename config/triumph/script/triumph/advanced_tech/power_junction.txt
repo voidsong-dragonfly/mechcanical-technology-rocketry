@@ -1,0 +1,7 @@
+setIcon(<logisticspipes:power_junction>)
+setTitle("Power Hungry Pipes")
+setDescription("LogisticsPipes requires a large amount of power, it's recommended to have one or more junctions on your network")
+addParent("triumph:advanced_tech/logipipes")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<logisticspipes:power_junction>)
+setPos(-170,200)

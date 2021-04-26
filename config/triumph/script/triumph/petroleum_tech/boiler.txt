@@ -1,5 +1,5 @@
 setIcon(<immersivetech:metal_multiblock:4>)
-setTitle("Steam Generation From Combustion")
+setTitle("Steam Generation")
 setDescription("Form a boiler to burn any fuel with extra steps")
 addParent("triumph:petroleum_tech/dieselgenerator")
 criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")

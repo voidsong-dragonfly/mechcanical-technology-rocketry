@@ -1,6 +1,6 @@
 setIcon(<immersiveengineering:metal_multiblock:8>)
 setTitle("Not for Vodka Production")
-setDescription("Form a fermenter to make ethanol from")
+setDescription("Form a fermenter to make ethanol from - The other start of the Petrochem page")
 addParent("triumph:basic_tech/improved_blast_furnace")
 criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:Fermenter")
