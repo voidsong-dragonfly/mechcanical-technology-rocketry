@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:satelliteprimaryfunction:3>)
+setTitle("Atmosphere Feedthrough Wave")
+setDescription("Craft a microwave transmitter primary function to beam power through the atmosphere without loss")
+addParent("triumph:rocketry_tech/t3_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satelliteprimaryfunction:3>)
+setPos(-100,80)
+visibleIf("triumph:nuclear/rocketry_tech")

@@ -1,5 +1,5 @@
 setIcon(<immersiveengineering:tool>)
-setTitle("Technologic enhancements")
+setTitle("Technologic Enhancements")
 setDescription("The basics of industry")
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 setShowToast(false)

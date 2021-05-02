@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:launchpad>)
+setTitle("Fireproof Base")
+setDescription("Craft some launchpad blocks, which are impervious to rocket launch block damage")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:launchpad>)
+setPos(-275,-25)
+visibleIf("triumph:nuclear/rocketry_tech")

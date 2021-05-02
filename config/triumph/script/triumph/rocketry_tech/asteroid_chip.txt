@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:asteroidchip>)
+setTitle("Clean Industry Hotspot")
+setDescription("Craft an asteroid identification chip, used for mining asteroids")
+addParent("triumph:rocketry_tech/guidance_computer")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:asteroidchip>)
+setPos(-65,-170)

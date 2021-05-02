@@ -1,0 +1,8 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"coldliquidoxygen",Amount:1000}>)
+setTitle("Basic Liquid Oxidizer")
+setDescription("Acquire a bucket of liquid oxygen for use in rockets")
+addParent("triumph:rocketry_tech/oxitank")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"coldliquidoxygen",Amount:1000}>)
+setPos(-240,35)
+visibleIf("triumph:nuclear/rocketry_tech")

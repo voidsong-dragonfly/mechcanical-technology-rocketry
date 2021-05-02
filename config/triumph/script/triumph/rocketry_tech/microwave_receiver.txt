@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:microwavereciever>)
+setTitle("Microwave Electricity Conversion")
+setDescription("Form a microwave receiver to collect power from your microwave satellites")
+addParent("triumph:rocketry_tech/t3_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:microwavereciever>)
+setPos(-100,110)
+visibleIf("triumph:nuclear/rocketry_tech")

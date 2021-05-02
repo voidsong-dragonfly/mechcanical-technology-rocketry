@@ -1,0 +1,8 @@
+setIcon(<mekanism:controlcircuit:3>)
+setTitle("Circuitry Perfected")
+setDescription("Craft an ultimate circuit, the last stop in your circuitry journey (for now...)")
+addParent("triumph:rocketry_tech/arrival")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:controlcircuit:3>)
+setPos(5,-10)
+visibleIf("triumph:nuclear/rocketry_tech")

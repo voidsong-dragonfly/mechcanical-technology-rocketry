@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:oxidizerfueltank>)
+setTitle("Atmosphere Substitute")
+setDescription("Craft an oxidizer fuel tank, used for storing oxidizer in bipropellant rockets")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:oxidizerfueltank>)
+setPos(-275,35)
+visibleIf("triumph:nuclear/rocketry_tech")

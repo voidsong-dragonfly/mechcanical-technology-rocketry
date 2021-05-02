@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:ammonia_ice>)
+setTitle("Volatile Load")
+setDescription("Collect an ammonia ice block from an asteroid mining mission to a volatile-rich asteroid")
+addParent("triumph:rocketry_tech/asteroid_chip")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:ammonia_ice>)
+setPos(-30,-140)
+visibleIf("triumph:nuclear/rocketry_tech")

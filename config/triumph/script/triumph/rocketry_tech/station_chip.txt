@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:spacestationchip>)
+setTitle("International Identification")
+setDescription("Get a station ID chip, so you can launch to your station")
+addParent("triumph:rocketry_tech/guidance_computer")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spacestationchip>)
+setPos(-65,-50)

@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:satelliteprimaryfunction:4>)
+setTitle("Prospecting Gold Mine")
+setDescription("Craft an ore scanner satellite function, used with the ore scanner item to scan for ores")
+addParent("triumph:rocketry_tech/t3_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satelliteprimaryfunction:4>)
+setPos(-100,20)
+visibleIf("triumph:nuclear/rocketry_tech")

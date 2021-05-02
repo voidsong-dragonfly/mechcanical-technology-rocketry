@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:guidancecomputer>)
+setTitle("Better Than the Saturn V")
+setDescription("Craft a guidance computer, allowing the specification of destination and the recovery of rockets")
+addParent("triumph:rocketry_tech/t3_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:guidancecomputer>)
+setPos(-100,-110)

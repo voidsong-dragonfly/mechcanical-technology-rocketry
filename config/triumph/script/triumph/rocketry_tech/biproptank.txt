@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:bipropellantfueltank>)
+setTitle("Incomplete Combustion")
+setDescription("Craft a bipropellant fuel tank, for storing fuel to be burned in bipropellant rockets")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:bipropellantfueltank>)
+setPos(-275,95)
+visibleIf("triumph:nuclear/rocketry_tech")

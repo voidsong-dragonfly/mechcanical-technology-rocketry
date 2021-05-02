@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:satellitepowersource>)
+setTitle("Clean and Green")
+setDescription("Craft a solar panel to power your satellite with")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satellitepowersource>)
+setPos(-275,-175)

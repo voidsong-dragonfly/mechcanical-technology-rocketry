@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:satelliteprimaryfunction:0>)
+setTitle("Light Collection Magnification")
+setDescription("Craft an optical sensor to collect distance data")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satelliteprimaryfunction:0>)
+setPos(-275,-115)

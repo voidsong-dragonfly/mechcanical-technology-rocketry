@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:nuclearrocketmotor>)
+setTitle("Not Project Orion")
+setDescription("Craft a nuclear rocket engine to boost your thrust to fuel ratio considerably")
+addParent("triumph:rocketry_tech/nuclear_core")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:nuclearrocketmotor>)
+setPos(75,-230)
+visibleIf("triumph:nuclear/rocketry_tech")

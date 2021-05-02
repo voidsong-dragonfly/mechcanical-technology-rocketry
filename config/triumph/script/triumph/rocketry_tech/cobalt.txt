@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:cobalt_dust_block>)
+setTitle("Not Made of Kobolds")
+setDescription("Collect a cobalt dust block from an asteroid mining mission to an iron-rich asteroid")
+addParent("triumph:rocketry_tech/asteroid_chip")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:cobalt_dust_block>)
+setPos(-30,-200)
+visibleIf("triumph:nuclear/rocketry_tech")

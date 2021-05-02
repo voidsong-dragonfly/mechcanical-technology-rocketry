@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:satellite>)
+setTitle("The Beginning Of Something Big")
+setDescription("Craft a satellite chassis to create your satellites with")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satellite>)
+setPos(-275,-145)

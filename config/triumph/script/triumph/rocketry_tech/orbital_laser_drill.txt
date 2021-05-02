@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:spacelaser>)
+setTitle("Orbital Bombardment Equivalent")
+setDescription("Form an orbital laser drill, used to mine planets from stations")
+addParent("triumph:rocketry_tech/t4_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spacelaser>)
+setPos(40,-40)
+visibleIf("triumph:nuclear/rocketry_tech")

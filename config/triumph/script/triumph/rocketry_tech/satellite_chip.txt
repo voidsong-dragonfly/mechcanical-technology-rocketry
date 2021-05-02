@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:satelliteidchip>)
+setTitle("Orbital Information Station")
+setDescription("Craft a satellite ID chip to have a record of what orbit your satellite is in")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satelliteidchip>)
+setPos(-275,-205)

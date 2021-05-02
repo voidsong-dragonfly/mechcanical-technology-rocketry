@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:spaceelevatorcontroller>)
+setTitle("Extreme Tensile Strength Test")
+setDescription("Form a space elevator for a cheaper method of getting to orbit")
+addParent("triumph:rocketry_tech/t4_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spaceelevatorcontroller>)
+setPos(40,20)
+visibleIf("triumph:nuclear/rocketry_tech")

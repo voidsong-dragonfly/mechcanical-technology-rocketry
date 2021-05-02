@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:nuclearfueltank>)
+setTitle("Diatomic Hydrogen Only")
+setDescription("Craft a nuclear working fluid tank for use with nuclear rocketry")
+addParent("triumph:rocketry_tech/nuclear_core")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:nuclearfueltank>)
+setPos(75,-200)
+visibleIf("triumph:nuclear/rocketry_tech")

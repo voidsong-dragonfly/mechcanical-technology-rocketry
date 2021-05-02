@@ -1,0 +1,8 @@
+setIcon(<advancedrocketry:deployablerocketbuilder>)
+setTitle("Gas Giant Assembly")
+setDescription("Craft an unmanned vehicle assembler, used for mining gas giants")
+addParent("triumph:rocketry_tech/t4_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:deployablerocketbuilder>)
+setPos(40,-10)
+visibleIf("triumph:nuclear/rocketry_tech")

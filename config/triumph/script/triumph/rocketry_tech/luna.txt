@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:moonturf>)
+setTitle("One Small Step")
+setDescription("Arrive on Luna, where the production of rare earths and helium-3 can begin")
+addParent("triumph:rocketry_tech/guidance_computer")
+criteria = addCriteria("criteria", "triumph:changed_dimension")
+criteria.setDimensionDestination(-2)
+setPos(-65,-110)

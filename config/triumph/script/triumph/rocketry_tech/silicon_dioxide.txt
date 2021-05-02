@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:silicon_dioxide_dust_block>)
+setTitle("The Most Common Mineral")
+setDescription("Collect a silicon dioxide dust block from an asteroid mining mission to a silicon-rich asteroid")
+addParent("triumph:rocketry_tech/asteroid_chip")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:silicon_dioxide_dust_block>)
+setPos(-30,-170)
+visibleIf("triumph:nuclear/rocketry_tech")

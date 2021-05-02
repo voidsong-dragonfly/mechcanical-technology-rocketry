@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:satelliteidchip, meta:0, count:1, nbt:{satelliteName:"Optical Telescope"}>)
+setTitle("Backups Always Recommended")
+setDescription("Having backups of satellite chips is always recommended in case one is lost")
+addParent("triumph:rocketry_tech/assembled_satellite")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:satelliteidchip, meta:0, count:1, nbt:{satelliteName:"Optical Telescope"}>)
+setPos(-205,-145)

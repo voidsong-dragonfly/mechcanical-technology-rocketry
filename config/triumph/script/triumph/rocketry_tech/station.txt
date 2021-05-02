@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:spacestation>)
+setTitle("Packaged for Liftoff")
+setDescription("Assemble a station into a station container, put in a satellite bay and launched into space on a rocket")
+addParent("triumph:rocketry_tech/station_builder")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:spacestation, meta:0, count:1, nbt:{chunk:{}}>)
+setPos(-65,-10)

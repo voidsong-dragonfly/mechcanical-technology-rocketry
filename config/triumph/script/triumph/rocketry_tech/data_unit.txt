@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:dataunit>)
+setTitle("Information Sequestration")
+setDescription("Craft a data unit so your satellites can store and transmit data")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:dataunit>)
+setPos(-275,-85)

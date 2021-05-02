@@ -1,0 +1,8 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"rp1",Amount:1000}>)
+setTitle("Combustion Fuel #1")
+setDescription("Acquire a bucket of RP-1, the fuel consumed the slowest in rockets")
+addParent("triumph:rocketry_tech/biproptank")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"rp1",Amount:1000}>)
+setPos(-240,65)
+visibleIf("triumph:nuclear/rocketry_tech")

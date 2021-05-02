@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:stationbuilder>)
+setTitle("Allen Wrenches not Included")
+setDescription("Craft a space station assembly machine, for turning blocks into space station containers")
+addParent("triumph:rocketry_tech/t3_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:stationbuilder>)
+setPos(-100,-10)

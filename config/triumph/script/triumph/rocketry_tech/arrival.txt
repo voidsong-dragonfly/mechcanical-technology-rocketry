@@ -1,0 +1,8 @@
+setIcon(<biomesoplenty:earth>)
+setTitle("Spinning Long Light")
+setDescription("Arrive on a space station in orbit, which can be used to assemble circuits and get better solar power")
+addParent("triumph:rocketry_tech/station")
+addParent("triumph:rocketry_tech/station_chip")
+criteria = addCriteria("criteria", "triumph:changed_dimension")
+criteria.setDimensionDestination(-2)
+setPos(-30,-10)

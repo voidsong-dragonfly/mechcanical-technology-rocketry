@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:structuretower>)
+setTitle("Gantry Materials")
+setDescription("Craft some structure tower, used to define the height of the pad to be assembled")
+addParent("triumph:rocketry_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:structuretower>)
+setPos(-275,5)

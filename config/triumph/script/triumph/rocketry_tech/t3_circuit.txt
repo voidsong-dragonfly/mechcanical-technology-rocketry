@@ -1,0 +1,7 @@
+setIcon(<mekanism:controlcircuit:2>)
+setTitle("Space Age Innovation")
+setDescription("Craft an elite circuit for space-age computing")
+addParent("triumph:rocketry_tech/distance_data")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:controlcircuit:2>)
+setPos(-135,-10)

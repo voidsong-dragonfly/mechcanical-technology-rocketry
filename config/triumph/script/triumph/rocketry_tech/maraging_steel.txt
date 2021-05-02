@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:material_part>)
+setTitle("Unaged Aging")
+setDescription("Craft an ingot of maraging steel, useable instead of titanium for many rocketry constructs")
+addParent("triumph:rocketry_tech/cobalt")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotMaragingSteel>)
+setPos(5,-200)
+visibleIf("triumph:nuclear/rocketry_tech")
