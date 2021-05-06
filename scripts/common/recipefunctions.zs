@@ -60,12 +60,6 @@ function register(oredicts as IOreDictEntry[]) {
                       [oredicts[oredict_secondary], oredicts[oredict_secondary], oredicts[oredict_secondary]]]);
                 }
             }
-        } else if (oredicts[oredict_main].name.contains("plate")) {
-            for oredict_secondary, IOreDictEntry in oredicts {
-                if (oredicts[oredict_secondary].name.contains("ingot")) {
-                     recipes.addShapeless(oredicts[oredict_main].firstItem, [oredicts[oredict_secondary], <immersiveengineering:tool>.transformDamage()]);
-                }
-            }
         }
     
     }

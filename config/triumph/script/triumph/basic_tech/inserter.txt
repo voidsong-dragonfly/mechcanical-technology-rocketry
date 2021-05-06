@@ -1,0 +1,7 @@
+setIcon(<magneticraft:inserter>)
+setTitle("Precision Item Movement")
+setDescription("Craft an inserter for more precise item movement than routers and conveyor belts, at the cost of a circuit board")
+addParent("triumph:basic_tech/first_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<magneticraft:inserter>)
+setPos(-130,155)

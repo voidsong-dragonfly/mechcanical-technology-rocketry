@@ -4,4 +4,4 @@ setDescription("Form a coke oven to start collecting creostoe and making coal co
 addParent("triumph:starting/engineers_hammer")
 criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:CokeOven")
-setPos(110,-170)
+setPos(110,-200)

@@ -64,16 +64,22 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:wirePGMAny>.addAll(<ore:wireMixedPlatinumGroupMetal>);
 
 //Ore oredictionary
-<ore:orePlatinum>.add(<contenttweaker:sub_block_holder_1:3>);
-<ore:oreZirconium>.add(<contenttweaker:sub_block_holder_1:6>);
-<ore:oreNiobium>.add(<contenttweaker:sub_block_holder_1:5>);
-<ore:oreCryolite>.add(<contenttweaker:sub_block_holder_1:8>);
-<ore:oreGold>.add(<contenttweaker:sub_block_holder_1:1>);
-<ore:oreNetherGold>.add(<contenttweaker:sub_block_holder_1:1>);
-<ore:oreCinnabar>.add(<contenttweaker:sub_block_holder_1:2>);
-<ore:oreNetherCinnabar>.add(<contenttweaker:sub_block_holder_1:7>);
-<ore:oreFluorite>.add(<contenttweaker:sub_block_holder_1>);
-<ore:oreTungsten>.add(<contenttweaker:sub_block_holder_1:4>);
+<ore:oreCryolite>.add(<contenttweaker:cryolite_ore>);
+<ore:orePlatinum>.add(<contenttweaker:platinum_ore>);
+<ore:oreTungsten>.add(<contenttweaker:tungsten_ore>);
+<ore:oreZirconium>.add(<contenttweaker:zirconium_ore>);
+<ore:oreNiobium>.add(<contenttweaker:niobium_ore>);
+<ore:oreCinnabar>.add(<contenttweaker:cinnabar_ore>);
+<ore:oreGold>.add(<contenttweaker:nether_gold_ore>);
+<ore:oreNetherGold>.add(<contenttweaker:nether_gold_ore>);
+<ore:oreNetherCinnabar>.add(<contenttweaker:nether_cinnabar_ore>);
+<ore:oreFluorite>.add(<contenttweaker:nether_fluorite_ore>);
+<ore:oreNetherFluorite>.add(<contenttweaker:nether_fluorite_ore>);
+
+//Fines oredictionary
+<ore:gravel>.add(<contenttweaker:fine_gravel>);
+<ore:sand>.add(<contenttweaker:fine_sand>);
+<ore:soulsand>.add(<contenttweaker:fine_soul_sand>);
 
 //Lens oredictionary
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensGlass>);
@@ -303,12 +309,6 @@ removeAndHide(<forestry:gear_bronze>);
 <ore:ingotEquivalentTitanium>.addAll(<ore:ingotTitanium>);
 <ore:ingotEquivalentTitanium>.addAll(<ore:dustTitanium>);
 <ore:ingotEquivalentTitanium>.addAll(<ore:plateTitanium>);
-<ore:ingotEquivalentNiobium>.addAll(<ore:ingotNiobium>);
-<ore:ingotEquivalentNiobium>.addAll(<ore:dustNiobium>);
-<ore:ingotEquivalentNiobium>.addAll(<ore:plateNiobium>);
-<ore:ingotEquivalentZirconium>.addAll(<ore:ingotZirconium>);
-<ore:ingotEquivalentZirconium>.addAll(<ore:dustZirconium>);
-<ore:ingotEquivalentZirconium>.addAll(<ore:plateZirconium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:ingotIridium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:dustIridium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:plateIridium>);

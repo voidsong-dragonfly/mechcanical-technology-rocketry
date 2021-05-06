@@ -38,8 +38,6 @@ create_gas("ammonia", "B3CDE2");
 create_gas("nitrogengas", "DFE5FE");
 create_gas("nitrogendioxide", "D95E4C");
 create_gas("fluorine", "CEBD89");
-create_gas("titaniumtetrachloride", "E7EBC8");
-create_gas("zirconiumtetrachloride", "E7EBC8");
 
 //Nitric Acid Production
 create_fluid("hydrogenperoxide", "DBF1FF", 300, 1540, 1260);
@@ -132,3 +130,43 @@ create_gas("lightheliumrichgas", "7fa1f6");
 create_gas("cloudheliumrichgas", "32435b");
 create_gas("precipitategas", "7ebad1");
 
+//Ore processing
+//Mercury
+create_solid_fluid("mercury", "6B6B6B", 300, 13500, 1000);
+//Aluminium processing fluids
+create_fluid("sodiumhydroxidesolution", "4A5CF5", 300, 3000, 7800);
+create_fluid("impuresodiumaluminatesolution", "1A1A20", 300, 3100, 7800);
+create_fluid("sodiumaluminatesolution", "1A1A20", 300, 2000, 7800);
+create_molten_fluid("moltencryolite", "ECCEDB", 1350, 2950, 10000);
+create_molten_fluid("moltencryolitesolution", "ECCEDB", 1350, 3050, 10000);
+create_molten_fluid("moltenaluminium", "899596", 940, 2375, 10000);
+//Uranium processing fluids
+create_fluid("uraniumsulfatesolution", "6E6D31", 300, 2000, 1000);
+create_fluid("uraniumtailingssolution", "1E221C", 300, 2000, 1000);
+//Iron processing fluids
+create_molten_fluid("moltencrudeiron", "BE8972", 1800, 6900, 10000);
+create_molten_fluid("moltensteel", "CB8A44", 2000, 7750, 10000);
+create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
+//Copper processing fluids
+create_fluid("coppersulfatesolution", "6E6D31", 300, 2000, 1000);
+create_fluid("coppersulfatesolutionresidue", "6E6D31", 300, 2000, 1000);
+//Nickel processing fluids
+create_fluid("nickelsulfatesolution", "6E6D31", 300, 2000, 1000);
+create_fluid("nickelsulfatesolutionresidue", "6E6D31", 300, 2000, 1000);
+create_molten_fluid("moltennickelmatte", "948E7F", 1800, 8900, 10000);
+//Tin processing fluids
+create_fluid("tinsulfatesolution", "6E6D31", 300, 2000, 1000);
+create_molten_fluid("impuremoltentin", "F2E9E0", 1800, 7000, 10000);
+//Lead processing fluids
+create_molten_fluid("moltenlead", "404046", 1800, 10600, 10000);
+create_molten_fluid("moltensilver", "95A2A7", 1200, 9320, 10000);
+//Titanium processing
+create_gas("titaniumtetrachloride", "E7EBC8");
+//Zirconium processing
+create_gas("zirconiumtetrachloride", "E7EBC8");
+//Platinum processing fluids
+create_fluid("nitricacidhydrochloridept", "D95E4C", 300, 1210, 1000);
+create_fluid("nitricacidhydrochlorideir", "D95E4C", 300, 1210, 1000);
+create_fluid("nitricacidhydrochlorideptprocessed", "D95E4C", 300, 1210, 1000);
+create_fluid("nitricacidhydrochlorideirprocessed", "D95E4C", 300, 1210, 1000);
+create_fluid("osacidicsolution", "82802B", 300, 1820, 1000);

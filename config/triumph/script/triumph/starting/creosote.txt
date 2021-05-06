@@ -4,4 +4,4 @@ setDescription("Get a bucket of creosote from burning wood or coal in a coke ove
 addParent("triumph:starting/coke_oven")
 criteria = addCriteria("creosote", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"creosote",Amount:1000}>)
-setPos(145,-170)
+setPos(145,-200)

@@ -1,0 +1,7 @@
+setIcon(<magneticraft:crushing_table>)
+setTitle("Engineer SMASH!")
+setDescription("Craft a crushing table to make plates with your engineer's hammer (right click)")
+addParent("triumph:starting/engineers_hammer")
+criteria = addCriteria("hammer", "minecraft:inventory_changed")
+criteria.addItem(<magneticraft:crushing_table>)
+setPos(110,-140)

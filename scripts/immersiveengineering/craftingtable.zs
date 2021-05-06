@@ -10,6 +10,9 @@ import mods.jei.JEI.hide;
     Crafting recipes - any 3x3 recipes or recipe changes
 */
 
+//Remove useless plate crafting
+recipes.removeByRegex("immersiveengineering:material/plate_.*");
+
 //Give structural arms recipes that aren't criminal wastes of resources - the previous ones undergave by 2x!
 recipes.remove(<immersiveengineering:metal_decoration2:7>);
 recipes.remove(<immersiveengineering:metal_decoration2:8>);
@@ -43,6 +46,13 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2,
 
 //Make heavy engineering block entirely electrum, to match light engineering block
 recipes.replaceAllOccurences(<minecraft:piston>, <ore:ingotElectrum>, <immersiveengineering:metal_decoration0:5>);
+
+//Slightly changed pressure head engineering block
+recipes.remove(<magneticraft:multiblock_parts>);
+recipes.addShaped(<magneticraft:multiblock_parts> * 2,
+ [[<ore:ingotMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:ingotMaragingSteel>],
+ [<ore:blockTungstensteel>, <ore:blockTungstensteel>, <ore:blockTungstensteel>],
+ [<ore:ingotMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:ingotMaragingSteel>]]);
 
 //Add in bearing recipe
 recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem,
@@ -90,6 +100,12 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8,
  [[<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
  [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
+
+//Clay from stone dust
+recipes.addShaped(<minecraft:clay_ball> * 8,
+ [[<ore:dustStone>, <ore:dustStone>, <ore:dustStone>],
+ [<ore:dustStone>, <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}), <ore:dustStone>],
+ [<ore:dustStone>, <ore:dustStone>, <ore:dustStone>]]);
 
 //Treated wood with plant oil
 recipes.addShaped(<immersiveengineering:treated_wood> * 4,

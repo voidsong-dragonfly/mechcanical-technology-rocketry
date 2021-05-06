@@ -31,11 +31,12 @@ import scripts.common.recipefunctions.register;
 //Replace said items with alternates in recipes
 //Iron
 Crusher.removeRecipesForInput(<minecraft:iron_ore>);
-Crusher.addRecipe(<mekanism:dirtydust:0> * 2, <ore:oreIron>, 4000, <mekores:mekanismore:13>, 0.1);
+Crusher.addRecipe(<contenttweaker:crushed_iron_ore>, <ore:oreIron>, 4000);
 furnace.remove(<ore:ingotIron>, <mekanism:dust>);
 furnace.remove(<ore:ingotIron>, <libvulpes:productdust:1>);
 furnace.addRecipe(<minecraft:iron_nugget>, <simpleoresamples:sampleblockiron>);
 furnace.addRecipe(<minecraft:iron_ingot>, <ore:dustDirtyIron>);
+furnace.addRecipe(<minecraft:iron_ingot>, <contenttweaker:crushed_iron_ore> * 2);
 combiner.removeRecipe(<ore:oreIron>, <mekanism:dust>);
 combiner.removeRecipe(<ore:oreIron>, <libvulpes:productdust:1>);
 recipes.remove(<libvulpes:productrod:1>);
@@ -43,7 +44,7 @@ MetalPress.addRecipe(<libvulpes:productsheet:1>, <ore:plateIron>, <immersiveengi
 
 //Gold
 Crusher.removeRecipesForInput(<minecraft:gold_ore>);
-Crusher.addRecipe(<mekanism:dirtydust:1> * 2, <ore:oreGold>, 4000, <mekanism:dirtydust:3>, 0.05);
+Crusher.addRecipe(<contenttweaker:crushed_gold_ore>, <ore:oreGold>, 4000);
 furnace.remove(<ore:ingotGold>, <ore:oreGold>);
 furnace.remove(<ore:ingotGold>, <mekanism:dust:1>);
 furnace.remove(<ore:ingotGold>, <libvulpes:productdust:2>);
@@ -52,15 +53,17 @@ furnace.addRecipe(<minecraft:gold_nugget>, <simpleoresamples:sampleblockgold>);
 furnace.addRecipe(<minecraft:gold_nugget> * 6, <ore:oreGold>);
 furnace.addRecipe(<minecraft:gold_nugget> * 6, <ore:dustDirtyGold>);
 furnace.addRecipe(<minecraft:gold_nugget> * 6, <ore:oreNetherGold>);
+furnace.addRecipe(<minecraft:gold_nugget> * 12, <contenttweaker:crushed_gold_ore>);
 combiner.removeRecipe(<ore:oreGold>, <mekanism:dust:1>);
 
 //Copper
 Crusher.removeRecipesForInput(<immersiveengineering:ore:0>);
-Crusher.addRecipe(<mekanism:dirtydust:3> * 2, <ore:oreCopper>, 4000, <mekanism:dirtydust:1>, 0.1);
+Crusher.addRecipe(<contenttweaker:crushed_copper_ore>, <ore:oreCopper>, 4000);
 furnace.remove(<mekanism:ingot:5>);
 furnace.remove(<libvulpes:productingot:4>);
 furnace.remove(<forestry:ingot_copper>);
 furnace.addRecipe(<immersiveengineering:metal:0>, <ore:dustDirtyCopper>);
+furnace.addRecipe(<immersiveengineering:metal:0> * 2, <contenttweaker:crushed_copper_ore>);
 furnace.addRecipe(<immersiveengineering:metal:20>, <simpleoresamples:sampleblockcopper>);
 combiner.removeRecipe(<forestry:resources:1>, <mekanism:dust:3>);
 combiner.removeRecipe(<forestry:resources:1>, <libvulpes:productdust:4>);
@@ -79,20 +82,22 @@ MetalPress.addRecipe(<libvulpes:productsheet:4>, <ore:plateCopper>, <immersiveen
 
 //Silver
 Crusher.removeRecipesForInput(<immersiveengineering:ore:3>);
-Crusher.addRecipe(<mekanism:dirtydust:5> * 2, <ore:oreSilver>, 4000, <mekanism:dirtydust:6>, 0.1);
+Crusher.addRecipe(<contenttweaker:crushed_silver_ore>, <ore:oreSilver>, 4000);
 furnace.remove(<ore:ingotSilver>, <mekanism:dust:5>);
 furnace.remove(<ore:ingotSilver>, <ore:oreSilver>);
 furnace.addRecipe(<immersiveengineering:metal:23> * 6, <ore:oreSilver>);
 furnace.addRecipe(<immersiveengineering:metal:23> * 6, <ore:dustDirtySilver>);
 furnace.addRecipe(<immersiveengineering:metal:23>, <simpleoresamples:sampleblocksilver>);
+furnace.addRecipe(<immersiveengineering:metal:23> * 12, <contenttweaker:crushed_silver_ore>);
 combiner.removeRecipe(<ore:oreSilver>, <mekanism:dust:5>);
 
 //Lead
 Crusher.removeRecipesForInput(<immersiveengineering:ore:2>);
-Crusher.addRecipe(<mekanism:dirtydust:6> * 2, <ore:oreLead>, 4000, <mekanism:dirtydust:5>, 0.15);
+Crusher.addRecipe(<contenttweaker:crushed_lead_ore>, <ore:oreLead>, 4000);
 furnace.remove(<ore:ingotLead>, <mekanism:dust:6>);
 furnace.addRecipe(<immersiveengineering:metal:22>, <simpleoresamples:sampleblocklead>);
 furnace.addRecipe(<immersiveengineering:metal:2>, <ore:dustDirtyLead>);
+furnace.addRecipe(<immersiveengineering:metal:2> * 2, <contenttweaker:crushed_lead_ore>);
 combiner.removeRecipe(<ore:oreLead>, <mekanism:dust:6>);
 MetalPress.addRecipe(<ore:sheetLead>.firstItem, <ore:plateLead>, <immersiveengineering:mold:0>, 3600);
 
@@ -100,28 +105,28 @@ MetalPress.addRecipe(<ore:sheetLead>.firstItem, <ore:plateLead>, <immersiveengin
 Crusher.removeRecipesForInput(<libvulpes:productingot:5>);
 Crusher.removeRecipesForInput(<libvulpes:ore0:5>);
 Crusher.addRecipe(<libvulpes:productdust:5>, <ore:ingotTin>, 1600);
-Crusher.addRecipe(<mekanism:dirtydust:4> * 2, <ore:oreTin>, 4000, <mekanism:dirtydust>, 0.15);
+Crusher.addRecipe(<contenttweaker:crushed_tin_ore>, <ore:oreTin>, 4000);
 furnace.remove(<mekanism:ingot:6>);
 furnace.remove(<forestry:ingot_tin>);
 furnace.addRecipe(<libvulpes:productingot:5>, <ore:dustDirtyTin>);
 furnace.addRecipe(<libvulpes:productnugget:5>, <simpleoresamples:sampleblocktin>);
+furnace.addRecipe(<libvulpes:productingot:5> * 2, <contenttweaker:crushed_tin_ore>);
 combiner.removeRecipe(<forestry:resources:2>, <libvulpes:productdust:5>);
 combiner.removeRecipe(<forestry:resources:2>, <mekanism:dust:4>);
 recipes.remove(<mekanism:ingot:6>);
 recipes.remove(<mekanism:basicblock:13>);
 recipes.remove(<mekanism:nugget:6>);
-recipes.addShapeless(<libvulpes:productplate:5>, [<immersiveengineering:tool:0>, <ore:ingotTin>]);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 
 //Osmium
 Crusher.removeRecipesForInput(<mekanism:oreblock:0>);
-Crusher.addRecipe(<mekanism:dirtydust:2> * 2, <ore:oreOsmium>, 4000, <mekores:mekanismore:18>, 0.05);
 
 //Nickel
 Crusher.removeRecipesForInput(<immersiveengineering:ore:4>);
-Crusher.addRecipe(<mekores:mekanismore:13> * 2, <ore:oreNickel>, 4000, <mekores:mekanismore:18>, 0.01);
+Crusher.addRecipe(<contenttweaker:crushed_nickel_ore>, <ore:oreNickel>, 4000);
 furnace.addRecipe(<immersiveengineering:metal:4>, <mekores:mekanismore:13>);
 furnace.addRecipe(<immersiveengineering:metal:24>, <simpleoresamples:sampleblocknickel>);
+furnace.addRecipe(<immersiveengineering:metal:4> * 2, <contenttweaker:crushed_nickel_ore>);
 
 //Bronze
 AlloySmelter.removeRecipe(<forestry:ingot_bronze>);
@@ -137,12 +142,12 @@ AlloySmelter.addRecipe(<immersiveengineering:metal:7> * 2, <ore:ingotEquivalentG
 
 //Uranium
 Crusher.removeRecipesForInput(<immersiveengineering:ore:5>);
-Crusher.addRecipe(<mekores:mekanismore:3> * 2, <ore:oreUranium>, 4000, <mekanism:dirtydust:6>, 0.1);
+Crusher.addRecipe(<contenttweaker:crushed_uranium_ore>, <ore:oreUranium>, 4000, <mekanism:dirtydust:6>, 0.1);
 furnace.remove(<immersiveengineering:metal:5>, <ore:oreUranium>);
 
 //Aluminium
 Crusher.removeRecipesForInput(<immersiveengineering:ore:1>);
-Crusher.addRecipe(<mekores:mekanismore:33> * 2, <ore:oreBauxite>, 4000, <ore:dustGallium>.firstItem, 0.025);
+Crusher.addRecipe(<contenttweaker:crushed_bauxite_ore>, <ore:oreBauxite>, 4000);
 combiner.removeRecipe(<libvulpes:ore0:9>, <libvulpes:productdust:9>);
 furnace.remove(<ore:ingotAluminum>, <ore:oreBauxite>);
 furnace.remove(<libvulpes:productingot:9>);
@@ -154,19 +159,19 @@ MetalPress.addRecipe(<libvulpes:productsheet:9>, <ore:plateAluminum>, <immersive
 
 //Titanium
 Crusher.removeRecipesForInput(<libvulpes:ore0:8>);
-Crusher.addRecipe(<mekores:mekanismore:88> * 2, <ore:oreIlmenite>, 4000, <ore:dustMagnesium>.firstItem, 0.1);
+Crusher.addRecipe(<contenttweaker:crushed_ilmenite_ore>, <ore:oreIlmenite>, 4000);
 furnace.remove(<ore:ingotTitanium>);
 recipes.removeByRecipeName("advancedrocketry:sticktitanium");
 MetalPress.addRecipe(<libvulpes:productsheet:7>, <ore:plateTitanium>, <immersiveengineering:mold>, 3600);
 
 //Iridium
 Crusher.removeRecipesForInput(<libvulpes:ore0:10>);
-Crusher.addRecipe(<mekores:mekanismore:23> * 2, <ore:oreIridium>, 4000, <mekores:mekanismore:18>, 0.05);
+Crusher.addRecipe(<contenttweaker:crushed_iridium_ore>, <ore:oreIridium>, 4000);
 furnace.remove(<ore:ingotIridium>);
 recipes.removeByRecipeName("advancedrocketry:stickiridium");
 
 //Tungsten
-Crusher.addRecipe(<mekores:mekanismore:108> * 2, <ore:oreTungsten>, 4000, <mekanism:dirtydust>, 0.15);
+Crusher.addRecipe(<contenttweaker:crushed_tungsten_ore>, <ore:oreTungsten>, 4000);
 
 //Steel
 furnace.remove(<mekanism:ingot:4>);
@@ -188,9 +193,9 @@ recipes.removeByRecipeName("advancedrocketry:sticktitaniumiridium");
 
 //CT material ores
 Crusher.removeRecipesForInput(<ore:orePlatinum>.firstItem);
-Crusher.addRecipe(<mekores:mekanismore:18> * 2, <ore:orePlatinum>, 4000, <mekores:mekanismore:13>, 0.1);
-Crusher.addRecipe(<mekores:mekanismore:128> * 2, <ore:oreNiobium>, 4000, <mekores:mekanismore:78>, 0.1);
-Crusher.addRecipe(<mekores:mekanismore:83> * 2, <ore:oreZirconium>, 4000, <ore:dustRutile>.firstItem, 0.05);
+Crusher.addRecipe(<contenttweaker:crushed_platinum_ore>, <ore:orePlatinum>, 4000);
+Crusher.addRecipe(<contenttweaker:crushed_niobium_ore>, <ore:oreNiobium>, 4000);
+Crusher.addRecipe(<contenttweaker:crushed_zirconium_ore>, <ore:oreZirconium>, 4000);
 
 //Registry of CT materials
 register([<ore:nuggetTungsten>, <ore:blockTungsten>, <ore:ingotTungsten>]);
@@ -201,8 +206,8 @@ register([<ore:nuggetDepletedUraniumDioxide>, <ore:ingotDepletedUraniumDioxide>]
 register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUraniumDioxide>]);
 register([<ore:nuggetHighlyEnrichedUraniumDioxide>, <ore:ingotHighlyEnrichedUraniumDioxide>]);
 register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:stickNiobiumTitaniumAlloy>, <ore:plateNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
-register([<ore:nuggetNiobium>, <ore:ingotNiobium>, <ore:stickNiobium>, <ore:plateNiobium>, <ore:dustNiobium>]);
-register([<ore:nuggetZirconium>, <ore:ingotZirconium>, <ore:stickZirconium>, <ore:plateZirconium>, <ore:dustZirconium>]);
+register([<ore:dustNiobium>]);
+register([<ore:dustZirconium>]);
 register([<ore:nuggetZirconiumNiobiumAlloy>, <ore:ingotZirconiumNiobiumAlloy>, <ore:stickZirconiumNiobiumAlloy>, <ore:plateZirconiumNiobiumAlloy>, <ore:dustZirconiumNiobiumAlloy>]);
 register([<ore:nuggetSilverIndiumAlloy>, <ore:ingotSilverIndiumAlloy>, <ore:stickSilverIndiumAlloy>, <ore:plateSilverIndiumAlloy>, <ore:dustSilverIndiumAlloy>]);
 register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>, <ore:gearMaragingSteel>]);

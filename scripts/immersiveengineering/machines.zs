@@ -34,6 +34,8 @@ Distiller.addRecipe(<liquid:lowcontaminatekerosene> * 1000, <liquid:lowsulfurker
 
 //Diluted sulfuric acid -> sulfuric acid (small amount of loss)
 Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:dilutedsulfuricacid> * 1000, <mekanism:biofuel>, 250, 200, 1.0);
+Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:coppersulfatesolutionresidue> * 400, <ore:sludgeCopperDerivedAnode>.firstItem * 1, 200, 250, 1.0);
+Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:nickelsulfatesolutionresidue> * 400, <ore:sludgeNickelDerivedAnode>.firstItem * 1, 200, 250, 1.0);
 
 //Distiller recipes for salt drying
 Distiller.addRecipe(<liquid:water> * 1000, <liquid:magnesiumchloridesolution> * 1000, <ore:dustMagnesiumChloride>.firstItem * 10, 200, 250, 1.0);
@@ -103,7 +105,7 @@ furnace.addRecipe(<contenttweaker:calcined_crushed_marble>, <contenttweaker:crus
 
 //Blaze Powder to sulfur & soul sand to nitrate (gunpowder!)
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
-BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
+BlastFurnace.addRecipe(<minecraft:sand> * 3, <ore:soulsand>.firstItem * 3, 600, <immersiveengineering:material:24> * 2);
 
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <ore:sludgeCharcoalPrecursor>, 900);
@@ -172,7 +174,6 @@ Squeezer.addRecipe(<minecraft:packed_ice>, <liquid:ice> * 3000, <ore:blockIce> *
 Squeezer.addRecipe(<biomesoplenty:hard_ice>, <liquid:ice> * 3000, <ore:blockPackedIce> * 4, 512000);
 Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard_ice> * 4, 512000);
 Squeezer.removeFluidRecipe(<liquid:blood>);
-Squeezer.addRecipe(<minecraft:quartz_block>, null, <contenttweaker:silicon_dioxide_dust_block>, 1024000);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:fragment> * 16, 512000);
 
 //Remove metal press rod recipes. Use the lathe

@@ -1,0 +1,7 @@
+setIcon(<immersivepetroleum:metal_multiblock:3>)
+setTitle("Suction Production")
+setDescription("Form a pumpjack to extract fluids from beneath the bedrock")
+addParent("triumph:basic_tech/sample_drill")
+criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
+criteria.setMultiblock("IP:Pumpjack")
+setPos(-95,-245)

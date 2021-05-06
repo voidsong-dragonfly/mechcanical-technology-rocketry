@@ -1,4 +1,4 @@
-setIcon(<minecraft:bucket>)
+setIcon(<immersivepetroleum:metal_multiblock>)
 setTitle("Petrochemical Processing")
 setDescription("From base fluids to complex petrochemical products, be it from ethanol, natural gas, or oil")
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")

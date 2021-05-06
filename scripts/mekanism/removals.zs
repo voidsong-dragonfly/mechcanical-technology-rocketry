@@ -22,6 +22,7 @@ for item in mekSteamRemovals{
 var mekOresRemovals = [<mekanism:clump:*>,
                        <mekanism:shard:*>,
                        <mekanism:crystal:*>,
+                       <mekanism:dirtydust:2>,
                        <mekores:mekanismore:0>,
                        <mekores:mekanismore:1>,
                        <mekores:mekanismore:2>,

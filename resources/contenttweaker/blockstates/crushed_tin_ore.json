@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/cryolite",
-      "particle": "contenttweaker:blocks/cryolite"
+      "texture": "contenttweaker:blocks/crushed_tin_ore",
+      "particle": "contenttweaker:blocks/crushed_tin_ore"
     },
     "model": "base:storage",
     "uvlock": true,

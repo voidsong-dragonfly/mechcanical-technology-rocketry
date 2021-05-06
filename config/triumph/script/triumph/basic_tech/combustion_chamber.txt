@@ -1,0 +1,7 @@
+setIcon(<magneticraft:combustion_chamber>)
+setTitle("Basic Boiler")
+setDescription("Craft a solid fuel firebox to make heat for your soild fuel boiler")
+addParent("triumph:basic_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<magneticraft:combustion_chamber>)
+setPos(-275,5)

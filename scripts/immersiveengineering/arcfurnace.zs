@@ -9,8 +9,8 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:6> * 2, <ore:ingotEquivalentNic
 ArcFurnace.addRecipe(<immersiveengineering:metal:7> * 2, <ore:ingotEquivalentGold>, null, 150, 512, [<ore:ingotEquivalentSilver>], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<immersiveengineering:metal:8>, <ore:ingotEquivalentIron>, <immersiveengineering:material:7>, 400, 512, [<ore:dustAnyCarbon>], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotEquivalentTin>, null, 300, 512, [<ore:ingotEquivalentCopper> * 3], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<ore:ingotNiobiumTitaniumAlloy>.firstItem * 2, <ore:ingotEquivalentNiobium>, null, 200, 512, [<ore:ingotEquivalentTitanium>], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<ore:ingotZirconiumNiobiumAlloy>.firstItem * 40, <ore:ingotEquivalentNiobium>, null, 8000, 512, [<ore:ingotEquivalentZirconium> * 39], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<ore:ingotNiobiumTitaniumAlloy>.firstItem * 2, <ore:dustNiobium>, null, 200, 512, [<ore:ingotEquivalentTitanium>], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<ore:ingotZirconiumNiobiumAlloy>.firstItem * 40, <ore:dustNiobium>, null, 8000, 512, [<ore:dustZirconium> * 39], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<ore:ingotSilverIndiumAlloy>.firstItem * 5, <ore:dustIndium>, null, 1000, 512, [<ore:ingotEquivalentSilver> * 4], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 4, <ore:ingotEquivalentAluminum>, null, 1600, 768, [<ore:ingotEquivalentTitanium> * 3], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<ore:ingotMaragingSteel>.firstItem * 20, <ore:ingotEquivalentTitanium>, null, 4000, 512, [<ore:ingotEquivalentIron> * 13, <ore:ingotEquivalentNickel> * 4, <ore:dustCobalt> * 2], "Alloying & Steelmaking");
@@ -48,10 +48,8 @@ ArcFurnace.addRecipe(<ore:ingotDepletedUraniumDioxide>.firstItem, <ore:dustDeple
 ArcFurnace.addRecipe(<ore:ingotLightlyEnrichedUraniumDioxide>.firstItem, <ore:dustLightlyEnrichedUraniumDioxide>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotHighlyEnrichedUraniumDioxide>.firstItem, <ore:dustHighlyEnrichedUraniumDioxide>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotTungsten>.firstItem, <ore:dustTungsten>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<ore:ingotZirconium>.firstItem, <ore:dustZirconium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5>, <ore:dustTin>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:7>, <ore:dustTitanium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<ore:ingotNiobium>.firstItem, <ore:dustNiobium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:10>, <ore:dustIridium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<mekanism:ingot:1>, <ore:dustOsmium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem, <ore:dustPlatinum>, null, 100, 512, null, "Smelting");
@@ -81,10 +79,8 @@ ArcFurnace.addRecipe(<ore:ingotDepletedUraniumDioxide>.firstItem, <ore:plateDepl
 ArcFurnace.addRecipe(<ore:ingotLightlyEnrichedUraniumDioxide>.firstItem, <ore:plateLightlyEnrichedUraniumDioxide>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotHighlyEnrichedUraniumDioxide>.firstItem, <ore:plateHighlyEnrichedUraniumDioxide>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotTungsten>.firstItem, <ore:plateTungsten>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<ore:ingotZirconium>.firstItem, <ore:plateZirconium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5>, <ore:plateTin>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:7>, <ore:plateTitanium>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<ore:ingotNiobium>.firstItem, <ore:plateNiobium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:10>, <ore:plateIridium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotPlatinum>.firstItem, <ore:platePlatinum>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotMixedPlatinumGroupMetal>.firstItem, <ore:plateMixedPlatinumGroupMetal>, null, 100, 512, null, "Smelting");
@@ -138,4 +134,3 @@ ArcFurnace.addRecipe(<mekanism:ingot:1> * 8, <contenttweaker:osmium_dust_block>,
 ArcFurnace.addRecipe(<ore:ingotTungsten>.firstItem * 8, <contenttweaker:tungsten_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:5> * 8, <contenttweaker:tin_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
 ArcFurnace.addRecipe(<libvulpes:productingot:7> * 8, <contenttweaker:titanium_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");
-ArcFurnace.addRecipe(<ore:ingotNiobium>.firstItem * 8, <contenttweaker:niobium_dust_block>, null, 900, 512, null, "Asteroid Dust Smelting");

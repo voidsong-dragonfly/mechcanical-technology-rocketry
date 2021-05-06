@@ -1,0 +1,7 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"steam",Amount:1000}>)
+setTitle("Late Industrial Revolution")
+setDescription("Form a steam engine with a kinetic dynamo for a much better power source")
+addParent("triumph:basic_tech/kinetic_dynamo")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<magneticraft:steam_engine>)
+setPos(-235,35)

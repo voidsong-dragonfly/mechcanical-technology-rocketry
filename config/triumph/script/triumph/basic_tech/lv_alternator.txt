@@ -1,0 +1,8 @@
+setIcon(<magneticraft:electric_engine>)
+setTitle("Miniature Rotational Converter")
+setDescription("Craft an LV alterator to convert from the power the steam engine outputs to IF")
+addParent("triumph:basic_tech/boiler")
+addParent("triumph:basic_tech/steam_engine")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<magneticraft:electric_engine>)
+setPos(-200,20)
