@@ -59,6 +59,10 @@ recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem,
  [[<ore:stickSteel>, <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}), <ore:stickSteel>],
  [<ore:gearSteel>, <immersiveengineering:metal_decoration0:5>, <ore:gearSteel>],
  [<ore:stickSteel>, <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}), <ore:stickSteel>]]);
+recipes.addShaped(<ore:machineCasingMagneticBearing>.firstItem,
+ [[<ore:stickMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:stickMaragingSteel>],
+ [<ore:mechanicalComponentMaragingSteel>, <immersiveengineering:metal_decoration0:5>, <ore:mechanicalComponentMaragingSteel>],
+ [<ore:stickMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:stickMaragingSteel>]]);
 
 //Make powder barrels more appealing
 recipes.remove(<immersiveengineering:wooden_device0:4>);
@@ -166,17 +170,6 @@ recipes.addShaped(<immersiveengineering:jerrycan>,
  [<ore:plateIron>, <ore:plateIron>],
  [<ore:plateIron>, <ore:plateIron>]]);
 
-//Make sleeping bag easier to get
-recipes.remove(<engineerstools:sleeping_bag>);
-recipes.addShaped(<engineerstools:sleeping_bag>,
- [[<ore:string>, <ore:string>, null],
- [<minecraft:carpet:*>, <minecraft:carpet:*>, <ore:wool>],
- [<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>]]);
-recipes.addShaped(<engineerstools:sleeping_bag>,
- [[<ore:string>, <ore:string>, null],
- [<minecraft:carpet:*>, <minecraft:carpet:*>, <ore:wool>],
- [<ore:leatherSheet>, <ore:leatherSheet>, <ore:leatherSheet>]]);
-
 //Make bayonet use a Tetra iron sword
 recipes.replaceAllOccurences(<minecraft:iron_sword>, <tetra:sword_modular>.withTag({"sword/basic_hilt_material": "basic_hilt/treated_wood", "sword/counterweight_material": "counterweight/iron", "sword/hilt": "sword/basic_hilt", "sword/blade": "sword/basic_blade", "sword/basic_blade_material": "basic_blade/iron", "sword/pommel": "sword/counterweight"}), <immersiveengineering:toolupgrade:4>);
  
@@ -224,6 +217,14 @@ recipes.addShaped(<ore:frameTitanium>.firstItem,
  [[null, <ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>],
  [<ore:scaffoldingPanelTitanium>, null, <ore:scaffoldingPanelTitanium>],
  [<ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>, null]]);
+recipes.addShaped(<ore:frameTungstensteel>.firstItem,
+ [[null, <ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>],
+ [<ore:scaffoldingPanelTungstensteel>, null, <ore:scaffoldingPanelTungstensteel>],
+ [<ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>, null]]);
+recipes.addShaped(<ore:frameNeutronium>.firstItem,
+ [[null, <ore:scaffoldingPanelNeutronium>, <ore:scaffoldingPanelNeutronium>],
+ [<ore:scaffoldingPanelNeutronium>, null, <ore:scaffoldingPanelNeutronium>],
+ [<ore:scaffoldingPanelNeutronium>, <ore:scaffoldingPanelNeutronium>, null]]);
  
 //HVDC and HV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!

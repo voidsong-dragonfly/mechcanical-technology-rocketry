@@ -23,19 +23,6 @@ injection.addRecipe(<ore:enderpearl>, <gas:endacid> * 125, <portalgun:item_dust_
 injection.addRecipe(<ore:rodBlaze>, <gas:endacid> * 125, <minecraft:blaze_powder> * 8);
 injection.addRecipe(<ore:gemPrismarine>, <gas:endacid> * 125, <minecraft:prismarine_crystals> * 3);
 
-//Refined Obsidian and Glowstone processing
-compressor.removeRecipe(<mekanism:ingot:3>);
-dissolution.addRecipe(<ore:dustImpureRefinedObsidian>, <gas:impurerefinedobsidian> * 100);
-washer.addRecipe(<gas:impurerefinedobsidian>, <gas:refinedobsidian>);
-crystallizer.addRecipe(<gas:refinedobsidian> * 100, <mekanism:otherdust:5>);
-dissolution.addRecipe(<ore:dustImpureRefinedGlowstone>, <gas:impurerefinedglowstone> * 100);
-washer.addRecipe(<gas:impurerefinedglowstone>, <gas:refinedglowstone>);
-crystallizer.addRecipe(<gas:refinedglowstone> * 100, <ore:dustRefinedGlowstone>.firstItem);
-compressor.addRecipe(<ore:dustRefinedGlowstone>, <gas:liquidosmium> * 200, <mekanism:ingot:3>);
-
-//Lithium in the crystalliser
-crystallizer.addRecipe(<gas:lithium> * 100, <mekanism:otherdust:4>);
-
 //Brine and lithium changes and additions
 thermalevaporation.removeRecipe(<liquid:brine>);
 thermalevaporation.addRecipe(<liquid:saltwater> * 10, <liquid:richbrine>);

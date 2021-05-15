@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part>)
+setIcon(<contenttweaker:material_part:1>)
 setTitle("Unaged Aging")
 setDescription("Craft an ingot of maraging steel, useable instead of titanium for many rocketry constructs")
 addParent("triumph:rocketry_tech/cobalt")

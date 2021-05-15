@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:170>)
+setIcon(<contenttweaker:material_part:174>)
 setTitle("Whole Circuits At Once")
 setDescription("Etch a SoC wafer for cheaper circuits")
 addParent("triumph:circuit_tech/lithium_wafer")

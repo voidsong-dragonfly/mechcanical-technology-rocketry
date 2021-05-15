@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:198>)
+setIcon(<contenttweaker:material_part:205>)
 setTitle("One Long Time and 4B FE Later")
 setDescription("Exhaust the energy from a nuclear fuel rod to get spent rods")
 addParent("triumph:nuclear/fuelrod")

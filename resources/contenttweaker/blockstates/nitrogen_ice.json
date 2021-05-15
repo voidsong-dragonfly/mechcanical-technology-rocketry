@@ -1,16 +1,18 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/nitrogen_ice",
-      "particle": "contenttweaker:blocks/nitrogen_ice"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": { "all": "contenttweaker:blocks/nitrogen_ice" }
   },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
+    "inventory": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/nitrogen_ice" }
+    },
+    "normal": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/nitrogen_ice" }
+    }
   }
 }

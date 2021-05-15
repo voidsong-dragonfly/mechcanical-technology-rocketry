@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:211>)
+setIcon(<contenttweaker:material_part:219>)
 setTitle("Not Pressure-Inflated")
 setDescription("Extrude a fuel tank shell from titanium")
 addParent("triumph:advanced_tech/barrel")

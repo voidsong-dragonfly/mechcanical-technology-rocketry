@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:159>)
+setIcon(<contenttweaker:material_part:162>)
 setTitle("Dual-Chamber Coking")
 setDescription("Acquire petroleum coke, the most useful use of bitumen")
 addParent("triumph:petroleum_tech/bitumen")

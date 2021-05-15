@@ -41,6 +41,12 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Advanced
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Fission Reactor Components"}),
  [[<immersiveengineering:metal_device1:6>, <ore:ingotZirconiumNiobiumAlloy>, <immersiveengineering:metal_device1:6>],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+ [<ore:paper>, <ore:paper>, <ore:paper>]]);
+ 
+//Make "Fusion Reactor & Particle Containment Components" blueprint craftable
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Fusion Reactor & Particle Containment Components"}),
+ [[<immersiveengineering:metal_device1:6>, <ore:scaffoldingPanelTungstensteel>, <immersiveengineering:metal_device1:6>],
+ [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]); 
 
 //Make "Rocket Engine Components" blueprint craftable
@@ -111,6 +117,8 @@ Blueprint.addRecipe("components", <ore:mechanicalComponentMaragingSteel>.firstIt
 Blueprint.addRecipe("components", <ore:smallBatteryHullItem>.firstItem * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateTin>, <ore:plateTin>]);
 Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireTungsten>, <ore:dustRedstone>]);
 Blueprint.addRecipe("components", <ore:supercapacitorHullItem>.firstItem, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
+Blueprint.addRecipe("components", <ore:unfilledSuperconductorCableItem>.firstItem * 4, [<ore:sheetSteel> * 4, <ore:wireNiobiumTitaniumAlloy> * 8, <ore:smallPipeTungstensteel> * 4]);
+Blueprint.addRecipe("components", <ore:unfilledHighCurrentSuperconductorCableItem>.firstItem * 4, [<ore:sheetSteel> * 4, <ore:wireYttriumBariumCuprate> * 8, <ore:smallPipeTungstensteel> * 4]);
 
 //Circuit pieces blueprint
 Blueprint.removeRecipe(<immersiveengineering:material:27>);
@@ -157,6 +165,16 @@ recipes.remove(<immersiveengineering:stone_decoration:7>);
 Blueprint.addRecipe("Fission Reactor Components", <immersiveengineering:stone_decoration:7>, [<engineersdecor:rebar_concrete>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>]);
 Blueprint.addRecipe("Fission Reactor Components", <ore:fuelBundleFresh>.firstItem, [<ore:smallPipeZirconiumNiobiumAlloy> * 9, <ore:fuelPelletLightlyEnrichedUraniumDioxide> * 64, <ore:fuelPelletLightlyEnrichedUraniumDioxide> * 8]);
 Blueprint.addRecipe("Fission Reactor Components", <ore:rodBundleControl>.firstItem, [<ore:smallPipeZirconiumNiobiumAlloy> * 20, <ore:stickSilverIndiumAlloy> * 20]);
+
+//Fusion+ multiblock components
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingFusionReactorOuterCasing>.firstItem, [<ore:frameTungstensteel>, <ore:plateTungsten> * 6, <mekanism:transmitter>.withTag({tier: 3}) * 2, <ore:circuitAdvanced>]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingFusionReactorInnerCasing>.firstItem, [<ore:frameTungstensteel>, <ore:plateTungsten> * 6, <ore:smallPipeTungstensteel> * 4, <ore:circuitAdvanced>]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingSuperconductiveCoil>.firstItem, [<ore:scaffoldingSteel>, <ore:unfilledSuperconductorCableItem> * 8]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingHighCurrentSuperconductiveCoil>.firstItem, [<ore:scaffoldingSteel>, <ore:unfilledHighCurrentSuperconductorCableItem> * 8]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingParticleAcceleratorCasing>.firstItem, [<ore:frameTungstensteel>, <ore:plateMaragingSteel> * 6, <ore:mechanicalComponentMaragingSteel>, <ore:circuitElite>]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingNaquadahReactorCasing>.firstItem, [<ore:frameNeutronium>, <ore:plateDepletedUraniumDioxide> * 6, <ore:mechanicalComponentMaragingSteel>, <ore:smallPipeOsmiridium> * 4]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingBeamControlLens>.firstItem, [<ore:scaffoldingSteel>, <ore:lensNetherStar> * 6, <ore:mechanicalComponentMaragingSteel> * 4, <ore:perfectCircuitItem>]);
+Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <ore:machineCasingParticleContainmentCasing>.firstItem, [<ore:frameNeutronium>, <ore:sheetOsmiridium> * 6, <ore:sheetNeutronium> * 6, <ore:smallPipeOsmiridium> * 4]);
 
 //Rocket engine components blueprint
 Blueprint.addRecipe("Rocket Engine Components", <ore:compressorBladeTitanium>.firstItem * 32, [<ore:stickTitanium>, <ore:plateTitanium>, <ore:stickTitanium>, <ore:plateTitanium>, <ore:ingotTitanium>, <ore:ingotTitanium>]);

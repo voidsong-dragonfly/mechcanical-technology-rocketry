@@ -204,18 +204,20 @@ register([<ore:nuggetPlatinum>, <ore:ingotPlatinum>]);
 register([<ore:nuggetMixedPlatinumGroupMetal>, <ore:ingotMixedPlatinumGroupMetal>]);
 register([<ore:nuggetDepletedUraniumDioxide>, <ore:ingotDepletedUraniumDioxide>]);
 register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUraniumDioxide>]);
-register([<ore:nuggetHighlyEnrichedUraniumDioxide>, <ore:ingotHighlyEnrichedUraniumDioxide>]);
 register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:stickNiobiumTitaniumAlloy>, <ore:plateNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
-register([<ore:dustNiobium>]);
-register([<ore:dustZirconium>]);
 register([<ore:nuggetZirconiumNiobiumAlloy>, <ore:ingotZirconiumNiobiumAlloy>, <ore:stickZirconiumNiobiumAlloy>, <ore:plateZirconiumNiobiumAlloy>, <ore:dustZirconiumNiobiumAlloy>]);
 register([<ore:nuggetSilverIndiumAlloy>, <ore:ingotSilverIndiumAlloy>, <ore:stickSilverIndiumAlloy>, <ore:plateSilverIndiumAlloy>, <ore:dustSilverIndiumAlloy>]);
 register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>, <ore:gearMaragingSteel>]);
+register([<ore:nuggetEnrichedNaquadah>, <ore:ingotEnrichedNaquadah>]);
+register([<ore:nuggetOsmiridium>, <ore:ingotOsmiridium>]);
+register([<ore:nuggetNeutronium>, <ore:ingotNeutronium>]);
 
 //CT sheets
 MetalPress.addRecipe(<ore:sheetMaragingSteel>.firstItem, <ore:plateMaragingSteel>, <immersiveengineering:mold>, 3600);
 MetalPress.addRecipe(<ore:sheetPlatinum>.firstItem, <ore:platePlatinum>, <immersiveengineering:mold>, 3600);
 MetalPress.addRecipe(<ore:sheetMixedPlatinumGroupMetal>.firstItem, <ore:plateMixedPlatinumGroupMetal>, <immersiveengineering:mold>, 3600);
+MetalPress.addRecipe(<ore:sheetNeutronium>.firstItem, <ore:plateNeutronium>, <immersiveengineering:mold>, 3600);
+MetalPress.addRecipe(<ore:sheetOsmiridium>.firstItem, <ore:plateOsmiridium>, <immersiveengineering:mold>, 3600);
 
 
 //Misc. dusts

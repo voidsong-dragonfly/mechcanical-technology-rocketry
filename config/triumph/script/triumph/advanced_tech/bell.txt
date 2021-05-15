@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part, meta:222, count:1>)
+setIcon(<contenttweaker:material_part, meta:230, count:1>)
 setTitle("Impossible Geometry")
 setDescription("Craft a heavy metal press bell die, for rocket engine bells and crucibles")
 addParent("triumph:advanced_tech/heavy")

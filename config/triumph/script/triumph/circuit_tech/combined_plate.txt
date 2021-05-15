@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:182>)
+setIcon(<contenttweaker:material_part:186>)
 setTitle("Preparations for Departure")
 setDescription("Craft a CPU etching plate with a wafer to get a prepared wafer")
 addParent("triumph:circuit_tech/advanced_etch")

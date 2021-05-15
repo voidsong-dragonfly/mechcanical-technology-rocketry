@@ -76,7 +76,7 @@ function create_block_transparent(name as string, material as BlockMaterial, har
     block.setToolClass(tool);
     block.setBlockSoundType(sound);
     block.setToolLevel(level);
-    block.setBlockLayer("TRANSLUCENT");
+    block.setBlockLayer("CUTOUT");
     block.register();
 
 }

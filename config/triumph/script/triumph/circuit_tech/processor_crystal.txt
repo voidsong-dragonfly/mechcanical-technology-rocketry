@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:186>)
+setIcon(<contenttweaker:material_part:190>)
 setTitle("Crystalline Computing Coprocessor")
 setDescription("Craft raw processor crystal, the last step in Ultimate circuit manufacture")
 addParent("triumph:circuit_tech/crystalliser")

@@ -1,16 +1,18 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/calcined_red_mud",
-      "particle": "contenttweaker:blocks/calcined_red_mud"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": { "all": "contenttweaker:blocks/calcined_red_mud" }
   },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
+    "inventory": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/calcined_red_mud" }
+    },
+    "normal": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/calcined_red_mud" }
+    }
   }
 }

@@ -266,37 +266,6 @@ biome_changer.addItemInput(<ore:mechanicalComponentSteel>, 2);
 biome_changer.addItemOutput(<advancedrocketry:satelliteprimaryfunction:5>);
 biome_changer.build();
 
-//Cleanroom fusion pieces
-var fusion_casing_inner = newBuilder("fusion_casing_inner", "assembly_cleanroom", 300);
-fusion_casing_inner.addEnergyPerTickInput(1024);
-fusion_casing_inner.addItemInput(<ore:scaffoldingPanelTungstensteel>, 12);
-fusion_casing_inner.addItemInput(<ore:plateTungsten>, 6);
-fusion_casing_inner.addItemInput(<ore:smallPipeTungstensteel>, 8);
-fusion_casing_inner.addItemOutput(<ore:machineCasingFusionReactorInnerCasing>.firstItem);
-fusion_casing_inner.build();
-var fusion_casing_outer = newBuilder("fusion_casing_outer", "assembly_cleanroom", 300);
-fusion_casing_outer.addEnergyPerTickInput(1024);
-fusion_casing_outer.addItemInput(<ore:scaffoldingPanelTungstensteel>, 12);
-fusion_casing_outer.addItemInput(<ore:plateTungsten>, 6);
-fusion_casing_outer.addItemInput(<mekanism:transmitter>.withTag({tier: 3}) * 2);
-fusion_casing_outer.addItemOutput(<ore:machineCasingFusionReactorOuterCasing>.firstItem);
-fusion_casing_outer.build();
-var fusion_coil = newBuilder("fusion_coil", "assembly_cleanroom", 300);
-fusion_coil.addEnergyPerTickInput(1024);
-fusion_coil.addItemInput(<mekanism:transmitter>.withTag({tier: 3}) * 8);
-fusion_coil.addItemInput(<ore:stickMaragingSteel>, 4);
-fusion_coil.addItemOutput(<ore:machineCasingSuperconductiveCoil>.firstItem);
-fusion_coil.build();
-
-//Cleanroom superconductor pieces
-var uncooled_superconductor_cable = newBuilder("uncooled_superconductor_cable", "assembly_cleanroom", 300);
-uncooled_superconductor_cable.addEnergyPerTickInput(256);
-uncooled_superconductor_cable.addItemInput(<ore:wireNiobiumTitaniumAlloy>, 16);
-uncooled_superconductor_cable.addItemInput(<ore:smallPipeTungstensteel>, 4);
-uncooled_superconductor_cable.addItemInput(<ore:circuitElite>, 1);
-uncooled_superconductor_cable.addItemOutput(<ore:unfilledSuperconductorCableItem>.firstItem * 4);
-uncooled_superconductor_cable.build();
-
 
 
 /*

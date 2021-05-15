@@ -1,8 +1,0 @@
-setIcon(<mekanism:otherdust:5>)
-setTitle("Crystalline Obsidian Alloy")
-setDescription("Crystallize refined obsidian slurry to get refined obsidian dust")
-addParent("triumph:advanced_tech/refined_obsidian_gas")
-addParent("triumph:advanced_tech/crystallization")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<mekanism:otherdust:5>)
-setPos(-65,290)

@@ -1,7 +1,0 @@
-setIcon(<contenttweaker:material_part:125>)
-setTitle("Impure Potential")
-setDescription("Craft impure refined obsidian dust in the arc furnace")
-addParent("triumph:advanced_tech/root")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:dustImpureRefinedObsidian>)
-setPos(-275,290)

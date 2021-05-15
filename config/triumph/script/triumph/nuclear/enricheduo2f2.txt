@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:107>)
+setIcon(<contenttweaker:material_part:125>)
 setTitle("Ceramic Conversion Conception")
 setDescription("Acquire lightly enriched uranyl fluoride from 3.5% enriched uranium hexafluoride")
 addParent("triumph:nuclear/35uf6")

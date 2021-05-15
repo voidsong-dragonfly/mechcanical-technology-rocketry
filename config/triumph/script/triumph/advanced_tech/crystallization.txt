@@ -1,7 +1,0 @@
-setIcon(<mekanism:machineblock2:8>)
-setTitle("Crystalline Wonders")
-setDescription("Craft a chemical crystallizer, the final step in cleaning refined dusts")
-addParent("triumph:advanced_tech/washing")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<mekanism:machineblock2:8>)
-setPos(-100,260)

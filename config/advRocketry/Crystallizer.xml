@@ -32,17 +32,6 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
-    <Recipe timeRequired="3600" power="8192">
-		<input>
-			<oreDict>dustEmerald;64</oreDict>
-            <oreDict>dustOsmium;2</oreDict>
-            <fluidStack>helium;16000</fluidStack>
-        </input>
-		<output>
-			<oreDict>processorCrystalRaw;16</oreDict>
-            <fluidStack>helium;15800</fluidStack>
-		</output>
-	</Recipe>
     <Recipe timeRequired="2400" power="1024">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
@@ -65,4 +54,26 @@
             <fluidStack>argon;3900</fluidStack>
 		</output>
     </Recipe>
+    <Recipe timeRequired="3600" power="8192">
+		<input>
+			<oreDict>dustEmerald;64</oreDict>
+            <oreDict>dustOsmium;2</oreDict>
+            <fluidStack>helium;16000</fluidStack>
+        </input>
+		<output>
+			<oreDict>processorCrystalRaw;16</oreDict>
+            <fluidStack>helium;15800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="3600" power="8192">
+		<input>
+			<oreDict>dustEnrichedNaquadah;64</oreDict>
+            <oreDict>dustBarium;4</oreDict>
+            <fluidStack>helium3;16000</fluidStack>
+        </input>
+		<output>
+			<oreDict>naquadahProcessorCrystalRaw;16</oreDict>
+            <fluidStack>helium3;15800</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>

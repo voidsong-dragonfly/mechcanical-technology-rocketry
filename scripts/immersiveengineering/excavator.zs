@@ -71,3 +71,5 @@ Excavator.addMineral("Ilmenite", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreI
 Excavator.addMineral("Mephitic Quartizite", 20, 0.2, ["netherrack", "soulsand", "oreQuartz", "dustSulfur", "oreNetherGold"], [1.25, 0.25, 0.6, 0.2, 0.2], [-1], false);
 Excavator.addMineral("Fluoritic Quartzite", 15, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreFluorite", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);
 Excavator.addMineral("Cinnabaric Quartzite", 10, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreNetherCinnabar", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);
+//End
+Excavator.addMineral("Naquadah", 20, 0.2, ["endstone", "endgravel", "shatteredendstone"], [1.35, 0.55, 0.6], [1], false);

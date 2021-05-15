@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:4>)
+setIcon(<contenttweaker:material_part:6>)
 setTitle("Pellet Manufacture Beginnings")
 setDescription("Smelt lightly enriched uranium dioxide grit to get lightly enriched uranium dioxide ingots")
 addParent("triumph:nuclear/enricheduo2")

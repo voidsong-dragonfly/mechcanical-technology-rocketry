@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:sub_block_holder_0:10>)
+setIcon(<contenttweaker:sub_block_holder_1:2>)
 setTitle("A 'Basic' 800 Million Kelvin")
 setDescription("Form the smallest diameter fusion reactor, only capable of fusing deuterium and tritium")
 addParent("triumph:nuclear/deuterium")

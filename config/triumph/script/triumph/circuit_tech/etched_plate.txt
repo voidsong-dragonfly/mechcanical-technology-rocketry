@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:184>)
+setIcon(<contenttweaker:material_part:188>)
 setTitle("Acid Burns are Good for You")
 setDescription("Etch a combined CPU plate to get a circuit wafer")
 addParent("triumph:circuit_tech/combined_plate")

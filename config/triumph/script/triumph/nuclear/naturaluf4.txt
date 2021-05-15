@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:114>)
+setIcon(<contenttweaker:material_part:131>)
 setTitle("Deep Green Best Green")
 setDescription("Acquire natural uranium fluoride dust from uranium dioxide dust")
 addParent("triumph:nuclear/naturaluo2")

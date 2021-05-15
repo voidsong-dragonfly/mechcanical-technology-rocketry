@@ -2,33 +2,32 @@
   "savedSubBlockNames": {
     "0": {
       "0": "maraging_steel_block",
-      "1": "tungstensteel_block",
-      "2": "tungsten_block",
+      "1": "tungsten_block",
+      "2": "tungstensteel_block",
       "3": "titanium_frame",
       "4": "zirconium_niobium_alloy_frame",
-      "5": "metal_barrel_shell_machinecasing",
-      "6": "steel_barrel_shell_machinecasing",
-      "7": "lubricated_bearing_machinecasing",
-      "8": "magnetic_bearing_machinecasing",
-      "9": "centrifuge_cylinder_shell_machinecasing",
-      "10": "superconductive_coil_machinecasing",
-      "11": "fusion_reactor_inner_casing_machinecasing",
-      "12": "fusion_reactor_outer_casing_machinecasing",
+      "5": "tungstensteel_frame",
+      "6": "neutronium_frame",
+      "7": "metal_barrel_shell_machinecasing",
+      "8": "steel_barrel_shell_machinecasing",
+      "9": "rare_earths_magnetic_coil_machinecasing",
+      "10": "lubricated_bearing_machinecasing",
+      "11": "magnetic_bearing_machinecasing",
+      "12": "centrifuge_cylinder_shell_machinecasing",
       "13": "fission_reactor_calandria_casing_shell_machinecasing",
       "14": "fission_reactor_calandria_casing_machinecasing",
       "15": "fission_reactor_fuel_rod_assembly_pipe_connector_machinecasing"
     },
     "1": {
-      "0": "ore_netherfluoriteore",
-      "1": "ore_nethergoldore",
-      "2": "ore_cinnabarore",
-      "3": "ore_platinumore",
-      "4": "ore_tungstenore",
-      "5": "ore_niobiumore",
-      "6": "ore_zirconiumore",
-      "7": "ore_nethercinnabarore",
-      "8": "ore_cryoliteore",
-      "9": "plastic_coated_rebar_concrete_machinecasing"
+      "0": "fusion_reactor_outer_casing_machinecasing",
+      "1": "fusion_reactor_inner_casing_machinecasing",
+      "2": "superconductive_coil_machinecasing",
+      "3": "particle_accelerator_casing_machinecasing",
+      "4": "high_current_superconductive_coil_machinecasing",
+      "5": "naquadah_reactor_casing_machinecasing",
+      "6": "particle_containment_casing_machinecasing",
+      "7": "beam_control_lens_machinecasing",
+      "8": "plastic_coated_rebar_concrete_machinecasing"
     }
   }
 }

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:200>)
+setIcon(<contenttweaker:material_part:207>)
 setTitle("A Finished Control Rod")
 setDescription("Craft a control rod bundle")
 addParent("triumph:nuclear/silver_indium_rod")

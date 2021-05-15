@@ -1,7 +1,0 @@
-setIcon(<mekanism:machineblock:1>)
-setTitle("Expensive Combination")
-setDescription("Craft an osmium compressor, to turn refined dusts into ingots using an ingot of osmium each")
-addParent("triumph:advanced_tech/crystallization")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<mekanism:machineblock:1>)
-setPos(-65,260)

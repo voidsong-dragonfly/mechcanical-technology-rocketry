@@ -162,7 +162,7 @@ Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:reinforcedplasticblock:*>
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:glowplasticblock:*>, 2400, <minecraft:glowstone_dust>, 0.3);
 BlastFurnace.addFuel(<ore:fuelPetroleumCoke>.firstItem, 1200);
 Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustPetroleumCoke> * 8, 19200);
-    
+
 //Make Insulating Glass made in the Alloy Kiln with Glass and Iron dust
 recipes.remove(<immersiveengineering:stone_decoration:8>);
 AlloySmelter.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <minecraft:glass> * 8, <ore:dustIron>, 320);
@@ -181,4 +181,4 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold:2>);
 
 //Add in some extra metal press recipes
 MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
-MetalPress.addRecipe(<ore:fuelPelletHighlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickHighlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
+MetalPress.addRecipe(<ore:fuelPelletEnrichedNaquadah>.firstItem * 18, <ore:stickEnrichedNaquadah>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);

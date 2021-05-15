@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:81>)
+setIcon(<contenttweaker:material_part:90>)
 setTitle("Pellet Production Process")
 setDescription("Craft lightly enriched uranium dioxide fuel pellets from lightly enriched uranium dioxide rods")
 addParent("triumph:nuclear/enrichedrod")

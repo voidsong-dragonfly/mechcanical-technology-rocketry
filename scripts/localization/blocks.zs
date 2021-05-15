@@ -11,6 +11,49 @@ game.setLocalization("tile.contenttweaker.ammonia_ice.name", "Ammonia Ice");
 game.setLocalization("tile.contenttweaker.methane_ice.name", "Methane Ice");
 game.setLocalization("tile.contenttweaker.ethene_ice.name", "Ethylene Ice");
 
+//Snows & planetary ices
+game.setLocalization("tile.contenttweaker.tholinated_ice.name", "Tholiated Ice");
+game.setLocalization("tile.contenttweaker.lightly_tholinated_ice.name", "Lightly Tholinated Ice");
+game.setLocalization("tile.contenttweaker.sooty_ice.name", "Sooty Ice");
+game.setLocalization("tile.contenttweaker.soot.name", "Soot");
+game.setLocalization("tile.contenttweaker.sulfur_dioxide_snow.name", "Sulfur Dioxide Snow");
+game.setLocalization("tile.contenttweaker.sulfur_snow.name", "Sulfur Snow");
+game.setLocalization("tile.contenttweaker.damaged_sulfur_snow.name", "Damaged Sulfur Snow");
+game.setLocalization("tile.contenttweaker.fresh_sulfated_mega_regolith.name", "Fresh Sulfate Rock");
+game.setLocalization("tile.contenttweaker.sulfated_mega_regolith.name", "Sulfate Rock");
+game.setLocalization("tile.contenttweaker.sulfated_mega_regolith_cobblestone.name", "Sulfate Rock Cobblestone");
+game.setLocalization("tile.contenttweaker.sulfated_mega_regolith_gravel.name", "Sulfate Rock Gravel");
+game.setLocalization("tile.contenttweaker.mixed_exotic_salts.name", "Mixed Exotic Salts");
+game.setLocalization("tile.contenttweaker.mixed_exotic_clays.name", "Mixed Exotic Clays");
+//Regoliths
+game.setLocalization("tile.contenttweaker.icebound_regolith.name", "Icebound Regolith");
+game.setLocalization("tile.contenttweaker.fine_highland_regolith_volatiles.name", "Fine Highland Regolith");
+game.setLocalization("tile.contenttweaker.fine_lowland_regolith_volatiles.name", "Fine Lowland Regolith");
+game.setLocalization("tile.contenttweaker.fine_highland_regolith_iron.name", "Fine Highland Regolith");
+game.setLocalization("tile.contenttweaker.fine_lowland_regolith_iron.name", "Fine Lowland Regolith");
+game.setLocalization("tile.contenttweaker.fine_highland_regolith_metals.name", "Fine Highland Regolith");
+game.setLocalization("tile.contenttweaker.fine_lowland_regolith_metals.name", "Fine Lowland Regolith");
+game.setLocalization("tile.contenttweaker.compacted_highland_regolith_volatiles.name", "Compacted Highland Regolith");
+game.setLocalization("tile.contenttweaker.compacted_lowland_regolith_volatiles.name", "Compacted Lowland Regolith");
+game.setLocalization("tile.contenttweaker.compacted_highland_regolith_iron.name", "Compacted Highland Regolith");
+game.setLocalization("tile.contenttweaker.compacted_lowland_regolith_iron.name", "Compacted Lowland Regolith");
+game.setLocalization("tile.contenttweaker.compacted_highland_regolith_metals.name", "Compacted Highland Regolith");
+game.setLocalization("tile.contenttweaker.compacted_lowland_regolith_metals.name", "Compacted Lowland Regolith");
+//Rocks
+game.setLocalization("tile.contenttweaker.mega_highland_regolith_volatiles.name", "Highland Rock");
+game.setLocalization("tile.contenttweaker.mega_lowland_regolith_volatiles.name", "Lowland Rock");
+game.setLocalization("tile.contenttweaker.mega_highland_regolith_iron.name", "Highland Rock");
+game.setLocalization("tile.contenttweaker.mega_lowland_regolith_iron.name", "Lowland Rock");
+game.setLocalization("tile.contenttweaker.mega_highland_regolith_metals.name", "Highland Rock");
+game.setLocalization("tile.contenttweaker.mega_lowland_regolith_metals.name", "Lowland Rock");
+//Rock cobbles
+game.setLocalization("tile.contenttweaker.mega_highland_regolith_volatiles_cobblestone.name", "Highland Rock Cobblestone");
+game.setLocalization("tile.contenttweaker.mega_lowland_regolith_volatiles_cobblestone.name", "Lowland Rock Cobblestone");
+game.setLocalization("tile.contenttweaker.mega_highland_regolith_iron_cobblestone.name", "Highland Rock Cobblestone");
+game.setLocalization("tile.contenttweaker.mega_lowland_regolith_iron_cobblestone.name", "Lowland Rock Cobblestone");
+game.setLocalization("tile.contenttweaker.mega_highland_regolith_metals_cobblestone.name", "Highland Rock Cobblestone");
+game.setLocalization("tile.contenttweaker.mega_lowland_regolith_metals_cobblestone.name", "Lowland Rock Cobblestone");
+
 //Asteroid mining dust blocks
 //Nonmetals
 game.setLocalization("tile.contenttweaker.silicon_dioxide_dust_block.name", "Compressed Silicon Dixoide Dust");
@@ -48,6 +91,7 @@ game.setLocalization("tile.contenttweaker.calcined_crushed_marble.name", "Calcin
 game.setLocalization("tile.contenttweaker.fine_gravel.name", "Fine Gravel");
 game.setLocalization("tile.contenttweaker.fine_sand.name", "Fine Sand");
 game.setLocalization("tile.contenttweaker.fine_soul_sand.name", "Fine Soul Sand");
+game.setLocalization("tile.contenttweaker.end_gravel.name", "Endstone Gravel");
 
 //Ore processing byproduct blocks
 game.setLocalization("tile.contenttweaker.crushed_ore_spoils.name", "Crushed Ore Spoils");
@@ -83,3 +127,4 @@ game.setLocalization("tile.contenttweaker.cinnabar_ore.name", "Cinnabar Ore");
 game.setLocalization("tile.contenttweaker.nether_gold_ore.name", "Nether Gold Ore");
 game.setLocalization("tile.contenttweaker.nether_cinnabar_ore.name", "Nether Cinnabar Ore");
 game.setLocalization("tile.contenttweaker.nether_fluorite_ore.name", "Nether Fluorite Ore");
+game.setLocalization("tile.contenttweaker.shattered_end_stone.name", "Shattered End Stone");

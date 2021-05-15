@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:194>)
+setIcon(<contenttweaker:material_part:201>)
 setTitle("Relativistic Tracking Network")
 setDescription("Craft a GPS unit for use in Elite and Ultimate circuits")
 addParent("triumph:circuit_tech/data_unit")

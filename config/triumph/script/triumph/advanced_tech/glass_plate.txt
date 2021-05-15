@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:26>)
+setIcon(<contenttweaker:material_part:28>)
 setTitle("Not Pane, Plate")
 setDescription("Craft a glass pane, used to make some pane-requiring items cheaper")
 addParent("triumph:advanced_tech/cutting_machine")

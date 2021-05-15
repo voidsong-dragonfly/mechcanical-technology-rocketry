@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:sub_block_holder_0:2>)
+setIcon(<contenttweaker:sub_block_holder_0:1>)
 setTitle("10 Tonnes of Pressure")
 setDescription("Form a heavy metal press multiblock for rocket engine bells cheaper scaffolding [Any die will complete]")
 addParent("triumph:advanced_tech/root")

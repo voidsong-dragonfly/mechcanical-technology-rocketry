@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:180>)
+setIcon(<contenttweaker:material_part:184>)
 setTitle("Nickel Negative")
 setDescription("Craft a CPU etching plate to make advanced circuits")
 addParent("triumph:circuit_tech/root")

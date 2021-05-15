@@ -1,8 +1,0 @@
-setIcon(<mekanism:gaugedropper, meta:0, count:1, nbt:{mekData:{gasStack:{amount:1000,gasName:"impurerefinedobsidian"}}}>)
-setTitle("Liquid Impure Slurry")
-setDescription("Dissolve impure refined obsidian dust to get impure refined obsidian slurry")
-addParent("triumph:advanced_tech/impure_refined_obsidian")
-addParent("triumph:advanced_tech/dissolution")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<mekanism:gaugedropper, meta:0, count:1, nbt:{mekData:{gasStack:{amount:1000,gasName:"impurerefinedobsidian"}}}>)
-setPos(-135,290)

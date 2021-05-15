@@ -167,6 +167,34 @@
 			<itemStack>mekanism:controlcircuit;1;3</itemStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="675" power="16384">
+		<input>
+			<oreDict>naquadahProcessorCrystalEngraved</oreDict>
+            <oreDict>gpsUnitItem;2</oreDict>
+            <oreDict>smdResistor;2</oreDict>
+            <oreDict>wireNiobiumTitaniumAlloy;2</oreDict>
+            <oreDict>solderItem;16</oreDict>
+            <oreDict>circuitBoardPlatinumBackedPlastic;2</oreDict>
+            <fluidStack>liquidnitrogen;250</fluidStack>
+        </input>
+		<output>
+			<itemStack>mekanism:controlcircuit;2;3</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="675" power="16384">
+		<input>
+			<oreDict>naquadahProcessorCrystalEngraved</oreDict>
+            <oreDict>gpsUnitItem;2</oreDict>
+            <oreDict>smdResistor;2</oreDict>
+            <oreDict>wireYttriumBariumCuprate;2</oreDict>
+            <oreDict>solderItem;8</oreDict>
+            <oreDict>circuitBoardPlatinumBackedPlastic</oreDict>
+            <fluidStack>liquidnitrogen;500</fluidStack>
+        </input>
+		<output>
+			<oreDict>perfectCircuitItem</oreDict>
+		</output>
+	</Recipe>
     <Recipe timeRequired="900" power="256">
 		<input>
 			<oreDict>circuitPlateNANDMemory;12</oreDict>

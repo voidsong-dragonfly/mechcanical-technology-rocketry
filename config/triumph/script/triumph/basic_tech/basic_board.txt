@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:188>)
+setIcon(<contenttweaker:material_part:195>)
 setTitle("Basic Backing Board")
 setDescription("Craft a treated wood circuit board for use in basic circuits")
 addParent("triumph:basic_tech/circuit_blueprint")

@@ -7,7 +7,7 @@
   The fail chance of the vein determines the size, a fail chance of 0.05 is 8x32, a fail chance of 0.1 is 7x28, a fail chance of 0.15 is 6x24, and a fail chance of 0.2 is 5x20 - Veins that are 5x20 you may be better off mining an excavator vein
   Fail chance for Nether veins is halved to determine size because Nether has fewer veins and so a higher fail chance to spread veins out
   The ores contained within the vein, excluding sulfur dust because there is no sulfur ore, are represented with their vein weight in the weight of the ores
-  This file covers Overworld veins first, Nether veins second, Special veins (Cryolite) third, and Planetary (Dilithium, possibly Naquadah) veins last",
+  This file covers Overworld veins first, Nether veins second, Special veins (Cryolite) third, End veins fourth (Naquadah), and Planetary (Dilithium) veins last",
   "bituminous_coal": {
     "type": "sphere",
     "vertical_size": 8,
@@ -847,6 +847,33 @@
     "dimensions_is_whitelist": true,
     "min_y": 64,
     "max_y": 96,
+    "density": 128
+  },
+  "naquadah": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "contenttweaker:shattered_end_stone",
+        "weight": 60
+      },
+      {
+        "block": "contenttweaker:end_gravel",
+        "weight": 20
+      },
+      {
+        "block": "stygian:endacid",
+        "weight": 20
+      }
+    ],
+    "stone": ["minecraft:end_stone"],
+    "rarity": 256,
+    "count": 1,
+    "dimensions": [1],
+    "dimensions_is_whitelist": true,
+    "min_y": 8,
+    "max_y": 80,
     "density": 128
   },
   "dilithium_ore": {

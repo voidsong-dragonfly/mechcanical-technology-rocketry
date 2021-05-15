@@ -116,10 +116,29 @@
     <Recipe timeRequired="2400" power ="7680">
 		<input>
 			<oreDict>processorCrystalRaw</oreDict>
-			<oreDict>lensRuby</oreDict>
+			<oreDict>lensEnderPearl</oreDict>
 		</input>
 		<output>
 			<oreDict>processorCrystalEngraved</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power ="7680">
+		<input>
+			<oreDict>naquadahProcessorCrystalRaw</oreDict>
+			<oreDict>lensNetherStar</oreDict>
+		</input>
+		<output>
+			<oreDict>naquadahProcessorCrystalEngraved</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power ="7680">
+		<input>
+			<oreDict>dustIron;7</oreDict>
+			<oreDict>dustNeodymium</oreDict>
+            <oreDict>machineCasingSteelBarrelShell</oreDict>
+		</input>
+		<output>
+			<oreDict>machineCasingRareEarthsMagneticCoil</oreDict>
 		</output>
 	</Recipe>
 </Recipes>

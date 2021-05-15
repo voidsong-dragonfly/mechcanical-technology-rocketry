@@ -17,9 +17,27 @@ recipes.addShaped(<mekanism:basicblock:8>,
 furnace.remove(<ore:ingotOsmium>);
 
 //Mekanism transmitter recipes, make universal cables into superconductors
-removeAndHide(<mekanism:transmitter:*>);
-//Universal cables (ultimate to superconductor)
-addItem(<mekanism:transmitter:0>.withTag({tier: 3}));
+removeAndHide(<mekanism:transmitter>.withTag({tier: 0}));
+removeAndHide(<mekanism:transmitter>.withTag({tier: 1}));
+removeAndHide(<mekanism:transmitter>.withTag({tier: 2}));
+removeAndHide(<mekanism:transmitter:1>.withTag({tier: 0}));
+removeAndHide(<mekanism:transmitter:1>.withTag({tier: 1}));
+removeAndHide(<mekanism:transmitter:1>.withTag({tier: 2}));
+removeAndHide(<mekanism:transmitter:1>.withTag({tier: 3}));
+removeAndHide(<mekanism:transmitter:2>.withTag({tier: 0}));
+removeAndHide(<mekanism:transmitter:2>.withTag({tier: 1}));
+removeAndHide(<mekanism:transmitter:2>.withTag({tier: 2}));
+removeAndHide(<mekanism:transmitter:2>.withTag({tier: 3}));
+removeAndHide(<mekanism:transmitter:3>.withTag({tier: 0}));
+removeAndHide(<mekanism:transmitter:3>.withTag({tier: 1}));
+removeAndHide(<mekanism:transmitter:3>.withTag({tier: 2}));
+removeAndHide(<mekanism:transmitter:3>.withTag({tier: 3}));
+removeAndHide(<mekanism:transmitter:4>);
+removeAndHide(<mekanism:transmitter:5>);
+removeAndHide(<mekanism:transmitter:6>.withTag({tier: 0}));
+removeAndHide(<mekanism:transmitter:6>.withTag({tier: 1}));
+removeAndHide(<mekanism:transmitter:6>.withTag({tier: 2}));
+removeAndHide(<mekanism:transmitter:6>.withTag({tier: 3}));
 
 //Mekanism side of circuit production
 recipes.remove(<mekanism:controlcircuit:*>);
@@ -76,10 +94,7 @@ recipes.remove(<mekanism:machineblock:2>);
 recipes.remove(<mekanism:machineblock:9>);
 recipes.remove(<mekanism:machineblock2:0>);
 recipes.remove(<mekanism:machineblock2:1>);
-recipes.remove(<mekanism:machineblock2:3>);
 recipes.remove(<mekanism:machineblock2:4>);
-recipes.remove(<mekanism:machineblock2:6>);
-recipes.remove(<mekanism:machineblock2:7>);
 recipes.remove(<mekanism:machineblock2:8>);
 recipes.remove(<mekanism:machineblock2:9>);
 recipes.remove(<mekanism:machineblock2:13>);
@@ -108,14 +123,6 @@ recipes.addShaped(<mekanism:machineblock2:4>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<immersiveengineering:graphite_electrode>, <mekanism:basicblock:8>, <immersiveengineering:graphite_electrode>],
  [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
-recipes.addShaped(<mekanism:machineblock2:6>,
- [[<ore:circuitUltimate>, <mekanism:gastank>, <ore:circuitUltimate>],
- [<ore:ingotTitanium>, <mekanism:basicblock:8>, <ore:ingotTitanium>],
- [<ore:circuitUltimate>, <mekanism:gastank>, <ore:circuitUltimate>]]);
-recipes.addShaped(<mekanism:machineblock2:7>,
- [[<ore:circuitUltimate>, <immersivetech:metal_barrel:2>, <ore:circuitUltimate>],
- [<ore:ingotTitanium>, <mekanism:basicblock:8>, <ore:ingotTitanium>],
- [<ore:circuitUltimate>, <mekanism:gastank>, <ore:circuitUltimate>]]);
 recipes.addShaped(<mekanism:machineblock2:8>,
  [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
  [<mekanism:gastank>, <mekanism:basicblock:8>, <mekanism:gastank>],
@@ -132,7 +139,6 @@ recipes.addShaped(<mekanism:machineblock2:14>,
  [[<ore:ingotTungsten>, <ore:lensGlass>, <ore:ingotTungsten>],
  [<ore:lensGlass>, <mekanism:basicblock:8>, <ore:lensGlass>],
  [<ore:ingotTungsten>, <ore:lensGlass>, <ore:ingotTungsten>]]);
-recipes.replaceAllOccurences(<ore:alloyUltimate>, <ore:circuitUltimate>, <mekanism:machineblock3>);
  
 //Gas Tanks
 recipes.remove(<mekanism:gastank:*>);
@@ -152,25 +158,6 @@ recipes.addShaped(<mekanism:gastank>.withTag({tier: 3}),
  [[<ore:ingotPGMAny>, <ore:plateTitanium>, <ore:ingotPGMAny>],
  [<ore:plateTitanium>, null, <ore:plateTitanium>],
  [<ore:ingotPGMAny>, <ore:plateTitanium>, <ore:ingotPGMAny>]]);
- 
-//Bins
-recipes.remove(<mekanism:basicblock:6>);
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 0}),
- [[<minecraft:cobblestone>, <ore:circuitBasic>, <minecraft:cobblestone>],
- [<ore:ingotTungsten>, null, <ore:ingotTungsten>],
- [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 1}),
- [[<minecraft:cobblestone>, <ore:circuitAdvanced>, <minecraft:cobblestone>],
- [<ore:ingotConstantan>, null, <ore:ingotConstantan>],
- [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 2}),
- [[<minecraft:cobblestone>, <ore:circuitElite>, <minecraft:cobblestone>],
- [<ore:ingotTitaniumAluminide>, null, <ore:ingotTitaniumAluminide>],
- [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
-recipes.addShaped(<mekanism:basicblock:6>.withTag({tier: 3}),
- [[<minecraft:cobblestone>, <ore:circuitUltimate>, <minecraft:cobblestone>],
- [<ore:ingotTitanium>, null, <ore:ingotTitanium>],
- [<minecraft:cobblestone>, <minecraft:cobblestone>, <minecraft:cobblestone>]]);
  
 //Removing enriched alloys and similar from items
 //Because I don't know WHAT they were made of originally but it certainly wasn't "realism", I can tell you that much
@@ -209,13 +196,6 @@ recipes.addShaped(<mekanism:networkreader>,
  [[<ore:ingotSteel>, <ore:blockGlassColorless>, <ore:ingotSteel>],
  [<ore:ingotSteel>, <mekanism:energytablet>, <ore:ingotSteel>],
  [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
- 
-//Teleportation core
-recipes.remove(<mekanism:teleportationcore>);
-recipes.addShaped(<mekanism:teleportationcore>,
- [[<ore:dustRefinedObsidian>, <ore:ingotTitanium>, <ore:dustRefinedObsidian>],
- [<ore:circuitUltimate>, <ore:dustDiamond>, <ore:circuitUltimate>],
- [<ore:dustRefinedObsidian>, <ore:ingotTitanium>, <ore:dustRefinedObsidian>]]);
  
 //Mekanism gear
 recipes.replaceAllOccurences(<ore:alloyAdvanced>, <ore:plateSteel>, <mekanism:scubatank>);

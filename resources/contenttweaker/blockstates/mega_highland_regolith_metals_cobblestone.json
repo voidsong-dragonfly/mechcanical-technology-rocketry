@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": { "all": "contenttweaker:blocks/mega_highland_regolith_metals_cobblestone" }
+  },
+  "variants": {
+    "inventory": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/mega_highland_regolith_metals_cobblestone" }
+    },
+    "normal": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/mega_highland_regolith_metals_cobblestone" }
+    }
+  }
+}

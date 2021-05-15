@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:127>)
+setIcon(<contenttweaker:material_part:144>)
 setTitle("Carbon Black Substitude")
 setDescription("Acquire petroleum coke dust from cracking methane, a very viable source of coke")
 addParent("triumph:petroleum_tech/cracked_methane")

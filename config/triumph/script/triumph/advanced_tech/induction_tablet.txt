@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:204>)
+setIcon(<contenttweaker:material_part:211>)
 setTitle("A Bomb in a Plastic Package")
 setDescription("Craft an induction tablet, used to store energy in the induction matrix")
 addParent("triumph:advanced_tech/plastic")

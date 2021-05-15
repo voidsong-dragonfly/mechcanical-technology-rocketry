@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:72>)
+setIcon(<contenttweaker:material_part:79>)
 setTitle("Sturdy Construction")
 setDescription("Craft a steel scaffolding panel, the frame material for the fission reactor calandria")
 addParent("triumph:advanced_tech/scaffold")

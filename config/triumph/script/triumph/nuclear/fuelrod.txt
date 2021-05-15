@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:196>)
+setIcon(<contenttweaker:material_part:203>)
 setTitle("Your First Nuclear Fuel")
 setDescription("Craft lightly enriched uranium dioxide fuel rods from lightly enriched uranium dioxide fuel pellets")
 addParent("triumph:nuclear/enrichedpellet")

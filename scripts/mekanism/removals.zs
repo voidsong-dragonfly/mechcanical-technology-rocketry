@@ -57,61 +57,7 @@ var mekOresRemovals = [<mekanism:clump:*>,
 for item in mekOresRemovals{
     removeAndHide(item);
     }
-
-//Remove Mekanism tools, glowstone and lapis are unrealistic, steel tools are already present in IE, and paxels usurp the REDIA
-var mekToolsRemovals = [<mekanismtools:steelpickaxe>,
-                        <mekanismtools:steelaxe>,
-                        <mekanismtools:steelshovel>,
-                        <mekanismtools:steelhoe>,
-                        <mekanismtools:steelsword>,
-                        <mekanismtools:steelpaxel>,
-                        <mekanismtools:steelhelmet>,
-                        <mekanismtools:steelchestplate>,
-                        <mekanismtools:steelleggings>,
-                        <mekanismtools:steelboots>,
-                        <mekanismtools:lapislazulipickaxe>,
-                        <mekanismtools:lapislazuliaxe>,
-                        <mekanismtools:lapislazulishovel>,
-                        <mekanismtools:lapislazulihoe>,
-                        <mekanismtools:lapislazulisword>,
-                        <mekanismtools:lapislazulipaxel>,
-                        <mekanismtools:lapislazulihelmet>,
-                        <mekanismtools:lapislazulichestplate>,
-                        <mekanismtools:lapislazulileggings>,
-                        <mekanismtools:lapislazuliboots>,
-                        <mekanismtools:woodpaxel>,
-                        <mekanismtools:stonepaxel>,
-                        <mekanismtools:ironpaxel>,
-                        <mekanismtools:goldpaxel>,
-                        <mekanismtools:diamondpaxel>,
-                        <mekanismtools:bronzepickaxe>,
-                        <mekanismtools:bronzeaxe>,
-                        <mekanismtools:bronzeshovel>,
-                        <mekanismtools:bronzehoe>,
-                        <mekanismtools:bronzesword>,
-                        <mekanismtools:bronzepaxel>,
-                        <mekanismtools:osmiumpickaxe>,
-                        <mekanismtools:osmiumaxe>,
-                        <mekanismtools:osmiumshovel>,
-                        <mekanismtools:osmiumhoe>,
-                        <mekanismtools:osmiumsword>,
-                        <mekanismtools:osmiumpaxel>,
-                        <mekanismtools:obsidianpickaxe>,
-                        <mekanismtools:obsidianaxe>,
-                        <mekanismtools:obsidianshovel>,
-                        <mekanismtools:obsidianhoe>,
-                        <mekanismtools:obsidiansword>,
-                        <mekanismtools:obsidianpaxel>,
-                        <mekanismtools:glowstonepickaxe>,
-                        <mekanismtools:glowstoneaxe>,
-                        <mekanismtools:glowstoneshovel>,
-                        <mekanismtools:glowstonehoe>,
-                        <mekanismtools:glowstonesword>,
-                        <mekanismtools:glowstonepaxel>
-                        ] as IItemStack[];
-for item in mekToolsRemovals{
-    removeAndHide(item);
-    }
+    
     
     
 //Hide unused Mekanism items
@@ -120,6 +66,9 @@ removeAndHide(<mekanism:filterupgrade>);
 removeAndHide(<mekanism:electrolyticcore>);
 removeAndHide(<mekanism:tierinstaller:*>);
 removeAndHide(<mekanism:walkietalkie>);
+removeAndHide(<mekanism:portableteleporter>);
+removeAndHide(<mekanism:teleportationcore>);
+removeAndHide(<mekanism:substrate>);
 hide(<mekanism:enrichedalloy>);
 hide(<mekanism:reinforcedalloy>);
 hide(<mekanism:atomicalloy>);
@@ -127,6 +76,20 @@ hide(<mekanism:compressedcarbon>);
 hide(<mekanism:compressedredstone>);
 hide(<mekanism:compresseddiamond>);
 hide(<mekanism:compressedobsidian>);
+//Hide unused mek materials
+removeAndHide(<ore:dustRefinedObsidian>);
+removeAndHide(<ore:ingotRefinedObsidian>);
+removeAndHide(<ore:nuggetRefinedObsidian>);
+removeAndHide(<ore:blockRefinedObsidian>);
+removeAndHide(<ore:ingotRefinedGlowstone>);
+removeAndHide(<ore:nuggetRefinedGlowstone>);
+removeAndHide(<ore:blockRefinedGlowstone>);
+
+//Remove bins.... use drawers, LogiPipes, or silos
+removeAndHide(<mekanism:basicblock:6>);
+
+//Remove teleporter frame.... use EIO for that
+removeAndHide(<mekanism:basicblock:7>);
 
 //Remove energy cubes, if you don't have the resources for an Induction Matrix use flywheels
 removeAndHide(<mekanism:energycube:*>);

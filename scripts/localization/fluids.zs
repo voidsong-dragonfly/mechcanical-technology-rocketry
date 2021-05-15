@@ -9,7 +9,6 @@ game.setLocalization("fluid.liquidnitrogen", "Liquid Nitrogen");
 game.setLocalization("fluid.coldliquidoxygen", "Liquid Oxygen");
 game.setLocalization("fluid.coldliquidhydrogen", "Liquid Hydrogen");
 game.setLocalization("fluid.liquidmethane", "Liquid Methane");
-game.setLocalization("fluid.liquidhelium", "Liquid Helium");
 game.setLocalization("fluid.air", "Air");
 game.setLocalization("gas.air", "Pressurized Air");
 game.setLocalization("fluid.carbondioxide", "Carbon Dioxide");
@@ -114,12 +113,6 @@ game.setLocalization("fluid.denseheliumrichgas", "Dense Helium-Rich Gas Mix");
 game.setLocalization("fluid.lightheliumrichgas", "Light Helium-Rich Gas Mix");
 game.setLocalization("fluid.cloudheliumrichgas", "Cloudlayer Helium-Rich Gas Mix");
 game.setLocalization("fluid.precipitategas", "Precipitate Gas Mix");
-
-//MekaTweaker gasses
-game.setLocalization("gas.impurerefinedglowstone", "Pressurized Impure Refined Glowstone");
-game.setLocalization("gas.impurerefinedobsidian", "Pressurized Impure Refined Obsidian");
-game.setLocalization("gas.refinedglowstone", "Pressurized Refined Glowstone");
-game.setLocalization("gas.refinedobsidian", "Pressurized Refined Obsidian");
 
 //Ore processing
 //Cinnabar

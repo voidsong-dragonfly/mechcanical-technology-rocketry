@@ -1,16 +1,18 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/fine_gravel",
-      "particle": "contenttweaker:blocks/fine_gravel"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": { "all": "contenttweaker:blocks/fine_gravel" }
   },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
+    "inventory": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/fine_gravel" }
+    },
+    "normal": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/fine_gravel" }
+    }
   }
 }

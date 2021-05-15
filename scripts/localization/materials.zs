@@ -35,6 +35,8 @@ game.setLocalization("contenttweaker.part.preparedwafer", "Prepared %s Wafer");
 game.setLocalization("contenttweaker.part.etchedwafer", "Etched %s Wafer");
 //New parts - circuit parts
 game.setLocalization("contenttweaker.part.processorcrystal", "%s Processor Crystal");
+game.setLocalization("contenttweaker.part.naquadahprocessorcrystal", "%s Naquadah Processor Crystal");
+game.setLocalization("contenttweaker.part.perfectcircuit", "Perfect Circuit");
 game.setLocalization("contenttweaker.part.circuitboard", "%s Circuit Board");
 game.setLocalization("contenttweaker.part.smd", "SMD %s");
 game.setLocalization("contenttweaker.part.gpsunit", "GPS Unit");
@@ -48,6 +50,7 @@ game.setLocalization("contenttweaker.part.supercapacitorhull", "Supercapacitor H
 game.setLocalization("contenttweaker.part.supercapacitor", "Supercapacitor");
 game.setLocalization("contenttweaker.part.inductiontablet", "Induction Tablet");
 game.setLocalization("contenttweaker.part.unfilledsuperconductorcable", "Unfilled Superconductor Cable");
+game.setLocalization("contenttweaker.part.unfilledhighcurrentsuperconductorcable", "Unfilled High Current Superconductor Cable");
 //New parts - rocketry items
 game.setLocalization("contenttweaker.part.enginebell", "Rocket Engine Bell");
 game.setLocalization("contenttweaker.part.advancedenginebell", "Advanced Rocket Engine Bell");

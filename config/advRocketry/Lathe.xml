@@ -34,10 +34,18 @@
 <Recipes useDefault="false">
 	<Recipe timeRequired="150" power ="160">
 		<input>
+			<oreDict>ingotOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;48</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
 			<oreDict>ingotZirconiumNiobiumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;51</itemStack>
+			<itemStack>contenttweaker:material_part;2;56</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -53,7 +61,7 @@
 			<oreDict>ingotDepletedUraniumDioxide</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;52</itemStack>
+			<itemStack>contenttweaker:material_part;2;57</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -62,14 +70,6 @@
 		</input>
 		<output>
 			<itemStack>immersiveengineering:material;2;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotNiobium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;2;53</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -85,7 +85,7 @@
 			<oreDict>ingotLightlyEnrichedUraniumDioxide</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;50</itemStack>
+			<itemStack>contenttweaker:material_part;2;55</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -93,7 +93,7 @@
 			<oreDict>ingotPlatinum</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;56</itemStack>
+			<itemStack>contenttweaker:material_part;2;59</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -101,7 +101,7 @@
 			<oreDict>ingotNiobiumTitaniumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;46</itemStack>
+			<itemStack>contenttweaker:material_part;2;51</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -109,7 +109,15 @@
 			<oreDict>ingotTungsten</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;48</itemStack>
+			<itemStack>contenttweaker:material_part;2;53</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotYttriumBariumCuprate</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;50</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -141,7 +149,7 @@
 			<oreDict>ingotSilverIndiumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;57</itemStack>
+			<itemStack>contenttweaker:material_part;2;61</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -150,14 +158,6 @@
 		</input>
 		<output>
 			<itemStack>immersiveposts:metal_rods;2</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotHighlyEnrichedUraniumDioxide</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;2;55</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -173,7 +173,7 @@
 			<oreDict>ingotMixedPlatinumGroupMetal</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;47</itemStack>
+			<itemStack>contenttweaker:material_part;2;52</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -189,7 +189,7 @@
 			<oreDict>ingotMaragingSteel</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;45</itemStack>
+			<itemStack>contenttweaker:material_part;2;49</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -210,10 +210,18 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
-			<oreDict>ingotZirconium</oreDict>
+			<oreDict>ingotEnrichedNaquadah</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;58</itemStack>
+			<itemStack>contenttweaker:material_part;2;60</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="150" power ="160">
+		<input>
+			<oreDict>ingotNeutronium</oreDict>
+		</input>
+		<output>
+			<itemStack>contenttweaker:material_part;2;62</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -237,7 +245,7 @@
 			<oreDict>ingotTungstensteel</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;54</itemStack>
+			<itemStack>contenttweaker:material_part;2;58</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -305,6 +313,14 @@
 			<oreDict>lensEnderPearl</oreDict>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="900" power="192">
+		<input>
+			<oreDict>netherStar</oreDict>
+        </input>
+		<output>
+			<oreDict>lensNetherStar</oreDict>
+		</output>
+	</Recipe>
     <Recipe timeRequired="1200" power="192">
 		<input>
 			<oreDict>blockGlassColorless</oreDict>
@@ -315,7 +331,7 @@
 	</Recipe>
     <Recipe timeRequired="150" power="256">
 		<input>
-			<oreDict>ingotSteel</oreDict>
+			<oreDict>mechanicalComponentSteel</oreDict>
         </input>
 		<output>
 			<itemStack>immersiveengineering:toolupgrade;1;7</itemStack>

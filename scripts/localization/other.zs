@@ -170,7 +170,7 @@ game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.vacuum.name", 
 <modularmachinery:blockfluidoutputhatch:7>.removeTooltip("mb");
 
 //Turn Traverse Crag blocks into crucible bits
-game.setLocalization("tile.traverse:blue_rock_cobblestone_stairs.name", "Pressure Vessel Wall");
+game.setLocalization("fluid.enrichedLava", "Sulfuric Lava");
 
 //Redo Biomes O Plenty logs that conflict in naming
 //Willow -> Cypress

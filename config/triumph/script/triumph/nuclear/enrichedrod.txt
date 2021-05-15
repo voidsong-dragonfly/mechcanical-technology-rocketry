@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:50>)
+setIcon(<contenttweaker:material_part:55>)
 setTitle("The Shape of a Fuel Rod")
 setDescription("Craft lightly enriched uranium dioxide rods from lightly enriched uranium dioxide ingots")
 addParent("triumph:nuclear/enrichedingot")

@@ -1,16 +1,18 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "textures": {
-      "texture": "contenttweaker:blocks/crushed_copper_ore",
-      "particle": "contenttweaker:blocks/crushed_copper_ore"
-    },
-    "model": "base:storage",
-    "uvlock": true,
-    "transform": "forge:default-block"
+    "transform": "forge:default-block",
+    "model": "cube_all",
+    "textures": { "all": "contenttweaker:blocks/crushed_copper_ore" }
   },
   "variants": {
-    "normal": [{}],
-    "inventory": [{}]
+    "inventory": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/crushed_copper_ore" }
+    },
+    "normal": {
+      "model": "cube_all",
+      "textures": { "all": "contenttweaker:blocks/crushed_copper_ore" }
+    }
   }
 }

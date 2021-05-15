@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:197>)
+setIcon(<contenttweaker:material_part:204>)
 setTitle("How Did You Manage THAT!?!?")
 setDescription("Overheat a reactor with many many passive safety controls")
 addParent("triumph:nuclear/fuelrod")

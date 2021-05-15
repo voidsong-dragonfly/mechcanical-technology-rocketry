@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part, meta:223, count:1>)
+setIcon(<contenttweaker:material_part, meta:231, count:1>)
 setTitle("Aircraft Manufacture Process")
 setDescription("Craft a heavy metal press scaffolding panel die, for cheaper scaffolding")
 addParent("triumph:advanced_tech/heavy")

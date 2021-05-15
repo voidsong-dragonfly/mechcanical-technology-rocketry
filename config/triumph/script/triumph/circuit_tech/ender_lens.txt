@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:162>)
+setIcon(<contenttweaker:material_part:166>)
 setTitle("Beam Teleportation")
 setDescription("Make a ender pearl lens for use in making SoC wafers")
 addParent("triumph:circuit_tech/laser_engraver1")

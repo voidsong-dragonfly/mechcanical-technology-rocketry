@@ -75,6 +75,8 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:oreNetherCinnabar>.add(<contenttweaker:nether_cinnabar_ore>);
 <ore:oreFluorite>.add(<contenttweaker:nether_fluorite_ore>);
 <ore:oreNetherFluorite>.add(<contenttweaker:nether_fluorite_ore>);
+<ore:shatteredendstone>.add(<contenttweaker:shattered_end_stone>);
+<ore:endgravel>.add(<contenttweaker:end_gravel>);
 
 //Fines oredictionary
 <ore:gravel>.add(<contenttweaker:fine_gravel>);
@@ -88,6 +90,7 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensEnderPearl>);
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensRuby>);
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensDiamond>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensNetherStar>);
 
 //Add oredictionary to PVJ blocks
 <ore:stoneSiltstone>.add(<pvj:siltstone>);

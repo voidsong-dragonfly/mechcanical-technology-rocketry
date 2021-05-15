@@ -16,6 +16,7 @@ Sieve.addRecipe(<minecraft:sand>, <contenttweaker:fine_sand>, 1, <minecraft:gold
 Sieve.addRecipe(<minecraft:sand:1>, <contenttweaker:fine_sand>, 1, <minecraft:redstone>, 0.4, <minecraft:gold_nugget>, 0.05, 40, false);
 Sieve.addRecipe(<minecraft:soul_sand>, <contenttweaker:fine_soul_sand>, 1, <minecraft:quartz>, 0.2, <minecraft:quartz>, 0.1, 40, false);
 Sieve.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sand>, 0.9, <quark:glass_shards>, 1, <quark:glass_shards:1>, 0.5, 40, true);
+Sieve.addRecipe(<contenttweaker:shattered_end_stone>, <contenttweaker:end_gravel>, 0.8, <ore:dustObsidian>.firstItem, 0.5, <ore:dustMixedEndMetals>.firstItem, 0.1, 40, true);
 
 //Sieve ore byproduct recipes
 Sieve.addRecipe(<contenttweaker:crushed_ore_spoils>, <minecraft:gravel>, 0.2, <contenttweaker:fine_gravel>, 0.1, <ore:dustStone>.firstItem * 3, 1, 40, true);
@@ -43,7 +44,8 @@ Sieve.addRecipe(<contenttweaker:crushed_tungsten_ore>, <mekores:mekanismore:108>
 //Sieve secondary ore recipes
 Sieve.addRecipe(<mekores:mekanismore:18>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({display: {Lore: ["Platinum-Rich"]}}).withTag({metal: "platinum"}), 0.1667, 75, true);
 Sieve.addRecipe(<mekores:mekanismore:23>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({display: {Lore: ["Iridium-Rich"]}}).withTag({metal: "iridium"}), 0.1667, 75, true);
-
+Sieve.addRecipe(<ore:dustMixedEndMetals>.firstItem, <ore:dustPlatinum>.firstItem, 0.5, <ore:dustTungsten>.firstItem, 0.3, <ore:dustMixedFissileMetals>.firstItem, 0.2, 75, true);
+Sieve.addRecipe(<ore:dustMixedFissileMetals>.firstItem, <ore:dustUranium>.firstItem, 0.6, <ore:dustNaquadah>.firstItem, 0.4, null, 0.0, 75, true);
 
 //Sluice
 SluiceBox.addRecipe(<ore:dustStone>.firstItem, 0.75, <minecraft:clay_ball>, 0.125, <minecraft:clay_ball>, 0.0625, <minecraft:clay_ball>, true);

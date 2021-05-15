@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:190>)
+setIcon(<contenttweaker:material_part:197>)
 setTitle("Better Backing Board")
 setDescription("Craft plastic circuit boards resistors for advanced circuits and cheaper basic circuits")
 addParent("triumph:circuit_tech/assembly_cleanroom")

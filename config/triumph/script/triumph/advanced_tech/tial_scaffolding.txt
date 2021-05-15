@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:71>)
+setIcon(<contenttweaker:material_part:78>)
 setTitle("Lightweight Frame")
 setDescription("Craft a titanium aluminide scaffolding panel, the basic panel for rocketry")
 addParent("triumph:advanced_tech/scaffold")
