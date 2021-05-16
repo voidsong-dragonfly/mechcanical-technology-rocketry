@@ -82,18 +82,6 @@ recipes.remove(<filteredhopper:filteredhopper>);
 recipes.addShaped(<filteredhopper:filteredhopper>,
  [[<minecraft:iron_bars>],
  [<minecraft:hopper>]]);
-
-//Platforms recipes make a little more sense
-recipes.remove(<platforms:wrench>);
-recipes.remove(<platforms:platform:50>);
-recipes.addShaped(<platforms:wrench>,
- [[null, <ore:stickIron>, <ore:stickIron>],
- [<ore:leatherSheet>, <ore:stickTreatedWood>, <ore:mechanicalComponentAny>],
- [<ore:stickTreatedWood>, <ore:dyeRed>, null]]);
-recipes.addShaped(<platforms:platform:50>,
- [[<ore:sheetIron>, <ore:stickIron>, <ore:sheetIron>],
- [<ore:dyeRed>, <ore:stickIron>, <ore:dyeRed>],
- [<ore:sheetIron>, <minecraft:crafting_table>, <ore:sheetIron>]]);
  
 //Compass Nuggets
 recipes.replaceAllOccurences(<ore:ingotIron>, <ore:nuggetIron>, <minecraft:compass>);
