@@ -5,7 +5,7 @@ import mods.jei.JEI.hide;
 import mods.jei.JEI.addItem;
 
 
-//Remove LogisticsPipes uncraftable items, power suppliers & fluid pipes (make no SENSE), & similar
+//Remove LogisticsPipes uncraftable items, power suppliers & fluid pipes (make no SENSE), random interdimensional connection mess (use EIO and Dew of the Void, which makes sense... the capabilites of these otherwise do not), & similar
 var logiPipesRemoval = [<logisticspipes:upgrade_fluid_crafting>,
                         <logisticspipes:upgrade_power_transportation>,
                         <logisticspipes:upgrade_power_supplier_mj>,
@@ -37,7 +37,10 @@ var logiPipesRemoval = [<logisticspipes:upgrade_fluid_crafting>,
                         <logisticspipes:upgrade_logic_controller>,
                         <logisticspipes:chip_basic_raw>,
                         <logisticspipes:chip_advanced_raw>,
-                        <logisticspipes:chip_fpga_raw>
+                        <logisticspipes:chip_fpga_raw>,
+                        <logisticspipes:pipe_inventory_system_connector>,
+                        <logisticspipes:pipe_remote_orderer>,
+                        <logisticspipes:remote_orderer>
                         ] as IItemStack[];
 for item in logiPipesRemoval{
     removeAndHide(item);
@@ -131,28 +134,20 @@ recipes.addShaped(<logisticspipes:pipe_request>,
 recipes.addShaped(<logisticspipes:pipe_request_mk2>,
  [[<logisticspipes:chip_advanced>],
  [<logisticspipes:pipe_request>]]);
-recipes.addShaped(<logisticspipes:pipe_inventory_system_connector>,
- [[<logisticspipes:chip_basic>],
- [<logisticspipes:pipe_basic>],
- [<ore:lensEnderPearl>]]);
 recipes.addShaped(<logisticspipes:pipe_satellite>,
  [[<logisticspipes:chip_fpga>],
  [<logisticspipes:pipe_basic>]]);
 recipes.addShaped(<logisticspipes:pipe_system_entrance>,
- [[<ore:lensEnderPearl>],
+ [[<logisticspipes:chip_advanced>],
  [<logisticspipes:pipe_basic>],
  [<logisticspipes:chip_fpga>]]);
 recipes.addShaped(<logisticspipes:pipe_system_destination>,
  [[<logisticspipes:chip_fpga>],
  [<logisticspipes:pipe_basic>],
- [<ore:lensEnderPearl>]]);
+ [<logisticspipes:chip_advanced>]]);
 recipes.addShaped(<logisticspipes:pipe_firewall>,
  [[<logisticspipes:chip_advanced>],
  [<logisticspipes:pipe_basic>]]);
-recipes.addShaped(<logisticspipes:pipe_remote_orderer>,
- [[<logisticspipes:chip_advanced>],
- [<logisticspipes:pipe_basic>],
- [<ore:lensEnderPearl>]]);
  
 //Item recipes
 //Chips
@@ -303,9 +298,5 @@ recipes.addShaped(<logisticspipes:pipe_controller>,
  [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
 recipes.addShaped(<logisticspipes:sign_creator>,
  [[<mekanism:polyethene:2>, <logisticspipes:chip_fpga>, <mekanism:polyethene:2>],
- [<logisticspipes:chip_advanced>, <ore:paneGlassColorless>, <logisticspipes:chip_advanced>],
- [<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>]]);
-recipes.addShaped(<logisticspipes:remote_orderer>,
- [[<mekanism:polyethene:2>, <logisticspipes:chip_basic>, <mekanism:polyethene:2>],
  [<logisticspipes:chip_advanced>, <ore:paneGlassColorless>, <logisticspipes:chip_advanced>],
  [<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>]]);

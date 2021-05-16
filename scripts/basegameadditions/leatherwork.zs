@@ -87,6 +87,12 @@ recipes.replaceAllOccurences(<minecraft:leather>, <ore:leatherSheet>);
 recipes.replaceAllOccurences(<ore:leatherSheet>, <minecraft:leather>, <leatherworks:leather_sheet>);
 recipes.replaceAllOccurences(<ore:slabWoodOak>, <ore:slabWood>, <leatherworks:drying_rack_oak>);
 
+//Redo other recipes
+recipes.remove(<lostquiver:quiver>);
+recipes.addShaped(<lostquiver:quiver>,
+ [[null, <ore:leatherStrip>, <ore:leatherSheet>],
+ [<ore:leatherStrip>, <ore:stickIron>, <ore:leatherSheet>],
+ [<ore:leatherSheet>, <ore:leatherSheet>, null]]);
 
 //Documentation tooltips
 <leatherworks:crafting_leather_soaked>.addTooltip("Must be dried upon a drying rack to turn into leather");

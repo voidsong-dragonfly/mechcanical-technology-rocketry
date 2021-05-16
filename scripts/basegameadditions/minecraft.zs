@@ -107,55 +107,6 @@ furnace.setFuel(<ore:dustCharcoal>, 2000);
 
 //Pantograph has iron rods instead of ingots
 recipes.replaceAllOccurences(<ore:listAllmetalingots>, <ore:stickIron>, <pantography:pantograph>);
-
-//Make bed require treated wood
-//I'm not making GT:NH I swear
-recipes.remove(<ore:bed>);
-recipes.addShaped(<minecraft:bed>,
- [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:1>,
- [[<minecraft:wool:1>, <minecraft:wool:1>, <minecraft:wool:1>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:2>,
- [[<minecraft:wool:2>, <minecraft:wool:2>, <minecraft:wool:2>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:3>,
- [[<minecraft:wool:3>, <minecraft:wool:3>, <minecraft:wool:3>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:4>,
- [[<minecraft:wool:4>, <minecraft:wool:4>, <minecraft:wool:4>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:5>,
- [[<minecraft:wool:5>, <minecraft:wool:5>, <minecraft:wool:5>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:6>,
- [[<minecraft:wool:6>, <minecraft:wool:6>, <minecraft:wool:6>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:7>,
- [[<minecraft:wool:8>, <minecraft:wool:7>, <minecraft:wool:7>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:9>,
- [[<minecraft:wool:9>, <minecraft:wool:9>, <minecraft:wool:9>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:10>,
- [[<minecraft:wool:10>, <minecraft:wool:10>, <minecraft:wool:10>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:11>,
- [[<minecraft:wool:11>, <minecraft:wool:11>, <minecraft:wool:11>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:12>,
- [[<minecraft:wool:12>, <minecraft:wool:12>, <minecraft:wool:12>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:13>,
- [[<minecraft:wool:13>, <minecraft:wool:13>, <minecraft:wool:13>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:14>,
- [[<minecraft:wool:14>, <minecraft:wool:14>, <minecraft:wool:14>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
-recipes.addShaped(<minecraft:bed:15>,
- [[<minecraft:wool:15>, <minecraft:wool:15>, <minecraft:wool:15>],
- [<ore:fenceTreatedWood>, <ore:slabTreatedWood>, <ore:fenceTreatedWood>]]);
  
 //Remove Forestry capsule useage as they "don't exist"
 recipes.removeByRecipeName("forestry:cake_can");

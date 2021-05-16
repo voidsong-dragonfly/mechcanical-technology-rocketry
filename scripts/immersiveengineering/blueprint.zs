@@ -30,6 +30,12 @@ recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "REDIA"})
  [[null, <ore:dustDiamond>, null],
  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]);
+ 
+//Make "Computers" blueprint craftable
+recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Computers"}),
+ [[null, <immersiveengineering:material:27>, null],
+ [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>],
+ [<ore:paper>, <ore:paper>, <ore:paper>]]);
 
 //Make "Advanced Armor" blueprint craftable
 recipes.addShaped(<immersiveengineering:blueprint>.withTag({blueprint: "Advanced Armor"}),
@@ -133,6 +139,18 @@ Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:4>, [<ore:circuitBa
 Blueprint.addRecipe("Circuit Assembly", <advancedrocketry:ic:5>, [<ore:circuitBasic> * 1, <ore:solderItem> * 4, <ore:plateSilver> * 3, <ore:circuitBoardTreatedWood>]);
 Blueprint.addRecipe("Circuit Assembly", <ore:etchingPlateIntegratedCircuit>.firstItem, [<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>, <immersiveengineering:tool:1>]);
 Blueprint.addRecipe("Circuit Assembly", <ore:etchingPlateCentralProcessingUnit>.firstItem, [<ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>, <ore:plateNickel>, <immersiveengineering:tool:1>]);
+
+//Computers blueprint
+Blueprint.addRecipe("Computers", <retrocomputers:backplane>, [<ore:circuitBoardPlastic> * 2, <immersiveengineering:material:27>]);
+Blueprint.addRecipe("Computers", <retrocomputers:ribbon_cable> * 16, [<ore:wireCopper> * 8, <mekanism:polyethene:2> * 4]);
+Blueprint.addRecipe("Computers", <retrocomputers:writable_disk>, [<mekanism:polyethene:2> * 2, <ore:sheetSteel>]);
+Blueprint.addRecipe("Computers", <retrocomputers:computer>, [<mekanism:basicblock:8>, <ore:plateSteel>, <ore:circuitAdvanced>, <retrocomputers:ribbon_cable> * 4]);
+Blueprint.addRecipe("Computers", <retrocomputers:terminal>, [<mekanism:basicblock:8>, <advancedrocketry:misc>, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
+Blueprint.addRecipe("Computers", <retrocomputers:disk_drive>, [<mekanism:basicblock:8>, <ore:mechanicalComponentSteel>, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
+Blueprint.addRecipe("Computers", <retrocomputers:memory>, [<mekanism:basicblock:8>, <ore:circuitPlateRandomAccessMemory> * 8, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
+Blueprint.addRecipe("Computers", <retrocomputers:radio>, [<mekanism:basicblock:8>, <advancedrocketry:wirelesstransciever>, <ore:circuitElite>, <retrocomputers:ribbon_cable>]);
+Blueprint.addRecipe("Computers", <retrocomputers:redstone_port_analog>, [<mekanism:basicblock:8>, <immersiveengineering:wirecoil:5>, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
+Blueprint.addRecipe("Computers", <retrocomputers:cpu>, [<ore:circuitPlateCentralProcessingUnit> * 4, <ore:smdResistor> * 2, <retrocomputers:ribbon_cable> * 4, <ore:circuitBoardPlastic>]);
 
 //Molds
 Blueprint.addRecipe("Metal Press Secondary Molds", <ore:metalPressMoldIngot>.firstItem, [<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>, <immersiveengineering:tool:1>]);

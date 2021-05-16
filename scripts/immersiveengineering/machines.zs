@@ -167,6 +167,10 @@ Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustPetroleumC
 recipes.remove(<immersiveengineering:stone_decoration:8>);
 AlloySmelter.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <minecraft:glass> * 8, <ore:dustIron>, 320);
 
+//Fix weird recipes from QuackLib items
+AlloySmelter.removeRecipe(<quacklib:component:20>);
+AlloySmelter.removeRecipe(<quacklib:component:21>);
+
 //Misc Squeezer recipes, indluding Packed Ice & Crushed Ice from ice, leather removals, quartz, and wither skeleton stuff
 recipes.remove(<futuremc:blue_ice>);
 recipes.remove(<minecraft:skull:1>);

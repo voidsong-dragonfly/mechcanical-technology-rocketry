@@ -20,28 +20,8 @@ var traverseBlocksToRemove = [<traverse:red_autumnal_leaves>,
                               <traverse:fir_slab>,
                               <traverse:fir_fence>,
                               <traverse:fir_fence_gate>,
-                              <traverse:fir_door>,
-                              <traverse:blue_rock_cobblestone_wall>,
-                              <traverse:blue_rock_cobblestone_slab>,
-                              <traverse:blue_rock_cobblestone>,
-                              <traverse:blue_rock_slab>,
-                              <traverse:blue_rock_bricks_chiseled>,
-                              <traverse:blue_rock>,
-                              <traverse:blue_rock_bricks>,
-                              <traverse:blue_rock_bricks_slab>,
-                              <traverse:blue_rock_bricks_stairs>
+                              <traverse:fir_door>
                        ] as IItemStack[];
 for item in traverseBlocksToRemove{
     removeAndHide(item);
     }
-
-//Turn blocks into their correct types
-recipes.remove(<traverse:red_rock>);
-furnace.remove(<traverse:blue_rock>);
-
-//Make crag rock brick stuff into crucible bits
-recipes.remove(<traverse:blue_rock_cobblestone_stairs>);
-recipes.addShaped(<traverse:blue_rock_cobblestone_stairs>,
- [[<ore:stickSteel>, <ore:sheetSteel>, null],
- [<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>],
- [<ore:stickSteel>, <ore:sheetSteel>, <ore:stickSteel>]]);

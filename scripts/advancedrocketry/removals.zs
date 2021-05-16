@@ -37,3 +37,12 @@ removeAndHide(<advancedrocketry:lens>);
 
 //Remove highest tier tank, so oxygen is more of a concern and something to be engaged in
 removeAndHide(<advancedrocketry:pressuretank:3>);
+
+//Don't need AR environment blocks
+removeAndHide(<advancedrocketry:moonturf>);
+removeAndHide(<advancedrocketry:moonturf_dark>);
+removeAndHide(<advancedrocketry:hotturf>);
+removeAndHide(<advancedrocketry:basalt>);
+
+//Don't need laser
+removeAndHide(<advancedrocketry:basiclasergun>);

@@ -256,9 +256,17 @@ game.setLocalization("item.chestplateDiamond.name", "Monocrystalline Diamond Che
 game.setLocalization("item.leggingsDiamond.name", "Monocrystalline Diamond Leggings");
 game.setLocalization("item.bootsDiamond.name", "Monocrystalline Diamond Boots");
    
-//Turn Earthworks saw into "Engineer's Stonecutting Saw" and compass into "Engineer's Chisel"
-game.setLocalization("item.earthworks.tool_saw.name", "Engineer's Stonecutting Saw");
+//Turn Earthworks compass into "Engineer's Chisel"
 game.setLocalization("item.earthworks.tool_compass.name", "Engineer's Chisel");
 
 //AR oxygen to air mix
 game.setLocalization("fluid.oxygen", "Air Gasses Mix");
+
+//Chisels and Bits items
+game.setLocalization("item.mod.chiselsandbits.bitsaw_diamond.name", "Engineer's Blockcutting Saw");
+game.setLocalization("item.mod.chiselsandbits.chisel_iron.name", "Iron Block Chisel");
+game.setLocalization("item.mod.chiselsandbits.chisel_gold.name", "Bronze Block Chisel");
+game.setLocalization("item.mod.chiselsandbits.chisel_diamond.name", "Steel Block Chisel");
+
+//Retrocomputers
+game.setLocalization("item.retrocomputers:screwdriver.name", "Engineer's Computer Tinkering Screwdriver");
