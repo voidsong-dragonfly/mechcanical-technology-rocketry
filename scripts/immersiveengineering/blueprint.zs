@@ -215,6 +215,7 @@ Blueprint.addRecipe("Combustion Rocket Components", <advancedrocketry:advbiprope
 Blueprint.addRecipe("Nuclear Rocket Components", <advancedrocketry:nuclearfueltank>, [<ore:scaffoldingPanelTitaniumAluminide> * 2, <ore:heliumTankItem>, <ore:fuelTankShellItem>, <ore:stickTitaniumAluminide> * 4]);
 Blueprint.addRecipe("Nuclear Rocket Components", <advancedrocketry:nuclearfueltank>, [<ore:scaffoldingPanelMaragingSteel> * 2, <ore:heliumTankItem>, <ore:fuelTankShellItem>, <ore:stickMaragingSteel> * 4]);
 Blueprint.addRecipe("Nuclear Rocket Components", <advancedrocketry:nuclearrocketmotor>, [<ore:scaffoldingPanelMaragingSteel> * 2, <ore:turbopumpItem> * 2, <ore:smallPipeTitanium> * 4, <immersiveengineering:toolupgrade:7>, <ore:engineBellItem>]);
+Blueprint.addRecipe("Nuclear Rocket Components", <advancedrocketry:nuclearcore>, [<rustic:stone_pillar>, <ore:fuelBundleFresh> * 9, <ore:smallPipeZirconiumNiobiumAlloy> * 8, <ore:rodBundleControl> * 8, <ore:mechanicalComponentMaragingSteel> * 4, <ore:plateDepletedUraniumDioxide> * 6]);
 
 //Asteroid Mining blueprint
 Blueprint.addRecipe("Asteroid Mining Components", <ore:mirrorArrayItem>.firstItem, [<ore:sheetAluminum> * 64, <ore:sheetAluminum> * 64, <ore:wireAluminum> * 32, <ore:stickAluminum> * 16]);

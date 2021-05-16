@@ -1,4 +1,3 @@
-/addons
 /biome
 /crash-reports
 /coremods
@@ -24,7 +23,6 @@ icon.png
 /config/jei/bookmarks.ini
 /config/jei/worldSettings.cfg
 /config/tails.cfg
-/config/InvTweaks/InvTweaks.cfg
 /config/MouseTweaks.cfg
 /config/ichunutil.cfg
 /config/ichunutil_keybinds.cfg
