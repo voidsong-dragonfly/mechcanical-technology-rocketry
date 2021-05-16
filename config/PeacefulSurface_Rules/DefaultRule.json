@@ -13,7 +13,7 @@
   "InvertedMobFilter": false,
   "InvertedDimensionFilter": false,
   "InvertedLightLevelChecking": true,
-  "mobFilter": "(\\bSlime\\b)",
+  "mobFilter": "(\\bSlime\\b)|(\\bcharm:spectre\\b)|(\\bquark:ashen\\b)|(\\bquark:dweller\\b)|(\\bpvj:pvj_ghost\\b)|(\\bpvj:pvj_banshee\\b)|(\\bshade\\b)|(\\beerieentities.wisp\\b)",
   "dimensionFilter": "(\\bthe_end\\b)|(\\bthe_nether\\b)",
   "LightLevel": 15,
   "MoonPhase": 0,
