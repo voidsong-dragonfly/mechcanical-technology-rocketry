@@ -68,20 +68,7 @@
       "enable": true
     },
     "poison_lakes": {
-      "liquid": {
-        "block": "biomesoplenty:poison",
-        "properties": {
-          "level": "0"
-        }
-      },
-      "amountPerChunk": 0.1,
-      "enable": true,
-      "grassBorderWith": {
-        "block": "minecraft:grass",
-        "properties": {
-          "snowy": "false"
-        }
-      }
+      "enable": true
     },
     "algae": {
       "with": {
