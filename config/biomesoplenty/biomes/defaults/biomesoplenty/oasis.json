@@ -127,7 +127,6 @@
       "amountPerChunk": 4.0,
       "enable": true
     },
-    "lakes": {},
     "desertgrass": {
       "with": {
         "block": "biomesoplenty:plant_0",

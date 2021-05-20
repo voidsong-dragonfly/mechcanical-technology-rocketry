@@ -2,9 +2,6 @@
   "generators": {
     "ruby": {
       "enable": false
-    },
-    "lakes": {
-      "enable": false
-      }
+    }
   }
 }
