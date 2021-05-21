@@ -1,0 +1,95 @@
+{/*
+    "populate": {
+        "Fir": {
+            "generator": {
+                "type": "structure",
+                "structure": [
+                    {"name": "./trees/fir_1.nbt", "weight" : 60 },
+                    {"name": "./trees/fir_2.nbt", "weight" : 10 },
+                    {"name": "./trees/fir_3.nbt", "weight" : 30 }],
+                "mirror": ["NONE", "FRONT_BACK", "LEFT_RIGHT"]
+            },
+            "distribution": "surface",
+            "cluster-count": 1,
+            "chunk-chance": 1,
+            "material": ["dirt", "grass", "biomesoplenty:dirt", "biomesoplenty:grass"],
+            "biome": {
+                "restriction": "whitelist",
+                "value": {"type": "id", "entry": ["pvj:boreal_forest", "pvj:snowy_boreal_forest"]}
+            }
+        },
+        "Plains Oak": {
+            "generator": {
+                "type": "structure",
+                "structure": [
+                    {"name": "./trees/plains_oak_1.nbt", "weight" : 60 },
+                    {"name": "./trees/plains_oak_1.nbt", "weight" : 40 }],
+                "mirror": ["NONE", "FRONT_BACK", "LEFT_RIGHT"]
+            },
+            "distribution": "surface",
+            "cluster-count": 1,
+            "chunk-chance": 1,
+            "material": ["dirt", "grass", "biomesoplenty:dirt", "biomesoplenty:grass"],
+            "biome": {
+                "restriction": "whitelist",
+                "value": {"type": "id", "rarity" : 192, "entry": ["minecraft:plains", "minecraft:mutated_plains"]}
+            }
+        },
+        "Rocky Plains Oak": {
+            "generator": {
+                "type": "structure",
+                "structure": [
+                    {"name": "./trees/plains_oak_1.nbt", "weight" : 40 },
+                    {"name": "./trees/plains_oak_1.nbt", "weight" : 30 },
+                    {"name": "./trees/rocky_plains_oak_1.nbt", "weight" : 20 },
+                    {"name": "./trees/rocky_plains_oak_1.nbt", "weight" : 10 }],
+                "mirror": ["NONE", "FRONT_BACK", "LEFT_RIGHT"]
+            },
+            "distribution": "surface",
+            "cluster-count": 1,
+            "chunk-chance": 1,
+            "material": ["dirt", "grass", "biomesoplenty:dirt", "biomesoplenty:grass"],
+            "biome": {
+                "restriction": "whitelist",
+                "value": {"type": "id", "rarity" : 48, "entry": ["traverse:rocky_plains"]}
+            }
+        },
+        "Mini Jungle": {
+            "generator": {
+                "type": "structure",
+                "structure": [
+                    {"name": "./trees/mini_jungle_1.nbt", "weight" : 50 },
+                    {"name": "./trees/mini_jungle_2.nbt", "weight" : 50 }],
+                "mirror": ["NONE", "FRONT_BACK", "LEFT_RIGHT"]
+            },
+            "distribution": "surface",
+            "cluster-count": 1,
+            "chunk-chance": 1,
+            "material": ["dirt", "grass", "biomesoplenty:dirt", "biomesoplenty:grass"],
+            "biome": {
+                "restriction": "whitelist",
+                "value": {"type": "id", "rarity" : 96, "entry": ["traverse:mini_jungle", "minecraft:jungle_edge", "minecraft:mutated_jungle_edge"]}
+            }
+        },
+        "Jungle": {
+            "generator": {
+                "type": "structure",
+                "structure": [
+                    {"name": "./trees/mini_jungle_1.nbt", "weight" : 45 },
+                    {"name": "./trees/mini_jungle_2.nbt", "weight" : 40 },
+                    {"name": "./trees/jungle_1.nbt", "weight" : 5 },
+                    {"name": "./trees/jungle_2.nbt", "weight" : 5 },
+                    {"name": "./trees/jungle_2.nbt", "weight" : 5 }],
+                "mirror": ["NONE", "FRONT_BACK", "LEFT_RIGHT"]
+            },
+            "distribution": "surface",
+            "cluster-count": 1,
+            "chunk-chance": 1,
+            "material": ["dirt", "grass", "biomesoplenty:dirt", "biomesoplenty:grass"],
+            "biome": {
+                "restriction": "whitelist",
+                "value": {"type": "id", "rarity" : 24, "entry": ["minecraft:jungle", "minecraft:mutated_jungle", "minecraft:jungle_hills"]}
+            }
+        }
+    }
+}*/
