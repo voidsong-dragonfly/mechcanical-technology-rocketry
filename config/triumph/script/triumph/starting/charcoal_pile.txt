@@ -1,5 +1,5 @@
 setIcon(<forestry:wood_pile>)
-setTitle("Simplistic pyrolysis, wood edition")
+setTitle("Simplistic Pyrolysis, Wood Edition")
 setDescription("Construct a charcoal pile to create charcoal at an increased efficiency compared to the coke oven, minus creosote")
 addParent("triumph:starting/clay")
 criteria = addCriteria("charcoal_pile", "minecraft:inventory_changed")

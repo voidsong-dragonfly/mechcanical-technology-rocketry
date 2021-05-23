@@ -1,5 +1,5 @@
 setIcon(<minecraft:chest>)
-setTitle("Storage solutions, unimpaired")
+setTitle("Storage Solutions, Unimpaired")
 setDescription("Craft a chest to store your items in")
 addParent("triumph:starting/crafting_table")
 criteria = addCriteria("chest", "minecraft:inventory_changed")

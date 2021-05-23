@@ -1864,7 +1864,10 @@
 			"xlfoodmod:tomato",
 			"xlfoodmod:tomato_soup",
 			"xlfoodmod:tortilla",
-			"xlfoodmod:vegetable_soup"
+			"xlfoodmod:vegetable_soup",
+			"skewers:skewer_caramel_apple",
+			"skewers:skewer_veggie_raw",
+			"skewers:skewer_veggie_cooked"
 		]
 	}
 }

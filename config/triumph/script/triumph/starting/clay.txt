@@ -1,5 +1,5 @@
 setIcon(<minecraft:clay>)
-setTitle("Not yet bricks")
+setTitle("Not Yet Bricks")
 setDescription("Clay is useful for concrete, coking, and various high-temperature furnaces")
 addParent("triumph:starting/root")
 criteria = addCriteria("clay", "minecraft:inventory_changed")

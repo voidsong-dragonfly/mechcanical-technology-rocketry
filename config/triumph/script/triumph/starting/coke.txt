@@ -1,5 +1,5 @@
 setIcon(<immersiveengineering:material:6>)
-setTitle("Almost pure carbon")
+setTitle("Almost Pure Carbon")
 setDescription("Create coke, a good blast furnace fuel, in a coke oven")
 addParent("triumph:starting/coke_oven")
 criteria = addCriteria("coke", "minecraft:inventory_changed")

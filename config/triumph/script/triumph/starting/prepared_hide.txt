@@ -1,5 +1,5 @@
 setIcon(<leatherworks:crafting_leather_soaked>)
-setTitle("Not soaked in creosote")
+setTitle("Not Soaked In Creosote")
 setDescription("Tan your washed hide in a tannin-filled cauldron")
 addParent("triumph:starting/washed_hide")
 addParent("triumph:starting/tannin_bucket")

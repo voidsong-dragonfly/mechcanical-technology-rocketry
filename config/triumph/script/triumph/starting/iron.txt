@@ -1,5 +1,5 @@
 setIcon(<minecraft:iron_ingot>)
-setTitle("Iron age")
+setTitle("Iron Age")
 setDescription("Mine and smelt some iron ore")
 addParent("triumph:starting/crude_pickaxe")
 criteria = addCriteria("iron", "minecraft:inventory_changed")

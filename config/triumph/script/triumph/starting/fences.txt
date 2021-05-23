@@ -1,0 +1,7 @@
+setIcon(<minecraft:fence>)
+setTitle("Support System")
+setDescription("Craft fences to support cave ceilings with from collapse")
+addParent("triumph:starting/crude_axe")
+criteria = addCriteria("fence", "minecraft:inventory_changed")
+criteria.addItem(<ore:fenceWood>)
+setPos(-205,115)

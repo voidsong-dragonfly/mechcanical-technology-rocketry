@@ -1,5 +1,5 @@
 setIcon(<libvulpes:productingot:5>)
-setTitle("The second (47)")
+setTitle("The Second (47)")
 setDescription("Mine and smelt some tin ore")
 addParent("triumph:starting/crude_pickaxe")
 criteria = addCriteria("tin", "minecraft:inventory_changed")

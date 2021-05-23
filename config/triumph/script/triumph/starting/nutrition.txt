@@ -1,0 +1,7 @@
+setIcon(<minecraft:apple>)
+setTitle("An Apple Keeps Hunger Away")
+setDescription("This pack has nutrition, which can hurt you if you don't fill up its three categories partially, and will buff you if you're excelling in nutrition.")
+addParent("triumph:starting/root")
+criteria = addCriteria("apple", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:apple>)
+setPos(-275,-25)

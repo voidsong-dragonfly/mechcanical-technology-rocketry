@@ -1,5 +1,5 @@
 setIcon(<minecraft:book>)
-setTitle("Not stolen from a village library")
+setTitle("Not Stolen From A Village Library")
 setDescription("Craft or steal a book to help craft an atlas")
 addParent("triumph:starting/leather")
 criteria = addCriteria("book", "minecraft:inventory_changed")

@@ -1,5 +1,5 @@
 setIcon(<mekanism:ingot:2>)
-setTitle("Bronze age post iron...?")
+setTitle("Bronze Age Post Iron...?")
 setDescription("Smelt tin and copper together to get bronze, a good tool alloy")
 addParent("triumph:starting/alloy_kiln")
 criteria = addCriteria("bronze", "minecraft:inventory_changed")

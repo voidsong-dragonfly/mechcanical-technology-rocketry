@@ -1,5 +1,5 @@
 setIcon(<flintmod:axe_flint>)
-setTitle("Not a battleaxe")
+setTitle("Not A Battleaxe")
 setDescription("Craft a flint hatchet for woodcutting")
 addParent("triumph:starting/flint")
 addParent("triumph:starting/sticks")

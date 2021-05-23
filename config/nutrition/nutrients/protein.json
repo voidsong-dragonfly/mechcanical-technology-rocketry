@@ -1435,7 +1435,21 @@
 			"zawa:rat_raw",
 			"zawa:raw_frog_leg",
 			"zawa:reptile_meat_cooked",
-			"zawa:reptile_meat_raw"
+			"zawa:reptile_meat_raw",
+			"skewers:skewer_beef_raw",
+			"skewers:skewer_porkchop_raw",
+			"skewers:skewer_cod_raw",
+			"skewers:skewer_salmon_raw",
+			"skewers:skewer_chicken_raw",
+			"skewers:skewer_rabbit_raw",
+			"skewers:skewer_mutton_raw",
+			"skewers:skewer_beef_cooked",
+			"skewers:skewer_porkchop_cooked",
+			"skewers:skewer_cod_cooked",
+			"skewers:skewer_salmon_cooked",
+			"skewers:skewer_chicken_cooked",
+			"skewers:skewer_rabbit_cooked",
+			"skewers:skewer_mutton_cooked"
 		]
 	}
 }

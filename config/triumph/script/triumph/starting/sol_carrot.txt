@@ -1,0 +1,7 @@
+setIcon(<minecraft:carrot>)
+setTitle("Variety Is The Spice Of Food")
+setDescription("This pack has SoL: Carrot, through which you can gain extra hearts from eating more foods. Getting max is quite tough!")
+addParent("triumph:starting/root")
+criteria = addCriteria("carot", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:carrot>)
+setPos(-275,-55)

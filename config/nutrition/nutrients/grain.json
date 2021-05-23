@@ -1033,7 +1033,8 @@
 			"xlfoodmod:vanilla_cupcake",
 			"xlfoodmod:vanilla_donut",
 			"xlfoodmod:vanilla_icecream",
-			"xlfoodmod:waffle"
+			"xlfoodmod:waffle",
+			"skewers:skewer_cookie"
 		]
 	}
 }

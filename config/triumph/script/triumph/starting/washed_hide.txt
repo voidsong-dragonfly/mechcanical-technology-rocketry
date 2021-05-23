@@ -1,5 +1,5 @@
 setIcon(<leatherworks:crafting_leather_washed>)
-setTitle("Hand wash only")
+setTitle("Hand Wash Only")
 setDescription("Wash your scraped hide in a water-filled cauldron")
 addParent("triumph:starting/scraped_hide")
 addParent("triumph:starting/cauldron")

@@ -1,5 +1,5 @@
 setIcon(<minecraft:bookshelf>)
-setTitle("Stacks of knowledge")
+setTitle("Stacks Of Knowledge")
 setDescription("Craft a bookshelf for enchanting or decoration")
 addParent("triumph:starting/book")
 criteria = addCriteria("bookshelf", "minecraft:inventory_changed")

@@ -1,5 +1,5 @@
 setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"leatherworks:tannin",Amount:1000}>)
-setTitle("Liquid leather treatment")
+setTitle("Liquid Leather Treatment")
 setDescription("Make tannin liquid, for turning washed hides into leather")
 addParent("triumph:starting/tannins")
 addParent("triumph:starting/cauldron")

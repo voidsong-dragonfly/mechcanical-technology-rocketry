@@ -1,5 +1,5 @@
 setIcon(<minecraft:cauldron>)
-setTitle("Useable for soup")
+setTitle("Useable For Soup")
 setDescription("Craft a cauldron for use in leatherwork")
 addParent("triumph:starting/iron")
 criteria = addCriteria("cauldron", "minecraft:inventory_changed")

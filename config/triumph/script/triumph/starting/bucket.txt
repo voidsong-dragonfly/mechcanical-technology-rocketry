@@ -1,5 +1,5 @@
 setIcon(<minecraft:bucket>)
-setTitle("Slosh slosh")
+setTitle("Slosh Slosh")
 setDescription("Craft a bucket, to carry fluids with")
 addParent("triumph:starting/iron")
 criteria = addCriteria("bucket", "minecraft:inventory_changed")

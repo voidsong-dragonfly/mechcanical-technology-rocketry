@@ -1,6 +1,6 @@
 setIcon(<minecraft:compass>)
-setTitle("Starting a journey")
-setDescription("From nothing to metallic tools")
+setTitle("Starting A Journey")
+setDescription("From nothing to basic metal usage")
 setBackground("minecraft:textures/gui/advancements/backgrounds/adventure.png")
 setShowToast(false)
 setAnnounceToChat(false)

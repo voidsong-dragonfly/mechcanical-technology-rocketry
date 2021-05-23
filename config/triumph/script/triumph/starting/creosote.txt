@@ -1,5 +1,5 @@
 setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"creosote",Amount:1000}>)
-setTitle("Sealant above par")
+setTitle("Sealant Above Par")
 setDescription("Get a bucket of creosote from burning wood or coal in a coke oven")
 addParent("triumph:starting/coke_oven")
 criteria = addCriteria("creosote", "minecraft:inventory_changed")

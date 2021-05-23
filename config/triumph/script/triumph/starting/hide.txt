@@ -1,5 +1,5 @@
 setIcon(<leatherworks:rawhide_horse, meta:0, count:1>)
-setTitle("Jekyll and hide")
+setTitle("Jekyll And Hide")
 setDescription("Collect hide from an animal")
 addParent("triumph:starting/root")
 criteria = addCriteria("hide", "minecraft:inventory_changed")

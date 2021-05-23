@@ -1,5 +1,5 @@
 setIcon(<leatherworks:crafting_leather_scraped, meta:0, count:1>)
-setTitle("Does not make felt")
+setTitle("Does Not Make Felt")
 setDescription("Scrape the hair off of a hide to prepare it for washing")
 addParent("triumph:starting/hide")
 criteria = addCriteria("scraped_hide", "minecraft:inventory_changed")

@@ -1,5 +1,5 @@
 setIcon(<minecraft:glass>)
-setTitle("Not actually a liquid")
+setTitle("Not Actually A Liquid")
 setDescription("Smelt sand to get glass")
 addParent("triumph:starting/sand")
 criteria = addCriteria("glass", "minecraft:inventory_changed")

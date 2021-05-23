@@ -1,5 +1,5 @@
 setIcon(<immersiveengineering:metal>)
-setTitle("Not yet bronze")
+setTitle("Not Yet Bronze")
 setDescription("Mine and smelt some copper ore")
 addParent("triumph:starting/crude_pickaxe")
 criteria = addCriteria("copper", "minecraft:inventory_changed")

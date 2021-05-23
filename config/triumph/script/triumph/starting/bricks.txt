@@ -1,5 +1,5 @@
 setIcon(<minecraft:brick_block>)
-setTitle("Heatproof construction")
+setTitle("Heatproof Construction")
 setDescription("Craft bricks, needed for all basic IE heat-based multiblocks")
 addParent("triumph:starting/clay")
 criteria = addCriteria("brick", "minecraft:inventory_changed")

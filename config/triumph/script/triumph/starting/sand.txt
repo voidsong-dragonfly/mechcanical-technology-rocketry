@@ -1,5 +1,5 @@
 setIcon(<minecraft:sand>)
-setTitle("Sandy soil")
+setTitle("Sandy Soil")
 setDescription("Sand is useful for glass, concrete, coking, and alloying")
 addParent("triumph:starting/root")
 criteria = addCriteria("sand", "minecraft:inventory_changed")
