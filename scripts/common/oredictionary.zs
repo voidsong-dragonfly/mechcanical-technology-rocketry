@@ -38,8 +38,8 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:dye>.remove(<quark:root_dye:*>);
 <ore:dye>.remove(<futuremc:dye:*>);
 
-//Sticks
-<ore:stickWood>.remove(<biomesoplenty:bamboo>);
+//Debarked logs
+<ore:logWood>.addAll(<ore:debarkedLogWood>);
 
 //Soul Sand
 <ore:soulsand>.add(<minecraft:soul_sand>);

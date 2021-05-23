@@ -52,6 +52,9 @@ recipes.remove(<leatherworks:leather_strip>);
 recipes.remove(<minecraft:leather>);
 recipes.remove(<leatherworks:tannin_ball>);
 
+//Remove unneeded planks
+recipes.removeByRegex("leatherworks:planks.*");
+
 //Add hide -> scraped hide recipes
 //@#$@@#$ you crafttweaker. this SHOULD be able to be done in a much better way
 //Pre-recipe BS

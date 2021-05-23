@@ -18,6 +18,7 @@ for item in torchesToRemove{
 <ore:torch>.add(<realistictorches:torch_lit>);
 recipes.addShapeless(<realistictorches:torch_unlit> * 8, [<ore:fuelCoke>, <ore:stickWood>, <ore:stickWood>]);
 recipes.addShapeless(<realistictorches:torch_unlit> * 12, [<ore:wool>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
+//Campfire recipes
 Campfire.addRecipe(<minecraft:stick>, <realistictorches:torch_lit>, 30);
 Campfire.addRecipe(<realistictorches:torch_unlit>, <realistictorches:torch_lit>, 30);
 recipes.remove(<futuremc:campfire>);
@@ -53,3 +54,5 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:4>,
  [<ore:paneGlass>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <ore:paneGlass>],
  [<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>]]);
 recipes.replaceAllOccurences(<ore:glowstone>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <quark:paper_lantern>);
+//Replace torch uses
+recipes.replaceAllOccurences(<minecraft:torch>, <realistictorches:torch_lit>);

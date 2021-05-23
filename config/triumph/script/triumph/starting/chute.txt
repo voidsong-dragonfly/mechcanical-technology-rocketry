@@ -1,6 +1,6 @@
 setIcon(<quark:chute>)
-setTitle("Not a flame-grilled whopper")
-setDescription("Craft a chute, a worse hopper")
+setTitle("Precision Dropper Minus Magitech Anti-Realism")
+setDescription("Craft a chute, used to drop items in the world at the center of the block exactly")
 addParent("triumph:starting/chest")
 criteria = addCriteria("chute", "minecraft:inventory_changed")
 criteria.addItem(<quark:chute>)
