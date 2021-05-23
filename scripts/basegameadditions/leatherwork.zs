@@ -100,4 +100,3 @@ recipes.addShaped(<lostquiver:quiver>,
 //Documentation tooltips
 <leatherworks:crafting_leather_soaked>.addTooltip("Must be dried upon a drying rack to turn into leather");
 <leatherworks:crafting_leather_scraped>.addTooltip("Crafting this requires a Tetra shortblade along with the input");
-<leatherworks:bark_oak>.addTooltip("Crafting this requires a Tetra shortblade along with the input");

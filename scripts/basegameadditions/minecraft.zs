@@ -42,7 +42,8 @@ var toolsToRemove = [<minecraft:iron_axe>,
                      <minecraft:diamond_helmet>,
                      <minecraft:diamond_chestplate>,
                      <minecraft:diamond_leggings>,
-                     <minecraft:diamond_boots>
+                     <minecraft:diamond_boots>,
+                     <flintmod:tool_part_flint>
                      ] as IItemStack[];
 for item in toolsToRemove{
     recipes.remove(item);

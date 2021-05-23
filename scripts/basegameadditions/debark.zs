@@ -22,7 +22,6 @@ for item in debarkerBlocksToRemove {
     removeAndHide(item);
     }
 
-//@#$@@#$ you crafttweaker here too.
 //Crafting Table stripping for bark
 var logDuals = {"oak": [<debark:debarked_log_minecraft_log>, <minecraft:log>, <minecraft:planks:0>],
                 "spruce": [<debark:debarked_log_minecraft_log:1>, <minecraft:log:1>, <minecraft:planks:1>],
@@ -56,23 +55,7 @@ var logDuals = {"oak": [<debark:debarked_log_minecraft_log>, <minecraft:log>, <m
                 "olive": [<debark:debarked_log_rustic_log>, <rustic:log>, <rustic:planks:0>],
                 "ironwood": [<debark:debarked_log_rustic_log:1>, <rustic:log:1>, <rustic:planks:1>],
                 } as IItemStack[][string];
-//Actually register the recipes
+//Log to plank recipes
 for log, itemArray in logDuals {
-    recipes.addShapeless(<leatherworks:bark_oak> * 2, [<tetra:sword_modular>.anyDamage().transformDamage().marked("shortblade"), itemArray[1].transformReplace(itemArray[0])] as IIngredient[],
-    function(output, inputs, craftingInfo) {
-        var isShortblade = false;
-        for item in inputs.shortblade.itemArray {
-            if (item.tag has {"sword/blade": "sword/short_blade"} as IData && isShortblade == false) {
-                isShortblade = true;
-            }
-        }
-        var outputItem = itemArray[1];
-        if (isShortblade) {
-            outputItem = output;
-        }
-        return outputItem;
-    } as IRecipeFunction);
-    
-    //Log to plank recipes
     recipes.addShapeless(itemArray[2] * 5, [itemArray[0]]);
 }

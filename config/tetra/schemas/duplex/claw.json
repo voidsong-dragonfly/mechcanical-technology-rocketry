@@ -12,7 +12,7 @@
         "outcomes": [
             {
                 "material": {
-                    "item": "minecraft:flint"
+                    "item": "flintmod:tool_part_flint"
                 },
                 "requiredCapabilities": {
                     "hammer": 1

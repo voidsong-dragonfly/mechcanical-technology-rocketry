@@ -218,9 +218,9 @@ furnace.addRecipe(<ore:ingotPlatinum>.firstItem, <ore:dustAmmoniumChloroplatinat
 
 
 //Gold and silver processing
-furnace.addRecipe(<ore:dustWashedGold>.firstItem, <ore:dustDirtyGold>);
+furnace.addRecipe(<ore:dustWashedGold>.firstItem, <ore:dustDirtyGold>.firstItem);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:amalgamMercuryGold>.firstItem);
-furnace.addRecipe(<ore:dustWashedSilver>.firstItem, <ore:dustDirtySilver>);
+furnace.addRecipe(<ore:dustWashedSilver>.firstItem, <ore:dustDirtySilver>.firstItem);
 furnace.addRecipe(<immersiveengineering:metal:3>, <ore:amalgamMercurySilver>.firstItem);
 
 

@@ -1,0 +1,10 @@
+{
+	"name": "malnourished",
+	"potion": "nutrition:malnourished",
+	"amplifier": 0,
+	"minimum": 0,
+	"maximum": 5,
+	"detect": "cumulative",
+	"cumulative_modifier": 2,
+	"enabled": true
+}
