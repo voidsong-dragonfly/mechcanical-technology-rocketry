@@ -84,7 +84,6 @@ recipes.addShapeless(<leatherworks:crafting_leather_scraped>, [<tetra:sword_modu
     } as IRecipeFunction);
 
 //Redo Leatherworks other recipes
-recipes.addShapeless(<leatherworks:tannin_ball>, [<ore:barkWood>, <ore:barkWood>]);
 recipes.addShapeless(<leatherworks:leather_strip> * 8, [<minecraft:shears>.anyDamage().transformDamage(), <ore:leatherSheet>]);
 recipes.replaceAllOccurences(<minecraft:leather>, <ore:leatherSheet>);
 recipes.replaceAllOccurences(<ore:leatherSheet>, <minecraft:leather>, <leatherworks:leather_sheet>);

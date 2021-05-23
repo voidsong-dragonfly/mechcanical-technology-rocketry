@@ -23,3 +23,6 @@ for item in rusticToRemove{
 
 //Sandwiches don't have Rustic olive oil
 recipes.remove(<culinaryconstruct:sandwich>);
+
+//Crushing tub tannins
+mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <leatherworks:tannin_ball>, <leatherworks:bark_oak> * 2);

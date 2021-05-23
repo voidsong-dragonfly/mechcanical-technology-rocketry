@@ -38,6 +38,12 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:dye>.remove(<quark:root_dye:*>);
 <ore:dye>.remove(<futuremc:dye:*>);
 
+//Rustic seeds
+<ore:seed>.add(<rustic:chili_pepper_seeds>);
+<ore:seed>.add(<rustic:apple_seeds>);
+<ore:seed>.add(<rustic:tomato_seeds>);
+<ore:seed>.add(<rustic:grape_stem>);
+
 //Debarked logs
 <ore:logWood>.addAll(<ore:debarkedLogWood>);
 

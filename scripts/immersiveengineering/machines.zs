@@ -11,6 +11,7 @@ import mods.immersiveengineering.CokeOven;
 import mods.immersiveengineering.Crusher;
 import mods.industrialwires.MarxGenerator;
 import mods.immersiveengineering.Squeezer;
+import mods.immersiveengineering.Fermenter;
 import mods.immersiveengineering.AlloySmelter;
 
 
@@ -170,6 +171,13 @@ AlloySmelter.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <minecraft
 //Fix weird recipes from QuackLib items
 AlloySmelter.removeRecipe(<quacklib:component:20>);
 AlloySmelter.removeRecipe(<quacklib:component:21>);
+
+//Fermenter & squeezer rustic compat recipes
+Fermenter.addRecipe(null, <liquid:ethanol> * 100, <ore:cropTomato>, 6400);
+Squeezer.addRecipe(null, <liquid:plantoil> * 80, <rustic:grape_stem>, 6400);
+Squeezer.addRecipe(null, <liquid:plantoil> * 80, <rustic:tomato_seeds>, 6400);
+Squeezer.addRecipe(null, <liquid:plantoil> * 80, <rustic:chili_pepper_seeds>, 6400);
+Squeezer.addRecipe(null, <liquid:plantoil> * 80, <rustic:apple_seeds>, 6400);
 
 //Misc Squeezer recipes, indluding Packed Ice & Crushed Ice from ice, leather removals, quartz, and wither skeleton stuff
 recipes.remove(<futuremc:blue_ice>);
