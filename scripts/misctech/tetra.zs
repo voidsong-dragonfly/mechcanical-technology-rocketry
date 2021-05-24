@@ -11,3 +11,4 @@ recipes.addShaped(<tetra:magmatic_cell:128>,
  [[null, <ore:sheetSteel>, <ore:mechanicalComponentSteel>],
  [<ore:sheetSteel>, <ore:plateGlass>, <ore:sheetSteel>],
  [<ore:mechanicalComponentSteel>, <ore:sheetSteel>, null]]);
+recipes.addShapeless(<tetra:journal>, [<tetra:duplex_tool_modular>.withTag({"duplex/basic_hammer_right_material": "basic_hammer/log", "duplex/basic_hammer_left_material": "basic_hammer/log", "duplex/handle": "duplex/basic_handle", "duplex/head_left": "duplex/basic_hammer_left", "duplex/basic_handle_material": "basic_handle/stick", "duplex/head_right": "duplex/basic_hammer_right"})]);

@@ -168,10 +168,10 @@ Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_body>, [<im
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_leggs>, [<immersiveengineering:steel_armor_legs>, <ore:plateTungsten> * 2, <ore:fabricHemp> * 4, <immersiveengineering:wirecoil:2> * 4]);
 Blueprint.addRecipe("powerarmor", <immersive_energy:power_armor_suit_boots>, [<immersiveengineering:steel_armor_feet>, <ore:plateTungsten>, <ore:fabricHemp> * 4, <ore:blockSlime>]);
 */
-Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacehelmet>, [<minecraft:leather_helmet>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:plateGlass>]);
-Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacechestplate>, [<minecraft:leather_chestplate>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <advancedrocketry:pressuretank:2>]);
-Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceleggings>, [<minecraft:leather_leggings>, <ore:sheetTitaniumAluminide> * 4, <quark:quilted_wool>, <ore:stickSteel>]);
-Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceboots>, [<minecraft:leather_boots>, <ore:sheetTitaniumAluminide> * 2, <quark:quilted_wool>, <ore:plateSteel>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacehelmet>, [<mekanism:polyethene:2> * 5, <ore:plateNickel> * 2, <quark:quilted_wool>, <ore:plateGlass>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spacechestplate>, [<mekanism:polyethene:2> * 8, <ore:plateNickel> * 4, <quark:quilted_wool> * 2, <advancedrocketry:pressuretank:2>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceleggings>, [<mekanism:polyethene:2> * 7, <ore:plateNickel> * 3, <quark:quilted_wool> * 2, <ore:stickSteel>]);
+Blueprint.addRecipe("Advanced Armor", <advancedrocketry:spaceboots>, [<mekanism:polyethene:2> * 4, <ore:plateNickel> * 2, <quark:quilted_wool>, <ore:plateSteel>]);
 
 //Fission reactor blueprint
 recipes.remove(<rustic:stone_pillar>);

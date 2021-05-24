@@ -1,0 +1,7 @@
+setIcon(<wopper:wopper>)
+setTitle("Anti-Flame Grilled")
+setDescription("Craft a whopper for simple machine buffer expansion")
+addParent("triumph:starting/chest")
+criteria = addCriteria("wopper", "minecraft:inventory_changed")
+criteria.addItem(<wopper:wopper>)
+setPos(-135,95)
