@@ -143,27 +143,27 @@ furnace.addRecipe(<environmentalmaterials:alabaster>, <quark:slate:1>);
 //Bones from animals for bonemeal early
 //This would be enabled if it didn't cause @$#@#$ random crashes I can't trace
 //Large animals: horses & variants, llamas, grizzly bears, polar bears, and panda bears
-<entity:minecraft:horse>.addDrop(<minecraft:bone>, 1, 3);
-<entity:minecraft:donkey>.addDrop(<minecraft:bone>, 1, 3);
-<entity:minecraft:mule>.addDrop(<minecraft:bone>, 1, 3);
-<entity:minecraft:llama>.addDrop(<minecraft:bone>, 1, 3);
-<entity:pvj:pvj_grizzly_bear>.addDrop(<minecraft:bone>, 1, 3);
-<entity:minecraft:polar_bear>.addDrop(<minecraft:bone>, 1, 3);
-<entity:futuremc:panda>.addDrop(<minecraft:bone>, 1, 3);
+<entity:minecraft:horse>.addDrop(<minecraft:bone>, 1, 4);
+<entity:minecraft:donkey>.addDrop(<minecraft:bone>, 1, 4);
+<entity:minecraft:mule>.addDrop(<minecraft:bone>, 1, 4);
+<entity:minecraft:llama>.addDrop(<minecraft:bone>, 1, 4);
+<entity:pvj:pvj_grizzly_bear>.addDrop(<minecraft:bone>, 1, 4);
+<entity:minecraft:polar_bear>.addDrop(<minecraft:bone>, 1, 4);
+<entity:futuremc:panda>.addDrop(<minecraft:bone>, 1, 4);
 //Medium animals: cows, pigs, deer, sheep
-<entity:minecraft:cow>.addDrop(<minecraft:bone>, 1, 2);
-<entity:minecraft:pig>.addDrop(<minecraft:bone>, 1, 2);
-<entity:minecraft:sheep>.addDrop(<minecraft:bone>, 1, 2);
+<entity:minecraft:cow>.addDrop(<minecraft:bone>, 1, 3);
+<entity:minecraft:pig>.addDrop(<minecraft:bone>, 1, 3);
+<entity:minecraft:sheep>.addDrop(<minecraft:bone>, 1, 3);
 //Small animals: chickens, ducks, foxes, wolves, coyotes, owls
-<entity:minecraft:chicken>.addDrop(<minecraft:bone>, 0, 1);
-<entity:pvj:pvj_duck>.addDrop(<minecraft:bone>, 0, 1);
-<entity:minecraft:wolf>.addDrop(<minecraft:bone>, 0, 1);
-<entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 1);
+<entity:minecraft:chicken>.addDrop(<minecraft:bone>, 0, 2);
+<entity:pvj:pvj_duck>.addDrop(<minecraft:bone>, 0, 2);
+<entity:minecraft:wolf>.addDrop(<minecraft:bone>, 0, 2);
+<entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 2);
 //Fish
-<entity:futuremc:cod>.addDrop(<aquaculture:fish:38>, 0, 1);
-<entity:futuremc:salmon>.addDrop(<aquaculture:fish:38>, 0, 1);
-<entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 0, 1);
-<entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 0, 1);
+<entity:futuremc:cod>.addDrop(<aquaculture:fish:38>, 0, 2);
+<entity:futuremc:salmon>.addDrop(<aquaculture:fish:38>, 0, 2);
+<entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 0, 2);
+<entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 0, 2);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
 
 //Food campfire cooking
