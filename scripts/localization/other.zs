@@ -270,3 +270,6 @@ game.setLocalization("item.mod.chiselsandbits.chisel_diamond.name", "Steel Block
 
 //Retrocomputers
 game.setLocalization("item.retrocomputers:screwdriver.name", "Engineer's Computer Tinkering Screwdriver");
+
+//Bullseye diamond arrow to steel
+game.setLocalization("item.diamond_arrow.name", "Steel-Tipped Arrow");

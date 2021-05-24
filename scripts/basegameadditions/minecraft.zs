@@ -104,6 +104,7 @@ recipes.removeByRecipeName("forestry:cake_refractory");
 
 //Arrows
 recipes.remove(<minecraft:arrow>);
+recipes.remove(<bullseye:arrow:3>);
 recipes.addShaped(<minecraft:arrow> * 8,
  [[null, null, <flintmod:tool_part_flint>],
  [null, <ore:stickWood>, null],
@@ -120,8 +121,25 @@ recipes.addShaped(<minecraft:arrow> * 6,
  [[null, null, <ore:nuggetIron>],
  [null, <ore:stickWood>, <ore:nuggetIron>],
  [<ore:paper>, null, null]]);
+recipes.addShaped(<bullseye:arrow:3> * 12,
+ [[null, null, <ore:nuggetSteel>],
+ [null, <ore:stickWood>, <ore:nuggetSteel>],
+ [<ore:feather>, null, null]]);
+recipes.addShaped(<bullseye:arrow:3> * 6,
+ [[null, null, <ore:nuggetSteel>],
+ [null, <ore:stickWood>, <ore:nuggetSteel>],
+ [<ore:paper>, null, null]]);
 
-/*
+//Stone types
+recipes.removeByRecipeName("environmentalmaterials:m_alabaster/normal/alabaster_c_white_temp");
+recipes.removeByRecipeName("environmentalmaterials:m_basalt/normal/c_block");
+recipes.removeByRecipeName("environmentalmaterials:m_hardened_stone/normal/c_block");
+furnace.addRecipe(<environmentalmaterials:basalt>, <quark:basalt>);
+furnace.addRecipe(<environmentalmaterials:hardened_stone>, <ore:stone>);
+furnace.addRecipe(<environmentalmaterials:alabaster>, <ore:stoneMarblePolished>);
+furnace.addRecipe(<environmentalmaterials:alabaster>, <ore:stoneLimestonePolished>);
+furnace.addRecipe(<environmentalmaterials:alabaster>, <quark:slate:1>);
+ 
 //Bones from animals for bonemeal early
 //This would be enabled if it didn't cause @$#@#$ random crashes I can't trace
 //Large animals: horses & variants, llamas, grizzly bears, polar bears, and panda bears
@@ -142,7 +160,6 @@ recipes.addShaped(<minecraft:arrow> * 6,
 <entity:minecraft:wolf>.addDrop(<minecraft:bone>, 0, 1);
 //<entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 1);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
-*/
 
 //Food campfire cooking
 Campfire.addRecipe(<aquaculture:food:3>, <aquaculture:food:4>, 600);
