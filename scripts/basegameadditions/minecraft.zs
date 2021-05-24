@@ -152,13 +152,18 @@ furnace.addRecipe(<environmentalmaterials:alabaster>, <quark:slate:1>);
 <entity:futuremc:panda>.addDrop(<minecraft:bone>, 1, 3);
 //Medium animals: cows, pigs, deer, sheep
 <entity:minecraft:cow>.addDrop(<minecraft:bone>, 1, 2);
-//<entity:minecraft:pig>.addDrop(<minecraft:bone>, 1, 2);
+<entity:minecraft:pig>.addDrop(<minecraft:bone>, 1, 2);
 <entity:minecraft:sheep>.addDrop(<minecraft:bone>, 1, 2);
 //Small animals: chickens, ducks, foxes, wolves, coyotes, owls
 <entity:minecraft:chicken>.addDrop(<minecraft:bone>, 0, 1);
 <entity:pvj:pvj_duck>.addDrop(<minecraft:bone>, 0, 1);
 <entity:minecraft:wolf>.addDrop(<minecraft:bone>, 0, 1);
-//<entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 1);
+<entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 1);
+//Fish
+<entity:futuremc:cod>.addDrop(<aquaculture:fish:38>, 0, 1);
+<entity:futuremc:salmon>.addDrop(<aquaculture:fish:38>, 0, 1);
+<entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 0, 1);
+<entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 0, 1);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
 
 //Food campfire cooking
