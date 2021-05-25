@@ -84,11 +84,6 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:shatteredendstone>.add(<contenttweaker:shattered_end_stone>);
 <ore:endgravel>.add(<contenttweaker:end_gravel>);
 
-//Fines oredictionary
-<ore:gravel>.add(<contenttweaker:fine_gravel>);
-<ore:sand>.add(<contenttweaker:fine_sand>);
-<ore:soulsand>.add(<contenttweaker:fine_soul_sand>);
-
 //Lens oredictionary
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensGlass>);
 <ore:lensPrecisionLaserEtcher>.addAll(<ore:lensLapis>);

@@ -46,9 +46,10 @@ Distiller.addRecipe(<liquid:water> * 1000, <liquid:lithiumchloridesolution> * 10
 Mixer.addRecipe(<liquid:lithiatedwater> * 100, <liquid:water> * 100, [<ore:dustLithium>], 2000);
 
 //Concrete from slag or stone dust
+Mixer.addRecipe(<liquid:concrete> * 500, <liquid:water> * 500, [<contenttweaker:fine_sand>, <contenttweaker:fine_sand>, <ore:itemClay>, <contenttweaker:fine_gravel>], 4000);
 Mixer.addRecipe(<liquid:concrete> * 750, <liquid:water> * 750, [<ore:itemSlag>, <ore:itemSlag>, <ore:itemClay>, <ore:gravel>], 4000);
-Mixer.addRecipe(<liquid:concrete> * 750, <liquid:water> * 750, [<ore:itemSlag>, <ore:itemSlag>, <ore:dustStone>, <ore:gravel>], 4000);
-Mixer.addRecipe(<liquid:concrete> * 500, <liquid:water> * 500, [<ore:itemSlag>, <ore:itemSlag>, <ore:dustStone>, <ore:dustStone>], 4000);
+Mixer.addRecipe(<liquid:concrete> * 750, <liquid:water> * 750, [<contenttweaker:fine_sand>, <contenttweaker:fine_sand>, <ore:dustStone>, <contenttweaker:fine_gravel>], 4000);
+Mixer.addRecipe(<liquid:concrete> * 1000, <liquid:water> * 1000, [<ore:itemSlag>, <ore:itemSlag>, <ore:dustStone>, <contenttweaker:fine_gravel>], 4000);
 
 //Lubricant from plant oil
 Mixer.addRecipe(<liquid:lubricant> * 1000, <liquid:plantoil> * 1000, [<ore:dustHOPGraphite>], 20000);
@@ -107,6 +108,7 @@ furnace.addRecipe(<contenttweaker:calcined_crushed_marble>, <contenttweaker:crus
 //Blaze Powder to sulfur & soul sand to nitrate (gunpowder!)
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
 BlastFurnace.addRecipe(<minecraft:sand> * 3, <ore:soulsand>.firstItem * 3, 600, <immersiveengineering:material:24> * 2);
+BlastFurnace.addRecipe(<contenttweaker:fine_sand> * 3, <contenttweaker:fine_soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <ore:sludgeCharcoalPrecursor>, 900);
@@ -161,12 +163,14 @@ Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:plasticblock:*>, 2400);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:slickplasticblock:*>, 2400);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:reinforcedplasticblock:*>, 2400, <mekanism:dust:2>, 0.2);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:glowplasticblock:*>, 2400, <minecraft:glowstone_dust>, 0.3);
+Crusher.addRecipe(<contenttweaker:fine_sand>, <contenttweaker:fine_gravel>, 1600);
 BlastFurnace.addFuel(<ore:fuelPetroleumCoke>.firstItem, 1200);
 Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustPetroleumCoke> * 8, 19200);
 
 //Make Insulating Glass made in the Alloy Kiln with Glass and Iron dust
 recipes.remove(<immersiveengineering:stone_decoration:8>);
-AlloySmelter.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <minecraft:glass> * 8, <ore:dustIron>, 320);
+AlloySmelter.addRecipe(<immersiveengineering:stone_decoration:8> * 6, <minecraft:sand> * 8, <ore:dustIron>, 320);
+AlloySmelter.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <contenttweaker:fine_sand> * 8, <ore:dustIron>, 320);
 
 //Fix weird recipes from QuackLib items
 AlloySmelter.removeRecipe(<quacklib:component:20>);

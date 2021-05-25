@@ -92,7 +92,7 @@
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;1;160</itemStack>
+			<oreDict>plateLightlyEnrichedUraniumDioxide</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">

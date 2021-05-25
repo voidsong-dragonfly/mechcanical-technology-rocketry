@@ -8,9 +8,9 @@ import mods.immersiveengineering.CokeOven;
 //Turn AR concrete into Cement
 recipes.remove(<advancedrocketry:concrete>);
 recipes.addShaped(<advancedrocketry:concrete> * 8,
- [[<ore:dustStone>, <earthworks:item_chalk>, <ore:dustStone>],
- [<ore:sand>, <minecraft:water_bucket>, <ore:sand>],
- [<ore:dustStone>, <earthworks:item_chalk>, <ore:dustStone>]]);
+ [[<contenttweaker:fine_gravel>, <earthworks:item_chalk>, <contenttweaker:fine_gravel>],
+ [<contenttweaker:fine_sand>, <minecraft:water_bucket>, <contenttweaker:fine_sand>],
+ [<contenttweaker:fine_gravel>, <earthworks:item_chalk>, <contenttweaker:fine_gravel>]]);
 
 //Rocket pieces need more involved recipes than three ingots and three plates
 recipes.remove(<advancedrocketry:rocketmotor>);

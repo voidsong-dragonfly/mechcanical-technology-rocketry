@@ -1,8 +1,10 @@
 //Import
+import crafttweaker.item.IIngredient;
 import mods.immersiveengineering.ArcFurnace;
 
 //Remove all outputs
 ArcFurnace.removeAll();
+
 
 //Alloying
 ArcFurnace.addRecipe(<immersiveengineering:metal:6> * 2, <ore:ingotEquivalentNickel>, null, 150, 512, [<ore:ingotEquivalentCopper>], "Alloying & Steelmaking");
@@ -21,16 +23,19 @@ ArcFurnace.addRecipe(<ore:ingotTungstensteel>.firstItem * 2, <ore:ingotEquivalen
 //Silicon Production
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 8, <contenttweaker:silicon_dioxide_dust_block>, null, 1600, 512, [<ore:dustAnyCarbon> * 8]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:dustQuartz>, null, 400, 512, [<ore:dustAnyCarbon>]);
+ArcFurnace.addRecipe(<libvulpes:productdust:3> * 2, <contenttweaker:fine_sand> * 3, <immersiveengineering:material:7>, 1600, 256, [<ore:dustAnyCarbon> * 2]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:sand> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
 //ALON (Aluminium Oxynitride) for Panzer Glass - ~2x as bulletproof as standard bulletproof glass
 ArcFurnace.addRecipe(<engineersdecor:panzerglass_block>, <ore:dustAluminum> * 3, <immersiveengineering:material:7>, 400, 512, [<ore:dustSaltpeter>]);
-//Sand for normal glass
+//Sand for normal glass & insulating glass
 ArcFurnace.addRecipe(<minecraft:glass>, <ore:sand>, null, 400, 512);
 ArcFurnace.addRecipe(<minecraft:glass> * 4, <contenttweaker:silicon_dioxide_dust_block>, null, 400, 512);
+ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 6, <ore:sand> * 8, <immersiveengineering:material:7> * 2, 400, 512, [<ore:dustIron>]);
+ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <contenttweaker:fine_sand> * 8, null, 400, 512, [<ore:dustIron>]);
 
 //Ore processing
 ArcFurnace.addRecipe(<ore:slagNiobiumFerroalloy>.firstItem * 3, <ore:dustWashedNiobium> * 4, <immersiveengineering:material:7> * 2, 400, 512, [<ore:flux>]);
-ArcFurnace.addRecipe(<ore:slagLeadSinter>.firstItem * 48, <ore:dustWashedLead> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);
+ArcFurnace.addRecipe(<ore:slagLeadSinter>.firstItem * 48, <ore:dustDirtyLead> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);
 
 
 //Smelting (dusts)
