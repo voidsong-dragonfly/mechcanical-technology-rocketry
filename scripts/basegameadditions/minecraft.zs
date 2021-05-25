@@ -139,7 +139,13 @@ furnace.addRecipe(<environmentalmaterials:hardened_stone>, <ore:stone>);
 furnace.addRecipe(<environmentalmaterials:alabaster>, <ore:stoneMarblePolished>);
 furnace.addRecipe(<environmentalmaterials:alabaster>, <ore:stoneLimestonePolished>);
 furnace.addRecipe(<environmentalmaterials:alabaster>, <quark:slate:1>);
- 
+
+//Atlas
+recipes.remove(<antiqueatlas:empty_antique_atlas>);
+recipes.addShaped(<antiqueatlas:empty_antique_atlas>,
+ [[<minecraft:writable_book>, <minecraft:compass>],
+ [<minecraft:map>, <minecraft:map>]]);
+
 //Bones from animals for bonemeal early
 //This would be enabled if it didn't cause @$#@#$ random crashes I can't trace
 //Large animals: horses & variants, llamas, grizzly bears, polar bears, and panda bears
@@ -160,10 +166,10 @@ furnace.addRecipe(<environmentalmaterials:alabaster>, <quark:slate:1>);
 <entity:minecraft:wolf>.addDrop(<minecraft:bone>, 0, 2);
 <entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 2);
 //Fish
-<entity:futuremc:cod>.addDrop(<aquaculture:fish:38>, 0, 2);
-<entity:futuremc:salmon>.addDrop(<aquaculture:fish:38>, 0, 2);
-<entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 0, 2);
-<entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 0, 2);
+<entity:futuremc:cod>.addDrop(<aquaculture:fish:38>, 1, 1);
+<entity:futuremc:salmon>.addDrop(<aquaculture:fish:38>, 1, 1);
+<entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 1, 1);
+<entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 1, 1);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
 
 //Food campfire cooking

@@ -5,3 +5,5 @@ addParent("triumph:advanced_tech/injection")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:ender_pearl>)
 setPos(-135,230)
+//Force starting chapter
+visibleIf("triumph:advanced_tech/injection")
