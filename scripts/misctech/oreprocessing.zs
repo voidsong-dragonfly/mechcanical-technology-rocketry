@@ -1,6 +1,7 @@
 //Import
 import mods.immersiveengineering.Mixer;
 import mods.immersiveengineering.Crusher;
+import mods.immersiveengineering.BlastFurnace;
 import mods.immersivetechnology.ElectrolyticCrucibleBattery;
 import mods.modularmachinery.RecipeBuilder.newBuilder;
 import crafttweaker.oredict.IOreDictEntry;
@@ -218,9 +219,9 @@ furnace.addRecipe(<ore:ingotPlatinum>.firstItem, <ore:dustAmmoniumChloroplatinat
 
 
 //Gold and silver processing
-furnace.addRecipe(<ore:dustWashedGold>.firstItem, <ore:dustDirtyGold>.firstItem);
+BlastFurnace.addRecipe(<ore:dustWashedGold>.firstItem, <ore:dustDirtyGold>.firstItem, 300, null);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:amalgamMercuryGold>.firstItem);
-furnace.addRecipe(<ore:dustWashedSilver>.firstItem, <ore:dustDirtySilver>.firstItem);
+BlastFurnace.addRecipe(<ore:dustWashedSilver>.firstItem, <ore:dustDirtySilver>.firstItem, 300, null);
 furnace.addRecipe(<immersiveengineering:metal:3>, <ore:amalgamMercurySilver>.firstItem);
 
 
