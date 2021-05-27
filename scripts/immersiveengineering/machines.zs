@@ -192,9 +192,6 @@ Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard
 Squeezer.removeFluidRecipe(<liquid:blood>);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:fragment> * 16, 512000);
 
-//Remove metal press rod recipes. Use the lathe
-MetalPress.removeRecipeByMold(<immersiveengineering:mold:2>);
-
 //Add in some extra metal press recipes
 MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
 MetalPress.addRecipe(<ore:fuelPelletEnrichedNaquadah>.firstItem * 18, <ore:stickEnrichedNaquadah>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);

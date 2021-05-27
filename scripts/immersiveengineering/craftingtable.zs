@@ -128,9 +128,13 @@ recipes.addShaped(<immersiveengineering:wirecoil:5> * 2,
  [null, <ore:dustRedstone>, null]]);
 
 //Make battery bank(s) out of higher tier capacitors
-recipes.replaceAllOccurences(<ore:dustRedstone>, <ore:blockRedstone>, <immersiveengineering:metal_device0:0>);
+recipes.remove(<immersiveengineering:metal_device0:0>);
 recipes.remove(<immersiveengineering:metal_device0:1>);
 recipes.remove(<immersiveengineering:metal_device0:2>);
+recipes.addShaped(<immersiveengineering:metal_device0:0>,
+ [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+ [<ore:ingotCopper>, <ore:blockLead>, <ore:ingotCopper>],
+ [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:1>,
  [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
  [<ore:ingotElectrum>, <ore:itemBattery>, <ore:ingotElectrum>],

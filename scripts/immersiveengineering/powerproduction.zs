@@ -66,6 +66,7 @@ Boiler.addFuel(<liquid:biodiesel> * 100, 10, 10);
 Boiler.addFuel(<liquid:ethanol> * 150, 10, 10);
 Boiler.addFuel(<liquid:liquidethene> * 110, 10, 10);
 Boiler.addFuel(<liquid:liquidhydrogen> * 530, 10, 10);
+Boiler.addFuel(<liquid:creosote> * 80, 10, 10);
 
 //Heat Exchanger recipes
 HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:fluegas> * 1000, 0, 10);

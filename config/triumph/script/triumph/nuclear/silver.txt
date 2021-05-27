@@ -6,4 +6,4 @@ criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:ingotSilver>)
 setPos(-275,245)
 //Force starting chapter
-visibleIf("triumph:nuclear/root")
+setRequiresParents()

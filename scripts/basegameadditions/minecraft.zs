@@ -146,6 +146,7 @@ recipes.addShaped(<antiqueatlas:empty_antique_atlas>,
  [[<minecraft:writable_book>, <minecraft:compass>],
  [<minecraft:map>, <minecraft:map>]]);
 
+/*
 //Bones from animals for bonemeal early
 //This would be enabled if it didn't cause @$#@#$ random crashes I can't trace
 //Large animals: horses & variants, llamas, grizzly bears, polar bears, and panda bears
@@ -171,7 +172,7 @@ recipes.addShaped(<antiqueatlas:empty_antique_atlas>,
 <entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 1, 1);
 <entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 1, 1);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
-
+*/
 //Food campfire cooking
 Campfire.addRecipe(<aquaculture:food:3>, <aquaculture:food:4>, 600);
 Campfire.addRecipe(<aquaculture:food:2>, <aquaculture:food:5>, 600);

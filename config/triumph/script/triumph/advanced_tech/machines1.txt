@@ -5,3 +5,5 @@ addParent("triumph:advanced_tech/plastic")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:scaffoldingAluminum>)
 setPos(-240,50)
+//Force starting chapter
+setRequiresParents()
