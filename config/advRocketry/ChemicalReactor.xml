@@ -135,6 +135,15 @@
 	</Recipe>
     <Recipe timeRequired="100" power="512">
 		<input>
+			<oreDict>dustSulfur;8</oreDict>
+            <fluidStack>air;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidsulfurdioxide;600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
 			<fluidStack>liquidsulfurdioxide;800</fluidStack>
             <fluidStack>air;400</fluidStack>
         </input>
@@ -150,6 +159,15 @@
 		<output>
 			<fluidStack>liquidsulfurdioxide;800</fluidStack>
             <fluidStack>water;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="512">
+		<input>
+			<oreDict>dustSulfur;8</oreDict>
+            <fluidStack>liquidoxygen;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquidsulfurdioxide;800</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="100" power="512">
