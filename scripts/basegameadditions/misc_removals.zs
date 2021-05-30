@@ -29,15 +29,6 @@ removeAndHide(<charset:icon>);
 //Baubles
 removeAndHide(<baubles:ring>);
 
-//Bullseye
-removeAndHide(<bullseye:be_icon>);
-removeAndHide(<bullseye:arrow:4>);
-removeAndHide(<bullseye:arrow:5>);
-removeAndHide(<bullseye:arrow:6>);
-removeAndHide(<bullseye:arrow:8>);
-removeAndHide(<bullseye:arrow:9>);
-removeAndHide(<bullseye:arrow:10>);
-
 //Valkyrielib
 removeAndHide(<valkyrielib:guide>);
 removeAndHide(<valkyrielib:modifier_component>);

@@ -14,8 +14,9 @@ Sieve.removeRecipe(<minecraft:soul_sand>);
 Sieve.addRecipe(<minecraft:gravel>, <contenttweaker:fine_gravel>, 0.9, <minecraft:flint>, 1, <minecraft:flint>, 0.1, 40, false);
 Sieve.addRecipe(<minecraft:sand>, <contenttweaker:fine_sand>, 1, <minecraft:gold_nugget>, 0.04, <minecraft:quartz>, 0.01, 40, false);
 Sieve.addRecipe(<minecraft:sand:1>, <contenttweaker:fine_sand>, 1, <minecraft:redstone>, 0.4, <minecraft:gold_nugget>, 0.05, 40, false);
-Sieve.addRecipe(<minecraft:soul_sand>, <contenttweaker:fine_soul_sand>, 1, <minecraft:quartz>, 0.2, <minecraft:quartz>, 0.1, 40, false);
+Sieve.addRecipe(<minecraft:soul_sand>, <contenttweaker:fine_soul_sand>, 1, <minecraft:quartz>, 0.1, <minecraft:quartz>, 0.05, 40, false);
 Sieve.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sand>, 0.9, <quark:glass_shards>, 1, <quark:glass_shards:1>, 0.5, 40, true);
+Sieve.addRecipe(<contenttweaker:end_gravel>, <minecraft:sand>, 1.0, <ore:dustGlowstone>.firstItem, 0.04, <ore:dustPlatinum>.firstItem, 0.01, 40, true);
 Sieve.addRecipe(<contenttweaker:shattered_end_stone>, <contenttweaker:end_gravel>, 0.8, <ore:dustObsidian>.firstItem, 0.5, <ore:dustMixedEndMetals>.firstItem, 0.1, 40, true);
 
 //Sieve ore byproduct recipes
@@ -37,15 +38,14 @@ Sieve.addRecipe(<contenttweaker:crushed_tin_ore>, <mekanism:dirtydust:4> * 2, 1,
 Sieve.addRecipe(<contenttweaker:crushed_platinum_ore>, <mekores:mekanismore:18> * 2, 1, <mekores:mekanismore:13>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_iridium_ore>, <mekores:mekanismore:23> * 2, 1, <mekores:mekanismore:18>, 0.05, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_zirconium_ore>, <mekores:mekanismore:83> * 2, 1, <ore:dustRutile>.firstItem, 0.05, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
-Sieve.addRecipe(<contenttweaker:crushed_niobium_ore>, <mekores:mekanismore:108> * 2, 1, <mekores:mekanismore:3>, 0.05, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
+Sieve.addRecipe(<contenttweaker:crushed_niobium_ore>, <mekores:mekanismore:128> * 2, 1, <mekores:mekanismore:3>, 0.05, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_ilmenite_ore>, <mekores:mekanismore:88> * 2, 1, <ore:dustMagnesium>.firstItem, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_tungsten_ore>, <mekores:mekanismore:108> * 2, 1, <mekanism:dirtydust>, 0.15, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 
 //Sieve secondary ore recipes
 Sieve.addRecipe(<mekores:mekanismore:18>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({display: {Lore: ["Platinum-Rich"]}}).withTag({metal: "platinum"}), 0.1667, 75, true);
 Sieve.addRecipe(<mekores:mekanismore:23>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({display: {Lore: ["Iridium-Rich"]}}).withTag({metal: "iridium"}), 0.1667, 75, true);
-Sieve.addRecipe(<ore:dustMixedEndMetals>.firstItem, <ore:dustPlatinum>.firstItem, 0.5, <ore:dustTungsten>.firstItem, 0.3, <ore:dustMixedFissileMetals>.firstItem, 0.2, 75, true);
-Sieve.addRecipe(<ore:dustMixedFissileMetals>.firstItem, <ore:dustUranium>.firstItem, 0.6, <ore:dustNaquadah>.firstItem, 0.4, null, 0.0, 75, true);
+Sieve.addRecipe(<ore:dustMixedEndMetals>.firstItem, <ore:dustPlatinum>.firstItem, 0.5, <ore:dustTungsten>.firstItem, 0.3, <ore:dustNaquadah>.firstItem, 0.2, 75, true);
 
 //Sluice
 SluiceBox.addRecipe(<ore:dustStone>.firstItem, 0.75, <minecraft:clay_ball>, 0.125, <minecraft:clay_ball>, 0.0625, <minecraft:clay_ball>, true);
@@ -61,6 +61,6 @@ SluiceBox.addRecipe(<contenttweaker:crushed_tin_ore>, 1, <mekanism:dirtydust:4> 
 SluiceBox.addRecipe(<contenttweaker:crushed_platinum_ore>, 1, <mekores:mekanismore:18> * 2, 0.1, <mekores:mekanismore:13>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_iridium_ore>, 1, <mekores:mekanismore:23> * 2, 0.05, <mekores:mekanismore:18>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_zirconium_ore>, 1, <mekores:mekanismore:83> * 2, 0.05, <ore:dustRutile>.firstItem, true);
-SluiceBox.addRecipe(<contenttweaker:crushed_niobium_ore>, 1, <mekores:mekanismore:108> * 2, 0.05, <mekores:mekanismore:3>, true);
+SluiceBox.addRecipe(<contenttweaker:crushed_niobium_ore>, 1, <mekores:mekanismore:128> * 2, 0.05, <mekores:mekanismore:3>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_ilmenite_ore>, 1, <mekores:mekanismore:88> * 2, 0.1, <ore:dustMagnesium>.firstItem, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_tungsten_ore>, 1, <mekores:mekanismore:108> * 2, 0.15, <mekanism:dirtydust>, true);

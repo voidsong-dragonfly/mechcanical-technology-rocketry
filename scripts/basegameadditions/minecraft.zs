@@ -66,7 +66,29 @@ recipes.remove(<minecraft:activator_rail>);
 recipes.addShaped(<minecraft:activator_rail>,
  [[<minecraft:rail>],
  [<minecraft:redstone_torch>]]);
-
+ 
+//Ender crystal/other Vanilla magic items to use more Quark materials/more fitting materials & ender hopper to use other materials
+recipes.remove(<minecraft:end_crystal>);
+recipes.remove(<minecraft:enchanting_table>);
+recipes.remove(<minecraft:beacon>);
+recipes.addShaped(<minecraft:end_crystal>,
+ [[<ore:blockGlassColorless>, <ore:gemEnderBiotite>, <ore:blockGlassColorless>],
+ [<minecraft:chorus_fruit_popped>, <quark:duskbound_lantern>, <minecraft:chorus_fruit_popped>],
+ [<ore:blockGlassColorless>, <minecraft:ghast_tear>, <ore:blockGlassColorless>]]);
+recipes.addShaped(<minecraft:enchanting_table>,
+ [[null, <minecraft:writable_book>, null],
+ [<ore:gemDiamond>, <quark:quilted_wool:14>, <ore:gemDiamond>],
+ [<ore:obsidian>, <minecraft:red_nether_brick>, <ore:obsidian>]]);
+recipes.addShaped(<minecraft:beacon>,
+ [[<ore:blockGlassColorless>, <minecraft:nether_star>, <ore:blockGlassColorless>],
+ [<ore:gemDiamond>, <minecraft:sea_lantern>, <ore:gemDiamond>],
+ [<ore:blockGlassColorless>, <ore:obsidian>, <ore:blockGlassColorless>]]);
+recipes.remove(<enderhopper:enderhopper>);
+recipes.addShaped(<enderhopper:enderhopper>,
+ [[<ore:obsidian>, <ore:gemEnderBiotite>, <ore:obsidian>],
+ [<ore:dustObsidian>, <minecraft:ender_chest>, <ore:dustObsidian>],
+ [null, <ore:obsidian>, null]]);
+ 
 //Remove Quark recipes for Minecraft items that interfere
 recipes.removeByRecipeName("quark:hopper");
 recipes.removeByRecipeName("quark:chest_minecart");
@@ -104,7 +126,7 @@ recipes.removeByRecipeName("forestry:cake_refractory");
 
 //Arrows
 recipes.remove(<minecraft:arrow>);
-recipes.remove(<bullseye:arrow:3>);
+recipes.remove(<quark:arrow_ender>);
 recipes.addShaped(<minecraft:arrow> * 8,
  [[null, null, <flintmod:tool_part_flint>],
  [null, <ore:stickWood>, null],
@@ -121,13 +143,13 @@ recipes.addShaped(<minecraft:arrow> * 6,
  [[null, null, <ore:nuggetIron>],
  [null, <ore:stickWood>, <ore:nuggetIron>],
  [<ore:paper>, null, null]]);
-recipes.addShaped(<bullseye:arrow:3> * 12,
- [[null, null, <ore:nuggetSteel>],
- [null, <ore:stickWood>, <ore:nuggetSteel>],
+recipes.addShaped(<quark:arrow_ender> * 4,
+ [[null, null, <ore:gemEnderBiotite>],
+ [null, <ore:stickWood>, <ore:enderpearl>],
  [<ore:feather>, null, null]]);
-recipes.addShaped(<bullseye:arrow:3> * 6,
- [[null, null, <ore:nuggetSteel>],
- [null, <ore:stickWood>, <ore:nuggetSteel>],
+recipes.addShaped(<quark:arrow_ender> * 2,
+ [[null, null, <ore:gemEnderBiotite>],
+ [null, <ore:stickWood>, <ore:enderpearl>],
  [<ore:paper>, null, null]]);
 
 //Stone types

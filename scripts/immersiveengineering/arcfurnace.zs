@@ -34,7 +34,7 @@ ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 6, <ore:sand> *
 ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <contenttweaker:fine_sand> * 8, null, 400, 512, [<ore:dustIron>]);
 
 //Ore processing
-ArcFurnace.addRecipe(<ore:slagNiobiumFerroalloy>.firstItem * 3, <ore:dustWashedNiobium> * 4, <immersiveengineering:material:7> * 2, 400, 512, [<ore:flux>]);
+ArcFurnace.addRecipe(<ore:slagNiobiumFerroalloy>.firstItem * 3, <ore:dustDirtyNiobium> * 4, <immersiveengineering:material:7> * 2, 400, 512, [<ore:flux>]);
 ArcFurnace.addRecipe(<ore:slagLeadSinter>.firstItem * 48, <ore:dustDirtyLead> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);
 
 

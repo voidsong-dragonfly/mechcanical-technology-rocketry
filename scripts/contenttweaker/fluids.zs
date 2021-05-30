@@ -114,6 +114,9 @@ create_fluid("uraniumhexafluoride_021", "F1EDDA", 300, 5030, 1000);
 create_fluid("uraniumhexafluoride_028", "F1EDDA", 300, 5030, 1000);
 create_fluid("uraniumhexafluoride_035", "F1EDDA", 300, 5030, 1000);
 
+//Pahoehoe lava for heat exchanger output
+create_molten_fluid("pahoehoelava", "7b4e32", 1000, 3500, 9000);
+
 //Gas giant mining gasses
 create_gas("densebalancedgas", "e85d5a");
 create_gas("lightbalancedgas", "fa8e66");

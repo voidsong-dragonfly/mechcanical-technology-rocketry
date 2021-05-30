@@ -114,6 +114,9 @@ game.setLocalization("fluid.lightheliumrichgas", "Light Helium-Rich Gas Mix");
 game.setLocalization("fluid.cloudheliumrichgas", "Cloudlayer Helium-Rich Gas Mix");
 game.setLocalization("fluid.precipitategas", "Precipitate Gas Mix");
 
+//Pahoehoe lava
+game.setLocalization("fluid.pahoehoelava", "Pahoehoe Lava");
+
 //Ore processing
 //Cinnabar
 game.setLocalization("fluid.mercury", "Mercury");

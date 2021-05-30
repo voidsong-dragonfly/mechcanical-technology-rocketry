@@ -5,3 +5,5 @@ addParent("triumph:basic_tech/gunpowder")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:wooden_device0:4>)
 setPos(-165,-80)
+//Force starting chapter
+setRequiresParents()

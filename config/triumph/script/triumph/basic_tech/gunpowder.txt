@@ -6,3 +6,5 @@ addParent("triumph:basic_tech/nitrate")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:gunpowder>)
 setPos(-200,-80)
+//Force starting chapter
+setRequiresParents()

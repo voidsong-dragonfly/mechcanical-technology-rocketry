@@ -25,17 +25,31 @@ recipes.addShaped(<immersiveengineering:metal_decoration2:8> * 6,
  [<ore:scaffoldingAluminum>, <ore:stickAluminum>, null],
  [<ore:scaffoldingAluminum>, <ore:scaffoldingAluminum>, <ore:stickAluminum>]]);
 
-//Make Blast Brick obtainable without the nether, to offset diamonds not being able to be used in tools
+//Make Blast Brick obtainable without the nether, to offset diamonds not being able to be used in tools, and other brick tweaks
 //Side note why on earth did it use blaze powder when the point of the coke is to make CO
 recipes.remove(<immersiveengineering:stone_decoration:1>);
+recipes.remove(<immersiveengineering:stone_decoration:2>);
+recipes.remove(<immersivetech:stone_decoration:0>);
 recipes.addShaped(<immersiveengineering:stone_decoration:1> * 3,
- [[null, null, null],
- [<minecraft:brick_block>, <immersiveengineering:material:8>, <minecraft:brick_block>],
- [<ore:plateIron>, <minecraft:brick_block>, <ore:plateIron>]]);
+ [[<ore:plateIron>, <ore:ingotBrick>, <ore:plateIron>],
+ [<ore:ingotBrick>, <minecraft:brick_block>, <ore:ingotBrick>],
+ [<ore:plateIron>, <ore:ingotBrick>, <ore:plateIron>]]);
+recipes.addShaped(<immersiveengineering:stone_decoration:2>,
+ [[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+ [<ore:ingotBrickNether>, <immersiveengineering:stone_decoration:1>, <ore:ingotBrickNether>],
+ [<ore:nuggetSteel>, <engineersdecor:slag_brick_slab>, <ore:nuggetSteel>]]);
 recipes.addShaped(<immersiveengineering:stone_decoration:2> * 3,
- [[null, null, null],
- [<minecraft:brick_block>, <ore:mechanicalComponentSteel>, <minecraft:brick_block>],
- [<ore:plateSteel>, <minecraft:brick_block>, <ore:plateSteel>]]);
+ [[<ore:plateSteel>, <ore:ingotBrickNether>, <ore:plateSteel>],
+ [<ore:ingotBrickNether>, <engineersdecor:slag_brick_block>, <ore:ingotBrickNether>],
+ [<ore:plateSteel>, <ore:ingotBrickNether>, <ore:plateSteel>]]);
+recipes.addShaped(<immersivetech:stone_decoration>,
+ [[<ore:nuggetSteel>, <ore:nuggetSteel>, <ore:nuggetSteel>],
+ [<ore:ingotBrickNether>, <immersiveengineering:stone_decoration:0>, <ore:ingotBrickNether>],
+ [<ore:nuggetSteel>, <quark:soul_sandstone_slab>, <ore:nuggetSteel>]]);
+recipes.addShaped(<immersivetech:stone_decoration> * 3,
+ [[<ore:plateSteel>, <ore:ingotBrickNether>, <ore:plateSteel>],
+ [<ore:ingotBrickNether>, <quark:soul_sandstone>, <ore:ingotBrickNether>],
+ [<ore:plateSteel>, <ore:ingotBrickNether>, <ore:plateSteel>]]);
  
 //Slightly changed generator block recipe
 recipes.remove(<immersiveengineering:metal_decoration0:6>);
@@ -70,7 +84,7 @@ recipes.addShaped(<immersiveengineering:wooden_device0:4>,
  [[<ore:gunpowder>, <ore:fiberHemp>, <ore:gunpowder>],
  [<ore:gunpowder>, <immersiveengineering:wooden_device0:1>, <ore:gunpowder>]]);
  
-//Give Engineer's Decor machines some more sensical recipes recipes
+//Give Engineer's Decor machines some more sensical recipes
 recipes.remove(<engineersdecor:panzerglass_block>);
 recipes.remove(<engineersdecor:small_block_breaker>);
 recipes.remove(<engineersdecor:small_tree_cutter>);
@@ -139,6 +153,10 @@ recipes.addShaped(<immersiveengineering:metal_device0:1>,
  [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
  [<ore:ingotElectrum>, <ore:itemBattery>, <ore:ingotElectrum>],
  [<ore:plankTreatedWood>, <ore:itemBattery>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<immersiveengineering:metal_device0:2>,
+ [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+ [<ore:ingotAluminum>, <libvulpes:battery:1>, <ore:ingotAluminum>],
+ [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:2>,
  [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
  [<ore:ingotSilver>, <libvulpes:battery:1>, <ore:ingotSilver>],

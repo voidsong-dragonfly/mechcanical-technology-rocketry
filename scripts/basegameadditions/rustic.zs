@@ -26,3 +26,6 @@ recipes.remove(<culinaryconstruct:sandwich>);
 
 //Crushing tub tannins
 mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <leatherworks:tannin_ball>, <leatherworks:bark_oak> * 2);
+
+//Rustic T2 condenser to use obsidian
+recipes.replaceAllOccurences(<minecraft:iron_block>, <minecraft:obsidian>, <rustic:condenser_advanced>);

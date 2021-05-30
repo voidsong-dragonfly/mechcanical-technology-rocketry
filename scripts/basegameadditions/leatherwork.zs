@@ -96,6 +96,13 @@ recipes.addShaped(<lostquiver:quiver>,
  [<ore:leatherStrip>, <ore:stickIron>, <ore:leatherSheet>],
  [<ore:leatherSheet>, <ore:leatherSheet>, null]]);
 
+//Ender pack recipe
+recipes.remove(<leatherworks:ender_pack>);
+recipes.addShaped(<leatherworks:ender_pack>,
+ [[<ore:enderpearl>, <ore:gemEnderBiotite>, <ore:enderpearl>],
+ [<minecraft:end_rod>, <leatherworks:pack_brown>, <minecraft:end_rod>],
+ [<ore:enderpearl>, <ore:pearlEnderEye>, <ore:enderpearl>]]);
+ 
 //Documentation tooltips
 <leatherworks:crafting_leather_soaked>.addTooltip("Must be dried upon a drying rack to turn into leather");
 <leatherworks:crafting_leather_scraped>.addTooltip("Crafting this requires a Tetra shortblade along with the input");

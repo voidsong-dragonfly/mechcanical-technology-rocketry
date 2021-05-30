@@ -456,6 +456,21 @@ var lithium = newBuilder("lithium", "casting_basin", 200);
 lithium.addFluidInput(<liquid:liquidlithium> * 1200);
 lithium.addItemOutput(<mekanism:otherdust:4> * 12);
 lithium.build();
+//Lava & pahoehoe lava to magma
+var magma = newBuilder("magma", "casting_basin", 40);
+magma.addFluidInput(<liquid:lava> * 1000);
+magma.addItemOutput(<minecraft:magma>);
+magma.addItemOutput(<ore:dustCopper>).setChance(0.03);
+magma.addItemOutput(<ore:dustGold>).setChance(0.015);
+magma.addItemOutput(<ore:dustTungsten>).setChance(0.005);
+magma.build();
+var pahoehoemagma = newBuilder("pahoehoemagma", "casting_basin", 40);
+pahoehoemagma.addFluidInput(<liquid:pahoehoelava> * 1000);
+pahoehoemagma.addItemOutput(<minecraft:magma>);
+pahoehoemagma.addItemOutput(<ore:dustCopper>).setChance(0.06);
+pahoehoemagma.addItemOutput(<ore:dustGold>).setChance(0.03);
+pahoehoemagma.addItemOutput(<ore:dustTungsten>).setChance(0.01);
+pahoehoemagma.build();
 
 
 

@@ -83,23 +83,17 @@ recipes.addShapeless(<ore:waferCentralProcessingUnit>.firstItem, [<ore:etchedWaf
 BottlingMachine.addRecipe(<ore:etchedWaferIntegratedCircuit>.firstItem, <ore:preparedWaferIntegratedCircuit>, <liquid:sulfuricacid> * 125);
 BottlingMachine.addRecipe(<ore:etchedWaferCentralProcessingUnit>.firstItem, <ore:preparedWaferCentralProcessingUnit>, <liquid:sulfuricacid> * 125);
 
-//Helium botting machine recipes
+//High-teir item botting machine recipes
 BottlingMachine.addRecipe(<ore:heliumTankItem>.firstItem, <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
-
-//Supercapacitor bottling machine recipes
 BottlingMachine.addRecipe(<ore:supercapacitorItem>.firstItem, <ore:supercapacitorHullItem>, <liquid:distwater> * 125);
-
-//Superconductor Cable bottling machine recipes
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledSuperconductorCableItem>, <liquid:liquidnitrogen> * 125);
-
-//Steam bottling machine recipes
 BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liquid:steam> * 8000);
+
+//Cooling bottling machine recipes
+BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:water> * 125);
 
 //Remove Steel Block Recipe, it makes no sense
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
-
-//Add Iron output to Oxidized Ferric Sand
-BlastFurnace.addRecipe(<rustic:dust_tiny_iron> * 3, <advancedrocketry:hotturf>, 400, <minecraft:sand:1>);
 
 //Dolomite recipes
 furnace.addRecipe(<contenttweaker:calcined_crushed_dolomite>, <contenttweaker:crushed_dolomite>);
@@ -151,8 +145,12 @@ MeltingCrucible.addRecipe(<liquid:liquidethene> * 1000, <contenttweaker:ethene_i
 MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 76800, 160);
 
 //Add aquaculture fish bone bonemeal recipe
-Crusher.addRecipe(<minecraft:dye:15> * 6, <aquaculture:fish:38>, 4800);
+Crusher.addRecipe(<minecraft:dye:15> * 6, <aquaculture:fish:38>, 3200);
 Crusher.removeRecipe(<minecraft:string>);
+
+//Add soul sandstone recipe & other crushing recipes
+Crusher.addRecipe(<minecraft:soul_sand> * 2, <quark:soul_sandstone:*>, 1600, <immersiveengineering:material:24>, 0.875);
+Crusher.addRecipe(<contenttweaker:end_gravel>, <minecraft:end_stone>, 2400);
 
 //Add petroleum related recipes
 Crusher.addRecipe(<ore:dustPetroleumCoke>.firstItem, <ore:fuelPetroleumCoke>, 2400);
