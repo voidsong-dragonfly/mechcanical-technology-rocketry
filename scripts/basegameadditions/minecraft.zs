@@ -127,6 +127,7 @@ recipes.removeByRecipeName("forestry:cake_refractory");
 //Arrows
 recipes.remove(<minecraft:arrow>);
 recipes.remove(<quark:arrow_ender>);
+recipes.remove(<inspirations:arrow>);
 recipes.addShaped(<minecraft:arrow> * 8,
  [[null, null, <flintmod:tool_part_flint>],
  [null, <ore:stickWood>, null],
@@ -150,6 +151,14 @@ recipes.addShaped(<quark:arrow_ender> * 4,
 recipes.addShaped(<quark:arrow_ender> * 2,
  [[null, null, <ore:gemEnderBiotite>],
  [null, <ore:stickWood>, <ore:enderpearl>],
+ [<ore:paper>, null, null]]);
+recipes.addShaped(<inspirations:arrow> * 8,
+ [[null, null, <ore:dustRedstone>],
+ [null, <ore:stickWood>, null],
+ [<ore:feather>, null, null]]);
+recipes.addShaped(<inspirations:arrow> * 4,
+ [[null, null, <ore:dustRedstone>],
+ [null, <ore:stickWood>, null],
  [<ore:paper>, null, null]]);
 
 //Stone types

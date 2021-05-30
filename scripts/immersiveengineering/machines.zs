@@ -99,10 +99,11 @@ BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
 furnace.addRecipe(<contenttweaker:calcined_crushed_dolomite>, <contenttweaker:crushed_dolomite>);
 furnace.addRecipe(<contenttweaker:calcined_crushed_marble>, <contenttweaker:crushed_marble>);
 
-//Blaze Powder to sulfur & soul sand to nitrate (gunpowder!)
+//Blaze Powder to sulfur & soul sand to nitrate (gunpowder!) & netherrack to redstone
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
 BlastFurnace.addRecipe(<minecraft:sand> * 3, <ore:soulsand>.firstItem * 3, 600, <immersiveengineering:material:24> * 2);
 BlastFurnace.addRecipe(<contenttweaker:fine_sand> * 3, <contenttweaker:fine_soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
+BlastFurnace.addRecipe(<minecraft:netherbrick> * 12, <minecraft:netherrack> * 12, 2400, <minecraft:redstone>);
 
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <ore:sludgeCharcoalPrecursor>, 900);
@@ -151,6 +152,7 @@ Crusher.removeRecipe(<minecraft:string>);
 //Add soul sandstone recipe & other crushing recipes
 Crusher.addRecipe(<minecraft:soul_sand> * 2, <quark:soul_sandstone:*>, 1600, <immersiveengineering:material:24>, 0.875);
 Crusher.addRecipe(<contenttweaker:end_gravel>, <minecraft:end_stone>, 2400);
+Crusher.addRecipe(<minecraft:gravel>, <minecraft:netherrack>, 1600, <minecraft:redstone>, 0.05);
 
 //Add petroleum related recipes
 Crusher.addRecipe(<ore:dustPetroleumCoke>.firstItem, <ore:fuelPetroleumCoke>, 2400);
@@ -189,6 +191,7 @@ Squeezer.addRecipe(<biomesoplenty:hard_ice>, <liquid:ice> * 3000, <ore:blockPack
 Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard_ice> * 4, 512000);
 Squeezer.removeFluidRecipe(<liquid:blood>);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:fragment> * 16, 512000);
+Squeezer.addRecipe(<minecraft:cobblestone>, <liquid:blood> * 125, <minecraft:netherrack>, 25600);
 
 //Add in some extra metal press recipes
 MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
