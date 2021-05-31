@@ -14,10 +14,8 @@
   biomes: {
     types: [ "OCEAN" ]
   }
-  useBiomeBlacklist: true
   #We only want these caves in the overworld because only the overworld would support them
   dimensions: [ 0 ]
-  useDimensionBlacklist: false
   #Replace more blocks than usual
   replaceableBlocks: [ "stone", "dirt", "sand", "sandstone", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15" ]
   #Add some greenery to the floor
@@ -25,158 +23,134 @@
     #Water patches
     {
       states: water
-      minHeight: 32
-      maxHeight: 40
       directions: down
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
-      preference: replace_match
-      noise3D: { "frequency": 0.075 }
+      height: [ 32, 40 ]
+      noise: { frequency: 0.075 }
+      placement: EMBED
     }
     #Fix water patches
     {
       states: stone
-      chance: 0.9
-      minHeight: 32
-      maxHeight: 40
       directions: side
       matchers: water
-      preference: replace_match
+      height: [ 32, 40 ]
+      integrity: 0.9
+      placement: EMBED
     }
     #Bottom variation, coarse dirt, grass, and mossy cobble
     {
       states: grass
-      chance: 0.5
-      minHeight: 32
-      maxHeight: 52
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
-      preference: replace_match
+      height: [ 32, 52 ]
+      integrity: 0.5
+      placement: EMBED
     }
     {
       states: dirt:1
-      chance: 0.2
-      minHeight: 32
-      maxHeight: 52
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
-      preference: replace_match
+      height: [ 32, 52 ]
+      integrity: 0.2
+      placement: EMBED
     }
     {
       states: mossy_cobblestone
-      chance: 0.2
-      minHeight: 32
-      maxHeight: 52
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
-      preference: replace_match
+      height: [ 32, 52 ]
+      integrity: 0.2
+      placement: EMBED
     }
     {
       states: water
-      chance: 0.075
-      minHeight: 32
-      maxHeight: 52
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: down
-      preference: replace_match
+      height: [ 32, 52 ]
+      integrity: 0.075
+      placement: EMBED
     }
     #Vegetation blocks this time
     # Spawns extra ferns on the ground.
     {
       states: tallgrass:2
-      chance: 0.05
-      minHeight: 32
-      maxHeight: 52
       directions: down
       matchers: grass
-      preference: replace_original
+      height: [ 32, 52 ]
+      integrity: 0.05
+      placement: OVERLAY
     }
     # Extra tall grass on the ground.
     {
       states: tallgrass:1
-      chance: 0.2
-      minHeight: 32
-      maxHeight: 52
       directions: down
       matchers: grass
-      preference: replace_original
+      height: [ 32, 52 ]
+      integrity: 0.2
+      placement: OVERLAY
     }
     # Glowflowers for light
     {
       states: biomesoplenty:flower_0:3
-      chance: 0.05
-      minHeight: 32
-      maxHeight: 52
       directions: down
       matchers: grass
-      preference: replace_original
+      height: [ 32, 52 ]
+      integrity: 0.05
+      placement: OVERLAY
     }
     # Mushrooms
     {
       states: [ "red_mushroom", "brown_mushroom" ]
-      chance: 0.02
-      minHeight: 32
-      maxHeight: 52
       directions: down
       matchers: [ "grass", "stone" ]
-      preference: replace_original
+      height: [ 32, 52 ]
+      integrity: 0.02
+      placement: OVERLAY
     }
     # Lily Pads
     {
       states: [ "minecraft:waterlily", "biomesoplenty:waterlily:0", "biomesoplenty:waterlily:1", "biomesoplenty:waterlily:2", "biomesoplenty:waterlily:3" ]
-      chance: 0.025
-      minHeight: 32
-      maxHeight: 52
       directions: down
       matchers: water
-      preference: replace_original
+      height: [ 32, 52 ]
+      integrity: 0.025
+      placement: OVERLAY
     }
     # Hanging leaves
     {
       states: leaves:4
-      chance: 0.5
-      minHeight: 32
-      maxHeight: 56
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: up
-      preference: replace_original
+      height: [ 32, 56 ]
+      integrity: 0.5
+      placement: OVERLAY
     }
     # Hanging glowshroom
     {
       states: quark:glowshroom_block:14
-      chance: 0.03125
-      minHeight: 32
-      maxHeight: 56
       matchers: [ "stone", "dirt", "sandstone", "sand", "packed_ice", "snow", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15", "cobblestone" ]
       directions: up
-      preference: replace_original
+      height: [ 32, 56 ]
+      integrity: 0.03125
+      placement: OVERLAY
     }
     # Make those cave walls a little more interesting
     # Cobblestone
     {
       states: cobblestone
-      chance: 0.1
-      minHeight: 32
-      maxHeight: 52
       directions: side
       matchers: [ "stone" ]
-      preference: replace_match
+      height: [ 32, 52 ]
+      integrity: 0.1
+      placement: EMBED
     }
   ]
-  #Nice large rooms so we have some space for the fun stuff
-  rooms: {
-    scale: 16
-    scaleY: 0.375
-  }
   #Curvy tunnels, but not too curvy or perfect. Add some variation in those spirals
   tunnels: {
-    frequency: 2
-    minHeight: 40
-    maxHeight: 52
     #One tunnel going down, then a single large room that always spawns
     systemChance: 1
-    isolatedChance: 0.03125
     systemDensity: 1
-    roomChance: 1
     noiseYReduction: false
     distance: 128
     dYaw: {
@@ -198,5 +172,15 @@
       startVal: 1.5
       startValRandFactor: 1
     }
+    rooms: {
+      scale: 16
+      stretch: 0.375
+      chance: 1
+    }
+    originHeight: [ 40, 52 ]
+    chance: 0.03125
+    count: 2
   }
+  blacklistBiomes: true
+  blacklistDimensions: false
 }

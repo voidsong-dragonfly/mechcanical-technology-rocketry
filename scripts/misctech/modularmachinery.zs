@@ -149,11 +149,6 @@ hydrogen_liquefaction.addEnergyPerTickInput(960);
 hydrogen_liquefaction.addFluidInput(<liquid:liquidhydrogen> * 1000);
 hydrogen_liquefaction.addFluidOutput(<liquid:coldliquidhydrogen> * 1000);
 hydrogen_liquefaction.build();
-var helium_liquefaction = newBuilder("helium_liquefaction", "gas_liquefaction_plant", 67);
-helium_liquefaction.addEnergyPerTickInput(960);
-helium_liquefaction.addFluidInput(<liquid:liquidhydrogen> * 1000);
-helium_liquefaction.addFluidOutput(<liquid:coldliquidhydrogen> * 1000);
-helium_liquefaction.build();
 
 
 
