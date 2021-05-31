@@ -314,6 +314,16 @@
             <oreDict>dustAluminiumHydroxide;16</oreDict>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="300" power="1024">
+		<input>
+			<fluidStack>sodiumaluminatesolution;800</fluidStack>
+            <fluidStack>hydrofluoricacid;4800</fluidStack>
+        </input>
+		<output>
+            <fluidStack>moltencryolite;800</fluidStack>
+            <fluidStack>water;5600</fluidStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="300" power="384">
 		<input>
 			<oreDict>dustDirtyAluminum;16</oreDict>

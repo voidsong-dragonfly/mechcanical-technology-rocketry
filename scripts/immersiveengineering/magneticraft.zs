@@ -47,6 +47,9 @@ Sieve.addRecipe(<mekores:mekanismore:18>, <ore:dustStone>.firstItem, 0.75, <ore:
 Sieve.addRecipe(<mekores:mekanismore:23>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({display: {Lore: ["Iridium-Rich"]}}).withTag({metal: "iridium"}), 0.1667, 75, true);
 Sieve.addRecipe(<ore:dustMixedEndMetals>.firstItem, <ore:dustPlatinum>.firstItem, 0.5, <ore:dustTungsten>.firstItem, 0.3, <ore:dustNaquadah>.firstItem, 0.2, 75, true);
 
+//Sieve other dust recipes
+Sieve.addRecipe(<ore:dustAsh>.firstItem, <ore:dyeLightGray>.firstItem, 0.4, <ore:dyeGray>.firstItem, 0.3, <earthworks:item_quicklime>, 0.3, 40, true);
+
 //Sluice
 SluiceBox.addRecipe(<ore:dustStone>.firstItem, 0.75, <minecraft:clay_ball>, 0.125, <minecraft:clay_ball>, 0.0625, <minecraft:clay_ball>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_iron_ore>, 1, <mekanism:dirtydust> * 2, 0.1, <mekores:mekanismore:13>, true);

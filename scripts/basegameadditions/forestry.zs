@@ -3,6 +3,7 @@ import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 import crafttweaker.item.IItemStack;
 import mods.forestry.CharcoalWall;
+import mods.alfinivia.ImmersiveEngineering;
 
 //Remove most of Forestry
 var forestryRemovals = [<forestry:wrench>,
@@ -48,46 +49,17 @@ for item in forestryRemovals{
 //Forestry crafting changes
 //Fertilizer
 recipes.remove(<forestry:fertilizer_bio>);
-//Lowest Quality
+var calcium_sources = <ore:dustCalcium> | <ore:dustAsh> | <minecraft:dye:15>;
 recipes.addShaped(<forestry:fertilizer_compound> * 4,
- [[<ore:dustSaltpeter>, <mekanism:biofuel>, <mekanism:biofuel>],
- [<mekanism:biofuel>, <mekanism:biofuel>, null]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 4,
- [[<ore:dustAsh>, <mekanism:biofuel>, <mekanism:biofuel>],
- [<mekanism:biofuel>, <mekanism:biofuel>, null]]);
-//Slightly better ingredients
+ [[<mekanism:biofuel>, <mekanism:biofuel>],
+ [calcium_sources, <ore:dustSaltpeter>]]);
 recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<ore:dustSaltpeter>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>],
- [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, null]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<ore:dustAsh>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>],
- [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, null]]);
-//Medium Quality
-recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<ore:dustCalcium>, <ore:dustSaltpeter>, <mekanism:biofuel>],
- [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<minecraft:dye:15>, <ore:dustSaltpeter>, <mekanism:biofuel>],
- [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<ore:dustCalcium>, <ore:dustAsh>, <mekanism:biofuel>],
- [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 6,
- [[<minecraft:dye:15>, <ore:dustAsh>, <mekanism:biofuel>],
- [<mekanism:biofuel>, <mekanism:biofuel>, <mekanism:biofuel>]]);
-//Highest Quality
-recipes.addShaped(<forestry:fertilizer_compound> * 8,
- [[<ore:dustCalcium>, <ore:dustSaltpeter>, <forestry:fertilizer_bio>],
- [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 8,
- [[<minecraft:dye:15>, <ore:dustSaltpeter>, <forestry:fertilizer_bio>],
- [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 8,
- [[<ore:dustCalcium>, <ore:dustAsh>, <forestry:fertilizer_bio>],
- [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
-recipes.addShaped(<forestry:fertilizer_compound> * 8,
- [[<minecraft:dye:15>, <ore:dustAsh>, <forestry:fertilizer_bio>],
- [<forestry:fertilizer_bio>, <forestry:fertilizer_bio>, <forestry:fertilizer_bio>]]);
+ [[<forestry:fertilizer_bio>, <forestry:fertilizer_bio>],
+ [calcium_sources, <ore:dustSaltpeter>]]);
+
+//Fertilizers
+ImmersiveEngineering.addItemFertilizer(<mekanism:biofuel> | <forestry:fertilizer_bio>, 9.0);
+ImmersiveEngineering.addItemFertilizer(<ore:dustAsh> | <ore:dustCalcium>, 10.0);
 
 //Remove can recipes
 recipes.removeByRecipeName("forestry:can_bog_earth");
