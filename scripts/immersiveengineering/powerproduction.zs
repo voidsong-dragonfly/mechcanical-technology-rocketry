@@ -16,9 +16,11 @@ import mods.immersivetechnology.CoolingTower;
    
 //IRL Diesel energy value ratios
 //This should be 150 but that doesn't work well, you get much more energy with a 6mB/t rate than you loose with a 7mB/t rate (compared to the nominal 6.6667mB/t)
+//Somehow 140 doesn't make 7 mB/t though so we need to go all the way to 130 for it to work
 //DieselHandler.removeFuel(<liquid:fuel>);
 DieselHandler.removeFuel(<liquid:diesel>);
-DieselHandler.addFuel(<liquid:diesel>, 140);
+DieselHandler.addFuel(<liquid:diesel>, 130);
+DieselHandler.addFuel(<liquid:kerosene>, 130);
 DieselHandler.addDrillFuel(<liquid:gasoline>);
 
 //Immersive Technology things
