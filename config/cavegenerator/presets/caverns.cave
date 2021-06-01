@@ -1,0 +1,56 @@
+# ----------------------------------------------------------- #
+# ########################################################### #
+#                 ### caverns.cave Info ###                   #
+# ########################################################### #
+#   This preset demonstrates a basic use case of the caverns  #
+# feature. For more information on using noise3D blocks, see  #
+# vanilla.cave.                                               #
+# ----------------------------------------------------------- #
+{
+  $VANILLA: "ALL" # Default ravines and lava settings.
+  enabled: true
+  caveBlocks: [
+    # Move lava a bit lower
+    {
+      states: lava
+      height: [ 0, 8 ]
+    }
+  ]
+  replaceableBlocks: [ "stone", "cobblestone", "dirt", "sand", "sandstone", "hardened_clay", "stained_hardened_clay", "stained_hardened_clay:1", "stained_hardened_clay:4", "stained_hardened_clay:7", "stained_hardened_clay:8", "stained_hardened_clay:9", "stained_hardened_clay:12", "stained_hardened_clay:14", "stained_hardened_clay:15" ]
+  caverns: [
+    {
+      height: [ 3, 32 ]
+      generators: {
+        frequency: 0.02
+        threshold: -0.25
+        stretch: 0.5
+      }
+    }
+    {
+      height: [ 30, 58 ]
+      generators: {
+        frequency: 0.00125
+        threshold: -0.75
+        stretch: 0.5
+      }
+      caveBlocks: [
+        # Aquifers
+        {
+          states: water
+          height: [ 30, 38 ]
+        }
+      ]
+    }
+  ]
+  tunnels: {
+    # Spawn rate considerably lower
+    count: 4
+    height: [ 3, 56 ]
+  }
+  ravines: {
+    # Decrease ravine frequency, but increase length
+    chance: 0.01
+    originHeight: [ 5, 24 ]
+    distance: 320
+  }
+}
