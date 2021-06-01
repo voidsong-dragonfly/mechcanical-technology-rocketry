@@ -128,7 +128,7 @@ static materials as Material[string] = {
     "Yttrium" : MaterialSystem.getMaterialBuilder().setName("Yttrium").setColor(Color.fromHex("848689")).build(),
     "Barium" : MaterialSystem.getMaterialBuilder().setName("Barium").setColor(Color.fromHex("85878a")).build(),
     "Mixed End Metals" : MaterialSystem.getMaterialBuilder().setName("Mixed End Metals").setColor(Color.fromHex("283d3b")).build(),
-    "Mixed Fissile Metals" : MaterialSystem.getMaterialBuilder().setName("Mixed Fissile Metals").setColor(Color.fromHex("2b5232")).build(),
+    "Rich Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Rich Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     "Naquadah" : MaterialSystem.getMaterialBuilder().setName("Naquadah").setColor(Color.fromHex("386855")).build(),
     //Nonmetal dusts
     "Stone" : MaterialSystem.getMaterialBuilder().setName("Stone").setColor(Color.fromHex("ffffff")).build(),
@@ -278,7 +278,7 @@ static parts as string[][string] = {
     "Yttrium" : ["dust"],
     "Barium" : ["dust"],
     "Mixed End Metals" : ["dust"],
-    "Mixed Fissile Metals" : ["dust"],
+    "Rich Mixed Platinum Group Metal" : ["dust"],
     "Naquadah" : ["dust"],
     //Nonmetal dusts
     "Stone" : ["dustunshaded"],

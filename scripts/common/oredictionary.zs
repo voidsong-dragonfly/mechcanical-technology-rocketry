@@ -62,6 +62,7 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentMaragingSteel>);
 
 //Platinum Group Metal Oredictionary
+<ore:dustMixedPlatinumGroupMetal>.addAll(<ore:dustRichMixedPlatinumGroupMetal>);
 <ore:ingotPGMAny>.addAll(<ore:ingotPlatinum>);
 <ore:ingotPGMAny>.addAll(<ore:ingotMixedPlatinumGroupMetal>);
 <ore:ingotPGMAny>.addAll(<ore:ingotOsmium>);

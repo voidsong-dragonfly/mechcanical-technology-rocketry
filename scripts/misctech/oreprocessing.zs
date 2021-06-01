@@ -213,8 +213,8 @@ rutile_dust.addItemOutput(<ore:dustRutile>.firstItem * 64);
 rutile_dust.build();
 
 //Platinum Processing
-Mixer.addRecipe(<liquid:nitricacidhydrochloridept> * 100, <liquid:nitricacidhydrochloride> * 100, [<ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({metal: "platinum"})], 4000);
-Mixer.addRecipe(<liquid:nitricacidhydrochlorideir> * 100, <liquid:nitricacidhydrochloride> * 100, [<ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({metal: "iridium"})], 4000);
+Mixer.addRecipe(<liquid:nitricacidhydrochloridept> * 100, <liquid:nitricacidhydrochloride> * 100, [<ore:dustMixedPlatinumGroupMetal>.firstItem], 4000);
+Mixer.addRecipe(<liquid:nitricacidhydrochlorideir> * 100, <liquid:nitricacidhydrochloride> * 100, [<ore:dustRichMixedPlatinumGroupMetal>], 4000);
 furnace.addRecipe(<ore:ingotPlatinum>.firstItem, <ore:dustAmmoniumChloroplatinate>.firstItem);
 
 
