@@ -5,6 +5,7 @@ import mods.immersivetechnology.HighPressureSteamTurbine;
 import mods.immersivetechnology.GasTurbine;
 import mods.immersivetechnology.Distiller;
 import mods.immersivetechnology.Boiler;
+import mods.immersivetechnology.SolarTower;
 import mods.immersivetechnology.HeatExchanger;
 import mods.immersivetechnology.CoolingTower;
 
@@ -25,9 +26,7 @@ DieselHandler.addDrillFuel(<liquid:gasoline>);
 
 //Immersive Technology things
 //Turbine processs buckets/tick to give larger expansion ratio
-SteamTurbine.removeFuel(<liquid:steam>);
 SteamTurbine.addFuel(<liquid:exhauststeam> * 1000, <liquid:steam> * 1000, 1);
-HighPressureSteamTurbine.removeFuel(<liquid:highpressuresteam>);
 HighPressureSteamTurbine.addFuel(<liquid:steam> * 2000, <liquid:highpressuresteam> * 1000, 1);
 
 //Gas Turbine fuels to IRL energy ratios
@@ -47,17 +46,16 @@ Distiller.removeRecipe(<liquid:water>);
 Distiller.addRecipe(<liquid:distwater> * 900, <liquid:water> * 1000, <immersivetech:material>, 10000, 200, 0.009999999776482582);
 Distiller.addRecipe(<liquid:water> * 1000, <liquid:saltwater> * 1000, <immersivetech:material>, 10000, 200, 0.009999999776482582);
 
-//Boilers make 10x the steam to compenstate
-Boiler.removeRecipe(<liquid:water>);
-Boiler.removeRecipe(<liquid:distwater>);
+//Boilers & solar tower make 10x the steam to compenstate
+//Boiler
 Boiler.addRecipe(<liquid:steam> * 4500, <liquid:water> * 250, 10);
 Boiler.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 10);
+//Solar tower
+SolarTower.addRecipe(<liquid:steam> * 4500, <liquid:water> * 250, 20);
+SolarTower.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 20);
+
 
 //Add Boiler Fuels
-Boiler.removeFuel(<liquid:diesel>);
-Boiler.removeFuel(<liquid:gasoline>);
-Boiler.removeFuel(<liquid:biodiesel>);
-Boiler.removeFuel(<liquid:fluegas>);
 Boiler.addFuel(<liquid:refinerygas> * 140, 10, 10);
 Boiler.addFuel(<liquid:methane> * 140, 10, 10);
 Boiler.addFuel(<liquid:gasoline> * 100, 10, 10);
@@ -79,8 +77,5 @@ HeatExchanger.addRecipe(<liquid:highpressuresteam> * 4500, <liquid:distwater> * 
 HeatExchanger.addRecipe(<liquid:highpressuresteam> * 5000, <liquid:distwater> * 1000, <liquid:distwater> * 500, <liquid:superheatedwater> * 1000, 0, 10);
 
 //Allow cooling tower to process much more steam
-CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:water>);
-CoolingTower.removeRecipe(<liquid:exhauststeam>, <liquid:distwater>);
-
 CoolingTower.addRecipe(<liquid:water> * 1000, <liquid:water> * 950, <liquid:exhauststeam> * 18000, <liquid:water> * 1000, 3);
 CoolingTower.addRecipe(<liquid:distwater> * 900, <liquid:distwater> * 950, <liquid:exhauststeam> * 18000, <liquid:distwater> * 1000, 3);
