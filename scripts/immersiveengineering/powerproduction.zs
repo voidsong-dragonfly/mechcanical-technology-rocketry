@@ -69,13 +69,10 @@ Boiler.addFuel(<liquid:liquidhydrogen> * 530, 10, 10);
 Boiler.addFuel(<liquid:creosote> * 80, 10, 10);
 
 //Heat Exchanger recipes
-HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:fluegas> * 1000, 0, 10);
-HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:fluegas> * 1000, 0, 10);
-HeatExchanger.addRecipe(<liquid:steam> * 4500, <liquid:pahoehoelava> * 400, <liquid:water> * 250, <liquid:lava> * 400, 0, 10);
-HeatExchanger.addRecipe(<liquid:steam> * 5000, <liquid:pahoehoelava> * 400, <liquid:distwater> * 250, <liquid:lava> * 400, 0, 10);
-HeatExchanger.addRecipe(<liquid:highpressuresteam> * 4500, <liquid:distwater> * 1000, <liquid:water> * 500, <liquid:superheatedwater> * 1000, 0, 10);
-HeatExchanger.addRecipe(<liquid:highpressuresteam> * 5000, <liquid:distwater> * 1000, <liquid:distwater> * 500, <liquid:superheatedwater> * 1000, 0, 10);
-
-//Allow cooling tower to process much more steam
-CoolingTower.addRecipe(<liquid:water> * 1000, <liquid:water> * 950, <liquid:exhauststeam> * 18000, <liquid:water> * 1000, 3);
-CoolingTower.addRecipe(<liquid:distwater> * 900, <liquid:distwater> * 950, <liquid:exhauststeam> * 18000, <liquid:distwater> * 1000, 3);
+HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:fluegas> * 1000, 320, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:fluegas> * 1000, 320, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 4500, <liquid:pahoehoelava> * 400, <liquid:water> * 250, <liquid:lava> * 400, 320, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 5000, <liquid:pahoehoelava> * 400, <liquid:distwater> * 250, <liquid:lava> * 400, 320, 10);
+HeatExchanger.addRecipe(<liquid:highpressuresteam> * 4500, <liquid:distwater> * 1000, <liquid:water> * 500, <liquid:superheatedwater> * 1000, 320, 10);
+HeatExchanger.addRecipe(<liquid:highpressuresteam> * 5000, <liquid:distwater> * 1000, <liquid:distwater> * 500, <liquid:superheatedwater> * 1000, 320, 10);
+HeatExchanger.addRecipe(<liquid:distwater> * 250, <liquid:hot_spring_water> * 4500, <liquid:exhauststeam> * 5000, <liquid:water> * 4500, 160, 5);
