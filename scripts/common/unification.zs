@@ -245,6 +245,10 @@ furnace.remove(<forestry:apatite>);
 Crusher.removeRecipesForInput(<libvulpes:ore0:0>);
 Crusher.removeRecipe(<libvulpes:productdust>);
 
+//Cinnabar & fluorite
+Crusher.addRecipe(<ore:dustCinnabar>.firstItem * 4, <contenttweaker:nether_cinnabar_ore>, 4000);
+Crusher.addRecipe(<ore:dustCinnabar>.firstItem * 4, <contenttweaker:cinnabar_ore>, 4000);
+Crusher.addRecipe(<ore:dustFluorite>.firstItem * 4, <contenttweaker:nether_fluorite_ore>, 4000);
 
 //Dyes
 removeAndHide(<futuremc:dye:*>);

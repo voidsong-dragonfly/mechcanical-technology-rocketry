@@ -20,6 +20,9 @@ import mods.immersiveengineering.AlloySmelter;
    Machine recipes - anything that goes in an IE machine
 */
 
+//Air gasses mix
+Refinery.addRecipe(<liquid:oxygen> * 100, <liquid:nitrogen> * 80, <liquid:liquidoxygen> * 20, 80);
+
 //Petrochem recipes
 //Add hydrotreated oil/gas recipe
 Refinery.addRecipe(<liquid:hydrotreatedoil> * 100, <liquid:oil> * 100, <liquid:liquidhydrogen> * 2, 80);
@@ -91,6 +94,7 @@ BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liq
 
 //Cooling bottling machine recipes
 BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:water> * 125);
+BottlingMachine.addRecipe(<stygian:endobsidian>, <stygian:endmagma>, <liquid:water> * 125);
 
 //Remove Steel Block Recipe, it makes no sense
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
@@ -191,7 +195,9 @@ Squeezer.addRecipe(<biomesoplenty:hard_ice>, <liquid:ice> * 3000, <ore:blockPack
 Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard_ice> * 4, 512000);
 Squeezer.removeFluidRecipe(<liquid:blood>);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:fragment> * 16, 512000);
-Squeezer.addRecipe(<minecraft:cobblestone>, <liquid:blood> * 125, <minecraft:netherrack>, 25600);
+Squeezer.addRecipe(<minecraft:gravel>, <liquid:blood> * 125, <minecraft:netherrack>, 25600);
+Squeezer.addRecipe(<contenttweaker:end_gravel>, <liquid:helium> * 125, <minecraft:end_stone>, 25600);
+Squeezer.addRecipe(<minecraft:obsidian>, <liquid:endacid> * 125, <stygian:endobsidian>, 25600);
 
 //Add in some extra metal press recipes
 MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);

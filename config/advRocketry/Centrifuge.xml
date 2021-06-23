@@ -235,13 +235,4 @@
             <fluidStack>carbondioxide;100</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="800" power="2048">
-		<input>
-			<itemStack>contenttweaker:end_gravel</itemStack>
-        </input>
-		<output>
-			<itemStack>minecraft:sand</itemStack>
-            <fluidStack>helium;125</fluidStack>
-		</output>
-	</Recipe>
 </Recipes>

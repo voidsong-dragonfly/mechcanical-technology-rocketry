@@ -177,6 +177,25 @@ recipes.addShaped(<antiqueatlas:empty_antique_atlas>,
  [[<minecraft:writable_book>, <minecraft:compass>],
  [<minecraft:map>, <minecraft:map>]]);
 
+//Totem recipes
+val totems = <minecraft:totem_of_undying> | <charm:totem_of_returning> | <charm:totem_of_shielding>;
+recipes.addShaped(<minecraft:totem_of_undying>,
+ [[<pvj:unstable_essence>, <inspirations:edibles>, <pvj:unstable_essence>],
+ [<ore:dustBlaze>, totems, <ore:dustBlaze>],
+ [<pvj:unstable_essence>, <ore:dustBlaze>, <pvj:unstable_essence>]]);
+recipes.addShaped(<charm:totem_of_returning>,
+ [[<pvj:unstable_essence>, <minecraft:ender_eye>, <pvj:unstable_essence>],
+ [<charm:endermite_powder>, totems, <charm:endermite_powder>],
+ [<pvj:unstable_essence>, <charm:endermite_powder>, <pvj:unstable_essence>]]);
+recipes.addShaped(<charm:totem_of_shielding>,
+ [[<pvj:unstable_essence>, <eerieentities:nether_shield>, <pvj:unstable_essence>],
+ [<inspirations:materials:6>, totems, <inspirations:materials:6>],
+ [<pvj:unstable_essence>, <inspirations:materials:6>, <pvj:unstable_essence>]]);
+recipes.addShaped(<eerieentities:nether_shield>,
+ [[<minecraft:nether_brick>, <ore:ingotIron>, <minecraft:nether_brick>],
+ [<minecraft:nether_brick>, <stygian:endplanks>, <minecraft:nether_brick>],
+ [null, <minecraft:nether_brick>, null]]);
+ 
 /*
 //Bones from animals for bonemeal early
 //This would be enabled if it didn't cause @$#@#$ random crashes I can't trace

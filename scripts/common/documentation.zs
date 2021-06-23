@@ -1,6 +1,7 @@
 //Imports
 import mods.jei.JEI.addDescription;
 import crafttweaker.item.IItemStack;
+import crafttweaker.liquid.ILiquidStack;
 
 //Fusion Reactor pieces description & explanation
 addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:fusion_reactor_3_toroid"}), "The Fusion Reactor Toroid is the main reaction vessel of the fusion reactor, they contain the reacting plasmas within their powerful magnetic fields. Because of the enormous magnetic fields required, their superconducting electromagnets must be cooled to extreme temperatures, necessitating more powerful coolants than other devices. The magnetic fields require precise control, and as such the main computing power of the reactor is housed within the toroid control systems. Without injectors, extractors, or irradiation chambers, however, the toroid cannot function and will simply be a waste of power and coolant.");
@@ -62,6 +63,30 @@ addDescription(<liquid:helium3>, [
 "T-T       | 174   He4      10GK",
 "T-He3    | 221   D&He4   12,3GK",
 "He3-He3 | 199   2H&He4  17,5GK"]);
+
+//Rocket fuels description
+var fluids = [<liquid:coldliquidhydrogen> * 1000,
+              <liquid:liquidmethane> * 1000,
+              <liquid:rp1> * 1000,
+              <liquid:coldliquidoxygen> * 1000,
+              <liquid:hydrogenperoxide> * 1000,
+              <liquid:hydrazine> * 1000,
+                    ] as ILiquidStack[];
+for fluid in fluids {
+    addDescription(fluid, [
+        "------Bipropellants------",
+        "Liquid Hydrogen      220mB/s",
+        "Liquid Methane        60mB/s",
+        "RP-1                    40mB/s",
+        "Liquid Oxygen         80mB/s",
+        "",
+        "-----Monopropellants-----",
+        "Hydrogen Peroxide  1000mB/s",
+        "Hydrazine              500mB/s",
+        "---Nuclear Propellants---",
+        "Liquid Hydrogen      20mB/s"]);
+}
+
 
 
 //Diamond tools & armor description

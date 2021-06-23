@@ -34,6 +34,8 @@ function create_molten_fluid(name as string, color as string, temperature as int
     fluid.temperature = temperature;
     fluid.density = density;
     fluid.viscosity = viscosity;
+    fluid.material = <blockmaterial:lava>;
+    fluid.luminosity = 15;
     fluid.stillLocation = "contenttweaker:fluids/molten_still";
     fluid.flowingLocation = "contenttweaker:fluids/molten_flow";
     fluid.register();

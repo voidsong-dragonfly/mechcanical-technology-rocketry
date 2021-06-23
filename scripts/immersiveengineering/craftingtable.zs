@@ -70,13 +70,13 @@ recipes.addShaped(<magneticraft:multiblock_parts> * 2,
 
 //Add in bearing recipe
 recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem,
- [[<ore:stickSteel>, <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}), <ore:stickSteel>],
- [<ore:gearSteel>, <immersiveengineering:metal_decoration0:5>, <ore:gearSteel>],
- [<ore:stickSteel>, <forge:bucketfilled>.withTag({FluidName: "lubricant", Amount: 1000}), <ore:stickSteel>]]);
+ [[<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>],
+ [<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>],
+ [<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>]]);
 recipes.addShaped(<ore:machineCasingMagneticBearing>.firstItem,
- [[<ore:stickMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:stickMaragingSteel>],
- [<ore:mechanicalComponentMaragingSteel>, <immersiveengineering:metal_decoration0:5>, <ore:mechanicalComponentMaragingSteel>],
- [<ore:stickMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:stickMaragingSteel>]]);
+ [[<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>],
+ [<ore:gearMaragingSteel>, <ore:gearMaragingSteel>, <ore:gearMaragingSteel>],
+ [<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>]]);
 
 //Make powder barrels more appealing
 recipes.remove(<immersiveengineering:wooden_device0:4>);

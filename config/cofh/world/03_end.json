@@ -1,0 +1,121 @@
+{
+    "populate": {
+        "Acidic Plains Spikes Extreme": {
+            "generator": {
+                "type": "stalagmite",
+                "material": ["minecraft:end_stone"],
+                "min-height": 40,
+                "height-variance": 20,
+                "height-mod": 12,
+                "smooth": "true",
+                "alt-sinc": "true",
+                "block": [{"name": "stygian:endobsidian", "weight": 249},
+                          {"name": "minecraft:obsidian", "weight": 200},
+                          {"name": "stygian:endmagma", "weight": 50},
+                          {"name": "stygian:endacid", "weight": 1}]
+            },
+            "distribution": "uniform",
+            "min-height": 56,
+            "max-height": 68,
+            "cluster-count": 1,
+            "chunk-chance": 32,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "MAGICAL"}]
+            },
+            "dimension": "all"
+        },
+        "Acidic Plains Spikes Tall": {
+            "generator": {
+                "type": "stalagmite",
+                "material": ["minecraft:end_stone"],
+                "min-height": 24,
+                "height-variance": 12,
+                "height-mod": 12,
+                "smooth": "true",
+                "alt-sinc": "true",
+                "block": [{"name": "stygian:endobsidian", "weight": 249},
+                          {"name": "minecraft:obsidian", "weight": 200},
+                          {"name": "stygian:endmagma", "weight": 50},
+                          {"name": "stygian:endacid", "weight": 1}]
+            },
+            "distribution": "uniform",
+            "min-height": 56,
+            "max-height": 68,
+            "cluster-count": 1,
+            "chunk-chance": 4,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "MAGICAL"}]
+            },
+            "dimension": "all"
+        },
+        "Acidic Plains Spikes Short": {
+            "generator": {
+                "type": "stalagmite",
+                "material": ["minecraft:end_stone"],
+                "min-height": 8,
+                "height-variance": 4,
+                "height-mod": 4,
+                "block": [{"name": "stygian:endobsidian", "weight": 60},
+                          {"name": "minecraft:obsidian", "weight": 30},
+                          {"name": "stygian:endmagma", "weight": 10}]
+            },
+            "distribution": "uniform",
+            "min-height": 56,
+            "max-height": 68,
+            "cluster-count": 1,
+            "chunk-chance": 2,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "MAGICAL"}]
+            },
+            "dimension": "all"
+        },
+        "End Spikes Subbiome": {
+            "generator": {
+                "type": "stalagmite",
+                "material": ["minecraft:end_stone"],
+                "min-height": 24,
+                "height-variance": 24,
+                "height-mod": 12,
+                "smooth": "true",
+                "alt-sinc": "true",
+                "block": [{"name": "minecraft:obsidian", "weight": 90},
+                          {"name": "quark:duskbound_block", "weight": 9},
+                          {"name": "quark:duskbound_lantern", "weight": 1}]
+            },
+            "distribution": "fractal",
+            "min-height": 56,
+            "vein-height": 12,
+            "vein-diameter": 128,
+            "vertical-density": 1,
+            "horizontal-density": 1,
+            "cluster-count": 32,
+            "chunk-chance": 1024,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "COLD"}]
+            },
+            "dimension": "all"
+        },
+        "Stygian Growth Poison Pools": {
+            "generator": {
+                "type": "lake",
+                "block": "biomesoplenty:poison",
+                "use-material": "true",
+                "material": ["minecraft:end_stone", "stygian:endgrass", "stygian:endtallgrass", "stygian:endglow"],
+            },
+            "distribution": "uniform",
+            "min-height": 56,
+            "max-height": 68,
+            "cluster-count": 1,
+            "chunk-chance": 6,
+            "biome": {
+                "restriction": "whitelist",
+                "value": [{"type": "dictionary", "entry": "SPOOKY"}]
+            },
+            "dimension": "all"
+        }
+    }
+}

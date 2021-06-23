@@ -270,15 +270,6 @@
             <oreDict>dustAmmoniumChloride;8</oreDict>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="100" power="64">
-		<input>
-			<fluidStack>nitrogengas;800</fluidStack>
-            <fluidStack>liquidoxygen;200</fluidStack>
-        </input>
-		<output>
-			<fluidStack>oxygen;1000</fluidStack>
-		</output>
-	</Recipe>
     
     <Recipe timeRequired="4800" power="1024">
 		<input>

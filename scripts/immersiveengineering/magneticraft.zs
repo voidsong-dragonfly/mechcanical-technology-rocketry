@@ -16,7 +16,7 @@ Sieve.addRecipe(<minecraft:sand>, <contenttweaker:fine_sand>, 1, <minecraft:gold
 Sieve.addRecipe(<minecraft:sand:1>, <contenttweaker:fine_sand>, 1, <minecraft:redstone>, 0.4, <minecraft:gold_nugget>, 0.05, 40, false);
 Sieve.addRecipe(<minecraft:soul_sand>, <contenttweaker:fine_soul_sand>, 1, <minecraft:quartz>, 0.1, <minecraft:quartz>, 0.05, 40, false);
 Sieve.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sand>, 0.9, <quark:glass_shards>, 1, <quark:glass_shards:1>, 0.5, 40, true);
-Sieve.addRecipe(<contenttweaker:end_gravel>, <minecraft:sand>, 1.0, <ore:dustGlowstone>.firstItem, 0.04, <ore:dustPlatinum>.firstItem, 0.01, 40, true);
+Sieve.addRecipe(<contenttweaker:end_gravel>, <minecraft:sand>, 1.0, <ore:dustSilver>.firstItem, 0.04, <ore:dustMixedPlatinumGroupMetal>.firstItem, 0.01, 40, true);
 Sieve.addRecipe(<contenttweaker:shattered_end_stone>, <contenttweaker:end_gravel>, 0.8, <ore:dustObsidian>.firstItem, 0.5, <ore:dustMixedEndMetals>.firstItem, 0.1, 40, true);
 
 //Sieve ore byproduct recipes
