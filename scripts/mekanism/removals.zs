@@ -68,6 +68,7 @@ removeAndHide(<mekanism:tierinstaller:*>);
 removeAndHide(<mekanism:walkietalkie>);
 removeAndHide(<mekanism:portableteleporter>);
 removeAndHide(<mekanism:teleportationcore>);
+removeAndHide(<mekanism:networkreader>);
 removeAndHide(<mekanism:substrate>);
 hide(<mekanism:enrichedalloy>);
 hide(<mekanism:reinforcedalloy>);
@@ -85,8 +86,16 @@ removeAndHide(<ore:ingotRefinedGlowstone>);
 removeAndHide(<ore:nuggetRefinedGlowstone>);
 removeAndHide(<ore:blockRefinedGlowstone>);
 
-//Remove bins.... use drawers, LogiPipes, or silos
+//Remove bins & gas tanks.... use drawers, LogiPipes, or silos for items, dynamic tanks or IE tanks for gasses
 removeAndHide(<mekanism:basicblock:6>);
+removeAndHide(<mekanism:basicblock:6>.withTag({tier: 1}));
+removeAndHide(<mekanism:basicblock:6>.withTag({tier: 2}));
+removeAndHide(<mekanism:basicblock:6>.withTag({tier: 3}));
+removeAndHide(<mekanism:basicblock:6>.withTag({tier: 4}));
+removeAndHide(<mekanism:gastank>.withTag({tier: 1}));
+removeAndHide(<mekanism:gastank>.withTag({tier: 2}));
+removeAndHide(<mekanism:gastank>.withTag({tier: 3}));
+removeAndHide(<mekanism:gastank>.withTag({tier: 4}));
 
 //Remove teleporter frame.... use EIO for that
 removeAndHide(<mekanism:basicblock:7>);

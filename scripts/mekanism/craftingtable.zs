@@ -17,6 +17,7 @@ recipes.addShaped(<mekanism:basicblock:8>,
 furnace.remove(<ore:ingotOsmium>);
 
 //Mekanism transmitter recipes, make universal cables into superconductors
+recipes.remove(<mekanism:transmitter>);
 removeAndHide(<mekanism:transmitter>.withTag({tier: 0}));
 removeAndHide(<mekanism:transmitter>.withTag({tier: 1}));
 removeAndHide(<mekanism:transmitter>.withTag({tier: 2}));
@@ -64,10 +65,6 @@ recipes.addShaped(<mekanism:basicblock2:0> * 4,
 recipes.addShaped(<mekanism:basicblock:15>,
  [[<engineersdecor:straight_pipe_valve>, <mekanism:basicblock2:0>, <engineersdecor:straight_pipe_valve>],
  [null, <ore:circuitAdvanced>, null]]);
-recipes.addShaped(<mekanism:basicblock:14>,
- [[<ore:circuitAdvanced>, <ore:paneGlass>, <ore:circuitAdvanced>],
- [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
- [<ore:ingotConstantan>, <ore:ingotConstantan>, <ore:ingotConstantan>]]);
 recipes.addShaped(<mekanism:basicblock2:1> * 4,
  [[<ore:sheetAluminum>, <mekanism:polyethene:2>, <ore:sheetAluminum>],
  [<mekanism:polyethene:2>, <ore:machineCasingPlasticCoatedRebarConcrete>, <mekanism:polyethene:2>],
@@ -76,88 +73,95 @@ recipes.addShaped(<mekanism:basicblock2:2>,
  [[<immersiveengineering:wirecoil:2>, <mekanism:basicblock2:1>, <immersiveengineering:wirecoil:2>],
  [null, <ore:circuitElite>, null]]);
  
-//Resistive Heater
-recipes.remove(<mekanism:machineblock3:4>);
-recipes.addShaped(<mekanism:machineblock3:4>,
- [[<ore:ingotTin>, <ore:ingotConstantan>, <ore:ingotTin>],
- [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
- [<ore:ingotTin>, <immersiveengineering:metal_device1:1>, <ore:ingotTin>]]);
-
-//Mekanism machine recipes
-//T1 is Tungsten-Basic Circuit
-//T2 is Constantan-Advanced Circuit
-//T3 is Titanium Aluminide-Elite Circuit
-//T4 is Titanium-Ultimate Circuit
-//The colors match really well!
-recipes.remove(<mekanism:machineblock:1>);
-recipes.remove(<mekanism:machineblock:2>);
-recipes.remove(<mekanism:machineblock:9>);
-recipes.remove(<mekanism:machineblock2:0>);
-recipes.remove(<mekanism:machineblock2:1>);
-recipes.remove(<mekanism:machineblock2:4>);
-recipes.remove(<mekanism:machineblock2:8>);
-recipes.remove(<mekanism:machineblock2:9>);
-recipes.remove(<mekanism:machineblock2:13>);
-recipes.remove(<mekanism:machineblock2:14>);
-recipes.addShaped(<mekanism:machineblock:1>,
- [[<ore:ingotConstantan>, <ore:circuitAdvanced>, <ore:ingotConstantan>],
- [<mekanism:machineblock:13>, <mekanism:basicblock:8>, <mekanism:machineblock:13>],
- [<ore:ingotConstantan>, <ore:circuitAdvanced>, <ore:ingotConstantan>]]);
+//Mekanism blocks
+//Removal
+recipes.remove(<mekanism:machineblock:*>);
+recipes.remove(<mekanism:machineblock2:*>);
+recipes.remove(<mekanism:machineblock3:*>);
+recipes.remove(<mekanism:basicblock2:9>);
+recipes.remove(<mekanism:basicblock:14>);
+recipes.remove(<mekanism:gastank>);
+//Readdition
+//Machine 1
 recipes.addShaped(<mekanism:machineblock:2>,
- [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
- [<mekanism:machineblock:13>, <mekanism:basicblock:8>, <mekanism:machineblock:13>],
- [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
-recipes.addShaped(<mekanism:machineblock2:0>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<mekanism:gastank>, <mekanism:basicblock:8>, <immersivetech:metal_barrel:2>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
-recipes.addShaped(<mekanism:machineblock2:1>,
- [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
- [<mekanism:machineblock:13>, <mekanism:basicblock:9>, <mekanism:gastank>],
- [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
-recipes.addShaped(<mekanism:machineblock2:3>,
- [[<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>],
- [<mekanism:gastank>, <mekanism:basicblock:8>, <mekanism:machineblock:13>],
- [<ore:ingotTitaniumAluminide>, <ore:circuitElite>, <ore:ingotTitaniumAluminide>]]);
-recipes.addShaped(<mekanism:machineblock2:4>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<immersiveengineering:graphite_electrode>, <mekanism:basicblock:8>, <immersiveengineering:graphite_electrode>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
-recipes.addShaped(<mekanism:machineblock2:8>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<mekanism:gastank>, <mekanism:basicblock:8>, <mekanism:gastank>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
-recipes.addShaped(<mekanism:machineblock2:9>,
- [[<ore:ingotSteel>, <ore:paneGlassColorless>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:circuitElite>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
- [<ore:ingotSteel>, <engineersdecor:thin_steel_pole>, <ore:ingotSteel>]]);
+ [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock:13>,
+ [[<ore:ingotSteel>, null, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <ore:chestWood>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock:14>,
+ [[<ore:ingotSteel>, <mekanism:basicblock:8>, <ore:ingotSteel>],
+ [<ore:ingotSteel>, <ore:coilCopper>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock:15>,
+ [[<ore:ingotSteel>, <mekanism:configurationcard>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <mekanism:configurationcard>, <ore:ingotSteel>]]);
+//Machine 2
+recipes.addShaped(<mekanism:machineblock2:0>,
+ [[<ore:ingotSteel>, null, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock2:3>,
+ [[<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock2:9>,
+ [[<ore:ingotSteel>, <mekanism:basicblock:8>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <engineersdecor:thick_steel_pole>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
- [[<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>],
- [<mekanism:energytablet>, <mekanism:basicblock:8>, <ore:lensRuby>],
- [<ore:ingotTungsten>, <ore:circuitBasic>, <ore:ingotTungsten>]]);
+ [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "helium", Amount: 1000}), <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock2:13>,
+ [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "argon", Amount: 1000}), <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock2:13>,
+ [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "carbondioxide", Amount: 1000}), <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:14>,
- [[<ore:ingotTungsten>, <ore:lensGlass>, <ore:ingotTungsten>],
+ [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
  [<ore:lensGlass>, <mekanism:basicblock:8>, <ore:lensGlass>],
- [<ore:ingotTungsten>, <ore:lensGlass>, <ore:ingotTungsten>]]);
- 
-//Gas Tanks
-recipes.remove(<mekanism:gastank:*>);
-recipes.addShaped(<mekanism:gastank>.withTag({tier: 0}),
- [[<ore:ingotPGMAny>, <ore:plateTungsten>, <ore:ingotPGMAny>],
- [<ore:plateTungsten>, null, <ore:plateTungsten>],
- [<ore:ingotPGMAny>, <ore:plateTungsten>, <ore:ingotPGMAny>]]);
-recipes.addShaped(<mekanism:gastank>.withTag({tier: 1}),
- [[<ore:ingotPGMAny>, <ore:plateConstantan>, <ore:ingotPGMAny>],
- [<ore:plateConstantan>, null, <ore:plateConstantan>],
- [<ore:ingotPGMAny>, <ore:plateConstantan>, <ore:ingotPGMAny>]]);
-recipes.addShaped(<mekanism:gastank>.withTag({tier: 2}),
- [[<ore:ingotPGMAny>, <ore:plateTitaniumAluminide>, <ore:ingotPGMAny>],
- [<ore:plateTitaniumAluminide>, null, <ore:plateTitaniumAluminide>],
- [<ore:ingotPGMAny>, <ore:plateTitaniumAluminide>, <ore:ingotPGMAny>]]);
-recipes.addShaped(<mekanism:gastank>.withTag({tier: 3}),
- [[<ore:ingotPGMAny>, <ore:plateTitanium>, <ore:ingotPGMAny>],
- [<ore:plateTitanium>, null, <ore:plateTitanium>],
- [<ore:ingotPGMAny>, <ore:plateTitanium>, <ore:ingotPGMAny>]]);
+ [<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock2:15>,
+ [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
+ [<ore:lensGlass>, <mekanism:basicblock:8>, <ore:lensGlass>],
+ [<ore:ingotSteel>, <ore:lensEnderPearl>, <ore:ingotSteel>]]);
+//Machine 3
+recipes.addShaped(<mekanism:machineblock3:3>,
+ [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <mekanism:dictionary>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock3:4>,
+ [[<ore:ingotSteel>, <ore:ingotConstantan>, <ore:ingotSteel>],
+ [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
+ [<ore:ingotSteel>, <ore:coilCopper>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock3:5>,
+ [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <ore:workbench>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:machineblock3:6>,
+ [[<ore:ingotSteel>, <ore:ingotConstantan>, <ore:ingotSteel>],
+ [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
+ [<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>]]);
+//Gas tank
+recipes.addShaped(<mekanism:gastank>,
+ [[<ore:ingotSteel>, null, <ore:ingotSteel>],
+ [<ore:ingotSteel>, <mekanism:basicblock:8>, <ore:ingotSteel>],
+ [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
+//Basicblock
+recipes.addShaped(<mekanism:basicblock2:9>,
+ [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [<ore:ingotSteel>, <mekanism:configurationcard>, <ore:ingotSteel>]]);
+recipes.addShaped(<mekanism:basicblock:14>,
+ [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [<ore:circuitAdvanced>, <mekanism:basicblock:8>, <ore:circuitAdvanced>],
+ [<ore:ingotSteel>, <ore:ingotConstantan>, <ore:ingotSteel>]]);
  
 //Removing enriched alloys and similar from items
 //Because I don't know WHAT they were made of originally but it certainly wasn't "realism", I can tell you that much
@@ -167,21 +171,17 @@ recipes.remove(<mekanism:energyupgrade>);
 recipes.remove(<mekanism:mufflingupgrade>);
 recipes.remove(<mekanism:anchorupgrade>);
 recipes.addShaped(<mekanism:speedupgrade>,
- [[null, <ore:ingotTungsten>, null],
- [<ore:blockGlassColorless>, <ore:circuitBasic>, <ore:blockGlassColorless>],
- [null, <ore:ingotTungsten>, null]]);
+ [[<ore:plateTungstensteel>, <ore:circuitElite>],
+ [<ore:circuitAdvanced>, <ore:paneGlass>]]);
 recipes.addShaped(<mekanism:energyupgrade>,
- [[null, <ore:ingotTungsten>, null],
- [<ore:blockGlassColorless>, <ore:circuitAdvanced>, <ore:blockGlassColorless>],
- [null, <ore:ingotTungsten>, null]]);
+ [[<ore:plateTungstensteel>, <ore:circuitBasic>],
+ [<ore:circuitAdvanced>, <ore:paneGlass>]]);
 recipes.addShaped(<mekanism:mufflingupgrade>,
- [[null, <ore:ingotTungsten>, null],
- [<ore:blockGlassColorless>, <ore:wool>, <ore:blockGlassColorless>],
- [null, <ore:ingotTungsten>, null]]);
+ [[<ore:plateTungstensteel>, <quark:quilted_wool:*>],
+ [<ore:circuitAdvanced>, <ore:paneGlass>]]);
 recipes.addShaped(<mekanism:anchorupgrade>,
- [[null, <ore:ingotTungsten>, null],
- [<ore:blockGlassColorless>, <ore:circuitElite>, <ore:blockGlassColorless>],
- [null, <ore:ingotTungsten>, null]]);
+ [[<ore:plateTungstensteel>, <minecraft:ender_eye>],
+ [<ore:circuitAdvanced>, <ore:paneGlass>]]);
  
 //Energy tablet
 recipes.remove(<mekanism:energytablet:*>);
@@ -189,13 +189,6 @@ recipes.addShaped(<mekanism:energytablet>,
  [[<mekanism:polyethene:2>, <ore:itemBattery>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:itemBattery>, <mekanism:polyethene:2>]]);
-
-//Network reader
-recipes.remove(<mekanism:networkreader>);
-recipes.addShaped(<mekanism:networkreader>,
- [[<ore:ingotSteel>, <ore:blockGlassColorless>, <ore:ingotSteel>],
- [<ore:ingotSteel>, <mekanism:energytablet>, <ore:ingotSteel>],
- [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
  
 //Mekanism gear
 recipes.replaceAllOccurences(<ore:alloyAdvanced>, <ore:plateSteel>, <mekanism:scubatank>);
@@ -238,8 +231,8 @@ recipes.addShaped(<mekanism:gasmask>,
  [null, <ore:circuitBasic>, null]]);
 recipes.addShaped(<mekanism:scubatank>,
  [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
- [<advancedrocketry:pressuretank:1>, <ore:ingotSteel>, <advancedrocketry:pressuretank:1>],
- [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
+ [<advancedrocketry:pressuretank:1>, <ore:ingotBronze>, <advancedrocketry:pressuretank:1>],
+ [<ore:ingotBronze>, null, <ore:ingotBronze>]]);
  
 //Robit
 recipes.remove(<mekanism:robit>);
