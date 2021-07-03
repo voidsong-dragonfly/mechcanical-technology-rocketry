@@ -7,8 +7,7 @@ var theOneProbeToRemove = [<theoneprobe:probe>,
                            <theoneprobe:creativeprobe>,
                            <theoneprobe:iron_helmet_probe>,
                            <theoneprobe:gold_helmet_probe>,
-                           <theoneprobe:diamond_helmet_probe>,
-                           <theoneprobe:probe_goggles>
+                           <theoneprobe:diamond_helmet_probe>
                        ] as IItemStack[];
 for item in theOneProbeToRemove{
     removeAndHide(item);

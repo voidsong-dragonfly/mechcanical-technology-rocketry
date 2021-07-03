@@ -25,11 +25,3 @@ removeAndHide(<flourishingfoliage:leaves_repairing>);
 
 //Charset
 removeAndHide(<charset:icon>);
-
-//Baubles
-removeAndHide(<baubles:ring>);
-
-//Valkyrielib
-removeAndHide(<valkyrielib:guide>);
-removeAndHide(<valkyrielib:modifier_component>);
-removeAndHide(<valkyrielib:modifier_speed>);

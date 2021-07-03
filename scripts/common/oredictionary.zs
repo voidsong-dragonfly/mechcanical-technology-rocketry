@@ -134,15 +134,6 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:casingCentrifuge>.remove(<libvulpes:advstructuremachine>);
 <ore:casingCentrifuge>.addAll(<ore:machineCasingCentrifugeCylinderShell>);
 
-//Remove Mystical Wildlife OD entries for items that don't exist anymore
-<ore:wax>.remove(<mysticalwildlife:plumper_blubber>);
-<ore:tallow>.remove(<mysticalwildlife:plumper_blubber>);
-<ore:materialPressedwax>.remove(<mysticalwildlife:plumper_blubber>);
-<ore:leather>.remove(<mysticalwildlife:vrontausaurus_fur>);
-<ore:leather>.remove(<mysticalwildlife:dusk_lurker_fur>);
-<ore:ash>.remove(<mysticalwildlife:dusk_ash>);
-<ore:dustAsh>.remove(<mysticalwildlife:dusk_ash>);
-<ore:dyeBlack>.remove(<mysticalwildlife:dusk_ash>);
 
 
 /*
