@@ -41,3 +41,14 @@ recipes.addShaped(<earthworks:block_dry_stone> * 4,
 furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:slate>);
 furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:limestone>);
 furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:marble>);
+
+//Concrete
+recipes.remove(<earthworks:block_concrete>);
+recipes.addShaped(<earthworks:block_concrete> * 8,
+ [[<ore:gravel>, <ore:itemClay>, <ore:gravel>],
+ [<ore:sand>, <liquid:water> * 1000, <ore:sand>],
+ [<ore:gravel>, <ore:itemClay>, <ore:gravel>]]);
+recipes.addShaped(<earthworks:block_concrete> * 12,
+ [[<ore:gravel>, <ore:itemClay>, <ore:gravel>],
+ [<ore:itemSlag>, <liquid:water> * 1000, <ore:itemSlag>],
+ [<ore:gravel>, <ore:itemClay>, <ore:gravel>]]);

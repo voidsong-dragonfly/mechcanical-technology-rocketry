@@ -262,18 +262,18 @@ recipes.addShaped(<mekanism:basicblock2:3>.withTag({tier: 3}),
  [<ore:inductionTabletItem>, <mekanism:basicblock2:3>.withTag({tier: 2}), <ore:inductionTabletItem>],
  [<ore:inductionTabletItem>, <ore:circuitUltimate>, <ore:inductionTabletItem>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 0}),
- [[<ore:circuitBasic>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitBasic>],
- [<forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <mekanism:basicblock:8>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000})],
- [<ore:circuitBasic>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitBasic>]]);
+ [[<ore:circuitBasic>, <liquid:liquidnitrogen> * 1000, <ore:circuitBasic>],
+ [<liquid:liquidnitrogen> * 1000, <mekanism:basicblock:8>, <liquid:liquidnitrogen> * 1000],
+ [<ore:circuitBasic>, <liquid:liquidnitrogen> * 1000, <ore:circuitBasic>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 1}),
- [[<ore:circuitAdvanced>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitAdvanced>],
- [<forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <mekanism:basicblock2:4>.withTag({tier: 0}), <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000})],
- [<ore:circuitAdvanced>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitAdvanced>]]);
+ [[<ore:circuitAdvanced>, <liquid:liquidnitrogen> * 1000, <ore:circuitAdvanced>],
+ [<liquid:liquidnitrogen> * 1000, <mekanism:basicblock2:4>.withTag({tier: 0}), <liquid:liquidnitrogen> * 1000],
+ [<ore:circuitAdvanced>, <liquid:liquidnitrogen> * 1000, <ore:circuitAdvanced>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 2}),
- [[<ore:circuitElite>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitElite>],
- [<forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <mekanism:basicblock2:4>.withTag({tier: 1}), <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000})],
- [<ore:circuitElite>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitElite>]]);
+ [[<ore:circuitElite>, <liquid:liquidnitrogen> * 1000, <ore:circuitElite>],
+ [<liquid:liquidnitrogen> * 1000, <mekanism:basicblock2:4>.withTag({tier: 1}), <liquid:liquidnitrogen> * 1000],
+ [<ore:circuitElite>, <liquid:liquidnitrogen> * 1000, <ore:circuitElite>]]);
 recipes.addShaped(<mekanism:basicblock2:4>.withTag({tier: 3}),
- [[<ore:circuitUltimate>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitUltimate>],
- [<forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <mekanism:basicblock2:4>.withTag({tier: 2}), <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000})],
- [<ore:circuitUltimate>, <forge:bucketfilled>.withTag({FluidName: "liquidnitrogen", Amount: 1000}), <ore:circuitUltimate>]]);
+ [[<ore:circuitUltimate>, <liquid:liquidnitrogen> * 1000, <ore:circuitUltimate>],
+ [<liquid:liquidnitrogen> * 1000, <mekanism:basicblock2:4>.withTag({tier: 2}), <liquid:liquidnitrogen> * 1000],
+ [<ore:circuitUltimate>, <liquid:liquidnitrogen> * 1000, <ore:circuitUltimate>]]);

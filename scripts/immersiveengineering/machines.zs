@@ -61,9 +61,10 @@ Mixer.addRecipe(<liquid:lubricant> * 250, <liquid:plantoil> * 250, [<ore:dustSil
 //Concrete Bottling Machine recipes
 recipes.remove(<engineersdecor:rebar_concrete>);
 recipes.remove(<engineersdecor:gas_concrete>);
-BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5>, <ore:pileSand>, <liquid:concrete> * 125);
+BottlingMachine.addRecipe(<earthworks:block_concrete> * 8, <ore:gravel>, <liquid:concrete> * 1000);
+BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5> * 8, <ore:sand>, <liquid:concrete> * 1000);
+BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 8, <ore:dustAluminium>, <liquid:concrete> * 125);
 BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:scaffoldingSteel>, <liquid:concrete> * 125);
-BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 2, <ore:sand>, <liquid:concrete> * 125);
 BottlingMachine.addRecipe(<ore:machineCasingFissionReactorCalandriaCasing>.firstItem, <ore:machineCasingFissionReactorCalandriaCasingShell>, <liquid:concrete> * 125);
 
 //Plastic bottling machine recipes

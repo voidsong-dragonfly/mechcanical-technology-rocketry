@@ -17,7 +17,7 @@ for item in torchesToRemove{
 //Coke and Creosote torch recipes
 <ore:torch>.add(<realistictorches:torch_lit>);
 recipes.addShapeless(<realistictorches:torch_unlit> * 8, [<ore:fuelCoke>, <ore:stickWood>, <ore:stickWood>]);
-recipes.addShapeless(<realistictorches:torch_unlit> * 12, [<ore:wool>, <forge:bucketfilled>.withTag({FluidName: "creosote", Amount: 1000}), <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
+recipes.addShapeless(<realistictorches:torch_unlit> * 12, [<ore:wool>, <liquid:creosote> * 1000, <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
 //Campfire recipes
 Campfire.addRecipe(<minecraft:stick>, <realistictorches:torch_lit>, 30);
 Campfire.addRecipe(<realistictorches:torch_unlit>, <realistictorches:torch_lit>, 30);
@@ -38,21 +38,21 @@ recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<immersiveengineering:metal_decoration2:4>);
 recipes.addShaped(<rustic:iron_lantern>,
  [[<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>],
- [<ore:nuggetIron>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <ore:nuggetIron>],
+ [<ore:nuggetIron>, <liquid:ethanol> * 1000, <ore:nuggetIron>],
  [null, <ore:nuggetIron>, null]]);
 recipes.addShaped(<rustic:silver_lantern>,
  [[<ore:nuggetSilver>, <ore:plateSilver>, <ore:nuggetSilver>],
- [<ore:nuggetSilver>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <ore:nuggetSilver>],
+ [<ore:nuggetSilver>, <liquid:ethanol> * 1000, <ore:nuggetSilver>],
  [null, <ore:nuggetSilver>, null]]);
 recipes.addShaped(<rustic:golden_lantern>,
  [[<ore:nuggetGold>, <ore:plateGold>, <ore:nuggetGold>],
- [<ore:nuggetGold>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <ore:nuggetGold>],
+ [<ore:nuggetGold>, <liquid:ethanol> * 1000, <ore:nuggetGold>],
  [null, <ore:nuggetGold>, null]]);
-recipes.replaceAllOccurences(<minecraft:torch>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <rustic:lantern_wood>);
+recipes.replaceAllOccurences(<minecraft:torch>, <liquid:ethanol> * 1000, <rustic:lantern_wood>);
 recipes.addShaped(<immersiveengineering:metal_decoration2:4>,
  [[<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>],
- [<ore:paneGlass>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <ore:paneGlass>],
+ [<ore:paneGlass>, <liquid:ethanol> * 1000, <ore:paneGlass>],
  [<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>]]);
-recipes.replaceAllOccurences(<ore:glowstone>, <forge:bucketfilled>.withTag({FluidName: "ethanol", Amount: 1000}), <quark:paper_lantern>);
+recipes.replaceAllOccurences(<ore:glowstone>, <liquid:ethanol> * 1000, <quark:paper_lantern>);
 //Replace torch uses
 recipes.replaceAllOccurences(<minecraft:torch>, <realistictorches:torch_lit>);

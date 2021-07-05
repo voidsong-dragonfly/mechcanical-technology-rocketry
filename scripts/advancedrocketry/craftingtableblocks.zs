@@ -8,9 +8,9 @@ import mods.immersiveengineering.CokeOven;
 //Turn AR concrete into Cement
 recipes.remove(<advancedrocketry:concrete>);
 recipes.addShaped(<advancedrocketry:concrete> * 8,
- [[<contenttweaker:fine_gravel>, <earthworks:item_chalk>, <contenttweaker:fine_gravel>],
- [<contenttweaker:fine_sand>, <minecraft:water_bucket>, <contenttweaker:fine_sand>],
- [<contenttweaker:fine_gravel>, <earthworks:item_chalk>, <contenttweaker:fine_gravel>]]);
+ [[<contenttweaker:fine_sand>, <earthworks:item_quicklime>, <contenttweaker:fine_sand>],
+ [<ore:itemClay>, <liquid:water> * 1000, <ore:itemClay>],
+ [<contenttweaker:fine_sand>, <earthworks:item_quicklime>, <contenttweaker:fine_sand>]]);
 
 //Rocket pieces need more involved recipes than three ingots and three plates
 recipes.remove(<advancedrocketry:rocketmotor>);
@@ -160,17 +160,17 @@ recipes.addShaped(<advancedrocketry:forcefieldprojector>,
 //Force field slight recipe tweak
 recipes.remove(<advancedrocketry:vacuumlaser>);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
- [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
- [<forge:bucketfilled>.withTag({FluidName: "helium", Amount: 1000}), <libvulpes:structuremachine>, <ore:lensGlass>],
- [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
+ [[<mekanism:polyethene:2>, <ore:lensGlass>, <mekanism:polyethene:2>],
+ [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
+ [<mekanism:polyethene:2>, <liquid:helium> * 1000, <mekanism:polyethene:2>]]);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
- [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
- [<forge:bucketfilled>.withTag({FluidName: "argon", Amount: 1000}), <libvulpes:structuremachine>, <ore:lensGlass>],
- [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
+ [[<mekanism:polyethene:2>, <ore:lensGlass>, <mekanism:polyethene:2>],
+ [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
+ [<mekanism:polyethene:2>, <liquid:argon> * 1000, <mekanism:polyethene:2>]]);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
- [[<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>],
- [<forge:bucketfilled>.withTag({FluidName: "carbondioxide", Amount: 1000}), <libvulpes:structuremachine>, <ore:lensGlass>],
- [<mekanism:polyethene:2>, <ore:circuitBasic>, <mekanism:polyethene:2>]]);
+ [[<mekanism:polyethene:2>, <ore:lensGlass>, <mekanism:polyethene:2>],
+ [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
+ [<mekanism:polyethene:2>, <liquid:carbondioxide> * 1000, <mekanism:polyethene:2>]]);
  
 //Make Warp Core recipe slightly more involved
 recipes.remove(<advancedrocketry:warpcore>);

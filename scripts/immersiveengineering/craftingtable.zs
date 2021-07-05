@@ -122,13 +122,13 @@ recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immers
 //Clay from stone dust
 recipes.addShaped(<minecraft:clay_ball> * 8,
  [[<ore:dustStone>, <ore:dustStone>, <ore:dustStone>],
- [<ore:dustStone>, <forge:bucketfilled>.withTag({FluidName: "water", Amount: 1000}), <ore:dustStone>],
+ [<ore:dustStone>, <liquid:water> * 1000, <ore:dustStone>],
  [<ore:dustStone>, <ore:dustStone>, <ore:dustStone>]]);
 
 //Treated wood with plant oil
 recipes.addShaped(<immersiveengineering:treated_wood> * 4,
  [[null, <ore:plankWood>, null],
- [<ore:plankWood>, <forge:bucketfilled>.withTag({FluidName: "plantoil", Amount: 1000}), <ore:plankWood>],
+ [<ore:plankWood>, <liquid:plantoil> * 1000, <ore:plankWood>],
  [null, <ore:plankWood>, null]]);
  
 //Redstone wire can also be made with silver at a lower efficiency
