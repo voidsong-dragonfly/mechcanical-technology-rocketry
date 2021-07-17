@@ -43,15 +43,6 @@
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
 		<input>
-			<oreDict>ingotZirconiumNiobiumAlloy</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;21</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
 			<oreDict>ingotAluminum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
@@ -97,29 +88,11 @@
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
 		<input>
-			<oreDict>ingotNiobiumTitaniumAlloy</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;17</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
 			<oreDict>ingotPlatinum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
 			<itemStack>contenttweaker:material_part;1;24</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
-			<oreDict>ingotYttriumBariumCuprate</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;16</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -156,15 +129,6 @@
 		</input>
 		<output>
 			<itemStack>immersiveengineering:metal;1;30</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
-			<oreDict>ingotSilverIndiumAlloy</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;26</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -228,15 +192,6 @@
 		</input>
 		<output>
 			<itemStack>immersiveengineering:metal;1;33</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
-			<oreDict>ingotEnrichedNaquadah</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;25</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">

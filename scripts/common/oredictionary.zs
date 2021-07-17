@@ -54,8 +54,6 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:dustCoke>.addAll(<ore:dustPetroleumCoke>);
 
 //Combined steel oredictionary
-<ore:blockUhcsteel>.add(<immersiveengineering:storage:8>);
-<ore:blockMaragingsteel>.addAll(<ore:blockMaragingSteel>);
 <ore:mechanicalComponentSteel>.add(<immersiveengineering:material:9>);
 <ore:mechanicalComponentAny>.add(<immersiveengineering:material:8>);
 <ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentSteel>);

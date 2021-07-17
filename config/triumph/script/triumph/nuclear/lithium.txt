@@ -1,5 +1,5 @@
 setIcon(<mekanism:otherdust:4>)
-setTitle("Breeding Stock material")
+setTitle("Breeding Stock Material")
 setDescription("Acquire some lithium dust")
 addParent("triumph:nuclear/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")

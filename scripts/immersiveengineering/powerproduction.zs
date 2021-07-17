@@ -7,7 +7,7 @@ import mods.immersivetechnology.Distiller;
 import mods.immersivetechnology.Boiler;
 import mods.immersivetechnology.SolarTower;
 import mods.immersivetechnology.HeatExchanger;
-import mods.immersivetechnology.CoolingTower;
+import mods.immersivetechnology.Radiator;
 
 
 
@@ -43,8 +43,8 @@ GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:liquidhydrogen> * 850, 10);
 
 //Make Distilled Water much more worth it
 Distiller.removeRecipe(<liquid:water>);
-Distiller.addRecipe(<liquid:distwater> * 900, <liquid:water> * 1000, <immersivetech:material>, 10000, 200, 0.009999999776482582);
-Distiller.addRecipe(<liquid:water> * 1000, <liquid:saltwater> * 1000, <immersivetech:material>, 10000, 200, 0.009999999776482582);
+Distiller.addRecipe(<liquid:distwater> * 1000, <liquid:water> * 1000, <immersivetech:material>, 10000, 200, 0.1);
+Distiller.addRecipe(<liquid:water> * 1000, <liquid:saltwater> * 1000, <immersivetech:material>, 10000, 200, 0.1);
 
 //Boilers & solar tower make 10x the steam to compenstate
 //Boiler
@@ -53,7 +53,8 @@ Boiler.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 10);
 //Solar tower
 SolarTower.addRecipe(<liquid:steam> * 4500, <liquid:water> * 250, 20);
 SolarTower.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 20);
-
+//Radiator can take 10x the steam
+Radiator.addRecipe(<liquid:distwater> * 125, <liquid:exhauststeam> * 2500, 40);
 
 //Add Boiler Fuels
 Boiler.addFuel(<liquid:refinerygas> * 140, 10, 10);

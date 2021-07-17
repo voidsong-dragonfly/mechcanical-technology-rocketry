@@ -116,7 +116,6 @@ combiner.removeRecipe(<forestry:resources:2>, <mekanism:dust:4>);
 recipes.remove(<mekanism:ingot:6>);
 recipes.remove(<mekanism:basicblock:13>);
 recipes.remove(<mekanism:nugget:6>);
-MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 
 //Osmium
 Crusher.removeRecipesForInput(<mekanism:oreblock:0>);
@@ -204,9 +203,9 @@ register([<ore:nuggetPlatinum>, <ore:ingotPlatinum>]);
 register([<ore:nuggetMixedPlatinumGroupMetal>, <ore:ingotMixedPlatinumGroupMetal>]);
 register([<ore:nuggetDepletedUraniumDioxide>, <ore:ingotDepletedUraniumDioxide>]);
 register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUraniumDioxide>]);
-register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:stickNiobiumTitaniumAlloy>, <ore:plateNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
-register([<ore:nuggetZirconiumNiobiumAlloy>, <ore:ingotZirconiumNiobiumAlloy>, <ore:stickZirconiumNiobiumAlloy>, <ore:plateZirconiumNiobiumAlloy>, <ore:dustZirconiumNiobiumAlloy>]);
-register([<ore:nuggetSilverIndiumAlloy>, <ore:ingotSilverIndiumAlloy>, <ore:stickSilverIndiumAlloy>, <ore:plateSilverIndiumAlloy>, <ore:dustSilverIndiumAlloy>]);
+register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
+register([<ore:nuggetZirconiumNiobiumAlloy>, <ore:ingotZirconiumNiobiumAlloy>, <ore:dustZirconiumNiobiumAlloy>]);
+register([<ore:nuggetSilverIndiumAlloy>, <ore:ingotSilverIndiumAlloy>, <ore:stickSilverIndiumAlloy>, <ore:dustSilverIndiumAlloy>]);
 register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>, <ore:gearMaragingSteel>]);
 register([<ore:nuggetEnrichedNaquadah>, <ore:ingotEnrichedNaquadah>]);
 register([<ore:nuggetOsmiridium>, <ore:ingotOsmiridium>]);

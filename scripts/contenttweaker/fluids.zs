@@ -93,12 +93,14 @@ create_molten_fluid("moltenlithiumchloride", "847F68", 880, 2000, 10000);
 create_molten_fluid("moltencalciumchloride", "9E9E9E", 1400, 2150, 10000);
 
 //Salt Solutions
-create_fluid("saltwater", "24419F", 300, 1000, 1000);
+create_fluid("saltwater", "2D42D8", 300, 1000, 1000);
 create_fluid("magnesiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("richbrine", "D6CC91", 300, 1000, 1000);
 
 //Reactor fluids 7079E0
+create_gas("hydrogendeuteride", "FE9393");
+create_fluid("semiheavywater", "374399", 300, 1050, 1000);
 create_fluid("lithiatedwater", "7079E0", 300, 1000, 1000);
 create_fluid("processedlithiatedwater", "7099E0", 300, 1000, 1000);
 create_fluid("tritiatedwater", "70BFE0", 300, 1000, 1000);

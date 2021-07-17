@@ -128,6 +128,8 @@ MarxGenerator.removeRecipe(<ore:oreTin>);
 
 //Non-ore-processing electrolysis recipes!
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:water> * 1600, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogendeuteride> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:heavywater> * 1600, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquiddeuterium> * 400, <liquid:liquidhydrogen> * 400, null, null, <liquid:hydrogendeuteride> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:liquidchlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidlithium> * 1600, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 384000, 100);
@@ -203,3 +205,5 @@ Squeezer.addRecipe(<minecraft:obsidian>, <liquid:endacid> * 125, <stygian:endobs
 //Add in some extra metal press recipes
 MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
 MetalPress.addRecipe(<ore:fuelPelletEnrichedNaquadah>.firstItem * 18, <ore:stickEnrichedNaquadah>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
+MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
+MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotLead>, <immersiveengineering:mold:4>, 3600);

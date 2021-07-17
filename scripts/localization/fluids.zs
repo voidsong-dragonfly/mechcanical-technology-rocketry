@@ -93,6 +93,8 @@ game.setLocalization("fluid.uraniumhexafluoride_035", "3.5%% Enriched Uranium He
 game.setLocalization("fluid.uraniumhexafluoride_000", "Depleted Uranium Hexafluoride");
 
 //Reactor fluids
+game.setLocalization("fluid.hydrogendeuteride", "Hydrogen Deuteride");
+game.setLocalization("fluid.semiheavywater", "Dilute Semiheavy Water");
 game.setLocalization("fluid.lithiatedwater", "Lithiated Water");
 game.setLocalization("fluid.processedlithiatedwater", "Bombarded Lithiated Water");
 game.setLocalization("fluid.tritiatedwater", "Tritiated Water");

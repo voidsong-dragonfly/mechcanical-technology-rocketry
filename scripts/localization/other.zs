@@ -42,6 +42,7 @@ game.setLocalization("fluid.liquidlithium", "Molten Lithium");
 game.setLocalization("fluid.liquiddeuterium", "Deuterium");
 game.setLocalization("fluid.liquidtritium", "Tritium");
 game.setLocalization("fluid.liquidfusionfuel", "D-T Fuel");
+game.setLocalization("fluid.heavywater", "Semiheavy Water");
 
 //Rotary condensentrator GUI
 game.setLocalization("gui.condensentrating", "Depressurizing");

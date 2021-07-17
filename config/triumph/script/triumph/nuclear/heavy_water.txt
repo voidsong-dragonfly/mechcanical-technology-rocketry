@@ -1,9 +1,9 @@
 setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"heavywater",Amount:1000}>)
 setTitle("Not That Much More Massive")
-setDescription("Acquire a bucket of heavy water from the ocean floor")
-addParent("triumph:nuclear/root")
+setDescription("Acquire a bucket of semiheavy water from the distillation of dilute semiheavy water")
+addParent("triumph:nuclear/dilute_heavy_water")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"heavywater",Amount:1000}>)
-setPos(-275,5)
+setPos(-240,5)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
