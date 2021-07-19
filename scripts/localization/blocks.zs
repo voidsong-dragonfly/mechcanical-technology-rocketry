@@ -74,7 +74,6 @@ game.setLocalization("tile.contenttweaker.platinum_dust_block.name", "Compressed
 game.setLocalization("tile.contenttweaker.iridium_dust_block.name", "Compressed Iridium Grit");
 game.setLocalization("tile.contenttweaker.osmium_dust_block.name", "Compressed Osmium Grit");
 game.setLocalization("tile.contenttweaker.tungsten_dust_block.name", "Compressed Tungsten Grit");
-game.setLocalization("tile.contenttweaker.tin_dust_block.name", "Compressed Tin Grit");
 game.setLocalization("tile.contenttweaker.titanium_dust_block.name", "Compressed Titanium Grit");
 game.setLocalization("tile.contenttweaker.niobium_dust_block.name", "Compressed Niobium Grit");
 

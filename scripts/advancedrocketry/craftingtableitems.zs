@@ -56,20 +56,30 @@ recipes.remove(<advancedrocketry:sealdetector>);
 recipes.addShaped(<advancedrocketry:sealdetector>,
  [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <ore:fanSteel>],
  [<ore:plateTin>, <libvulpes:battery:1>, <ore:plateTin>]]);
+recipes.addShaped(<advancedrocketry:sealdetector>,
+ [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <ore:fanSteel>],
+ [<ore:plateAluminum>, <libvulpes:battery:1>, <ore:plateAluminum>]]);
 //Seal Detector recipe
 recipes.remove(<advancedrocketry:orescanner>);
 recipes.addShaped(<advancedrocketry:orescanner>,
  [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <advancedrocketry:ic:1>],
  [<ore:plateTin>, <libvulpes:battery:1>, <ore:plateTin>]]);
+recipes.addShaped(<advancedrocketry:orescanner>,
+ [[<ore:circuitAdvanced>, <ore:paneGlassColorless>, <advancedrocketry:ic:1>],
+ [<ore:plateAluminum>, <libvulpes:battery:1>, <ore:plateAluminum>]]);
 //Make Jackhammer not require a diamond, as it does not even show up in the texture and makes little sense
 recipes.remove(<advancedrocketry:jackhammer>);
 recipes.addShaped(<advancedrocketry:jackhammer>,
  [[null, <ore:plateAluminum>, <ore:stickTungsten>],
  [<ore:stickSteel>, <ore:mechanicalComponentSteel>, <ore:plateAluminum>],
  [<ore:ingotTitanium>, <ore:stickSteel>, null]]);
+//Atm analyser
 recipes.addShaped(<advancedrocketry:atmanalyser>, 
  [[<quark:grate>, <ore:lensGlass>, <ore:itemBattery>],
  [<ore:plateTin>, <ore:circuitElite>, <ore:plateTin>]]);
+recipes.addShaped(<advancedrocketry:atmanalyser>, 
+ [[<quark:grate>, <ore:lensGlass>, <ore:itemBattery>],
+ [<ore:plateAluminum>, <ore:circuitElite>, <ore:plateAluminum>]]);
 
 //Make Carbon Brick recipe that of actual activated carbon
 recipes.remove(<advancedrocketry:misc:1>);

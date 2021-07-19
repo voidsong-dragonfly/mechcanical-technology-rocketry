@@ -18,6 +18,5 @@ recipes.addShapeless(<ore:dustPlatinum>.firstItem * 8, [<contenttweaker:platinum
 recipes.addShapeless(<libvulpes:productdust:10> * 8, [<contenttweaker:iridium_dust_block>]);
 recipes.addShapeless(<mekanism:dust:2> * 8, [<contenttweaker:osmium_dust_block>]);
 recipes.addShapeless(<ore:dustTungsten>.firstItem * 8, [<contenttweaker:tungsten_dust_block>]);
-recipes.addShapeless(<libvulpes:productdust:5> * 8, [<contenttweaker:tin_dust_block>]);
 recipes.addShapeless(<libvulpes:productdust:7> * 8, [<contenttweaker:titanium_dust_block>]);
 recipes.addShapeless(<ore:dustNiobium>.firstItem * 8, [<contenttweaker:niobium_dust_block>]);

@@ -15,30 +15,27 @@
         <ore itemStack="contenttweaker:silicon_dioxide_dust_block" chance="40" />
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="16" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="18" />
-        <ore itemStack="contenttweaker:nickel_dust_block" chance="2" />
+        <ore itemStack="contenttweaker:nickel_dust_block" chance="3" />
         <ore itemStack="contenttweaker:silver_dust_block" chance="2" />
         <ore itemStack="contenttweaker:tungsten_dust_block" chance="1" />
-        <ore itemStack="contenttweaker:tin_dust_block" chance="1" />
 	</asteroid>
 	<asteroid name="S-Type" distance="50" mass="1000" massVariability="0.25" minLevel="0" probability="0.045" richness="1.0" richnessVariability="0.0" timeMultiplier="12.5">
         <ore itemStack="minecraft:ice" chance="16" />
         <ore itemStack="contenttweaker:silicon_dioxide_dust_block" chance="34" />
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="20" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="22.75" />
-        <ore itemStack="contenttweaker:nickel_dust_block" chance="2.5" />
+        <ore itemStack="contenttweaker:nickel_dust_block" chance="3.5" />
         <ore itemStack="contenttweaker:silver_dust_block" chance="2.5" />
         <ore itemStack="contenttweaker:tungsten_dust_block" chance="1.25" />
-        <ore itemStack="contenttweaker:tin_dust_block" chance="1" />
 	</asteroid>
     <asteroid name="S-Type [R]" distance="50" mass="1000" massVariability="0.25" minLevel="0" probability="0.0375" richness="1.0" richnessVariability="0.0" timeMultiplier="12.5">
         <ore itemStack="minecraft:ice" chance="15" />
         <ore itemStack="contenttweaker:silicon_dioxide_dust_block" chance="25" />
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="24" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="27" />
-        <ore itemStack="contenttweaker:nickel_dust_block" chance="3" />
+        <ore itemStack="contenttweaker:nickel_dust_block" chance="4" />
         <ore itemStack="contenttweaker:silver_dust_block" chance="3" />
         <ore itemStack="contenttweaker:tungsten_dust_block" chance="2" />
-        <ore itemStack="contenttweaker:tin_dust_block" chance="1" />
 	</asteroid>
     <asteroid name="C-Type" distance="100" mass="1000" massVariability="0.25" minLevel="0" probability="0.3375" richness="1.0" richnessVariability="0.0" timeMultiplier="25">
         <ore itemStack="minecraft:ice" chance="20" />

@@ -39,6 +39,10 @@ recipes.addShaped(<advancedrocketry:pipesealer> * 2,
  [[<mekanism:polyethene:3>, <ore:mechanicalComponentSteel>, <mekanism:polyethene:3>],
  [<ore:sheetAluminum>, <ore:sheetAluminum>, <ore:sheetAluminum>],
  [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+recipes.addShaped(<advancedrocketry:pipesealer> * 2,
+ [[<mekanism:polyethene:3>, <ore:mechanicalComponentSteel>, <mekanism:polyethene:3>],
+ [<ore:sheetAluminum>, <ore:sheetAluminum>, <ore:sheetAluminum>],
+ [<ore:plateAluminum>, <ore:plateAluminum>, <ore:plateAluminum>]]);
 
 //Make assembling machines not tier up crafting and more complicated
 recipes.remove(<advancedrocketry:deployablerocketbuilder>);

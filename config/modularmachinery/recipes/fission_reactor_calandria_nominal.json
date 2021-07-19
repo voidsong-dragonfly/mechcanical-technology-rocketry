@@ -90,7 +90,7 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "lithiatedwater",
+            "fluid": "distwater",
             "amount": 60000,
             "chance": 0.0
         }

@@ -207,3 +207,4 @@ MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 1
 MetalPress.addRecipe(<ore:fuelPelletEnrichedNaquadah>.firstItem * 18, <ore:stickEnrichedNaquadah>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotLead>, <immersiveengineering:mold:4>, 3600);
+MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotAluminum>, <immersiveengineering:mold:4>, 3600);

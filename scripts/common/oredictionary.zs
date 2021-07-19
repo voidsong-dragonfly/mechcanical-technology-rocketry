@@ -311,6 +311,8 @@ removeAndHide(<forestry:gear_bronze>);
 <ore:ingotEquivalentIridium>.addAll(<ore:ingotIridium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:dustIridium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:plateIridium>);
+<ore:ingotEquivalentOsmium>.addAll(<ore:ingotOsmium>);
+<ore:ingotEquivalentOsmium>.addAll(<ore:dustOsmium>);
 
 //Ores
 <ore:oreCopper>.remove(<mekanism:oreblock:1>);
