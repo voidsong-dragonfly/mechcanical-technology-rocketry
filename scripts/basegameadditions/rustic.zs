@@ -29,3 +29,6 @@ mods.rustic.CrushingTub.addRecipe(<liquid:water> * 25, <leatherworks:tannin_ball
 
 //Rustic T2 condenser to use obsidian
 recipes.replaceAllOccurences(<minecraft:iron_block>, <minecraft:obsidian>, <rustic:condenser_advanced>);
+
+//Sugar from honey
+recipes.addShapeless(<minecraft:sugar> * 8, [<liquid:honey> * 1000]);

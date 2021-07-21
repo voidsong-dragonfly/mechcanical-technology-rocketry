@@ -1,0 +1,7 @@
+setIcon(<simplecorn:corncob>)
+setTitle("Fabulous Fantastical Food")
+setDescription("Plant and grown corn, a food that can fuffil both grain and vegetable")
+addParent("triumph:vanilla/husbandry/plant_seed")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<simplecorn:corncob>)
+setPos(-240,50)

@@ -1,0 +1,25 @@
+setIcon(<biomesoplenty:blue_fire>)
+setTitle("Inferno Adventure")
+setDescription("Visit all nether biomes")
+
+addParent("triumph:vanilla/nether/hellbark")
+addParent("triumph:vanilla/nether/basalt")
+addParent("triumph:vanilla/nether/soul_valley")
+
+criteria = addCriteria("phantasmagoric_inferno", "minecraft:location")
+criteria.setBiome("biomesoplenty:phantasmagoric_inferno")
+criteria = addCriteria("undergarden", "minecraft:location")
+criteria.setBiome("biomesoplenty:undergarden")
+criteria = addCriteria("corrupted_sands", "minecraft:location")
+criteria.setBiome("biomesoplenty:corrupted_sands")
+criteria = addCriteria("fungi_forest", "minecraft:location")
+criteria.setBiome("biomesoplenty:fungi_forest")
+criteria = addCriteria("visceral_heap", "minecraft:location")
+criteria.setBiome("biomesoplenty:visceral_heap")
+criteria = addCriteria("hell", "minecraft:location")
+criteria.setBiome("minecraft:hell")
+
+setPos(-240,-70)
+
+setRewardExperience(250)
+setFrameType("challenge")

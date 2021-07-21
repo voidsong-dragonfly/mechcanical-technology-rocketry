@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:material:5>)
+setTitle("A Weaver's Work")
+setDescription("Craft tough fabric from industrial hemp fiber, a tough cloth with many uses")
+addParent("triumph:vanilla/husbandry/hemp_fiber")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:5>)
+setPos(-170,95)

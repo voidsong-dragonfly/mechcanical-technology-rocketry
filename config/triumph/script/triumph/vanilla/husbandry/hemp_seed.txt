@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:seed>)
+setTitle("Industrial, Not Recreational")
+setDescription("Acquire a hemp seed, used to get more hemp seeds and industrial hemp fiber")
+addParent("triumph:vanilla/husbandry/plant_seed")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:seed>)
+setPos(-240,80)

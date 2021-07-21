@@ -1,0 +1,10 @@
+setIcon("minecraft:apple")
+setTitle("Impefect Organic Robot")
+setDescription("Tame a horse for travel carry capacity and speed improvements")
+
+addParent("triumph:vanilla/husbandry/tame_an_animal")
+
+criteria = addCriteria("tamed_animal", "minecraft:tame_animal")
+criteria.setParentType("minecraft:horse")
+
+setPos(-240,170)

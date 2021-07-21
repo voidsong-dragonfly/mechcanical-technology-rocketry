@@ -1,0 +1,10 @@
+setIcon("minecraft:nether_wart")
+setTitle("A Promising Find")
+setDescription("Gather and plant some nether wart, used for potions")
+
+addParent("triumph:vanilla/nether/find_fortress")
+
+criteria = addCriteria("nether_wart", "minecraft:placed_block")
+criteria.setBlock("minecraft:nether_wart")
+
+setPos(-240,80)

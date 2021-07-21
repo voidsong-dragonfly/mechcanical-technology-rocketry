@@ -1,0 +1,7 @@
+setIcon(<pvj:unstable_essence>)
+setTitle("Phase Change Extrordinaire")
+setDescription("Craft unstable essence, used for changing totem type")
+addParent("triumph:vanilla/adventure/kill_a_mob")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<pvj:unstable_essence>)
+setPos(-240,50)

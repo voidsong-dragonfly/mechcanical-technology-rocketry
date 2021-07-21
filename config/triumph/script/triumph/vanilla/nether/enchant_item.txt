@@ -1,0 +1,9 @@
+setIcon("minecraft:enchanted_book")
+setTranslatedTitle("advancements.story.enchant_item.title")
+setTranslatedDescription("advancements.story.enchant_item.description")
+
+addParent("triumph:vanilla/nether/enchantment_table")
+
+criteria = addCriteria("enchanted_item", "minecraft:enchanted_item")
+
+setPos(-170,50)

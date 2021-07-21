@@ -1,0 +1,19 @@
+
+setIcon("contenttweaker:nether_cinnabar_ore")
+setTitle("M(Ore)st")
+setDescription("Collect all nether ores' drops, the only way to get fluorite and quartz")
+
+addParent("triumph:vanilla/nether/ore")
+
+setFrameType("goal")
+
+criteria = addCriteria("gold", "minecraft:inventory_changed")
+criteria.addItem("contenttweaker:nether_gold_ore")
+criteria = addCriteria("cinnabar", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:material_part, ore:dustCinnabar, meta:132, count:1>)
+criteria = addCriteria("fluorite", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:material_part, ore:dustFluorite, meta:128, count:1>)
+criteria = addCriteria("quartz", "minecraft:inventory_changed")
+criteria.addItem("minecraft:quartz_ore")
+
+setPos(-240,170)

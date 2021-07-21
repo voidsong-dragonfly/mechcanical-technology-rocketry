@@ -1,0 +1,10 @@
+setIcon("minecraft:cauldron")
+setTitle("Not That Kind Of Brew")
+setDescription("Put a fire under a cauldron to make some Soup")
+
+addParent("triumph:vanilla/husbandry/root")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:cauldron>)
+
+setPos(-275,-40)

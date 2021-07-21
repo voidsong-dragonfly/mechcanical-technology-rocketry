@@ -1,0 +1,10 @@
+setIcon("minecraft:enchanting_table")
+setTitle("A Different Kind Of Table")
+setDescription("Craft an enchanting table from red nether brick to start your enchanting journey")
+
+addParent("triumph:vanilla/nether/nether_wart")
+
+criteria = addCriteria("blaze_rod", "minecraft:inventory_changed")
+criteria.addItem("minecraft:enchanting_table")
+
+setPos(-205,50)

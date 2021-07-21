@@ -1,0 +1,10 @@
+
+setIcon("minecraft:emerald")
+setTranslatedTitle("advancements.adventure.trade.title")
+setTranslatedDescription("advancements.adventure.trade.description")
+
+addParent("triumph:vanilla/adventure/root")
+
+setPos(-275,215)
+
+addCriteria("traded", "minecraft:villager_trade")

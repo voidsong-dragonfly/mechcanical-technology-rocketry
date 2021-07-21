@@ -1,0 +1,10 @@
+setIcon("rustic:apiary")
+setTitle("Bees! Bees! BEEES!")
+setDescription("Craft an apiary in preparation for Rustic bees and honey production, and for growth speed boosts")
+
+addParent("triumph:vanilla/husbandry/root")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<rustic:apiary>)
+
+setPos(-275,-85)

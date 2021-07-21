@@ -1,0 +1,10 @@
+setIcon("enderhopper:enderhopper")
+setTitle("Interdimensional Access")
+setDescription("Ender Hoppers can access ender chest inventories....")
+
+addParent("triumph:vanilla/end/biotite_ore")
+
+criteria = addCriteria("enderhopper", "minecraft:inventory_changed")
+criteria.setItem("enderhopper:enderhopper")
+
+setPos(-205,140)

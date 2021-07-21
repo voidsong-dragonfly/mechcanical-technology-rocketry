@@ -1,0 +1,18 @@
+
+setIcon("stygian:endgrass")
+setTitle("Alien Explorer")
+setDescription("Discover all end biomes")
+
+addParent("triumph:vanilla/end/enter_end_gateway")
+
+criteria = addCriteria("sky", "minecraft:location")
+criteria.setBiome("minecraft:sky")
+criteria = addCriteria("stygian_growth", "minecraft:location")
+criteria.setBiome("stygian:stygian_growth")
+criteria = addCriteria("acidic_plains", "minecraft:location")
+criteria.setBiome("stygian:acidic_plains")
+
+setPos(-205,-40)
+
+setRewardExperience(250)
+setFrameType("challenge")

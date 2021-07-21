@@ -1,0 +1,12 @@
+setIcon(<biomesoplenty:log_2, ore:logWood, meta:7, count:1>)
+setTitle("Undergarden")
+setDescription("Visit an undergarden biome and collect hellbark wood")
+
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("biome", "minecraft:location")
+criteria.setBiome("biomesoplenty:undergarden")
+criteria = addCriteria("item", "minecraft:inventory_changed")
+criteria.addItem(<biomesoplenty:log_2, ore:logWood, meta:7, count:1>)
+
+setPos(-275,-100)

@@ -1,0 +1,10 @@
+setIcon("contenttweaker:shattered_end_stone")
+setTitle("The Final Ore")
+setDescription("Collect some shattered end stone, used for naquadah and other metals")
+
+addParent("triumph:vanilla/end/root")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem("contenttweaker:shattered_end_stone")
+
+setPos(-275,110)

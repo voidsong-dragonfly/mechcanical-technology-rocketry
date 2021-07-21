@@ -1,0 +1,7 @@
+setIcon(<minecraft:string>)
+setTitle("Cruelty-Free String")
+setDescription("Craft string from industrial hemp fibers, a fast and bloodless way to get string")
+addParent("triumph:vanilla/husbandry/hemp_fiber")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:string>)
+setPos(-170,65)

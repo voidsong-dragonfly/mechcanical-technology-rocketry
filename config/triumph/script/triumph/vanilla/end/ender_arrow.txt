@@ -1,0 +1,10 @@
+setIcon("quark:arrow_ender")
+setTitle("Teleportation Expansion")
+setDescription("Craft ender arrows with ender pearls and biotite, used to launch ender pearls much father than by hand")
+
+addParent("triumph:vanilla/end/biotite_ore")
+
+criteria = addCriteria("arrow_ender", "minecraft:inventory_changed")
+criteria.setItem("quark:arrow_ender")
+
+setPos(-205,110)

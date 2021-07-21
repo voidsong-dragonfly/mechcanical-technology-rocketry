@@ -1,0 +1,14 @@
+
+setIcon("minecraft:end_crystal")
+setTranslatedTitle("advancements.end.respawn_dragon.title")
+setTranslatedDescription("advancements.end.respawn_dragon.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/end/biotite")
+addParent("triumph:vanilla/end/chorus")
+
+criteria = addCriteria("summoned_dragon", "minecraft:summoned_entity")
+criteria.setEntityType("ender_dragon")
+
+setPos(-170,50)

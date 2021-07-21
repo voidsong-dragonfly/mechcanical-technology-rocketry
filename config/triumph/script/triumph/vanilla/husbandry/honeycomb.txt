@@ -1,0 +1,10 @@
+setIcon("rustic:honeycomb")
+setTitle("Sweet Matrix")
+setDescription("Collect a honeycomb from a Rustic apiary")
+
+addParent("triumph:vanilla/husbandry/apiary")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<rustic:honeycomb>)
+
+setPos(-240,-85)

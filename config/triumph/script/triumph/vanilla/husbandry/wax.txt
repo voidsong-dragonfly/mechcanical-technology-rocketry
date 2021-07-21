@@ -1,0 +1,10 @@
+setIcon(<rustic:beeswax, ore:wax, meta:0, count:1>)
+setTitle("Rustic Lighting")
+setDescription("Melt honeycombs into wax, used for candles")
+
+addParent("triumph:vanilla/husbandry/honeycomb")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<rustic:beeswax, ore:wax, meta:0, count:1>)
+
+setPos(-205,-70)

@@ -1,0 +1,10 @@
+setIcon("minecraft:chorus_fruit_popped")
+setTitle("Side Effects Not Included")
+setDescription("Cook some chorus fruit to make it inedible but usable for purpur and end crystals")
+
+addParent("triumph:vanilla/end/enter_end_gateway")
+
+criteria = addCriteria("biotite_ore", "minecraft:inventory_changed")
+criteria.setItem("minecraft:chorus_fruit_popped")
+
+setPos(-205,20)

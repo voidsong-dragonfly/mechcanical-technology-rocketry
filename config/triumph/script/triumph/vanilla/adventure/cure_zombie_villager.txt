@@ -1,0 +1,11 @@
+setIcon("minecraft:golden_apple")
+setTranslatedTitle("advancements.story.cure_zombie_villager.title")
+setTranslatedDescription("advancements.story.cure_zombie_villager.description")
+
+setFrameType("goal")
+
+addParent("triumph:vanilla/adventure/trade")
+
+criteria = addCriteria("cured_zombie", "minecraft:cured_zombie_villager")
+
+setPos(-240,230)

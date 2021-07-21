@@ -1,0 +1,7 @@
+setIcon(<minecraft:poisonous_potato>)
+setTitle("Potent Poison Production")
+setDescription("Obtain a poisonous potato from a failed potato plant")
+addParent("triumph:vanilla/husbandry/plant_seed")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:poisonous_potato>)
+setPos(-240,20)

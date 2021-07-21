@@ -1,0 +1,13 @@
+
+setIcon("charm:totem_of_returning")
+setTitle("Totem Recharge")
+setDescription("Combine a clock and a totem of returning in an anvil to recharge it")
+
+setFrameType("goal")
+
+setPos(-170,65)
+
+addParent("triumph:vanilla/adventure/totem_switch")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<charm:totem_of_returning, meta:0, count:1, nbt:{uses:2}>)

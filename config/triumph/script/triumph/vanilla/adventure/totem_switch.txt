@@ -1,0 +1,20 @@
+
+setIcon("charm:totem_of_shielding")
+setTitle("Totem Switcheroo")
+setDescription("Use unstable essence to obtain all three totem types")
+
+setFrameType("challenge")
+
+setPos(-205,65)
+
+addParent("triumph:vanilla/adventure/totem_of_undying")
+addParent("triumph:vanilla/adventure/unstable_essence")
+
+setRequiresParents()
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem("charm:totem_of_returning")
+criteria1 = addCriteria("criteria1", "minecraft:inventory_changed")
+criteria1.addItem("charm:totem_of_shielding")
+criteria2 = addCriteria("criteria2", "minecraft:inventory_changed")
+criteria2.addItem("minecraft:totem_of_undying")

@@ -1,0 +1,10 @@
+setIcon("quark:biotite_block")
+setTitle("Endergetic Burnt Quartz")
+setDescription("Obtain biotite blocks from biotite, used a few lategame ender constructions")
+
+addParent("triumph:vanilla/end/biotite_ore")
+
+criteria = addCriteria("biotite_block", "minecraft:inventory_changed")
+criteria.setItem("quark:biotite_block")
+
+setPos(-205,80)

@@ -1,0 +1,10 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"potion",Amount:1000}>)
+setTitle("A Mixive From The Future")
+setDescription("Use a mixer to be more efficienct in your potion-brewing")
+
+addParent("triumph:vanilla/nether/nether_wart")
+
+criteria = addCriteria("blaze_rod", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"potion",Amount:1000}>)
+
+setPos(-205,110)

@@ -1,0 +1,10 @@
+setIcon("minecraft:saddle")
+setTitle("Leather Masterpiece")
+setDescription("Loot a saddle from a dungeon, so your horse can be ridden or used with a cart")
+
+addParent("triumph:vanilla/husbandry/tame_horse")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:saddle>)
+
+setPos(-205,155)

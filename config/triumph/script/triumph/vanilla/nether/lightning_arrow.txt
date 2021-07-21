@@ -1,0 +1,11 @@
+
+setIcon(<bullseye:arrow, meta:7, count:1>)
+setTitle("Lighting The Way In Style")
+setDescription("Craft lightning arrows from a nether star and prismarine crystals")
+
+addParent("triumph:vanilla/nether/summon_wither")
+
+criteria = addCriteria("wither_skull", "minecraft:inventory_changed")
+criteria.addItem(<bullseye:arrow, meta:7, count:1>)
+
+setPos(-170,20)

@@ -1,0 +1,12 @@
+setIcon("quark:soul_bead")
+setTitle("Corrupted Sands")
+setDescription("Visit a corrupted sands biome and collect a soul bead")
+
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("biome", "minecraft:location")
+criteria.setBiome("biomesoplenty:corrupted_sands")
+criteria = addCriteria("item", "minecraft:inventory_changed")
+criteria.addItem("quark:soul_bead")
+
+setPos(-275,-40)

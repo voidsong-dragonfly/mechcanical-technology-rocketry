@@ -1,0 +1,33 @@
+setIcon("minecraft:leather_chestplate")
+setTranslatedTitle("advancements.story.obtain_armor.title")
+setDescription("Protect yourself with any chestplate")
+
+addParent("triumph:vanilla/adventure/root")
+
+criteria = addCriteria("clay", "minecraft:inventory_changed")
+criteria.addItem("ceramics:clay_chestplate")
+
+criteria = addCriteria("gold", "minecraft:inventory_changed")
+criteria.addItem("minecraft:golden_chestplate")
+
+criteria = addCriteria("iron", "minecraft:inventory_changed")
+criteria.addItem("minecraft:iron_chestplate")
+
+criteria = addCriteria("diamond", "minecraft:inventory_changed")
+criteria.addItem("minecraft:diamond_chestplate")
+
+criteria = addCriteria("chainmail", "minecraft:inventory_changed")
+criteria.addItem("minecraft:chainmail_chestplate")
+
+criteria = addCriteria("leather", "minecraft:inventory_changed")
+criteria.addItem("minecraft:leather_chestplate")
+
+criteria = addCriteria("steel", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:steel_armor_chest")
+
+criteria = addCriteria("faraday", "minecraft:inventory_changed")
+criteria.addItem("immersiveengineering:faraday_suit_chest")
+
+setRequirements("any")
+
+setPos(-275,-40)

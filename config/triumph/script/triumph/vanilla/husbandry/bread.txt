@@ -1,0 +1,7 @@
+setIcon(<minecraft:bread>)
+setTitle("Ground Wheat Berries")
+setDescription("Bread is an easy and nourishing food source")
+addParent("triumph:vanilla/husbandry/plant_seed")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:bread>)
+setPos(-240,-10)

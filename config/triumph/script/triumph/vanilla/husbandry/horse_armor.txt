@@ -1,0 +1,16 @@
+setIcon("minecraft:iron_horse_armor")
+setTitle("A Different Kind Of Protection")
+setDescription("Loot horse armor from a dungeon, to improve your horse's defensive capabilities")
+
+addParent("triumph:vanilla/husbandry/tame_horse")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:iron_horse_armor>)
+criteria = addCriteria("criteria1", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:golden_horse_armor>)
+criteria = addCriteria("criteria2", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:diamond_horse_armor>)
+
+setRequirements("any")
+
+setPos(-205,185)

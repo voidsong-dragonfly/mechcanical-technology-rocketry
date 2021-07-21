@@ -1,0 +1,12 @@
+setIcon("quark:basalt")
+setTitle("Phantasmagoric Inferno")
+setDescription("Visit a phantasmagoric inferno biome and collect basalt")
+
+addParent("triumph:vanilla/nether/root")
+
+criteria = addCriteria("biome", "minecraft:location")
+criteria.setBiome("biomesoplenty:phantasmagoric_inferno")
+criteria = addCriteria("item", "minecraft:inventory_changed")
+criteria.addItem("quark:basalt")
+
+setPos(-275,-70)

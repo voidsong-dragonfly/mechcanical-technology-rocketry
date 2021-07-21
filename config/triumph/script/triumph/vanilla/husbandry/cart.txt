@@ -1,0 +1,16 @@
+setIcon("astikorcarts:plowcart")
+setTitle("Carthage")
+setDescription("Craft any cart, to attach to a saddled horse")
+
+addParent("triumph:vanilla/husbandry/saddle")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<astikorcarts:plowcart>)
+criteria = addCriteria("criteria1", "minecraft:inventory_changed")
+criteria.addItem(<astikorcarts:mobcart>)
+criteria = addCriteria("criteria2", "minecraft:inventory_changed")
+criteria.addItem(<astikorcarts:cargocart>)
+
+setRequirements("any")
+
+setPos(-170,155)

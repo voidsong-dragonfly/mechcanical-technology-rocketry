@@ -1,0 +1,15 @@
+
+setIcon("minecraft:bow")
+setTranslatedTitle("advancements.adventure.shoot_arrow.title")
+setTranslatedDescription("advancements.adventure.shoot_arrow.description")
+
+addParent("triumph:vanilla/adventure/root")
+
+setPos(-275,140)
+
+criteria = addCriteria("shot_arrow", "minecraft:player_hurt_entity")
+damage = criteria.getDamageData()
+damageSource = damage.getDamageSourceData()
+damageSource.isProjectile(true)
+immediateSource = damageSource.getImmediateSourceData()
+immediateSource.setType("minecraft:arrow")

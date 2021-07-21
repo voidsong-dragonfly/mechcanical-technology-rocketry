@@ -1,0 +1,10 @@
+setIcon("quark:biotite_ore")
+setTitle("Renewable Gem Industry")
+setDescription("Obtain biotite, which spawns after killing the ender dragon")
+
+addParent("triumph:vanilla/end/kill_dragon")
+
+criteria = addCriteria("biotite", "minecraft:inventory_changed")
+criteria.setItem("quark:biotite")
+
+setPos(-240,80)

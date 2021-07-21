@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:material:4>)
+setTitle("Fibrous Diet")
+setDescription("Plant and grow industrial hemp, for a fiber which has many useful uses")
+addParent("triumph:vanilla/husbandry/hemp_seed")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:material:4>)
+setPos(-205,80)

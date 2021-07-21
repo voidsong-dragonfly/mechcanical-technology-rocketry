@@ -1,0 +1,10 @@
+setIcon(<rustic:fluid_bottle, meta:0, count:1, nbt:{Fluid:{FluidName:"honey",Amount:1000}}>)
+setTitle("Flavorful Sweetener")
+setDescription("Press honey out of honeycomb, used for sugar and mead")
+
+addParent("triumph:vanilla/husbandry/honeycomb")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<rustic:fluid_bottle, meta:0, count:1, nbt:{Fluid:{FluidName:"honey",Amount:1000}}>)
+
+setPos(-205,-100)

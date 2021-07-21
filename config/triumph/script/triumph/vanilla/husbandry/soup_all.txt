@@ -1,0 +1,21 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"potato_soup",Amount:1000}>)
+setTitle("Clothes from the Stoup Store")
+setDescription("Get a bucket of every soup liquid in the game")
+
+addParent("triumph:vanilla/husbandry/soup_any")
+
+setFrameType("challenge")
+setHidden(true)
+
+criteria = addCriteria("soup", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"potato_soup",Amount:1000}>)
+criteria = addCriteria("soup1", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"beetroot_soup",Amount:1000}>)
+criteria = addCriteria("stew", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"mushroom_stew",Amount:1000}>)
+criteria = addCriteria("stew1", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"rabbit_stew",Amount:1000}>)
+
+setRequirements("all")
+
+setPos(-205,-40)

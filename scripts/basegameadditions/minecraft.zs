@@ -72,7 +72,7 @@ recipes.remove(<minecraft:end_crystal>);
 recipes.remove(<minecraft:enchanting_table>);
 recipes.remove(<minecraft:beacon>);
 recipes.addShaped(<minecraft:end_crystal>,
- [[<ore:blockGlassColorless>, <ore:gemEnderBiotite>, <ore:blockGlassColorless>],
+ [[<ore:blockGlassColorless>, <quark:biotite_block>, <ore:blockGlassColorless>],
  [<minecraft:chorus_fruit_popped>, <quark:duskbound_lantern>, <minecraft:chorus_fruit_popped>],
  [<ore:blockGlassColorless>, <minecraft:ghast_tear>, <ore:blockGlassColorless>]]);
 recipes.addShaped(<minecraft:enchanting_table>,
