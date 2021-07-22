@@ -268,6 +268,20 @@ biome_changer.addItemInput(<ore:mechanicalComponentSteel>, 2);
 biome_changer.addItemOutput(<advancedrocketry:satelliteprimaryfunction:5>);
 biome_changer.build();
 
+//Cleanroom flywheel piece assembly
+var basalt = newBuilder("basalt", "assembly_cleanroom", 900);
+basalt.addEnergyPerTickInput(1024);
+basalt.addItemInput(<ore:fiberBasalt>, 36);
+basalt.addFluidInput(<liquid:polyethene> * 750);
+basalt.addItemOutput(<ore:machineCasingBasaltFiberFlywheelComponent>);
+basalt.build();
+var carbon_fiber = newBuilder("carbon_fiber", "assembly_cleanroom", 900);
+carbon_fiber.addEnergyPerTickInput(1024);
+carbon_fiber.addItemInput(<ore:fiberCarbon>, 36);
+carbon_fiber.addFluidInput(<liquid:polyethene> * 750);
+carbon_fiber.addItemOutput(<ore:machineCasingCarbonFiberFlywheelComponent>);
+carbon_fiber.build();
+
 
 
 /*
@@ -420,12 +434,6 @@ steel_gear.addItemInput(<immersiveengineering:metal:8> * 4);
 steel_gear.addItemInput(<immersiveengineering:mold:1>).setChance(0);
 steel_gear.addItemOutput(<libvulpes:productgear:6>);
 steel_gear.build();
-var maraging_steel_gear = newBuilder("maraging_steel_gear", "extrusion_press", 200);
-maraging_steel_gear.addEnergyPerTickInput(768);
-maraging_steel_gear.addItemInput(<ore:ingotMaragingSteel>, 4);
-maraging_steel_gear.addItemInput(<immersiveengineering:mold:1>).setChance(0);
-maraging_steel_gear.addItemOutput(<ore:gearMaragingSteel>.firstItem);
-maraging_steel_gear.build();
 var titanium_gear = newBuilder("titanium_gear", "extrusion_press", 200);
 titanium_gear.addEnergyPerTickInput(2304);
 titanium_gear.addItemInput(<ore:ingotTitanium>, 4);
@@ -444,6 +452,25 @@ titanium_iridium_gear.addItemInput(<ore:ingotTitaniumIridium>, 4);
 titanium_iridium_gear.addItemInput(<immersiveengineering:mold:1>).setChance(0);
 titanium_iridium_gear.addItemOutput(<advancedrocketry:productgear:1>);
 titanium_iridium_gear.build();
+//Fibers
+var basalt_fiber = newBuilder("basalt_fiber", "extrusion_press", 4500);
+basalt_fiber.addEnergyPerTickInput(768);
+basalt_fiber.addItemInput(<contenttweaker:crushed_basalt>);
+basalt_fiber.addItemInput(<ore:metalPressMoldFiber>).setChance(0);
+basalt_fiber.addItemOutput(<ore:fiberBasalt>.firstItem * 36);
+basalt_fiber.build();
+var bitumen_fiber = newBuilder("bitumen_fiber", "extrusion_press", 500);
+bitumen_fiber.addEnergyPerTickInput(768);
+bitumen_fiber.addItemInput(<immersivepetroleum:material>);
+bitumen_fiber.addItemInput(<ore:metalPressMoldFiber>).setChance(0);
+bitumen_fiber.addItemOutput(<ore:fiberBitumen>.firstItem * 2);
+bitumen_fiber.build();
+var graphite_fiber = newBuilder("graphite_fiber", "extrusion_press", 500);
+graphite_fiber.addEnergyPerTickInput(768);
+graphite_fiber.addItemInput(<ore:ingotHOPGraphite>);
+graphite_fiber.addItemInput(<ore:metalPressMoldFiber>).setChance(0);
+graphite_fiber.addItemOutput(<ore:fiberGraphite>.firstItem * 4);
+graphite_fiber.build();
 
 
 

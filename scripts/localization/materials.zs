@@ -20,6 +20,7 @@ game.setLocalization("contenttweaker.part.fuelpellet", "%s Fuel Pellet");
 game.setLocalization("contenttweaker.part.compressorblade", "%s Compressor Blade");
 game.setLocalization("contenttweaker.part.compressor", "%s Compressor");
 //New parts - nonmetal types
+game.setLocalization("contenttweaker.part.fiber", "%s Fiber");
 game.setLocalization("contenttweaker.part.slag", "%s Slag");
 game.setLocalization("contenttweaker.part.fuel", "%s");
 game.setLocalization("contenttweaker.part.sludge", "%s Sludge");

@@ -71,11 +71,11 @@ recipes.addShaped(<magneticraft:multiblock_parts> * 2,
 //Add in bearing recipe
 recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem,
  [[<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>],
- [<ore:gearSteel>, <ore:gearSteel>, <ore:gearSteel>],
+ [<ore:mechanicalComponentSteel>, <ore:stickSteel>, <ore:mechanicalComponentSteel>],
  [<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>]]);
 recipes.addShaped(<ore:machineCasingMagneticBearing>.firstItem,
  [[<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>],
- [<ore:gearMaragingSteel>, <ore:gearMaragingSteel>, <ore:gearMaragingSteel>],
+ [<ore:mechanicalComponentMaragingSteel>, <ore:stickMaragingSteel>, <ore:mechanicalComponentMaragingSteel>],
  [<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>]]);
 
 //Make powder barrels more appealing

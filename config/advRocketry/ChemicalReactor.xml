@@ -294,6 +294,36 @@
 		</output>
 	</Recipe>
     
+    <Recipe timeRequired="1600" power="1024">
+		<input>
+			<oreDict>fiberBitumen;16</oreDict>
+            <fluidStack>nitrogengas;4000</fluidStack>
+        </input>
+		<output>
+            <oreDict>fiberCarbonizedBitumen;16</oreDict>
+            <fluidStack>nitrogengas;3500</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="1024">
+		<input>
+			<oreDict>fiberCarbonizedBitumen;16</oreDict>
+            <fluidStack>argon;4000</fluidStack>
+        </input>
+		<output>
+            <oreDict>fiberCarbon;16</oreDict>
+            <fluidStack>argon;3500</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="1024">
+		<input>
+			<oreDict>fiberGraphite;16</oreDict>
+            <fluidStack>argon;4000</fluidStack>
+        </input>
+		<output>
+            <oreDict>fiberCarbon;16</oreDict>
+            <fluidStack>argon;3500</fluidStack>
+		</output>
+	</Recipe>
     
     
     <Recipe timeRequired="300" power="1024">

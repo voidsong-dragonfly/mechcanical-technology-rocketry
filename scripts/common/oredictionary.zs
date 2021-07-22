@@ -128,6 +128,10 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:blockBearing>.addAll(<ore:machineCasingLubricatedBearing>);
 <ore:blockBearingPerfect>.addAll(<ore:machineCasingMagneticBearing>);
 
+//OD for flywheel components
+<ore:blockBasaltFiber>.addAll(<ore:machineCasingBasaltFiberFlywheelComponent>);
+<ore:blockCarbonFiber>.addAll(<ore:machineCasingCarbonFiberFlywheelComponent>);
+
 //Centrifuge casing
 <ore:casingCentrifuge>.remove(<libvulpes:advstructuremachine>);
 <ore:casingCentrifuge>.addAll(<ore:machineCasingCentrifugeCylinderShell>);
@@ -340,6 +344,10 @@ hide(<libvulpes:productboule:3>);
 <ore:stoneLimestoneAny>.add(<quark:world_stone_bricks:5>);
 <ore:stoneLimestoneAny>.add(<quark:world_stone_carved:5>);
 <ore:stoneLimestoneAny>.add(<quark:world_stone_pavement:5>);
+<ore:stoneBasaltAny>.add(<quark:basalt:*>);
+<ore:stoneBasaltAny>.add(<quark:world_stone_bricks:3>);
+<ore:stoneBasaltAny>.add(<quark:world_stone_carved:3>);
+<ore:stoneBasaltAny>.add(<quark:world_stone_pavement:3>);
 //Turn Quark slate into dolomite
 <ore:stoneSlate>.remove(<quark:slate>);
 <ore:stoneSlatePolished>.remove(<quark:slate:1>);

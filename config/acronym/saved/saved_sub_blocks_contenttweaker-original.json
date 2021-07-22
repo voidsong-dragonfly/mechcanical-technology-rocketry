@@ -27,7 +27,9 @@
       "5": "naquadah_reactor_casing_machinecasing",
       "6": "particle_containment_casing_machinecasing",
       "7": "beam_control_lens_machinecasing",
-      "8": "plastic_coated_rebar_concrete_machinecasing"
+      "8": "plastic_coated_rebar_concrete_machinecasing",
+      "9": "basalt_fiber_flywheel_component_machinecasing",
+      "10": "carbon_fiber_flywheel_component_machinecasing"
     }
   }
 }

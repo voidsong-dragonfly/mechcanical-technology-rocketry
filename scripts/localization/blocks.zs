@@ -77,11 +77,10 @@ game.setLocalization("tile.contenttweaker.tungsten_dust_block.name", "Compressed
 game.setLocalization("tile.contenttweaker.titanium_dust_block.name", "Compressed Titanium Grit");
 game.setLocalization("tile.contenttweaker.niobium_dust_block.name", "Compressed Niobium Grit");
 
-//Dolomite
+//Stones & fluxes
+game.setLocalization("tile.contenttweaker.crushed_basalt.name", "Crushed Basalt");
 game.setLocalization("tile.contenttweaker.crushed_dolomite.name", "Crushed Dolomite");
 game.setLocalization("tile.contenttweaker.calcined_crushed_dolomite.name", "Calcined Crushed Dolomite");
-
-//Fluxes
 game.setLocalization("tile.contenttweaker.crushed_limestone.name", "Crushed Limestone");
 game.setLocalization("tile.contenttweaker.crushed_marble.name", "Crushed Marble");
 game.setLocalization("tile.contenttweaker.calcined_crushed_marble.name", "Calcined Crushed Marble");

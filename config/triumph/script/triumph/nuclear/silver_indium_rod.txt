@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:61>)
+setIcon(<contenttweaker:material_part:58>)
 setTitle("Control Rod Unsheathed")
 setDescription("Form silver indium alloy into a rod")
 addParent("triumph:nuclear/silver_indium")

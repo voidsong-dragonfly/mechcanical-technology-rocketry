@@ -45,7 +45,7 @@
 			<oreDict>ingotDepletedUraniumDioxide</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;57</itemStack>
+			<itemStack>contenttweaker:material_part;2;56</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -109,7 +109,7 @@
 			<oreDict>ingotSilverIndiumAlloy</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;61</itemStack>
+			<itemStack>contenttweaker:material_part;2;58</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -165,15 +165,7 @@
 			<oreDict>ingotEnrichedNaquadah</oreDict>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;2;60</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotNeutronium</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;2;62</itemStack>
+			<itemStack>contenttweaker:material_part;2;57</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -190,14 +182,6 @@
 		</input>
 		<output>
 			<itemStack>libvulpes:productrod;2;10</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotTungstensteel</oreDict>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;2;58</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">

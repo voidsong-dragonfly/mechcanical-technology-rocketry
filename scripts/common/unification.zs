@@ -206,7 +206,7 @@ register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUr
 register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
 register([<ore:nuggetZirconiumNiobiumAlloy>, <ore:ingotZirconiumNiobiumAlloy>, <ore:dustZirconiumNiobiumAlloy>]);
 register([<ore:nuggetSilverIndiumAlloy>, <ore:ingotSilverIndiumAlloy>, <ore:stickSilverIndiumAlloy>, <ore:dustSilverIndiumAlloy>]);
-register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>, <ore:gearMaragingSteel>]);
+register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>]);
 register([<ore:nuggetEnrichedNaquadah>, <ore:ingotEnrichedNaquadah>]);
 register([<ore:nuggetOsmiridium>, <ore:ingotOsmiridium>]);
 register([<ore:nuggetNeutronium>, <ore:ingotNeutronium>]);
@@ -298,3 +298,5 @@ Crusher.addRecipe(<contenttweaker:crushed_marble>, <ore:stoneMarbleAny>, 2400);
 Crusher.addRecipe(<contenttweaker:crushed_limestone>, <ore:stoneLimestoneAny>, 2400);
 //Dolomite in the IE crusher
 Crusher.addRecipe(<contenttweaker:crushed_dolomite>, <ore:stoneDolomiteAny>, 2400);
+//Dolomite in the IE crusher
+Crusher.addRecipe(<contenttweaker:crushed_basalt>, <ore:stoneBasaltAny>, 2400);

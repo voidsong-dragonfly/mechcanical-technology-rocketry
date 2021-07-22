@@ -2,10 +2,10 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "base:blocks/block",
-      "particle": "base:blocks/block"
+      "all": "contenttweaker:blocks/storage_maragingsteel",
+      "particle": "contenttweaker:blocks/storage_maragingsteel"
     },
-    "model": "base:storage",
+    "model": "minecraft:cube_all",
     "uvlock": true,
     "transform": "forge:default-block"
   },

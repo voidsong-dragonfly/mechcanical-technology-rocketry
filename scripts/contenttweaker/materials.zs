@@ -33,6 +33,7 @@ MaterialSystem.getPartBuilder().setName("fuelpellet").setPartType(MaterialSystem
 MaterialSystem.getPartBuilder().setName("compressorblade").setPartType(MaterialSystem.getPartType("item")).setOreDictName("compressorBlade").build();
 MaterialSystem.getPartBuilder().setName("compressor").setPartType(MaterialSystem.getPartType("item")).setOreDictName("compressor").build();
 //New parts - nonmetal types
+MaterialSystem.getPartBuilder().setName("fiber").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fiber").build();
 MaterialSystem.getPartBuilder().setName("slag").setPartType(MaterialSystem.getPartType("item")).setOreDictName("slag").build();
 MaterialSystem.getPartBuilder().setName("fuel").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fuel").build();
 MaterialSystem.getPartBuilder().setName("sludge").setPartType(MaterialSystem.getPartType("item")).setOreDictName("sludge").build();
@@ -86,7 +87,7 @@ MaterialSystem.getPartBuilder().setName("frame").setPartType(MaterialSystem.getP
 
 
 //Order
-static order as string[] = ["ingot", "plate", "gemplate", "nugget", "rod", "gear", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressorblade", "compressor", "dust", "gemdust", "nonmetaldust", "dustunshaded", "salt", "riffle", "amalgam", "sludge", "slag", "fuel", "lens", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "etchedwafer", "processorcrystal", "naquadahprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block", "frame", "machinecasing"];
+static order as string[] = ["ingot", "plate", "gemplate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressorblade", "compressor", "dust", "gemdust", "nonmetaldust", "dustunshaded", "salt", "riffle", "amalgam", "sludge", "slag", "fuel", "lens", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "etchedwafer", "processorcrystal", "naquadahprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block", "frame", "machinecasing"];
 
 
 
@@ -165,6 +166,12 @@ static materials as Material[string] = {
     //Nonmetal processed dusts
     "Petroleum Coke" : MaterialSystem.getMaterialBuilder().setName("Petroleum Coke").setColor(Color.fromHex("ffffff")).build(),
     "Charcoal Precursor" : MaterialSystem.getMaterialBuilder().setName("Charcoal Precursor").setColor(Color.fromHex("282115")).build(),
+    //Fibers
+    "Bitumen" : MaterialSystem.getMaterialBuilder().setName("Bitumen").setColor(Color.fromHex("2a2a2a")).build(),
+    "Carbonized Bitumen" : MaterialSystem.getMaterialBuilder().setName("Carbonized Bitumen").setColor(Color.fromHex("252525")).build(),
+    "Graphite" : MaterialSystem.getMaterialBuilder().setName("Graphite").setColor(Color.fromHex("242424")).build(),
+    "Carbon" : MaterialSystem.getMaterialBuilder().setName("Carbon").setColor(Color.fromHex("202020")).build(),
+    "Basalt" : MaterialSystem.getMaterialBuilder().setName("Basalt").setColor(Color.fromHex("171717")).build(),
     //Metal slag intermediates
     "Impure Tin" : MaterialSystem.getMaterialBuilder().setName("Impure Tin").setColor(Color.fromHex("928c87")).build(),
     "Nickel Matte" : MaterialSystem.getMaterialBuilder().setName("Nickel Matte").setColor(Color.fromHex("5b574f")).build(),
@@ -205,7 +212,7 @@ static materials as Material[string] = {
     "Small Pipe" : MaterialSystem.getMaterialBuilder().setName("Small Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Pipe" : MaterialSystem.getMaterialBuilder().setName("Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Barrel" : MaterialSystem.getMaterialBuilder().setName("Barrel").setColor(Color.fromHex("ffffff")).build(),
-    "Wire" : MaterialSystem.getMaterialBuilder().setName("Wire").setColor(Color.fromHex("ffffff")).build(),
+    "Fiber" : MaterialSystem.getMaterialBuilder().setName("Fiber").setColor(Color.fromHex("ffffff")).build(),
     "Fuel Pellet" : MaterialSystem.getMaterialBuilder().setName("Fuel Pellet").setColor(Color.fromHex("ffffff")).build(),
     "Scaffolding Panel" : MaterialSystem.getMaterialBuilder().setName("Scaffolding Panel").setColor(Color.fromHex("ffffff")).build(),
     "Bell" : MaterialSystem.getMaterialBuilder().setName("Bell").setColor(Color.fromHex("ffffff")).build(),
@@ -236,6 +243,8 @@ static materials as Material[string] = {
     "Steel Barrel Shell" : MaterialSystem.getMaterialBuilder().setName("Steel Barrel Shell").setColor(Color.fromHex("ffffff")).build(),
     //Miscelaneous other blocks
     "Plastic Coated Rebar Concrete" : MaterialSystem.getMaterialBuilder().setName("Plastic Coated Rebar Concrete").setColor(Color.fromHex("ffffff")).build(),
+    "Carbon Fiber Flywheel Component" : MaterialSystem.getMaterialBuilder().setName("Carbon Fiber Flywheel Component").setColor(Color.fromHex("ffffff")).build(),
+    "Basalt Fiber Flywheel Component" : MaterialSystem.getMaterialBuilder().setName("Basalt Fiber Flywheel Component").setColor(Color.fromHex("ffffff")).build(),
     //Register all the things!
     "Item" : MaterialSystem.getMaterialBuilder().setName("Item").setColor(Color.fromHex("ffffff")).build(),
     
@@ -244,7 +253,7 @@ static materials as Material[string] = {
 static parts as string[][string] = {
     //Metals
     "Steel" : ["scaffoldingpanel"],
-    "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "gear", "wire", "sheet", "scaffoldingpanel", "mechanicalcomponent", "block"],
+    "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "wire", "sheet", "scaffoldingpanel", "mechanicalcomponent", "block"],
     "Tungstensteel" : ["ingot", "plate", "nugget", "dust", "scaffoldingpanel", "smallpipe", "block", "frame"],
     "Titanium" : ["scaffoldingpanel", "smallpipe", "compressorblade", "compressor", "frame"],
     "Titanium Aluminide" : ["scaffoldingpanel"],
@@ -315,6 +324,12 @@ static parts as string[][string] = {
     //Nonmetal processed dusts
     "Petroleum Coke" : ["dustunshaded", "fuel"],
     "Charcoal Precursor" : ["sludge"],
+    //Fibers
+    "Bitumen" : ["fiber"],
+    "Carbonized Bitumen" : ["fiber"],
+    "Graphite" : ["fiber"],
+    "Carbon" : ["fiber"],
+    "Basalt" : ["fiber"],
     //Metal slag intermediates
     "Impure Tin" : ["slag"],
     "Nickel Matte" : ["slag"],
@@ -355,7 +370,7 @@ static parts as string[][string] = {
     "Small Pipe" : ["metalpressmold"],
     "Pipe" : ["metalpressmold"],
     "Barrel" : ["metalpressmold"],
-    "Wire" : ["metalpressmold"],
+    "Fiber" : ["metalpressmold"],
     "Fuel Pellet" : ["metalpressmold"],
     "Scaffolding Panel" : ["heavymetalpressdie"],
     "Bell" : ["heavymetalpressdie"],
@@ -386,6 +401,8 @@ static parts as string[][string] = {
     "Centrifuge Cylinder Shell" : ["machinecasing"],
     //Miscelaneous other blocks
     "Plastic Coated Rebar Concrete" : ["machinecasing"],
+    "Carbon Fiber Flywheel Component" : ["machinecasing"],
+    "Basalt Fiber Flywheel Component" : ["machinecasing"],
     //Register all the things!
     "Item" : ["perfectcircuit", "gpsunit", "solder", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray"],
 };

@@ -31,6 +31,7 @@ create_block_sound("calcined_crushed_dolomite", <blockmaterial:sand>, 0.5, 0.8, 
 create_block_sound("crushed_limestone", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 0);
 create_block_sound("crushed_marble", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 0);
 create_block_sound("calcined_crushed_marble", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
+create_block_sound("crushed_basalt", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
 
 //Ores
 create_block("cryolite_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
