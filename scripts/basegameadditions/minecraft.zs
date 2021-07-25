@@ -223,9 +223,3 @@ recipes.addShaped(<eerieentities:nether_shield>,
 <entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 1, 1);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
 */
-//Food campfire cooking
-Campfire.addRecipe(<aquaculture:food:3>, <aquaculture:food:4>, 600);
-Campfire.addRecipe(<aquaculture:food:2>, <aquaculture:food:5>, 600);
-Campfire.addRecipe(<pvj:raw_duck>, <pvj:cooked_duck>, 600);
-Campfire.addRecipe(<pvj:raw_squid>, <pvj:cooked_squid>, 600);
-Campfire.addRecipe(<simplecorn:corncob>, <simplecorn:roastedcorn>, 600);

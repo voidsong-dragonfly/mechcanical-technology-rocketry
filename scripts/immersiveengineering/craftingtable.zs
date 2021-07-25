@@ -59,7 +59,11 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2,
  [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
 
 //Make heavy engineering block entirely electrum, to match light engineering block
-recipes.replaceAllOccurences(<minecraft:piston>, <ore:ingotElectrum>, <immersiveengineering:metal_decoration0:5>);
+recipes.remove(<immersiveengineering:metal_decoration0:5>);
+recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2,
+ [[<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>],
+ [<ore:ingotBronze>, <ore:ingotBronze>, <ore:ingotBronze>],
+ [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
 
 //Slightly changed pressure head engineering block
 recipes.remove(<magneticraft:multiblock_parts>);

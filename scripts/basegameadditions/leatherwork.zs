@@ -89,12 +89,19 @@ recipes.replaceAllOccurences(<minecraft:leather>, <ore:leatherSheet>);
 recipes.replaceAllOccurences(<ore:leatherSheet>, <minecraft:leather>, <leatherworks:leather_sheet>);
 recipes.replaceAllOccurences(<ore:slabWoodOak>, <ore:slabWood>, <leatherworks:drying_rack_oak>);
 
-//Redo other recipes
+//Redo other recipes, quiver & lead
+//Quiver
 recipes.remove(<lostquiver:quiver>);
 recipes.addShaped(<lostquiver:quiver>,
  [[null, <ore:leatherStrip>, <ore:leatherSheet>],
  [<ore:leatherStrip>, <ore:stickIron>, <ore:leatherSheet>],
  [<ore:leatherSheet>, <ore:leatherSheet>, null]]);
+//Lead
+recipes.remove(<minecraft:lead>);
+recipes.addShaped(<minecraft:lead>,
+ [[<ore:leatherStrip>, <ore:leatherStrip>, null],
+ [<ore:leatherStrip>, <ore:nuggetIron>, null],
+ [null, null, <ore:leatherStrip>]]);
 
 //Ender pack recipe
 recipes.remove(<leatherworks:ender_pack>);
