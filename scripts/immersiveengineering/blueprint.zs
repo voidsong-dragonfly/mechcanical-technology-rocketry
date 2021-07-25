@@ -123,10 +123,11 @@ Blueprint.addRecipe("Solar Panels", <advancedrocketry:solargenerator>, [<ore:sol
 //Crafting components
 Blueprint.removeRecipe(<immersiveengineering:material:8>);
 Blueprint.removeRecipe(<immersiveengineering:material:9>);
+recipes.replaceAllOccurences(<ore:ingotCopper>, <ore:ingotBronze>, <immersiveengineering:material:9>);
 Blueprint.removeRecipe(<immersiveengineering:material:26>);
 Blueprint.addRecipe("components", <immersiveengineering:material:8>, [<ore:plateIron>, <ore:plateIron>, <ore:ingotCopper>]);
-Blueprint.addRecipe("components", <immersiveengineering:material:9>, [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <ore:ingotCopper>]);
-Blueprint.addRecipe("components", <ore:mechanicalComponentMaragingSteel>.firstItem, [<ore:plateMaragingSteel>, <ore:plateMaragingSteel>, <ore:ingotCopper>]);
+Blueprint.addRecipe("components", <immersiveengineering:material:9>, [<immersiveengineering:metal:38>, <immersiveengineering:metal:38>, <ore:ingotBronze>]);
+Blueprint.addRecipe("components", <ore:mechanicalComponentMaragingSteel>.firstItem, [<ore:plateMaragingSteel>, <ore:plateMaragingSteel>, <ore:ingotBronze>]);
 Blueprint.addRecipe("components", <immersiveengineering:material:26> * 3, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireCopper>, <ore:dustRedstone>]);
 Blueprint.addRecipe("components", <immersiveengineering:material:26> * 6, [<ore:blockGlass>, <ore:plateNickel>, <ore:wireTungsten>, <ore:dustRedstone>]);
 Blueprint.addRecipe("components", <ore:smallBatteryHullItem>.firstItem * 4, [<ore:stickCopper>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateTin>, <ore:plateTin>]);
