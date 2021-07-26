@@ -4,6 +4,15 @@
     "TEST": [
       "antiqueatlas:textures/gui/tiles/test.png",
       "antiqueatlas:textures/gui/tiles/test.png"
+    ],
+    "Village Central Tree": [
+      "antiqueatlas:textures/gui/tiles/forest.png"
+    ],
+    "Village Fence": [
+      "antiqueatlas:textures/gui/tiles/fence.png"
+    ],
+    "Village House": [
+      "antiqueatlas:textures/gui/tiles/house.png"
     ]
   }
 }
