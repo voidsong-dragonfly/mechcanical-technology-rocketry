@@ -32,91 +32,97 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferGoldDopedSilicon</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
+            <oreDict>circuitDesignMemoryItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferRandomAccessMemory</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferGoldDopedSilicon</oreDict>
+			<oreDict>circuitDesignMemoryItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferNANDMemory</oreDict>
+		</output>
+	</Recipe>
+     <Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferGoldDopedSilicon</oreDict>
+			<oreDict>circuitDesignCentralProcessingUnitItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferCentralProcessingUnit</oreDict>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="1200" power ="1920">
 		<input>
-			<oreDict>waferGalliumDopedSilicon</oreDict>
-			<oreDict>lensGlass</oreDict>
+			<oreDict>waferGoldDopedSilicon</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
 		</input>
 		<output>
 			<oreDict>waferIntegratedCircuit</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferGalliumDopedSilicon</oreDict>
-			<oreDict>lensLapis</oreDict>
-		</input>
-		<output>
-			<oreDict>waferCentralProcessingUnit</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferGalliumDopedSilicon</oreDict>
-			<oreDict>lensEmerald</oreDict>
-		</input>
-		<output>
-			<oreDict>waferNANDMemory</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferGalliumDopedSilicon</oreDict>
-			<oreDict>lensDiamond</oreDict>
-		</input>
-		<output>
-			<oreDict>waferRandomAccessMemory</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferLithiumDopedSilicon</oreDict>
-			<oreDict>lensGlass</oreDict>
-		</input>
-		<output>
-			<oreDict>waferIntegratedCircuit</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferLithiumDopedSilicon</oreDict>
-			<oreDict>lensLapis</oreDict>
-		</input>
-		<output>
-			<oreDict>waferCentralProcessingUnit</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferLithiumDopedSilicon</oreDict>
-			<oreDict>lensEmerald</oreDict>
-		</input>
-		<output>
-			<oreDict>waferNANDMemory</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="1200" power ="1920">
-		<input>
-			<oreDict>waferLithiumDopedSilicon</oreDict>
-			<oreDict>lensDiamond</oreDict>
-		</input>
-		<output>
-			<oreDict>waferRandomAccessMemory</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1800" power ="3840">
 		<input>
 			<oreDict>waferLithiumDopedSilicon</oreDict>
-			<oreDict>lensEnderPearl</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
+            <oreDict>circuitDesignCentralProcessingUnitItem</oreDict>
+            <oreDict>circuitDesignMemoryItem</oreDict>
 		</input>
 		<output>
 			<oreDict>waferSystemOnChip</oreDict>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
+            <oreDict>circuitDesignMemoryItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferRandomAccessMemory</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
+			<oreDict>circuitDesignMemoryItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferNANDMemory</oreDict>
+		</output>
+	</Recipe>
+     <Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
+			<oreDict>circuitDesignCentralProcessingUnitItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferCentralProcessingUnit</oreDict>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="1200" power ="1920">
+		<input>
+			<oreDict>waferLithiumDopedSilicon</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
+		</input>
+		<output>
+			<oreDict>waferIntegratedCircuit</oreDict>
+		</output>
+	</Recipe>
     <Recipe timeRequired="2400" power ="7680">
 		<input>
 			<oreDict>processorCrystalRaw</oreDict>
-			<oreDict>lensEnderPearl</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
+            <oreDict>circuitDesignCentralProcessingUnitItem</oreDict>
+            <oreDict>circuitDesignMemoryItem</oreDict>
 		</input>
 		<output>
 			<oreDict>processorCrystalEngraved</oreDict>
@@ -124,11 +130,13 @@
 	</Recipe>
     <Recipe timeRequired="2400" power ="7680">
 		<input>
-			<oreDict>naquadahProcessorCrystalRaw</oreDict>
-			<oreDict>lensNetherStar</oreDict>
+			<oreDict>grapheneProcessorCrystalRaw</oreDict>
+			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
+            <oreDict>circuitDesignCentralProcessingUnitItem</oreDict>
+            <oreDict>circuitDesignMemoryItem</oreDict>
 		</input>
 		<output>
-			<oreDict>naquadahProcessorCrystalEngraved</oreDict>
+			<oreDict>grapheneProcessorCrystalEngraved</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power ="7680">

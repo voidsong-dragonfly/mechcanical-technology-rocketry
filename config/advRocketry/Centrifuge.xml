@@ -229,10 +229,9 @@
 			<fluidStack>precipitategas;10000</fluidStack>
         </input>
 		<output>
-			<fluidStack>nitrogengas;4700</fluidStack>
+			<fluidStack>nitrogengas;4800</fluidStack>
             <fluidStack>liquidoxygen;4000</fluidStack>
-            <fluidStack>argon;200</fluidStack>
-            <fluidStack>carbondioxide;100</fluidStack>
+            <fluidStack>carbondioxide;200</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>

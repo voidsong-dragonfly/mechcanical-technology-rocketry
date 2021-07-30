@@ -254,8 +254,8 @@
   },
   "galena": {
     "type": "sphere",
-    "vertical_size": 8,
-    "horizontal_size": 32,
+    "vertical_size": 7,
+    "horizontal_size": 28,
     "ore": [
       {
         "block": "immersiveengineering:ore",
@@ -287,7 +287,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1280,
+    "rarity": 1536,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -328,7 +328,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1536,
+    "rarity": 1280,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -849,7 +849,7 @@
     "max_y": 96,
     "density": 128
   },
-  "naquadah": {
+  "stygian_pitchblende": {
     "type": "sphere",
     "vertical_size": 7,
     "horizontal_size": 28,

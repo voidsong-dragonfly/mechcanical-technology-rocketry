@@ -7,20 +7,20 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@203",
+            "item": "contenttweaker:material_part@165",
             "amount": 9,
             "chance": 0.0
         },
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@203",
+            "item": "contenttweaker:material_part@165",
             "amount": 1
         },
         {
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:material_part@205",
+            "item": "contenttweaker:material_part@167",
             "amount": 1
         },
         {

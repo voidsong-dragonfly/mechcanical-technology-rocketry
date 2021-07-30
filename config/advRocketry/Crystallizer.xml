@@ -35,29 +35,29 @@
     <Recipe timeRequired="2400" power="1024">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
-            <oreDict>dustGallium</oreDict>
-            <fluidStack>argon;4000</fluidStack>
+            <oreDict>dustGold;4</oreDict>
+            <fluidStack>nitrogengas;4000</fluidStack>
         </input>
 		<output>
-			<oreDict>bouleGalliumDopedSilicon</oreDict>
-            <fluidStack>argon;3900</fluidStack>
+			<oreDict>bouleGoldDopedSilicon</oreDict>
+            <fluidStack>nitrogengas;3500</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power="2048">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
-            <oreDict>dustLithium</oreDict>
-            <fluidStack>argon;4000</fluidStack>
+            <oreDict>dustLithium;4</oreDict>
+            <fluidStack>nitrogengas;4000</fluidStack>
         </input>
 		<output>
 			<oreDict>bouleLithiumDopedSilicon</oreDict>
-            <fluidStack>argon;3900</fluidStack>
+            <fluidStack>nitrogengas;3500</fluidStack>
 		</output>
     </Recipe>
     <Recipe timeRequired="3600" power="8192">
 		<input>
-			<oreDict>dustEmerald;64</oreDict>
-            <oreDict>dustOsmium;2</oreDict>
+			<oreDict>dustDiamond;64</oreDict>
+            <oreDict>dustMagnesium;8</oreDict>
             <fluidStack>helium;16000</fluidStack>
         </input>
 		<output>
@@ -67,12 +67,12 @@
 	</Recipe>
     <Recipe timeRequired="3600" power="8192">
 		<input>
-			<oreDict>dustEnrichedNaquadah;64</oreDict>
-            <oreDict>dustBarium;4</oreDict>
+			<itemStack>contenttweaker:hop_graphite_dust_block;8</itemStack>
+            <oreDict>dustNeodymium;8</oreDict>
             <fluidStack>helium3;16000</fluidStack>
         </input>
 		<output>
-			<oreDict>naquadahProcessorCrystalRaw;16</oreDict>
+			<oreDict>grapheneProcessorCrystalRaw;16</oreDict>
             <fluidStack>helium3;15800</fluidStack>
 		</output>
 	</Recipe>

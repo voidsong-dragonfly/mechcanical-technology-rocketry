@@ -42,6 +42,7 @@
 			<oreDict>smdResistor;16</oreDict>
 		</output>
 	</Recipe>
+    
     <Recipe timeRequired="300" power="384">
 		<input>
 			<oreDict>circuitBasic</oreDict>
@@ -75,12 +76,13 @@
 			<itemStack>advancedrocketry:ic;1;5</itemStack>
 		</output>
 	</Recipe>
+    
     <Recipe timeRequired="450" power="256">
 		<input>
 			<oreDict>circuitPlateIntegratedCircuit</oreDict>
             <itemStack>mekanism:polyethene;1;2</itemStack>
             <oreDict>smdResistor;2</oreDict>
-            <itemStack>immersiveengineering:material;2;20</itemStack>
+            <itemStack>immersiveengineering:material;2;21</itemStack>
             <oreDict>solderItem;2</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
         </input>
@@ -93,7 +95,7 @@
 			<oreDict>circuitPlateSystemOnChip</oreDict>
             <itemStack>mekanism:polyethene;1;2</itemStack>
             <oreDict>smdResistor;2</oreDict>
-            <itemStack>immersiveengineering:material;2;20</itemStack>
+            <itemStack>immersiveengineering:material;2;21</itemStack>
             <oreDict>solderItem;4</oreDict>
             <oreDict>circuitBoardPlastic;2</oreDict>
         </input>
@@ -106,7 +108,7 @@
 			<oreDict>circuitPlateIntegratedCircuit;2</oreDict>
             <oreDict>circuitPlateCentralProcessingUnit</oreDict>
             <oreDict>smdResistor;2</oreDict>
-            <itemStack>immersiveengineering:material;2;21</itemStack>
+            <oreDict>wireSilver;2</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
         </input>
@@ -119,7 +121,7 @@
 			<oreDict>circuitPlateSystemOnChip</oreDict>
             <itemStack>mekanism:polyethene;1;2</itemStack>
             <oreDict>smdResistor;2</oreDict>
-            <itemStack>immersiveengineering:material;2;21</itemStack>
+            <oreDict>wireSilver;2</oreDict>
             <oreDict>solderItem;8</oreDict>
             <oreDict>circuitBoardPlastic;2</oreDict>
         </input>
@@ -132,7 +134,7 @@
 			<oreDict>circuitPlateCentralProcessingUnit;2</oreDict>
             <oreDict>gpsUnitItem</oreDict>
             <oreDict>smdResistor;2</oreDict>
-            <oreDict>wirePGMAny;2</oreDict>
+            <oreDict>wirePlatinum;2</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
         </input>
@@ -145,7 +147,7 @@
 			<oreDict>circuitPlateSystemOnChip;2</oreDict>
             <oreDict>gpsUnitItem</oreDict>
             <oreDict>smdResistor;2</oreDict>
-            <oreDict>wirePGMAny;2</oreDict>
+            <oreDict>wirePlatinum;2</oreDict>
             <oreDict>solderItem;8</oreDict>
             <oreDict>circuitBoardPlastic;2</oreDict>
         </input>
@@ -169,7 +171,7 @@
 	</Recipe>
     <Recipe timeRequired="675" power="16384">
 		<input>
-			<oreDict>naquadahProcessorCrystalEngraved</oreDict>
+			<oreDict>grapheneProcessorCrystalEngraved</oreDict>
             <oreDict>gpsUnitItem;2</oreDict>
             <oreDict>smdResistor;2</oreDict>
             <oreDict>wireNiobiumTitaniumAlloy;2</oreDict>
@@ -183,7 +185,7 @@
 	</Recipe>
     <Recipe timeRequired="675" power="16384">
 		<input>
-			<oreDict>naquadahProcessorCrystalEngraved</oreDict>
+			<oreDict>grapheneProcessorCrystalEngraved</oreDict>
             <oreDict>gpsUnitItem;2</oreDict>
             <oreDict>smdResistor;2</oreDict>
             <oreDict>wireYttriumBariumCuprate;2</oreDict>
@@ -195,11 +197,12 @@
 			<oreDict>perfectCircuitItem</oreDict>
 		</output>
 	</Recipe>
+    
     <Recipe timeRequired="900" power="256">
 		<input>
 			<oreDict>circuitPlateNANDMemory;12</oreDict>
             <oreDict>circuitPlateRandomAccessMemory;4</oreDict>
-            <oreDict>wirePGMAny;2</oreDict>
+            <oreDict>wirePlatinum;2</oreDict>
             <oreDict>solderItem;4</oreDict>
             <oreDict>circuitBoardPlastic</oreDict>
             <itemStack>mekanism:controlcircuit</itemStack>
@@ -219,6 +222,40 @@
         </input>
 		<output>
 			<itemStack>advancedrocketry:ic;1;1</itemStack>
+		</output>
+	</Recipe>
+    
+    <Recipe timeRequired="450" power="256">
+		<input>
+			<oreDict>circuitPlateIntegratedCircuit;4</oreDict>
+            <itemStack>immersiveengineering:wirecoil;4;5</itemStack>
+            <oreDict>solderItem;4</oreDict>
+            <oreDict>circuitBoardPlastic</oreDict>
+        </input>
+		<output>
+			<itemStack>logisticspipes:chip_fpga;8</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="450" power="256">
+		<input>
+			<oreDict>circuitPlateIntegratedCircuit;4</oreDict>
+            <oreDict>wireElectrum;2</oreDict>
+            <oreDict>solderItem;4</oreDict>
+            <oreDict>circuitBoardPlastic</oreDict>
+        </input>
+		<output>
+			<itemStack>logisticspipes:chip_basic;4</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="450" power="256">
+		<input>
+			<oreDict>circuitPlateCentralProcessingUnit;4</oreDict>
+            <oreDict>wireSilver;2</oreDict>
+            <oreDict>solderItem;4</oreDict>
+            <oreDict>circuitBoardPlastic</oreDict>
+        </input>
+		<output>
+			<itemStack>logisticspipes:chip_advanced;4</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

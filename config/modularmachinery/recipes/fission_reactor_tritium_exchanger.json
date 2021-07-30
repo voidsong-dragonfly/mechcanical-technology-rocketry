@@ -1,18 +1,18 @@
 {
     "machine": "fission_reactor_tritium_collector",
     "registryName": "fission_reactor_tritium_collector",
-    "recipeTime": 50,
+    "recipeTime": 500000,
     "requirements": [
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "lithiatedwater",
+            "fluid": "liquidlithium",
             "amount": 0
         },
         {
             "type": "fluid",
             "io-type": "output",
-            "fluid": "processedlithiatedwater",
+            "fluid": "liquidtritium",
             "amount": 0
         }
     ]

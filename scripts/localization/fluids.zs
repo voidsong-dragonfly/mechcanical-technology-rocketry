@@ -10,13 +10,10 @@ game.setLocalization("fluid.coldliquidoxygen", "Liquid Oxygen");
 game.setLocalization("fluid.coldliquidhydrogen", "Liquid Hydrogen");
 game.setLocalization("fluid.liquidmethane", "Liquid Methane");
 game.setLocalization("fluid.air", "Air");
-game.setLocalization("gas.air", "Pressurized Air");
+game.setLocalization("gas.nitrogengas", "Pressurized Nitrogen");
+game.setLocalization("fluid.nitrogengas", "Nitrogen");
 game.setLocalization("fluid.carbondioxide", "Carbon Dioxide");
-game.setLocalization("gas.carbondioxide", "Pressurized Carbon Dioxide");
 game.setLocalization("fluid.heatedair", "Heated Air");
-game.setLocalization("gas.heatedair", "Pressurized Heated Air");
-game.setLocalization("fluid.argon", "Argon");
-game.setLocalization("gas.argon", "Pressurized Argon");
 
 //Oil processing fluids
 game.setLocalization("fluid.desulfurisedoil", "Desulfurised Oil");
@@ -29,7 +26,6 @@ game.setLocalization("fluid.polyethene", "Molten Polyethylene");
 game.setLocalization("gas.hydrogensulfide", "Pressurized Hydrogen Sulfide");
 game.setLocalization("fluid.hydrotreatedkerosene", "Hydrotreated Kerosene");
 game.setLocalization("fluid.lowsulfurkerosene", "Low-Sulfur Kerosene");
-game.setLocalization("fluid.lowcontaminatekerosene", "Low-Contaminate Kerosene");
 game.setLocalization("fluid.rp1", "RP-1");
 
 //Gas processing fluids and gasses
@@ -59,28 +55,16 @@ game.setLocalization("fluid.moltenlithiumchloride", "Molten Lithium Chloride");
 game.setLocalization("fluid.moltencalciumchloride", "Molten Calcium Chloride");
 
 //Gasses with attached fluids
-game.setLocalization("gas.helium", "Pressurized Helium");
-game.setLocalization("gas.helium3", "Pressurized Helium-3");
 game.setLocalization("fluid.helium", "Helium");
 game.setLocalization("fluid.helium3", "Helium-3");
-game.setLocalization("gas.ammonia", "Pressurized Ammonia");
 game.setLocalization("fluid.ammonia", "Ammonia");
-game.setLocalization("gas.fluorine", "Pressurized Fluorine");
 game.setLocalization("fluid.fluorine", "Fluorine");
-
-//Nitric Acid Production
-game.setLocalization("fluid.hydrogenperoxide", "Hydrogen Peroxide");
-game.setLocalization("gas.nitrogengas", "Pressurized Nitrogen");
-game.setLocalization("fluid.nitrogengas", "Nitrogen");
-game.setLocalization("gas.nitrogendioxide", "Pressurized Nitrogen Dioxide");
-game.setLocalization("fluid.nitrogendioxide", "Nitrogen Dioxide");
-game.setLocalization("fluid.nitricacid", "Nitric Acid");
-game.setLocalization("fluid.nitricacidhydrochloride", "Nitric Acid Hydrochloride");
 
 //Stygian Acid Gas
 game.setLocalization("gas.endacid", "Pressurized Stygian Acid");
 
 //Hydrazine
+game.setLocalization("fluid.hydrogenperoxide", "Hydrogen Peroxide");
 game.setLocalization("fluid.hydrazine", "Hydrazine");
 
 //Uranium enrichment bits
@@ -95,9 +79,6 @@ game.setLocalization("fluid.uraniumhexafluoride_000", "Depleted Uranium Hexafluo
 //Reactor fluids
 game.setLocalization("fluid.hydrogendeuteride", "Hydrogen Deuteride");
 game.setLocalization("fluid.semiheavywater", "Dilute Semiheavy Water");
-game.setLocalization("fluid.lithiatedwater", "Lithiated Water");
-game.setLocalization("fluid.processedlithiatedwater", "Bombarded Lithiated Water");
-game.setLocalization("fluid.tritiatedwater", "Tritiated Water");
 game.setLocalization("fluid.superheatedwater", "Superheated Water");
 game.setLocalization("fluid.heat", "Temperature - MK");
 
@@ -148,14 +129,7 @@ game.setLocalization("fluid.tinsulfatesolution", "Tin Sulfate Solution");
 game.setLocalization("fluid.impuremoltentin", "Impure Molten Tin");
 //Lead Processing
 game.setLocalization("fluid.moltenlead", "Molten Lead");
-game.setLocalization("fluid.moltensilver", "Molten Silver");
 //Titanium Processing
 game.setLocalization("fluid.titaniumtetrachloride", "Titanium Tetrachloride");
-//Platinum Processing
-game.setLocalization("fluid.nitricacidhydrochloridept", "Nitric Acid Hydrochloride - Dissolved PGM - Pt");
-game.setLocalization("fluid.nitricacidhydrochlorideir", "Nitric Acid Hydrochloride - Dissolved PGM - Ir");
-game.setLocalization("fluid.nitricacidhydrochlorideptprocessed", "Nitric Acid Hydrochloride - Dissolved Ir & Os - Pt");
-game.setLocalization("fluid.nitricacidhydrochlorideirprocessed", "Nitric Acid Hydrochloride - Dissolved Ir & Os - Ir");
-game.setLocalization("fluid.osacidicsolution", "Osmium Acidic Solution");
 //Zirconium processing
 game.setLocalization("fluid.zirconiumtetrachloride", "Zirconium Tetrachloride");

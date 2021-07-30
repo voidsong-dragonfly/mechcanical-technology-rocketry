@@ -25,7 +25,6 @@ create_fluid("liquidair", "8FD0FF", 58, 870, 250);
 create_fluid("coldliquidoxygen", "61CFFE", 90, 1140, 250);
 create_fluid("coldliquidhydrogen", "EAF7F5", 20, 70, 250);
 create_fluid("liquidmethane", "E6E6FF", 90, 1140, 250);
-create_gas("argon", "97D8DF");
 create_gas("air", "C1E6FF");
 create_gas("carbondioxide", "FFFFFF");
 create_gas("heatedair", "FFCEB7");
@@ -35,13 +34,7 @@ create_gas("helium3", "E3FFFE");
 create_gas("helium", "E3FFFE");
 create_gas("ammonia", "B3CDE2");
 create_gas("nitrogengas", "DFE5FE");
-create_gas("nitrogendioxide", "D95E4C");
 create_gas("fluorine", "CEBD89");
-
-//Nitric Acid Production
-create_fluid("hydrogenperoxide", "DBF1FF", 300, 1540, 1260);
-create_fluid("nitricacid", "FAFDE7", 300, 1510, 1000);
-create_fluid("nitricacidhydrochloride", "D95E4C", 300, 1210, 1000);
 
 //Oil Processing fluids
 //Oil is special to make it look like IP oil
@@ -68,7 +61,6 @@ create_fluid("dilutedsulfuricacid", "755C27", 300, 1000, 1000);
 create_solid_fluid("polyethene", "FFFFFF", 400, 800, 2250);
 create_fluid("hydrotreatedkerosene", "FFF4D1", 300, 810, 750);
 create_fluid("lowsulfurkerosene", "FFF4D1", 300, 810, 750);
-create_fluid("lowcontaminatekerosene", "FFE3D1", 300, 810, 750);
 create_fluid("rp1", "EB2045", 300, 850, 750);
 
 //Gas processing fluids
@@ -83,6 +75,7 @@ create_gas("crackedethene", "EACCF9");
 create_gas("crackedmethane", "E6E6FF");
 
 //Hydrazine
+create_fluid("hydrogenperoxide", "DBF1FF", 300, 1540, 1260);
 create_fluid("hydrazine", "B3C4E2", 300, 1020, 1000);
 
 //Molten Magnesium, Lithium, and Calcium Chloride, and Molten Magnesium
@@ -101,9 +94,6 @@ create_fluid("richbrine", "D6CC91", 300, 1000, 1000);
 //Reactor fluids 7079E0
 create_gas("hydrogendeuteride", "FE9393");
 create_fluid("semiheavywater", "374399", 300, 1050, 1000);
-create_fluid("lithiatedwater", "7079E0", 300, 1000, 1000);
-create_fluid("processedlithiatedwater", "7099E0", 300, 1000, 1000);
-create_fluid("tritiatedwater", "70BFE0", 300, 1000, 1000);
 create_fluid("superheatedwater", "609EED", 1500, 1000, 1000);
 create_fluid("heat", "EC422E", 1000000, 1000, 1000);
 
@@ -163,14 +153,7 @@ create_fluid("tinsulfatesolution", "6E6D31", 300, 2000, 1000);
 create_molten_fluid("impuremoltentin", "F2E9E0", 1800, 7000, 10000);
 //Lead processing fluids
 create_molten_fluid("moltenlead", "404046", 1800, 10600, 10000);
-create_molten_fluid("moltensilver", "95A2A7", 1200, 9320, 10000);
 //Titanium processing
 create_gas("titaniumtetrachloride", "E7EBC8");
 //Zirconium processing
 create_gas("zirconiumtetrachloride", "E7EBC8");
-//Platinum processing fluids
-create_fluid("nitricacidhydrochloridept", "D95E4C", 300, 1210, 1000);
-create_fluid("nitricacidhydrochlorideir", "D95E4C", 300, 1210, 1000);
-create_fluid("nitricacidhydrochlorideptprocessed", "D95E4C", 300, 1210, 1000);
-create_fluid("nitricacidhydrochlorideirprocessed", "D95E4C", 300, 1210, 1000);
-create_fluid("osacidicsolution", "82802B", 300, 1820, 1000);

@@ -72,7 +72,7 @@ game.setLocalization("tile.contenttweaker.gold_dust_block.name", "Compressed Gol
 game.setLocalization("tile.contenttweaker.silver_dust_block.name", "Compressed Silver Grit");
 game.setLocalization("tile.contenttweaker.platinum_dust_block.name", "Compressed Platinum Grit");
 game.setLocalization("tile.contenttweaker.iridium_dust_block.name", "Compressed Iridium Grit");
-game.setLocalization("tile.contenttweaker.osmium_dust_block.name", "Compressed Osmium Grit");
+game.setLocalization("tile.contenttweaker.uranium_dust_block.name", "Compressed Uranium Dioxide Grit");
 game.setLocalization("tile.contenttweaker.tungsten_dust_block.name", "Compressed Tungsten Grit");
 game.setLocalization("tile.contenttweaker.titanium_dust_block.name", "Compressed Titanium Grit");
 game.setLocalization("tile.contenttweaker.niobium_dust_block.name", "Compressed Niobium Grit");
@@ -93,8 +93,7 @@ game.setLocalization("tile.contenttweaker.end_gravel.name", "Endstone Gravel");
 
 //Ore processing byproduct blocks
 game.setLocalization("tile.contenttweaker.crushed_ore_spoils.name", "Crushed Ore Spoils");
-game.setLocalization("tile.contenttweaker.red_mud_sludge.name", "Red Mud Sludge");
-game.setLocalization("tile.contenttweaker.calcined_red_mud.name", "Calcined Red Mud");
+game.setLocalization("tile.contenttweaker.red_mud.name", "Red Mud");
 game.setLocalization("tile.contenttweaker.spent_red_mud.name", "Spent Red Mud");
 game.setLocalization("tile.contenttweaker.uranium_tailings.name", "Uranium Tailings");
 

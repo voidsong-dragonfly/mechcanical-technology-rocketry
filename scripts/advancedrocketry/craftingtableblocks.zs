@@ -79,7 +79,7 @@ recipes.addShaped(<advancedrocketry:guidancecomputer>,
 recipes.remove(<advancedrocketry:planetholoselector>);
 recipes.addShaped(<advancedrocketry:planetholoselector>,
  [[<mekanism:polyethene:3>, <quark:iron_button>, <mekanism:polyethene:3>],
- [<quark:iron_button>, <ore:lensGlass>, <quark:iron_button>],
+ [<quark:iron_button>, <ore:itemLens>, <quark:iron_button>],
  [<mekanism:polyethene:3>, <advancedrocketry:guidancecomputer>, <mekanism:polyethene:3>]]);
  
 //Make satellite monitor and rocket monitor not take the (now significantly more expensive) optical sensors
@@ -164,24 +164,20 @@ recipes.addShaped(<advancedrocketry:forcefieldprojector>,
 //Force field slight recipe tweak
 recipes.remove(<advancedrocketry:vacuumlaser>);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
- [[<mekanism:polyethene:2>, <ore:lensGlass>, <mekanism:polyethene:2>],
+ [[<mekanism:polyethene:2>, <ore:itemLens>, <mekanism:polyethene:2>],
  [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
  [<mekanism:polyethene:2>, <liquid:helium> * 1000, <mekanism:polyethene:2>]]);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
- [[<mekanism:polyethene:2>, <ore:lensGlass>, <mekanism:polyethene:2>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
- [<mekanism:polyethene:2>, <liquid:argon> * 1000, <mekanism:polyethene:2>]]);
-recipes.addShaped(<advancedrocketry:vacuumlaser>,
- [[<mekanism:polyethene:2>, <ore:lensGlass>, <mekanism:polyethene:2>],
+ [[<mekanism:polyethene:2>, <ore:itemLens>, <mekanism:polyethene:2>],
  [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
  [<mekanism:polyethene:2>, <liquid:carbondioxide> * 1000, <mekanism:polyethene:2>]]);
  
 //Make Warp Core recipe slightly more involved
 recipes.remove(<advancedrocketry:warpcore>);
 recipes.addShaped(<advancedrocketry:warpcore>,
- [[<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>],
- [<ore:circuitUltimate>, <ore:frameTitanium>, <ore:circuitUltimate>],
- [<ore:ingotRefinedObsidian>, <ore:circuitUltimate>, <ore:ingotRefinedObsidian>]]);
+ [[<ore:ingotTitaniumIridium>, <ore:circuitUltimate>, <ore:ingotTitaniumIridium>],
+ [<ore:circuitUltimate>, <ore:frameTitaniumIridiumAlloy>, <ore:circuitUltimate>],
+ [<ore:ingotTitaniumIridium>, <ore:circuitUltimate>, <ore:ingotTitaniumIridium>]]);
 
 //Make Launchpad require steel
 recipes.remove(<advancedrocketry:launchpad>);
@@ -196,9 +192,9 @@ recipes.remove(<advancedrocketry:drill>);
 
 //Centrifuge Cylinder Shell
 recipes.addShaped(<ore:machineCasingCentrifugeCylinderShell>.firstItem,
- [[<ore:plateTitanium>, <ore:scaffoldingPanelTitanium>, <ore:plateTitanium>],
- [<ore:plateTitanium>, null, <ore:plateTitanium>],
- [<ore:plateTitanium>, <ore:scaffoldingPanelTitanium>, <ore:plateTitanium>]]);
+ [[<ore:plateTitaniumAluminide>, <ore:scaffoldingPanelAluminiumMagnesiumTitanide>, <ore:plateTitaniumAluminide>],
+ [<ore:plateTitaniumAluminide>, null, <ore:plateTitaniumAluminide>],
+ [<ore:plateTitaniumAluminide>, <ore:scaffoldingPanelAluminiumMagnesiumTitanide>, <ore:plateTitaniumAluminide>]]);
 recipes.addShaped(<ore:machineCasingCentrifugeCylinderShell>.firstItem,
  [[<ore:plateMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, <ore:plateMaragingSteel>],
  [<ore:plateMaragingSteel>, null, <ore:plateMaragingSteel>],

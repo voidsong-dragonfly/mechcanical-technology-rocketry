@@ -7,13 +7,13 @@
         {
             "type": "item",
             "io-type": "input",
-            "item": "contenttweaker:material_part@203",
+            "item": "contenttweaker:material_part@165",
             "amount": 9
         },
         {
             "type": "item",
             "io-type": "output",
-            "item": "contenttweaker:material_part@204",
+            "item": "contenttweaker:material_part@166",
             "amount": 9
         },
         {

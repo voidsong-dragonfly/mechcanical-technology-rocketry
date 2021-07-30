@@ -1,5 +1,6 @@
 //Import
 import crafttweaker.formatting.IFormattedText;
+import crafttweaker.item.ITooltipFunction;
 
 
 
@@ -89,6 +90,10 @@ game.setLocalization("item.dirtyTinDust.name", "Tin Ore Dust");
 game.setLocalization("item.dirtySilverDust.name", "Silver Ore Dust");
 game.setLocalization("item.dirtyLeadDust.name", "Lead Ore Dust");
 
+//Redone alloys & materials
+game.setLocalization("material.TitaniumAluminide.name", "Aluminium Magnesium Titanide");
+game.setLocalization("material.Copper.name", "Annealed Copper");
+
 //Induction Tablet
 <ore:inductionTabletItem>.firstItem.addShiftTooltip("A Lithium-Ion battery cell designed for long life, large storage, and a slim profile. Many of these can be slotted into a casing, along with a circuit to control them, to make an induction cell. Note that by being designed for an Induction Matrix, they are theyfore not able to hold a charge outside of one.", "Hold" ~ format.darkBlue(" LSHIFT ") ~ format.gray("for details."));
 
@@ -100,6 +105,7 @@ game.setLocalization("tile.alternatingflux.connector.transformer_af.name", "HVDC
 //Items
 game.setLocalization("item.alternatingflux.wirecoil.af.name", "HVDC Wire Coil");
 game.setLocalization("itemGroup.alternatingflux", "HVDC");
+game.setLocalization("tile.immersiveengineering.metal_decoration0.coil_mv.name", "Medium-Voltage Coil Block");
 //Manual stuff is in lang file because it didn't work here
 
 //Rustic stone pillar to Fission Reactor Fuel Assembly Channel
@@ -143,6 +149,31 @@ game.setLocalization("tile.immersiveposts.fence_uranium.name", "Uranium Dioxide 
 game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("index.page_0_entry.13", "Uranium Dioxide");
+
+//Rename Constantan items to Tungsten items
+game.setLocalization("tile.immersiveengineering.storage.constantan.name", "Block of Tungsten");
+game.setLocalization("tile.immersiveengineering.storage_slab.constantan.name", "Tungsten Slab");
+game.setLocalization("tile.immersiveengineering.sheetmetal.constantan.name", "Tungsten Sheetmetal");
+game.setLocalization("tile.immersiveengineering.sheetmetal_slab.constantan.name", "Tungsten Sheetmetal Slab");
+game.setLocalization("item.immersiveengineering.metal.ingot_constantan.name", "Tungsten Ingot");
+game.setLocalization("item.immersiveengineering.metal.dust_constantan.name", "Tungsten Grit");
+game.setLocalization("item.immersiveengineering.metal.nugget_constantan.name", "Tungsten Nugget");
+game.setLocalization("item.immersiveengineering.metal.plate_constantan.name", "Tungsten Plate");
+
+game.setLocalization("tile.immersiveposts.constantanpost.name", "Tungsten Post");
+game.setLocalization("tile.immersiveposts.fence_constantan.name", "Tungsten Fence");
+game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Tungsten Rod");
+game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Tungsten Rod");
+
+game.setLocalization("item.alternatingflux.material.wire_constantan.name", "Tungsten Wire");
+
+game.setLocalization("ie.manual.entry.alloys0", "Mixing dusts creates an alloy blend that can then be smelted into alloyed ingots. Nickel and copper have thermo-electric properties and are used in creating the <link;generator;§o§nthermoelectric §o§ngenerator§r;1> and electrum is an excellent electric conductor used in circuitry.");
+
+//Osmium to LEU rename
+game.setLocalization("tile.BasicBlock.OsmiumBlock.name", "Lightly Enriched Uranium Dioxide Block");
+game.setLocalization("item.osmiumDust.name", "Lightly Enriched Uranium Dioxide Dust");
+game.setLocalization("item.osmiumIngot.name", "Lightly Enriched Uranium Dioxide Ingot");
+game.setLocalization("item.osmiumNugget.name", "Lightly Enriched Uranium Dioxide Nugget");
 
 //Modular Machinery hatches
 game.setLocalization("tile.modularmachinery.blockinputbus.tiny.name", "Fission Reactor Fuel Bundle Holder Input");

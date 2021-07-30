@@ -33,14 +33,16 @@ game.setLocalization("contenttweaker.part.wafer", "%s Wafer");
 game.setLocalization("contenttweaker.part.circuitplate", "%s Circuit Plate");
 game.setLocalization("contenttweaker.part.etchingplate", "%s Etching Plate");
 game.setLocalization("contenttweaker.part.preparedwafer", "Prepared %s Wafer");
-game.setLocalization("contenttweaker.part.etchedwafer", "Etched %s Wafer");
 //New parts - circuit parts
 game.setLocalization("contenttweaker.part.processorcrystal", "%s Processor Crystal");
-game.setLocalization("contenttweaker.part.naquadahprocessorcrystal", "%s Naquadah Processor Crystal");
+game.setLocalization("contenttweaker.part.grapheneprocessorcrystal", "%s Graphene Processor Crystal");
 game.setLocalization("contenttweaker.part.perfectcircuit", "Perfect Circuit");
 game.setLocalization("contenttweaker.part.circuitboard", "%s Circuit Board");
 game.setLocalization("contenttweaker.part.smd", "SMD %s");
 game.setLocalization("contenttweaker.part.gpsunit", "GPS Unit");
+game.setLocalization("contenttweaker.part.circuitdesignic", "Integrated Circuit Design");
+game.setLocalization("contenttweaker.part.circuitdesigncpu", "Central Processing Unit Design");
+game.setLocalization("contenttweaker.part.circuitdesignmemory", "Memory Unit Design");
 game.setLocalization("contenttweaker.part.solder", "Solder");
 //New parts - fuel rods
 game.setLocalization("contenttweaker.part.fuelbundle", "%s Fuel Rod Bundle");
@@ -61,8 +63,6 @@ game.setLocalization("contenttweaker.part.pressurizedheliumtank", "Pressurized H
 game.setLocalization("contenttweaker.part.fueltankshell", "Fuel Tank Shell");
 game.setLocalization("contenttweaker.part.reactionwheel", "Reaction Wheel");
 game.setLocalization("contenttweaker.part.solarpanel", "Photovoltaic Cell Panel");
-game.setLocalization("contenttweaker.part.mirrorarray", "Mirror Array Panel");
-game.setLocalization("contenttweaker.part.collectionarray", "Collection Array");
 //New parts - molds, rods, and dies
 game.setLocalization("contenttweaker.part.metalpressmold", "Metal Press Mold: %s");
 game.setLocalization("contenttweaker.part.heavymetalpressdie", "Heavy Metal Press Die: %s");

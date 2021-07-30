@@ -91,17 +91,9 @@ recipes.addShaped(<logisticspipes:pipe_transport_basic>,
  [<ore:paneGlass>, null, <ore:paneGlass>],
  [<ore:stickCopper>, <ore:paneGlass>, <ore:stickCopper>]]);
 recipes.addShaped(<logisticspipes:pipe_transport_basic>,
- [[<ore:stickCopper>, <ore:plateGlass>, <ore:stickCopper>],
- [<ore:plateGlass>, null, <ore:plateGlass>],
- [<ore:stickCopper>, <ore:plateGlass>, <ore:stickCopper>]]);
-recipes.addShaped(<logisticspipes:pipe_transport_basic>,
  [[<ore:stickAluminum>, <ore:paneGlass>, <ore:stickAluminum>],
  [<ore:paneGlass>, null, <ore:paneGlass>],
  [<ore:stickAluminum>, <ore:paneGlass>, <ore:stickAluminum>]]);
-recipes.addShaped(<logisticspipes:pipe_transport_basic>,
- [[<ore:stickAluminum>, <ore:plateGlass>, <ore:stickAluminum>],
- [<ore:plateGlass>, null, <ore:plateGlass>],
- [<ore:stickAluminum>, <ore:plateGlass>, <ore:stickAluminum>]]);
 recipes.addShaped(<logisticspipes:pipe_basic>,
  [[<logisticspipes:chip_basic>],
  [<logisticspipes:pipe_transport_basic>],
@@ -150,19 +142,6 @@ recipes.addShaped(<logisticspipes:pipe_firewall>,
  [<logisticspipes:pipe_basic>]]);
  
 //Item recipes
-//Chips
-recipes.addShaped(<logisticspipes:chip_fpga> * 8,
- [[<immersiveengineering:wirecoil:5>, <ore:circuitPlateIntegratedCircuit>, <immersiveengineering:wirecoil:5>],
- [<ore:circuitPlateIntegratedCircuit>, <ore:circuitBoardPlastic>, <ore:circuitPlateIntegratedCircuit>],
- [<immersiveengineering:wirecoil:5>, <ore:circuitPlateIntegratedCircuit>, <immersiveengineering:wirecoil:5>]]);
-recipes.addShaped(<logisticspipes:chip_basic> * 4,
- [[<ore:wireCopper>, <ore:circuitPlateIntegratedCircuit>, <ore:wireCopper>],
- [<ore:circuitPlateIntegratedCircuit>, <ore:circuitBoardPlastic>, <ore:circuitPlateIntegratedCircuit>],
- [<ore:wireCopper>, <ore:circuitPlateIntegratedCircuit>, <ore:wireCopper>]]);
-recipes.addShaped(<logisticspipes:chip_advanced> * 4,
- [[<ore:wireElectrum>, <ore:circuitPlateCentralProcessingUnit>, <ore:wireElectrum>],
- [<ore:circuitPlateCentralProcessingUnit>, <ore:circuitBoardPlastic>, <ore:circuitPlateCentralProcessingUnit>],
- [<ore:wireElectrum>, <ore:circuitPlateCentralProcessingUnit>, <ore:wireElectrum>]]);
 //Modules
 recipes.addShaped(<logisticspipes:module_blank>,
  [[<ore:circuitBoardPlastic>, <ore:wireElectrum>],

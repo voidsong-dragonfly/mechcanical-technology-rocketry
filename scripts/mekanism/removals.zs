@@ -106,10 +106,9 @@ removeAndHide(<mekanism:obsidiantnt>);
 //Remove gas upgrades, use the full amount and produce it, no skimping here
 removeAndHide(<mekanism:gasupgrade>);
 
-//Remove unrealistic item->gas conversions, readd osmium->gas conversion
+//Remove unrealistic item->gas conversions
 //Because seriously, who took a look at flint and said "you know what? you can get pure O2 out of that super easily"
 GasConversion.unregisterAll();
-GasConversion.register(<ore:ingotOsmium>, <gas:liquidosmium> * 200);
 
 //Remove handcrafting of HDPE and move it to plastic extruder
 removeAndHide(<mekanism:polyethene:1>);

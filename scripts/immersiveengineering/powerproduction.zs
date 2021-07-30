@@ -77,3 +77,6 @@ HeatExchanger.addRecipe(<liquid:steam> * 5000, <liquid:pahoehoelava> * 400, <liq
 HeatExchanger.addRecipe(<liquid:highpressuresteam> * 4500, <liquid:distwater> * 1000, <liquid:water> * 500, <liquid:superheatedwater> * 1000, 320, 10);
 HeatExchanger.addRecipe(<liquid:highpressuresteam> * 5000, <liquid:distwater> * 1000, <liquid:distwater> * 500, <liquid:superheatedwater> * 1000, 320, 10);
 HeatExchanger.addRecipe(<liquid:distwater> * 250, <liquid:hot_spring_water> * 4500, <liquid:exhauststeam> * 5000, <liquid:water> * 4500, 160, 5);
+
+//TEG
+mods.immersiveengineering.Thermoelectric.addTemperatureSource(<ore:blockLightlyEnrichedUraniumDioxide>, 3000);

@@ -51,9 +51,9 @@ Excavator.addMineral("Chalcopyrite", 30, 0.05, ["cobblestone", "gravel", "dirt",
 Excavator.addMineral("Laterite", 20, 0.05, ["cobblestone", "gravel", "dirt", "oreBauxite", "oreIron", "oreIlmenite"], [0.41666666666666, 0.2083333333333333333, 0.041666666666666, 0.775, 0.2, 0.025], [0], false);
 //Medium (40% ore)
 Excavator.addMineral("Banded Iron", 25, 0.1, ["cobblestone", "gravel", "dirt", "oreIron"], [1.0, 0.375, 0.125, 1.0], [0], false);
+Excavator.addMineral("Cinnabar", 20, 0.1, ["cobblestone", "gravel", "dirt", "oreRedstone", "dustSulfur", "oreCinnabar"], [1.0, 0.375, 0.125, 0.7, 0.15, 0.15], [0], false);
 Excavator.addMineral("Auricupride", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreCopper", "oreGold"], [1.0, 0.375, 0.125, 0.875, 0.125], [0], false);
-Excavator.addMineral("Galena", 20, 0.05, ["cobblestone", "gravel", "dirt", "oreLead", "oreSilver", "dustSulfur"], [1.0, 0.375, 0.125, 0.4, 0.4, 0.2], [0], false);
-Excavator.addMineral("Cinnabar", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreRedstone", "dustSulfur", "oreCinnabar"], [1.0, 0.375, 0.125, 0.7, 0.15, 0.15], [0], false);
+Excavator.addMineral("Galena", 15, 0.1, ["cobblestone", "gravel", "dirt", "oreLead", "oreSilver", "dustSulfur"], [1.0, 0.375, 0.125, 0.4, 0.4, 0.2], [0], false);
 Excavator.addMineral("Cassiterite", 15, 0.05, ["cobblestone", "gravel", "dirt", "oreTin"], [1.0, 0.375, 0.125, 1.0], [0], false);
 //Rare
 //Medium (40% ore)
@@ -72,4 +72,4 @@ Excavator.addMineral("Mephitic Quartizite", 20, 0.2, ["netherrack", "soulsand", 
 Excavator.addMineral("Fluoritic Quartzite", 15, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreFluorite", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);
 Excavator.addMineral("Cinnabaric Quartzite", 10, 0.4, ["netherrack", "soulsand", "oreQuartz", "oreNetherCinnabar", "oreNetherGold"], [1.25, 0.25, 0.6, 0.3, 0.1], [-1], false);
 //End
-Excavator.addMineral("Naquadah", 20, 0.2, ["endstone", "endgravel", "shatteredendstone"], [1.35, 0.55, 0.6], [1], false);
+Excavator.addMineral("Stygian Pitchblende", 20, 0.2, ["endstone", "endgravel", "shatteredendstone"], [1.35, 0.55, 0.6], [1], false);

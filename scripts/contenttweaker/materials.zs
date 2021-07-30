@@ -18,10 +18,8 @@ import mods.contenttweaker.MaterialSystem;
 
 //New parts - dust types
 MaterialSystem.getPartBuilder().setName("salt").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dust").build();
-MaterialSystem.getPartBuilder().setName("gemdust").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dust").build();
 MaterialSystem.getPartBuilder().setName("nonmetaldust").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dust").build();
 MaterialSystem.getPartBuilder().setName("dustunshaded").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("dust").build();
-MaterialSystem.getPartBuilder().setName("riffle").setPartType(MaterialSystem.getPartType("item")).setOreDictName("dustWashed").setAdditionalOreDictNames("dustDirty").build();
 MaterialSystem.getPartBuilder().setName("amalgam").setPartType(MaterialSystem.getPartType("item")).setOreDictName("amalgam").build();
 //New parts - other types
 MaterialSystem.getPartBuilder().setName("wire").setPartType(MaterialSystem.getPartType("item")).setOreDictName("wire").build();
@@ -30,15 +28,11 @@ MaterialSystem.getPartBuilder().setName("mechanicalcomponent").setPartType(Mater
 MaterialSystem.getPartBuilder().setName("scaffoldingpanel").setPartType(MaterialSystem.getPartType("item")).setOreDictName("scaffoldingPanel").build();
 MaterialSystem.getPartBuilder().setName("smallpipe").setPartType(MaterialSystem.getPartType("item")).setOreDictName("smallPipe").build();
 MaterialSystem.getPartBuilder().setName("fuelpellet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fuelPellet").build();
-MaterialSystem.getPartBuilder().setName("compressorblade").setPartType(MaterialSystem.getPartType("item")).setOreDictName("compressorBlade").build();
 MaterialSystem.getPartBuilder().setName("compressor").setPartType(MaterialSystem.getPartType("item")).setOreDictName("compressor").build();
 //New parts - nonmetal types
 MaterialSystem.getPartBuilder().setName("fiber").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fiber").build();
 MaterialSystem.getPartBuilder().setName("slag").setPartType(MaterialSystem.getPartType("item")).setOreDictName("slag").build();
-MaterialSystem.getPartBuilder().setName("fuel").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fuel").build();
 MaterialSystem.getPartBuilder().setName("sludge").setPartType(MaterialSystem.getPartType("item")).setOreDictName("sludge").build();
-MaterialSystem.getPartBuilder().setName("gemplate").setPartType(MaterialSystem.getPartType("item")).setOreDictName("plate").build();
-MaterialSystem.getPartBuilder().setName("lens").setPartType(MaterialSystem.getPartType("item")).setOreDictName("lens").build();
 //New parts - silicon types
 MaterialSystem.getPartBuilder().setName("boule").setPartType(MaterialSystem.getPartType("item")).setOreDictName("boule").build();
 MaterialSystem.getPartBuilder().setName("boulewafer").setPartType(MaterialSystem.getPartType("item")).setOreDictName("wafer").build();
@@ -46,14 +40,16 @@ MaterialSystem.getPartBuilder().setName("wafer").setPartType(MaterialSystem.getP
 MaterialSystem.getPartBuilder().setName("circuitplate").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("circuitPlate").build();
 MaterialSystem.getPartBuilder().setName("etchingplate").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("etchingPlate").build();
 MaterialSystem.getPartBuilder().setName("preparedwafer").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("preparedWafer").build();
-MaterialSystem.getPartBuilder().setName("etchedwafer").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("etchedWafer").build();
 //New parts - circuit parts
 MaterialSystem.getPartBuilder().setName("processorcrystal").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("processorCrystal").build();
-MaterialSystem.getPartBuilder().setName("naquadahprocessorcrystal").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("naquadahProcessorCrystal").build();
+MaterialSystem.getPartBuilder().setName("grapheneprocessorcrystal").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("grapheneProcessorCrystal").build();
 MaterialSystem.getPartBuilder().setName("perfectcircuit").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("perfectCircuit").build();
 MaterialSystem.getPartBuilder().setName("circuitboard").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("circuitBoard").build();
 MaterialSystem.getPartBuilder().setName("smd").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("smd").build();
 MaterialSystem.getPartBuilder().setName("gpsunit").setPartType(MaterialSystem.getPartType("item")).setOreDictName("gpsUnit").build();
+MaterialSystem.getPartBuilder().setName("circuitdesignic").setPartType(MaterialSystem.getPartType("item")).setOreDictName("circuitDesignIntegratedCircuit").build();
+MaterialSystem.getPartBuilder().setName("circuitdesigncpu").setPartType(MaterialSystem.getPartType("item")).setOreDictName("circuitDesignCentralProcessingUnit").build();
+MaterialSystem.getPartBuilder().setName("circuitdesignmemory").setPartType(MaterialSystem.getPartType("item")).setOreDictName("circuitDesignMemory").build();
 MaterialSystem.getPartBuilder().setName("solder").setPartType(MaterialSystem.getPartType("item")).setOreDictName("solder").build();
 //New parts - fuel rods
 MaterialSystem.getPartBuilder().setName("fuelbundle").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("fuelBundle").build();
@@ -74,8 +70,6 @@ MaterialSystem.getPartBuilder().setName("pressurizedheliumtank").setPartType(Mat
 MaterialSystem.getPartBuilder().setName("fueltankshell").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fuelTankShell").build();
 MaterialSystem.getPartBuilder().setName("reactionwheel").setPartType(MaterialSystem.getPartType("item")).setOreDictName("reactionWheel").build();
 MaterialSystem.getPartBuilder().setName("solarpanel").setPartType(MaterialSystem.getPartType("item")).setOreDictName("solarPanel").build();
-MaterialSystem.getPartBuilder().setName("mirrorarray").setPartType(MaterialSystem.getPartType("item")).setOreDictName("mirrorArray").build();
-MaterialSystem.getPartBuilder().setName("collectionarray").setPartType(MaterialSystem.getPartType("item")).setOreDictName("collectionArray").build();
 //New parts - molds, rods, and dies
 MaterialSystem.getPartBuilder().setName("metalpressmold").setPartType(MaterialSystem.getPartType("item")).setOreDictName("metalPressMold").build();
 MaterialSystem.getPartBuilder().setName("heavymetalpressdie").setPartType(MaterialSystem.getPartType("item")).setOreDictName("heavyMetalPressDie").build();
@@ -87,7 +81,7 @@ MaterialSystem.getPartBuilder().setName("frame").setPartType(MaterialSystem.getP
 
 
 //Order
-static order as string[] = ["ingot", "plate", "gemplate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressorblade", "compressor", "dust", "gemdust", "nonmetaldust", "dustunshaded", "salt", "riffle", "amalgam", "sludge", "slag", "fuel", "lens", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "etchedwafer", "processorcrystal", "naquadahprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block", "frame", "machinecasing"];
+static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "processorcrystal", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block", "frame", "machinecasing"];
 
 
 
@@ -98,52 +92,42 @@ static materials as Material[string] = {
     "Maraging Steel" : MaterialSystem.getMaterialBuilder().setName("Maraging Steel").setColor(Color.fromHex("ACACA6")).build(),
     "Tungstensteel" : MaterialSystem.getMaterialBuilder().setName("Tungstensteel").setColor(Color.fromHex("83919E")).build(),
     "Titanium" : MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("CCC8FA")).build(),
-    "Titanium Aluminide" : MaterialSystem.getMaterialBuilder().setName("Titanium Aluminide").setColor(Color.fromHex("aec2de")).build(),
+    "Aluminium Magnesium Titanide" : MaterialSystem.getMaterialBuilder().setName("Aluminium Magnesium Titanide").setColor(Color.fromHex("aec2de")).build(),
     "Niobium Titanium Alloy" : MaterialSystem.getMaterialBuilder().setName("Niobium Titanium Alloy").setColor(Color.fromHex("DDDAFA")).build(),
     "Zirconium Niobium Alloy" : MaterialSystem.getMaterialBuilder().setName("Zirconium Niobium Alloy").setColor(Color.fromHex("999A8D")).build(),
     "Silver" : MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("d0dce4")).build(),
     "Silver Indium Alloy" : MaterialSystem.getMaterialBuilder().setName("Silver Indium Alloy").setColor(Color.fromHex("9e90ab")).build(),
     "Aluminium" : MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(Color.fromHex("b3babd")).build(),
-    "Lead" : MaterialSystem.getMaterialBuilder().setName("Lead").setColor(Color.fromHex("404453")).build(),
     "Platinum" : MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("C9E3F9")).build(),
     "Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
-    "Tungsten" : MaterialSystem.getMaterialBuilder().setName("Tungsten").setColor(Color.fromHex("5b5b5c")).build(),
     "Depleted Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranium Dioxide").setColor(Color.fromHex("363636")).build(),
-    "Lightly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium Dioxide").setColor(Color.fromHex("576258")).build(),
+    "Lightly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium Dioxide").setColor(Color.fromHex("55614c")).build(),
     "Yttrium Barium Cuprate" : MaterialSystem.getMaterialBuilder().setName("Yttrium Barium Cuprate").setColor(Color.fromHex("7e8084")).build(),
-    "Osmiridium" : MaterialSystem.getMaterialBuilder().setName("Osmiridium").setColor(Color.fromHex("608ce0")).build(),
-    "Enriched Naquadah" : MaterialSystem.getMaterialBuilder().setName("Enriched Naquadah").setColor(Color.fromHex("32785c")).build(),
-    "Neutronium" : MaterialSystem.getMaterialBuilder().setName("Neutronium").setColor(Color.fromHex("d2d5d6")).build(),
+    "Titanium Iridium Alloy" : MaterialSystem.getMaterialBuilder().setName("Titanium Iridium Alloy").setColor(Color.fromHex("d7dfe4")).build(),
+    "Annealed Copper" : MaterialSystem.getMaterialBuilder().setName("Annealed Copper").setColor(Color.fromHex("d55e28")).build(),
     //Metals, ore dust(s) only
-    "Gold" : MaterialSystem.getMaterialBuilder().setName("Gold").setColor(Color.fromHex("facd40")).build(),
     "Mercury Gold" : MaterialSystem.getMaterialBuilder().setName("Mercury Gold").setColor(Color.fromHex("8b7e43")).build(),
     "Mercury Silver" : MaterialSystem.getMaterialBuilder().setName("Mercury Silver").setColor(Color.fromHex("848b8f")).build(),
     //Metals, dust
     "Magnesium" : MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("928a89")).build(),
     "Cobalt" : MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("25436A")).build(),
     "Indium" : MaterialSystem.getMaterialBuilder().setName("Indium").setColor(Color.fromHex("433253")).build(),
-    "Gallium" : MaterialSystem.getMaterialBuilder().setName("Gallium").setColor(Color.fromHex("92929f")).build(),
     "Zirconium" : MaterialSystem.getMaterialBuilder().setName("Zirconium").setColor(Color.fromHex("caccaf")).build(),
     "Niobium" : MaterialSystem.getMaterialBuilder().setName("Niobium").setColor(Color.fromHex("bfbecc")).build(),
     "Neodymium" : MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(Color.fromHex("7e8084")).build(),
     "Yttrium" : MaterialSystem.getMaterialBuilder().setName("Yttrium").setColor(Color.fromHex("848689")).build(),
     "Barium" : MaterialSystem.getMaterialBuilder().setName("Barium").setColor(Color.fromHex("85878a")).build(),
-    "Mixed End Metals" : MaterialSystem.getMaterialBuilder().setName("Mixed End Metals").setColor(Color.fromHex("283d3b")).build(),
     "Rich Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Rich Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
-    "Naquadah" : MaterialSystem.getMaterialBuilder().setName("Naquadah").setColor(Color.fromHex("386855")).build(),
     //Nonmetal dusts
     "Stone" : MaterialSystem.getMaterialBuilder().setName("Stone").setColor(Color.fromHex("ffffff")).build(),
     "Charcoal" : MaterialSystem.getMaterialBuilder().setName("Charcoal").setColor(Color.fromHex("ffffff")).build(),
     "Magnesium Chloride" : MaterialSystem.getMaterialBuilder().setName("Magnesium Chloride").setColor(Color.fromHex("716d6c")).build(),
     "Lithium Chloride" : MaterialSystem.getMaterialBuilder().setName("Lithium Chloride").setColor(Color.fromHex("737062")).build(),
     "Calcium Chloride" : MaterialSystem.getMaterialBuilder().setName("Calcium Chloride").setColor(Color.fromHex("c4c4c4")).build(),
-    "Ammonium Chloride" : MaterialSystem.getMaterialBuilder().setName("Ammonium Chloride").setColor(Color.fromHex("9b9b9b")).build(),
     "Calcium" : MaterialSystem.getMaterialBuilder().setName("Calcium").setColor(Color.fromHex("b5b199")).build(),
     "Cinnabar" : MaterialSystem.getMaterialBuilder().setName("Cinnabar").setColor(Color.fromHex("ae2e2e")).build(),
-    "Quartz" : MaterialSystem.getMaterialBuilder().setName("Quartz").setColor(Color.fromHex("ffffff")).build(),
     "Fluorite" : MaterialSystem.getMaterialBuilder().setName("Fluorite").setColor(Color.fromHex("b18e35")).build(),
     "Ammonium Diuranate" : MaterialSystem.getMaterialBuilder().setName("Ammonium Diuranate").setColor(Color.fromHex("8e6c2b")).build(),
-    "Fine Yellowcake" : MaterialSystem.getMaterialBuilder().setName("Fine Yellowcake").setColor(Color.fromHex("7b7569")).build(),
     "Yellowcake" : MaterialSystem.getMaterialBuilder().setName("Yellowcake").setColor(Color.fromHex("69614d")).build(),
     "Uranium Tetrafluoride" : MaterialSystem.getMaterialBuilder().setName("Uranium Tetrafluoride").setColor(Color.fromHex("314b38")).build(),
     "Depleted Uranyl Fluoride" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranyl Fluoride").setColor(Color.fromHex("a85f2f")).build(),
@@ -152,19 +136,8 @@ static materials as Material[string] = {
     "Alumina" : MaterialSystem.getMaterialBuilder().setName("Alumina").setColor(Color.fromHex("828282")).build(),
     "Rutile" : MaterialSystem.getMaterialBuilder().setName("Rutile").setColor(Color.fromHex("68504f")).build(),
     "Niobium Pentoxide" : MaterialSystem.getMaterialBuilder().setName("Niobium Pentoxide").setColor(Color.fromHex("737678")).build(),
-    "Ammonium Chloroplatinate" : MaterialSystem.getMaterialBuilder().setName("Ammonium Chloroplatinate").setColor(Color.fromHex("7f372a")).build(),
-    "Hydrated Tungsten Trioxide" : MaterialSystem.getMaterialBuilder().setName("Hydrated Tungsten Trioxide").setColor(Color.fromHex("a9ae36")).build(),
     "Tungsten Trioxide" : MaterialSystem.getMaterialBuilder().setName("Tungsten Trioxide").setColor(Color.fromHex("787957")).build(),
-    //Nonmetal gems
-    "Emerald" : MaterialSystem.getMaterialBuilder().setName("Emerald").setColor(Color.fromHex("43ba67")).build(),
-    "Glass" : MaterialSystem.getMaterialBuilder().setName("Glass").setColor(Color.fromHex("ffffff")).build(),
-    "Diamond" : MaterialSystem.getMaterialBuilder().setName("Diamond").setColor(Color.fromHex("81c2b5")).build(),
-    "Lapis" : MaterialSystem.getMaterialBuilder().setName("Lapis").setColor(Color.fromHex("3053ac")).build(),
-    "Ruby" : MaterialSystem.getMaterialBuilder().setName("Ruby").setColor(Color.fromHex("a63535")).build(),
-    "Ender Pearl" : MaterialSystem.getMaterialBuilder().setName("Ender Pearl").setColor(Color.fromHex("1f675a")).build(),
-    "Nether Star" : MaterialSystem.getMaterialBuilder().setName("Nether Star").setColor(Color.fromHex("b3bfbb")).build(),
     //Nonmetal processed dusts
-    "Petroleum Coke" : MaterialSystem.getMaterialBuilder().setName("Petroleum Coke").setColor(Color.fromHex("ffffff")).build(),
     "Charcoal Precursor" : MaterialSystem.getMaterialBuilder().setName("Charcoal Precursor").setColor(Color.fromHex("282115")).build(),
     //Fibers
     "Bitumen" : MaterialSystem.getMaterialBuilder().setName("Bitumen").setColor(Color.fromHex("2a2a2a")).build(),
@@ -178,12 +151,10 @@ static materials as Material[string] = {
     "Lead Sinter" : MaterialSystem.getMaterialBuilder().setName("Lead Sinter").setColor(Color.fromHex("242023")).build(),
     "Niobium Ferroalloy" : MaterialSystem.getMaterialBuilder().setName("Niobium Ferroalloy").setColor(Color.fromHex("756e77")).build(),
     //Metal Sludge
-    "Platinum Rich PGM Leach" : MaterialSystem.getMaterialBuilder().setName("Platinum Rich PGM Leach").setColor(Color.fromHex("323649")).build(),
-    "Iridium Rich PGM Leach" : MaterialSystem.getMaterialBuilder().setName("Iridium Rich PGM Leach").setColor(Color.fromHex("323649")).build(),
     "Copper Derived Anode" : MaterialSystem.getMaterialBuilder().setName("Copper Derived Anode").setColor(Color.fromHex("474643")).build(),
     "Nickel Derived Anode" : MaterialSystem.getMaterialBuilder().setName("Nickel Derived Anode").setColor(Color.fromHex("434347")).build(),
     //Silicon pieces
-    "Gallium Doped Silicon" : MaterialSystem.getMaterialBuilder().setName("Gallium Doped Silicon").setColor(Color.fromHex("ffffff")).build(),
+    "Gold Doped Silicon" : MaterialSystem.getMaterialBuilder().setName("Gold Doped Silicon").setColor(Color.fromHex("ffffff")).build(),
     "Lithium Doped Silicon" : MaterialSystem.getMaterialBuilder().setName("Lithium Doped Silicon").setColor(Color.fromHex("ffffff")).build(),
     "Integrated Circuit" : MaterialSystem.getMaterialBuilder().setName("Integrated Circuit").setColor(Color.fromHex("ffffff")).build(),
     "Central Processing Unit" : MaterialSystem.getMaterialBuilder().setName("Central Processing Unit").setColor(Color.fromHex("ffffff")).build(),
@@ -193,7 +164,6 @@ static materials as Material[string] = {
     //Circuit bits
     "Raw" : MaterialSystem.getMaterialBuilder().setName("Raw").setColor(Color.fromHex("ffffff")).build(),
     "Engraved" : MaterialSystem.getMaterialBuilder().setName("Engraved").setColor(Color.fromHex("ffffff")).build(),
-    "Treated Wood" : MaterialSystem.getMaterialBuilder().setName("Treated Wood").setColor(Color.fromHex("ffffff")).build(),
     "Unprepared Plastic" : MaterialSystem.getMaterialBuilder().setName("Unprepared Plastic").setColor(Color.fromHex("ffffff")).build(),
     "Plastic" : MaterialSystem.getMaterialBuilder().setName("Plastic").setColor(Color.fromHex("ffffff")).build(),
     "Unprepared Platinum Backed Plastic" : MaterialSystem.getMaterialBuilder().setName("Unprepared Platinum Backed Plastic").setColor(Color.fromHex("ffffff")).build(),
@@ -229,11 +199,8 @@ static materials as Material[string] = {
     "Rare Earths Magnetic Coil" : MaterialSystem.getMaterialBuilder().setName("Rare Earths Magnetic Coil").setColor(Color.fromHex("ffffff")).build(),
     "Beam Control Lens" : MaterialSystem.getMaterialBuilder().setName("Beam Control Lens").setColor(Color.fromHex("ffffff")).build(),
     //Fission reactor pieces
-    "Fission Reactor Calandria Casing Shell" : MaterialSystem.getMaterialBuilder().setName("Fission Reactor Calandria Casing Shell").setColor(Color.fromHex("ffffff")).build(),
     "Fission Reactor Calandria Casing" : MaterialSystem.getMaterialBuilder().setName("Fission Reactor Calandria Casing").setColor(Color.fromHex("ffffff")).build(),
     "Fission Reactor Fuel Rod Assembly Pipe Connector" : MaterialSystem.getMaterialBuilder().setName("Fission Reactor Fuel Rod Assembly Pipe Connector").setColor(Color.fromHex("ffffff")).build(),
-    //Naquadah reactor pieces
-    "Naquadah Reactor Casing" : MaterialSystem.getMaterialBuilder().setName("Naquadah Reactor Casing").setColor(Color.fromHex("ffffff")).build(),
     //Bearings
     "Lubricated Bearing" : MaterialSystem.getMaterialBuilder().setName("Lubricated Bearing").setColor(Color.fromHex("ffffff")).build(),
     "Magnetic Bearing" : MaterialSystem.getMaterialBuilder().setName("Magnetic Bearing").setColor(Color.fromHex("ffffff")).build(),
@@ -253,55 +220,45 @@ static materials as Material[string] = {
 static parts as string[][string] = {
     //Metals
     "Steel" : ["scaffoldingpanel"],
-    "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "wire", "sheet", "scaffoldingpanel", "mechanicalcomponent", "block"],
+    "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "scaffoldingpanel", "mechanicalcomponent", "block"],
     "Tungstensteel" : ["ingot", "plate", "nugget", "dust", "scaffoldingpanel", "smallpipe", "block", "frame"],
-    "Titanium" : ["scaffoldingpanel", "smallpipe", "compressorblade", "compressor", "frame"],
-    "Titanium Aluminide" : ["scaffoldingpanel"],
+    "Titanium" : ["smallpipe"],
+    "Aluminium Magnesium Titanide" : ["scaffoldingpanel", "compressor"],
     "Niobium Titanium Alloy" : ["ingot", "nugget", "dust", "wire"],
     "Zirconium Niobium Alloy" : ["ingot", "nugget", "dust", "scaffoldingpanel", "smallpipe", "frame"],
-    "Silver" : ["wire", "riffle"],
+    "Silver" : ["wire"],
     "Silver Indium Alloy" : ["ingot", "nugget", "dust", "rod"],
     "Aluminium" : ["scaffoldingpanel"],
-    "Lead" : ["sheet"],
     "Platinum" : ["ingot", "plate", "nugget", "dust", "sheet", "wire"],
-    "Mixed Platinum Group Metal" : ["ingot", "plate", "nugget", "dust", "sheet", "wire"],
-    "Tungsten" : ["ingot", "plate", "nugget", "dust", "rod", "wire", "block"],
-    "Depleted Uranium Dioxide" : ["ingot", "plate", "nugget", "dust", "rod"],
-    "Lightly Enriched Uranium Dioxide" : ["ingot", "nugget", "dust", "rod", "fuelpellet"],
+    "Mixed Platinum Group Metal" : ["dust"],
+    "Depleted Uranium Dioxide" : ["ingot", "plate", "nugget", "dust"],
+    "Lightly Enriched Uranium Dioxide" : ["fuelpellet"],
     "Yttrium Barium Cuprate" : ["ingot", "nugget", "dust", "wire"],
-    "Osmiridium" : ["ingot", "plate", "nugget", "dust", "sheet", "smallpipe"],
-    "Enriched Naquadah" : ["ingot", "nugget", "dust", "rod", "fuelpellet"],
-    "Neutronium" : ["ingot", "plate", "nugget", "dust", "sheet", "scaffoldingpanel", "frame"],
+    "Titanium Iridium Alloy" : ["scaffoldingpanel", "frame"],
+    "Annealed Copper" : ["wire"],
     //Metals, ore dust only
-    "Gold" : ["riffle"],
     "Mercury Gold" : ["amalgam"],
     "Mercury Silver" : ["amalgam"],
     //Metals, dust
     "Magnesium" : ["dust"],
     "Cobalt" : ["dust"],
     "Indium" : ["dust"],
-    "Gallium" : ["dust"],
     "Zirconium" : ["dust"],
     "Niobium" : ["dust"],
     "Neodymium" : ["dust"],
     "Yttrium" : ["dust"],
     "Barium" : ["dust"],
-    "Mixed End Metals" : ["dust"],
     "Rich Mixed Platinum Group Metal" : ["dust"],
-    "Naquadah" : ["dust"],
     //Nonmetal dusts
     "Stone" : ["dustunshaded"],
     "Charcoal" : ["dustunshaded"],
     "Magnesium Chloride" : ["salt"],
     "Lithium Chloride" : ["salt"],
     "Calcium Chloride" : ["salt"],
-    "Ammonium Chloride" : ["salt"],
     "Calcium" : ["nonmetaldust"],
     "Cinnabar" : ["nonmetaldust"],
-    "Quartz" : ["dustunshaded"],
     "Fluorite" : ["nonmetaldust"],
     "Ammonium Diuranate" : ["nonmetaldust"],
-    "Fine Yellowcake" : ["nonmetaldust"],
     "Yellowcake" : ["nonmetaldust"],
     "Uranium Tetrafluoride" : ["nonmetaldust"],
     "Depleted Uranyl Fluoride" : ["nonmetaldust"],
@@ -310,19 +267,8 @@ static parts as string[][string] = {
     "Alumina" : ["nonmetaldust"],
     "Rutile" : ["nonmetaldust"],
     "Niobium Pentoxide" : ["nonmetaldust"],
-    "Ammonium Chloroplatinate" : ["nonmetaldust"],
-    "Hydrated Tungsten Trioxide" : ["nonmetaldust"],
     "Tungsten Trioxide" : ["nonmetaldust"],
-    //Nonmetal gems
-    "Emerald" : ["gemdust", "gemplate", "lens"],
-    "Glass" : ["gemplate", "lens"],
-    "Diamond" : ["gemplate", "lens"],
-    "Lapis" : ["gemplate", "lens"],
-    "Ruby" : ["gemplate", "lens"],
-    "Ender Pearl" : ["gemplate", "lens"],
-    "Nether Star" : ["lens"],
     //Nonmetal processed dusts
-    "Petroleum Coke" : ["dustunshaded", "fuel"],
     "Charcoal Precursor" : ["sludge"],
     //Fibers
     "Bitumen" : ["fiber"],
@@ -336,22 +282,19 @@ static parts as string[][string] = {
     "Lead Sinter" : ["slag"],
     "Niobium Ferroalloy" : ["slag"],
     //Metal Sludge
-    "Platinum Rich PGM Leach" : ["sludge"],
-    "Iridium Rich PGM Leach" : ["sludge"],
     "Copper Derived Anode" : ["sludge"],
     "Nickel Derived Anode" : ["sludge"],
     //Silicon pieces
-    "Gallium Doped Silicon" : ["boule", "boulewafer"],
+    "Gold Doped Silicon" : ["boule", "boulewafer"],
     "Lithium Doped Silicon" : ["boule", "boulewafer"],
-    "Integrated Circuit" : ["wafer", "circuitplate", "etchingplate", "preparedwafer", "etchedwafer"],
-    "Central Processing Unit" : ["wafer", "circuitplate", "etchingplate", "preparedwafer", "etchedwafer"],
+    "Integrated Circuit" : ["wafer", "circuitplate", "etchingplate", "preparedwafer"],
+    "Central Processing Unit" : ["wafer", "circuitplate", "etchingplate", "preparedwafer"],
     "Random Access Memory" : ["wafer", "circuitplate"],
     "NAND Memory" : ["wafer", "circuitplate"],
     "System On Chip" : ["wafer", "circuitplate"],
     //Circuit bits
-    "Raw" : ["processorcrystal", "naquadahprocessorcrystal"],
-    "Engraved" : ["processorcrystal", "naquadahprocessorcrystal"],
-    "Treated Wood" : ["circuitboard"],
+    "Raw" : ["processorcrystal", "grapheneprocessorcrystal"],
+    "Engraved" : ["processorcrystal", "grapheneprocessorcrystal"],
     "Unprepared Plastic" : ["circuitboard"],
     "Plastic" : ["circuitboard"],
     "Unprepared Platinum Backed Plastic" : ["circuitboard"],
@@ -387,11 +330,8 @@ static parts as string[][string] = {
     "Rare Earths Magnetic Coil" : ["machinecasing"],
     "Beam Control Lens" : ["machinecasing"],
     //Fusion reactor pieces
-    "Fission Reactor Calandria Casing Shell" : ["machinecasing"],
     "Fission Reactor Calandria Casing" : ["machinecasing"],
     "Fission Reactor Fuel Rod Assembly Pipe Connector" : ["machinecasing"],
-    //Naquadah reactor pieces
-    "Naquadah Reactor Casing" : ["machinecasing"],
     //Bearings
     "Lubricated Bearing" : ["machinecasing"],
     "Magnetic Bearing" : ["machinecasing"],
@@ -404,7 +344,7 @@ static parts as string[][string] = {
     "Carbon Fiber Flywheel Component" : ["machinecasing"],
     "Basalt Fiber Flywheel Component" : ["machinecasing"],
     //Register all the things!
-    "Item" : ["perfectcircuit", "gpsunit", "solder", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray"],
+    "Item" : ["perfectcircuit", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel"],
 };
 
 
@@ -414,12 +354,7 @@ for type, String in order {
     for material, Material in materials {
         for part, String in parts[material] {
             if (parts[material][part].contains(order[type]) && order[type].contains(parts[material][part])) {
-                if (material.contains("Coke")) {
-                    if (order[type].contains("dust")) {
-                        materials[material].registerPart(order[type]).getData().addDataValue("burn", 4000);
-                    } else
-                        materials[material].registerPart(order[type]).getData().addDataValue("burn", 3200);
-                } else if (material.contains("Charcoal") && !material.contains("Precursor")) {
+                if (material.contains("Charcoal") && !material.contains("Precursor")) {
                     materials[material].registerPart(order[type]).getData().addDataValue("burn", 2000);
                 } else if (material.contains("Fusion") || material.contains("Superconductive")) {
                     val data = materials[material].registerPart(order[type]).getData();
@@ -455,5 +390,6 @@ Electrum - f3b74a
 Constantan - ef876c
 Bronze - b88c5d
 Lithium - 
+Tungsten - 3e424b
 */
 

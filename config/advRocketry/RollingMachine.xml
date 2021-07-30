@@ -34,15 +34,6 @@
 <Recipes useDefault="false">
 	<Recipe timeRequired="120" power ="160">
 		<input>
-			<oreDict>ingotOsmiridium</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;14</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
 			<oreDict>ingotAluminum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
@@ -56,7 +47,7 @@
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;1;22</itemStack>
+			<oreDict>plateDepletedUraniumDioxide</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -92,7 +83,7 @@
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;1;24</itemStack>
+			<oreDict>platePlatinum</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -101,7 +92,7 @@
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;1;19</itemStack>
+			<itemStack>immersiveengineering:metal;1;36</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -131,6 +122,15 @@
 			<itemStack>immersiveengineering:metal;1;30</itemStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="120" power ="160">
+		<input>
+			<oreDict>ingotAnnealedCopper</oreDict>
+			<fluidStack>lubricant;300</fluidStack>
+		</input>
+		<output>
+			<itemStack>libvulpes:productplate;1;4</itemStack>
+		</output>
+	</Recipe>
 	<Recipe timeRequired="120" power ="160">
 		<input>
 			<oreDict>ingotGold</oreDict>
@@ -151,15 +151,6 @@
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
 		<input>
-			<oreDict>ingotMixedPlatinumGroupMetal</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;18</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
 			<oreDict>ingotSteel</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
@@ -173,7 +164,7 @@
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;1;15</itemStack>
+			<oreDict>plateMaragingSteel</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -192,15 +183,6 @@
 		</input>
 		<output>
 			<itemStack>immersiveengineering:metal;1;33</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
-			<oreDict>ingotNeutronium</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:material_part;1;27</itemStack>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -236,7 +218,7 @@
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
-			<itemStack>contenttweaker:material_part;1;23</itemStack>
+			<oreDict>plateTungstensteel</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
@@ -246,15 +228,6 @@
 		</input>
 		<output>
 			<itemStack>advancedrocketry:productplate;1;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
-			<oreDict>ingotConstantan</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<itemStack>immersiveengineering:metal;1;36</itemStack>
 		</output>
 	</Recipe>
     
@@ -269,7 +242,7 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="200">
 		<input>
-			<oreDict>plateCopper</oreDict>
+			<oreDict>plateAnnealedCopper</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
@@ -323,38 +296,11 @@
 	</Recipe>
     <Recipe timeRequired="150" power ="200">
 		<input>
-			<oreDict>plateMixedPlatinumGroupMetal</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<oreDict>sheetMixedPlatinumGroupMetal;2</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="150" power ="200">
-		<input>
 			<oreDict>platePlatinum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>
 			<oreDict>sheetPlatinum;2</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="150" power ="200">
-		<input>
-			<oreDict>plateOsmiridium</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<oreDict>sheetOsmiridium;2</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="150" power ="200">
-		<input>
-			<oreDict>plateNeutronium</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<oreDict>sheetNeutronium;2</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="200">

@@ -73,7 +73,7 @@ recipes.addShaped(<immersiveengineering:connector:11>,
  [<ore:ingotAluminum>, <immersiveengineering:metal_decoration0:0>, <ore:ingotAluminum>]]);
 recipes.addShaped(<alternatingflux:connector:1>,
  [[<immersiveengineering:connector:4>, null, <alternatingflux:connector:0>],
- [<ore:ingotConstantan>, <immersiveengineering:metal_decoration0:2>, <ore:ingotConstantan>],
+ [<ore:ingotAnnealedCopper>, <immersiveengineering:metal_decoration0:2>, <ore:ingotAnnealedCopper>],
  [<ore:ingotAluminum>, <ore:ingotAluminum>, <ore:ingotAluminum>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:5>,
  [[null, <ore:plateAluminum>, null],

@@ -13,8 +13,11 @@ recipes.addShaped(<mekanism:basicblock:8>,
  [<mekanism:polyethene:2>, <ore:scaffoldingSteel>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:ingotPGMAny>, <mekanism:polyethene:2>]]);
 
-//Make Osmium only arc-furnace-able
-furnace.remove(<ore:ingotOsmium>);
+//Make reinforced HDPE take magnesium
+recipes.addShaped(<mekanism:reinforcedplasticblock:15> * 4,
+ [[<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:dustMagnesium>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>]]);
 
 //Mekanism transmitter recipes, make universal cables into superconductors
 recipes.remove(<mekanism:transmitter>);
@@ -112,41 +115,37 @@ recipes.addShaped(<mekanism:machineblock2:9>,
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <engineersdecor:thick_steel_pole>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
- [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:itemLens>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
- [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "helium", Amount: 1000}), <ore:ingotSteel>]]);
+ [<ore:ingotSteel>, <liquid:helium> * 1000, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
- [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:itemLens>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
- [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "argon", Amount: 1000}), <ore:ingotSteel>]]);
-recipes.addShaped(<mekanism:machineblock2:13>,
- [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
- [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
- [<ore:ingotSteel>, <forge:bucketfilled>.withTag({FluidName: "carbondioxide", Amount: 1000}), <ore:ingotSteel>]]);
+ [<ore:ingotSteel>, <liquid:carbondioxide> * 1000, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:14>,
- [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
- [<ore:lensGlass>, <mekanism:basicblock:8>, <ore:lensGlass>],
- [<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>]]);
+ [[<ore:ingotSteel>, <ore:itemLens>, <ore:ingotSteel>],
+ [<ore:itemLens>, <mekanism:basicblock:8>, <ore:itemLens>],
+ [<ore:ingotSteel>, <ore:itemLens>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:15>,
- [[<ore:ingotSteel>, <ore:lensGlass>, <ore:ingotSteel>],
- [<ore:lensGlass>, <mekanism:basicblock:8>, <ore:lensGlass>],
- [<ore:ingotSteel>, <ore:lensEnderPearl>, <ore:ingotSteel>]]);
+ [[<ore:ingotSteel>, <ore:itemLens>, <ore:ingotSteel>],
+ [<ore:itemLens>, <mekanism:basicblock:8>, <ore:itemLens>],
+ [<ore:ingotSteel>, <portalgun:item_miniature_black_hole>, <ore:ingotSteel>]]);
 //Machine 3
 recipes.addShaped(<mekanism:machineblock3:3>,
  [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <mekanism:dictionary>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:4>,
- [[<ore:ingotSteel>, <ore:ingotConstantan>, <ore:ingotSteel>],
- [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
+ [[<ore:ingotSteel>, <ore:ingotAnnealedCopper>, <ore:ingotSteel>],
+ [<ore:ingotAnnealedCopper>, <mekanism:basicblock:8>, <ore:ingotAnnealedCopper>],
  [<ore:ingotSteel>, <ore:coilCopper>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:5>,
  [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <ore:workbench>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:6>,
- [[<ore:ingotSteel>, <ore:ingotConstantan>, <ore:ingotSteel>],
- [<ore:ingotConstantan>, <mekanism:basicblock:8>, <ore:ingotConstantan>],
+ [[<ore:ingotSteel>, <ore:ingotAnnealedCopper>, <ore:ingotSteel>],
+ [<ore:ingotAnnealedCopper>, <mekanism:basicblock:8>, <ore:ingotAnnealedCopper>],
  [<ore:ingotSteel>, <minecraft:furnace>, <ore:ingotSteel>]]);
 //Gas tank
 recipes.addShaped(<mekanism:gastank>,
@@ -161,7 +160,7 @@ recipes.addShaped(<mekanism:basicblock2:9>,
 recipes.addShaped(<mekanism:basicblock:14>,
  [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
  [<ore:circuitAdvanced>, <mekanism:basicblock:8>, <ore:circuitAdvanced>],
- [<ore:ingotSteel>, <ore:ingotConstantan>, <ore:ingotSteel>]]);
+ [<ore:ingotSteel>, <ore:ingotAnnealedCopper>, <ore:ingotSteel>]]);
  
 //Removing enriched alloys and similar from items
 //Because I don't know WHAT they were made of originally but it certainly wasn't "realism", I can tell you that much

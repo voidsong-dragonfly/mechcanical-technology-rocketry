@@ -16,20 +16,20 @@ Sieve.addRecipe(<minecraft:sand>, <contenttweaker:fine_sand>, 1, <minecraft:gold
 Sieve.addRecipe(<minecraft:sand:1>, <contenttweaker:fine_sand>, 1, <minecraft:redstone>, 0.4, <minecraft:gold_nugget>, 0.05, 40, false);
 Sieve.addRecipe(<minecraft:soul_sand>, <contenttweaker:fine_soul_sand>, 1, <minecraft:quartz>, 0.1, <minecraft:quartz>, 0.05, 40, false);
 Sieve.addRecipe(<advancedrocketry:vitrifiedsand>, <minecraft:sand>, 0.9, <quark:glass_shards>, 1, <quark:glass_shards:1>, 0.5, 40, true);
-Sieve.addRecipe(<contenttweaker:end_gravel>, <minecraft:sand>, 1.0, <ore:dustSilver>.firstItem, 0.04, <ore:dustMixedPlatinumGroupMetal>.firstItem, 0.01, 40, true);
-Sieve.addRecipe(<contenttweaker:shattered_end_stone>, <contenttweaker:end_gravel>, 0.8, <ore:dustObsidian>.firstItem, 0.5, <ore:dustMixedEndMetals>.firstItem, 0.1, 40, true);
+Sieve.addRecipe(<contenttweaker:end_gravel>, <minecraft:sand>, 1.0, <ore:dustTungsten>.firstItem, 0.04, <ore:dustMixedPlatinumGroupMetal>.firstItem, 0.01, 40, true);
+Sieve.addRecipe(<contenttweaker:shattered_end_stone>, <contenttweaker:end_gravel>, 0.8, <ore:dustUranium>.firstItem, 0.1, <ore:dustPlatinum>.firstItem, 0.03, 40, true);
 
 //Sieve ore byproduct recipes
 Sieve.addRecipe(<contenttweaker:crushed_ore_spoils>, <minecraft:gravel>, 0.2, <contenttweaker:fine_gravel>, 0.1, <ore:dustStone>.firstItem * 3, 1, 40, true);
-Sieve.addRecipe(<contenttweaker:calcined_red_mud>, <contenttweaker:spent_red_mud>, 0.75, <ore:dustRutile>.firstItem, 0.6, <ore:dustGallium>.firstItem, 0.3, 100, true);
+Sieve.addRecipe(<contenttweaker:red_mud>, <contenttweaker:spent_red_mud>, 0.75, <ore:dustRutile>.firstItem, 0.6, <mekanism:dirtydust:0>, 0.3, 100, true);
 Sieve.addRecipe(<ore:sludgeCopperDerivedAnode>.firstItem, <immersiveengineering:metal:12>, 0.3875, <immersiveengineering:metal:19>, 0.375, <ore:dustIndium>.firstItem, 0.15, 100, true);
-Sieve.addRecipe(<ore:sludgeNickelDerivedAnode>.firstItem, <immersiveengineering:metal:9>, 0.3, <immersiveengineering:metal:9>, 0.25, <ore:dustMixedPlatinumGroupMetal>.firstItem.withTag({display: {Lore: ["Platinum-Rich"]}}).withTag({metal: "platinum"}), 0.25, 100, true);
+Sieve.addRecipe(<ore:sludgeNickelDerivedAnode>.firstItem, <immersiveengineering:metal:9>, 0.3, <immersiveengineering:metal:9>, 0.25, <ore:dustMixedPlatinumGroupMetal>.firstItem, 0.25, 100, true);
 
 //Sieve ore recipes
 Sieve.addRecipe(<contenttweaker:crushed_iron_ore>, <mekanism:dirtydust> * 2, 1, <mekores:mekanismore:13>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_gold_ore>, <mekanism:dirtydust:1> * 2, 1, <mekanism:dirtydust:3>, 0.05, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_copper_ore>, <mekanism:dirtydust:3> * 2, 1, <mekanism:dirtydust:1>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
-Sieve.addRecipe(<contenttweaker:crushed_bauxite_ore>, <mekores:mekanismore:33> * 2, 1, <ore:dustGallium>.firstItem, 0.025, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
+Sieve.addRecipe(<contenttweaker:crushed_bauxite_ore>, <mekores:mekanismore:33> * 2, 1, <ore:dustIron>.firstItem, 0.025, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_lead_ore>, <mekanism:dirtydust:6> * 2, 1, <mekanism:dirtydust:5>, 0.15, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_silver_ore>, <mekanism:dirtydust:5> * 2, 1, <mekanism:dirtydust:6>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_nickel_ore>, <mekores:mekanismore:13> * 2, 1, <mekores:mekanismore:18>, 0.01, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
@@ -43,9 +43,8 @@ Sieve.addRecipe(<contenttweaker:crushed_ilmenite_ore>, <mekores:mekanismore:88> 
 Sieve.addRecipe(<contenttweaker:crushed_tungsten_ore>, <mekores:mekanismore:108> * 2, 1, <mekanism:dirtydust>, 0.15, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 
 //Sieve secondary ore recipes
-Sieve.addRecipe(<mekores:mekanismore:18>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustMixedPlatinumGroupMetal>.firstItem, 0.1667, 75, true);
-Sieve.addRecipe(<mekores:mekanismore:23>, <ore:dustStone>.firstItem, 0.75, <ore:nuggetNickel>.firstItem, 0.75, <ore:dustRichMixedPlatinumGroupMetal>.firstItem, 0.1667, 75, true);
-Sieve.addRecipe(<ore:dustMixedEndMetals>.firstItem, <ore:dustPlatinum>.firstItem, 0.5, <ore:dustTungsten>.firstItem, 0.3, <ore:dustNaquadah>.firstItem, 0.2, 75, true);
+Sieve.addRecipe(<ore:dustMixedPlatinumGroupMetal>.firstItem, <ore:dustPlatinum>.firstItem, 0.75, <ore:dustIridium>.firstItem, 0.25, <ore:nuggetMixedPlatinumGroupMetal>.firstItem, 0.875, 75, false);
+Sieve.addRecipe(<ore:dustRichMixedPlatinumGroupMetal>.firstItem, <ore:dustPlatinum>.firstItem, 0.5, <ore:dustIridium>.firstItem, 0.5, <ore:nuggetMixedPlatinumGroupMetal>.firstItem, 0.875, 75, true);
 
 //Sieve other dust recipes
 Sieve.addRecipe(<ore:dustAsh>.firstItem, <ore:dyeLightGray>.firstItem, 0.4, <ore:dyeGray>.firstItem, 0.3, <earthworks:item_quicklime>, 0.3, 40, true);
@@ -55,7 +54,7 @@ SluiceBox.addRecipe(<ore:dustStone>.firstItem, 0.75, <minecraft:clay_ball>, 0.12
 SluiceBox.addRecipe(<contenttweaker:crushed_iron_ore>, 1, <mekanism:dirtydust> * 2, 0.1, <mekores:mekanismore:13>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_gold_ore>, 1, <mekanism:dirtydust:1> * 2, 0.05, <mekanism:dirtydust:3>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_copper_ore>, 1, <mekanism:dirtydust:3> * 2, 0.1, <mekanism:dirtydust:1>, true);
-SluiceBox.addRecipe(<contenttweaker:crushed_bauxite_ore>, 1, <mekores:mekanismore:33> * 2, 0.025, <ore:dustGallium>.firstItem, true);
+SluiceBox.addRecipe(<contenttweaker:crushed_bauxite_ore>, 1, <mekores:mekanismore:33> * 2, 0.15, <mekanism:dirtydust:0>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_lead_ore>, 1, <mekanism:dirtydust:6> * 2, 0.15, <mekanism:dirtydust:5>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_silver_ore>, 1, <mekanism:dirtydust:5> * 2, 0.1, <mekanism:dirtydust:6>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_nickel_ore>, 1, <mekores:mekanismore:13> * 2, 0.01, <mekores:mekanismore:18>, true);

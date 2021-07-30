@@ -58,7 +58,19 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2,
  [<ore:stickSteel>, <immersiveengineering:metal_decoration0:1>, <ore:stickSteel>],
  [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
 
-//Make heavy engineering block entirely electrum, to match light engineering block
+//Slightly changed TEG recipe
+recipes.addShaped(<immersiveengineering:metal_device1:3>,
+ [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+ [<ore:plateNickel>, <ore:coilCopper>, <ore:plateNickel>],
+ [<ore:plateCopper>, <ore:plateNickel>, <ore:plateCopper>]]);
+
+//Slightly changed control panel creator recipe
+recipes.addShaped(<industrialwires:control_panel:3>,
+ [[<ore:stickSteel>, <immersiveengineering:material:27>, <ore:stickSteel>],
+ [<ore:stickSteel>, <immersiveengineering:drillhead>, <ore:stickSteel>],
+ [<ore:stickSteel>, <ore:plateNickel>, <ore:stickSteel>]]);
+ 
+//Make heavy engineering block entirely bronze, to match light engineering block
 recipes.remove(<immersiveengineering:metal_decoration0:5>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2,
  [[<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>],
@@ -73,11 +85,11 @@ recipes.addShaped(<magneticraft:multiblock_parts> * 2,
  [<ore:ingotMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:ingotMaragingSteel>]]);
 
 //Add in bearing recipe
-recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem,
+recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem * 2,
  [[<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>],
  [<ore:mechanicalComponentSteel>, <ore:stickSteel>, <ore:mechanicalComponentSteel>],
  [<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>]]);
-recipes.addShaped(<ore:machineCasingMagneticBearing>.firstItem,
+recipes.addShaped(<ore:machineCasingMagneticBearing>.firstItem * 2,
  [[<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>],
  [<ore:mechanicalComponentMaragingSteel>, <ore:stickMaragingSteel>, <ore:mechanicalComponentMaragingSteel>],
  [<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>]]);
@@ -87,6 +99,12 @@ recipes.remove(<immersiveengineering:wooden_device0:4>);
 recipes.addShaped(<immersiveengineering:wooden_device0:4>,
  [[<ore:gunpowder>, <ore:fiberHemp>, <ore:gunpowder>],
  [<ore:gunpowder>, <immersiveengineering:wooden_device0:1>, <ore:gunpowder>]]);
+ 
+//Fix & de-constantan AF's transformer
+recipes.addShaped(<alternatingflux:connector:1>,
+ [[<immersiveengineering:connector:4>, null, <alternatingflux:connector:0>],
+ [<ore:ingotAnnealedCopper>, <immersiveengineering:metal_decoration0:2>, <ore:ingotAnnealedCopper>],
+ [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
  
 //Give Engineer's Decor machines some more sensical recipes
 recipes.remove(<engineersdecor:panzerglass_block>);
@@ -98,15 +116,15 @@ recipes.remove(<engineersdecor:straight_pipe_valve>);
 recipes.addShaped(<engineersdecor:small_block_breaker>,
  [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
  [<ore:plateSteel>, <immersiveengineering:toolupgrade:2>, <minecraft:observer>],
- [<ore:mechanicalComponentSteel>, <ore:dustRedstone>, <ore:mechanicalComponentSteel>]]);
+ [<ore:mechanicalComponentAny>, <ore:dustRedstone>, <ore:mechanicalComponentAny>]]);
 recipes.addShaped(<engineersdecor:small_tree_cutter>,
  [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
  [<ore:plateSteel>, <advancedrocketry:sawbladeiron>, <minecraft:observer>],
- [<ore:mechanicalComponentSteel>, <ore:dustRedstone>, <ore:mechanicalComponentSteel>]]);
+ [<ore:mechanicalComponentAny>, <ore:dustRedstone>, <ore:mechanicalComponentAny>]]);
 recipes.addShaped(<engineersdecor:small_milking_machine>,
  [[<ore:plateSteel>, <ore:plateSteel>, <ore:plateSteel>],
  [<ore:plateSteel>, <immersiveengineering:metal_device1:6>, <minecraft:observer>],
- [<ore:mechanicalComponentSteel>, <immersiveengineering:metal_device0:4>, <ore:mechanicalComponentSteel>]]);
+ [<ore:mechanicalComponentAny>, <immersiveengineering:metal_device0:4>, <ore:mechanicalComponentAny>]]);
 recipes.addShaped(<engineersdecor:passive_fluid_accumulator>, 
  [[<ore:slabSheetmetalIron>, <immersiveengineering:metal_device1:6>, <ore:slabSheetmetalIron>],
  [<immersiveengineering:metal_device1:6>, <ore:mechanicalComponentAny>, <immersiveengineering:metal_device1:6>],
@@ -135,12 +153,12 @@ recipes.addShaped(<immersiveengineering:treated_wood> * 4,
  [<ore:plankWood>, <liquid:plantoil> * 1000, <ore:plankWood>],
  [null, <ore:plankWood>, null]]);
  
-//Redstone wire can also be made with silver at a lower efficiency
-recipes.addShaped(<immersiveengineering:wirecoil:5> * 2,
+//Redstone wire can also be made with silver
+recipes.addShaped(<immersiveengineering:wirecoil:5> * 4,
  [[null, <ore:wireSilver>, null],
  [<ore:dustRedstone>, <ore:stickWoodAny>, <ore:dustRedstone>],
  [null, <ore:wireSilver>, null]]);
-recipes.addShaped(<immersiveengineering:wirecoil:5> * 2,
+recipes.addShaped(<immersiveengineering:wirecoil:5> * 4,
  [[null, <ore:dustRedstone>, null],
  [<ore:wireSilver>, <ore:stickWoodAny>, <ore:wireSilver>],
  [null, <ore:dustRedstone>, null]]);
@@ -155,15 +173,15 @@ recipes.addShaped(<immersiveengineering:metal_device0:0>,
  [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:1>,
  [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
- [<ore:ingotElectrum>, <ore:itemBattery>, <ore:ingotElectrum>],
+ [<ore:ingotAnnealedCopper>, <ore:itemBattery>, <ore:ingotAnnealedCopper>],
  [<ore:plankTreatedWood>, <ore:itemBattery>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:2>,
  [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
- [<ore:ingotAluminum>, <libvulpes:battery:1>, <ore:ingotAluminum>],
+ [<ore:ingotAnnealedCopper>, <libvulpes:battery:1>, <ore:ingotAnnealedCopper>],
  [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:2>,
  [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
- [<ore:ingotSilver>, <libvulpes:battery:1>, <ore:ingotSilver>],
+ [<ore:ingotAluminum>, <libvulpes:battery:1>, <ore:ingotAluminum>],
  [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<libvulpes:battery:0>, 
  [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
@@ -239,38 +257,36 @@ recipes.addShaped(<ore:frameZirconiumNiobiumAlloy>.firstItem,
  [[null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
  [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
  [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, null]]);
-recipes.addShaped(<ore:frameTitanium>.firstItem,
- [[null, <ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>],
- [<ore:scaffoldingPanelTitanium>, null, <ore:scaffoldingPanelTitanium>],
- [<ore:scaffoldingPanelTitanium>, <ore:scaffoldingPanelTitanium>, null]]);
 recipes.addShaped(<ore:frameTungstensteel>.firstItem,
  [[null, <ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>],
  [<ore:scaffoldingPanelTungstensteel>, null, <ore:scaffoldingPanelTungstensteel>],
  [<ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>, null]]);
-recipes.addShaped(<ore:frameNeutronium>.firstItem,
- [[null, <ore:scaffoldingPanelNeutronium>, <ore:scaffoldingPanelNeutronium>],
- [<ore:scaffoldingPanelNeutronium>, null, <ore:scaffoldingPanelNeutronium>],
- [<ore:scaffoldingPanelNeutronium>, <ore:scaffoldingPanelNeutronium>, null]]);
+recipes.addShaped(<ore:frameTitaniumIridiumAlloy>.firstItem,
+ [[null, <ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
+ [<ore:scaffoldingPanelTitaniumIridiumAlloy>, null, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
+ [<ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>, null]]);
  
-//HVDC and HV changes
+//HVDC, HV, & MV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!
+//MV
+recipes.replaceAllOccurences(<ore:wireElectrum>, <ore:wireAnnealedCopper>, <immersiveengineering:wirecoil:1>);
 //HV
 recipes.addShaped(<immersiveengineering:wirecoil:2> * 4,
  [[null, <ore:wireSteel>, null],
- [<ore:wireSilver>, <ore:stickWoodAny>, <ore:wireSilver>],
+ [<ore:wireAnnealedCopper>, <ore:stickWoodAny>, <ore:wireAnnealedCopper>],
  [null, <ore:wireSteel>, null]]);
 recipes.addShaped(<immersiveengineering:wirecoil:2> * 4,
- [[null, <ore:wireSilver>, null],
+ [[null, <ore:wireAnnealedCopper>, null],
  [<ore:wireSteel>, <ore:stickWoodAny>, <ore:wireSteel>],
- [null, <ore:wireSilver>, null]]);
+ [null, <ore:wireAnnealedCopper>, null]]);
 recipes.addShaped(<immersiveengineering:connector:4> * 4,
- [[null, <ore:ingotSilver>, null],
- [<minecraft:hardened_clay>, <ore:ingotSilver>, <minecraft:hardened_clay>],
- [<minecraft:hardened_clay>, <ore:ingotSilver>, <minecraft:hardened_clay>]]);
+ [[null, <ore:ingotAnnealedCopper>, null],
+ [<minecraft:hardened_clay>, <ore:ingotAnnealedCopper>, <minecraft:hardened_clay>],
+ [<minecraft:hardened_clay>, <ore:ingotAnnealedCopper>, <minecraft:hardened_clay>]]);
 recipes.addShaped(<immersiveengineering:connector:5> * 8,
- [[null, <ore:ingotSilver>, null],
- [<immersiveengineering:stone_decoration:8>, <ore:ingotSilver>, <immersiveengineering:stone_decoration:8>],
- [<immersiveengineering:stone_decoration:8>, <ore:ingotSilver>, <immersiveengineering:stone_decoration:8>]]);
+ [[null, <ore:ingotAnnealedCopper>, null],
+ [<immersiveengineering:stone_decoration:8>, <ore:ingotAnnealedCopper>, <immersiveengineering:stone_decoration:8>],
+ [<immersiveengineering:stone_decoration:8>, <ore:ingotAnnealedCopper>, <immersiveengineering:stone_decoration:8>]]);
 //HVDC
 recipes.remove(<alternatingflux:wirecoil>);
 recipes.addShaped(<alternatingflux:wirecoil> * 4,
@@ -317,7 +333,7 @@ recipes.remove(<ore:dustSilver>);
 recipes.remove(<ore:dustNickel>);
 recipes.remove(<ore:dustUranium>);
 
-//Remove Industrial Wire IC2 wires from NEI because we do not have IC2
+//Remove Industrial Wire IC2 wires from JEI because we do not have IC2
 var industrialWiresRemovals = [<industrialwires:ic2_connector:0>,
                                <industrialwires:ic2_connector:1>,
                                <industrialwires:ic2_connector:2>,

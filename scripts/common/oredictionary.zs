@@ -50,23 +50,59 @@ import mods.immersiveengineering.BottlingMachine;
 //Soul Sand
 <ore:soulsand>.add(<minecraft:soul_sand>);
 
-//Add oredictionary to ContentTweaker petroleum items
-<ore:dustCoke>.addAll(<ore:dustPetroleumCoke>);
+//Constantan -> tungsten
+<ore:plateTungsten>.addAll(<ore:plateConstantan>);
+<ore:plateConstantan>.remove(<ore:plateTungsten>.firstItem);
+<ore:wireTungsten>.addAll(<ore:wireConstantan>);
+<ore:wireConstantan>.remove(<ore:wireTungsten>.firstItem);
+<ore:stickTungsten>.addAll(<ore:stickConstantan>);
+<ore:stickConstantan>.remove(<ore:stickTungsten>.firstItem);
+<ore:dustTungsten>.addAll(<ore:dustConstantan>);
+<ore:dustConstantan>.remove(<ore:dustTungsten>.firstItem);
+<ore:nuggetTungsten>.addAll(<ore:nuggetConstantan>);
+<ore:nuggetConstantan>.remove(<ore:nuggetTungsten>.firstItem);
+<ore:ingotTungsten>.addAll(<ore:ingotConstantan>);
+<ore:ingotConstantan>.remove(<ore:ingotTungsten>.firstItem);
+<ore:blockTungsten>.addAll(<ore:blockConstantan>);
+<ore:blockConstantan>.remove(<ore:blockTungsten>.firstItem);
+<ore:slabTungsten>.addAll(<ore:slabConstantan>);
+<ore:slabConstantan>.remove(<ore:slabTungsten>.firstItem);
+<ore:slabSheetmetalTungsten>.addAll(<ore:slabSheetmetalConstantan>);
+<ore:slabSheetmetalConstantan>.remove(<ore:slabSheetmetalTungsten>.firstItem);
+<ore:blockSheetmetalTungsten>.addAll(<ore:blockSheetmetalConstantan>);
+<ore:blockSheetmetalConstantan>.remove(<ore:blockSheetmetalTungsten>.firstItem);
+<ore:fenceTungsten>.addAll(<ore:fenceConstantan>);
+<ore:fenceConstantan>.remove(<ore:fenceTungsten>.firstItem);
+
+//Osmium -> LEU
+<ore:dustLightlyEnrichedUraniumDioxide>.addAll(<ore:dustOsmium>);
+<ore:dustOsmium>.remove(<ore:dustLightlyEnrichedUraniumDioxide>.firstItem);
+<ore:nuggetLightlyEnrichedUraniumDioxide>.addAll(<ore:nuggetOsmium>);
+<ore:nuggetOsmium>.remove(<ore:nuggetLightlyEnrichedUraniumDioxide>.firstItem);
+<ore:ingotLightlyEnrichedUraniumDioxide>.addAll(<ore:ingotOsmium>);
+<ore:ingotOsmium>.remove(<ore:ingotLightlyEnrichedUraniumDioxide>.firstItem);
+<ore:blockLightlyEnrichedUraniumDioxide>.addAll(<ore:blockOsmium>);
+<ore:blockOsmium>.remove(<ore:blockLightlyEnrichedUraniumDioxide>.firstItem);
+
+//Annealed copper
+<ore:ingotAnnealedCopper>.add(<libvulpes:productingot:4>);
+<ore:dustAnnealedCopper>.add(<libvulpes:productdust:4>);
+<ore:nuggetAnnealedCopper>.add(<libvulpes:productnugget:4>);
+<ore:plateAnnealedCopper>.add(<libvulpes:productplate:4>);
+<ore:blockAnnealedCopper>.add(<libvulpes:metal0:4>);
 
 //Combined steel oredictionary
 <ore:mechanicalComponentSteel>.add(<immersiveengineering:material:9>);
 <ore:mechanicalComponentAny>.add(<immersiveengineering:material:8>);
 <ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentSteel>);
 <ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentMaragingSteel>);
+<ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentSteel>);
+<ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentMaragingSteel>);
 
 //Platinum Group Metal Oredictionary
 <ore:dustMixedPlatinumGroupMetal>.addAll(<ore:dustRichMixedPlatinumGroupMetal>);
 <ore:ingotPGMAny>.addAll(<ore:ingotPlatinum>);
-<ore:ingotPGMAny>.addAll(<ore:ingotMixedPlatinumGroupMetal>);
-<ore:ingotPGMAny>.addAll(<ore:ingotOsmium>);
 <ore:ingotPGMAny>.addAll(<ore:ingotIridium>);
-<ore:wirePGMAny>.addAll(<ore:wirePlatinum>);
-<ore:wirePGMAny>.addAll(<ore:wireMixedPlatinumGroupMetal>);
 
 //Ore oredictionary
 <ore:oreCryolite>.add(<contenttweaker:cryolite_ore>);
@@ -84,13 +120,9 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:endgravel>.add(<contenttweaker:end_gravel>);
 
 //Lens oredictionary
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensGlass>);
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensLapis>);
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensEmerald>);
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensEnderPearl>);
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensRuby>);
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensDiamond>);
-<ore:lensPrecisionLaserEtcher>.addAll(<ore:lensNetherStar>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:circuitDesignIntegratedCircuitItem>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:circuitDesignCentralProcessingUnitItem>);
+<ore:lensPrecisionLaserEtcher>.addAll(<ore:circuitDesignMemoryItem>);
 
 //Add oredictionary to PVJ blocks
 <ore:stoneSiltstone>.add(<pvj:siltstone>);
@@ -167,7 +199,6 @@ MetalPress.removeRecipeByMold(<immersiveengineering:mold:1>);
 hide(<mekanism:ingot:4>);
 hide(<libvulpes:productingot:6>);
 hide(<mekanism:ingot:5>);
-hide(<libvulpes:productingot:4>);
 removeAndHide(<forestry:ingot_copper>);
 hide(<mekanism:ingot:6>);
 removeAndHide(<forestry:ingot_tin>);
@@ -201,7 +232,6 @@ hide(<libvulpes:productdust:1>);
 hide(<mekanism:dust:1>);
 hide(<libvulpes:productdust:2>);
 hide(<mekanism:dust:3>);
-hide(<libvulpes:productdust:4>);
 hide(<mekanism:dust:5>);
 hide(<mekanism:dust:6>);
 hide(<mekanism:dust:4>);
@@ -230,7 +260,6 @@ hide(<forestry:apatite>);
 hide(<mekanism:basicblock:5>);
 hide(<libvulpes:metal0:6>);
 hide(<mekanism:basicblock:12>);
-hide(<libvulpes:metal0:4>);
 hide(<mekanism:basicblock:13>);
 hide(<libvulpes:metal0:9>);
 removeAndHide(<forestry:charcoal>);
@@ -245,7 +274,6 @@ removeAndHide(<forestry:charcoal>);
 hide(<mekanism:nugget:4>);
 hide(<libvulpes:productnugget:6>);
 hide(<mekanism:nugget:5>);
-hide(<libvulpes:productnugget:4>);
 hide(<mekanism:nugget:6>);
 hide(<libvulpes:productnugget:9>);
 
@@ -256,8 +284,8 @@ hide(<libvulpes:productnugget:9>);
 <ore:stickWoodAny>.addAll(<ore:stickTreatedWood>);
 <ore:stickWoodAny>.addAll(<ore:stickWood>);
 hide(<libvulpes:productrod:1>);
-hide(<libvulpes:productrod:6>);
 hide(<libvulpes:productrod:4>);
+hide(<libvulpes:productrod:6>);
 
 //Plates
 <ore:plateIron>.remove(<libvulpes:productplate:1>);
@@ -269,7 +297,6 @@ hide(<libvulpes:productrod:4>);
 hide(<libvulpes:productplate:1>);
 hide(<libvulpes:productplate:2>);
 hide(<libvulpes:productplate:6>);
-hide(<libvulpes:productplate:4>);
 hide(<libvulpes:productplate:9>);
 hide(<libvulpes:productplate:3>);
 
@@ -315,8 +342,6 @@ removeAndHide(<forestry:gear_bronze>);
 <ore:ingotEquivalentIridium>.addAll(<ore:ingotIridium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:dustIridium>);
 <ore:ingotEquivalentIridium>.addAll(<ore:plateIridium>);
-<ore:ingotEquivalentOsmium>.addAll(<ore:ingotOsmium>);
-<ore:ingotEquivalentOsmium>.addAll(<ore:dustOsmium>);
 
 //Ores
 <ore:oreCopper>.remove(<mekanism:oreblock:1>);

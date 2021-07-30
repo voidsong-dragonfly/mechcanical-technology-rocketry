@@ -151,7 +151,7 @@ create_block_sound("gold_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel"
 create_block_sound("silver_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("platinum_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("iridium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
-create_block_sound("osmium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
+create_block_sound("uranium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("tungsten_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("titanium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("niobium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
@@ -175,7 +175,6 @@ create_block_sound("crushed_tungsten_ore", <blockmaterial:sand>, 0.6, 0.8, "shov
 
 //Ore processing byproduct blocks
 create_block_sound("crushed_ore_spoils", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
-create_block_sound("red_mud_sludge", <blockmaterial:sand>, 0.8, 0.8, "shovel", <soundtype:ground>, 0);
-create_block_sound("calcined_red_mud", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:sand>, 0);
+create_block_sound("red_mud", <blockmaterial:sand>, 0.8, 0.8, "shovel", <soundtype:ground>, 0);
 create_block_sound("spent_red_mud", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:sand>, 0);
 create_block_sound("uranium_tailings", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:ground>, 0);

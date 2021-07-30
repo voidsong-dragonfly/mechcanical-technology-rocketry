@@ -69,9 +69,9 @@ recipes.addShaped(<libvulpes:structuremachine>,
  [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);
 recipes.addShaped(<libvulpes:advstructuremachine>,
- [[<ore:sheetTitanium>, null, <ore:sheetTitanium>],
- [<ore:sheetTitanium>, <ore:frameTitanium>, <ore:sheetTitanium>],
- [<ore:sheetTitanium>, <ore:circuitUltimate>, <ore:sheetTitanium>]]);
+ [[<ore:sheetTitaniumAluminide>, null, <ore:sheetTitaniumAluminide>],
+ [<ore:sheetTitaniumAluminide>, <ore:scaffoldingAluminum>, <ore:sheetTitaniumAluminide>],
+ [<ore:sheetTitaniumAluminide>, <ore:circuitUltimate>, <ore:sheetTitaniumAluminide>]]);
  
 //Make holoprojector not take (expensive) optical sensors
 recipes.remove(<libvulpes:holoprojector>);

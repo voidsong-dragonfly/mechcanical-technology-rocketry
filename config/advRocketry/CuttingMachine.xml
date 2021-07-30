@@ -232,10 +232,10 @@
     
     <Recipe timeRequired="1200" power="192">
 		<input>
-			<oreDict>bouleGalliumDopedSilicon</oreDict>
+			<oreDict>bouleGoldDopedSilicon</oreDict>
         </input>
 		<output>
-			<oreDict>waferGalliumDopedSilicon;16</oreDict>
+			<oreDict>waferGoldDopedSilicon;16</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="1200" power="192">
@@ -326,14 +326,6 @@
         </input>
 		<output>
 			<oreDict>plateEnderPearl;9</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="150" power="192">
-		<input>
-			<oreDict>blockRuby</oreDict>
-        </input>
-		<output>
-			<oreDict>plateRuby;9</oreDict>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="192">

@@ -22,7 +22,6 @@ slag.addItemOutput(<immersiveengineering:material:7> * 12);
 slag.build();
 
 //Aluminium Processing
-furnace.addRecipe(<contenttweaker:calcined_red_mud>, <contenttweaker:red_mud_sludge>);
 furnace.addRecipe(<ore:dustAlumina>.firstItem, <ore:dustAluminiumHydroxide>.firstItem);
 furnace.addRecipe(<ore:dustAlumina>.firstItem, <mekores:mekanismore:33>);
 Mixer.addRecipe(<liquid:moltencryolitesolution> * 100, <liquid:moltencryolite> * 100, [<ore:dustAlumina>.firstItem], 4000);
@@ -47,7 +46,6 @@ cast_aluminium_rod.build();
 //Uranium processing
 Mixer.addRecipe(<liquid:uraniumsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<mekores:mekanismore:3>], 4000);
 furnace.addRecipe(<ore:dustYellowcake>.firstItem, <ore:dustAmmoniumDiuranate>.firstItem);
-Crusher.addRecipe(<ore:dustFineYellowcake>.firstItem, <ore:dustYellowcake>.firstItem, 2400);
 
 
 //Iron Processing
@@ -108,7 +106,6 @@ steel_rod.addItemOutput(<immersiveengineering:material:2> * 12);
 steel_rod.build();
 
 //Tungsten processing
-furnace.addRecipe(<ore:dustTungstenTrioxide>.firstItem, <ore:dustHydratedTungstenTrioxide>.firstItem);
 var tungsten_dust = newBuilder("tungsten_dust", "oxygen_converter", 400);
 tungsten_dust.addItemInput(<ore:dustTungstenTrioxide>.firstItem * 16);
 tungsten_dust.addFluidInput(<liquid:liquidhydrogen> * 4800);
@@ -168,35 +165,17 @@ var lead_ingot = newBuilder("lead_ingot", "casting_basin", 400);
 lead_ingot.addFluidInput(<liquid:moltenlead> * 1200);
 lead_ingot.addItemInput(<ore:metalPressMoldIngot>.firstItem).setChance(0);
 lead_ingot.addItemOutput(<immersiveengineering:metal:2> * 12);
-lead_ingot.addFluidOutput(<liquid:moltensilver> * 200);
 lead_ingot.build();
 var lead_plate = newBuilder("lead_plate", "casting_basin", 400);
 lead_plate.addFluidInput(<liquid:moltenlead> * 1200);
 lead_plate.addItemInput(<immersiveengineering:mold>).setChance(0);
 lead_plate.addItemOutput(<immersiveengineering:metal:32> * 12);
-lead_plate.addFluidOutput(<liquid:moltensilver> * 200);
 lead_plate.build();
 var lead_rod = newBuilder("lead_rod", "casting_basin", 200);
 lead_rod.addFluidInput(<liquid:moltenlead> * 600);
 lead_rod.addItemInput(<immersiveengineering:mold:2>).setChance(0);
 lead_rod.addItemOutput(<immersiveposts:metal_rods:2> * 12);
-lead_rod.addFluidOutput(<liquid:moltensilver> * 100);
 lead_rod.build();
-var silver_ingot = newBuilder("silver_ingot", "casting_basin", 400);
-silver_ingot.addFluidInput(<liquid:moltensilver> * 1200);
-silver_ingot.addItemInput(<ore:metalPressMoldIngot>.firstItem).setChance(0);
-silver_ingot.addItemOutput(<immersiveengineering:metal:3> * 12);
-silver_ingot.build();
-var silver_plate = newBuilder("silver_plate", "casting_basin", 400);
-silver_plate.addFluidInput(<liquid:moltensilver> * 1200);
-silver_plate.addItemInput(<immersiveengineering:mold>).setChance(0);
-silver_plate.addItemOutput(<immersiveengineering:metal:33> * 12);
-silver_plate.build();
-var silver_rod = newBuilder("silver_rod", "casting_basin", 200);
-silver_rod.addFluidInput(<liquid:moltensilver> * 600);
-silver_rod.addItemInput(<immersiveengineering:mold:2>).setChance(0);
-silver_rod.addItemOutput(<immersiveposts:metal_rods:3> * 12);
-silver_rod.build();
 
 //Titanium processing
 var rutile_dust = newBuilder("rutile_dust", "large_blast_furnace", 7200);
@@ -212,16 +191,8 @@ rutile_dust.addItemOutput(<ore:dustRutile>.firstItem * 64);
 rutile_dust.addItemOutput(<ore:dustRutile>.firstItem * 64);
 rutile_dust.build();
 
-//Platinum Processing
-Mixer.addRecipe(<liquid:nitricacidhydrochloridept> * 100, <liquid:nitricacidhydrochloride> * 100, [<ore:dustMixedPlatinumGroupMetal>.firstItem], 4000);
-Mixer.addRecipe(<liquid:nitricacidhydrochlorideir> * 100, <liquid:nitricacidhydrochloride> * 100, [<ore:dustRichMixedPlatinumGroupMetal>], 4000);
-furnace.addRecipe(<ore:ingotPlatinum>.firstItem, <ore:dustAmmoniumChloroplatinate>.firstItem);
-
-
 //Gold and silver processing
-BlastFurnace.addRecipe(<ore:dustWashedGold>.firstItem, <ore:dustDirtyGold>.firstItem, 300, null);
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:amalgamMercuryGold>.firstItem);
-BlastFurnace.addRecipe(<ore:dustWashedSilver>.firstItem, <ore:dustDirtySilver>.firstItem, 300, null);
 furnace.addRecipe(<immersiveengineering:metal:3>, <ore:amalgamMercurySilver>.firstItem);
 
 

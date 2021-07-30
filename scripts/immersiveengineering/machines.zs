@@ -21,7 +21,7 @@ import mods.immersiveengineering.AlloySmelter;
 */
 
 //Air gasses mix
-Refinery.addRecipe(<liquid:oxygen> * 100, <liquid:nitrogen> * 80, <liquid:liquidoxygen> * 20, 80);
+Refinery.addRecipe(<liquid:oxygen> * 100, <liquid:nitrogengas> * 80, <liquid:liquidoxygen> * 20, 80);
 
 //Petrochem recipes
 //Add hydrotreated oil/gas recipe
@@ -34,7 +34,6 @@ Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:
 
 //RP-1 Recipes
 Refinery.addRecipe(<liquid:hydrotreatedkerosene> * 200, <liquid:kerosene> * 200, <liquid:liquidhydrogen> * 1, 80);
-Distiller.addRecipe(<liquid:lowcontaminatekerosene> * 1000, <liquid:lowsulfurkerosene> * 1000, <forestry:ash>, 10000, 200, 0.01);
 
 //Diluted sulfuric acid -> sulfuric acid (small amount of loss)
 Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:dilutedsulfuricacid> * 1000, <mekanism:biofuel>, 250, 200, 1.0);
@@ -44,9 +43,6 @@ Distiller.addRecipe(<liquid:sulfuricacid> * 400, <liquid:nickelsulfatesolutionre
 //Distiller recipes for salt drying
 Distiller.addRecipe(<liquid:water> * 1000, <liquid:magnesiumchloridesolution> * 1000, <ore:dustMagnesiumChloride>.firstItem * 10, 200, 250, 1.0);
 Distiller.addRecipe(<liquid:water> * 1000, <liquid:lithiumchloridesolution> * 1000, <ore:dustLithiumChloride>.firstItem * 10, 200, 250, 1.0);
-
-//Lithiated water
-Mixer.addRecipe(<liquid:lithiatedwater> * 100, <liquid:water> * 100, [<ore:dustLithium>], 2000);
 
 //Concrete from slag or stone dust
 Mixer.addRecipe(<liquid:concrete> * 500, <liquid:water> * 500, [<contenttweaker:fine_sand>, <contenttweaker:fine_sand>, <ore:itemClay>, <contenttweaker:fine_gravel>], 4000);
@@ -65,7 +61,6 @@ BottlingMachine.addRecipe(<earthworks:block_concrete> * 8, <ore:gravel>, <liquid
 BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5> * 8, <ore:sand>, <liquid:concrete> * 1000);
 BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 8, <ore:dustAluminium>, <liquid:concrete> * 125);
 BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:scaffoldingSteel>, <liquid:concrete> * 125);
-BottlingMachine.addRecipe(<ore:machineCasingFissionReactorCalandriaCasing>.firstItem, <ore:machineCasingFissionReactorCalandriaCasingShell>, <liquid:concrete> * 125);
 
 //Plastic bottling machine recipes
 BottlingMachine.addRecipe(<ore:injectionMoldHDPERod>.firstItem, <immersiveengineering:mold:2>, <liquid:polyethene> * 125);
@@ -80,17 +75,18 @@ BottlingMachine.addRecipe(<ore:circuitBoardUnpreparedPlatinumBackedPlastic>.firs
 BottlingMachine.addRecipe(<libvulpes:battery>, <ore:smallBatteryHullItem>, <liquid:sulfuricacid> * 125);
 BottlingMachine.addRecipe(<ore:circuitBoardPlastic>.firstItem, <ore:circuitBoardUnpreparedPlastic>, <liquid:sulfuricacid> * 125);
 BottlingMachine.addRecipe(<ore:circuitBoardPlatinumBackedPlastic>.firstItem, <ore:circuitBoardUnpreparedPlatinumBackedPlastic>, <liquid:sulfuricacid> * 125);
-recipes.addShapeless(<ore:preparedWaferIntegratedCircuit>.firstItem, [<ore:waferGalliumDopedSilicon>, <ore:etchingPlateIntegratedCircuit>]);
-recipes.addShapeless(<ore:preparedWaferCentralProcessingUnit>.firstItem, [<ore:waferGalliumDopedSilicon>, <ore:etchingPlateCentralProcessingUnit>]);
-recipes.addShapeless(<ore:waferIntegratedCircuit>.firstItem, [<ore:etchedWaferIntegratedCircuit>.transformReplace(<ore:etchingPlateIntegratedCircuit>.firstItem)]);
-recipes.addShapeless(<ore:waferCentralProcessingUnit>.firstItem, [<ore:etchedWaferCentralProcessingUnit>.transformReplace(<ore:etchingPlateCentralProcessingUnit>.firstItem)]);
-BottlingMachine.addRecipe(<ore:etchedWaferIntegratedCircuit>.firstItem, <ore:preparedWaferIntegratedCircuit>, <liquid:sulfuricacid> * 125);
-BottlingMachine.addRecipe(<ore:etchedWaferCentralProcessingUnit>.firstItem, <ore:preparedWaferCentralProcessingUnit>, <liquid:sulfuricacid> * 125);
+recipes.addShapeless(<ore:preparedWaferIntegratedCircuit>.firstItem, [<ore:waferGoldDopedSilicon>, <ore:etchingPlateIntegratedCircuit>]);
+recipes.addShapeless(<ore:preparedWaferCentralProcessingUnit>.firstItem, [<ore:waferGoldDopedSilicon>, <ore:etchingPlateCentralProcessingUnit>]);
+recipes.addShapeless(<ore:waferIntegratedCircuit>.firstItem, [<ore:preparedWaferIntegratedCircuit>.firstItem.withTag({etched: "true"}).withLore(["§eEtched§r"]).transformReplace(<ore:etchingPlateIntegratedCircuit>.firstItem)]);
+recipes.addShapeless(<ore:waferCentralProcessingUnit>.firstItem, [<ore:preparedWaferCentralProcessingUnit>.firstItem.withTag({etched: "true"}).withLore(["§eEtched§r"]).transformReplace(<ore:etchingPlateCentralProcessingUnit>.firstItem)]);
+BottlingMachine.addRecipe(<ore:preparedWaferIntegratedCircuit>.firstItem.withTag({etched: "true"}).withLore(["§eEtched§r"]), <ore:preparedWaferIntegratedCircuit>, <liquid:hydrofluoricacid> * 125);
+BottlingMachine.addRecipe(<ore:preparedWaferCentralProcessingUnit>.firstItem.withTag({etched: "true"}).withLore(["§eEtched§r"]), <ore:preparedWaferCentralProcessingUnit>, <liquid:hydrofluoricacid> * 125);
 
 //High-teir item botting machine recipes
-BottlingMachine.addRecipe(<ore:heliumTankItem>.firstItem, <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
+BottlingMachine.addRecipe(<immersiveengineering:toolupgrade>.withTag({helium: 4000}).withLore(["Helium: 4000"]), <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
 BottlingMachine.addRecipe(<ore:supercapacitorItem>.firstItem, <ore:supercapacitorHullItem>, <liquid:distwater> * 125);
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledSuperconductorCableItem>, <liquid:liquidnitrogen> * 125);
+BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledHighCurrentSuperconductorCableItem>, <liquid:liquidnitrogen> * 100);
 BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liquid:steam> * 8000);
 
 //Cooling bottling machine recipes
@@ -113,7 +109,7 @@ BlastFurnace.addRecipe(<minecraft:netherbrick> * 12, <minecraft:netherrack> * 12
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <ore:sludgeCharcoalPrecursor>, 900);
 CokeOven.addRecipe(<ore:dustCharcoal>.firstItem, 0, <quark:black_ash>, 300);
-CokeOven.addRecipe(<ore:fuelPetroleumCoke>.firstItem, 0, <immersivepetroleum:material>, 20);
+CokeOven.addRecipe(<immersiveengineering:material:6>, 0, <immersivepetroleum:material>, 20);
 
 //Make Marx Generator only process gem ores but do it very well
 MarxGenerator.removeRecipe(<ore:oreIron>);
@@ -162,17 +158,14 @@ Crusher.addRecipe(<contenttweaker:end_gravel>, <minecraft:end_stone>, 2400);
 Crusher.addRecipe(<minecraft:gravel>, <minecraft:netherrack>, 1600, <minecraft:redstone>, 0.05);
 
 //Add petroleum related recipes
-Crusher.addRecipe(<ore:dustPetroleumCoke>.firstItem, <ore:fuelPetroleumCoke>, 2400);
 Crusher.addRecipe(<ore:dustCharcoal>.firstItem, <minecraft:coal:1>, 2400);
 Crusher.addRecipe(<mekanism:polyethene>, <mekanism:polyethene:3>, 1600);
 Crusher.addRecipe(<mekanism:polyethene> * 2, <mekanism:polyethene:2>, 1600);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:plasticblock:*>, 2400);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:slickplasticblock:*>, 2400);
-Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:reinforcedplasticblock:*>, 2400, <mekanism:dust:2>, 0.2);
+Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:reinforcedplasticblock:*>, 2400, <ore:dustMagnesium>.firstItem, 0.2);
 Crusher.addRecipe(<mekanism:polyethene> * 4, <mekanism:glowplasticblock:*>, 2400, <minecraft:glowstone_dust>, 0.3);
 Crusher.addRecipe(<contenttweaker:fine_sand>, <contenttweaker:fine_gravel>, 1600);
-BlastFurnace.addFuel(<ore:fuelPetroleumCoke>.firstItem, 1200);
-Squeezer.addRecipe(<immersiveengineering:material:18>, null, <ore:dustPetroleumCoke> * 8, 19200);
 
 //Make Insulating Glass made in the Alloy Kiln with Glass and Iron dust
 recipes.remove(<immersiveengineering:stone_decoration:8>);
@@ -203,8 +196,7 @@ Squeezer.addRecipe(<contenttweaker:end_gravel>, <liquid:helium> * 125, <minecraf
 Squeezer.addRecipe(<minecraft:obsidian>, <liquid:endacid> * 125, <stygian:endobsidian>, 25600);
 
 //Add in some extra metal press recipes
-MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 18, <ore:stickLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
-MetalPress.addRecipe(<ore:fuelPelletEnrichedNaquadah>.firstItem * 18, <ore:stickEnrichedNaquadah>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
+MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 4, <ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotLead>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotAluminum>, <immersiveengineering:mold:4>, 3600);

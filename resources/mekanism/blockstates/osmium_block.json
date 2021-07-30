@@ -1,0 +1,16 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"transform": "forge:default-block",
+		"model": "immersiveengineering:ie_pillar",
+		"textures": {
+		    "side": "mekanism:blocks/storage_uranium_side",
+		    "top": "mekanism:blocks/storage_uranium_top",
+		    "bottom": "mekanism:blocks/storage_uranium_top"
+        }
+	},
+	"variants":{
+		"normal": [{}],
+        "inventory": [{}]
+	}
+}
