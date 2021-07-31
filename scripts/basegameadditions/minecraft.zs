@@ -216,10 +216,5 @@ recipes.addShaped(<eerieentities:nether_shield>,
 <entity:pvj:pvj_duck>.addDrop(<minecraft:bone>, 0, 2);
 <entity:minecraft:wolf>.addDrop(<minecraft:bone>, 0, 2);
 <entity:pvj:pvj_coyote>.addDrop(<minecraft:bone>, 0, 2);
-//Fish
-<entity:futuremc:cod>.addDrop(<aquaculture:fish:38>, 1, 1);
-<entity:futuremc:salmon>.addDrop(<aquaculture:fish:38>, 1, 1);
-<entity:futuremc:pufferfish>.addDrop(<aquaculture:fish:38>, 1, 1);
-<entity:futuremc:tropical_fish>.addDrop(<aquaculture:fish:38>, 1, 1);
 //Tiny animals such as frogs and parrots drop no bones, and invertibrates such as squids also drop none
 */

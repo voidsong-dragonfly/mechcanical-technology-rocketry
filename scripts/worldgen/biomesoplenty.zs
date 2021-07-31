@@ -98,4 +98,3 @@ for item in biomesOfPlentyToRemove{
     
 //Add in some compat recipes and remove wierd recipes
 recipes.removeByRecipeName("biomesoplenty:coal_from_ash");
-recipes.addShapeless(<aquaculture:food>, [<biomesoplenty:seaweed>]);

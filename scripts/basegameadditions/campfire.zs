@@ -1,10 +1,7 @@
 //Import
 import mods.futuremc.Campfire;
 
-//Food campfire cooking, aquaculture
-//Campfire.addRecipe(<aquaculture:food:3>, <aquaculture:food:4>, 600);
-Campfire.addRecipe(<aquaculture:food:2>, <aquaculture:food:5>, 600);
-Campfire.addRecipe(<aquaculture:food:7>, <aquaculture:food:8>, 600);
+
 
 //Food campfire cooking, project:vibrant journeys
 Campfire.addRecipe(<pvj:raw_duck>, <pvj:cooked_duck>, 600);
