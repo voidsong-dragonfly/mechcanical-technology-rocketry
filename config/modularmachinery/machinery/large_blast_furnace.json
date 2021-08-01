@@ -10,7 +10,7 @@
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ],
-            "description": "All pipes other than direct central ones need steel scaffolding convering them",
+            "description": "All pipes on the furnace itself other than direct central ones need steel scaffolding convering them.\nAll pipes along the top line above the preheaters need scaffolding as well,\nas do the middle pipes on the preheater bodies.\nThe badly-textured conveyors are steel-scaffold covered",
             "modifier": {
                 "io": "input",
                 "target": "item",
@@ -24,45 +24,85 @@
             "x": -1,
             "y": 0,
             "z": 0,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 0,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 1,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
+                "immersivetech:metal_barrel@2"
             ]
         },
         {
             "x": -3,
             "y": 0,
             "z": 0,
+            
             "elements": [
-                "immersiveengineering:metal_decoration1@1"
+                "immersivetech:metal_barrel@2"
             ]
         },
         {
             "x": 3,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
             "y": 0,
             "z": 0,
             "elements": [
@@ -70,15 +110,148 @@
             ]
         },
         {
-            "x": -2,
-            "y": 7,
-            "z": 3,
+            "x": 5,
+            "y": 4,
+            "z": 2,
+            
             "elements": [
-                "immersiveengineering:metal_decoration2@7"
+                "immersivetech:metal_barrel@2"
             ]
         },
         {
             "x": 3,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 8,
             "y": -1,
             "z": 0,
             "elements": [
@@ -86,27 +259,152 @@
             ]
         },
         {
-            "x": -1,
-            "y": 7,
-            "z": 3,
+            "x": -8,
+            "y": 1,
+            "z": 0,
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
             "x": -2,
-            "y": 3,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "y": 5,
+            "z": 2,
+            
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": -3,
             "y": 1,
             "z": 0,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -115,114 +413,123 @@
             "x": -1,
             "y": 5,
             "z": 2,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
-            "x": 0,
-            "y": 7,
-            "z": 3,
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
             "x": -2,
             "y": 1,
             "z": 0,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            
             "elements": [
-                "immersiveengineering:metal_device1@6"
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
             "x": -1,
             "y": 3,
             "z": 1,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
             "x": 1,
-            "y": 7,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
+            "y": -1,
             "z": 0,
+            
             "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": 0,
             "y": -1,
             "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"1"},
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": 1,
             "y": 5,
             "z": 2,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": 2,
-            "y": 7,
-            "z": 3,
+            "y": 5,
+            "z": 2,
+            
             "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:sheetmetal_slab@8"
             ]
         },
         {
             "x": 1,
             "y": 3,
             "z": 1,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:sheetmetal@8"
             ]
         },
         {
-            "x": 2,
-            "y": 3,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": 1,
             "y": 1,
             "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 0,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
@@ -230,6 +537,324 @@
         {
             "x": -3,
             "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
             "z": 0,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
@@ -237,7 +862,7 @@
         },
         {
             "x": 3,
-            "y": 1,
+            "y": 2,
             "z": 0,
             "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
             "elements": [
@@ -245,1436 +870,1399 @@
             ]
         },
         {
+            "x": 5,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 0,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 5,
+            "z": 1,
+            "nbt": {"connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
             "x": -2,
-            "y": 8,
-            "z": 3,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 5,
+            "z": 1,
+            "nbt": {"connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 1,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 4,
+            "z": 0,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"5b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 5,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"5b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"5b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"13b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"13b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"5b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"5b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 5,
+            "z": 0,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal_slab@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 5,
+            "z": 0,
+            "nbt": {"connections":"5b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration1_slab@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -7,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": -1,
-            "y": 8,
-            "z": 3,
+            "y": 7,
+            "z": -7,
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
-            "x": -3,
-            "y": 2,
-            "z": 0,
+            "x": -2,
+            "y": 7,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration1_slab@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -7,
+            
             "elements": [
                 "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
             "x": -1,
             "y": 6,
-            "z": 2,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": 0,
-            "y": 8,
-            "z": 3,
+            "y": 7,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": -2,
-            "y": 2,
-            "z": 0,
+            "y": 5,
+            "z": -7,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": -1,
-            "y": 4,
-            "z": 1,
+            "y": 7,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
-            "x": 1,
-            "y": 8,
-            "z": 3,
+            "x": -2,
+            "y": 7,
+            "z": -6,
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
-            "x": 0,
+            "x": 2,
             "y": 4,
-            "z": 1,
+            "z": -7,
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
             ]
         },
         {
             "x": 1,
             "y": 6,
-            "z": 2,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": 1,
-            "y": 4,
-            "z": 1,
+            "y": 8,
+            "z": -5,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
             "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
+            "y": 6,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 0,
+            "x": -2,
+            "y": 4,
+            "z": -7,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
-            "x": 3,
-            "y": 2,
-            "z": 0,
+            "x": -1,
+            "y": 6,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -6,
+            
             "elements": [
                 "immersiveengineering:metal_decoration2@7"
             ]
         },
         {
             "x": -1,
-            "y": 9,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "y": 8,
+            "z": -5,
+            
             "elements": [
                 "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
-            "x": -1,
-            "y": 7,
-            "z": 2,
+            "x": 2,
+            "y": 1,
+            "z": -8,
+            
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_decoration2@7"
             ]
         },
         {
-            "x": 0,
-            "y": 9,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -2,
+            "x": 2,
             "y": 3,
-            "z": 0,
+            "z": -7,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
             "x": 1,
-            "y": 9,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "y": 1,
+            "z": -8,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": 0,
+            "y": 1,
+            "z": -8,
+            "nbt": {"connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -5,
+            "nbt": {"conveyorBeltSubtype":"immersiveengineering:covered"},
+            "elements": [
+                "immersiveengineering:conveyor@0"
+            ]
+        },
+        {
+            "x": 1,
             "y": 5,
-            "z": 1,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -8,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": 1,
             "y": 7,
-            "z": 2,
+            "z": -5,
             "elements": [
                 "modularmachinery:blockinputbus@1"
             ]
         },
         {
             "x": 0,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
             "y": 5,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 2,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": -2,
-            "y": 4,
-            "z": 0,
+            "y": 1,
+            "z": -8,
+            
             "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_decoration2@7"
             ]
         },
         {
             "x": 0,
-            "y": 6,
-            "z": 1,
+            "y": 7,
+            "z": -5,
+            "elements": [
+                "quark:grate@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
-            "x": 1,
-            "y": 8,
-            "z": 2,
+            "x": -1,
+            "y": 7,
+            "z": -5,
             "elements": [
                 "modularmachinery:blockinputbus@1"
             ]
         },
         {
-            "x": 1,
-            "y": 6,
-            "z": 1,
+            "x": -2,
+            "y": 7,
+            "z": -5,
+            "nbt": {"conveyorBeltSubtype":"immersiveengineering:covered"},
             "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:conveyor@0"
             ]
         },
         {
             "x": 2,
+            "y": 0,
+            "z": -8,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -8,
+            "nbt": {"connections":"18b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 1,
             "y": 4,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 9,
-            "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 1,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": 0,
-            "y": 7,
-            "z": 1,
+            "y": 2,
+            "z": -7,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 9,
-            "z": 2,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 7,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": -1,
-            "y": 8,
-            "z": 1,
+            "y": 0,
+            "z": -8,
+            "nbt": {"connections":"34b"},
             "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": 1,
-            "y": 8,
-            "z": 1,
+            "y": 6,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockinputbus@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": -2,
             "y": 0,
-            "z": 5,
+            "z": -8,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
             "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
+                "immersiveengineering:metal_device1@6"
             ]
         },
         {
             "x": -1,
-            "y": 9,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "y": 2,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": -4,
+            
             "elements": [
                 "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
             "x": -2,
-            "y": 7,
-            "z": 0,
+            "y": 2,
+            "z": -7,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
+            "x": -1,
+            "y": 4,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
             "x": 0,
-            "y": 9,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "y": 8,
+            "z": -4,
+            
             "elements": [
                 "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
             "x": -1,
-            "y": 7,
-            "z": 0,
+            "y": 6,
+            "z": -5,
             "elements": [
-                "immersiveengineering:metal_decoration2@7"
+                "modularmachinery:blockinputbus@1"
             ]
         },
         {
-            "x": 1,
-            "y": 9,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "x": -1,
+            "y": 8,
+            "z": -4,
+            
             "elements": [
                 "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
-            "x": 1,
-            "y": 7,
-            "z": 0,
+            "x": 3,
+            "y": 1,
+            "z": -7,
+            
             "elements": [
                 "immersiveengineering:metal_decoration2@7"
             ]
         },
         {
             "x": 2,
-            "y": 7,
-            "z": 0,
+            "y": -1,
+            "z": -8,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -8,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": -2,
             "y": 1,
-            "z": 5,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "z": -7,
             "elements": [
-                "immersiveengineering:metal_device1@6"
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": -3,
-            "y": -1,
-            "z": 4,
+            "y": 1,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -7,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -8,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -7,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -4,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -8,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
             "x": -1,
-            "y": 1,
-            "z": 5,
+            "y": 0,
+            "z": -7,
             "elements": [
-                "immersiveengineering:metal_device1@6"
+                "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": 1,
-            "y": 1,
-            "z": 5,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -7,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
         },
         {
+            "x": -1,
+            "y": 2,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
             "x": 0,
-            "y": -1,
-            "z": 4,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"1"},
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -7,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -6,
+            
             "elements": [
                 "immersiveengineering:stone_decoration_slab@2"
             ]
         },
         {
-            "x": 2,
-            "y": 1,
-            "z": 5,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "x": -1,
+            "y": 4,
+            "z": -5,
             "elements": [
-                "immersiveengineering:metal_device1@6"
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -4,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
             ]
         },
         {
             "x": 3,
             "y": -1,
-            "z": 4,
+            "z": -7,
             "elements": [
                 "immersiveengineering:metal_decoration1@1"
             ]
         },
         {
-            "x": -2,
-            "y": 8,
-            "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:metal_decoration1_slab@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 0,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 0,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:metal_decoration1_slab@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 5,
+            "x": 3,
+            "y": 1,
+            "z": -6,
             "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
             "elements": [
                 "immersiveengineering:metal_device1@6"
             ]
         },
         {
-            "x": 0,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 4,
+            "x": 2,
+            "y": 1,
+            "z": -6,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": 1,
-            "y": 2,
-            "z": 5,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "y": -1,
+            "z": -7,
             "elements": [
-                "immersiveengineering:metal_device1@6"
+                "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": 0,
-            "y": 0,
-            "z": 4,
+            "y": -1,
+            "z": -7,
             "elements": [
                 "modularmachinery:blockoutputbus@1"
             ]
         },
         {
-            "x": 2,
-            "y": 2,
-            "z": 5,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 0,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 4,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"1"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 4,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"1"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 4,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
-            ]
-        },
-        {
             "x": 1,
             "y": 3,
-            "z": 4,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "z": -5,
             "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
+                "immersiveengineering:stone_decoration@2"
             ]
         },
         {
             "x": -1,
             "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 3,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": -1,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": -1,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 3,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidoutputhatch@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": -1,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"1"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": -1,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"1"},
-            "elements": [
-                "immersiveengineering:stone_decoration_slab@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 6,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 7,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration2@7"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 3,
+            "z": -7,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
             ]
@@ -1682,140 +2270,2204 @@
         {
             "x": 2,
             "y": 7,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockfluidinputhatch@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 8,
-            "z": 4,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
-            "elements": [
-                "immersiveengineering:metal_decoration1_slab@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -3,
-            "y": 2,
-            "z": 1,
-            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
-            "elements": [
-                "immersiveengineering:metal_device1@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 8,
-            "z": 4,
-            "elements": [
-                "immersiveengineering:metal_decoration1@1"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 6,
-            "z": 3,
-            "elements": [
-                "immersiveengineering:stone_decoration@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 8,
-            "z": 4,
-            "nbt": {"id":"immersiveengineering:ieslab","slabType":"0"},
+            "z": -3,
+            
             "elements": [
                 "immersiveengineering:metal_decoration1_slab@1"
             ]
         },
         {
             "x": 1,
-            "y": 4,
-            "z": 2,
+            "y": 5,
+            "z": -4,
             "elements": [
                 "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -6,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 7,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 7,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration1_slab@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -7,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -7,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 6,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -5,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -5,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 5,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -4,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -6,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -6,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -4,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -4,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -4,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -4,
+            "nbt": {"connections":"6b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -5,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -4,
+            "nbt": {"connections":"6b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": -1,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": -1,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -4,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": -4,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -4,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -3,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": -2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": -2,
+            "nbt": {"connections":"48b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:stone_decoration@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": -2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": -2,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": -3,
+            
+            "elements": [
+                "immersiveengineering:stone_decoration_slab@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "nbt": {"connections":"18b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "nbt": {"connections":"34b"},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -2,
+            "z": -3,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": [0, 1, 2, 3, 4],
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_device1@1"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": [0, 1, 2, 3, 4],
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_device1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": [0, 1, 2, 3, 4],
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_device1@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": [0, 1, 2, 3, 4],
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_device1@1"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -2,
+            "z": -2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            "nbt": {"pipeCover":{"id":"immersiveengineering:metal_decoration1","Count":"1b","Damage":"1s"}},
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 2,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 3,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:metal_device1@6"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            
+            "elements": [
+                "immersivetech:metal_barrel@2"
             ]
         }
     ]}
