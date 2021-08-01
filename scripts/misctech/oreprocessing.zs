@@ -8,13 +8,6 @@ import crafttweaker.oredict.IOreDictEntry;
 
 
 
-//Heated Air production
-var heated_air = newBuilder("heated_air", "blast_preheater", 1);
-heated_air.addMekanismHeatInput(0, 1500, (1.0/0));
-heated_air.addFluidInput(<liquid:air> * 20);
-heated_air.addFluidOutput(<liquid:heatedair> * 20);
-heated_air.build();
-
 //Molten slag to slag
 var slag = newBuilder("slag", "casting_basin", 200);
 slag.addFluidInput(<liquid:moltenslag> * 1200);
@@ -50,7 +43,7 @@ furnace.addRecipe(<ore:dustYellowcake>.firstItem, <ore:dustAmmoniumDiuranate>.fi
 
 //Iron Processing
 var crude_iron = newBuilder("crude_iron", "large_blast_furnace", 2400);
-crude_iron.addFluidInput(<liquid:heatedair> * 144000);
+crude_iron.addEnergyPerTickInput(3072);
 crude_iron.addItemInput(<ore:dustDirtyIron>.firstItem * 192);
 crude_iron.addItemInput(<ore:dustAnyCarbon>, 192);
 crude_iron.addItemInput(<ore:flux>, 64);
@@ -135,7 +128,7 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liqui
 
 //Tin processing
 var impure_tin = newBuilder("impure_tin", "large_blast_furnace", 2400);
-impure_tin.addFluidInput(<liquid:heatedair> * 96000);
+impure_tin.addEnergyPerTickInput(3072);
 impure_tin.addItemInput(<ore:dustDirtyTin>.firstItem * 192);
 impure_tin.addItemInput(<ore:dustAnyCarbon>, 192);
 impure_tin.addItemInput(<ore:flux>, 48);
@@ -153,7 +146,7 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1600, null, null, 
 
 //Lead processing
 var molten_lead = newBuilder("molten_lead", "large_blast_furnace", 2400);
-molten_lead.addFluidInput(<liquid:heatedair> * 96000);
+molten_lead.addEnergyPerTickInput(3072);
 molten_lead.addItemInput(<ore:slagLeadSinter>.firstItem * 192);
 molten_lead.addItemInput(<ore:dustAnyCarbon>, 192);
 molten_lead.addFluidOutput(<liquid:moltenlead> * 9600);
@@ -179,7 +172,7 @@ lead_rod.build();
 
 //Titanium processing
 var rutile_dust = newBuilder("rutile_dust", "large_blast_furnace", 7200);
-rutile_dust.addFluidInput(<liquid:heatedair> * 192000);
+rutile_dust.addEnergyPerTickInput(3072);
 rutile_dust.addItemInput(<mekores:mekanismore:88> * 192);
 rutile_dust.addItemInput(<ore:dustAnyCarbon>, 288);
 rutile_dust.addFluidOutput(<liquid:moltencrudeiron> * 3200);

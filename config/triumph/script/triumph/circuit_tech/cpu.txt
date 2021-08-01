@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:124>)
+setTitle("The Final Combination")
+setDescription("Make a CPU design as the last part for use in making SoC wafers")
+addParent("triumph:circuit_tech/laser_engraver1")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:circuitDesignCentralProcessingUnitItem>)
+setPos(-30,140)

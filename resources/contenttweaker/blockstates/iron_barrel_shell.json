@@ -2,8 +2,8 @@
   "forge_marker": 1,
   "defaults": {
     "textures": {
-      "texture": "contenttweaker:blocks/frame",
-      "particle": "contenttweaker:blocks/frame"
+      "texture": "contenttweaker:blocks/iron_barrel_shell",
+      "particle": "contenttweaker:blocks/iron_barrel_shell"
     },
     "model": "base:storage",
     "uvlock": true,

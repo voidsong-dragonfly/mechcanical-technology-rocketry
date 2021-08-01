@@ -78,8 +78,8 @@ function create_block_transparent(name as string, material as BlockMaterial, har
     block.setToolClass(tool);
     block.setBlockSoundType(sound);
     block.setToolLevel(level);
-    block.setTranslucent(true);
-    block.setBlockLayer("CUTOUT");
+    block.setBlockLayer("CUTOUT_MIPPED");
+    block.setFullBlock(false);
     block.register();
 
 }

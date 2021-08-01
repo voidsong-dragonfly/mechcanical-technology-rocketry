@@ -27,7 +27,6 @@ create_fluid("coldliquidhydrogen", "EAF7F5", 20, 70, 250);
 create_fluid("liquidmethane", "E6E6FF", 90, 1140, 250);
 create_gas("air", "C1E6FF");
 create_gas("carbondioxide", "FFFFFF");
-create_gas("heatedair", "FFCEB7");
 
 //Gasses that need colored fluids
 create_gas("helium3", "E3FFFE");

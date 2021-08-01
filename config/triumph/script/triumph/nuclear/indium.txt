@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:105>)
+setIcon(<contenttweaker:material_part:56>)
 setTitle("Potent Neutron Poison")
 setDescription("Acquire some indium dust")
 addParent("triumph:nuclear/root")

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:10>)
+setIcon(<contenttweaker:material_part:9>)
 setTitle("Pick a Platinum, any Platinum")
 setDescription("Acquire any type of platinum-group metal ingot")
 addParent("triumph:advanced_tech/root")

@@ -176,7 +176,7 @@ recipes.addShaped(<advancedrocketry:vacuumlaser>,
 recipes.remove(<advancedrocketry:warpcore>);
 recipes.addShaped(<advancedrocketry:warpcore>,
  [[<ore:ingotTitaniumIridium>, <ore:circuitUltimate>, <ore:ingotTitaniumIridium>],
- [<ore:circuitUltimate>, <ore:frameTitaniumIridiumAlloy>, <ore:circuitUltimate>],
+ [<ore:circuitUltimate>, <contenttweaker:titanium_iridium_alloy_frame>, <ore:circuitUltimate>],
  [<ore:ingotTitaniumIridium>, <ore:circuitUltimate>, <ore:ingotTitaniumIridium>]]);
 
 //Make Launchpad require steel
@@ -189,13 +189,3 @@ recipes.addShaped(<advancedrocketry:launchpad> * 2,
 //Iridium Crubible & asteroid mining
 recipes.remove(<advancedrocketry:iquartzcrucible>);
 recipes.remove(<advancedrocketry:drill>); 
-
-//Centrifuge Cylinder Shell
-recipes.addShaped(<ore:machineCasingCentrifugeCylinderShell>.firstItem,
- [[<ore:plateTitaniumAluminide>, <ore:scaffoldingPanelAluminiumMagnesiumTitanide>, <ore:plateTitaniumAluminide>],
- [<ore:plateTitaniumAluminide>, null, <ore:plateTitaniumAluminide>],
- [<ore:plateTitaniumAluminide>, <ore:scaffoldingPanelAluminiumMagnesiumTitanide>, <ore:plateTitaniumAluminide>]]);
-recipes.addShaped(<ore:machineCasingCentrifugeCylinderShell>.firstItem,
- [[<ore:plateMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, <ore:plateMaragingSteel>],
- [<ore:plateMaragingSteel>, null, <ore:plateMaragingSteel>],
- [<ore:plateMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, <ore:plateMaragingSteel>]]);

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:175>)
+setIcon(<contenttweaker:material_part:100>)
 setTitle("Centrally Distributed")
 setDescription("Craft a CPU wafer for advanced circuits")
 addParent("triumph:circuit_tech/etched_plate")

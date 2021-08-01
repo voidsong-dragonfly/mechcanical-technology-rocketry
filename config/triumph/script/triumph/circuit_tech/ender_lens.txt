@@ -1,7 +1,0 @@
-setIcon(<contenttweaker:material_part:166>)
-setTitle("Beam Teleportation")
-setDescription("Make a ender pearl lens for use in making SoC wafers")
-addParent("triumph:circuit_tech/laser_engraver1")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:lensEnderPearl>)
-setPos(-30,140)

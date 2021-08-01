@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:7>)
+setIcon(<contenttweaker:material_part:6>)
 setTitle("Reactor Tube Alloy")
 setDescription("Mix zirconium and niobium together to get an alloy suitable for reactor internals")
 addParent("triumph:nuclear/zirconium")

@@ -125,3 +125,33 @@ game.setLocalization("tile.contenttweaker.nether_gold_ore.name", "Nether Gold Or
 game.setLocalization("tile.contenttweaker.nether_cinnabar_ore.name", "Nether Cinnabar Ore");
 game.setLocalization("tile.contenttweaker.nether_fluorite_ore.name", "Nether Fluorite Ore");
 game.setLocalization("tile.contenttweaker.shattered_end_stone.name", "Shattered End Stone");
+
+//Mech blocks
+//Frames
+game.setLocalization("tile.contenttweaker.zirconium_niobium_alloy_frame.name", "Zirconium Niobium Alloy Scaffolding");
+game.setLocalization("tile.contenttweaker.tungstensteel_frame.name", "Tungstensteel Scaffolding");
+game.setLocalization("tile.contenttweaker.titanium_iridium_alloy_frame.name", "Titanium Iridium Alloy Scaffolding");
+//Plascrete
+game.setLocalization("tile.contenttweaker.plastic_coated_rebar_concrete.name", "Plastic Coated Rebar Concrete");
+//Miscelaneous metal bits
+game.setLocalization("tile.contenttweaker.metal_barrel_shell.name", "Metal Barrel Shell");
+game.setLocalization("tile.contenttweaker.steel_barrel_shell.name", "Steel Barrel Shell");
+//Bearings
+game.setLocalization("tile.contenttweaker.lubricated_bearing.name", "Lubricated Bearing");
+game.setLocalization("tile.contenttweaker.rare_earths_magnetic_coil.name", "Rare Earths Magnetic Coil");
+game.setLocalization("tile.contenttweaker.magnetic_bearing.name", "Magnetic Bearing");
+//Flywheel bits
+game.setLocalization("tile.contenttweaker.basalt_fiber_flywheel_component.name", "Basalt Fiber Flywheel Component");
+game.setLocalization("tile.contenttweaker.carbon_fiber_flywheel_component.name", "Carbon Fiber Flywheel Component");
+//Fission reactor pieces
+game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing.name", "Fission Reactor Calandria Casing");
+game.setLocalization("tile.contenttweaker.fission_reactor_fuel_rod_assembly_pipe_connector.name", "Fission Reactor Fuel Rod Assembly Pipe Connector");
+//Fusion reactor pieces
+game.setLocalization("tile.contenttweaker.superconductive_coil.name", "Superconductive Coil");
+game.setLocalization("tile.contenttweaker.fusion_reactor_inner_casing.name", "Fusion Reactor Inner Casing");
+game.setLocalization("tile.contenttweaker.fusion_reactor_outer_casing.name", "Fusion Reactor Outer Casing");
+//Particle Accelerator & etc pieces
+game.setLocalization("tile.contenttweaker.high_current_superconductive_coil.name", "High Current Superconductive Coil");
+game.setLocalization("tile.contenttweaker.particle_accelerator_casing.name", "Particle Accelerator Casing");
+game.setLocalization("tile.contenttweaker.particle_containment_casing.name", "Particle Containment Casing");
+game.setLocalization("tile.contenttweaker.beam_control_lens.name", "Beam Control Lens");

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:210>)
+setIcon(<contenttweaker:material_part:135>)
 setTitle("Low Voltage High Amperage")
 setDescription("Craft a supercapacitor, used in the railgun")
 addParent("triumph:advanced_tech/plastic")

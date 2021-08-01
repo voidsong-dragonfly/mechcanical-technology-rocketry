@@ -178,3 +178,32 @@ create_block_sound("crushed_ore_spoils", <blockmaterial:sand>, 0.6, 0.8, "shovel
 create_block_sound("red_mud", <blockmaterial:sand>, 0.8, 0.8, "shovel", <soundtype:ground>, 0);
 create_block_sound("spent_red_mud", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:sand>, 0);
 create_block_sound("uranium_tailings", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:ground>, 0);
+
+//Frames
+create_block_transparent("zirconium_niobium_alloy_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+create_block_transparent("tungstensteel_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+create_block_transparent("titanium_iridium_alloy_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+//Plascrete
+create_block("plastic_coated_rebar_concrete", <blockmaterial:rock>, 5.0, 750.0, "pickaxe", 2);
+//Miscelaneous iron bits
+create_block_transparent("metal_barrel_shell", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+create_block_transparent("steel_barrel_shell", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+//Bearings
+create_block("lubricated_bearing", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
+create_block("rare_earths_magnetic_coil", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
+create_block("magnetic_bearing", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
+//Flywheel bits
+create_block("basalt_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
+create_block("carbon_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
+//Fission reactor pieces
+create_block("fission_reactor_calandria_casing", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);
+create_block("fission_reactor_fuel_rod_assembly_pipe_connector", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);
+//Fusion reactor pieces
+create_block("superconductive_coil", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
+create_block("fusion_reactor_inner_casing", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
+create_block("fusion_reactor_outer_casing", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
+//Particle Accelerator & etc pieces
+create_block("high_current_superconductive_coil", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
+create_block("particle_accelerator_casing", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
+create_block("particle_containment_casing", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
+create_block("beam_control_lens", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);

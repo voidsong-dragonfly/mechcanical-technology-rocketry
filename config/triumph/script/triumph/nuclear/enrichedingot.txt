@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:6>)
-setTitle("Pellet Manufacture Beginnings")
-setDescription("Smelt lightly enriched uranium dioxide grit to get lightly enriched uranium dioxide ingots")
-addParent("triumph:nuclear/enricheduo2")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:ingotLightlyEnrichedUraniumDioxide>)
-setPos(75,95)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

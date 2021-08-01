@@ -52,7 +52,7 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@15"
+                "contenttweaker:fission_reactor_fuel_rod_assembly_pipe_connector"
             ]
         },
         {
@@ -69,7 +69,7 @@
             "y": 0,
             "z": 12,
             "elements": [
-                "contenttweaker:sub_block_holder_0@15"
+                "contenttweaker:fission_reactor_fuel_rod_assembly_pipe_connector"
             ]
         },
         {

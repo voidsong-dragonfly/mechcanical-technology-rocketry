@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:12>)
+setIcon(<contenttweaker:material_part:10>)
 setTitle("More Potent Neutron Poison")
 setDescription("Mix indium and silver together to get an alloy suitable for control rods")
 addParent("triumph:nuclear/silver")

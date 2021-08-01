@@ -56,21 +56,21 @@ recipes.remove(<mekanism:basicblock2:1>);
 recipes.remove(<mekanism:basicblock2:2>);
 recipes.addShaped(<mekanism:basicblock:9> * 4,
  [[<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:machineCasingPlasticCoatedRebarConcrete>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <contenttweaker:plastic_coated_rebar_concrete>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:sheetSteel>, <ore:sheetSteel>]]);
 recipes.addShaped(<mekanism:basicblock:11>,
  [[<engineersdecor:straight_pipe_valve>, <mekanism:basicblock:9>, <engineersdecor:straight_pipe_valve>],
  [null, <ore:circuitBasic>, null]]);
 recipes.addShaped(<mekanism:basicblock2:0> * 4,
  [[<ore:sheetCopper>, <ore:sheetCopper>, <ore:sheetCopper>],
- [<ore:sheetCopper>, <ore:machineCasingPlasticCoatedRebarConcrete>, <ore:sheetCopper>],
+ [<ore:sheetCopper>, <contenttweaker:plastic_coated_rebar_concrete>, <ore:sheetCopper>],
  [<ore:sheetCopper>, <ore:sheetCopper>, <ore:sheetCopper>]]);
 recipes.addShaped(<mekanism:basicblock:15>,
  [[<engineersdecor:straight_pipe_valve>, <mekanism:basicblock2:0>, <engineersdecor:straight_pipe_valve>],
  [null, <ore:circuitAdvanced>, null]]);
 recipes.addShaped(<mekanism:basicblock2:1> * 4,
  [[<ore:sheetAluminum>, <mekanism:polyethene:2>, <ore:sheetAluminum>],
- [<mekanism:polyethene:2>, <ore:machineCasingPlasticCoatedRebarConcrete>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <contenttweaker:plastic_coated_rebar_concrete>, <mekanism:polyethene:2>],
  [<ore:sheetAluminum>, <mekanism:polyethene:2>, <ore:sheetAluminum>]]);
 recipes.addShaped(<mekanism:basicblock2:2>,
  [[<immersiveengineering:wirecoil:2>, <mekanism:basicblock2:1>, <immersiveengineering:wirecoil:2>],

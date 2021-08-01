@@ -1,7 +1,0 @@
-setIcon(<contenttweaker:material_part:167>)
-setTitle("Emerald Green City")
-setDescription("Make an emerald lens for use in making NAND wafers")
-addParent("triumph:circuit_tech/laser_engraver1")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:lensEmerald>)
-setPos(-30,80)

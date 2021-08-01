@@ -1,7 +1,9 @@
-setIcon(<contenttweaker:material_part:162>)
+setIcon(<immersiveengineering:material:6>)
 setTitle("Dual-Chamber Coking")
-setDescription("Acquire petroleum coke, the most useful use of bitumen")
+setDescription("Acquire coke from bitumen, the most consistent useful use")
 addParent("triumph:petroleum_tech/bitumen")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:fuelPetroleumCoke>)
+criteria.addItem(<ore:fuelCoke>)
 setPos(-205,170)
+//Force starting chapter
+setRequiresParents()

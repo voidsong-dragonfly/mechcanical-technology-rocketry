@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:6>)
+setIcon(<mekanism:ingot:1>)
 setTitle("Thermal Power Extremes")
 setDescription("Acquire an ingot of enriched uranium for use in nuclear rocketry")
 addParent("triumph:rocketry_tech/cobalt")

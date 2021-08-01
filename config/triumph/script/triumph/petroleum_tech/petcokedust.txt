@@ -1,7 +1,10 @@
-setIcon(<contenttweaker:material_part:144>)
+setIcon(<immersiveengineering:material:17>)
 setTitle("Carbon Black Substitude")
-setDescription("Acquire petroleum coke dust from cracking methane, a very viable source of coke")
+setDescription("Acquire coke dust from cracking methane, a very viable source of coke")
 addParent("triumph:petroleum_tech/cracked_methane")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:dustPetroleumCoke>)
+criteria.addItem(<ore:dustCoke>)
 setPos(-170,335)
+//Force starting chapter
+setRequiresParents()
+

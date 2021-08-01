@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:154>)
+setIcon(<contenttweaker:material_part:88>)
 setTitle("Residual Fuel")
 setDescription("Craft charcoal precursor to turn your sawdust into a cleaner-burning fuel")
 addParent("triumph:petroleum_tech/bitumen")

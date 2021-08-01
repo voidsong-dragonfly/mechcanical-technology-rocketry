@@ -5,7 +5,7 @@ recipes.addShaped(<tetra:hammer_head>,
  [null, <ore:blockTungsten>, null]]);
 recipes.addShaped(<tetra:hammer_base>,
  [[<ore:scaffoldingSteel>, <ore:gearSteel>, <ore:scaffoldingSteel>],
- [<engineersdecor:thin_steel_pole>, <ore:machineCasingSteelBarrelShell>, <engineersdecor:thin_steel_pole>],
+ [<engineersdecor:thin_steel_pole>, <contenttweaker:steel_barrel_shell>, <engineersdecor:thin_steel_pole>],
  [<ore:ingotSteel>, null, <ore:ingotSteel>]]);
 recipes.addShaped(<tetra:magmatic_cell:128>,
  [[null, <ore:sheetSteel>, <ore:mechanicalComponentSteel>],

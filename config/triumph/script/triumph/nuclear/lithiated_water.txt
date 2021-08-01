@@ -1,9 +1,0 @@
-setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lithiatedwater",Amount:1000}>)
-setTitle("Impossible Liquid is Possible")
-setDescription("Mix lithium and water together to get lithiated water")
-addParent("triumph:nuclear/lithium")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"lithiatedwater",Amount:1000}>)
-setPos(-240,305)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

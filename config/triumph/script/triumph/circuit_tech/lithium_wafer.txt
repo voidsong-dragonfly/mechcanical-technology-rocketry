@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:172>)
+setIcon(<contenttweaker:material_part:98>)
 setTitle("Cheating At Sports")
 setDescription("Craft a lithium-doped silicon wafer, for SoC plates")
 addParent("triumph:circuit_tech/thermal")

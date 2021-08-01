@@ -4,4 +4,4 @@ setDescription("Form a rolling to make pressure tanks, make plates and sheets fa
 addParent("triumph:advanced_tech/advancedrocketry")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:rollingmachine>)
-setPos(-170,20)
+setPos(-170,65)

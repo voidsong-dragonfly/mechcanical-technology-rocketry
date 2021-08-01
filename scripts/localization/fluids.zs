@@ -13,7 +13,6 @@ game.setLocalization("fluid.air", "Air");
 game.setLocalization("gas.nitrogengas", "Pressurized Nitrogen");
 game.setLocalization("fluid.nitrogengas", "Nitrogen");
 game.setLocalization("fluid.carbondioxide", "Carbon Dioxide");
-game.setLocalization("fluid.heatedair", "Heated Air");
 
 //Oil processing fluids
 game.setLocalization("fluid.desulfurisedoil", "Desulfurised Oil");

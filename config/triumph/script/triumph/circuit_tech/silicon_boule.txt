@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:171>)
+setIcon(<contenttweaker:material_part:95>)
 setTitle("Nine Nines is an Overstatement")
 setDescription("Craft a silicon boule from gallium and silicon dusts")
 addParent("triumph:circuit_tech/root")

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:109>)
+setIcon(<contenttweaker:material_part:59>)
 setTitle("A 40:1 Ratio is Large")
 setDescription("Acquire niobium dust")
 addParent("triumph:nuclear/root")

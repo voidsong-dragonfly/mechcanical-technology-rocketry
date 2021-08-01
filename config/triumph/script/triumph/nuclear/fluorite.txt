@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:128>)
+setIcon(<contenttweaker:material_part:73>)
 setTitle("Caution: Do Not Inhale Dust")
 setDescription("Acquire fluorite dust from the Nether")
 addParent("triumph:nuclear/root")

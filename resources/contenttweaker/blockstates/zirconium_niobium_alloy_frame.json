@@ -1,0 +1,32 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "orientable",
+    "textures": {
+      "particle": "contenttweaker:blocks/zirconium_niobium_frame_side",
+      "side": "contenttweaker:blocks/zirconium_niobium_frame_side",
+      "front": "contenttweaker:blocks/zirconium_niobium_frame_side",
+      "top": "contenttweaker:blocks/zirconium_niobium_frame_top",
+      "down": "contenttweaker:blocks/zirconium_niobium_frame_side"
+    }
+  },
+  "variants": {
+    "normal": {
+      "transform": "forge:default-block",
+      "textures": {
+        "particle": "contenttweaker:blocks/zirconium_niobium_frame_side",
+        "side": "contenttweaker:blocks/zirconium_niobium_frame_side",
+        "front": "contenttweaker:blocks/zirconium_niobium_frame_side",
+        "top": "contenttweaker:blocks/zirconium_niobium_frame_top",
+        "down": "contenttweaker:blocks/zirconium_niobium_frame_side"
+      }
+    },
+    "inventory": {
+      "model": "cube_bottom_top",
+      "textures": {
+        "top": "contenttweaker:blocks/zirconium_niobium_frame_top"
+      }
+    }
+  }
+}

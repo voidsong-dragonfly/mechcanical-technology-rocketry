@@ -4,6 +4,6 @@ setDescription("Deuterium is the second-lightest fusion fuel, and overall has th
 addParent("triumph:nuclear/t1_fusion")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquiddeuterium",Amount:1000}>)
-setPos(320,-10)
+setPos(250,-10)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

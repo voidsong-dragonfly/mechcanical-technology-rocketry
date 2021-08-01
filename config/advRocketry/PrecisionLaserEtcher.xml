@@ -143,10 +143,10 @@
 		<input>
 			<oreDict>dustIron;7</oreDict>
 			<oreDict>dustNeodymium</oreDict>
-            <oreDict>machineCasingSteelBarrelShell</oreDict>
+            <itemStack>contenttweaker:steel_barrel_shell</itemStack>
 		</input>
 		<output>
-			<oreDict>machineCasingRareEarthsMagneticCoil</oreDict>
+			<itemStack>contenttweaker:rare_earths_magnetic_coil</itemStack>
 		</output>
 	</Recipe>
 </Recipes>

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:119>)
+setIcon(<contenttweaker:material_part:67>)
 setTitle("Does Not Obstruct Neutrons")
 setDescription("Acquire zirconium dust")
 addParent("triumph:nuclear/root")

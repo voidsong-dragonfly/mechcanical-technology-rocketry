@@ -157,16 +157,12 @@ import mods.immersiveengineering.BottlingMachine;
 
 //OD for IW bearings
 <ore:blockBearing>.remove(<immersiveengineering:metal_decoration0:5>);
-<ore:blockBearing>.addAll(<ore:machineCasingLubricatedBearing>);
-<ore:blockBearingPerfect>.addAll(<ore:machineCasingMagneticBearing>);
+<ore:blockBearing>.add(<contenttweaker:lubricated_bearing>);
+<ore:blockBearingPerfect>.add(<contenttweaker:magnetic_bearing>);
 
 //OD for flywheel components
-<ore:blockBasaltFiber>.addAll(<ore:machineCasingBasaltFiberFlywheelComponent>);
-<ore:blockCarbonFiber>.addAll(<ore:machineCasingCarbonFiberFlywheelComponent>);
-
-//Centrifuge casing
-<ore:casingCentrifuge>.remove(<libvulpes:advstructuremachine>);
-<ore:casingCentrifuge>.addAll(<ore:machineCasingCentrifugeCylinderShell>);
+<ore:blockBasaltFiber>.add(<contenttweaker:basalt_fiber_flywheel_component>);
+<ore:blockCarbonFiber>.add(<contenttweaker:carbon_fiber_flywheel_component>);
 
 
 

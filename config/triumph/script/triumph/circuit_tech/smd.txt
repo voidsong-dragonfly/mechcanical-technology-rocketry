@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:200>)
+setIcon(<contenttweaker:material_part:122>)
 setTitle("Miniaturized Electronics")
 setDescription("Craft SMD resistors for advanced circuits and cheaper basic circuits")
 addParent("triumph:circuit_tech/assembly_cleanroom")

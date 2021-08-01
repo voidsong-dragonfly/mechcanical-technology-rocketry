@@ -4,4 +4,4 @@ setDescription("Form a lathe to be able to make more advanced rods, nozzles, and
 addParent("triumph:advanced_tech/advancedrocketry")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:lathe>)
-setPos(-170,50)
+setPos(-170,35)

@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part, meta:228, count:1>)
+setIcon(<contenttweaker:material_part, meta:151>)
 setTitle("Single-Pass Construction")
 setDescription("Craft a pipe metal press mold, for extruding pipes for significantly cheaper")
 addParent("triumph:advanced_tech/extrusion")

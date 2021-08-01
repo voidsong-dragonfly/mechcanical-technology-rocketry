@@ -65,7 +65,7 @@ BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:scaffoldingSteel
 //Plastic bottling machine recipes
 BottlingMachine.addRecipe(<ore:injectionMoldHDPERod>.firstItem, <immersiveengineering:mold:2>, <liquid:polyethene> * 125);
 BottlingMachine.addRecipe(<ore:injectionMoldHDPESheet>.firstItem, <immersiveengineering:mold:0>, <liquid:polyethene> * 250);
-BottlingMachine.addRecipe(<ore:machineCasingPlasticCoatedRebarConcrete>.firstItem, <engineersdecor:rebar_concrete>, <liquid:polyethene> * 1000);
+BottlingMachine.addRecipe(<contenttweaker:plastic_coated_rebar_concrete>, <engineersdecor:rebar_concrete>, <liquid:polyethene> * 1000);
 recipes.addShapeless(<mekanism:polyethene:2>, [<ore:injectionMoldHDPESheet>.transformReplace(<immersiveengineering:mold:0>)]);
 recipes.addShapeless(<mekanism:polyethene:3>, [<ore:injectionMoldHDPERod>.transformReplace(<immersiveengineering:mold:2>)]);
 BottlingMachine.addRecipe(<ore:circuitBoardUnpreparedPlastic>.firstItem, <ore:sheetCopper>, <liquid:polyethene> * 250);
@@ -148,8 +148,7 @@ MeltingCrucible.addRecipe(<liquid:carbondioxide> * 1000, <contenttweaker:carbon_
 MeltingCrucible.addRecipe(<liquid:liquidethene> * 1000, <contenttweaker:ethene_ice>, 76800, 160);
 MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 76800, 160);
 
-//Add aquaculture fish bone bonemeal recipe
-Crusher.addRecipe(<minecraft:dye:15> * 6, <aquaculture:fish:38>, 3200);
+//Remove string recipe
 Crusher.removeRecipe(<minecraft:string>);
 
 //Add soul sandstone recipe & other crushing recipes

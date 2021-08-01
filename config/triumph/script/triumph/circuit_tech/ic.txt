@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:124>)
+setTitle("Integration Station")
+setDescription("Make an IC design for use in making RAM wafers")
+addParent("triumph:circuit_tech/laser_engraver1")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:circuitDesignIntegratedCircuitItem>)
+setPos(-30,110)

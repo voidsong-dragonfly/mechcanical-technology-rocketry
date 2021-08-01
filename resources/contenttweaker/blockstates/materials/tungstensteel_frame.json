@@ -1,32 +1,16 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "transform": "forge:default-block",
-    "model": "orientable",
     "textures": {
-      "particle": "contenttweaker:blocks/tungstensteel_frame_side",
-      "side": "contenttweaker:blocks/tungstensteel_frame_side",
-      "front": "contenttweaker:blocks/tungstensteel_frame_side",
-      "top": "contenttweaker:blocks/tungstensteel_frame_top",
-      "down": "contenttweaker:blocks/tungstensteel_frame_side"
-    }
+      "texture": "contenttweaker:blocks/frame",
+      "particle": "contenttweaker:blocks/frame"
+    },
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
   },
   "variants": {
-    "normal": {
-      "transform": "forge:default-block",
-      "textures": {
-        "particle": "contenttweaker:blocks/tungstensteel_frame_side",
-        "side": "contenttweaker:blocks/tungstensteel_frame_side",
-        "front": "contenttweaker:blocks/tungstensteel_frame_side",
-        "top": "contenttweaker:blocks/tungstensteel_frame_top",
-        "down": "contenttweaker:blocks/tungstensteel_frame_side"
-      }
-    },
-    "inventory": {
-      "model": "cube_bottom_top",
-      "textures": {
-        "top": "contenttweaker:blocks/tungstensteel_frame_top"
-      }
-    }
+    "normal": [{}],
+    "inventory": [{}]
   }
 }

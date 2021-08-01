@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:sub_block_holder_0:4>)
+setIcon(<contenttweaker:zirconium_niobium_alloy_frame>)
 setTitle("Neutron-Ghost Structure")
 setDescription("Form zirconuim-niobium alloy into frames")
 addParent("triumph:nuclear/zirconium_niobium")

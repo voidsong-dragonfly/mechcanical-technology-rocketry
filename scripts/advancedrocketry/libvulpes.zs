@@ -51,7 +51,7 @@ recipes.addShaped(<libvulpes:enhancedmotor>,
  [null, <ore:plateTitanium>, <ore:plateTitanium>]]);
 recipes.addShaped(<libvulpes:elitemotor>, 
  [[null, <ore:plateIridium>, <ore:plateIridium>],
- [<ore:stickIridium>, <ore:machineCasingSuperconductiveCoil>, <ore:gearTitaniumIridium>],
+ [<ore:stickIridium>, <contenttweaker:superconductive_coil>, <ore:gearTitaniumIridium>],
  [null, <ore:plateIridium>, <ore:plateIridium>]]);
  
 //Battery recipe removal
@@ -71,7 +71,7 @@ recipes.addShaped(<libvulpes:structuremachine>,
 recipes.addShaped(<libvulpes:advstructuremachine>,
  [[<ore:sheetTitaniumAluminide>, null, <ore:sheetTitaniumAluminide>],
  [<ore:sheetTitaniumAluminide>, <ore:scaffoldingAluminum>, <ore:sheetTitaniumAluminide>],
- [<ore:sheetTitaniumAluminide>, <ore:circuitUltimate>, <ore:sheetTitaniumAluminide>]]);
+ [<ore:sheetTitaniumAluminide>, <ore:circuitElite>, <ore:sheetTitaniumAluminide>]]);
  
 //Make holoprojector not take (expensive) optical sensors
 recipes.remove(<libvulpes:holoprojector>);

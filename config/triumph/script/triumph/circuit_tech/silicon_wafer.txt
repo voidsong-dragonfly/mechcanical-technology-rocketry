@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:173>)
+setIcon(<contenttweaker:material_part:97>)
 setTitle("Not a Knockoff Thin Mint")
 setDescription("Craft a silicon wafer from a gallium-doped silicon boule")
 addParent("triumph:circuit_tech/silicon_boule")

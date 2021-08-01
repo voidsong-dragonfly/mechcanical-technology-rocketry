@@ -7,8 +7,6 @@ game.setLocalization("contenttweaker.part.salt", "%s");
 game.setLocalization("contenttweaker.part.gemdust", "%s Dust");
 game.setLocalization("contenttweaker.part.nonmetaldust", "%s Dust");
 game.setLocalization("contenttweaker.part.dustunshaded", "%s Dust");
-game.setLocalization("contenttweaker.part.washedoredust", "Washed %s Ore Dust");
-game.setLocalization("contenttweaker.part.riffle", "%s Riffle");
 game.setLocalization("contenttweaker.part.amalgam", "%s Amalgam");
 //New parts - other types
 game.setLocalization("contenttweaker.part.wire", "%s Wire");
@@ -18,14 +16,10 @@ game.setLocalization("contenttweaker.part.scaffoldingpanel", "%s Scaffolding Pan
 game.setLocalization("contenttweaker.part.smallpipe", "%s Small Pipe");
 game.setLocalization("contenttweaker.part.fuelpellet", "%s Fuel Pellet");
 game.setLocalization("contenttweaker.part.compressorblade", "%s Compressor Blade");
-game.setLocalization("contenttweaker.part.compressor", "%s Compressor");
 //New parts - nonmetal types
 game.setLocalization("contenttweaker.part.fiber", "%s Fiber");
 game.setLocalization("contenttweaker.part.slag", "%s Slag");
-game.setLocalization("contenttweaker.part.fuel", "%s");
 game.setLocalization("contenttweaker.part.sludge", "%s Sludge");
-game.setLocalization("contenttweaker.part.gemplate", "%s Plate");
-game.setLocalization("contenttweaker.part.lens", "%s Lens");
 //New parts - silicon types
 game.setLocalization("contenttweaker.part.boule", "%s Boule");
 game.setLocalization("contenttweaker.part.boulewafer", "%s Wafer");
@@ -67,9 +61,6 @@ game.setLocalization("contenttweaker.part.solarpanel", "Photovoltaic Cell Panel"
 game.setLocalization("contenttweaker.part.metalpressmold", "Metal Press Mold: %s");
 game.setLocalization("contenttweaker.part.heavymetalpressdie", "Heavy Metal Press Die: %s");
 game.setLocalization("contenttweaker.part.injectionmold", "%s Injection Mold");
-//New parts - blocks
-game.setLocalization("contenttweaker.part.machinecasing", "%s");
-game.setLocalization("contenttweaker.part.frame", "%s Frame");
 //New parts - ore to get around other stuff being a pain
 game.setLocalization("contenttweaker.part.cryoliteore", "Cryolite");
 game.setLocalization("contenttweaker.part.cinnabarore", "Cinnabar Ore");

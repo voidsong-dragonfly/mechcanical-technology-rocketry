@@ -1,4 +1,4 @@
-setIcon(<contenttweaker:material_part:106>)
+setIcon(<mekanism:dust:2>)
 setTitle("Ceramic Conversion Completion")
 setDescription("Acquire lightly enriched uranium dioxide dust from lightly enriched uranyl fluoride")
 addParent("triumph:nuclear/enricheduo2f2")

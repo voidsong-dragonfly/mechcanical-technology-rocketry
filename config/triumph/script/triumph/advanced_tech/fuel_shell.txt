@@ -1,6 +1,6 @@
-setIcon(<contenttweaker:material_part:219>)
+setIcon(<contenttweaker:material_part:144>)
 setTitle("Not Pressure-Inflated")
-setDescription("Extrude a fuel tank shell from titanium")
+setDescription("Extrude a fuel tank shell from aluminium magnesium titanide")
 addParent("triumph:advanced_tech/barrel")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:fuelTankShellItem>)

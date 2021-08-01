@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidlithium",Amount:1000}>)
+setTitle("Water Bomb")
+setDescription("Acquire molten lithium, to irradiate into tritium")
+addParent("triumph:nuclear/lithium")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidlithium",Amount:1000}>)
+setPos(-240,305)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

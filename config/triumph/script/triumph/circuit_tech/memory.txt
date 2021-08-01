@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:124>)
+setTitle("Faulty Memory")
+setDescription("Make a memory design for use in making NAND wafers")
+addParent("triumph:circuit_tech/laser_engraver1")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:circuitDesignMemoryItem>)
+setPos(-30,80)

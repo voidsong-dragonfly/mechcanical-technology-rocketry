@@ -85,14 +85,14 @@ recipes.addShaped(<magneticraft:multiblock_parts> * 2,
  [<ore:ingotMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:ingotMaragingSteel>]]);
 
 //Add in bearing recipe
-recipes.addShaped(<ore:machineCasingLubricatedBearing>.firstItem * 2,
+recipes.addShaped(<contenttweaker:lubricated_bearing> * 2,
  [[<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>],
  [<ore:mechanicalComponentSteel>, <ore:stickSteel>, <ore:mechanicalComponentSteel>],
  [<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>]]);
-recipes.addShaped(<ore:machineCasingMagneticBearing>.firstItem * 2,
- [[<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>],
+recipes.addShaped(<contenttweaker:magnetic_bearing> * 2,
+ [[<ore:ingotMaragingSteel>, <contenttweaker:rare_earths_magnetic_coil>, <ore:ingotMaragingSteel>],
  [<ore:mechanicalComponentMaragingSteel>, <ore:stickMaragingSteel>, <ore:mechanicalComponentMaragingSteel>],
- [<ore:ingotMaragingSteel>, <ore:machineCasingRareEarthsMagneticCoil>, <ore:ingotMaragingSteel>]]);
+ [<ore:ingotMaragingSteel>, <contenttweaker:rare_earths_magnetic_coil>, <ore:ingotMaragingSteel>]]);
 
 //Make powder barrels more appealing
 recipes.remove(<immersiveengineering:wooden_device0:4>);
@@ -233,15 +233,15 @@ recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -22000})
  
 //Add Barrel recipes from barrel shells
 recipes.addShaped(<immersivetech:metal_barrel:1>,
- [[<ore:machineCasingMetalBarrelShell>],
+ [[<contenttweaker:metal_barrel_shell>],
  [<ore:plateIron>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:4>,
  [[<ore:plateIron>],
- [<ore:machineCasingMetalBarrelShell>],
+ [<contenttweaker:metal_barrel_shell>],
  [<ore:plateIron>]]);
 recipes.addShaped(<immersivetech:metal_barrel:2>,
  [[<ore:plateSteel>],
- [<ore:machineCasingSteelBarrelShell>],
+ [<contenttweaker:steel_barrel_shell>],
  [<ore:plateSteel>]]);
 
 //Scaffolding recipes
@@ -253,15 +253,15 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:5>,
  [[null, <ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>],
  [<ore:scaffoldingPanelAluminium>, null, <ore:scaffoldingPanelAluminium>],
  [<ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>, null]]);
-recipes.addShaped(<ore:frameZirconiumNiobiumAlloy>.firstItem,
+recipes.addShaped(<contenttweaker:zirconium_niobium_alloy_frame>,
  [[null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
  [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
  [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, null]]);
-recipes.addShaped(<ore:frameTungstensteel>.firstItem,
+recipes.addShaped(<contenttweaker:tungstensteel_frame>,
  [[null, <ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>],
  [<ore:scaffoldingPanelTungstensteel>, null, <ore:scaffoldingPanelTungstensteel>],
  [<ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>, null]]);
-recipes.addShaped(<ore:frameTitaniumIridiumAlloy>.firstItem,
+recipes.addShaped(<contenttweaker:titanium_iridium_alloy_frame>,
  [[null, <ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
  [<ore:scaffoldingPanelTitaniumIridiumAlloy>, null, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
  [<ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>, null]]);
