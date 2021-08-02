@@ -1,8 +1,8 @@
 setIcon(<contenttweaker:material_part:118>)
 setTitle("Plasticized Platinum Plating")
 setDescription("Craft a platinum-backed circuit board for Ultimate circuits")
-addParent("triumph:circuit_tech/elite_circuit")
+addParent("triumph:circuit_tech/raw_processor_crystal")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:circuitBoardPlatinumBackedPlastic>)
-setPos(180,20)
+setPos(215,20)
 hideLines();

@@ -1,0 +1,9 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium",Amount:1000}>)
+setTitle("Funny Voice Air")
+setDescription("Obtain helium for use as a perfectly inert atmosphere to grow your graphene crystals in")
+addParent("triumph:circuit_tech/elite_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium",Amount:1000}>)
+setPos(145,80)
+hideLines();
+setRequiresParents()

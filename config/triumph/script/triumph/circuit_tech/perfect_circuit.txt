@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:117>)
+setTitle("The Final Circuitnation")
+setDescription("Craft a perfect circuit, the pinnacle in circuit technology")
+addParent("triumph:circuit_tech/ybco")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:perfectCircuitItem>)
+setPos(320,50)

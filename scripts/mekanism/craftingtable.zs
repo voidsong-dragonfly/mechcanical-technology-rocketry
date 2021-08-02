@@ -73,7 +73,7 @@ recipes.addShaped(<mekanism:basicblock2:1> * 4,
  [<mekanism:polyethene:2>, <contenttweaker:plastic_coated_rebar_concrete>, <mekanism:polyethene:2>],
  [<ore:sheetAluminum>, <mekanism:polyethene:2>, <ore:sheetAluminum>]]);
 recipes.addShaped(<mekanism:basicblock2:2>,
- [[<immersiveengineering:wirecoil:2>, <mekanism:basicblock2:1>, <immersiveengineering:wirecoil:2>],
+ [[<mekanism:transmitter>.withTag({tier: 3}), <mekanism:basicblock2:1>, <mekanism:transmitter>.withTag({tier: 3})],
  [null, <ore:circuitElite>, null]]);
  
 //Mekanism blocks

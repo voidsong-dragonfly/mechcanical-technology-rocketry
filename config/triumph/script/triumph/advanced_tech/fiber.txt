@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:material_part:149>)
+setTitle("Not Nanotube Negatives")
+setDescription("Craft a fiber metal press mold, for extruding structural fibers")
+addParent("triumph:advanced_tech/extrusion")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:metalPressMoldFiber>)
+setPos(-240,-10)

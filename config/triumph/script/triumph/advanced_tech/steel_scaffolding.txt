@@ -1,7 +1,0 @@
-setIcon(<contenttweaker:material_part:38>)
-setTitle("Sturdy Construction")
-setDescription("Craft a steel scaffolding panel, the frame material for the fission reactor calandria")
-addParent("triumph:advanced_tech/scaffold")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:scaffoldingPanelSteel>)
-setPos(-205,-235)

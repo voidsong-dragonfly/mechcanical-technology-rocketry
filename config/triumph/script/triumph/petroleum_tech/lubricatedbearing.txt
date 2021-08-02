@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:lubricated_bearing>)
+setTitle("A Low-Friction Solution")
+setDescription("Craft a lubricated bearing, your first bearing useable in Industrial Wires energy-storage flywheels")
+addParent("triumph:petroleum_tech/lubricant")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:lubricated_bearing>)
+setPos(-170,80)

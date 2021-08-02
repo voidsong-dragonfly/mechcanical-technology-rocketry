@@ -4,4 +4,4 @@ setDescription("Craft a barrel metal press mold, for extruding barrel shells and
 addParent("triumph:advanced_tech/extrusion")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:metalPressMoldBarrel>)
-setPos(-240,-160)
+setPos(-240,-70)

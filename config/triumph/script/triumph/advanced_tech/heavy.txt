@@ -4,4 +4,4 @@ setDescription("Form a heavy metal press multiblock for rocket engine bells chea
 addParent("triumph:advanced_tech/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:material_part, meta:153~154>)
-setPos(-275,-235)
+setPos(-275,-145)

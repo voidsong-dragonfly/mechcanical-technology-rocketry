@@ -119,17 +119,6 @@
 	</Recipe>
     <Recipe timeRequired="2400" power ="7680">
 		<input>
-			<oreDict>processorCrystalRaw</oreDict>
-			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
-            <oreDict>circuitDesignCentralProcessingUnitItem</oreDict>
-            <oreDict>circuitDesignMemoryItem</oreDict>
-		</input>
-		<output>
-			<oreDict>processorCrystalEngraved</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="2400" power ="7680">
-		<input>
 			<oreDict>grapheneProcessorCrystalRaw</oreDict>
 			<oreDict>circuitDesignIntegratedCircuitItem</oreDict>
             <oreDict>circuitDesignCentralProcessingUnitItem</oreDict>

@@ -4,4 +4,4 @@ setDescription("Craft a small pipe metal press mold, for extruding delicate inte
 addParent("triumph:advanced_tech/extrusion")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:metalPressMoldSmallPipe>)
-setPos(-240,-100)
+setPos(-240,-40)

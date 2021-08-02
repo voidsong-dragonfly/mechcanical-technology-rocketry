@@ -4,4 +4,4 @@ setDescription("Extrude a steel barrel shell, used for steel barrels and the Tet
 addParent("triumph:advanced_tech/barrel")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:steel_barrel_shell>)
-setPos(-205,-145)
+setPos(-205,-70)

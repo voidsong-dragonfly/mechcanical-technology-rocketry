@@ -20,7 +20,9 @@ var traverseBlocksToRemove = [<traverse:red_autumnal_leaves>,
                               <traverse:fir_slab>,
                               <traverse:fir_fence>,
                               <traverse:fir_fence_gate>,
-                              <traverse:fir_door>
+                              <traverse:fir_door>,
+                              <traverse:cold_grass>,
+                              <traverse:dead_grass>
                        ] as IItemStack[];
 for item in traverseBlocksToRemove{
     removeAndHide(item);

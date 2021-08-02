@@ -15,7 +15,7 @@ game.setLocalization("contenttweaker.part.mechanicalcomponent", "%s Mechanical C
 game.setLocalization("contenttweaker.part.scaffoldingpanel", "%s Scaffolding Panel");
 game.setLocalization("contenttweaker.part.smallpipe", "%s Small Pipe");
 game.setLocalization("contenttweaker.part.fuelpellet", "%s Fuel Pellet");
-game.setLocalization("contenttweaker.part.compressorblade", "%s Compressor Blade");
+game.setLocalization("contenttweaker.part.compressor", "%s Compressor");
 //New parts - nonmetal types
 game.setLocalization("contenttweaker.part.fiber", "%s Fiber");
 game.setLocalization("contenttweaker.part.slag", "%s Slag");
@@ -28,7 +28,6 @@ game.setLocalization("contenttweaker.part.circuitplate", "%s Circuit Plate");
 game.setLocalization("contenttweaker.part.etchingplate", "%s Etching Plate");
 game.setLocalization("contenttweaker.part.preparedwafer", "Prepared %s Wafer");
 //New parts - circuit parts
-game.setLocalization("contenttweaker.part.processorcrystal", "%s Processor Crystal");
 game.setLocalization("contenttweaker.part.grapheneprocessorcrystal", "%s Graphene Processor Crystal");
 game.setLocalization("contenttweaker.part.perfectcircuit", "Perfect Circuit");
 game.setLocalization("contenttweaker.part.circuitboard", "%s Circuit Board");

@@ -1,7 +1,0 @@
-setIcon(<advancedrocketry:jackhammer>)
-setTitle("Pneumatic Hammer Speed")
-setDescription("Craft a jackhammer, to break into geodes on foreign planets")
-addParent("triumph:advanced_tech/titanium")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<advancedrocketry:jackhammer>)
-setPos(-240,-40)

@@ -1,0 +1,7 @@
+setIcon(<mekanism:basicblock2, meta:3, count:1, nbt:{tier:0}>)
+setTitle("Inductive Conduction")
+setDescription("Craft six induction tablets into a basic induction cell")
+addParent("triumph:advanced_tech/induction_tablet")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:basicblock2, meta:3, count:1, nbt:{tier:0}>)
+setPos(-205,170)

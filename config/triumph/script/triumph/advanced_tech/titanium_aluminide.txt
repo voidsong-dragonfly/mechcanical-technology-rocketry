@@ -1,7 +1,0 @@
-setIcon(<advancedrocketry:productingot:0>)
-setTitle("Does Not Contain Helium Bubbles")
-setDescription("Acquire an ingot of titanium aluminide")
-addParent("triumph:advanced_tech/titanium")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:ingotTitaniumAluminide>)
-setPos(-240,-10)

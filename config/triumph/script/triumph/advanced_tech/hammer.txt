@@ -4,4 +4,4 @@ setDescription("Craft and assemble a Naysmith steam hammer for forging T4 and T5
 addParent("triumph:advanced_tech/steel_shell")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<tetra:hammer_base>)
-setPos(-170,-145)
+setPos(-170,-70)

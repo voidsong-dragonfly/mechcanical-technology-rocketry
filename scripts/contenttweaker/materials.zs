@@ -41,7 +41,6 @@ MaterialSystem.getPartBuilder().setName("circuitplate").setPartType(MaterialSyst
 MaterialSystem.getPartBuilder().setName("etchingplate").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("etchingPlate").build();
 MaterialSystem.getPartBuilder().setName("preparedwafer").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("preparedWafer").build();
 //New parts - circuit parts
-MaterialSystem.getPartBuilder().setName("processorcrystal").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("processorCrystal").build();
 MaterialSystem.getPartBuilder().setName("grapheneprocessorcrystal").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("grapheneProcessorCrystal").build();
 MaterialSystem.getPartBuilder().setName("perfectcircuit").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("perfectCircuit").build();
 MaterialSystem.getPartBuilder().setName("circuitboard").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("circuitBoard").build();
@@ -78,7 +77,7 @@ MaterialSystem.getPartBuilder().setName("injectionmold").setPartType(MaterialSys
 
 
 //Order
-static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "processorcrystal", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
+static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
 
 
 
@@ -266,8 +265,8 @@ static parts as string[][string] = {
     "NAND Memory" : ["wafer", "circuitplate"],
     "System On Chip" : ["wafer", "circuitplate"],
     //Circuit bits
-    "Raw" : ["processorcrystal", "grapheneprocessorcrystal"],
-    "Engraved" : ["processorcrystal", "grapheneprocessorcrystal"],
+    "Raw" : ["grapheneprocessorcrystal"],
+    "Engraved" : ["grapheneprocessorcrystal"],
     "Unprepared Plastic" : ["circuitboard"],
     "Plastic" : ["circuitboard"],
     "Unprepared Platinum Backed Plastic" : ["circuitboard"],

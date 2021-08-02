@@ -56,24 +56,13 @@
     </Recipe>
     <Recipe timeRequired="3600" power="8192">
 		<input>
-			<oreDict>dustDiamond;64</oreDict>
-            <oreDict>dustMagnesium;8</oreDict>
-            <fluidStack>helium;16000</fluidStack>
-        </input>
-		<output>
-			<oreDict>processorCrystalRaw;16</oreDict>
-            <fluidStack>helium;15800</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="3600" power="8192">
-		<input>
 			<itemStack>contenttweaker:hop_graphite_dust_block;8</itemStack>
-            <oreDict>dustNeodymium;8</oreDict>
-            <fluidStack>helium3;16000</fluidStack>
+            <oreDict>dustGold;8</oreDict>
+            <fluidStack>helium;4000</fluidStack>
         </input>
 		<output>
 			<oreDict>grapheneProcessorCrystalRaw;16</oreDict>
-            <fluidStack>helium3;15800</fluidStack>
+            <fluidStack>helium;3900</fluidStack>
 		</output>
 	</Recipe>
 </Recipes>

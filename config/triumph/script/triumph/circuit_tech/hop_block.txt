@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:hop_graphite_dust_block>)
+setTitle("Graphitic Reconfiguration")
+setDescription("Obtain some pure graphite from asteroid mining, perfect for transmutation into graphene")
+addParent("triumph:circuit_tech/elite_circuit")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:hop_graphite_dust_block>)
+setPos(145,20)
+hideLines();

@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:uranium_dust_block>)
+setTitle("Extraplanetary Enrichment Process")
+setDescription("Collect a uranium dioxide dust block from an asteroid mining mission to a silicon-rich asteroid, a way for space-based nuclear power")
+addParent("triumph:rocketry_tech/asteroid_chip")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:uranium_dust_block>)
+setPos(-30,-230)
+visibleIf("triumph:nuclear/rocketry_tech")

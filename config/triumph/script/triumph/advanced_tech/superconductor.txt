@@ -1,0 +1,7 @@
+setIcon(<mekanism:transmitter, ore:universalCable, meta:0, count:1, nbt:{tier:3}>)
+setTitle("Anti-Resistance Movement")
+setDescription("Craft a superconductor cable, used for lossless high-capacity energy transfer")
+addParent("triumph:advanced_tech/tungstensteel_small_pipe")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<mekanism:transmitter, ore:universalCable, meta:0, count:1, nbt:{tier:3}>)
+setPos(-170,-40)

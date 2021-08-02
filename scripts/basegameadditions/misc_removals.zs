@@ -25,3 +25,9 @@ removeAndHide(<flourishingfoliage:leaves_repairing>);
 
 //Charset
 removeAndHide(<charset:icon>);
+
+//Sorta useful but not to us items
+removeAndHide(<theoneprobe:probenote>);
+removeAndHide(<tombmanygraves:death_list>);
+removeAndHide(<valkyrielib:guide>);
+removeAndHide(<simplecorn:corn>);

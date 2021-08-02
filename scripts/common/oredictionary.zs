@@ -99,6 +99,10 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentSteel>);
 <ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentMaragingSteel>);
 
+//Superconductor wire OD
+<ore:wireSuperconductingAny>.addAll(<ore:wireNiobiumTitaniumAlloy>);
+<ore:wireSuperconductingAny>.addAll(<ore:wireYttriumBariumCuprate>);
+
 //Platinum Group Metal Oredictionary
 <ore:dustMixedPlatinumGroupMetal>.addAll(<ore:dustRichMixedPlatinumGroupMetal>);
 <ore:ingotPGMAny>.addAll(<ore:ingotPlatinum>);

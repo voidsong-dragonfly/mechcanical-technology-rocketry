@@ -1,6 +1,6 @@
 <Asteroids>
 	<asteroid name="M-Type" distance="80" mass="1000" massVariability="0.25" minLevel="0" probability="0.015" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="20">
-        <ore itemStack="contenttweaker:iron_dust_block" chance="75" />
+        <ore itemStack="contenttweaker:iron_dust_block" chance="76" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="12" />
         <ore itemStack="contenttweaker:cobalt_dust_block" chance="5" />
         <ore itemStack="contenttweaker:copper_dust_block" chance="4" />
@@ -8,7 +8,6 @@
         <ore itemStack="contenttweaker:silver_dust_block" chance="1" />
         <ore itemStack="contenttweaker:platinum_dust_block" chance="0.675" />
         <ore itemStack="contenttweaker:iridium_dust_block" chance="0.275" />
-        <ore itemStack="contenttweaker:niobium_dust_block" chance="1" />
 	</asteroid>
     <asteroid name="S-Type [P]" distance="50" mass="1000" massVariability="0.25" minLevel="0" probability="0.0525" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="12.5">
         <ore itemStack="minecraft:ice" chance="20" />

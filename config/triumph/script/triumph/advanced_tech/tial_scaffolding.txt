@@ -4,4 +4,4 @@ setDescription("Craft a aluminium magnesium titanide scaffolding panel, the basi
 addParent("triumph:advanced_tech/scaffold")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:scaffoldingPanelAluminiumMagnesiumTitanide>)
-setPos(-205,-205)
+setPos(-205,-130)

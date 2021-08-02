@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:iquartzcrucible>)
+setTitle("A Growing Pain")
+setDescription("Form an iridium crucible with the heavy metal press, used for space-station crystal growth")
+addParent("triumph:advanced_tech/bell")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:iquartzcrucible>)
+setPos(-205,-160)

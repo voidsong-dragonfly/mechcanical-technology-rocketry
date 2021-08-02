@@ -4,4 +4,4 @@ setDescription("Form an extrusion press multiblock for cheaper pipes and better 
 addParent("triumph:advanced_tech/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:material_part, meta:149~152>)
-setPos(-275,-115)
+setPos(-275,-40)

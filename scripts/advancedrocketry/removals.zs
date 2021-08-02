@@ -43,3 +43,6 @@ removeAndHide(<advancedrocketry:basalt>);
 
 //Don't need laser
 removeAndHide(<advancedrocketry:basiclasergun>);
+
+//These aren't used in the current build, so away they go 
+removeAndHide(<advancedrocketry:elevatorchip>);
