@@ -32,7 +32,7 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
-    <Recipe timeRequired="2400" power="1024">
+    <Recipe timeRequired="2400" power="1920">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
             <oreDict>dustGold;4</oreDict>
@@ -43,7 +43,7 @@
             <fluidStack>nitrogengas;3500</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="2400" power="2048">
+    <Recipe timeRequired="2400" power="1920">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
             <oreDict>dustLithium;4</oreDict>
@@ -54,7 +54,7 @@
             <fluidStack>nitrogengas;3500</fluidStack>
 		</output>
     </Recipe>
-    <Recipe timeRequired="3600" power="8192">
+    <Recipe timeRequired="3600" power="7680">
 		<input>
 			<itemStack>contenttweaker:hop_graphite_dust_block;8</itemStack>
             <oreDict>dustGold;8</oreDict>

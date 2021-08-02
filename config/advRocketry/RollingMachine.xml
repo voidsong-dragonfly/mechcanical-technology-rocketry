@@ -231,7 +231,7 @@
 		</output>
 	</Recipe>
     
-    <Recipe timeRequired="150" power ="200">
+    <Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateIron</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -240,7 +240,7 @@
 			<itemStack>libvulpes:productsheet;2;1</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power ="200">
+	<Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateAnnealedCopper</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -249,7 +249,7 @@
 			<itemStack>libvulpes:productsheet;2;4</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="150" power ="200">
+    <Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateLead</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -258,7 +258,7 @@
 			<oreDict>sheetLead;2</oreDict>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power ="200">
+	<Recipe timeRequired="150" power ="240">
 		<input>
 			<itemStack>immersiveengineering:metal;1;38</itemStack>
 			<fluidStack>lubricant;300</fluidStack>
@@ -267,7 +267,7 @@
 			<itemStack>libvulpes:productsheet;2;6</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="150" power ="200">
+    <Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateMaragingSteel</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -276,7 +276,7 @@
 			<oreDict>sheetMaragingSteel;2</oreDict>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power ="200">
+	<Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateTitanium</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -285,7 +285,7 @@
 			<itemStack>libvulpes:productsheet;2;7</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power ="200">
+	<Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateAluminum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -294,7 +294,7 @@
 			<itemStack>libvulpes:productsheet;2;9</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="150" power ="200">
+    <Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>platePlatinum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -303,7 +303,7 @@
 			<oreDict>sheetPlatinum;2</oreDict>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power ="200">
+	<Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateTitaniumAluminide</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -312,7 +312,7 @@
 			<itemStack>advancedrocketry:productsheet;2</itemStack>
 		</output>
 	</Recipe>
-	<Recipe timeRequired="150" power ="200">
+	<Recipe timeRequired="150" power ="240">
 		<input>
 			<oreDict>plateTitaniumIridium</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
@@ -322,7 +322,7 @@
 		</output>
 	</Recipe>
     
-    <Recipe timeRequired="300" power="200">
+    <Recipe timeRequired="300" power="240">
 		<input>
             <oreDict>sheetAluminum;4</oreDict>
             <fluidStack>lubricant;600</fluidStack>
@@ -331,7 +331,7 @@
             <itemStack>advancedrocketry:pressuretank;1;0</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="300" power="200">
+    <Recipe timeRequired="300" power="240">
 		<input>
             <oreDict>sheetSteel;4</oreDict>
             <fluidStack>lubricant;600</fluidStack>
@@ -340,7 +340,7 @@
             <itemStack>advancedrocketry:pressuretank;1;1</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="300" power="200">
+    <Recipe timeRequired="300" power="240">
 		<input>
             <oreDict>sheetTitanium;4</oreDict>
             <fluidStack>lubricant;600</fluidStack>

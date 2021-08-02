@@ -32,7 +32,7 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
-    <Recipe timeRequired="12000" power="3072">
+    <Recipe timeRequired="12000" power="2880">
 		<input>
 			<fluidStack>uraniumhexafluoride_007;1000</fluidStack>
             
@@ -42,7 +42,7 @@
             <fluidStack>uraniumhexafluoride_014;500</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="12000" power="3072">
+    <Recipe timeRequired="12000" power="2880">
 		<input>
 			<fluidStack>uraniumhexafluoride_014;1000</fluidStack>
             
@@ -52,7 +52,7 @@
             <fluidStack>uraniumhexafluoride_021;500</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="12000" power="3072">
+    <Recipe timeRequired="12000" power="2880">
 		<input>
 			<fluidStack>uraniumhexafluoride_021;1000</fluidStack>
             
@@ -62,7 +62,7 @@
             <fluidStack>uraniumhexafluoride_028;500</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="12000" power="3072">
+    <Recipe timeRequired="12000" power="2880">
 		<input>
 			<fluidStack>uraniumhexafluoride_028;1000</fluidStack>
             
@@ -72,7 +72,7 @@
             <fluidStack>uraniumhexafluoride_035;500</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>densebalancedgas;10000</fluidStack>
         </input>
@@ -85,7 +85,7 @@
             <fluidStack>helium3;1</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>lightbalancedgas;10000</fluidStack>
         </input>
@@ -97,7 +97,7 @@
             <fluidStack>liquiddeuterium;1</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>cloudbalancedgas;10000</fluidStack>
         </input>
@@ -109,7 +109,7 @@
             <fluidStack>water;150</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>densehydrogenrichgas;10000</fluidStack>
         </input>
@@ -121,7 +121,7 @@
             <fluidStack>liquiddeuterium;40</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>lighthydrogenrichgas;10000</fluidStack>
         </input>
@@ -133,7 +133,7 @@
             <fluidStack>liquiddeuterium;20</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>cloudhydrogenrichgas;10000</fluidStack>
         </input>
@@ -145,7 +145,7 @@
             <fluidStack>water;140</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>denseammoniarichgas;10000</fluidStack>
         </input>
@@ -159,7 +159,7 @@
             <fluidStack>helium3;3</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>lightammoniarichgas;10000</fluidStack>
         </input>
@@ -173,7 +173,7 @@
             <fluidStack>helium3;2</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>cloudammoniarichgas;10000</fluidStack>
         </input>
@@ -185,7 +185,7 @@
             <fluidStack>water;200</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>denseheliumrichgas;10000</fluidStack>
         </input>
@@ -198,7 +198,7 @@
             <fluidStack>liquiddeuterium;80</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>lightheliumrichgas;10000</fluidStack>
         </input>
@@ -211,7 +211,7 @@
             <fluidStack>liquiddeuterium;10</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="3000" power="2048">
+    <Recipe timeRequired="3000" power="1920">
 		<input>
 			<fluidStack>cloudheliumrichgas;10000</fluidStack>
         </input>
@@ -224,7 +224,7 @@
             <fluidStack>liquiddeuterium;1</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="2500" power="2048">
+    <Recipe timeRequired="2500" power="1920">
 		<input>
 			<fluidStack>precipitategas;10000</fluidStack>
         </input>

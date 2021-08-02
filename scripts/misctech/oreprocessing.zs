@@ -18,7 +18,7 @@ slag.build();
 furnace.addRecipe(<ore:dustAlumina>.firstItem, <ore:dustAluminiumHydroxide>.firstItem);
 furnace.addRecipe(<ore:dustAlumina>.firstItem, <mekores:mekanismore:33>);
 Mixer.addRecipe(<liquid:moltencryolitesolution> * 100, <liquid:moltencryolite> * 100, [<ore:dustAlumina>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidoxygen> * 4800, <liquid:moltenaluminium> * 3200, <liquid:moltencryolite> * 3200, null, <liquid:moltencryolitesolution> * 3200, 16080000, 1600);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidoxygen> * 4800, <liquid:moltenaluminium> * 3200, <liquid:moltencryolite> * 3200, null, <liquid:moltencryolitesolution> * 3200, 18432000, 1600);
 var cast_aluminium_ingot = newBuilder("cast_aluminium_ingot", "casting_basin", 400);
 cast_aluminium_ingot.addFluidInput(<liquid:moltenaluminium> * 1600);
 cast_aluminium_ingot.addItemInput(<ore:metalPressMoldIngot>.firstItem).setChance(0);
@@ -43,7 +43,7 @@ furnace.addRecipe(<ore:dustYellowcake>.firstItem, <ore:dustAmmoniumDiuranate>.fi
 
 //Iron Processing
 var crude_iron = newBuilder("crude_iron", "large_blast_furnace", 2400);
-crude_iron.addEnergyPerTickInput(3072);
+crude_iron.addEnergyPerTickInput(3840);
 crude_iron.addItemInput(<ore:dustDirtyIron>.firstItem * 192);
 crude_iron.addItemInput(<ore:dustAnyCarbon>, 192);
 crude_iron.addItemInput(<ore:flux>, 64);
@@ -100,6 +100,7 @@ steel_rod.build();
 
 //Tungsten processing
 var tungsten_dust = newBuilder("tungsten_dust", "oxygen_converter", 400);
+tungsten_dust.addMekanismHeatInput(0, 1350, (1.0/0));
 tungsten_dust.addItemInput(<ore:dustTungstenTrioxide>.firstItem * 16);
 tungsten_dust.addFluidInput(<liquid:liquidhydrogen> * 4800);
 tungsten_dust.addFluidInput(<liquid:water> * 9600);
@@ -108,7 +109,7 @@ tungsten_dust.build();
 
 //Copper processing
 Mixer.addRecipe(<liquid:coppersulfatesolution> * 150, <liquid:sulfuricacid> * 150, [<ore:dustDirtyCopper>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liquid:coppersulfatesolutionresidue> * 400, <immersiveengineering:metal:30> * 16, <liquid:coppersulfatesolution> * 1600, 1340000, 400);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liquid:coppersulfatesolutionresidue> * 400, <immersiveengineering:metal:30> * 16, <liquid:coppersulfatesolution> * 1600, 1536000, 400);
 
 //Nickel Processing
 var nickel_matte = newBuilder("nickel_matte", "oxygen_converter", 200);
@@ -124,11 +125,11 @@ nickel_matte_ingot.addFluidInput(<liquid:moltennickelmatte> * 1600);
 nickel_matte_ingot.addItemOutput(<ore:slagNickelMatte>.firstItem * 16);
 nickel_matte_ingot.build();
 Mixer.addRecipe(<liquid:nickelsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<ore:slagNickelMatte>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liquid:nickelsulfatesolutionresidue> * 400, <immersiveengineering:metal:34> * 16, <liquid:nickelsulfatesolution> * 1600, 2010000, 400);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liquid:nickelsulfatesolutionresidue> * 400, <immersiveengineering:metal:34> * 16, <liquid:nickelsulfatesolution> * 1600, 1920000, 400);
 
 //Tin processing
 var impure_tin = newBuilder("impure_tin", "large_blast_furnace", 2400);
-impure_tin.addEnergyPerTickInput(3072);
+impure_tin.addEnergyPerTickInput(3840);
 impure_tin.addItemInput(<ore:dustDirtyTin>.firstItem * 192);
 impure_tin.addItemInput(<ore:dustAnyCarbon>, 192);
 impure_tin.addItemInput(<ore:flux>, 48);
@@ -142,11 +143,11 @@ impure_tin_ingot.addFluidInput(<liquid:impuremoltentin> * 1600);
 impure_tin_ingot.addItemOutput(<ore:slagImpureTin>.firstItem * 16);
 impure_tin_ingot.build();
 Mixer.addRecipe(<liquid:tinsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<ore:slagImpureTin>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1600, null, null, <libvulpes:productplate:5> * 16, <liquid:tinsulfatesolution> * 1600, 2010000, 400);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1600, null, null, <libvulpes:productplate:5> * 16, <liquid:tinsulfatesolution> * 1600, 1920000, 400);
 
 //Lead processing
 var molten_lead = newBuilder("molten_lead", "large_blast_furnace", 2400);
-molten_lead.addEnergyPerTickInput(3072);
+molten_lead.addEnergyPerTickInput(3840);
 molten_lead.addItemInput(<ore:slagLeadSinter>.firstItem * 192);
 molten_lead.addItemInput(<ore:dustAnyCarbon>, 192);
 molten_lead.addFluidOutput(<liquid:moltenlead> * 9600);
@@ -172,7 +173,7 @@ lead_rod.build();
 
 //Titanium processing
 var rutile_dust = newBuilder("rutile_dust", "large_blast_furnace", 7200);
-rutile_dust.addEnergyPerTickInput(3072);
+rutile_dust.addEnergyPerTickInput(3840);
 rutile_dust.addItemInput(<mekores:mekanismore:88> * 192);
 rutile_dust.addItemInput(<ore:dustAnyCarbon>, 288);
 rutile_dust.addFluidOutput(<liquid:moltencrudeiron> * 3200);

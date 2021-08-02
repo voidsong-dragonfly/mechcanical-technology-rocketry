@@ -185,7 +185,7 @@
 		</output>
 	</Recipe>
     
-    <Recipe timeRequired="1200" power="192">
+    <Recipe timeRequired="1200" power="60">
 		<input>
 			<oreDict>blockGlassColorless</oreDict>
         </input>
@@ -193,7 +193,7 @@
 			<itemStack>advancedrocketry:blocklens</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="150" power="256">
+    <Recipe timeRequired="150" power="240">
 		<input>
 			<oreDict>mechanicalComponentSteel</oreDict>
         </input>
