@@ -4,7 +4,24 @@
       "enable": false
     },
     "lakes": {
-      "amountPerChunk": 0.9
+      "liquid": {
+        "block": "minecraft:water",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 0.25,
+      "enable": true,
+      "frozenLiquid": {
+        "block": "minecraft:ice",
+        "properties": {}
+      },
+      "grassBorderWith": {
+        "block": "minecraft:grass",
+        "properties": {
+          "snowy": "false"
+        }
       }
+    }
   }
 }

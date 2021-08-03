@@ -2,6 +2,26 @@
   "generators": {
     "emeralds": {
       "enable": false
+    },
+    "lakes": {
+      "liquid": {
+        "block": "minecraft:water",
+        "properties": {
+          "level": "0"
+        }
+      },
+      "amountPerChunk": 0.5,
+      "enable": true,
+      "frozenLiquid": {
+        "block": "minecraft:ice",
+        "properties": {}
+      },
+      "grassBorderWith": {
+        "block": "minecraft:grass",
+        "properties": {
+          "snowy": "false"
+        }
+      }
     }
   }
 }
