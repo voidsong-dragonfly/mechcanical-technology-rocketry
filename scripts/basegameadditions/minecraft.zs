@@ -55,17 +55,19 @@ recipes.removeByRecipeName("tetra:chainmail_chestplate");
 recipes.removeByRecipeName("tetra:chainmail_leggings");
 recipes.removeByRecipeName("tetra:chainmail_boots");
     
-//Make detector rails crafted from modifying a normal rail
+//Make rails crafted from modifying a normal rail
 recipes.remove(<minecraft:detector_rail>);
 recipes.addShaped(<minecraft:detector_rail>,
  [[<minecraft:rail>],
  [<minecraft:stone_pressure_plate>]]);
- 
-//Make activator rails crafted from modifying a normal rail
 recipes.remove(<minecraft:activator_rail>);
 recipes.addShaped(<minecraft:activator_rail>,
  [[<minecraft:rail>],
  [<minecraft:redstone_torch>]]);
+recipes.addShaped(<transport:holding>,
+ [[<minecraft:redstone>],
+ [<minecraft:golden_rail>],
+ [<minecraft:stone_pressure_plate>]]);
  
 //Ender crystal/other Vanilla magic items to use more Quark materials/more fitting materials & ender hopper to use other materials
 recipes.remove(<minecraft:end_crystal>);
