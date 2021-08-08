@@ -12,7 +12,7 @@ criteria.addItem(<ore:dustCinnabar>)
 criteria = addCriteria("fluorite", "minecraft:inventory_changed")
 criteria.addItem(<ore:dustFluorite>)
 criteria = addCriteria("quartz", "minecraft:inventory_changed")
-criteria.addItem("minecraft:quartz_ore")
+criteria.addItem("ore:gemQuartz")
 
 setRequirements("any")
 

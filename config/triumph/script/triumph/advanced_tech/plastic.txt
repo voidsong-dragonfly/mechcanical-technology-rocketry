@@ -4,4 +4,4 @@ setDescription("Craft a HDPE sheet from molten polyethylene, and preferably in b
 addParent("triumph:advanced_tech/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:polyethene:2>)
-setPos(-275,125)
+setPos(-275,110)

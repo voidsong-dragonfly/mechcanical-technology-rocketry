@@ -16,7 +16,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -31,7 +31,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -46,7 +46,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -61,7 +61,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -76,7 +76,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -91,7 +91,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -106,7 +106,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -121,7 +121,7 @@
                 "io": "output",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -136,7 +136,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -151,7 +151,7 @@
                 "io": "input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -166,7 +166,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -181,7 +181,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -196,7 +196,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -211,7 +211,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -226,7 +226,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         },
         {
@@ -241,7 +241,7 @@
                 "io":"input",
                 "target": "fluid",
                 "operation": 0,
-                "multiplier": 200
+                "multiplier": 2000
             }
         }
     ],

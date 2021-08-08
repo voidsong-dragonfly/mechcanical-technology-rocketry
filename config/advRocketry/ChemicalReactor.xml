@@ -199,7 +199,7 @@
     <Recipe timeRequired="100" power="1920">
 		<input>
 			<fluidStack>liquidhydrogen;400</fluidStack>
-            <fluidStack>liquidchlorine;400</fluidStack>
+            <fluidStack>chlorine;400</fluidStack>
         </input>
 		<output>
 			<fluidStack>liquidhydrogenchloride;800</fluidStack>
@@ -392,7 +392,7 @@
 		<input>
             <oreDict>dustRutile;8</oreDict>
             <oreDict>dustAnyCarbon;16</oreDict>
-            <fluidStack>liquidchlorine;1600</fluidStack>
+            <fluidStack>chlorine;1600</fluidStack>
         </input>
 		<output>
             <fluidStack>titaniumtetrachloride;800</fluidStack>
@@ -413,7 +413,7 @@
 		<input>
             <oreDict>dustDirtyZirconium;8</oreDict>
             <oreDict>dustAnyCarbon;16</oreDict>
-            <fluidStack>liquidchlorine;1600</fluidStack>
+            <fluidStack>chlorine;1600</fluidStack>
         </input>
 		<output>
             <fluidStack>zirconiumtetrachloride;800</fluidStack>

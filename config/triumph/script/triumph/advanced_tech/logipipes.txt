@@ -4,4 +4,4 @@ setDescription("LogisticsPipes pipes all need power, and the power junction need
 addParent("triumph:advanced_tech/machines")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<logisticspipes:frame>)
-setPos(-205,200)
+setPos(-205,170)

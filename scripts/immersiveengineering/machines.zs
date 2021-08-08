@@ -28,9 +28,9 @@ Refinery.addRecipe(<liquid:oxygen> * 100, <liquid:nitrogengas> * 80, <liquid:liq
 Refinery.addRecipe(<liquid:hydrotreatedoil> * 100, <liquid:oil> * 100, <liquid:liquidhydrogen> * 2, 80);
 Refinery.addRecipe(<liquid:hydrotreatedgas> * 100, <liquid:naturalgas> * 100, <liquid:liquidhydrogen> * 1, 80);
 //Steam cracking recipes
-Refinery.addRecipe(<liquid:crackednaphtha> * 25, <liquid:naphtha> * 20, <liquid:steam> * 100, 320);
-Refinery.addRecipe(<liquid:crackedethene> * 25, <liquid:liquidethene> * 20, <liquid:steam> * 100, 320);
-Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:steam> * 100, 320);
+Refinery.addRecipe(<liquid:crackednaphtha> * 25, <liquid:naphtha> * 20, <liquid:steam> * 200, 320);
+Refinery.addRecipe(<liquid:crackedethene> * 25, <liquid:liquidethene> * 20, <liquid:steam> * 200, 320);
+Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:steam> * 200, 320);
 
 //RP-1 Recipes
 Refinery.addRecipe(<liquid:hydrotreatedkerosene> * 200, <liquid:kerosene> * 200, <liquid:liquidhydrogen> * 1, 80);
@@ -84,10 +84,9 @@ BottlingMachine.addRecipe(<ore:preparedWaferCentralProcessingUnit>.firstItem.wit
 
 //High-teir item botting machine recipes
 BottlingMachine.addRecipe(<immersiveengineering:toolupgrade>.withTag({helium: 4000}).withLore(["Helium: 4000"]), <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
-BottlingMachine.addRecipe(<ore:supercapacitorItem>.firstItem, <ore:supercapacitorHullItem>, <liquid:distwater> * 125);
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledSuperconductorCableItem>, <liquid:liquidnitrogen> * 125);
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledHighCurrentSuperconductorCableItem>, <liquid:liquidnitrogen> * 100);
-BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liquid:steam> * 8000);
+BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liquid:steam> * 16000);
 
 //Cooling bottling machine recipes
 BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:water> * 125);
@@ -126,14 +125,16 @@ MarxGenerator.removeRecipe(<ore:oreTin>);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:water> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogendeuteride> * 1600, <liquid:liquidoxygen> * 800, null, null, <liquid:heavywater> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquiddeuterium> * 400, <liquid:liquidhydrogen> * 400, null, null, <liquid:hydrogendeuteride> * 800, 384000, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:liquidchlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 384000, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidlithium> * 1600, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 384000, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 384000, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:liquidchlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:chlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltensodium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltensalt> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidlithium> * 1600, <liquid:chlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidhydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 1536000, 400);
 
 //Melting recipes
 //Non-ices
+MeltingCrucible.addRecipe(<liquid:moltensalt> * 100, <ore:dustSalt>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltenmagnesiumchloride> * 100, <ore:dustMagnesiumChloride>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltenlithiumchloride> * 100, <ore:dustLithiumChloride>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltencalciumchloride> * 100, <ore:dustCalciumChloride>, 9600, 40);

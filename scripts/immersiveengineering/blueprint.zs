@@ -132,7 +132,6 @@ Blueprint.addRecipe("components", <ore:itemBattery>.firstItem * 8, [<ore:stickCo
 //Superconductors
 Blueprint.addRecipe("Specialty Electric Components", <ore:unfilledSuperconductorCableItem>.firstItem * 4, [<ore:sheetSteel> * 4, <ore:wireNiobiumTitaniumAlloy> * 8, <ore:smallPipeTungstensteel> * 4]);
 Blueprint.addRecipe("Specialty Electric Components", <ore:unfilledHighCurrentSuperconductorCableItem>.firstItem * 4, [<ore:sheetSteel> * 4, <ore:wireYttriumBariumCuprate> * 8, <ore:smallPipeTungstensteel> * 4]);
-Blueprint.addRecipe("Specialty Electric Components", <ore:supercapacitorHullItem>.firstItem, [<mekanism:polyethene:2> * 8, <ore:dustHOPGraphite> * 6, <ore:dustSalt> * 3, <ore:sheetCopper> * 2]);
 
 //Circuit pieces blueprint
 Blueprint.removeRecipe(<immersiveengineering:material:27>);

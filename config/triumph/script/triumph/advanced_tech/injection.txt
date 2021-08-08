@@ -4,4 +4,4 @@ setDescription("Craft an injection chamber, used to convert items with gasses, a
 addParent("triumph:advanced_tech/mekanism")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:machineblock2:3>)
-setPos(-170,230)
+setPos(-170,200)

@@ -55,8 +55,6 @@ MaterialSystem.getPartBuilder().setName("fuelbundle").setPartType(MaterialSystem
 MaterialSystem.getPartBuilder().setName("rodbundle").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("rodBundle").build();
 //New parts - power items
 MaterialSystem.getPartBuilder().setName("smallbatteryhull").setPartType(MaterialSystem.getPartType("item")).setOreDictName("smallBatteryHull").build();
-MaterialSystem.getPartBuilder().setName("supercapacitorhull").setPartType(MaterialSystem.getPartType("item")).setOreDictName("supercapacitorHull").build();
-MaterialSystem.getPartBuilder().setName("supercapacitor").setPartType(MaterialSystem.getPartType("item")).setOreDictName("supercapacitor").build();
 MaterialSystem.getPartBuilder().setName("inductiontablet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("inductionTablet").build();
 MaterialSystem.getPartBuilder().setName("unfilledsuperconductorcable").setPartType(MaterialSystem.getPartType("item")).setOreDictName("unfilledSuperconductorCable").build();
 MaterialSystem.getPartBuilder().setName("unfilledhighcurrentsuperconductorcable").setPartType(MaterialSystem.getPartType("item")).setOreDictName("unfilledHighCurrentSuperconductorCable").build();
@@ -77,7 +75,7 @@ MaterialSystem.getPartBuilder().setName("injectionmold").setPartType(MaterialSys
 
 
 //Order
-static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
+static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
 
 
 
@@ -292,7 +290,7 @@ static parts as string[][string] = {
     "HDPE Sheet" : ["injectionmold"],
     "HDPE Rod" : ["injectionmold"],
     //Register all the things!
-    "Item" : ["perfectcircuit", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "smallbatteryhull", "supercapacitorhull", "supercapacitor", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel"],
+    "Item" : ["perfectcircuit", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel"],
 };
 
 

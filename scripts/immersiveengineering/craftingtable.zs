@@ -168,21 +168,17 @@ recipes.remove(<immersiveengineering:metal_device0:0>);
 recipes.remove(<immersiveengineering:metal_device0:1>);
 recipes.remove(<immersiveengineering:metal_device0:2>);
 recipes.addShaped(<immersiveengineering:metal_device0:0>,
+ [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
+ [<ore:ingotCopper>, <libvulpes:battery:1>, <ore:ingotCopper>],
+ [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
+recipes.addShaped(<immersiveengineering:metal_device0:1>,
  [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
  [<ore:ingotCopper>, <ore:blockLead>, <ore:ingotCopper>],
  [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
-recipes.addShaped(<immersiveengineering:metal_device0:1>,
- [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
- [<ore:ingotAnnealedCopper>, <ore:itemBattery>, <ore:ingotAnnealedCopper>],
- [<ore:plankTreatedWood>, <ore:itemBattery>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<immersiveengineering:metal_device0:2>,
- [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
- [<ore:ingotAnnealedCopper>, <libvulpes:battery:1>, <ore:ingotAnnealedCopper>],
- [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
-recipes.addShaped(<immersiveengineering:metal_device0:2>,
- [[<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>],
- [<ore:ingotAluminum>, <libvulpes:battery:1>, <ore:ingotAluminum>],
- [<ore:plankTreatedWood>, <libvulpes:battery:1>, <ore:plankTreatedWood>]]);
+ [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
+ [<ore:ingotAnnealedCopper>, <ore:blockLead>, <ore:ingotAnnealedCopper>],
+ [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
 recipes.addShaped(<libvulpes:battery:0>, 
  [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
  [<ore:dustRedstone>, <ore:smallBatteryHullItem>, <ore:dustRedstone>],
@@ -220,10 +216,10 @@ recipes.replaceAllOccurences(<minecraft:iron_sword>, <tetra:sword_modular>.withT
 //Redo railgun crafting to use supercapacitors and to be closer to 1.16 IE
 recipes.remove(<immersiveengineering:railgun>);
 recipes.addShaped(<immersiveengineering:railgun>,
- [[null, <ore:supercapacitorItem>, <immersiveengineering:material:13>],
+ [[null, <immersiveengineering:metal_device0:1>, <immersiveengineering:material:13>],
  [<ore:ingotSteel>, <immersiveengineering:metal_decoration0:1>, <immersiveengineering:material:27>],
  [<immersiveengineering:metal_decoration0:1>, <ore:ingotSteel>, null]]);
-recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <ore:supercapacitorItem>, <immersiveengineering:toolupgrade:9>);
+recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_device0:1>, <immersiveengineering:toolupgrade:9>);
  
 //Add a diamond-tungsten-steel drill head
 recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -22000}),

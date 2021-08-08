@@ -4,4 +4,4 @@ setDescription("LogisticsPipes requires a large amount of power, it's recommende
 addParent("triumph:advanced_tech/logipipes")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<logisticspipes:power_junction>)
-setPos(-170,200)
+setPos(-170,170)

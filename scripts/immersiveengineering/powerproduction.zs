@@ -26,20 +26,20 @@ DieselHandler.addDrillFuel(<liquid:gasoline>);
 
 //Immersive Technology things
 //Turbine processs buckets/tick to give larger expansion ratio
-SteamTurbine.addFuel(<liquid:exhauststeam> * 1000, <liquid:steam> * 1000, 1);
-HighPressureSteamTurbine.addFuel(<liquid:steam> * 2000, <liquid:highpressuresteam> * 1000, 1);
+SteamTurbine.addFuel(<liquid:exhauststeam> * 2000, <liquid:steam> * 2000, 1);
+HighPressureSteamTurbine.addFuel(<liquid:steam> * 4000, <liquid:highpressuresteam> * 2000, 1);
 
 //Gas Turbine fuels to IRL energy ratios
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:refinerygas> * 220, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:methane> * 220, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:gasoline> * 160, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:naphtha> * 160, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:kerosene> * 150, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:diesel> * 130, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:biodiesel> * 160, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:ethanol> * 240, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:liquidethene> * 180, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 1000, <liquid:liquidhydrogen> * 850, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:refinerygas> * 220, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:methane> * 220, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:gasoline> * 160, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:naphtha> * 160, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:kerosene> * 150, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:diesel> * 130, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:biodiesel> * 160, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:ethanol> * 240, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:liquidethene> * 180, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:liquidhydrogen> * 850, 10);
 
 //Make Distilled Water much more worth it
 Distiller.removeRecipe(<liquid:water>);
@@ -48,13 +48,14 @@ Distiller.addRecipe(<liquid:water> * 1000, <liquid:saltwater> * 1000, <immersive
 
 //Boilers & solar tower make 10x the steam to compenstate
 //Boiler
-Boiler.addRecipe(<liquid:steam> * 4500, <liquid:water> * 250, 10);
-Boiler.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 10);
+Boiler.addRecipe(<liquid:steam> * 9000, <liquid:water> * 250, 10);
+Boiler.addRecipe(<liquid:steam> * 10000, <liquid:distwater> * 250, 10);
 //Solar tower
-SolarTower.addRecipe(<liquid:steam> * 4500, <liquid:water> * 250, 20);
-SolarTower.addRecipe(<liquid:steam> * 5000, <liquid:distwater> * 250, 20);
+SolarTower.addRecipe(<liquid:steam> * 9000, <liquid:water> * 250, 20);
+SolarTower.addRecipe(<liquid:steam> * 10000, <liquid:distwater> * 250, 20);
+SolarTower.addRecipe(<liquid:superheatedmoltensodium> * 3200, <liquid:moltensodium> * 3200, 20);
 //Radiator can take 10x the steam
-Radiator.addRecipe(<liquid:distwater> * 125, <liquid:exhauststeam> * 2500, 40);
+Radiator.addRecipe(<liquid:distwater> * 125, <liquid:exhauststeam> * 10000, 40);
 
 //Add Boiler Fuels
 Boiler.addFuel(<liquid:refinerygas> * 140, 10, 10);
@@ -70,13 +71,11 @@ Boiler.addFuel(<liquid:liquidhydrogen> * 530, 10, 10);
 Boiler.addFuel(<liquid:creosote> * 80, 10, 10);
 
 //Heat Exchanger recipes
-HeatExchanger.addRecipe(<liquid:steam> * 4500, null, <liquid:water> * 250, <liquid:fluegas> * 1000, 320, 10);
-HeatExchanger.addRecipe(<liquid:steam> * 5000, null, <liquid:distwater> * 250, <liquid:fluegas> * 1000, 320, 10);
-HeatExchanger.addRecipe(<liquid:steam> * 4500, <liquid:pahoehoelava> * 400, <liquid:water> * 250, <liquid:lava> * 400, 320, 10);
-HeatExchanger.addRecipe(<liquid:steam> * 5000, <liquid:pahoehoelava> * 400, <liquid:distwater> * 250, <liquid:lava> * 400, 320, 10);
-HeatExchanger.addRecipe(<liquid:highpressuresteam> * 4500, <liquid:distwater> * 1000, <liquid:water> * 500, <liquid:superheatedwater> * 1000, 320, 10);
-HeatExchanger.addRecipe(<liquid:highpressuresteam> * 5000, <liquid:distwater> * 1000, <liquid:distwater> * 500, <liquid:superheatedwater> * 1000, 320, 10);
-HeatExchanger.addRecipe(<liquid:distwater> * 250, <liquid:hot_spring_water> * 4500, <liquid:exhauststeam> * 5000, <liquid:water> * 4500, 160, 5);
+HeatExchanger.addRecipe(<liquid:steam> * 10000, null, <liquid:distwater> * 250, <liquid:fluegas> * 16000, 320, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 10000, <liquid:pahoehoelava> * 2400, <liquid:distwater> * 250, <liquid:lava> * 2400, 320, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 10000, <liquid:moltensodium> * 3200, <liquid:distwater> * 250, <liquid:superheatedmoltensodium> * 3200, 320, 10);
+HeatExchanger.addRecipe(<liquid:highpressuresteam> * 10000, <liquid:distwater> * 10000, <liquid:distwater> * 500, <liquid:superheatedwater> * 10000, 320, 10);
+HeatExchanger.addRecipe(<liquid:distwater> * 250, <liquid:hot_spring_water> * 4500, <liquid:exhauststeam> * 10000, <liquid:water> * 4500, 160, 5);
 
 //TEG
 mods.immersiveengineering.Thermoelectric.addTemperatureSource(<ore:blockLightlyEnrichedUraniumDioxide>, 3000);

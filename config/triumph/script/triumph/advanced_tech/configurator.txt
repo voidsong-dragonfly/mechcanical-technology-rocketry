@@ -4,4 +4,4 @@ setDescription("Craft a configurator to do advanced configuration and chip solde
 addParent("triumph:advanced_tech/energy_tablet")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<mekanism:configurator>)
-setPos(-205,140)
+setPos(-205,110)

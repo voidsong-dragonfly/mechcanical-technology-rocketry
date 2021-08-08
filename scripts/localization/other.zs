@@ -67,8 +67,11 @@ game.setLocalization("tile.quark:slate_speleothem.name", "Dolomite Speleothem");
 game.setLocalization("tile.quark:stone_slate_pavement.name", "Dolomite Pavement");
 
 //Capacitor to battery rename
-game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_mv.name", "MV Battery Bank");
-game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_hv.name", "HV Battery Bank");
+game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_lv.name", "LV Battery Bank");
+game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_mv.name", "LV Capacitor");
+<immersiveengineering:metal_device0:0>.addTooltip("Maximum Storage: 1400000 IF, Maximum Output: 256 IF/t");
+<immersiveengineering:metal_device0:1>.addTooltip("Maximum Storage: 1600 IF, Maximum Output: 256 IF/t");
+<immersiveengineering:metal_device0:2>.addTooltip("Maximum Storage: 400000 IF, Maximum Output: 4096 IF/t");
 
 //Make Mekanism ore pieces the names of the actual ore they're processing
 //And make LV "Rutile" Ilmenite, and "Aluminum" Aluminium

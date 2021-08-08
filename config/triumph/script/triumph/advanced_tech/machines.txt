@@ -4,6 +4,6 @@ setDescription("Scaffolding and sheets are the basics for almost all machinery h
 addParent("triumph:advanced_tech/plastic")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:scaffoldingSteel>)
-setPos(-240,200)
+setPos(-240,170)
 //Force starting chapter
 setRequiresParents()

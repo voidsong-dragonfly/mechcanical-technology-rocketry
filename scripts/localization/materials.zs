@@ -42,8 +42,6 @@ game.setLocalization("contenttweaker.part.fuelbundle", "%s Fuel Rod Bundle");
 game.setLocalization("contenttweaker.part.rodbundle", "%s Rod Bundle");
 //New parts - power items
 game.setLocalization("contenttweaker.part.smallbatteryhull", "Small Battery Hull");
-game.setLocalization("contenttweaker.part.supercapacitorhull", "Supercapacitor Hull");
-game.setLocalization("contenttweaker.part.supercapacitor", "Supercapacitor");
 game.setLocalization("contenttweaker.part.inductiontablet", "Induction Tablet");
 game.setLocalization("contenttweaker.part.unfilledsuperconductorcable", "Unfilled Superconductor Cable");
 game.setLocalization("contenttweaker.part.unfilledhighcurrentsuperconductorcable", "Unfilled High Current Superconductor Cable");
