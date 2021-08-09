@@ -1,9 +1,9 @@
-setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidnitrogen",Amount:1000}>)
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquid_nitrogen",Amount:1000}>)
 setTitle("Not Part of the Nitrogen Cycle")
 setDescription("Liquefy some nitrogen to cool your Ultimate circuit's superconductors")
 addParent("triumph:circuit_tech/raw_processor_crystal")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidnitrogen",Amount:1000}>)
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquid_nitrogen",Amount:1000}>)
 setPos(215,80)
 hideLines();
 setRequiresParents()

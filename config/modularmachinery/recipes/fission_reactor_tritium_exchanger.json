@@ -6,13 +6,13 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "liquidlithium",
+            "fluid": "moltenlithium",
             "amount": 0
         },
         {
             "type": "fluid",
             "io-type": "output",
-            "fluid": "liquidtritium",
+            "fluid": "tritium",
             "amount": 0
         }
     ]

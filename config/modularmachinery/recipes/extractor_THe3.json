@@ -6,7 +6,7 @@
         {
             "type": "fluid",
             "io-type": "output",
-            "fluid": "liquiddeuterium",
+            "fluid": "deuterium",
             "amount": 1
         },
         {

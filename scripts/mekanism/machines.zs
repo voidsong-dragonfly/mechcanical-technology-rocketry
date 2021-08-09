@@ -10,11 +10,10 @@ import mods.mekanism.chemical.washer;
 
 
 //Add some use to the chemical injection chamber
-injection.addRecipe(<ore:dustStone>.firstItem, <gas:water> * 125, <minecraft:clay_ball>);
 injection.addRecipe(<inspirations:materials:6> * 3, <gas:hydrogenchloride> * 250, <immersiveengineering:metal:12>);
 injection.addRecipe(<ore:rodBlaze>, <gas:hydrogenchloride> * 125, <minecraft:blaze_powder> * 6);
 injection.addRecipe(<ore:gemPrismarine>, <gas:hydrogenchloride> * 125, <minecraft:prismarine_crystals> * 2);
-injection.addRecipe(<ore:bone>, <gas:nitrogengas> * 125, <minecraft:dye:15> * 8);
+injection.addRecipe(<ore:bone>, <gas:nitrogen> * 125, <minecraft:dye:15> * 8);
 injection.addRecipe(<minecraft:end_stone>, <gas:endacid> * 500, <stygian:endmagma>);
 injection.addRecipe(<quark:soul_bead>, <gas:endacid> * 4000, <minecraft:ender_pearl>);
 injection.addRecipe(<inspirations:materials:6>, <gas:endacid> * 125, <charm:endermite_powder>);

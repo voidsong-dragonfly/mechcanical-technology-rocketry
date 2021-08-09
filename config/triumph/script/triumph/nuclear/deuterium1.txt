@@ -1,9 +1,9 @@
-setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquiddeuterium",Amount:1000}>)
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"deuterium",Amount:1000}>)
 setTitle("Fusion fuel #2")
 setDescription("Deuterium is the second-lightest fusion fuel, and overall has the largest quantity of useful combinations, having both long-lasting and breeder combinations")
 addParent("triumph:nuclear/t1_fusion")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquiddeuterium",Amount:1000}>)
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"deuterium",Amount:1000}>)
 setPos(250,-10)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

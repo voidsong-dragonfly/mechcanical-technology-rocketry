@@ -6,7 +6,7 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "liquidhydrogen",
+            "fluid": "hydrogen",
             "amount": 1
         },
         {

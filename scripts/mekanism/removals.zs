@@ -113,3 +113,22 @@ GasConversion.unregisterAll();
 //Remove handcrafting of HDPE and move it to plastic extruder
 removeAndHide(<mekanism:polyethene:1>);
 recipes.remove(<mekanism:polyethene:*>);
+
+//Remove unused gasses & unused fluids - this is all Mekanism stuff because NOTHING HAS %@@#$@ BUCKETS
+//Double-removals, where I need neither
+hide(<liquid:liquidsodium>);
+hide(<liquid:liquidchlorine>);
+hide(<liquid:liquidhydrogen>);
+hide(<liquid:liquidoxygen>);
+hide(<liquid:liquiddeuterium>);
+hide(<liquid:liquidtritium>);
+hide(<liquid:liquidsulfurdioxide>);
+hide(<liquid:liquidsulfurtrioxide>);
+hide(<liquid:liquidlithium>);
+hide(<liquid:liquidhydrogenchloride>);
+hide(<liquid:liquidethene>);
+hide(<liquid:liquidfusionfuel>);
+hide(<liquid:sulfuricacid>);
+hide(<forge:bucketfilled>.withTag({FluidName: "liquidlithium", Amount: 1000}));
+hide(<forge:bucketfilled>.withTag({FluidName: "heat", Amount: 1000}));
+hide(<liquid:heat>);

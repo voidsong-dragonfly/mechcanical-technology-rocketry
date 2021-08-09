@@ -38,8 +38,8 @@ GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:kerosene> * 150, 10);
 GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:diesel> * 130, 10);
 GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:biodiesel> * 160, 10);
 GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:ethanol> * 240, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:liquidethene> * 180, 10);
-GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:liquidhydrogen> * 850, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:ethylene> * 180, 10);
+GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:hydrogen> * 850, 10);
 
 //Make Distilled Water much more worth it
 Distiller.removeRecipe(<liquid:water>);
@@ -66,8 +66,8 @@ Boiler.addFuel(<liquid:kerosene> * 90, 10, 10);
 Boiler.addFuel(<liquid:diesel> * 80, 10, 10);
 Boiler.addFuel(<liquid:biodiesel> * 100, 10, 10);
 Boiler.addFuel(<liquid:ethanol> * 150, 10, 10);
-Boiler.addFuel(<liquid:liquidethene> * 110, 10, 10);
-Boiler.addFuel(<liquid:liquidhydrogen> * 530, 10, 10);
+Boiler.addFuel(<liquid:ethylene> * 110, 10, 10);
+Boiler.addFuel(<liquid:hydrogen> * 530, 10, 10);
 Boiler.addFuel(<liquid:creosote> * 80, 10, 10);
 
 //Heat Exchanger recipes

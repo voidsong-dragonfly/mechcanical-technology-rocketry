@@ -17,40 +17,8 @@ game.setLocalization("item.BioFuel.name", "Lightly Sulfated Ethanol Resiude");
 //Make mekanism gasses "pressurized" but fluids normal
 game.setLocalization("gas.hydrogen", "Pressurized Hydrogen");
 game.setLocalization("gas.oxygen", "Pressurized Oxygen");
-game.setLocalization("gas.chlorine", "Pressurized Chlorine");
-game.setLocalization("gas.sulfurdioxide", "Pressurized Sulfur Dioxide");
-game.setLocalization("gas.sulfurtrioxide", "Pressurized Sulfur Trioxide");
-game.setLocalization("gas.sulfuricacid", "Pressurized Sulfuric Acid");
-game.setLocalization("gas.hydrogenchloride", "Pressurized Hydrogen Chloride");
-game.setLocalization("gas.ethene", "Pressurized Ethylene");
-game.setLocalization("gas.sodium", "Pressurized Molten Sodium");
-game.setLocalization("gas.brine", "Pressurized Brine");
-game.setLocalization("gas.water", "Pressurized Water Vapor");
-game.setLocalization("gas.deuterium", "Pressurized Deuterium");
-game.setLocalization("gas.tritium", "Pressurized Tritium");
-game.setLocalization("gas.lithium", "Pressurized Molten Lithium");
-game.setLocalization("gas.fusionfuel", "Pressurized D-T Fuel");
-
-game.setLocalization("fluid.liquidhydrogen", "Hydrogen");
-game.setLocalization("fluid.liquidoxygen", "Oxygen");
-game.setLocalization("fluid.liquidchlorine", "Chlorine");
-game.setLocalization("fluid.liquidsulfurdioxide", "Sulfur Dioxide");
-game.setLocalization("fluid.liquidsulfurtrioxide", "Sulfur Trioxide");
-game.setLocalization("fluid.liquidhydrogenchloride", "Hydrogen Chloride");
-game.setLocalization("fluid.liquidethene", "Ethylene");
-game.setLocalization("fluid.liquidsodium", "Molten Sodium");
-game.setLocalization("fluid.liquidlithium", "Molten Lithium");
-game.setLocalization("fluid.liquiddeuterium", "Deuterium");
-game.setLocalization("fluid.liquidtritium", "Tritium");
-game.setLocalization("fluid.liquidfusionfuel", "D-T Fuel");
+game.setLocalization("gas.hydrogenchloride", "Pressurized Hydrochloric Acid");
 game.setLocalization("fluid.heavywater", "Semiheavy Water");
-
-//Rotary condensentrator GUI
-game.setLocalization("gui.condensentrating", "Depressurizing");
-game.setLocalization("gui.decondensentrating", "Pressurizing");
-
-//Osmium dust to grit
-game.setLocalization("item.osmiumDust.name", "Osmium Grit");
 
 //Make Quark slate dolomite because I need a good spawn for that
 game.setLocalization("tile.quark:stone_slate.name", "Dolomite");
@@ -293,9 +261,6 @@ game.setLocalization("item.bootsDiamond.name", "Monocrystalline Diamond Boots");
    
 //Turn Earthworks compass into "Engineer's Chisel"
 game.setLocalization("item.earthworks.tool_compass.name", "Engineer's Chisel");
-
-//AR oxygen to air mix
-game.setLocalization("fluid.oxygen", "Air Gasses Mix");
 
 //Chisels and Bits items
 game.setLocalization("item.mod.chiselsandbits.bitsaw_diamond.name", "Engineer's Blockcutting Saw");

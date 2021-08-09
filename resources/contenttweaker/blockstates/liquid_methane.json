@@ -3,7 +3,7 @@
   "defaults": {
     "model": "forge:fluid",
     "custom": {
-      "fluid": "liquidair"
+      "fluid": "liquid_methane"
     }
   },
   "variants": {

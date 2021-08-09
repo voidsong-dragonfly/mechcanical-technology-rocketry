@@ -6,7 +6,7 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "liquidtritium",
+            "fluid": "tritium",
             "amount": 1
         },
         {
@@ -17,7 +17,7 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "liquidtritium",
+            "fluid": "tritium",
             "amount": 1
         }
     ]

@@ -23,7 +23,7 @@ addDescription(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modula
 
 
 //Fusion Fuels description
-addDescription(<liquid:liquidhydrogen>, [
+addDescription(<liquid:hydrogen> * 1000, [
 "Fuel  Ticktime  Product  Ignition",
 "H-D       | 85    He3      3,6GK",
 "H-He3    | 290   He4     10GK",
@@ -33,7 +33,7 @@ addDescription(<liquid:liquidhydrogen>, [
 "T-T       | 174   He4      10GK",
 "T-He3    | 221   D&He4   12,3GK",
 "He3-He3 | 199   2H&He4  17,5GK"]);
-addDescription(<liquid:liquiddeuterium>, [
+addDescription(<liquid:deuterium> * 1000, [
 "Fuel  Ticktime  Product  Ignition",
 "H-D       | 85    He3      3,6GK",
 "H-He3    | 290   He4     10GK",
@@ -43,7 +43,7 @@ addDescription(<liquid:liquiddeuterium>, [
 "T-T       | 174   He4      10GK",
 "T-He3    | 221   D&He4   12,3GK",
 "He3-He3 | 199   2H&He4  17,5GK"]);
-addDescription(<liquid:liquidtritium>, [
+addDescription(<liquid:tritium> * 1000, [
 "Fuel  Ticktime  Product  Ignition",
 "H-D       | 85    He3      3,6GK",
 "H-He3    | 290   He4     10GK",
@@ -53,7 +53,7 @@ addDescription(<liquid:liquidtritium>, [
 "T-T       | 174   He4      10GK",
 "T-He3    | 221   D&He4   12,3GK",
 "He3-He3 | 199   2H&He4  17,5GK"]);
-addDescription(<liquid:helium3>, [
+addDescription(<liquid:helium3> * 1000, [
 "Fuel  Ticktime  Product  Ignition",
 "H-D       | 85    He3      3,6GK",
 "H-He3    | 290   He4     10GK",
@@ -65,10 +65,10 @@ addDescription(<liquid:helium3>, [
 "He3-He3 | 199   2H&He4  17,5GK"]);
 
 //Rocket fuels description
-var fluids = [<liquid:coldliquidhydrogen> * 1000,
-              <liquid:liquidmethane> * 1000,
+var fluids = [<liquid:liquid_hydrogen> * 1000,
+              <liquid:liquid_methane> * 1000,
               <liquid:rp1> * 1000,
-              <liquid:coldliquidoxygen> * 1000,
+              <liquid:liquid_oxygen> * 1000,
               <liquid:hydrogenperoxide> * 1000,
               <liquid:hydrazine> * 1000,
                     ] as ILiquidStack[];

@@ -18,7 +18,7 @@ slag.build();
 furnace.addRecipe(<ore:dustAlumina>.firstItem, <ore:dustAluminiumHydroxide>.firstItem);
 furnace.addRecipe(<ore:dustAlumina>.firstItem, <mekores:mekanismore:33>);
 Mixer.addRecipe(<liquid:moltencryolitesolution> * 100, <liquid:moltencryolite> * 100, [<ore:dustAlumina>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:liquidoxygen> * 4800, <liquid:moltenaluminium> * 3200, <liquid:moltencryolite> * 3200, null, <liquid:moltencryolitesolution> * 3200, 18432000, 1600);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:oxygen> * 4800, <liquid:moltenaluminium> * 3200, <liquid:moltencryolite> * 3200, null, <liquid:moltencryolitesolution> * 3200, 18432000, 1600);
 var cast_aluminium_ingot = newBuilder("cast_aluminium_ingot", "casting_basin", 400);
 cast_aluminium_ingot.addFluidInput(<liquid:moltenaluminium> * 1600);
 cast_aluminium_ingot.addItemInput(<ore:metalPressMoldIngot>.firstItem).setChance(0);
@@ -37,7 +37,7 @@ cast_aluminium_rod.build();
 
 
 //Uranium processing
-Mixer.addRecipe(<liquid:uraniumsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<mekores:mekanismore:3>], 4000);
+Mixer.addRecipe(<liquid:uraniumsulfatesolution> * 100, <liquid:sulfuric_acid> * 100, [<mekores:mekanismore:3>], 4000);
 furnace.addRecipe(<ore:dustYellowcake>.firstItem, <ore:dustAmmoniumDiuranate>.firstItem);
 
 
@@ -54,14 +54,14 @@ crude_iron.addFluidOutput(<liquid:moltenslag> * 7200);
 crude_iron.build();
 var steel = newBuilder("steel", "oxygen_converter", 100);
 steel.addFluidInput(<liquid:moltencrudeiron> * 1200);
-steel.addFluidInput(<liquid:liquidoxygen> * 300);
+steel.addFluidInput(<liquid:oxygen> * 300);
 steel.addFluidInput(<liquid:water> * 1200);
 steel.addFluidOutput(<liquid:moltenslag> * 800);
 steel.addFluidOutput(<liquid:moltensteel> * 1200);
 steel.build();
 var steel_magnesium = newBuilder("steel_magnesium", "oxygen_converter", 100);
 steel_magnesium.addFluidInput(<liquid:moltencrudeiron> * 1200);
-steel_magnesium.addFluidInput(<liquid:liquidoxygen> * 300);
+steel_magnesium.addFluidInput(<liquid:oxygen> * 300);
 steel_magnesium.addFluidInput(<liquid:water> * 1200);
 steel_magnesium.addFluidInput(<liquid:moltenmagnesium> * 100);
 steel_magnesium.addFluidOutput(<liquid:moltenslag> * 400);
@@ -102,20 +102,20 @@ steel_rod.build();
 var tungsten_dust = newBuilder("tungsten_dust", "oxygen_converter", 400);
 tungsten_dust.addMekanismHeatInput(0, 1350, (1.0/0));
 tungsten_dust.addItemInput(<ore:dustTungstenTrioxide>.firstItem * 16);
-tungsten_dust.addFluidInput(<liquid:liquidhydrogen> * 4800);
+tungsten_dust.addFluidInput(<liquid:hydrogen> * 4800);
 tungsten_dust.addFluidInput(<liquid:water> * 9600);
 tungsten_dust.addItemOutput(<ore:dustTungsten>.firstItem * 16);
 tungsten_dust.build();
 
 //Copper processing
-Mixer.addRecipe(<liquid:coppersulfatesolution> * 150, <liquid:sulfuricacid> * 150, [<ore:dustDirtyCopper>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liquid:coppersulfatesolutionresidue> * 400, <immersiveengineering:metal:30> * 16, <liquid:coppersulfatesolution> * 1600, 1536000, 400);
+Mixer.addRecipe(<liquid:coppersulfatesolution> * 150, <liquid:sulfuric_acid> * 150, [<ore:dustDirtyCopper>.firstItem], 4000);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1200, null, <liquid:coppersulfatesolutionresidue> * 400, <immersiveengineering:metal:30> * 16, <liquid:coppersulfatesolution> * 1600, 1536000, 400);
 
 //Nickel Processing
 var nickel_matte = newBuilder("nickel_matte", "oxygen_converter", 200);
 nickel_matte.addMekanismHeatInput(0, 1350, (1.0/0));
 nickel_matte.addItemInput(<mekores:mekanismore:13> * 16);
-nickel_matte.addFluidInput(<liquid:liquidoxygen> * 600);
+nickel_matte.addFluidInput(<liquid:oxygen> * 600);
 nickel_matte.addFluidInput(<liquid:water> * 2400);
 nickel_matte.addFluidOutput(<liquid:moltenslag> * 800);
 nickel_matte.addFluidOutput(<liquid:moltennickelmatte> * 2400);
@@ -124,8 +124,8 @@ var nickel_matte_ingot = newBuilder("nickel_matte_ingot", "casting_basin", 400);
 nickel_matte_ingot.addFluidInput(<liquid:moltennickelmatte> * 1600);
 nickel_matte_ingot.addItemOutput(<ore:slagNickelMatte>.firstItem * 16);
 nickel_matte_ingot.build();
-Mixer.addRecipe(<liquid:nickelsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<ore:slagNickelMatte>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1200, null, <liquid:nickelsulfatesolutionresidue> * 400, <immersiveengineering:metal:34> * 16, <liquid:nickelsulfatesolution> * 1600, 1920000, 400);
+Mixer.addRecipe(<liquid:nickelsulfatesolution> * 100, <liquid:sulfuric_acid> * 100, [<ore:slagNickelMatte>.firstItem], 4000);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1200, null, <liquid:nickelsulfatesolutionresidue> * 400, <immersiveengineering:metal:34> * 16, <liquid:nickelsulfatesolution> * 1600, 1920000, 400);
 
 //Tin processing
 var impure_tin = newBuilder("impure_tin", "large_blast_furnace", 2400);
@@ -142,8 +142,8 @@ var impure_tin_ingot = newBuilder("impure_tin_ingot", "casting_basin", 400);
 impure_tin_ingot.addFluidInput(<liquid:impuremoltentin> * 1600);
 impure_tin_ingot.addItemOutput(<ore:slagImpureTin>.firstItem * 16);
 impure_tin_ingot.build();
-Mixer.addRecipe(<liquid:tinsulfatesolution> * 100, <liquid:sulfuricacid> * 100, [<ore:slagImpureTin>.firstItem], 4000);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuricacid> * 1600, null, null, <libvulpes:productplate:5> * 16, <liquid:tinsulfatesolution> * 1600, 1920000, 400);
+Mixer.addRecipe(<liquid:tinsulfatesolution> * 100, <liquid:sulfuric_acid> * 100, [<ore:slagImpureTin>.firstItem], 4000);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1600, null, null, <libvulpes:productplate:5> * 16, <liquid:tinsulfatesolution> * 1600, 1920000, 400);
 
 //Lead processing
 var molten_lead = newBuilder("molten_lead", "large_blast_furnace", 2400);
@@ -195,7 +195,7 @@ furnace.addRecipe(<immersiveengineering:metal:3>, <ore:amalgamMercurySilver>.fir
 var niobium_pentoxide = newBuilder("niobium_pentoxide", "oxygen_converter", 200);
 niobium_pentoxide.addMekanismHeatInput(0, 2100, (1.0/0));
 niobium_pentoxide.addItemInput(<ore:slagNiobiumFerroalloy>.firstItem * 16);
-niobium_pentoxide.addFluidInput(<liquid:liquidoxygen> * 600);
+niobium_pentoxide.addFluidInput(<liquid:oxygen> * 600);
 niobium_pentoxide.addFluidInput(<liquid:water> * 2400);
 niobium_pentoxide.addFluidOutput(<liquid:moltenslag> * 100);
 niobium_pentoxide.addFluidOutput(<liquid:moltencrudeiron> * 300);

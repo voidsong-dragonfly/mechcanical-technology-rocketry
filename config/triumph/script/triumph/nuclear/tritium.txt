@@ -1,10 +1,10 @@
-setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidtritium",Amount:1000}>)
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"tritium",Amount:1000}>)
 setTitle("Tritium At Last")
 setDescription("Collect tritium from a tritium breeder, after an extremely long time")
 addParent("triumph:nuclear/molten_lithium")
 addParent("triumph:nuclear/fuelrod")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidtritium",Amount:1000}>)
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"tritium",Amount:1000}>)
 setPos(180,305)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

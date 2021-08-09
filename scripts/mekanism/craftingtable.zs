@@ -102,10 +102,6 @@ recipes.addShaped(<mekanism:machineblock:15>,
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <mekanism:configurationcard>, <ore:ingotSteel>]]);
 //Machine 2
-recipes.addShaped(<mekanism:machineblock2:0>,
- [[<ore:ingotSteel>, null, <ore:ingotSteel>],
- [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
- [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:3>,
  [[<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],

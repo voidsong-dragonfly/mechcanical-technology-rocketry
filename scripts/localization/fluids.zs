@@ -4,15 +4,24 @@ import crafttweaker.formatting.IFormattedText;
 
 
 //Cryogenic Distillation & liquefaction fluids and gasses
-game.setLocalization("fluid.liquidair", "Liquid Air");
-game.setLocalization("fluid.liquidnitrogen", "Liquid Nitrogen");
-game.setLocalization("fluid.coldliquidoxygen", "Liquid Oxygen");
-game.setLocalization("fluid.coldliquidhydrogen", "Liquid Hydrogen");
-game.setLocalization("fluid.liquidmethane", "Liquid Methane");
+game.setLocalization("fluid.liquid_air", "Liquid Air");
+game.setLocalization("fluid.liquid_nitrogen", "Liquid Nitrogen");
+game.setLocalization("fluid.liquid_oxygen", "Liquid Oxygen");
+game.setLocalization("fluid.liquid_hydrogen", "Liquid Hydrogen");
+game.setLocalization("fluid.liquid_methane", "Liquid Methane");
+game.setLocalization("fluid.oxynitrogenmix", "Oxynitrogen Mix");
 game.setLocalization("fluid.air", "Air");
-game.setLocalization("gas.nitrogengas", "Pressurized Nitrogen");
-game.setLocalization("fluid.nitrogengas", "Nitrogen");
+game.setLocalization("gas.nitrogen", "Pressurized Nitrogen");
 game.setLocalization("fluid.carbondioxide", "Carbon Dioxide");
+
+//I don wanna organize this right now dammit - mekanism stuff
+game.setLocalization("fluid.tritium", "Tritium");
+game.setLocalization("fluid.deuterium", "Deuterium");
+game.setLocalization("fluid.ethylene", "Ethylene");
+game.setLocalization("fluid.sulfurdioxide", "Sulfur Dioxide");
+game.setLocalization("fluid.sulfurtrioxide", "Sulfur Trioxide");
+game.setLocalization("fluid.sulfuric_acid", "Sulfuric Acid");
+game.setLocalization("fluid.hydrochloricacid", "Hydrochloric Acid");
 
 //Oil processing fluids
 game.setLocalization("fluid.desulfurisedoil", "Desulfurised Oil");
@@ -46,6 +55,7 @@ game.setLocalization("fluid.richbrine", "Rich Brine");
 
 //Molten metals from salts
 game.setLocalization("fluid.moltenmagnesium", "Molten Magnesium");
+game.setLocalization("fluid.moltenlithium", "Molten Lithium");
 game.setLocalization("fluid.moltencalcium", "Molten Calcium");
 
 //Molten salts
@@ -82,18 +92,6 @@ game.setLocalization("fluid.superheatedwater", "Superheated Water");
 game.setLocalization("fluid.heat", "Temperature - MK");
 
 //Gas giant mining fluids
-game.setLocalization("fluid.densebalancedgas", "Dense Balanced Gas Mix");
-game.setLocalization("fluid.lightbalancedgas", "Light Balanced Gas Mix");
-game.setLocalization("fluid.cloudbalancedgas", "Cloudlayer Balanced Gas Mix");
-game.setLocalization("fluid.densehydrogenrichgas", "Dense Hydrogen-Rich Gas Mix");
-game.setLocalization("fluid.lighthydrogenrichgas", "Light Hydrogen-Rich Gas Mix");
-game.setLocalization("fluid.cloudhydrogenrichgas", "Cloudlayer Hydrogen-Rich Gas Mix");
-game.setLocalization("fluid.denseammoniarichgas", "Dense Ammonia-Rich Gas Mix");
-game.setLocalization("fluid.lightammoniarichgas", "Light Ammonia-Rich Gas Mix");
-game.setLocalization("fluid.cloudammoniarichgas", "Cloudlayer Ammonia-Rich Gas Mix");
-game.setLocalization("fluid.denseheliumrichgas", "Dense Helium-Rich Gas Mix");
-game.setLocalization("fluid.lightheliumrichgas", "Light Helium-Rich Gas Mix");
-game.setLocalization("fluid.cloudheliumrichgas", "Cloudlayer Helium-Rich Gas Mix");
 game.setLocalization("fluid.precipitategas", "Precipitate Gas Mix");
 
 //Pahoehoe lava

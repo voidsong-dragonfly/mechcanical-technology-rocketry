@@ -125,29 +125,29 @@ air_collection.build();
 var air_liquefaction = newBuilder("air_liquefaction", "gas_liquefaction_plant", 49);
 air_liquefaction.addEnergyPerTickInput(960);
 air_liquefaction.addFluidInput(<liquid:air> * 1000);
-air_liquefaction.addFluidOutput(<liquid:liquidair> * 1000);
+air_liquefaction.addFluidOutput(<liquid:liquid_air> * 1000);
 air_liquefaction.build();
 
 //Processed gas liquefaction
 var nitrogen_liquefaction = newBuilder("nitrogen_liquefaction", "gas_liquefaction_plant", 50);
 nitrogen_liquefaction.addEnergyPerTickInput(960);
-nitrogen_liquefaction.addFluidInput(<liquid:nitrogengas> * 1000);
-nitrogen_liquefaction.addFluidOutput(<liquid:liquidnitrogen> * 1000);
+nitrogen_liquefaction.addFluidInput(<liquid:nitrogen> * 1000);
+nitrogen_liquefaction.addFluidOutput(<liquid:liquid_nitrogen> * 1000);
 nitrogen_liquefaction.build();
 var oxygen_liqeufaction = newBuilder("oxygen_liqeufaction", "gas_liquefaction_plant", 48);
 oxygen_liqeufaction.addEnergyPerTickInput(960);
-oxygen_liqeufaction.addFluidInput(<liquid:liquidoxygen> * 1000);
-oxygen_liqeufaction.addFluidOutput(<liquid:coldliquidoxygen> * 1000);
+oxygen_liqeufaction.addFluidInput(<liquid:oxygen> * 1000);
+oxygen_liqeufaction.addFluidOutput(<liquid:liquid_oxygen> * 1000);
 oxygen_liqeufaction.build();
 var methane_liquefaction = newBuilder("methane_liquefaction", "gas_liquefaction_plant", 43);
 methane_liquefaction.addEnergyPerTickInput(960);
 methane_liquefaction.addFluidInput(<liquid:methane> * 1000);
-methane_liquefaction.addFluidOutput(<liquid:liquidmethane> * 1000);
+methane_liquefaction.addFluidOutput(<liquid:liquid_methane> * 1000);
 methane_liquefaction.build();
 var hydrogen_liquefaction = newBuilder("hydrogen_liquefaction", "gas_liquefaction_plant", 63);
 hydrogen_liquefaction.addEnergyPerTickInput(960);
-hydrogen_liquefaction.addFluidInput(<liquid:liquidhydrogen> * 1000);
-hydrogen_liquefaction.addFluidOutput(<liquid:coldliquidhydrogen> * 1000);
+hydrogen_liquefaction.addFluidInput(<liquid:hydrogen> * 1000);
+hydrogen_liquefaction.addFluidOutput(<liquid:liquid_hydrogen> * 1000);
 hydrogen_liquefaction.build();
 
 
@@ -494,7 +494,7 @@ calcium.addFluidInput(<liquid:moltencalcium> * 1200);
 calcium.addItemOutput(<ore:dustCalcium>, 12);
 calcium.build();
 var lithium = newBuilder("lithium", "casting_basin", 200);
-lithium.addFluidInput(<liquid:liquidlithium> * 1200);
+lithium.addFluidInput(<liquid:moltenlithium> * 1200);
 lithium.addItemOutput(<mekanism:otherdust:4> * 12);
 lithium.build();
 //Lava & pahoehoe lava to magma
