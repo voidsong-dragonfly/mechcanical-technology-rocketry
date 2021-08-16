@@ -63,7 +63,7 @@
         </input>
 		<output>
 			<fluidStack>ethylene;800</fluidStack>
-            <fluidStack>dilutedsulfuric_acid;800</fluidStack>
+            <fluidStack>dilutedsulfuricacid;800</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="900" power="960">
@@ -171,6 +171,15 @@
 	</Recipe>
     <Recipe timeRequired="100" power="480">
 		<input>
+			<fluidStack>sulfurtrioxide;800</fluidStack>
+            <fluidStack>distwater;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfuric_acid;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="480">
+		<input>
             <oreDict>dustFluorite</oreDict>
 			<fluidStack>sulfuric_acid;400</fluidStack>
         </input>
@@ -199,10 +208,21 @@
     <Recipe timeRequired="100" power="480">
 		<input>
 			<fluidStack>hydrogen;800</fluidStack>
+            <fluidStack>oxygen;800</fluidStack>
+            <oreDict>dustPlatinum;8</oreDict>
+        </input>
+		<output>
+            <oreDict>dustPlatinum;8</oreDict>
+			<fluidStack>hydrogenperoxide;800</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power="480">
+		<input>
+			<fluidStack>hydrogen;800</fluidStack>
             <fluidStack>oxygen;400</fluidStack>
         </input>
 		<output>
-			<fluidStack>hydrogenperoxide;800</fluidStack>
+			<fluidStack>distwater;800</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="400" power="360">
@@ -499,6 +519,26 @@
 		<input>
 			<fluidStack>uraniumhexafluoride_035;800</fluidStack>
             <fluidStack>water;1600</fluidStack>
+        </input>
+		<output>
+            <oreDict>dustLightlyEnrichedUranylFluoride;8</oreDict>
+            <fluidStack>hydrofluoricacid;3200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="1440">
+		<input>
+			<fluidStack>uraniumhexafluoride_000;800</fluidStack>
+            <fluidStack>distwater;1600</fluidStack>
+        </input>
+		<output>
+            <oreDict>dustDepletedUranylFluoride;8</oreDict>
+            <fluidStack>hydrofluoricacid;3200</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="1440">
+		<input>
+			<fluidStack>uraniumhexafluoride_035;800</fluidStack>
+            <fluidStack>distwater;1600</fluidStack>
         </input>
 		<output>
             <oreDict>dustLightlyEnrichedUranylFluoride;8</oreDict>

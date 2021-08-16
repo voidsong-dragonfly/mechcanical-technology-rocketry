@@ -130,6 +130,7 @@ MarxGenerator.removeRecipe(<ore:oreTin>);
 
 //Non-ore-processing electrolysis recipes!
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> * 800, null, null, <liquid:water> * 1600, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> * 800, null, null, <liquid:distwater> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogendeuteride> * 1600, <liquid:oxygen> * 800, null, null, <liquid:heavywater> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:deuterium> * 400, <liquid:hydrogen> * 400, null, null, <liquid:hydrogendeuteride> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 800, <liquid:chlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 384000, 100);
@@ -148,7 +149,7 @@ MeltingCrucible.addRecipe(<liquid:moltencalciumchloride> * 100, <ore:dustCalcium
 MeltingCrucible.addRecipe(<liquid:polyethene> * 125, <mekanism:polyethene>, 1200, 5);
 MeltingCrucible.addRecipe(<liquid:moltencryolite> * 1000, <ore:oreCryolite>, 153600, 320);
 //Ices
-MeltingCrucible.addRecipe(<liquid:water> * 1000, <minecraft:ice>, 76800, 160);
+MeltingCrucible.addRecipe(<liquid:distwater> * 1000, <minecraft:ice>, 76800, 160);
 MeltingCrucible.addRecipe(<liquid:oxygen> * 1000, <contenttweaker:oxygen_ice>, 76800, 160);
 MeltingCrucible.addRecipe(<liquid:nitrogen> * 1000, <contenttweaker:nitrogen_ice>, 76800, 160);
 MeltingCrucible.addRecipe(<liquid:methane> * 1000, <contenttweaker:methane_ice>, 76800, 160);
