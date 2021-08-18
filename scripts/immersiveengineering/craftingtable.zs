@@ -311,12 +311,12 @@ recipes.addShapeless(<ore:sludgeCharcoalPrecursor>.firstItem, [<ore:dustWood>, <
     Recycling and hiding items
 */
 
-//Recycling 
+/*Recycling 
 Recycling.makeStackInvalidRecyclingOutput(<immersiveengineering:metal:21> * 2);
 Recycling.allowItemForRecycling(<immersiveengineering:metal_decoration1:*>);
 Recycling.allowItemForRecycling(<immersiveengineering:metal_decoration2:*>);
 Recycling.makeStackInvalidRecyclingOutput(<immersiveengineering:metal_decoration0:2>);
-
+*/
 
 //Remove Ore Crushing Hammer from JEI, and its recipes
 removeAndHide(<engineerstools:crushing_hammer>);

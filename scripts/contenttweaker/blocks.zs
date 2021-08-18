@@ -45,8 +45,8 @@ cinnabar_ore.setBlockResistance(3.0);
 cinnabar_ore.setToolLevel(2);
 cinnabar_ore.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
-    drops.add(<item:contenttweaker:material_part:132> * 2);
-    drops.add(<item:contenttweaker:material_part:132> % 50);
+    drops.add(<item:contenttweaker:material_part:75> * 2);
+    drops.add(<item:contenttweaker:material_part:75> % 50);
     return;
 });
 cinnabar_ore.register();
@@ -57,8 +57,8 @@ nether_cinnabar_ore.setBlockResistance(3.0);
 nether_cinnabar_ore.setToolLevel(2);
 nether_cinnabar_ore.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
-    drops.add(<item:contenttweaker:material_part:132> * 2);
-    drops.add(<item:contenttweaker:material_part:132> % 50);
+    drops.add(<item:contenttweaker:material_part:75> * 2);
+    drops.add(<item:contenttweaker:material_part:75> % 50);
     return;
 });
 nether_cinnabar_ore.register();
@@ -68,8 +68,8 @@ fluorite_ore.setBlockResistance(3.0);
 fluorite_ore.setToolLevel(2);
 fluorite_ore.setDropHandler(function(drops, world, position, state, fortune) {
     drops.clear();
-    drops.add(<item:contenttweaker:material_part:128> * 2);
-    drops.add(<item:contenttweaker:material_part:128> % 50);
+    drops.add(<item:contenttweaker:material_part:73> * 2);
+    drops.add(<item:contenttweaker:material_part:73> % 50);
     return;
 });
 fluorite_ore.register();
