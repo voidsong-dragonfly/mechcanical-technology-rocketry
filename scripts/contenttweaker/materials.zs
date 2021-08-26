@@ -136,7 +136,7 @@ static materials as Material[string] = {
     //Fibers
     "Bitumen" : MaterialSystem.getMaterialBuilder().setName("Bitumen").setColor(Color.fromHex("2a2a2a")).build(),
     "Carbonized Bitumen" : MaterialSystem.getMaterialBuilder().setName("Carbonized Bitumen").setColor(Color.fromHex("252525")).build(),
-    "Graphite" : MaterialSystem.getMaterialBuilder().setName("Graphite").setColor(Color.fromHex("242424")).build(),
+    "Graphene" : MaterialSystem.getMaterialBuilder().setName("Graphene").setColor(Color.fromHex("101010")).build(),
     "Carbon" : MaterialSystem.getMaterialBuilder().setName("Carbon").setColor(Color.fromHex("202020")).build(),
     "Basalt" : MaterialSystem.getMaterialBuilder().setName("Basalt").setColor(Color.fromHex("171717")).build(),
     //Metal slag intermediates
@@ -243,7 +243,7 @@ static parts as string[][string] = {
     //Fibers
     "Bitumen" : ["fiber"],
     "Carbonized Bitumen" : ["fiber"],
-    "Graphite" : ["fiber"],
+    "Graphene" : ["fiber"],
     "Carbon" : ["fiber"],
     "Basalt" : ["fiber"],
     //Metal slag intermediates

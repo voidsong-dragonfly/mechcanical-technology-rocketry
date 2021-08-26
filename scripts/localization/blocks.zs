@@ -142,6 +142,7 @@ game.setLocalization("tile.contenttweaker.magnetic_bearing.name", "Magnetic Bear
 //Flywheel bits
 game.setLocalization("tile.contenttweaker.basalt_fiber_flywheel_component.name", "Basalt Fiber Flywheel Component");
 game.setLocalization("tile.contenttweaker.carbon_fiber_flywheel_component.name", "Carbon Fiber Flywheel Component");
+game.setLocalization("tile.contenttweaker.graphene_fiber_flywheel_component.name", "Graphene Fiber Flywheel Component");
 //Fission reactor pieces
 game.setLocalization("tile.contenttweaker.fission_reactor_calandria_casing.name", "Fission Reactor Calandria Casing");
 game.setLocalization("tile.contenttweaker.fission_reactor_fuel_rod_assembly_pipe_connector.name", "Fission Reactor Fuel Rod Assembly Pipe Connector");

@@ -279,16 +279,6 @@
             <fluidStack>helium;3500</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="2400" power="960">
-		<input>
-			<oreDict>fiberGraphite;16</oreDict>
-            <fluidStack>helium;4000</fluidStack>
-        </input>
-		<output>
-            <oreDict>fiberCarbon;16</oreDict>
-            <fluidStack>helium;3500</fluidStack>
-		</output>
-	</Recipe>
     
     
     <Recipe timeRequired="300" power="960">

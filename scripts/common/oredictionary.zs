@@ -167,6 +167,7 @@ import mods.immersiveengineering.BottlingMachine;
 //OD for flywheel components
 <ore:blockBasaltFiber>.add(<contenttweaker:basalt_fiber_flywheel_component>);
 <ore:blockCarbonFiber>.add(<contenttweaker:carbon_fiber_flywheel_component>);
+<ore:blockCarbonNanotube>.add(<contenttweaker:graphene_fiber_flywheel_component>);
 
 //OD for rabbit hide
 <ore:rawhide>.add(<minecraft:rabbit_hide>);

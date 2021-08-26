@@ -194,6 +194,7 @@ create_block("magnetic_bearing", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
 //Flywheel bits
 create_block("basalt_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
 create_block("carbon_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
+create_block("graphene_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
 //Fission reactor pieces
 create_block("fission_reactor_calandria_casing", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);
 create_block("fission_reactor_fuel_rod_assembly_pipe_connector", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);

@@ -188,10 +188,14 @@ advanced_circuit.build();
 //Cleanroom Induction Matrix tablets
 var induction_tablet = newBuilder("induction_tablet", "assembly_cleanroom", 240);
 induction_tablet.addEnergyPerTickInput(240);
-induction_tablet.addItemInput(<mekanism:polyethene:2> * 2);
-induction_tablet.addItemInput(<mekanism:controlcircuit>);
-induction_tablet.addItemInput(<mekanism:otherdust:4> * 4);
-induction_tablet.addItemOutput(<ore:inductionTabletItem>.firstItem);
+induction_tablet.addItemInput(<mekanism:polyethene:2> * 8);
+induction_tablet.addItemInput(<mekanism:controlcircuit> * 8);
+induction_tablet.addItemInput(<mekanism:otherdust:4> * 7);
+induction_tablet.addItemInput(<ore:dustCobalt>, 1);
+induction_tablet.addItemInput(<ore:dustHOPGraphite>, 1);
+induction_tablet.addFluidInput(<liquid:oxygen> * 2600);
+induction_tablet.addFluidInput(<liquid:chlorine> * 600);
+induction_tablet.addItemOutput(<ore:inductionTabletItem>.firstItem * 8);
 induction_tablet.build();
 
 //Cleanroom satellite precision parts
@@ -475,7 +479,7 @@ var graphite_fiber = newBuilder("graphite_fiber", "extrusion_press", 500);
 graphite_fiber.addEnergyPerTickInput(720);
 graphite_fiber.addItemInput(<ore:ingotHOPGraphite>);
 graphite_fiber.addItemInput(<ore:metalPressMoldFiber>).setChance(0);
-graphite_fiber.addItemOutput(<ore:fiberGraphite>.firstItem * 4);
+graphite_fiber.addItemOutput(<ore:fiberBitumen>.firstItem * 4);
 graphite_fiber.build();
 
 
