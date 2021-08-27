@@ -1,0 +1,10 @@
+Bit of background about the ore veins file file
+    - all ore generation is based entirely upon the IE excavator veins, which with some tweaks, are in turn derived from the 1.16 veins IE has
+    - Weight from the IE vein determines rarity
+        - for Overworld or similar veins this is 1024 for a vein with a weight of 25, then adding 256 per decrease in 5 of the weight - it isn't perfect but it makes some veins easier to find
+         - For the Nether a weight of 20 corresponds to 256, and it does NOT scale as you would expect, with the ratio of the weights failing because the middle of the nether is so open - anything near the middle gets a 2x boost in occurrence
+    - The percentage of ore that the vein contains (something added by the pack, not IE native) determines the density, 60% is 192, 40% is 128, and 20% is 64. The scale is somewhat off here but we work with it
+    - The fail chance of the vein determines the size, a fail chance of 0.05 is 8x32, a fail chance of 0.1 is 7x28, a fail chance of 0.15 is 6x24, and a fail chance of 0.2 is 5x20 - Veins that are 5x20 may be better off mining an excavator vein
+    - Fail chance for Nether veins is halved to determine size because Nether has fewer veins and so a higher fail chance to spread veins out
+    - The ores contained within the vein, excluding sulfur dust because there is no sulfur ore, are represented with their vein weight in the weight of the ores
+    - The ore veins file covers Overworld veins first, Nether veins second, Special veins (Cryolite) third, End veins fourth (Naquadah), and Planetary (Dilithium) veins last

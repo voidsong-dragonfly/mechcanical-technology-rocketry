@@ -163,7 +163,7 @@
             <oreDict>wireSuperconductingAny;2</oreDict>
             <oreDict>solderItem;8</oreDict>
             <oreDict>circuitBoardPlatinumBackedPlastic</oreDict>
-            <fluidStack>liquidnitrogen;125</fluidStack>
+            <fluidStack>liquid_nitrogen;125</fluidStack>
         </input>
 		<output>
 			<itemStack>mekanism:controlcircuit;1;3</itemStack>
@@ -177,7 +177,7 @@
             <oreDict>wireYttriumBariumCuprate;2</oreDict>
             <oreDict>solderItem;8</oreDict>
             <oreDict>circuitBoardPlatinumBackedPlastic</oreDict>
-            <fluidStack>liquidnitrogen;500</fluidStack>
+            <fluidStack>liquid_nitrogen;500</fluidStack>
         </input>
 		<output>
 			<oreDict>perfectCircuitItem</oreDict>

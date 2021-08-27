@@ -534,9 +534,3 @@ saltwater.addEnergyPerTickInput(1920);
 saltwater.addBiomeRequirement(["minecraft:ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean"]);
 saltwater.addFluidOutput(<liquid:saltwater> * 1000);
 saltwater.build();
-
-//Large radiator recipes for space stations
-var exhaust_steam = newBuilder("exhaust_steam", "large_radiator", 3);
-exhaust_steam.addFluidInput(<liquid:exhauststeam> * 3000);
-exhaust_steam.addFluidOutput(<liquid:distwater> * 150);
-exhaust_steam.build();

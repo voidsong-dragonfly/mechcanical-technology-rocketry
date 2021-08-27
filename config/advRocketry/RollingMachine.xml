@@ -70,15 +70,6 @@
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
 		<input>
-			<oreDict>ingotLightlyEnrichedUraniumDioxide</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<oreDict>plateLightlyEnrichedUraniumDioxide</oreDict>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="120" power ="160">
-		<input>
 			<oreDict>ingotPlatinum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
@@ -249,15 +240,6 @@
 			<itemStack>libvulpes:productsheet;2;4</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="150" power ="240">
-		<input>
-			<oreDict>plateLead</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<oreDict>sheetLead;2</oreDict>
-		</output>
-	</Recipe>
 	<Recipe timeRequired="150" power ="240">
 		<input>
 			<itemStack>immersiveengineering:metal;1;38</itemStack>
@@ -265,15 +247,6 @@
 		</input>
 		<output>
 			<itemStack>libvulpes:productsheet;2;6</itemStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="150" power ="240">
-		<input>
-			<oreDict>plateMaragingSteel</oreDict>
-			<fluidStack>lubricant;300</fluidStack>
-		</input>
-		<output>
-			<oreDict>sheetMaragingSteel;2</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="240">

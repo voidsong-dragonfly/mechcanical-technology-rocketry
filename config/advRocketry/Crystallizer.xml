@@ -36,22 +36,22 @@
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
             <oreDict>dustGold;4</oreDict>
-            <fluidStack>nitrogengas;4000</fluidStack>
+            <fluidStack>nitrogen;4000</fluidStack>
         </input>
 		<output>
 			<oreDict>bouleGoldDopedSilicon</oreDict>
-            <fluidStack>nitrogengas;3500</fluidStack>
+            <fluidStack>nitrogen;3500</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="2400" power="1920">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
             <oreDict>dustLithium;4</oreDict>
-            <fluidStack>nitrogengas;4000</fluidStack>
+            <fluidStack>nitrogen;4000</fluidStack>
         </input>
 		<output>
 			<oreDict>bouleLithiumDopedSilicon</oreDict>
-            <fluidStack>nitrogengas;3500</fluidStack>
+            <fluidStack>nitrogen;3500</fluidStack>
 		</output>
     </Recipe>
     <Recipe timeRequired="3600" power="7680">

@@ -11,13 +11,13 @@
         {
             "type": "fluid",
             "io-type": "input",
-            "fluid": "liquidnitrogen",
+            "fluid": "liquid_nitrogen",
             "amount": 32
         },
         {
             "type": "fluid",
             "io-type": "output",
-            "fluid": "nitrogengas",
+            "fluid": "nitrogen",
             "amount": 32
         }
     ]

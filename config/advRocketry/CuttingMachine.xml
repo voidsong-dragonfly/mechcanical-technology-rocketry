@@ -221,14 +221,6 @@
             <itemStack>mekanism:sawdust;1</itemStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="200" power="120">
-		<input>
-			<oreDict>slabTreatedWood</oreDict>
-        </input>
-		<output>
-			<oreDict>circuitBoardTreatedWood;4</oreDict>
-		</output>
-	</Recipe>
     
     <Recipe timeRequired="1200" power="60">
 		<input>

@@ -42,14 +42,6 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
-			<oreDict>ingotDepletedUraniumDioxide</oreDict>
-		</input>
-		<output>
-			<oreDict>stickDepletedUraniumDioxide;2</oreDict>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
 			<oreDict>ingotIron</oreDict>
 		</input>
 		<output>
@@ -62,14 +54,6 @@
 		</input>
 		<output>
 			<oreDict>stickUranium;2</oreDict>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotLightlyEnrichedUraniumDioxide</oreDict>
-		</input>
-		<output>
-			<oreDict>stickLightlyEnrichedUraniumDioxide;2</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
