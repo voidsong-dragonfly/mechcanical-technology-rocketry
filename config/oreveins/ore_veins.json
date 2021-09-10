@@ -462,47 +462,6 @@
       "mutated_extreme_hills_with_trees"
     ]
   },
-  "wolframite": {
-    "type": "sphere",
-    "vertical_size": 7,
-    "horizontal_size": 28,
-    "ore": [
-      {
-        "ore": "oreTungsten",
-        "weight": 75
-      },
-      {
-        "block": "minecraft:iron_ore",
-        "weight": 25
-      }
-    ],
-    "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblocktungsten", "weight": 75}, {"block": "simpleoresamples:sampleblockiron", "weight": 25}],
-      "rarity": 16,
-      "max_depth": 128
-    },
-    "stone": ["minecraft:stone", 
-              {"block": "minecraft:stone", "meta": 1},
-              {"block": "minecraft:stone", "meta": 3},
-              {"block": "minecraft:stone", "meta": 5},
-              "pvj:siltstone",
-              "rustic:slate",
-              "quark:marble",
-              "quark:slate",
-              "quark:jasper",
-              "quark:limestone",
-              "earthworks:block_chalk",
-              "earthworks:block_slate",
-              "earthworks:block_slate_green",
-              "earthworks:block_slate_purple"],
-    "rarity": 3072,
-    "count": 1,
-    "dimensions": [0],
-    "dimensions_is_whitelist": true,
-    "min_y": 16,
-    "max_y": 36,
-    "density": 128
-  },
   "pyrochlore": {
     "type": "sphere",
     "vertical_size": 6,
@@ -514,16 +473,12 @@
       },
       {
         "block": "immersiveengineering:ore",
-        "weight": 10,
+        "weight": 15,
         "meta": 5
-      },
-      {
-        "ore": "oreZirconium",
-        "weight": 5
       }
     ],
     "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockniobium", "weight": 85}, {"block": "simpleoresamples:sampleblockuranium", "weight": 10}, {"block": "simpleoresamples:sampleblockzirconium", "weight": 5}],
+      "blocks": [{"block": "simpleoresamples:sampleblockniobium", "weight": 85}, {"block": "simpleoresamples:sampleblockuranium", "weight": 15},],
       "rarity": 16,
       "max_depth": 128
     },
@@ -691,7 +646,7 @@
         "weight": 60
       },
       {
-        "ore": "oreZirconium",
+        "ore": "oreNiobium",
         "weight": 25
       },
       {
@@ -700,7 +655,7 @@
       }
     ],
     "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockilmenite", "weight": 60}, {"block": "simpleoresamples:sampleblockzirconium", "weight": 25}, {"block": "simpleoresamples:sampleblockiron", "weight": 15}],
+      "blocks": [{"block": "simpleoresamples:sampleblockilmenite", "weight": 60}, {"block": "simpleoresamples:sampleblockniobium", "weight": 25}, {"block": "simpleoresamples:sampleblockiron", "weight": 15}],
       "rarity": 16,
       "max_depth": 128
     },

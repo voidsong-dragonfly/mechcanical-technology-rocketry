@@ -59,13 +59,12 @@ Excavator.addMineral("Cassiterite", 15, 0.05, ["cobblestone", "gravel", "dirt", 
 //Medium (40% ore)
 Excavator.addMineral("Uraninite", 10, 0.15, ["cobblestone", "gravel", "dirt", "oreUranium", "oreLead", "oreSilver"], [1.0, 0.375, 0.125, 0.7, 0.2, 0.1], [0], false);
 Excavator.addMineral("Beryl", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreEmerald"], [1.0, 0.375, 0.125, 1.0], [0], false);
-Excavator.addMineral("Wolframite", 5, 0.1, ["cobblestone", "gravel", "dirt", "oreIron", "oreTungsten"], [1.0, 0.375, 0.125, 0.5, 0.5], [0], false);
-Excavator.addMineral("Pyrochlore", 10, 0.15, ["cobblestone", "gravel", "dirt", "oreNiobium", "oreUranium", "oreZirconium"], [1.0, 0.375, 0.125, 0.85, 0.1, 0.05], [0], false);
+Excavator.addMineral("Pyrochlore", 10, 0.15, ["cobblestone", "gravel", "dirt", "oreNiobium", "oreUranium"], [1.0, 0.375, 0.125, 0.85, 0.15], [0], false);
 Excavator.addMineral("Kimberlite", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreDiamond"], [1.0, 0.375, 0.125, 1.0], [0], false);
 Excavator.addMineral("Lapis", 10, 0.1, ["cobblestone", "gravel", "dirt", "oreIron", "oreLapis", "dustSulfur"], [1.0, 0.375, 0.125, 0.7, 0.25, 0.05], [0], false);
 //Sparse (20% ore)
 Excavator.addMineral("Cooperite", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreNickel", "orePlatinum", "oreIridium"], [2.5, 1.25, 0.25, 0.7, 0.2, 0.1], [0], false);
-Excavator.addMineral("Ilmenite", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreIlmenite", "oreZirconium", "oreIron"], [2.5, 1.25, 0.25, 0.60, 0.25, 0.15], [0], false);
+Excavator.addMineral("Ilmenite", 5, 0.2, ["cobblestone", "gravel", "dirt", "oreIlmenite", "oreNiobium", "oreIron"], [2.5, 1.25, 0.25, 0.60, 0.25, 0.15], [0], false);
 //Nether
 //Medium (40% ore)
 Excavator.addMineral("Mephitic Quartizite", 20, 0.2, ["netherrack", "soulsand", "oreQuartz", "dustSulfur", "oreNetherGold"], [1.25, 0.25, 0.6, 0.2, 0.2], [-1], false);
