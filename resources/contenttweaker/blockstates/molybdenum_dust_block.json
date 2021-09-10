@@ -3,16 +3,16 @@
   "defaults": {
     "transform": "forge:default-block",
     "model": "cube_all",
-    "textures": { "all": "contenttweaker:blocks/zirconium_ore" }
+    "textures": { "all": "contenttweaker:blocks/molybdenum_dust_block" }
   },
   "variants": {
     "inventory": {
       "model": "cube_all",
-      "textures": { "all": "contenttweaker:blocks/zirconium_ore" }
+      "textures": { "all": "contenttweaker:blocks/molybdenum_dust_block" }
     },
     "normal": {
       "model": "cube_all",
-      "textures": { "all": "contenttweaker:blocks/zirconium_ore" }
+      "textures": { "all": "contenttweaker:blocks/molybdenum_dust_block" }
     }
   }
 }

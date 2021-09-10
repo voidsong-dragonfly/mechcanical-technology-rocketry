@@ -81,7 +81,7 @@ recipes.addShaped(<immersiveengineering:metal_decoration0:5> * 2,
 recipes.remove(<magneticraft:multiblock_parts>);
 recipes.addShaped(<magneticraft:multiblock_parts> * 2,
  [[<ore:ingotMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:ingotMaragingSteel>],
- [<ore:blockTungstensteel>, <ore:blockTungstensteel>, <ore:blockTungstensteel>],
+ [<ore:blockMolybdenum>, <ore:blockMolybdenum>, <ore:blockMolybdenum>],
  [<ore:ingotMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:ingotMaragingSteel>]]);
 
 //Add in bearing recipe
@@ -221,11 +221,15 @@ recipes.addShaped(<immersiveengineering:railgun>,
  [<immersiveengineering:metal_decoration0:1>, <ore:ingotSteel>, null]]);
 recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_device0:1>, <immersiveengineering:toolupgrade:9>);
  
-//Add a diamond-tungsten-steel drill head
-recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -22000}),
- [[<ore:ingotTungsten>, <ore:dustDiamond>, null],
- [<ore:blockSteel>, <ore:blockTungsten>, <ore:dustDiamond>],
- [<ore:ingotTungsten>, <ore:dustDiamond>, null]]);
+//Add T3+ drill head(s)
+recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -14000}),
+ [[<ore:dustDiamond>, <ore:dustDiamond>, null],
+ [<ore:blockSteel>, <ore:blockSteel>, <ore:ingotSteel>],
+ [<ore:dustDiamond>, <ore:dustDiamond>, null]]);
+recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -30000}),
+ [[<ore:ingotMaragingSteel>, <ore:dustDiamond>, null],
+ [<ore:blockMaragingSteel>, <ore:blockMolybdenum>, <ore:dustDiamond>],
+ [<ore:ingotMaragingSteel>, <ore:dustDiamond>, null]]);
  
 //Add Barrel recipes from barrel shells
 recipes.addShaped(<immersivetech:metal_barrel:1>,
@@ -249,14 +253,14 @@ recipes.addShaped(<immersiveengineering:metal_decoration1:5>,
  [[null, <ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>],
  [<ore:scaffoldingPanelAluminium>, null, <ore:scaffoldingPanelAluminium>],
  [<ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>, null]]);
-recipes.addShaped(<contenttweaker:zirconium_niobium_alloy_frame>,
- [[null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
- [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, null, <ore:scaffoldingPanelZirconiumNiobiumAlloy>],
- [<ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, null]]);
-recipes.addShaped(<contenttweaker:tungstensteel_frame>,
- [[null, <ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>],
- [<ore:scaffoldingPanelTungstensteel>, null, <ore:scaffoldingPanelTungstensteel>],
- [<ore:scaffoldingPanelTungstensteel>, <ore:scaffoldingPanelTungstensteel>, null]]);
+recipes.addShaped(<contenttweaker:beryllium_frame>,
+ [[null, <ore:scaffoldingPanelBeryllium>, <ore:scaffoldingPanelBeryllium>],
+ [<ore:scaffoldingPanelBeryllium>, null, <ore:scaffoldingPanelBeryllium>],
+ [<ore:scaffoldingPanelBeryllium>, <ore:scaffoldingPanelBeryllium>, null]]);
+recipes.addShaped(<contenttweaker:maraging_steel_frame>,
+ [[null, <ore:scaffoldingPanelMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>],
+ [<ore:scaffoldingPanelMaragingSteel>, null, <ore:scaffoldingPanelMaragingSteel>],
+ [<ore:scaffoldingPanelMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, null]]);
 recipes.addShaped(<contenttweaker:titanium_iridium_alloy_frame>,
  [[null, <ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
  [<ore:scaffoldingPanelTitaniumIridiumAlloy>, null, <ore:scaffoldingPanelTitaniumIridiumAlloy>],

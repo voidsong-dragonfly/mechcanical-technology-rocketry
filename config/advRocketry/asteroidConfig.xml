@@ -15,7 +15,7 @@
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="16" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="18" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="3" />
-        <ore itemStack="contenttweaker:tungsten_dust_block" chance="1" />
+        <ore itemStack="contenttweaker:molybdenum_dust_block" chance="1" />
         <ore itemStack="contenttweaker:uranium_dust_block" chance="0.1" />
 	</asteroid>
 	<asteroid name="S-Type" distance="50" mass="1000" massVariability="0.25" minLevel="0" probability="0.045" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="12.5">
@@ -24,7 +24,7 @@
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="20" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="22.75" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="3.5" />
-        <ore itemStack="contenttweaker:tungsten_dust_block" chance="1.25" />
+        <ore itemStack="contenttweaker:molybdenum_dust_block" chance="1.25" />
         <ore itemStack="contenttweaker:uranium_dust_block" chance="0.15" />
 	</asteroid>
     <asteroid name="S-Type [R]" distance="50" mass="1000" massVariability="0.25" minLevel="0" probability="0.0375" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="12.5">
@@ -33,7 +33,7 @@
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="24" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="27" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="4" />
-        <ore itemStack="contenttweaker:tungsten_dust_block" chance="2" />
+        <ore itemStack="contenttweaker:molybdenum_dust_block" chance="2" />
         <ore itemStack="contenttweaker:uranium_dust_block" chance="0.2" />
 	</asteroid>
     <asteroid name="C-Type" distance="100" mass="1000" massVariability="0.25" minLevel="0" probability="0.3375" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="25">
@@ -95,7 +95,7 @@
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="16" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="18" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="3" />
-        <ore itemStack="contenttweaker:tungsten_dust_block" chance="1" />
+        <ore itemStack="contenttweaker:molybdenum_dust_block" chance="1" />
         <ore itemStack="contenttweaker:uranium_dust_block" chance="0.1" />
 	</asteroid>
 	<asteroid name="S-Type [H]" distance="50" mass="3000" massVariability="0.25" minLevel="0" probability="0.015" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="25">
@@ -104,7 +104,7 @@
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="20" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="22.75" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="3.5" />
-        <ore itemStack="contenttweaker:tungsten_dust_block" chance="1.25" />
+        <ore itemStack="contenttweaker:molybdenum_dust_block" chance="1.25" />
         <ore itemStack="contenttweaker:uranium_dust_block" chance="0.15" />
 	</asteroid>
     <asteroid name="S-Type [H,R]" distance="50" mass="3000" massVariability="0.25" minLevel="0" probability="0.0125" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="25">
@@ -113,7 +113,7 @@
         <ore itemStack="contenttweaker:magnesium_dust_block" chance="24" />
         <ore itemStack="contenttweaker:iron_dust_block" chance="27" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="4" />
-        <ore itemStack="contenttweaker:tungsten_dust_block" chance="2" />
+        <ore itemStack="contenttweaker:molybdenum_dust_block" chance="2" />
         <ore itemStack="contenttweaker:uranium_dust_block" chance="0.2" />
 	</asteroid>
     <asteroid name="C-Type [H]" distance="100" mass="3000" massVariability="0.25" minLevel="0" probability="0.1125" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="50">

@@ -166,16 +166,16 @@ recipes.remove(<mekanism:energyupgrade>);
 recipes.remove(<mekanism:mufflingupgrade>);
 recipes.remove(<mekanism:anchorupgrade>);
 recipes.addShaped(<mekanism:speedupgrade>,
- [[<ore:plateTungstensteel>, <ore:circuitElite>],
+ [[<ore:plateMolybdenum>, <ore:circuitElite>],
  [<ore:circuitAdvanced>, <ore:paneGlass>]]);
 recipes.addShaped(<mekanism:energyupgrade>,
- [[<ore:plateTungstensteel>, <ore:circuitBasic>],
+ [[<ore:plateMolybdenum>, <ore:circuitBasic>],
  [<ore:circuitAdvanced>, <ore:paneGlass>]]);
 recipes.addShaped(<mekanism:mufflingupgrade>,
- [[<ore:plateTungstensteel>, <quark:quilted_wool:*>],
+ [[<ore:plateMolybdenum>, <quark:quilted_wool:*>],
  [<ore:circuitAdvanced>, <ore:paneGlass>]]);
 recipes.addShaped(<mekanism:anchorupgrade>,
- [[<ore:plateTungstensteel>, <minecraft:ender_eye>],
+ [[<ore:plateMolybdenum>, <minecraft:ender_eye>],
  [<ore:circuitAdvanced>, <ore:paneGlass>]]);
  
 //Energy tablet

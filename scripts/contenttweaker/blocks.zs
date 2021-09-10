@@ -36,8 +36,6 @@ create_block_sound("crushed_basalt", <blockmaterial:sand>, 0.5, 0.8, "shovel", <
 //Ores
 create_block("cryolite_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
 create_block("platinum_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
-create_block("tungsten_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
-create_block("zirconium_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
 create_block("niobium_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
 var cinnabar_ore = createBlock("cinnabar_ore", <blockmaterial:rock>);
 cinnabar_ore.setBlockHardness(3.0);
@@ -152,7 +150,7 @@ create_block_sound("silver_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shove
 create_block_sound("platinum_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("iridium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("uranium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
-create_block_sound("tungsten_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
+create_block_sound("molybdenum_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 create_block_sound("titanium_dust_block", <blockmaterial:sand>, 0.75, 1.25, "shovel", <soundtype:sand>, 1);
 
 //Crushed ore blocks
@@ -167,10 +165,8 @@ create_block_sound("crushed_uranium_ore", <blockmaterial:sand>, 0.6, 0.8, "shove
 create_block_sound("crushed_tin_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_platinum_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_iridium_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
-create_block_sound("crushed_zirconium_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_niobium_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_ilmenite_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
-create_block_sound("crushed_tungsten_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 
 //Ore processing byproduct blocks
 create_block_sound("crushed_ore_spoils", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
@@ -179,8 +175,8 @@ create_block_sound("spent_red_mud", <blockmaterial:sand>, 0.75, 0.8, "shovel", <
 create_block_sound("uranium_tailings", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:ground>, 0);
 
 //Frames
-create_block_transparent("zirconium_niobium_alloy_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
-create_block_transparent("tungstensteel_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+create_block_transparent("beryllium_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+create_block_transparent("maraging_steel_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 create_block_transparent("titanium_iridium_alloy_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 //Plascrete
 create_block("plastic_coated_rebar_concrete", <blockmaterial:rock>, 5.0, 750.0, "pickaxe", 2);

@@ -17,7 +17,7 @@ game.setLocalization("item.BioFuel.name", "Lightly Sulfated Ethanol Resiude");
 //Make mekanism gasses "pressurized" but fluids normal
 game.setLocalization("gas.hydrogen", "Pressurized Hydrogen");
 game.setLocalization("gas.oxygen", "Pressurized Oxygen");
-game.setLocalization("gas.hydrogenchloride", "Pressurized Hydrochloric Acid");
+game.setLocalization("gas.sulfuricacid", "Pressurized Sulfuric Acid");
 game.setLocalization("fluid.heavywater", "Semiheavy Water");
 
 //Make Quark slate dolomite because I need a good spawn for that
@@ -121,22 +121,22 @@ game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Urani
 game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("index.page_0_entry.13", "Uranium Dioxide");
 
-//Rename Constantan items to Tungsten items
-game.setLocalization("tile.immersiveengineering.storage.constantan.name", "Block of Tungsten");
-game.setLocalization("tile.immersiveengineering.storage_slab.constantan.name", "Tungsten Slab");
-game.setLocalization("tile.immersiveengineering.sheetmetal.constantan.name", "Tungsten Sheetmetal");
-game.setLocalization("tile.immersiveengineering.sheetmetal_slab.constantan.name", "Tungsten Sheetmetal Slab");
-game.setLocalization("item.immersiveengineering.metal.ingot_constantan.name", "Tungsten Ingot");
-game.setLocalization("item.immersiveengineering.metal.dust_constantan.name", "Tungsten Grit");
-game.setLocalization("item.immersiveengineering.metal.nugget_constantan.name", "Tungsten Nugget");
-game.setLocalization("item.immersiveengineering.metal.plate_constantan.name", "Tungsten Plate");
+//Rename Constantan items to Molybdenum items
+game.setLocalization("tile.immersiveengineering.storage.constantan.name", "Block of Molybdenum");
+game.setLocalization("tile.immersiveengineering.storage_slab.constantan.name", "Molybdenum Slab");
+game.setLocalization("tile.immersiveengineering.sheetmetal.constantan.name", "Molybdenum Sheetmetal");
+game.setLocalization("tile.immersiveengineering.sheetmetal_slab.constantan.name", "Molybdenum Sheetmetal Slab");
+game.setLocalization("item.immersiveengineering.metal.ingot_constantan.name", "Molybdenum Ingot");
+game.setLocalization("item.immersiveengineering.metal.dust_constantan.name", "Molybdenum Grit");
+game.setLocalization("item.immersiveengineering.metal.nugget_constantan.name", "Molybdenum Nugget");
+game.setLocalization("item.immersiveengineering.metal.plate_constantan.name", "Molybdenum Plate");
 
-game.setLocalization("tile.immersiveposts.constantanpost.name", "Tungsten Post");
-game.setLocalization("tile.immersiveposts.fence_constantan.name", "Tungsten Fence");
-game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Tungsten Rod");
-game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Tungsten Rod");
+game.setLocalization("tile.immersiveposts.constantanpost.name", "Molybdenum Post");
+game.setLocalization("tile.immersiveposts.fence_constantan.name", "Molybdenum Fence");
+game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Molybdenum Rod");
+game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Molybdenum Rod");
 
-game.setLocalization("item.alternatingflux.material.wire_constantan.name", "Tungsten Wire");
+game.setLocalization("item.alternatingflux.material.wire_constantan.name", "Molybdenum Wire");
 
 game.setLocalization("ie.manual.entry.alloys0", "Mixing dusts creates an alloy blend that can then be smelted into alloyed ingots. Nickel and copper have thermo-electric properties and are used in creating the <link;generator;§o§nthermoelectric §o§ngenerator§r;1> and electrum is an excellent electric conductor used in circuitry.");
 

@@ -70,7 +70,7 @@ recipes.addShaped(<advancedrocketry:orescanner>,
 //Make Jackhammer not require a diamond, as it does not even show up in the texture and makes little sense
 recipes.remove(<advancedrocketry:jackhammer>);
 recipes.addShaped(<advancedrocketry:jackhammer>,
- [[null, <ore:plateAluminum>, <ore:stickTungsten>],
+ [[null, <ore:plateAluminum>, <ore:stickMolybdenum>],
  [<ore:stickSteel>, <ore:mechanicalComponentSteel>, <ore:plateAluminum>],
  [<ore:ingotTitanium>, <ore:stickSteel>, null]]);
 //Atm analyser

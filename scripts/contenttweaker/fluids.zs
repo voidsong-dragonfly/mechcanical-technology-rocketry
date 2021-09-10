@@ -42,7 +42,6 @@ create_gas("sulfurdioxide", "A99D90");
 create_gas("sulfurtrioxide", "CE6C6C");
 create_fluid("sulfuric_acid", "82802B", 300, 1000, 1000);
 create_fluid("dilutedsulfuricacid", "755C27", 300, 1000, 1000);
-create_fluid("hydrochloricacid", "A8F1E9", 300, 1000, 1000);
 create_fluid("hydrofluoricacid", "689B9A", 300, 1300, 1000);
 
 //Hydrazine
@@ -101,7 +100,6 @@ create_molten_fluid("moltenlithium", "D9E9ED", 520, 930, 10000);
 create_molten_fluid("moltencalcium", "D4CFB2", 1100, 1380, 10000);
 create_molten_fluid("moltenmagnesiumchloride", "807A79", 2300, 800, 10000);
 create_molten_fluid("moltenlithiumchloride", "847F68", 880, 2000, 10000);
-create_molten_fluid("moltencalciumchloride", "9E9E9E", 1400, 2150, 10000);
 
 //Reactor fluids 7079E0
 create_gas("hydrogendeuteride", "FE9393");
@@ -154,5 +152,3 @@ create_molten_fluid("impuremoltentin", "F2E9E0", 1800, 7000, 10000);
 create_molten_fluid("moltenlead", "404046", 1800, 10600, 10000);
 //Titanium processing
 create_gas("titaniumtetrachloride", "E7EBC8");
-//Zirconium processing
-create_gas("zirconiumtetrachloride", "E7EBC8");

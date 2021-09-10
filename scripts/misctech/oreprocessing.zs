@@ -98,15 +98,6 @@ steel_rod.addItemInput(<immersiveengineering:mold:2>).setChance(0);
 steel_rod.addItemOutput(<immersiveengineering:material:2> * 12);
 steel_rod.build();
 
-//Tungsten processing
-var tungsten_dust = newBuilder("tungsten_dust", "oxygen_converter", 400);
-tungsten_dust.addMekanismHeatInput(0, 1350, (1.0/0));
-tungsten_dust.addItemInput(<ore:dustTungstenTrioxide>.firstItem * 16);
-tungsten_dust.addFluidInput(<liquid:hydrogen> * 4800);
-tungsten_dust.addFluidInput(<liquid:water> * 9600);
-tungsten_dust.addItemOutput(<ore:dustTungsten>.firstItem * 16);
-tungsten_dust.build();
-
 //Copper processing
 Mixer.addRecipe(<liquid:coppersulfatesolution> * 150, <liquid:sulfuric_acid> * 150, [<ore:dustDirtyCopper>.firstItem], 4000);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1200, null, <liquid:coppersulfatesolutionresidue> * 400, <immersiveengineering:metal:30> * 16, <liquid:coppersulfatesolution> * 1600, 1536000, 400);

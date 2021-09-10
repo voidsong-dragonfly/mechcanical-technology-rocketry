@@ -1,0 +1,347 @@
+#Materials
+#New parts - dust types
+contenttweaker.part.salt=%s
+contenttweaker.part.gemdust=%s Dust
+contenttweaker.part.nonmetaldust=%s Dust
+contenttweaker.part.dustunshaded=%s Dust
+contenttweaker.part.amalgam=%s Amalgam
+#New parts - other types
+contenttweaker.part.wire=%s Wire
+contenttweaker.part.sheet=%s Sheet
+contenttweaker.part.mechanicalcomponent=%s Mechanical Component
+contenttweaker.part.scaffoldingpanel=%s Scaffolding Panel
+contenttweaker.part.smallpipe=%s Small Pipe
+contenttweaker.part.fuelpellet=%s Fuel Pellet
+contenttweaker.part.compressor=%s Compressor
+#New parts - nonmetal types
+contenttweaker.part.fiber=%s Fiber
+contenttweaker.part.slag=%s Slag
+contenttweaker.part.sludge=%s Sludge
+#New parts - silicon types
+contenttweaker.part.boule=%s Boule
+contenttweaker.part.boulewafer=%s Wafer
+contenttweaker.part.wafer=%s Wafer
+contenttweaker.part.circuitplate=%s Circuit Plate
+contenttweaker.part.etchingplate=%s Etching Plate
+contenttweaker.part.preparedwafer=Prepared %s Wafer
+#New parts - circuit parts
+contenttweaker.part.grapheneprocessorcrystal=%s Graphene Processor Crystal
+contenttweaker.part.perfectcircuit=Perfect Circuit
+contenttweaker.part.circuitboard=%s Circuit Board
+contenttweaker.part.smd=SMD %s
+contenttweaker.part.gpsunit=GPS Unit
+contenttweaker.part.circuitdesignic=Integrated Circuit Design
+contenttweaker.part.circuitdesigncpu=Central Processing Unit Design
+contenttweaker.part.circuitdesignmemory=Memory Unit Design
+contenttweaker.part.solder=Solder
+#New parts - fuel rods
+contenttweaker.part.fuelbundle=%s Fuel Rod Bundle
+contenttweaker.part.rodbundle=%s Rod Bundle
+#New parts - power items
+contenttweaker.part.smallbatteryhull=Small Battery Hull
+contenttweaker.part.inductiontablet=Induction Tablet
+contenttweaker.part.unfilledsuperconductorcable=Unfilled Superconductor Cable
+contenttweaker.part.unfilledhighcurrentsuperconductorcable=Unfilled High Current Superconductor Cable
+#New parts - rocketry items
+contenttweaker.part.enginebell=Rocket Engine Bell
+contenttweaker.part.advancedenginebell=Advanced Rocket Engine Bell
+contenttweaker.part.catalyticturbopump=Catalytic Turbopump
+contenttweaker.part.turbopump=Turbopump
+contenttweaker.part.pressurizedheliumtank=Pressurized Helium Tank
+contenttweaker.part.fueltankshell=Fuel Tank Shell
+contenttweaker.part.reactionwheel=Reaction Wheel
+contenttweaker.part.solarpanel=Photovoltaic Cell Panel
+#New parts - molds, rods, and dies
+contenttweaker.part.metalpressmold=Metal Press Mold: %s
+contenttweaker.part.heavymetalpressdie=Heavy Metal Press Die: %s
+contenttweaker.part.injectionmold=%s Injection Mold
+#New parts - ore to get around other stuff being a pain
+contenttweaker.part.cryoliteore=Cryolite
+contenttweaker.part.cinnabarore=Cinnabar Ore
+contenttweaker.part.platinumore=Platinum Ore
+contenttweaker.part.niobiumore=Niobium Ore
+contenttweaker.part.nethercinnabarore=Nether Cinnabar Ore
+contenttweaker.part.netherfluoriteore=Nether Fluorite Ore
+contenttweaker.part.nethergoldore=Nether Gold Ore
+
+
+
+#Fluids
+#Cryogenic Distillation & liquefaction fluids and gasses
+fluid.liquid_air=Liquid Air
+fluid.liquid_nitrogen=Liquid Nitrogen
+fluid.liquid_oxygen=Liquid Oxygen
+fluid.liquid_hydrogen=Liquid Hydrogen
+fluid.liquid_methane=Liquid Methane
+fluid.oxynitrogenmix=Oxynitrogen Mix
+fluid.air=Air
+gas.nitrogen=Pressurized Nitrogen
+fluid.carbondioxide=Carbon Dioxide
+
+#I don wanna organize this right now dammit - mekanism stuff
+fluid.tritium=Tritium
+fluid.deuterium=Deuterium
+fluid.ethylene=Ethylene
+fluid.sulfurdioxide=Sulfur Dioxide
+fluid.sulfurtrioxide=Sulfur Trioxide
+fluid.sulfuric_acid=Sulfuric Acid
+
+#Oil processing fluids
+fluid.desulfurisedoil=Desulfurised Oil
+fluid.hydrotreatedoil=Hydrotreated Oil
+fluid.naphtha=Naphtha
+fluid.kerosene=Kerosene
+fluid.hydrogensulfide=Hydrogen Sulfide
+fluid.dilutedsulfuricacid=Diluted Sulfuric Acid
+fluid.polyethene=Molten Polyethylene
+gas.hydrogensulfide=Pressurized Hydrogen Sulfide
+fluid.hydrotreatedkerosene=Hydrotreated Kerosene
+fluid.lowsulfurkerosene=Low-Sulfur Kerosene
+fluid.rp1=RP-1
+
+#Gas processing fluids and gasses
+fluid.naturalgas=Natural Gas
+fluid.hydrotreatedgas=Hydrotreated Gas
+fluid.refinerygas=Refinery Gas
+fluid.methane=Methane
+
+#Cracking fluids and gasses
+fluid.crackednaphtha=Cracked Naphtha
+fluid.crackedethene=Cracked Ethylene
+fluid.crackedmethane=Cracked Methane
+
+#Salt Solutions
+fluid.saltwater=Salt Water
+fluid.magnesiumchloridesolution=Magnesium Chloride Solution
+fluid.lithiumchloridesolution=Lithium Chloride Solution
+fluid.richbrine=Rich Brine
+
+#Molten metals from salts
+fluid.moltenmagnesium=Molten Magnesium
+fluid.moltenlithium=Molten Lithium
+fluid.moltencalcium=Molten Calcium
+
+#Molten salts
+fluid.moltenmagnesiumchloride=Molten Magnesium Chloride
+fluid.moltenlithiumchloride=Molten Lithium Chloride
+fluid.moltencalciumchloride=Molten Calcium Chloride
+
+#Gasses with attached fluids
+fluid.helium=Helium
+fluid.helium3=Helium-3
+fluid.ammonia=Ammonia
+fluid.fluorine=Fluorine
+
+#Stygian Acid Gas
+gas.endacid=Pressurized Stygian Acid
+
+#Hydrazine
+fluid.hydrogenperoxide=Hydrogen Peroxide
+fluid.hydrazine=Hydrazine
+
+#Uranium enrichment bits
+fluid.hydrofluoricacid=Hydrofluoric Acid
+fluid.uraniumhexafluoride_007=0.7%% Enriched Uranium Hexafluoride
+fluid.uraniumhexafluoride_014=1.4%% Enriched Uranium Hexafluoride
+fluid.uraniumhexafluoride_021=2.1%% Enriched Uranium Hexafluoride
+fluid.uraniumhexafluoride_028=2.8%% Enriched Uranium Hexafluoride
+fluid.uraniumhexafluoride_035=3.5%% Enriched Uranium Hexafluoride
+fluid.uraniumhexafluoride_000=Depleted Uranium Hexafluoride
+
+#Reactor fluids
+fluid.hydrogendeuteride=Hydrogen Deuteride
+fluid.semiheavywater=Dilute Semiheavy Water
+fluid.superheatedwater=Superheated Water
+fluid.heat=Temperature - MK
+
+#Gas giant mining fluids
+fluid.precipitategas=Precipitate Gas Mix
+
+#Pahoehoe lava
+fluid.pahoehoelava=Pahoehoe Lava
+
+#Ore processing
+#Cinnabar
+fluid.mercury=Mercury
+#Aluminium processing
+fluid.sodiumhydroxidesolution=Sodium Hydroxide Solution
+fluid.impuresodiumaluminatesolution=Sodium Aluminate Solution - Impure
+fluid.sodiumaluminatesolution=Sodium Aluminate Solution
+fluid.moltencryolite=Molten Cryolite
+fluid.moltencryolitesolution=Molten Cryolite - Dissolved Alumina
+fluid.moltenaluminium=Molten Aluminium
+#Uranium processing
+fluid.uraniumsulfatesolution=Uranium Sulfate Solution
+fluid.uraniumtailingssolution=Uranium Tailings Solution
+#Iron Processing
+fluid.moltencrudeiron=Molten Crude Iron
+fluid.moltensteel=Molten Steel
+fluid.moltenslag=Molten Slag
+#Copper Processing
+fluid.coppersulfatesolution=Copper Sulfate Solution
+fluid.coppersulfatesolutionresidue=Copper Sulfate Solution Residue
+#Nickel Processing
+fluid.nickelsulfatesolution=Nickel Sulfate Solution
+fluid.nickelsulfatesolutionresidue=Nickel Sulfate Solution Residue
+fluid.moltennickelmatte=Molten Nickel Matte
+#Tin Processing
+fluid.tinsulfatesolution=Tin Sulfate Solution
+fluid.impuremoltentin=Impure Molten Tin
+#Lead Processing
+fluid.moltenlead=Molten Lead
+#Titanium Processing
+fluid.titaniumtetrachloride=Titanium Tetrachloride
+
+
+
+#Blocks
+#Ices
+tile.contenttweaker.oxygen_ice.name=Oxygen Ice
+tile.contenttweaker.nitrogen_ice.name=Nitrogen Ice
+tile.contenttweaker.carbon_dioxide_ice.name=Carbon Dioxide Ice
+tile.contenttweaker.ammonia_ice.name=Ammonia Ice
+tile.contenttweaker.methane_ice.name=Methane Ice
+tile.contenttweaker.ethene_ice.name=Ethylene Ice
+
+#Snows & planetary ices
+tile.contenttweaker.tholinated_ice.name=Tholiated Ice
+tile.contenttweaker.lightly_tholinated_ice.name=Lightly Tholinated Ice
+tile.contenttweaker.sooty_ice.name=Sooty Ice
+tile.contenttweaker.soot.name=Soot
+tile.contenttweaker.sulfur_dioxide_snow.name=Sulfur Dioxide Snow
+tile.contenttweaker.sulfur_snow.name=Sulfur Snow
+tile.contenttweaker.damaged_sulfur_snow.name=Damaged Sulfur Snow
+tile.contenttweaker.fresh_sulfated_mega_regolith.name=Fresh Sulfate Rock
+tile.contenttweaker.sulfated_mega_regolith.name=Sulfate Rock
+tile.contenttweaker.sulfated_mega_regolith_cobblestone.name=Sulfate Rock Cobblestone
+tile.contenttweaker.sulfated_mega_regolith_gravel.name=Sulfate Rock Gravel
+tile.contenttweaker.mixed_exotic_salts.name=Mixed Exotic Salts
+tile.contenttweaker.mixed_exotic_clays.name=Mixed Exotic Clays
+#Regoliths
+tile.contenttweaker.icebound_regolith.name=Icebound Regolith
+tile.contenttweaker.fine_highland_regolith_volatiles.name=Fine Highland Regolith
+tile.contenttweaker.fine_lowland_regolith_volatiles.name=Fine Lowland Regolith
+tile.contenttweaker.fine_highland_regolith_iron.name=Fine Highland Regolith
+tile.contenttweaker.fine_lowland_regolith_iron.name=Fine Lowland Regolith
+tile.contenttweaker.fine_highland_regolith_metals.name=Fine Highland Regolith
+tile.contenttweaker.fine_lowland_regolith_metals.name=Fine Lowland Regolith
+tile.contenttweaker.compacted_highland_regolith_volatiles.name=Compacted Highland Regolith
+tile.contenttweaker.compacted_lowland_regolith_volatiles.name=Compacted Lowland Regolith
+tile.contenttweaker.compacted_highland_regolith_iron.name=Compacted Highland Regolith
+tile.contenttweaker.compacted_lowland_regolith_iron.name=Compacted Lowland Regolith
+tile.contenttweaker.compacted_highland_regolith_metals.name=Compacted Highland Regolith
+tile.contenttweaker.compacted_lowland_regolith_metals.name=Compacted Lowland Regolith
+#Rocks
+tile.contenttweaker.mega_highland_regolith_volatiles.name=Highland Rock
+tile.contenttweaker.mega_lowland_regolith_volatiles.name=Lowland Rock
+tile.contenttweaker.mega_highland_regolith_iron.name=Highland Rock
+tile.contenttweaker.mega_lowland_regolith_iron.name=Lowland Rock
+tile.contenttweaker.mega_highland_regolith_metals.name=Highland Rock
+tile.contenttweaker.mega_lowland_regolith_metals.name=Lowland Rock
+#Rock cobbles
+tile.contenttweaker.mega_highland_regolith_volatiles_cobblestone.name=Highland Rock Cobblestone
+tile.contenttweaker.mega_lowland_regolith_volatiles_cobblestone.name=Lowland Rock Cobblestone
+tile.contenttweaker.mega_highland_regolith_iron_cobblestone.name=Highland Rock Cobblestone
+tile.contenttweaker.mega_lowland_regolith_iron_cobblestone.name=Lowland Rock Cobblestone
+tile.contenttweaker.mega_highland_regolith_metals_cobblestone.name=Highland Rock Cobblestone
+tile.contenttweaker.mega_lowland_regolith_metals_cobblestone.name=Lowland Rock Cobblestone
+
+#Asteroid mining dust blocks
+#Nonmetals
+tile.contenttweaker.silicon_dioxide_dust_block.name=Compressed Silicon Dixoide Dust
+tile.contenttweaker.charcoal_dust_block.name=Compressed Charcoal Dust
+tile.contenttweaker.hop_graphite_dust_block.name=Compressed HOP Graphite Dust
+tile.contenttweaker.sulfur_dust_block.name=Compressed Sulfur Dust
+tile.contenttweaker.lithium_dust_block.name=Compressed Lithium Dust
+#Metals
+tile.contenttweaker.magnesium_dust_block.name=Compressed Magnesium Grit
+tile.contenttweaker.iron_dust_block.name=Compressed Iron Grit
+tile.contenttweaker.nickel_dust_block.name=Compressed Nickel Grit
+tile.contenttweaker.cobalt_dust_block.name=Compressed Cobalt Grit
+tile.contenttweaker.copper_dust_block.name=Compressed Copper Grit
+tile.contenttweaker.aluminium_dust_block.name=Compressed Aluminium Grit
+tile.contenttweaker.gold_dust_block.name=Compressed Gold Grit
+tile.contenttweaker.silver_dust_block.name=Compressed Silver Grit
+tile.contenttweaker.platinum_dust_block.name=Compressed Platinum Grit
+tile.contenttweaker.iridium_dust_block.name=Compressed Iridium Grit
+tile.contenttweaker.uranium_dust_block.name=Compressed Uranium Dioxide Grit
+tile.contenttweaker.molybdenum_dust_block.name=Compressed Molybdenum Grit
+tile.contenttweaker.titanium_dust_block.name=Compressed Titanium Grit
+
+#Stones & fluxes
+tile.contenttweaker.crushed_basalt.name=Crushed Basalt
+tile.contenttweaker.crushed_dolomite.name=Crushed Dolomite
+tile.contenttweaker.calcined_crushed_dolomite.name=Calcined Crushed Dolomite
+tile.contenttweaker.crushed_limestone.name=Crushed Limestone
+tile.contenttweaker.crushed_marble.name=Crushed Marble
+tile.contenttweaker.calcined_crushed_marble.name=Calcined Crushed Marble
+
+#Fine blocks
+tile.contenttweaker.fine_gravel.name=Fine Gravel
+tile.contenttweaker.fine_sand.name=Fine Sand
+tile.contenttweaker.fine_soul_sand.name=Fine Soul Sand
+tile.contenttweaker.end_gravel.name=Endstone Gravel
+
+#Ore processing byproduct blocks
+tile.contenttweaker.crushed_ore_spoils.name=Crushed Ore Spoils
+tile.contenttweaker.red_mud.name=Red Mud
+tile.contenttweaker.spent_red_mud.name=Spent Red Mud
+tile.contenttweaker.uranium_tailings.name=Uranium Tailings
+
+#Crushed ore blocks
+tile.contenttweaker.crushed_iron_ore.name=Crushed Iron Ore
+tile.contenttweaker.crushed_gold_ore.name=Crushed Gold Ore
+tile.contenttweaker.crushed_copper_ore.name=Crushed Copper Ore
+tile.contenttweaker.crushed_bauxite_ore.name=Crushed Bauxite Ore
+tile.contenttweaker.crushed_lead_ore.name=Crushed Lead Ore
+tile.contenttweaker.crushed_silver_ore.name=Crushed Silver Ore
+tile.contenttweaker.crushed_nickel_ore.name=Crushed Nickel Ore
+tile.contenttweaker.crushed_uranium_ore.name=Crushed Uranium Ore
+tile.contenttweaker.crushed_tin_ore.name=Crushed Tin Ore
+tile.contenttweaker.crushed_platinum_ore.name=Crushed Platinum Ore
+tile.contenttweaker.crushed_iridium_ore.name=Crushed Iridium Ore
+tile.contenttweaker.crushed_niobium_ore.name=Crushed Niobium Ore
+tile.contenttweaker.crushed_ilmenite_ore.name=Crushed Ilmenite Ore
+
+#Ores
+tile.contenttweaker.cryolite_ore.name=Cryolite Ore
+tile.contenttweaker.platinum_ore.name=Platinum Ore
+tile.contenttweaker.tungsten_ore.name=Tungsten Ore
+tile.contenttweaker.zirconium_ore.name=Zirconium Ore
+tile.contenttweaker.niobium_ore.name=Niobium Ore
+tile.contenttweaker.cinnabar_ore.name=Cinnabar Ore
+tile.contenttweaker.nether_gold_ore.name=Nether Gold Ore
+tile.contenttweaker.nether_cinnabar_ore.name=Nether Cinnabar Ore
+tile.contenttweaker.nether_fluorite_ore.name=Nether Fluorite Ore
+tile.contenttweaker.shattered_end_stone.name=Shattered End Stone
+
+#Mech blocks
+#Frames
+tile.contenttweaker.beryllium_frame.name=Beryllium Scaffolding
+tile.contenttweaker.maraging_steel_frame.name=Maraging Steel Scaffolding
+tile.contenttweaker.titanium_iridium_alloy_frame.name=Titanium Iridium Alloy Scaffolding
+#Plascrete
+tile.contenttweaker.plastic_coated_rebar_concrete.name=Plastic Coated Rebar Concrete
+#Miscelaneous metal bits
+tile.contenttweaker.metal_barrel_shell.name=Metal Barrel Shell
+tile.contenttweaker.steel_barrel_shell.name=Steel Barrel Shell
+#Bearings
+tile.contenttweaker.lubricated_bearing.name=Lubricated Bearing
+tile.contenttweaker.rare_earths_magnetic_coil.name=Rare Earths Magnetic Coil
+tile.contenttweaker.magnetic_bearing.name=Magnetic Bearing
+#Flywheel bits
+tile.contenttweaker.basalt_fiber_flywheel_component.name=Basalt Fiber Flywheel Component
+tile.contenttweaker.carbon_fiber_flywheel_component.name=Carbon Fiber Flywheel Component
+tile.contenttweaker.graphene_fiber_flywheel_component.name=Graphene Fiber Flywheel Component
+#Fission reactor pieces
+tile.contenttweaker.fission_reactor_calandria_casing.name=Fission Reactor Calandria Casing
+tile.contenttweaker.fission_reactor_fuel_rod_assembly_pipe_connector.name=Fission Reactor Fuel Rod Assembly Pipe Connector
+#Fusion reactor pieces
+tile.contenttweaker.superconductive_coil.name=Superconductive Coil
+tile.contenttweaker.fusion_reactor_inner_casing.name=Fusion Reactor Inner Casing
+tile.contenttweaker.fusion_reactor_outer_casing.name=Fusion Reactor Outer Casing
+#Particle Accelerator & etc pieces
+tile.contenttweaker.high_current_superconductive_coil.name=High Current Superconductive Coil
+tile.contenttweaker.particle_accelerator_casing.name=Particle Accelerator Casing
+tile.contenttweaker.particle_containment_casing.name=Particle Containment Casing
+tile.contenttweaker.beam_control_lens.name=Beam Control Lens

@@ -369,17 +369,6 @@
             <oreDict>dustAlumina;40</oreDict>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="1200" power="240">
-		<input>
-            <oreDict>dustDirtyTungsten;24</oreDict>
-            <fluidStack>hydrochloricacid;7200</fluidStack>
-        </input>
-		<output>
-            <fluidStack>water;3600</fluidStack>
-			<oreDict>dustTungstenTrioxide;36</oreDict>
-            <oreDict>dustCalciumChloride;36</oreDict>
-		</output>
-	</Recipe>
     <Recipe timeRequired="2400" power="960">
 		<input>
             <oreDict>dustRutile;8</oreDict>
@@ -398,27 +387,6 @@
         </input>
 		<output>
             <itemStack>libvulpes:productdust;8;7</itemStack>
-            <oreDict>dustMagnesiumChloride;12</oreDict>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="2400" power="960">
-		<input>
-            <oreDict>dustDirtyZirconium;8</oreDict>
-            <oreDict>dustAnyCarbon;16</oreDict>
-            <fluidStack>chlorine;1600</fluidStack>
-        </input>
-		<output>
-            <fluidStack>zirconiumtetrachloride;800</fluidStack>
-            <fluidStack>carbondioxide;800</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="2400" power="360">
-		<input>
-            <oreDict>dustMagnesium;16</oreDict>
-            <fluidStack>zirconiumtetrachloride;800</fluidStack>
-        </input>
-		<output>
-            <oreDict>dustZirconium;8</oreDict>
             <oreDict>dustMagnesiumChloride;12</oreDict>
 		</output>
 	</Recipe>

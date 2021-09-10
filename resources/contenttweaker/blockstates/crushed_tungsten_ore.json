@@ -1,18 +1,16 @@
 {
   "forge_marker": 1,
   "defaults": {
-    "transform": "forge:default-block",
-    "model": "cube_all",
-    "textures": { "all": "contenttweaker:blocks/crushed_tungsten_ore" }
+    "textures": {
+      "texture": "contenttweaker:blocks/crushed_tungsten_ore",
+      "particle": "contenttweaker:blocks/crushed_tungsten_ore"
+    },
+    "model": "base:storage",
+    "uvlock": true,
+    "transform": "forge:default-block"
   },
   "variants": {
-    "inventory": {
-      "model": "cube_all",
-      "textures": { "all": "contenttweaker:blocks/crushed_tungsten_ore" }
-    },
-    "normal": {
-      "model": "cube_all",
-      "textures": { "all": "contenttweaker:blocks/crushed_tungsten_ore" }
-    }
+    "normal": [{}],
+    "inventory": [{}]
   }
 }

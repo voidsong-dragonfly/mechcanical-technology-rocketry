@@ -88,13 +88,13 @@ recipes.addShaped(<modularmachinery:blockcontroller>,
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockinputbus:0>,
- [[<ore:sheetSteel>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:frameZirconiumNiobiumAlloy>, <ore:sheetSteel>],
+ [[<ore:sheetSteel>, <ore:scaffoldingPanelBeryllium>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
  [<ore:sheetSteel>, null, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:0>,
  [[<ore:sheetSteel>, null, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:frameZirconiumNiobiumAlloy>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:scaffoldingPanelZirconiumNiobiumAlloy>, <ore:sheetSteel>]]);
+ [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
+ [<ore:sheetSteel>, <ore:scaffoldingPanelBeryllium>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcasing:5>, 
  [[<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
@@ -265,7 +265,7 @@ ore_scanner.build();
 var biome_changer = newBuilder("biome_changer", "assembly_cleanroom", 900);
 biome_changer.addEnergyPerTickInput(960);
 biome_changer.addItemInput(<libvulpes:productrod:7> * 2);
-biome_changer.addItemInput(<ore:wireTungsten>, 8);
+biome_changer.addItemInput(<ore:wireMolybdenum>, 8);
 biome_changer.addItemInput(<advancedrocketry:productsheet:1> * 4);
 biome_changer.addItemInput(<mekanism:controlcircuit:3> * 4);
 biome_changer.addItemInput(<ore:mechanicalComponentSteel>, 2);
@@ -323,24 +323,18 @@ maraging_steel_scaffolding_panel.addItemInput(<ore:ingotMaragingSteel>, 1);
 maraging_steel_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
 maraging_steel_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelMaragingSteel>.firstItem * 12);
 maraging_steel_scaffolding_panel.build();
-var zirconium_niobium_scaffolding_panel = newBuilder("zirconium_niobium_scaffolding_panel", "heavy_metal_press", 400);
-zirconium_niobium_scaffolding_panel.addEnergyPerTickInput(11520);
-zirconium_niobium_scaffolding_panel.addItemInput(<ore:ingotZirconiumNiobiumAlloy>, 1);
-zirconium_niobium_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-zirconium_niobium_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelZirconiumNiobiumAlloy>.firstItem * 12);
-zirconium_niobium_scaffolding_panel.build();
+var beryllium_scaffolding_panel = newBuilder("beryllium_scaffolding_panel", "heavy_metal_press", 400);
+beryllium_scaffolding_panel.addEnergyPerTickInput(11520);
+beryllium_scaffolding_panel.addItemInput(<ore:ingotBeryllium>, 1);
+beryllium_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+beryllium_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelBeryllium>.firstItem * 12);
+beryllium_scaffolding_panel.build();
 var titanium_aluminide_scaffolding_panel = newBuilder("titanium_aluminide_scaffolding_panel", "heavy_metal_press", 400);
 titanium_aluminide_scaffolding_panel.addEnergyPerTickInput(11520);
 titanium_aluminide_scaffolding_panel.addItemInput(<ore:ingotTitaniumAluminide>, 1);
 titanium_aluminide_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
 titanium_aluminide_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelAluminiumMagnesiumTitanide>.firstItem * 12);
 titanium_aluminide_scaffolding_panel.build();
-var tungstensteel_scaffolding_panel = newBuilder("tungstensteel_scaffolding_panel", "heavy_metal_press", 400);
-tungstensteel_scaffolding_panel.addEnergyPerTickInput(11520);
-tungstensteel_scaffolding_panel.addItemInput(<ore:ingotTungstensteel>, 1);
-tungstensteel_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-tungstensteel_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelTungstensteel>.firstItem * 12);
-tungstensteel_scaffolding_panel.build();
 var titanium_iridium_scaffolding_panel = newBuilder("titanium_iridium_scaffolding_panel", "heavy_metal_press", 400);
 titanium_iridium_scaffolding_panel.addEnergyPerTickInput(11520);
 titanium_iridium_scaffolding_panel.addItemInput(<ore:ingotTitaniumIridium>, 1);
@@ -350,7 +344,7 @@ titanium_iridium_scaffolding_panel.build();
 //Engine Bells & Crucibles
 var rocket_engine_bell = newBuilder("rocket_engine_bell", "heavy_metal_press", 1600);
 rocket_engine_bell.addEnergyPerTickInput(11520);
-rocket_engine_bell.addItemInput(<ore:ingotTungsten>, 4);
+rocket_engine_bell.addItemInput(<ore:ingotMolybdenum>, 4);
 rocket_engine_bell.addItemInput(<ore:heavyMetalPressDieBell>).setChance(0);
 rocket_engine_bell.addItemOutput(<ore:engineBellItem>.firstItem);
 rocket_engine_bell.build();
@@ -375,24 +369,24 @@ iridium_crucible.build();
 
 //Base heating time is 100, time to extrude 1m is 100
 //Small Pipes
-var small_zirconium_niobium_pipe = newBuilder("small_zirconium_niobium_pipe", "extrusion_press", 500);
-small_zirconium_niobium_pipe.addEnergyPerTickInput(720);
-small_zirconium_niobium_pipe.addItemInput(<ore:ingotZirconiumNiobiumAlloy>, 1);
-small_zirconium_niobium_pipe.addItemInput(<ore:metalPressMoldSmallPipe>).setChance(0);
-small_zirconium_niobium_pipe.addItemOutput(<ore:smallPipeZirconiumNiobiumAlloy>.firstItem * 4);
-small_zirconium_niobium_pipe.build();
+var small_beryllium_pipe = newBuilder("small_beryllium_pipe", "extrusion_press", 500);
+small_beryllium_pipe.addEnergyPerTickInput(720);
+small_beryllium_pipe.addItemInput(<ore:ingotBeryllium>, 1);
+small_beryllium_pipe.addItemInput(<ore:metalPressMoldSmallPipe>).setChance(0);
+small_beryllium_pipe.addItemOutput(<ore:smallPipeBeryllium>.firstItem * 4);
+small_beryllium_pipe.build();
 var small_titanium_pipe = newBuilder("small_titanium_pipe", "extrusion_press", 500);
 small_titanium_pipe.addEnergyPerTickInput(2160);
 small_titanium_pipe.addItemInput(<ore:ingotTitanium>, 1);
 small_titanium_pipe.addItemInput(<ore:metalPressMoldSmallPipe>).setChance(0);
 small_titanium_pipe.addItemOutput(<ore:smallPipeTitanium>.firstItem * 4);
 small_titanium_pipe.build();
-var small_tungstensteel_pipe = newBuilder("small_tungstensteel_pipe", "extrusion_press", 500);
-small_tungstensteel_pipe.addEnergyPerTickInput(2160);
-small_tungstensteel_pipe.addItemInput(<ore:ingotTungstensteel>, 1);
-small_tungstensteel_pipe.addItemInput(<ore:metalPressMoldSmallPipe>).setChance(0);
-small_tungstensteel_pipe.addItemOutput(<ore:smallPipeTungstensteel>.firstItem * 4);
-small_tungstensteel_pipe.build();
+var small_maragingsteel_pipe = newBuilder("small_maragingsteel_pipe", "extrusion_press", 500);
+small_maragingsteel_pipe.addEnergyPerTickInput(2160);
+small_maragingsteel_pipe.addItemInput(<ore:ingotMaragingSteel>, 1);
+small_maragingsteel_pipe.addItemInput(<ore:metalPressMoldSmallPipe>).setChance(0);
+small_maragingsteel_pipe.addItemOutput(<ore:smallPipeMaragingSteel>.firstItem * 4);
+small_maragingsteel_pipe.build();
 //Pipe
 var pipe_aluminium = newBuilder("pipe_aluminium", "extrusion_press", 300);
 pipe_aluminium.addEnergyPerTickInput(720);
@@ -507,14 +501,14 @@ magma.addFluidInput(<liquid:lava> * 1000);
 magma.addItemOutput(<minecraft:magma>);
 magma.addItemOutput(<ore:dustCopper>).setChance(0.03);
 magma.addItemOutput(<ore:dustGold>).setChance(0.015);
-magma.addItemOutput(<ore:dustTungsten>).setChance(0.005);
+magma.addItemOutput(<ore:dustMolybdenum>).setChance(0.005);
 magma.build();
 var pahoehoemagma = newBuilder("pahoehoemagma", "casting_basin", 40);
 pahoehoemagma.addFluidInput(<liquid:pahoehoelava> * 1000);
 pahoehoemagma.addItemOutput(<minecraft:magma>);
 pahoehoemagma.addItemOutput(<ore:dustCopper>).setChance(0.06);
 pahoehoemagma.addItemOutput(<ore:dustGold>).setChance(0.03);
-pahoehoemagma.addItemOutput(<ore:dustTungsten>).setChance(0.01);
+pahoehoemagma.addItemOutput(<ore:dustMolybdenum>).setChance(0.01);
 pahoehoemagma.build();
 
 

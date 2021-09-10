@@ -97,7 +97,7 @@ BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored:
 BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "endacid"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:endacid> * 8000);
 BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "hydrogen"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:hydrogen> * 8000);
 BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "oxygen"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:oxygen> * 8000);
-BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "hydrogenchloride"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:hydrochloricacid> * 8000);
+BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "sulfuricacid"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:sulfuric_acid> * 8000);
 
 //Remove Steel Block Recipe, it makes no sense
 BlastFurnace.removeRecipe(<immersiveengineering:storage:8>);
@@ -137,7 +137,6 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 800, <liquid:chlorine>
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltensodium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltensalt> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenlithium> * 1600, <liquid:chlorine> * 800, null, null, <liquid:moltenlithiumchloride> * 1600, 384000, 100);
-ElectrolyticCrucibleBattery.addRecipe(<liquid:moltencalcium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltencalciumchloride> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 1536000, 400);
 
 //Melting recipes
@@ -145,7 +144,6 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 800, <liquid:fluorine>
 MeltingCrucible.addRecipe(<liquid:moltensalt> * 100, <ore:dustSalt>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltenmagnesiumchloride> * 100, <ore:dustMagnesiumChloride>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltenlithiumchloride> * 100, <ore:dustLithiumChloride>, 9600, 40);
-MeltingCrucible.addRecipe(<liquid:moltencalciumchloride> * 100, <ore:dustCalciumChloride>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:polyethene> * 125, <mekanism:polyethene>, 1200, 5);
 MeltingCrucible.addRecipe(<liquid:moltencryolite> * 1000, <ore:oreCryolite>, 153600, 320);
 //Ices
