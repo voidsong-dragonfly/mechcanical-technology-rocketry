@@ -74,7 +74,6 @@ BottlingMachine.addRecipe(<ore:circuitBoardUnpreparedPlastic>.firstItem, <ore:sh
 BottlingMachine.addRecipe(<ore:circuitBoardUnpreparedPlatinumBackedPlastic>.firstItem, <ore:sheetPlatinum>, <liquid:polyethene> * 250);
 
 //H2SO4 bottling machine recipes
-BottlingMachine.addRecipe(<libvulpes:battery>, <ore:smallBatteryHullItem>, <liquid:sulfuric_acid> * 125);
 BottlingMachine.addRecipe(<ore:circuitBoardPlastic>.firstItem, <ore:circuitBoardUnpreparedPlastic>, <liquid:sulfuric_acid> * 125);
 BottlingMachine.addRecipe(<ore:circuitBoardPlatinumBackedPlastic>.firstItem, <ore:circuitBoardUnpreparedPlatinumBackedPlastic>, <liquid:sulfuric_acid> * 125);
 recipes.addShapeless(<ore:preparedWaferIntegratedCircuit>.firstItem, [<ore:waferGoldDopedSilicon>, <ore:etchingPlateIntegratedCircuit>]);
@@ -85,7 +84,7 @@ BottlingMachine.addRecipe(<ore:preparedWaferIntegratedCircuit>.firstItem.withTag
 BottlingMachine.addRecipe(<ore:preparedWaferCentralProcessingUnit>.firstItem.withTag({etched: "true"}).withLore(["§eEtched§r"]), <ore:preparedWaferCentralProcessingUnit>, <liquid:hydrofluoricacid> * 125);
 
 //High-teir item botting machine recipes
-BottlingMachine.addRecipe(<immersiveengineering:toolupgrade>.withTag({helium: 4000}).withLore(["Helium: 4000"]), <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
+BottlingMachine.addRecipe(<ore:heliumTankItem>.firstItem, <immersiveengineering:toolupgrade>, <liquid:helium> * 4000);
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledSuperconductorCableItem>, <liquid:liquid_nitrogen> * 125);
 BottlingMachine.addRecipe(<mekanism:transmitter>.withTag({tier: 3}), <ore:unfilledHighCurrentSuperconductorCableItem>, <liquid:liquid_nitrogen> * 100);
 BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liquid:steam> * 16000);
@@ -93,6 +92,8 @@ BottlingMachine.addRecipe(<tetra:magmatic_cell>, <tetra:magmatic_cell:128>, <liq
 //Cooling bottling machine recipes
 BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:water> * 125);
 BottlingMachine.addRecipe(<stygian:endobsidian>, <stygian:endmagma>, <liquid:water> * 125);
+BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:distwater> * 125);
+BottlingMachine.addRecipe(<stygian:endobsidian>, <stygian:endmagma>, <liquid:distwater> * 125);
 
 //Bottling machine filling recipes
 BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "nitrogen"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:nitrogen> * 8000);
@@ -129,6 +130,10 @@ MarxGenerator.removeRecipe(<ore:oreLead>);
 MarxGenerator.removeRecipe(<ore:oreNickel>);
 MarxGenerator.removeRecipe(<ore:oreUranium>);
 MarxGenerator.removeRecipe(<ore:oreTin>);
+MarxGenerator.addRecipe(<ore:oreCinnabar>, 1.25, 6, <ore:dustCinnabar>.firstItem);
+MarxGenerator.addRecipe(<ore:oreNetherCinnabar>, 12.5, 6, <ore:dustCinnabar>.firstItem);
+MarxGenerator.addRecipe(<ore:oreFluorite>, 1.25, 6, <ore:dustFluorite>.firstItem);
+		
 
 //Non-ore-processing electrolysis recipes!
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> * 800, null, null, <liquid:water> * 1600, 384000, 100);
@@ -202,6 +207,7 @@ Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:
 Squeezer.addRecipe(<minecraft:gravel>, <liquid:blood> * 125, <minecraft:netherrack>, 25600);
 Squeezer.addRecipe(<contenttweaker:end_gravel>, <liquid:helium> * 125, <minecraft:end_stone>, 25600);
 Squeezer.addRecipe(<minecraft:obsidian>, <liquid:endacid> * 125, <stygian:endobsidian>, 25600);
+Squeezer.addRecipe(<minecraft:glowstone_dust> * 4, <liquid:endacid> * 250, <biomesoplenty:crystal>, 25600);
 
 //Add in some extra metal press recipes
 MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 4, <ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);

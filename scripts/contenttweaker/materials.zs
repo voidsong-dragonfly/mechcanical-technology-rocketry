@@ -266,7 +266,7 @@ static parts as string[][string] = {
     "HDPE Sheet" : ["injectionmold"],
     "HDPE Rod" : ["injectionmold"],
     //Register all the things!
-    "Item" : ["perfectcircuit", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel"],
+    "Item" : ["perfectcircuit", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "reactionwheel"],
 };
 
 

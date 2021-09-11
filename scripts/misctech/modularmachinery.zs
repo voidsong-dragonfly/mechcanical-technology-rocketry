@@ -288,15 +288,24 @@ asteroid_drill.build();
 var basalt = newBuilder("basalt", "assembly_cleanroom", 900);
 basalt.addEnergyPerTickInput(960);
 basalt.addItemInput(<ore:fiberBasalt>, 36);
+basalt.addItemInput(<ore:scaffoldingSteel>);
 basalt.addFluidInput(<liquid:polyethene> * 750);
 basalt.addItemOutput(<contenttweaker:basalt_fiber_flywheel_component>);
 basalt.build();
 var carbon_fiber = newBuilder("carbon_fiber", "assembly_cleanroom", 900);
 carbon_fiber.addEnergyPerTickInput(960);
 carbon_fiber.addItemInput(<ore:fiberCarbon>, 36);
+carbon_fiber.addItemInput(<ore:scaffoldingSteel>);
 carbon_fiber.addFluidInput(<liquid:polyethene> * 750);
 carbon_fiber.addItemOutput(<contenttweaker:carbon_fiber_flywheel_component>);
 carbon_fiber.build();
+var graphene_fiber = newBuilder("graphene_fiber", "assembly_cleanroom", 900);
+graphene_fiber.addEnergyPerTickInput(960);
+graphene_fiber.addItemInput(<ore:fiberGraphene>, 36);
+graphene_fiber.addItemInput(<contenttweaker:maraging_steel_frame>);
+graphene_fiber.addFluidInput(<liquid:polyethene> * 750);
+graphene_fiber.addItemOutput(<contenttweaker:graphene_fiber_flywheel_component>);
+graphene_fiber.build();
 
 
 
@@ -419,18 +428,6 @@ steel_barrel_shell.addItemInput(<ore:ingotSteel>, 4);
 steel_barrel_shell.addItemInput(<ore:metalPressMoldBarrel>).setChance(0);
 steel_barrel_shell.addItemOutput(<contenttweaker:steel_barrel_shell>);
 steel_barrel_shell.build();
-var fuel_tank_shell_titanium = newBuilder("fuel_tank_shell_titanium", "extrusion_press", 200);
-fuel_tank_shell_titanium.addEnergyPerTickInput(2160);
-fuel_tank_shell_titanium.addItemInput(<ore:ingotTitaniumAluminide>, 4);
-fuel_tank_shell_titanium.addItemInput(<ore:metalPressMoldBarrel>).setChance(0);
-fuel_tank_shell_titanium.addItemOutput(<ore:fuelTankShellItem>.firstItem);
-fuel_tank_shell_titanium.build();
-var fuel_tank_shell_maraging_steel = newBuilder("fuel_tank_shell_maraging_steel", "extrusion_press", 200);
-fuel_tank_shell_maraging_steel.addEnergyPerTickInput(2160);
-fuel_tank_shell_maraging_steel.addItemInput(<ore:ingotMaragingSteel>, 4);
-fuel_tank_shell_maraging_steel.addItemInput(<ore:metalPressMoldBarrel>).setChance(0);
-fuel_tank_shell_maraging_steel.addItemOutput(<ore:fuelTankShellItem>.firstItem);
-fuel_tank_shell_maraging_steel.build();
 //Gears
 var steel_gear = newBuilder("steel_gear", "extrusion_press", 200);
 steel_gear.addEnergyPerTickInput(720);

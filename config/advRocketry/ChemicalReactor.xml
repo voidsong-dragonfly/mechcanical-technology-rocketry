@@ -239,7 +239,7 @@
     <Recipe timeRequired="4800" power="960">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
-            <oreDict>dustGold</oreDict>
+            <oreDict>dustGold;4</oreDict>
             <fluidStack>nitrogen;4000</fluidStack>
         </input>
 		<output>
@@ -250,7 +250,7 @@
     <Recipe timeRequired="4800" power="1920">
 		<input>
 			<oreDict>dustSilicon;64</oreDict>
-            <oreDict>dustLithium</oreDict>
+            <oreDict>dustLithium;4</oreDict>
             <fluidStack>nitrogen;4000</fluidStack>
         </input>
 		<output>

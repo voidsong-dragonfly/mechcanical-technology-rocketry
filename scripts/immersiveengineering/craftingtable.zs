@@ -179,10 +179,6 @@ recipes.addShaped(<immersiveengineering:metal_device0:2>,
  [[<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>],
  [<ore:ingotAnnealedCopper>, <ore:blockLead>, <ore:ingotAnnealedCopper>],
  [<ore:plankTreatedWood>, <ore:blockRedstone>, <ore:plankTreatedWood>]]);
-recipes.addShaped(<libvulpes:battery:0>, 
- [[<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>],
- [<ore:dustRedstone>, <ore:smallBatteryHullItem>, <ore:dustRedstone>],
- [<ore:dustRedstone>, <ore:dustRedstone>, <ore:dustRedstone>]]);
 
 //Change engineer's hammer recipe
 //I spent waaay too long on custom leather stuff for you not just not use leather.

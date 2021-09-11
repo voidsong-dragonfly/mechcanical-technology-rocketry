@@ -38,7 +38,6 @@ contenttweaker.part.solder=Solder
 contenttweaker.part.fuelbundle=%s Fuel Rod Bundle
 contenttweaker.part.rodbundle=%s Rod Bundle
 #New parts - power items
-contenttweaker.part.smallbatteryhull=Small Battery Hull
 contenttweaker.part.inductiontablet=Induction Tablet
 contenttweaker.part.unfilledsuperconductorcable=Unfilled Superconductor Cable
 contenttweaker.part.unfilledhighcurrentsuperconductorcable=Unfilled High Current Superconductor Cable
@@ -48,9 +47,7 @@ contenttweaker.part.advancedenginebell=Advanced Rocket Engine Bell
 contenttweaker.part.catalyticturbopump=Catalytic Turbopump
 contenttweaker.part.turbopump=Turbopump
 contenttweaker.part.pressurizedheliumtank=Pressurized Helium Tank
-contenttweaker.part.fueltankshell=Fuel Tank Shell
 contenttweaker.part.reactionwheel=Reaction Wheel
-contenttweaker.part.solarpanel=Photovoltaic Cell Panel
 #New parts - molds, rods, and dies
 contenttweaker.part.metalpressmold=Metal Press Mold: %s
 contenttweaker.part.heavymetalpressdie=Heavy Metal Press Die: %s
@@ -59,7 +56,6 @@ contenttweaker.part.injectionmold=%s Injection Mold
 contenttweaker.part.cryoliteore=Cryolite
 contenttweaker.part.cinnabarore=Cinnabar Ore
 contenttweaker.part.platinumore=Platinum Ore
-contenttweaker.part.niobiumore=Niobium Ore
 contenttweaker.part.nethercinnabarore=Nether Cinnabar Ore
 contenttweaker.part.netherfluoriteore=Nether Fluorite Ore
 contenttweaker.part.nethergoldore=Nether Gold Ore
