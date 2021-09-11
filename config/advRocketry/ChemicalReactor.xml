@@ -359,16 +359,6 @@
             <fluidStack>mercury;1000</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="300" power="480">
-		<input>
-            <oreDict>dustNiobiumPentoxide;12</oreDict>
-            <oreDict>dustAluminum;40</oreDict>
-        </input>
-		<output>
-            <oreDict>dustNiobium;12</oreDict>
-            <oreDict>dustAlumina;40</oreDict>
-		</output>
-	</Recipe>
     <Recipe timeRequired="2400" power="960">
 		<input>
             <oreDict>dustRutile;8</oreDict>

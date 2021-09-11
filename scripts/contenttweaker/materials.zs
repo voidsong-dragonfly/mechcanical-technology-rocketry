@@ -86,7 +86,7 @@ static materials as Material[string] = {
     "Maraging Steel" : MaterialSystem.getMaterialBuilder().setName("Maraging Steel").setColor(Color.fromHex("83919E")).build(),
     "Titanium" : MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("CCC8FA")).build(),
     "Aluminium Magnesium Titanide" : MaterialSystem.getMaterialBuilder().setName("Aluminium Magnesium Titanide").setColor(Color.fromHex("aec2de")).build(),
-    "Niobium Titanium Alloy" : MaterialSystem.getMaterialBuilder().setName("Niobium Titanium Alloy").setColor(Color.fromHex("DDDAFA")).build(),
+    "Titanium Nitride" : MaterialSystem.getMaterialBuilder().setName("Titanium Nitride").setColor(Color.fromHex("DDDAFA")).build(),
     "Beryllium" : MaterialSystem.getMaterialBuilder().setName("Beryllium").setColor(Color.fromHex("999A8D")).build(),
     "Silver" : MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("d0dce4")).build(),
     "Aluminium" : MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(Color.fromHex("b3babd")).build(),
@@ -103,7 +103,6 @@ static materials as Material[string] = {
     //Metals, dust
     "Magnesium" : MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("928a89")).build(),
     "Cobalt" : MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("25436A")).build(),
-    "Niobium" : MaterialSystem.getMaterialBuilder().setName("Niobium").setColor(Color.fromHex("bfbecc")).build(),
     "Rich Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Rich Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     //Nonmetal dusts
     "Stone" : MaterialSystem.getMaterialBuilder().setName("Stone").setColor(Color.fromHex("ffffff")).build(),
@@ -121,7 +120,6 @@ static materials as Material[string] = {
     "Aluminium Hydroxide" : MaterialSystem.getMaterialBuilder().setName("Aluminium Hydroxide").setColor(Color.fromHex("949aa0")).build(),
     "Alumina" : MaterialSystem.getMaterialBuilder().setName("Alumina").setColor(Color.fromHex("828282")).build(),
     "Rutile" : MaterialSystem.getMaterialBuilder().setName("Rutile").setColor(Color.fromHex("68504f")).build(),
-    "Niobium Pentoxide" : MaterialSystem.getMaterialBuilder().setName("Niobium Pentoxide").setColor(Color.fromHex("737678")).build(),
     //Nonmetal processed dusts
     "Charcoal Precursor" : MaterialSystem.getMaterialBuilder().setName("Charcoal Precursor").setColor(Color.fromHex("282115")).build(),
     //Fibers
@@ -134,7 +132,6 @@ static materials as Material[string] = {
     "Impure Tin" : MaterialSystem.getMaterialBuilder().setName("Impure Tin").setColor(Color.fromHex("928c87")).build(),
     "Nickel Matte" : MaterialSystem.getMaterialBuilder().setName("Nickel Matte").setColor(Color.fromHex("5b574f")).build(),
     "Lead Sinter" : MaterialSystem.getMaterialBuilder().setName("Lead Sinter").setColor(Color.fromHex("242023")).build(),
-    "Niobium Ferroalloy" : MaterialSystem.getMaterialBuilder().setName("Niobium Ferroalloy").setColor(Color.fromHex("756e77")).build(),
     //Metal Sludge
     "Copper Derived Anode" : MaterialSystem.getMaterialBuilder().setName("Copper Derived Anode").setColor(Color.fromHex("474643")).build(),
     "Nickel Derived Anode" : MaterialSystem.getMaterialBuilder().setName("Nickel Derived Anode").setColor(Color.fromHex("434347")).build(),
@@ -182,9 +179,9 @@ static parts as string[][string] = {
     //Metals
     "Steel" : ["scaffoldingpanel"],
     "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "mechanicalcomponent", "scaffoldingpanel" , "block", "smallpipe"],
-    "Titanium" : ["smallpipe"],
+    "Titanium" : ["smallpipe", "wire"],
     "Aluminium Magnesium Titanide" : ["scaffoldingpanel", "compressor"],
-    "Niobium Titanium Alloy" : ["ingot", "nugget", "dust", "wire"],
+    "Titanium Nitride" : ["wire"],
     "Beryllium" : ["ingot", "nugget", "dust", "scaffoldingpanel", "smallpipe"],
     "Silver" : ["wire"],
     "Aluminium" : ["scaffoldingpanel"],
@@ -201,7 +198,6 @@ static parts as string[][string] = {
     //Metals, dust
     "Magnesium" : ["dust"],
     "Cobalt" : ["dust"],
-    "Niobium" : ["dust"],
     "Rich Mixed Platinum Group Metal" : ["dust"],
     //Nonmetal dusts
     "Stone" : ["dustunshaded"],
@@ -219,7 +215,6 @@ static parts as string[][string] = {
     "Aluminium Hydroxide" : ["nonmetaldust"],
     "Alumina" : ["nonmetaldust"],
     "Rutile" : ["nonmetaldust"],
-    "Niobium Pentoxide" : ["nonmetaldust"],
     //Nonmetal processed dusts
     "Charcoal Precursor" : ["sludge"],
     //Fibers
@@ -232,7 +227,6 @@ static parts as string[][string] = {
     "Impure Tin" : ["slag"],
     "Nickel Matte" : ["slag"],
     "Lead Sinter" : ["slag"],
-    "Niobium Ferroalloy" : ["slag"],
     //Metal Sludge
     "Copper Derived Anode" : ["sludge"],
     "Nickel Derived Anode" : ["sludge"],

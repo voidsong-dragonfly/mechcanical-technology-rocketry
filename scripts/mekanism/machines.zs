@@ -14,6 +14,7 @@ injection.addRecipe(<inspirations:materials:6> * 3, <gas:sulfuricacid> * 250, <i
 injection.addRecipe(<ore:rodBlaze>, <gas:sulfuricacid> * 125, <minecraft:blaze_powder> * 6);
 injection.addRecipe(<ore:gemPrismarine>, <gas:sulfuricacid> * 125, <minecraft:prismarine_crystals> * 2);
 injection.addRecipe(<ore:bone>, <gas:nitrogen> * 125, <minecraft:dye:15> * 8);
+injection.addRecipe(<ore:wireTitanium>, <gas:nitrogen> * 100, <ore:wireTitaniumNitride>.firstItem);
 injection.addRecipe(<minecraft:end_stone>, <gas:endacid> * 500, <stygian:endmagma>);
 injection.addRecipe(<quark:soul_bead>, <gas:endacid> * 4000, <minecraft:ender_pearl>);
 injection.addRecipe(<inspirations:materials:6>, <gas:endacid> * 125, <charm:endermite_powder>);

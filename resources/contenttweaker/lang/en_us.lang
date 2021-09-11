@@ -300,7 +300,6 @@ tile.contenttweaker.crushed_uranium_ore.name=Crushed Uranium Ore
 tile.contenttweaker.crushed_tin_ore.name=Crushed Tin Ore
 tile.contenttweaker.crushed_platinum_ore.name=Crushed Platinum Ore
 tile.contenttweaker.crushed_iridium_ore.name=Crushed Iridium Ore
-tile.contenttweaker.crushed_niobium_ore.name=Crushed Niobium Ore
 tile.contenttweaker.crushed_ilmenite_ore.name=Crushed Ilmenite Ore
 
 #Ores
@@ -308,7 +307,6 @@ tile.contenttweaker.cryolite_ore.name=Cryolite Ore
 tile.contenttweaker.platinum_ore.name=Platinum Ore
 tile.contenttweaker.tungsten_ore.name=Tungsten Ore
 tile.contenttweaker.zirconium_ore.name=Zirconium Ore
-tile.contenttweaker.niobium_ore.name=Niobium Ore
 tile.contenttweaker.cinnabar_ore.name=Cinnabar Ore
 tile.contenttweaker.nether_gold_ore.name=Nether Gold Ore
 tile.contenttweaker.nether_cinnabar_ore.name=Nether Cinnabar Ore
@@ -327,7 +325,6 @@ tile.contenttweaker.metal_barrel_shell.name=Metal Barrel Shell
 tile.contenttweaker.steel_barrel_shell.name=Steel Barrel Shell
 #Bearings
 tile.contenttweaker.lubricated_bearing.name=Lubricated Bearing
-tile.contenttweaker.rare_earths_magnetic_coil.name=Rare Earths Magnetic Coil
 tile.contenttweaker.magnetic_bearing.name=Magnetic Bearing
 #Flywheel bits
 tile.contenttweaker.basalt_fiber_flywheel_component.name=Basalt Fiber Flywheel Component

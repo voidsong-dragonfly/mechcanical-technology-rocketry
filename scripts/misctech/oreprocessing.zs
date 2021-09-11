@@ -179,16 +179,3 @@ rutile_dust.build();
 //Gold and silver processing
 furnace.addRecipe(<minecraft:gold_ingot>, <ore:amalgamMercuryGold>.firstItem);
 furnace.addRecipe(<immersiveengineering:metal:3>, <ore:amalgamMercurySilver>.firstItem);
-
-
-//Niobium processing
-//Associated with zirconium - same vein for both
-var niobium_pentoxide = newBuilder("niobium_pentoxide", "oxygen_converter", 200);
-niobium_pentoxide.addMekanismHeatInput(0, 2100, (1.0/0));
-niobium_pentoxide.addItemInput(<ore:slagNiobiumFerroalloy>.firstItem * 16);
-niobium_pentoxide.addFluidInput(<liquid:oxygen> * 600);
-niobium_pentoxide.addFluidInput(<liquid:water> * 2400);
-niobium_pentoxide.addFluidOutput(<liquid:moltenslag> * 100);
-niobium_pentoxide.addFluidOutput(<liquid:moltencrudeiron> * 300);
-niobium_pentoxide.addItemOutput(<ore:dustNiobiumPentoxide>.firstItem * 12);
-niobium_pentoxide.build();

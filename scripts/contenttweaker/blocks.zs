@@ -36,7 +36,6 @@ create_block_sound("crushed_basalt", <blockmaterial:sand>, 0.5, 0.8, "shovel", <
 //Ores
 create_block("cryolite_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
 create_block("platinum_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
-create_block("niobium_ore", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 2);
 var cinnabar_ore = createBlock("cinnabar_ore", <blockmaterial:rock>);
 cinnabar_ore.setBlockHardness(3.0);
 cinnabar_ore.setBlockResistance(3.0);
@@ -165,7 +164,6 @@ create_block_sound("crushed_uranium_ore", <blockmaterial:sand>, 0.6, 0.8, "shove
 create_block_sound("crushed_tin_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_platinum_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_iridium_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
-create_block_sound("crushed_niobium_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 create_block_sound("crushed_ilmenite_ore", <blockmaterial:sand>, 0.6, 0.8, "shovel", <soundtype:ground>, 1);
 
 //Ore processing byproduct blocks
@@ -185,7 +183,6 @@ create_block_transparent("metal_barrel_shell", <blockmaterial:iron>, 3.0, 3.0, "
 create_block_transparent("steel_barrel_shell", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 //Bearings
 create_block("lubricated_bearing", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
-create_block("rare_earths_magnetic_coil", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
 create_block("magnetic_bearing", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", 2);
 //Flywheel bits
 create_block("basalt_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);

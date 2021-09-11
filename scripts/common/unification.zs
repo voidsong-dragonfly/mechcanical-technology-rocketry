@@ -222,13 +222,11 @@ recipes.removeByRecipeName("advancedrocketry:sticktitaniumiridium");
 //CT material ores
 Crusher.removeRecipesForInput(<ore:orePlatinum>.firstItem);
 Crusher.addRecipe(<contenttweaker:crushed_platinum_ore>, <ore:orePlatinum>, 4000);
-Crusher.addRecipe(<contenttweaker:crushed_niobium_ore>, <ore:oreNiobium>, 4000);
 
 //Registry of CT materials
 register([<ore:nuggetPlatinum>, <ore:ingotPlatinum>]);
 register([<ore:nuggetDepletedUraniumDioxide>, <ore:ingotDepletedUraniumDioxide>]);
 register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUraniumDioxide>]);
-register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
 register([<ore:nuggetBeryllium>, <ore:ingotBeryllium>, <ore:dustBeryllium>]);
 register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>]);
 register([<ore:nuggetMischmetal>, <ore:ingotMischmetal>]);

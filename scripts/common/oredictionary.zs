@@ -100,7 +100,7 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentMaragingSteel>);
 
 //Superconductor wire OD
-<ore:wireSuperconductingAny>.addAll(<ore:wireNiobiumTitaniumAlloy>);
+<ore:wireSuperconductingAny>.addAll(<ore:wireTitaniumNitride>);
 <ore:wireSuperconductingAny>.addAll(<ore:wireMischmetal>);
 
 //Platinum Group Metal Oredictionary
@@ -111,7 +111,6 @@ import mods.immersiveengineering.BottlingMachine;
 //Ore oredictionary
 <ore:oreCryolite>.add(<contenttweaker:cryolite_ore>);
 <ore:orePlatinum>.add(<contenttweaker:platinum_ore>);
-<ore:oreNiobium>.add(<contenttweaker:niobium_ore>);
 <ore:oreCinnabar>.add(<contenttweaker:cinnabar_ore>);
 <ore:oreGold>.add(<contenttweaker:nether_gold_ore>);
 <ore:oreNetherGold>.add(<contenttweaker:nether_gold_ore>);
@@ -135,11 +134,10 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:flux>.add(<contenttweaker:crushed_marble>);
 <ore:flux>.add(<contenttweaker:crushed_limestone>);
 
-//Rutile Ore to Ilmenite, Aluminum added to "oreBauxite", dilithium reused for niobium
+//Rutile Ore to Ilmenite, Aluminum added to "oreBauxite"
 <ore:oreBauxite>.add(<immersiveengineering:ore:1>);
 <ore:oreRutile>.remove(<libvulpes:ore0:8>);
 <ore:oreIlmenite>.addAll(<ore:oreTitanium>);
-<ore:dustDirtyNiobium>.add(<mekores:mekanismore:128>);
 
 //Advanced Rocketry crystal entries
 <ore:crystalLargeAmethyst>.add(<advancedrocketry:crystal:0>);
