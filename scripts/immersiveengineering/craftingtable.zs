@@ -90,9 +90,9 @@ recipes.addShaped(<contenttweaker:lubricated_bearing> * 2,
  [<ore:mechanicalComponentSteel>, <ore:stickSteel>, <ore:mechanicalComponentSteel>],
  [<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>]]);
 recipes.addShaped(<contenttweaker:magnetic_bearing> * 2,
- [[<ore:ingotMaragingSteel>, <contenttweaker:rare_earths_magnetic_coil>, <ore:ingotMaragingSteel>],
+ [[<ore:ingotMaragingSteel>, <contenttweaker:superconductive_coil> |  <contenttweaker:high_current_superconductive_coil>, <ore:ingotMaragingSteel>],
  [<ore:mechanicalComponentMaragingSteel>, <ore:stickMaragingSteel>, <ore:mechanicalComponentMaragingSteel>],
- [<ore:ingotMaragingSteel>, <contenttweaker:rare_earths_magnetic_coil>, <ore:ingotMaragingSteel>]]);
+ [<ore:ingotMaragingSteel>, <contenttweaker:superconductive_coil> |  <contenttweaker:high_current_superconductive_coil>, <ore:ingotMaragingSteel>]]);
 
 //Make powder barrels more appealing
 recipes.remove(<immersiveengineering:wooden_device0:4>);

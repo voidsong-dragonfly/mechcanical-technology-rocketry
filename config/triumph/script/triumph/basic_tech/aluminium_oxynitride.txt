@@ -4,4 +4,4 @@ setDescription("Craft aluminium oxynitride glass for a blastproof glass harder t
 addParent("triumph:basic_tech/arc_furnace")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<engineersdecor:panzerglass_block>)
-setPos(-25,-155)
+setPos(-25,-140)

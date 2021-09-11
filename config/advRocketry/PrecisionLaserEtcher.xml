@@ -128,14 +128,4 @@
 			<oreDict>grapheneProcessorCrystalEngraved</oreDict>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="2400" power ="7680">
-		<input>
-			<oreDict>dustIron;7</oreDict>
-			<oreDict>dustNeodymium</oreDict>
-            <itemStack>contenttweaker:steel_barrel_shell</itemStack>
-		</input>
-		<output>
-			<itemStack>contenttweaker:rare_earths_magnetic_coil</itemStack>
-		</output>
-	</Recipe>
 </Recipes>

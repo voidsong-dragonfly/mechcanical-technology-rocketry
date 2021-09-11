@@ -94,7 +94,7 @@ static materials as Material[string] = {
     "Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     "Depleted Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranium Dioxide").setColor(Color.fromHex("363636")).build(),
     "Lightly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium Dioxide").setColor(Color.fromHex("55614c")).build(),
-    "Yttrium Barium Cuprate" : MaterialSystem.getMaterialBuilder().setName("Yttrium Barium Cuprate").setColor(Color.fromHex("7e8084")).build(),
+    "Mischmetal" : MaterialSystem.getMaterialBuilder().setName("Mischmetal").setColor(Color.fromHex("7e8084")).build(),
     "Titanium Iridium Alloy" : MaterialSystem.getMaterialBuilder().setName("Titanium Iridium Alloy").setColor(Color.fromHex("d7dfe4")).build(),
     "Annealed Copper" : MaterialSystem.getMaterialBuilder().setName("Annealed Copper").setColor(Color.fromHex("d55e28")).build(),
     //Metals, ore dust(s) only
@@ -104,9 +104,6 @@ static materials as Material[string] = {
     "Magnesium" : MaterialSystem.getMaterialBuilder().setName("Magnesium").setColor(Color.fromHex("928a89")).build(),
     "Cobalt" : MaterialSystem.getMaterialBuilder().setName("Cobalt").setColor(Color.fromHex("25436A")).build(),
     "Niobium" : MaterialSystem.getMaterialBuilder().setName("Niobium").setColor(Color.fromHex("bfbecc")).build(),
-    "Neodymium" : MaterialSystem.getMaterialBuilder().setName("Neodymium").setColor(Color.fromHex("7e8084")).build(),
-    "Yttrium" : MaterialSystem.getMaterialBuilder().setName("Yttrium").setColor(Color.fromHex("848689")).build(),
-    "Barium" : MaterialSystem.getMaterialBuilder().setName("Barium").setColor(Color.fromHex("85878a")).build(),
     "Rich Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Rich Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     //Nonmetal dusts
     "Stone" : MaterialSystem.getMaterialBuilder().setName("Stone").setColor(Color.fromHex("ffffff")).build(),
@@ -195,7 +192,7 @@ static parts as string[][string] = {
     "Mixed Platinum Group Metal" : ["dust"],
     "Depleted Uranium Dioxide" : ["ingot", "plate", "nugget", "dust"],
     "Lightly Enriched Uranium Dioxide" : ["fuelpellet"],
-    "Yttrium Barium Cuprate" : ["ingot", "nugget", "dust", "wire"],
+    "Mischmetal" : ["ingot", "nugget", "dust", "wire"],
     "Titanium Iridium Alloy" : ["scaffoldingpanel"],
     "Annealed Copper" : ["wire"],
     //Metals, ore dust only
@@ -205,9 +202,6 @@ static parts as string[][string] = {
     "Magnesium" : ["dust"],
     "Cobalt" : ["dust"],
     "Niobium" : ["dust"],
-    "Neodymium" : ["dust"],
-    "Yttrium" : ["dust"],
-    "Barium" : ["dust"],
     "Rich Mixed Platinum Group Metal" : ["dust"],
     //Nonmetal dusts
     "Stone" : ["dustunshaded"],

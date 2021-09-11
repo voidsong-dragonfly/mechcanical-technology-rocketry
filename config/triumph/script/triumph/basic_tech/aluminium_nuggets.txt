@@ -4,4 +4,4 @@ setDescription("Recycle aluminium scaffolding from a Structural Engineer into nu
 addParent("triumph:basic_tech/arc_furnace")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:nuggetAluminum>)
-setPos(-25,-185)
+setPos(-25,-170)

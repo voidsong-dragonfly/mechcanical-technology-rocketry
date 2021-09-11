@@ -60,7 +60,7 @@ ArcFurnace.addRecipe(<immersiveengineering:metal:8>, <immersiveengineering:metal
 ArcFurnace.addRecipe(<ore:ingotBeryllium>.firstItem, <ore:dustBeryllium>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<advancedrocketry:productingot:0>, <ore:dustTitaniumAluminide>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<ore:ingotNiobiumTitaniumAlloy>.firstItem, <ore:dustNiobiumTitaniumAlloy>, null, 100, 512, null, "Smelting");
-ArcFurnace.addRecipe(<ore:ingotYttriumBariumCuprate>.firstItem, <ore:dustYttriumBariumCuprate>, null, 100, 512, null, "Smelting");
+ArcFurnace.addRecipe(<ore:ingotMischmetal>.firstItem, <ore:dustMischmetal>, null, 100, 512, null, "Smelting");
 ArcFurnace.addRecipe(<advancedrocketry:productingot:1>, <ore:dustTitaniumIridium>, null, 100, 512, null, "Smelting");
 
 //Smelting (plates)

@@ -174,7 +174,7 @@
 			<oreDict>grapheneProcessorCrystalEngraved</oreDict>
             <oreDict>gpsUnitItem;2</oreDict>
             <oreDict>smdResistor;2</oreDict>
-            <oreDict>wireYttriumBariumCuprate;2</oreDict>
+            <oreDict>wireMischmetal;2</oreDict>
             <oreDict>solderItem;8</oreDict>
             <oreDict>circuitBoardPlatinumBackedPlastic</oreDict>
             <fluidStack>liquid_nitrogen;500</fluidStack>

@@ -231,7 +231,7 @@ register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUr
 register([<ore:nuggetNiobiumTitaniumAlloy>, <ore:ingotNiobiumTitaniumAlloy>, <ore:dustNiobiumTitaniumAlloy>]);
 register([<ore:nuggetBeryllium>, <ore:ingotBeryllium>, <ore:dustBeryllium>]);
 register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>]);
-register([<ore:nuggetYttriumBariumCuprate>, <ore:ingotYttriumBariumCuprate>]);
+register([<ore:nuggetMischmetal>, <ore:ingotMischmetal>]);
 
 //CT sheets
 MetalPress.addRecipe(<ore:sheetPlatinum>.firstItem, <ore:platePlatinum>, <immersiveengineering:mold>, 3600);

@@ -101,7 +101,7 @@ import mods.immersiveengineering.BottlingMachine;
 
 //Superconductor wire OD
 <ore:wireSuperconductingAny>.addAll(<ore:wireNiobiumTitaniumAlloy>);
-<ore:wireSuperconductingAny>.addAll(<ore:wireYttriumBariumCuprate>);
+<ore:wireSuperconductingAny>.addAll(<ore:wireMischmetal>);
 
 //Platinum Group Metal Oredictionary
 <ore:dustMixedPlatinumGroupMetal>.addAll(<ore:dustRichMixedPlatinumGroupMetal>);
