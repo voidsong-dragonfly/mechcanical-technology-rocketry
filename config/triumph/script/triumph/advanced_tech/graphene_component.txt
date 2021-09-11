@@ -1,0 +1,7 @@
+setIcon(<contenttweaker:basalt_fiber_flywheel_component>)
+setTitle("Carbonaceous Perfection")
+setDescription("Form graphene fiber into the best flywheel components")
+addParent("triumph:advanced_tech/any_component")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:blockCarbonNanotube>)
+setPos(-135,-10)

@@ -1,4 +1,4 @@
-setIcon(<advancedrocketry:moonturf>)
+setIcon(<advancedrocketry:spaceboots>)
 setTitle("One Small Step")
 setDescription("Arrive on Luna, where the production of rare earths and helium-3 can begin")
 addParent("triumph:rocketry_tech/guidance_computer")

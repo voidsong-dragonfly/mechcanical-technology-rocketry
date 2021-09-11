@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:80>)
+setTitle("The Other Fluoride")
+setDescription("Acquire depleted uranyl fluoride from depleted uranium hexafluoride")
+addParent("triumph:nuclear/00uf6")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:dustDepletedUranylFluoride>)
+setPos(-100,155)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

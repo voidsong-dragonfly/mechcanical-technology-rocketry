@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:7>)
+setTitle("Stellar Radiation Shield")
+setDescription("Acquire depleted uranium dioxide from depleted uranyl fluoride")
+addParent("triumph:nuclear/00uo2f2")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:ingotDepletedUraniumDioxide>)
+setPos(-65,155)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

@@ -1,6 +1,6 @@
 setIcon("contenttweaker:shattered_end_stone")
 setTitle("The Final Ore")
-setDescription("Collect some shattered end stone, used for naquadah and other metals")
+setDescription("Collect some shattered end stone, used for uranium and other metals")
 
 addParent("triumph:vanilla/end/root")
 

@@ -184,7 +184,7 @@ Blueprint.addRecipe("Fission Reactor Components", <contenttweaker:fission_reacto
 recipes.remove(<immersiveengineering:stone_decoration:7>);
 Blueprint.addRecipe("Fission Reactor Components", <immersiveengineering:stone_decoration:7>, [<engineersdecor:rebar_concrete>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>, <ore:plateLead>]);
 Blueprint.addRecipe("Fission Reactor Components", <ore:fuelBundleFresh>.firstItem, [<ore:smallPipeBeryllium> * 9, <ore:fuelPelletLightlyEnrichedUraniumDioxide> * 64, <ore:fuelPelletLightlyEnrichedUraniumDioxide> * 8]);
-Blueprint.addRecipe("Fission Reactor Components", <ore:rodBundleControl>.firstItem, [<ore:smallPipeBeryllium> * 20, <ore:stickGraphiteDepletedUraniumComposite> * 20]);
+Blueprint.addRecipe("Fission Reactor Components", <ore:rodBundleControl>.firstItem, [<ore:smallPipeBeryllium> * 20, <ore:stickSilver> * 4, <ore:stickSilver> * 4, <ore:stickSilver> * 4, <ore:stickSilver> * 4, <ore:stickGraphiteDepletedUraniumComposite> * 4]);
 
 //Fusion+ multiblock components
 Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <contenttweaker:fusion_reactor_outer_casing>, [<contenttweaker:maraging_steel_frame>, <ore:plateMolybdenum> * 6, <mekanism:transmitter>.withTag({tier: 3}) * 2, <ore:circuitAdvanced>]);

@@ -4,6 +4,6 @@ setDescription("Exhaust the energy from a spent nuclear fuel rod to get depleted
 addParent("triumph:nuclear/spentrod")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:fuelBundleDepleted>)
-setPos(180,215)
+setPos(180,185)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

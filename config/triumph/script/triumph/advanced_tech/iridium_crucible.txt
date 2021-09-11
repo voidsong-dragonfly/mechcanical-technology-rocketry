@@ -4,4 +4,4 @@ setDescription("Form an iridium crucible with the heavy metal press, used for sp
 addParent("triumph:advanced_tech/bell")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:iquartzcrucible>)
-setPos(-205,-160)
+setPos(-205,-130)

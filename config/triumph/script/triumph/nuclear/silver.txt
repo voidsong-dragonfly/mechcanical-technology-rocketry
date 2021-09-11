@@ -1,9 +1,0 @@
-setIcon(<immersiveengineering:metal:3>)
-setTitle("Silvery Sheen")
-setDescription("Acquire a silver ingot")
-addParent("triumph:nuclear/root")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:ingotSilver>)
-setPos(-275,245)
-//Force starting chapter
-setRequiresParents()

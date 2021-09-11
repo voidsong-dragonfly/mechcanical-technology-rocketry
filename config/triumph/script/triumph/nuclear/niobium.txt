@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:59>)
-setTitle("A 40:1 Ratio is Large")
-setDescription("Acquire niobium dust")
-addParent("triumph:nuclear/root")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:dustNiobium>)
-setPos(-275,215)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

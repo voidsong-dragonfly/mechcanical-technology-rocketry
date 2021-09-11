@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:material_part:95>)
 setTitle("Nine Nines is an Overstatement")
-setDescription("Craft a silicon boule from gallium and silicon dusts")
+setDescription("Craft a silicon boule from gold and silicon dusts")
 addParent("triumph:circuit_tech/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:bouleGoldDopedSilicon>)

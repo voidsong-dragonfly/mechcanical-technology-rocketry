@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:67>)
-setTitle("Does Not Obstruct Neutrons")
-setDescription("Acquire zirconium dust")
-addParent("triumph:nuclear/root")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:dustZirconium>)
-setPos(-275,185)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

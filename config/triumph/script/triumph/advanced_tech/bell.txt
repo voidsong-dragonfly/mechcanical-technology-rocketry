@@ -4,4 +4,4 @@ setDescription("Craft a heavy metal press bell die, for rocket engine bells and 
 addParent("triumph:advanced_tech/heavy")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:heavyMetalPressDieBell>)
-setPos(-240,-160)
+setPos(-240,-130)

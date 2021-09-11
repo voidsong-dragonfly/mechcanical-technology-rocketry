@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:25>)
-setTitle("Control Rod Unsheathed")
-setDescription("Form silver indium alloy into a rod")
-addParent("triumph:nuclear/silver_indium")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:stickSilverIndiumAlloy>)
-setPos(-205,260)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

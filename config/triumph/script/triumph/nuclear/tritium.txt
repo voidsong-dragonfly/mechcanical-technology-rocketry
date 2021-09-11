@@ -5,6 +5,6 @@ addParent("triumph:nuclear/molten_lithium")
 addParent("triumph:nuclear/fuelrod")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"tritium",Amount:1000}>)
-setPos(180,305)
+setPos(180,245)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

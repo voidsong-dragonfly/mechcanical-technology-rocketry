@@ -4,6 +4,6 @@ setDescription("Acquire some lithium dust")
 addParent("triumph:nuclear/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:dustLithium>)
-setPos(-275,305)
+setPos(-275,245)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

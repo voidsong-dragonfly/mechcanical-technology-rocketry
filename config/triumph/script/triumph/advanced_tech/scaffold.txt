@@ -4,4 +4,4 @@ setDescription("Craft a heavy metal press scaffolding panel die, for cheaper sca
 addParent("triumph:advanced_tech/heavy")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:heavyMetalPressDieScaffoldingPanel>)
-setPos(-240,-130)
+setPos(-240,-100)

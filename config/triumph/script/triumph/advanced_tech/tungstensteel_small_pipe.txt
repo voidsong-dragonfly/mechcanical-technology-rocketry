@@ -1,7 +1,11 @@
-setIcon(<contenttweaker:material_part:46>)
+setIcon(<contenttweaker:material_part:45>)
 setTitle("Internal Heat Exchanger")
-setDescription("Extrude a tungstensteel small pipe, used for superconductors and fusion")
+setDescription("Extrude a maraging steel or titanium small pipe, used for superconductors")
 addParent("triumph:advanced_tech/small_pipe")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:smallPipeTungstensteel>)
+criteria.addItem(<ore:smallPipeMaragingSteel>)
+criteria.addItem(<ore:smallPipeTitanium>)
+
+setRequirements("any")
+
 setPos(-205,-40)
