@@ -41,11 +41,6 @@ GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:ethanol> * 240, 10);
 GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:ethylene> * 180, 10);
 GasTurbine.addFuel(<liquid:fluegas> * 16000, <liquid:hydrogen> * 850, 10);
 
-//Make Distilled Water much more worth it
-Distiller.removeRecipe(<liquid:water>);
-Distiller.addRecipe(<liquid:distwater> * 1000, <liquid:water> * 1000, <immersivetech:material>, 10000, 200, 0.1);
-Distiller.addRecipe(<liquid:water> * 1000, <liquid:saltwater> * 1000, <immersivetech:material>, 10000, 200, 0.1);
-
 //Boilers & solar tower make 10x the steam to compenstate
 //Boiler
 Boiler.addRecipe(<liquid:steam> * 9000, <liquid:water> * 250, 10);

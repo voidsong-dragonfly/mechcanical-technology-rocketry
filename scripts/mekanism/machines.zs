@@ -25,6 +25,5 @@ injection.addRecipe(<ore:gemPrismarine>, <gas:endacid> * 125, <minecraft:prismar
 
 //Brine and lithium changes and additions
 thermalevaporation.removeRecipe(<liquid:brine>);
-thermalevaporation.addRecipe(<liquid:saltwater> * 10, <liquid:richbrine>);
-thermalevaporation.addRecipe(<liquid:brine> * 10, <liquid:lithiumchloridesolution>);
-thermalevaporation.addRecipe(<liquid:richbrine> * 10, <liquid:magnesiumchloridesolution>);
+thermalevaporation.addRecipe(<liquid:brine> * 5, <liquid:magnesiumchloridesolution>);
+thermalevaporation.addRecipe(<liquid:magnesiumchloridesolution> * 4, <liquid:lithiumchloridesolution>);

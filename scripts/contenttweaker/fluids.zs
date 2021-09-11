@@ -89,8 +89,6 @@ create_gas("crackedmethane", "E6E6FF");
 create_solid_fluid("polyethene", "FFFFFF", 400, 800, 2250);
 
 //Salt Solutions
-create_fluid("saltwater", "2D42D8", 300, 1000, 1000);
-create_fluid("richbrine", "D6CC91", 300, 1000, 1000);
 create_fluid("magnesiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 

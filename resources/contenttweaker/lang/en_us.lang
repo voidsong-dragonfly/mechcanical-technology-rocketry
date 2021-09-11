@@ -111,10 +111,8 @@ fluid.crackedethene=Cracked Ethylene
 fluid.crackedmethane=Cracked Methane
 
 #Salt Solutions
-fluid.saltwater=Salt Water
 fluid.magnesiumchloridesolution=Magnesium Chloride Solution
 fluid.lithiumchloridesolution=Lithium Chloride Solution
-fluid.richbrine=Rich Brine
 
 #Molten metals from salts
 fluid.moltenmagnesium=Molten Magnesium
@@ -124,7 +122,6 @@ fluid.moltencalcium=Molten Calcium
 #Molten salts
 fluid.moltenmagnesiumchloride=Molten Magnesium Chloride
 fluid.moltenlithiumchloride=Molten Lithium Chloride
-fluid.moltencalciumchloride=Molten Calcium Chloride
 
 #Gasses with attached fluids
 fluid.helium=Helium

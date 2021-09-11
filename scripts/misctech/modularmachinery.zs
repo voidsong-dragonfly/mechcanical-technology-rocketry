@@ -510,21 +510,3 @@ pahoehoemagma.addItemOutput(<ore:dustCopper>).setChance(0.06);
 pahoehoemagma.addItemOutput(<ore:dustGold>).setChance(0.03);
 pahoehoemagma.addItemOutput(<ore:dustMolybdenum>).setChance(0.01);
 pahoehoemagma.build();
-
-
-
-/*
-    Miscellaneous
-*/
-
-//Offshore pump
-var water = newBuilder("water", "offshore_pump", 1);
-water.addEnergyPerTickInput(1920);
-water.addBiomeRequirement(["minecraft:river", "minecraft:frozen_river"]);
-water.addFluidOutput(<liquid:water> * 1000);
-water.build();
-var saltwater = newBuilder("saltwater", "offshore_pump", 1);
-saltwater.addEnergyPerTickInput(1920);
-saltwater.addBiomeRequirement(["minecraft:ocean", "minecraft:frozen_ocean", "minecraft:deep_ocean"]);
-saltwater.addFluidOutput(<liquid:saltwater> * 1000);
-saltwater.build();

@@ -40,7 +40,9 @@ Distiller.addRecipe(<liquid:sulfuric_acid> * 400, <liquid:dilutedsulfuricacid> *
 Distiller.addRecipe(<liquid:sulfuric_acid> * 400, <liquid:coppersulfatesolutionresidue> * 400, <ore:sludgeCopperDerivedAnode>.firstItem * 1, 200, 250, 1.0);
 Distiller.addRecipe(<liquid:sulfuric_acid> * 400, <liquid:nickelsulfatesolutionresidue> * 400, <ore:sludgeNickelDerivedAnode>.firstItem * 1, 200, 250, 1.0);
 
-//Distiller recipes for salt drying
+//Make distilled water salts more worth it
+Distiller.removeRecipe(<liquid:water>);
+Distiller.addRecipe(<liquid:distwater> * 1000, <liquid:water> * 1000, <immersivetech:material>, 10000, 200, 0.1);
 Distiller.addRecipe(<liquid:water> * 1000, <liquid:magnesiumchloridesolution> * 1000, <ore:dustMagnesiumChloride>.firstItem * 10, 200, 250, 1.0);
 Distiller.addRecipe(<liquid:water> * 1000, <liquid:lithiumchloridesolution> * 1000, <ore:dustLithiumChloride>.firstItem * 10, 200, 250, 1.0);
 
