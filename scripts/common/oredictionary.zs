@@ -95,9 +95,6 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:mechanicalComponentSteel>.add(<immersiveengineering:material:9>);
 <ore:mechanicalComponentAny>.add(<immersiveengineering:material:8>);
 <ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentSteel>);
-<ore:mechanicalComponentAny>.addAll(<ore:mechanicalComponentMaragingSteel>);
-<ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentSteel>);
-<ore:mechanicalComponentAnySteel>.addAll(<ore:mechanicalComponentMaragingSteel>);
 
 //Superconductor wire OD
 <ore:wireSuperconductingAny>.addAll(<ore:wireTitaniumNitride>);

@@ -131,7 +131,7 @@ MarxGenerator.removeRecipe(<ore:oreNickel>);
 MarxGenerator.removeRecipe(<ore:oreUranium>);
 MarxGenerator.removeRecipe(<ore:oreTin>);
 MarxGenerator.addRecipe(<ore:oreCinnabar>, 1.25, 6, <ore:dustCinnabar>.firstItem);
-MarxGenerator.addRecipe(<ore:oreNetherCinnabar>, 12.5, 6, <ore:dustCinnabar>.firstItem);
+MarxGenerator.addRecipe(<ore:oreNetherCinnabar>, 1.25, 6, <ore:dustCinnabar>.firstItem);
 MarxGenerator.addRecipe(<ore:oreFluorite>, 1.25, 6, <ore:dustFluorite>.firstItem);
 		
 

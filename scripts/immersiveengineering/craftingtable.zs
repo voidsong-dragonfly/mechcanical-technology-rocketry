@@ -226,7 +226,14 @@ recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -30000})
  [[<ore:ingotMaragingSteel>, <ore:dustDiamond>, null],
  [<ore:blockMaragingSteel>, <ore:blockMolybdenum>, <ore:dustDiamond>],
  [<ore:ingotMaragingSteel>, <ore:dustDiamond>, null]]);
- 
+
+//Redo handheld core sample drill recipe
+recipes.remove(<engineersprospecting:handheld_core_sampler>);
+recipes.addShaped(<engineersprospecting:handheld_core_sampler>,
+ [[<ore:fenceTreatedWood>, <immersiveengineering:metal_decoration0:4>, <ore:fenceTreatedWood>],
+ [<ore:ingotBronze>, <ore:fenceSteel>, <ore:ingotBronze>],
+ [null, <ore:fenceMolybdenum>, null]]);
+
 //Add Barrel recipes from barrel shells
 recipes.addShaped(<immersivetech:metal_barrel:1>,
  [[<contenttweaker:metal_barrel_shell>],

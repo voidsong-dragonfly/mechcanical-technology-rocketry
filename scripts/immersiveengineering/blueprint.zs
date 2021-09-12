@@ -196,7 +196,7 @@ Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <content
 Blueprint.addRecipe("Fusion Reactor & Particle Containment Components", <contenttweaker:particle_containment_casing>, [<contenttweaker:titanium_iridium_alloy_frame>, <ore:sheetTitaniumIridium> * 6, <ore:sheetTitaniumIridium> * 6, <ore:smallPipeMaragingSteel> * 4]);
 
 //Rocket engine components blueprint
-Blueprint.addRecipe("Rocket Engine Components", <ore:compressorAluminiumMagnesiumTitanide>.firstItem, [<ore:stickTitanium>, <ore:plateTitaniumAluminide> * 4, <ore:stickTitaniumAluminide> * 4, <ore:mechanicalComponentAnySteel>]);
+Blueprint.addRecipe("Rocket Engine Components", <ore:compressorAluminiumMagnesiumTitanide>.firstItem, [<ore:stickTitanium>, <ore:plateTitaniumAluminide> * 4, <ore:stickTitaniumAluminide> * 4, <ore:mechanicalComponentSteel>]);
 Blueprint.addRecipe("Rocket Engine Components", <ore:turbopumpItem>.firstItem, [<ore:plateSteel> * 4, <ore:compressorAluminiumMagnesiumTitanide>, <ore:circuitAdvanced>, <ore:smallPipeTitanium> * 4]);
 Blueprint.addRecipe("Rocket Engine Components", <ore:catalyticTurbopumpItem>.firstItem, [<ore:plateSteel> * 3, <ore:compressorAluminiumMagnesiumTitanide>, <ore:platePlatinum>, <ore:smallPipeTitanium> * 4, <ore:circuitAdvanced>, <ore:dustAlumina> * 2]);
 
