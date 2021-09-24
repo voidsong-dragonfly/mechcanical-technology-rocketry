@@ -108,6 +108,7 @@ recipes.remove(<advancedrocketry:satellitepowersource>);
 recipes.remove(<advancedrocketry:satellitepowersource:1>);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource>, [<ore:stickSteel>, <ore:plateAluminum>, <ore:waferLithiumDopedSilicon>, <ore:waferLithiumDopedSilicon>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:satellitepowersource:1>, [<advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
+Blueprint.addRecipe("Solar Panels", <advancedrocketry:solarwings>, [<advancedrocketry:satellitepowersource:1>, <advancedrocketry:satellitepowersource:1>, <ore:stickTitaniumAluminide>, <ore:stickTitaniumAluminide>, <advancedrocketry:satellitepowersource>, <advancedrocketry:satellitepowersource>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solararraypanel>, [<ore:scaffoldingPanelAluminium>, <ore:plateAluminum>, <ore:waferLithiumDopedSilicon>, <ore:waferLithiumDopedSilicon>, <ore:paneGlassColorless>, <ore:paneGlassColorless>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solarpanel>, [<ore:paneGlassColorless>, <ore:waferLithiumDopedSilicon>, <ore:plateAluminum>, <libvulpes:structuremachine>]);
 Blueprint.addRecipe("Solar Panels", <advancedrocketry:solargenerator>, [<ore:paneGlassColorless>, <ore:waferLithiumDopedSilicon>, <libvulpes:structuremachine>, <libvulpes:battery>]);
@@ -148,7 +149,7 @@ Blueprint.addRecipe("Computers", <retrocomputers:backplane>, [<ore:circuitBoardP
 Blueprint.addRecipe("Computers", <retrocomputers:ribbon_cable> * 2, [<ore:wireCopper>, <ore:wireCopper>, <ore:wireCopper>, <mekanism:polyethene:2>]);
 Blueprint.addRecipe("Computers", <retrocomputers:writable_disk>, [<mekanism:polyethene:2>, <mekanism:polyethene:2>, <ore:sheetSteel>]);
 Blueprint.addRecipe("Computers", <retrocomputers:computer>, [<mekanism:basicblock:8>, <ore:plateSteel>, <ore:circuitAdvanced>, <retrocomputers:ribbon_cable> * 4]);
-Blueprint.addRecipe("Computers", <retrocomputers:terminal>, [<mekanism:basicblock:8>, <advancedrocketry:misc>, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
+Blueprint.addRecipe("Computers", <retrocomputers:terminal>, [<mekanism:basicblock:8>, <ore:paneGlass>, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
 Blueprint.addRecipe("Computers", <retrocomputers:disk_drive>, [<mekanism:basicblock:8>, <ore:mechanicalComponentAny>, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
 Blueprint.addRecipe("Computers", <retrocomputers:memory>, [<mekanism:basicblock:8>, <ore:circuitPlateRandomAccessMemory> * 8, <ore:circuitBasic>, <retrocomputers:ribbon_cable>]);
 Blueprint.addRecipe("Computers", <retrocomputers:radio>, [<mekanism:basicblock:8>, <advancedrocketry:wirelesstransciever>, <ore:circuitElite>, <retrocomputers:ribbon_cable>]);

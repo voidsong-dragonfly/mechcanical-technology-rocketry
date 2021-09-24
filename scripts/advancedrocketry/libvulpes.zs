@@ -61,20 +61,16 @@ recipes.remove(<libvulpes:battery>);
 recipes.remove(<libvulpes:structuremachine>);
 recipes.remove(<libvulpes:advstructuremachine>);
 recipes.addShaped(<libvulpes:structuremachine>,
- [[<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>],
+ [[<mekanism:polyethene:2>, <ore:mechanicalComponentSteel>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:circuitAdvanced>, <mekanism:polyethene:2>]]);
-recipes.addShaped(<libvulpes:structuremachine>,
- [[<mekanism:polyethene:2>, null, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:scaffoldingAluminum>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:circuitElite>, <mekanism:polyethene:2>]]);
+ [<mekanism:polyethene:2>, <ore:mechanicalComponentSteel>, <mekanism:polyethene:2>]]);
 recipes.addShaped(<libvulpes:advstructuremachine>,
- [[<ore:sheetTitaniumAluminide>, null, <ore:sheetTitaniumAluminide>],
+ [[<ore:sheetTitaniumAluminide>, <ore:mechanicalComponentMaragingSteel>, <ore:sheetTitaniumAluminide>],
  [<ore:sheetTitaniumAluminide>, <ore:scaffoldingAluminum>, <ore:sheetTitaniumAluminide>],
- [<ore:sheetTitaniumAluminide>, <ore:circuitElite>, <ore:sheetTitaniumAluminide>]]);
+ [<ore:sheetTitaniumAluminide>, <ore:mechanicalComponentMaragingSteel>, <ore:sheetTitaniumAluminide>]]);
  
 //Make holoprojector not take (expensive) optical sensors
 recipes.remove(<libvulpes:holoprojector>);
 recipes.addShaped(<libvulpes:holoprojector>,
- [[<ore:plateIron>, <ore:paneGlass>, <ore:plateIron>, ],
+ [[<ore:plateIron>, <ore:paneGlass>, <ore:plateIron>],
  [<ore:plateIron>, <immersiveengineering:metal_device1:9>, <ore:plateIron>]]);

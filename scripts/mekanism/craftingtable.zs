@@ -128,7 +128,7 @@ recipes.addShaped(<mekanism:machineblock2:15>,
  [<ore:ingotSteel>, <portalgun:item_miniature_black_hole>, <ore:ingotSteel>]]);
 //Machine 3
 recipes.addShaped(<mekanism:machineblock3:3>,
- [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:paneGlass>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <mekanism:dictionary>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:4>,
@@ -136,7 +136,7 @@ recipes.addShaped(<mekanism:machineblock3:4>,
  [<ore:ingotAnnealedCopper>, <mekanism:basicblock:8>, <ore:ingotAnnealedCopper>],
  [<ore:ingotSteel>, <ore:coilCopper>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:5>,
- [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:paneGlass>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <ore:workbench>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock3:6>,
@@ -150,11 +150,11 @@ recipes.addShaped(<mekanism:gastank>,
  [<ore:ingotSteel>, <ore:circuitBasic>, <ore:ingotSteel>]]);
 //Basicblock
 recipes.addShaped(<mekanism:basicblock2:9>,
- [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:paneGlass>, <ore:ingotSteel>],
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <mekanism:configurationcard>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:basicblock:14>,
- [[<ore:ingotSteel>, <advancedrocketry:misc>, <ore:ingotSteel>],
+ [[<ore:ingotSteel>, <ore:paneGlass>, <ore:ingotSteel>],
  [<ore:circuitAdvanced>, <mekanism:basicblock:8>, <ore:circuitAdvanced>],
  [<ore:ingotSteel>, <ore:ingotAnnealedCopper>, <ore:ingotSteel>]]);
  

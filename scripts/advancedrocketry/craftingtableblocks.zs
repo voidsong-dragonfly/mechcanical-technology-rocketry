@@ -86,11 +86,11 @@ recipes.addShaped(<advancedrocketry:planetholoselector>,
 recipes.remove(<advancedrocketry:monitoringstation>);
 recipes.remove(<advancedrocketry:satellitecontrolcenter>);
 recipes.addShaped(<advancedrocketry:monitoringstation>,
- [[<ore:stickCopper>, <advancedrocketry:misc>, <ore:stickCopper>],
+ [[<ore:stickCopper>, <ore:paneGlass>, <ore:stickCopper>],
  [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
  [<ore:stickCopper>, <libvulpes:battery>, <ore:stickCopper>]]);
 recipes.addShaped(<advancedrocketry:satellitecontrolcenter>,
- [[<ore:stickCopper>, <advancedrocketry:misc>, <ore:stickCopper>],
+ [[<ore:stickCopper>, <ore:paneGlass>, <ore:stickCopper>],
  [<ore:stickCopper>, <libvulpes:structuremachine>, <ore:stickCopper>],
  [<advancedrocketry:dataunit>, <libvulpes:battery>, <advancedrocketry:ic:1>]]);
 
@@ -104,7 +104,7 @@ recipes.addShaped(<advancedrocketry:satellitebuilder>,
 //Warp controller needs ultimate circuits
 recipes.remove(<advancedrocketry:warpmonitor>);
 recipes.addShaped(<advancedrocketry:warpmonitor>,
- [[<ore:circuitUltimate>, <advancedrocketry:misc>, <ore:circuitUltimate>],
+ [[<ore:circuitUltimate>, <ore:paneGlass>, <ore:circuitUltimate>],
  [<advancedrocketry:dataunit>, <libvulpes:structuremachine>, <advancedrocketry:dataunit>],
  [<ore:circuitUltimate>, <advancedrocketry:dataunit>, <ore:circuitUltimate>]]);
  
@@ -120,6 +120,7 @@ recipes.addShaped(<advancedrocketry:loader:6>,
 recipes.remove(<advancedrocketry:oxygenscrubber>);
 recipes.remove(<advancedrocketry:oxygenvent>);
 recipes.remove(<advancedrocketry:oxygencharger>);
+recipes.remove(<advancedrocketry:energycharger>);
 recipes.addShaped(<advancedrocketry:oxygenscrubber>,
  [[<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>],
  [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
@@ -131,11 +132,14 @@ recipes.addShaped(<advancedrocketry:oxygenvent>,
 recipes.addShaped(<advancedrocketry:oxygencharger>,
  [[<mekanism:polyethene:2>, <immersiveengineering:metal_decoration1_slab:5>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:energycharger>,
+ [[<mekanism:polyethene:2>, <immersiveengineering:metal_decoration1_slab:5>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:coilElectrum>, <mekanism:polyethene:2>]]);
 
 //Fuel loader doesn't use _three_ machine structures
 recipes.remove(<advancedrocketry:fuelingstation>);
 recipes.addShaped(<advancedrocketry:fuelingstation>,
- [[<mekanism:polyethene:2>, <advancedrocketry:misc>, <mekanism:polyethene:2>],
+ [[<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
  [<libvulpes:battery>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
  [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);
  
@@ -144,14 +148,14 @@ recipes.remove(<advancedrocketry:gravitycontroller>);
 recipes.remove(<advancedrocketry:altitudecontroller>);
 recipes.remove(<advancedrocketry:orientationcontroller>);
 recipes.addShaped(<advancedrocketry:gravitycontroller>,
- [[<libvulpes:structuremachine>, <advancedrocketry:misc>],
+ [[<libvulpes:structuremachine>, <ore:paneGlass>],
  [<ore:circuitAdvanced>, <ore:reactionWheelItem>]]);
 recipes.addShaped(<advancedrocketry:altitudecontroller>,
- [[<libvulpes:structuremachine>, <advancedrocketry:misc>],
+ [[<libvulpes:structuremachine>, <ore:paneGlass>],
  [<ore:reactionWheelItem>, <ore:circuitAdvanced>]]);
 recipes.addShaped(<advancedrocketry:orientationcontroller>,
  [[<libvulpes:structuremachine>, <ore:circuitAdvanced>],
- [<advancedrocketry:misc>, <ore:reactionWheelItem>]]);
+ [<ore:paneGlass>, <ore:reactionWheelItem>]]);
 
 //Force field slight recipe tweak
 recipes.remove(<advancedrocketry:forcefieldprojector>);
@@ -165,11 +169,11 @@ recipes.addShaped(<advancedrocketry:forcefieldprojector>,
 recipes.remove(<advancedrocketry:vacuumlaser>);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
  [[<mekanism:polyethene:2>, <ore:itemLens>, <mekanism:polyethene:2>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
+ [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
  [<mekanism:polyethene:2>, <liquid:helium> * 1000, <mekanism:polyethene:2>]]);
 recipes.addShaped(<advancedrocketry:vacuumlaser>,
  [[<mekanism:polyethene:2>, <ore:itemLens>, <mekanism:polyethene:2>],
- [<ore:circuitBasic>, <libvulpes:structuremachine>, <ore:circuitBasic>],
+ [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
  [<mekanism:polyethene:2>, <liquid:carbondioxide> * 1000, <mekanism:polyethene:2>]]);
  
 //Make Warp Core recipe slightly more involved

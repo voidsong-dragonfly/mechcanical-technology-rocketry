@@ -35,11 +35,11 @@ recipes.addShaped(<advancedrocketry:planetidchip>,
 recipes.addShapeless(<ore:gpsUnitItem>.firstItem * 4, [<advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:ic:1>, <advancedrocketry:dataunit>.withTag({maxData: 1000, DataType: 1, Data: 1000}).transformReplace(<advancedrocketry:dataunit>)]);
  
 //Suit upgrade recipes
-recipes.addShapeless(<advancedrocketry:beaconfinder>, [<advancedrocketry:itemupgrade:4>, <advancedrocketry:ic:1>]);
-recipes.addShaped(<advancedrocketry:itemupgrade:4>,
- [[<ore:circuitElite>, <ore:itemBattery>, <ore:circuitElite>],
- [<ore:lensGlass>, <ore:stickSteel>, <ore:lensGlass>]]);
-recipes.addShapeless(<advancedrocketry:itemupgrade:0>, [<advancedrocketry:itemupgrade:1>, <ore:circuitElite>]);
+recipes.addShaped(<advancedrocketry:beaconfinder>,
+ [[<ore:circuitBasic>, <ore:itemBattery>, <ore:circuitBasic>],
+ [<ore:itemLens>, <ore:stickSteel>, <ore:itemLens>]]);
+recipes.addShapeless(<advancedrocketry:itemupgrade:4>, [<advancedrocketry:beaconfinder>, <ore:circuitElite>]);
+recipes.addShapeless(<advancedrocketry:itemupgrade:5>, [<advancedrocketry:beaconfinder>, <ore:circuitElite>, <ore:circuitElite>]);
 recipes.addShaped(<advancedrocketry:itemupgrade:1>, 
  [[<ore:circuitElite>, <ore:plateTitanium>],
  [<immersiveengineering:toolupgrade:7>, <ore:circuitElite>]]);
@@ -49,6 +49,9 @@ recipes.addShaped(<advancedrocketry:itemupgrade:2>,
 recipes.addShaped(<advancedrocketry:itemupgrade:3>,
  [[<ore:stickSteel>, <ore:circuitElite>, <ore:stickSteel>],
  [<ore:plateSteel>, <minecraft:leather_boots>, <ore:plateSteel>]]);
+recipes.addShaped(<advancedrocketry:spacesuitbattery>,
+ [[<ore:itemBattery>, <mekanism:polyethene:2>],
+ [<mekanism:polyethene:2>, <ore:stickSteel>]]);
 
 //Handheld tools
 //Ore Scanner recipe
@@ -75,10 +78,10 @@ recipes.addShaped(<advancedrocketry:jackhammer>,
  [<ore:ingotTitanium>, <ore:stickSteel>, null]]);
 //Atm analyser
 recipes.addShaped(<advancedrocketry:atmanalyser>, 
- [[<quark:grate>, <ore:lensGlass>, <ore:itemBattery>],
+ [[<quark:grate>, <ore:itemLens>, <ore:itemBattery>],
  [<ore:plateTin>, <ore:circuitElite>, <ore:plateTin>]]);
 recipes.addShaped(<advancedrocketry:atmanalyser>, 
- [[<quark:grate>, <ore:lensGlass>, <ore:itemBattery>],
+ [[<quark:grate>, <ore:itemLens>, <ore:itemBattery>],
  [<ore:plateAluminum>, <ore:circuitElite>, <ore:plateAluminum>]]);
 
 //Make Carbon Brick recipe that of actual activated carbon

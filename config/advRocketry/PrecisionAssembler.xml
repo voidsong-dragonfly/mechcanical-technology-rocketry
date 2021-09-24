@@ -244,4 +244,165 @@
 			<itemStack>logisticspipes:chip_advanced;4</itemStack>
 		</output>
 	</Recipe>
+    
+    <Recipe timeRequired="240" power="480">
+		<input>
+			<itemStack>mekanism:polyethene;8;2</itemStack>
+            <oreDict>circuitBasic;8</oreDict>
+            <oreDict>dustLithium;7</oreDict>
+            <oreDict>dustCobalt</oreDict>
+            <oreDict>dustHOPGraphite</oreDict>
+            <fluidStack>oxygen;2600</fluidStack>
+            <fluidStack>chlorine;600</fluidStack>
+        </input>
+		<output>
+			<oreDict>inductionTabletItem;8</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="240">
+		<input>
+            <oreDict>plateLead;3</oreDict>
+            <oreDict>mechanicalComponentSteel</oreDict>
+            <fluidStack>lubricant;250</fluidStack>
+        </input>
+		<output>
+			<oreDict>reactionWheelItem</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="240">
+		<input>
+            <oreDict>plateMaragingSteel;3</oreDict>
+            <oreDict>mechanicalComponentSteel</oreDict>
+            <fluidStack>lubricant;250</fluidStack>
+        </input>
+		<output>
+			<oreDict>reactionWheelItem</oreDict>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="1200" power="960">
+		<input>
+            <oreDict>sheetAluminum;8</oreDict>
+            <oreDict>scaffoldingAluminum;4</oreDict>
+            <oreDict>stickTitanium;4</oreDict>
+            <oreDict>reactionWheelItem;3</oreDict>
+            <itemStack>advancedrocketry:ic;1;1</itemStack>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satellite</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="240">
+		<input>
+            <oreDict>itemLens;3</oreDict>
+            <oreDict>stickTitanium;2</oreDict>
+            <oreDict>circuitAdvanced;1</oreDict>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satelliteprimaryfunction;1;0</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="240">
+		<input>
+            <oreDict>itemLens;3</oreDict>
+            <oreDict>stickTitanium;2</oreDict>
+            <oreDict>circuitElite;1</oreDict>
+            <itemStack>advancedrocketry:ic;1;1</itemStack>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satelliteprimaryfunction;1;1</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="240">
+		<input>
+            <oreDict>itemLens;3</oreDict>
+            <oreDict>stickTitanium;2</oreDict>
+            <oreDict>circuitElite;1</oreDict>
+            <oreDict>circuitBasic;1</oreDict>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satelliteprimaryfunction;1;2</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="240">
+		<input>
+            <oreDict>stickSilver;2</oreDict>
+            <oreDict>wireSilver;4</oreDict>
+            <oreDict>sheetAluminum;8</oreDict>
+            <oreDict>circuitElite;1</oreDict>
+            <oreDict>mechanicalComponentSteel;1</oreDict>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satelliteprimaryfunction;1;3</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="960">
+		<input>
+            <oreDict>itemLens;3</oreDict>
+            <oreDict>stickTitanium;2</oreDict>
+            <oreDict>circuitElite;2</oreDict>
+            <itemStack>advancedrocketry:dataunit</itemStack>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satelliteprimaryfunction;1;4</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="960">
+		<input>
+            <oreDict>stickTitanium;2</oreDict>
+            <oreDict>wireMolybdenum;8</oreDict>
+            <oreDict>sheetTitaniumIridium;4</oreDict>
+            <oreDict>circuitUltimate;4</oreDict>
+            <oreDict>mechanicalComponentSteel;2</oreDict>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:satelliteprimaryfunction;1;5</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="450" power="1920">
+		<input>
+            <oreDict>sheetTitaniumAluminide;64</oreDict>
+            <oreDict>sheetTitaniumAluminide;64</oreDict>
+            <oreDict>wireAluminum;32</oreDict>
+            <oreDict>stickTitaniumAluminide;24</oreDict>
+            <itemStack>advancedrocketry:satellitepowersource;4;1</itemStack>
+            <itemStack>advancedrocketry:loader;1;1</itemStack>
+            <itemStack>immersiveengineering:metal_decoration0;1;2</itemStack>
+            <itemStack>immersiveengineering:material;1;14</itemStack>
+        </input>
+		<output>
+            <itemStack>advancedrocketry:drill</itemStack>
+		</output>
+	</Recipe>
+
+    <Recipe timeRequired="900" power="960">
+		<input>
+			<oreDict>fiberBasalt;36</oreDict>
+            <oreDict>scaffoldingSteel</oreDict>
+            <fluidStack>polyethene;750</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:basalt_fiber_flywheel_component</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="960">
+		<input>
+			<oreDict>fiberCarbon;36</oreDict>
+            <oreDict>scaffoldingSteel</oreDict>
+            <fluidStack>polyethene;750</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:carbon_fiber_flywheel_component</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="900" power="960">
+		<input>
+			<oreDict>fiberGraphene;36</oreDict>
+            <itemStack>contenttweaker:maraging_steel_frame</itemStack>
+            <fluidStack>polyethene;750</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:graphene_fiber_flywheel_component</itemStack>
+		</output>
+	</Recipe>
+
 </Recipes>

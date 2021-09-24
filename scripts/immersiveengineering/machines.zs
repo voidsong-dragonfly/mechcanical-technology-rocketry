@@ -31,6 +31,8 @@ Refinery.addRecipe(<liquid:hydrotreatedgas> * 100, <liquid:naturalgas> * 100, <l
 Refinery.addRecipe(<liquid:crackednaphtha> * 25, <liquid:naphtha> * 20, <liquid:steam> * 200, 320);
 Refinery.addRecipe(<liquid:crackedethene> * 25, <liquid:ethylene> * 20, <liquid:steam> * 200, 320);
 Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:steam> * 200, 320);
+//Basic plastic recipe(s)
+Refinery.addRecipe(<liquid:polyethene> * 15, <liquid:ethylene> * 8, <liquid:air> * 1, 1920);
 
 //RP-1 Recipes
 Refinery.addRecipe(<liquid:hydrotreatedkerosene> * 200, <liquid:kerosene> * 200, <liquid:hydrogen> * 1, 80);
