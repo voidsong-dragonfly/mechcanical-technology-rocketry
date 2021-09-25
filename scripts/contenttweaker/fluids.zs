@@ -22,7 +22,6 @@ import scripts.contenttweaker.contenttweaker_functions.create_block_transparent;
 //Any needed gasses due to mekanism being a pain and not bucketing _any_ of their stuff
 create_gas("air", "C1E6FF");
 create_gas("oxynitrogenmix", "8F94B9");
-create_gas("carbondioxide", "FFFFFF");
 create_gas("fluorine", "CEBD89");
 create_gas("deuterium", "FF3232");
 create_gas("tritium", "64FF70");

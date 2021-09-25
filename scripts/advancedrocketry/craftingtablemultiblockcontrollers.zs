@@ -45,6 +45,13 @@ recipes.addShaped(<advancedrocketry:chemicalreactor>,
  [[<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
  [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>],
  [<ore:circuitBasic>, <advancedrocketry:ic:5>, <ore:circuitBasic>]]);
+ 
+//Chemical reactor
+recipes.remove(<advancedrocketry:liquefactionplant>);
+recipes.addShaped(<advancedrocketry:liquefactionplant>,
+ [[<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
+ [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:5>],
+ [<ore:circuitBasic>, null, <ore:circuitBasic>]]);
 
 //Solar array controller
 recipes.remove(<advancedrocketry:solararray>);
@@ -81,6 +88,13 @@ recipes.addShaped(<advancedrocketry:centrifuge>,
  [<advancedrocketry:ic:4>, <libvulpes:structuremachine>, <advancedrocketry:ic:3>],
  [<ore:circuitElite>, <advancedrocketry:ic:5>, <ore:circuitElite>]]);
  
+//Crystalliser
+recipes.remove(<advancedrocketry:crystallizer>);
+recipes.addShaped(<advancedrocketry:crystallizer>,
+ [[<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
+ [<advancedrocketry:ic:3>, <libvulpes:structuremachine>, <advancedrocketry:ic:4>],
+ [<ore:circuitElite>, <advancedrocketry:ic:5>, <ore:circuitElite>]]);
+ 
 //Microwave Reciever
 recipes.remove(<advancedrocketry:microwavereciever>);
 recipes.addShaped(<advancedrocketry:microwavereciever>,
@@ -108,13 +122,6 @@ recipes.addShaped(<advancedrocketry:spacelaser>,
  [[<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
  [<advancedrocketry:ic:4>, <libvulpes:advstructuremachine>, <advancedrocketry:ic:3>],
  [<ore:circuitUltimate>, <advancedrocketry:ic:1>, <ore:circuitUltimate>]]);
- 
-//Crystalliser
-recipes.remove(<advancedrocketry:crystallizer>);
-recipes.addShaped(<advancedrocketry:crystallizer>,
- [[<mekanism:polyethene:2>, <ore:paneGlass>, <mekanism:polyethene:2>],
- [<advancedrocketry:ic:3>, <libvulpes:advstructuremachine>, <advancedrocketry:ic:4>],
- [<ore:circuitElite>, <advancedrocketry:ic:5>, <ore:circuitElite>]]);
  
 //Space Elevator
 recipes.remove(<advancedrocketry:spaceelevatorcontroller>);

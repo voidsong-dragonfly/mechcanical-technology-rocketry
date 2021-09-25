@@ -51,7 +51,7 @@ recipes.addShaped(<advancedrocketry:itemupgrade:3>,
  [<ore:plateSteel>, <minecraft:leather_boots>, <ore:plateSteel>]]);
 recipes.addShaped(<advancedrocketry:spacesuitbattery>,
  [[<ore:itemBattery>, <mekanism:polyethene:2>],
- [<mekanism:polyethene:2>, <ore:stickSteel>]]);
+ [<mekanism:polyethene:2>, <mekanism:polyethene:3>]]);
 
 //Handheld tools
 //Ore Scanner recipe
@@ -83,10 +83,6 @@ recipes.addShaped(<advancedrocketry:atmanalyser>,
 recipes.addShaped(<advancedrocketry:atmanalyser>, 
  [[<quark:grate>, <ore:itemLens>, <ore:itemBattery>],
  [<ore:plateAluminum>, <ore:circuitElite>, <ore:plateAluminum>]]);
-
-//Make Carbon Brick recipe that of actual activated carbon
-recipes.remove(<advancedrocketry:misc:1>);
-CokeOven.addRecipe(<advancedrocketry:misc:1>, 0, <ore:charcoal>, 1200);
 
 //Make Saw Blade recipe require diamonds and steel
 recipes.remove(<advancedrocketry:sawbladeiron>);

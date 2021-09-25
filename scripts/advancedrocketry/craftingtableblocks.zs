@@ -117,18 +117,33 @@ recipes.addShaped(<advancedrocketry:loader:6>,
  [null, <ore:circuitBasic>, null]]);
 
 //Redo oxygen system parts to use fewer iron bars
-recipes.remove(<advancedrocketry:oxygenscrubber>);
+recipes.remove(<advancedrocketry:carbondioxidescrubber>);
 recipes.remove(<advancedrocketry:oxygenvent>);
+recipes.remove(<advancedrocketry:spentairvent>);
+recipes.remove(<advancedrocketry:airmixsupplier>);
+recipes.remove(<advancedrocketry:airpressureequalizer>);
 recipes.remove(<advancedrocketry:oxygencharger>);
 recipes.remove(<advancedrocketry:energycharger>);
-recipes.addShaped(<advancedrocketry:oxygenscrubber>,
+recipes.addShaped(<advancedrocketry:carbondioxidescrubber>,
  [[<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>],
  [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
- [<mekanism:polyethene:2>, <ore:ingotCarbon>, <mekanism:polyethene:2>]]);
+ [<mekanism:polyethene:2>, <ore:fanSteel>, <mekanism:polyethene:2>]]);
 recipes.addShaped(<advancedrocketry:oxygenvent>,
  [[<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>],
- [<libvulpes:battery>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<libvulpes:battery>, <libvulpes:structuremachine>, <libvulpes:battery>],
+ [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:spentairvent>,
+ [[<mekanism:polyethene:2>, <immersiveengineering:metal_device1:6>, <mekanism:polyethene:2>],
+ [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
  [<mekanism:polyethene:2>, <ore:fanSteel>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:airmixsupplier>,
+ [[<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>],
+ [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<mekanism:polyethene:2>, <ore:barsIron>, <mekanism:polyethene:2>]]);
+recipes.addShaped(<advancedrocketry:airpressureequalizer>,
+ [[<mekanism:polyethene:2>, <immersiveengineering:metal_device1:6>, <mekanism:polyethene:2>],
+ [<ore:circuitAdvanced>, <libvulpes:structuremachine>, <ore:circuitAdvanced>],
+ [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);
 recipes.addShaped(<advancedrocketry:oxygencharger>,
  [[<mekanism:polyethene:2>, <immersiveengineering:metal_decoration1_slab:5>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <immersiveengineering:metal_device0:5>, <mekanism:polyethene:2>]]);

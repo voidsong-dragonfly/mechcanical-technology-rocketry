@@ -1,0 +1,84 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="false">
+    <Recipe timeRequired="49" power="960">
+		<input>
+			<fluidStack>air;1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquid_air;1000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="50" power="960">
+		<input>
+			<fluidStack>nitrogen;1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquid_nitrogen;1000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="48" power="960">
+		<input>
+			<fluidStack>oxygen;1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquid_oxygen;1000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="43" power="960">
+		<input>
+			<fluidStack>methane;1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquid_methane;1000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="63" power="960">
+		<input>
+			<fluidStack>hydrogen;1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>liquid_hydrogen;1000</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="48" power="960">
+		<input>
+			<fluidStack>carbondioxiderichair;1000</fluidStack>
+        </input>
+		<output>
+			<fluidStack>oxygen;900</fluidStack>
+            <fluidStack>carbondioxide;100</fluidStack>
+		</output>
+	</Recipe>
+</Recipes>
