@@ -91,3 +91,4 @@ recipes.removeByRecipeName("pvj:red_sandstone");
 recipes.addShaped(<minecraft:gravel>, 
  [[<ore:rocks>, <ore:rocks>],
  [<ore:rocks>, <ore:rocks>]]);
+ recipes.addShapeless(<minecraft:glowstone_dust>, [<pvj:glowcap>]);
