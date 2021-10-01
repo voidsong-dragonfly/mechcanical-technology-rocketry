@@ -1868,7 +1868,9 @@
 			"xlfoodmod:vegetable_soup",
 			"skewers:skewer_caramel_apple",
 			"skewers:skewer_veggie_raw",
-			"skewers:skewer_veggie_cooked"
+			"skewers:skewer_veggie_cooked",
+			"backportedflora:kelp_soup",
+			"backportedflora:dried_kelp"
 		]
 	}
 }

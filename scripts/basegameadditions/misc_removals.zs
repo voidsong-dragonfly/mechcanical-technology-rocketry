@@ -18,6 +18,7 @@ removeAndHide(<redstoneplusplus:dummy_clock_hover>);
 removeAndHide(<wumpleutil:repairing_block>);
 
 //SereneTweaks
+removeAndHide(<sereneseasons:ss_icon>);
 removeAndHide(<serenetweaks:blockbranches>);
 
 //Flourishing Leaves
@@ -31,3 +32,4 @@ removeAndHide(<theoneprobe:probenote>);
 removeAndHide(<valkyrielib:guide>);
 removeAndHide(<simplecorn:corn>);
 removeAndHide(<transport:diamond_crossing>);
+removeAndHide(<backportedflora:mod_icon>);
