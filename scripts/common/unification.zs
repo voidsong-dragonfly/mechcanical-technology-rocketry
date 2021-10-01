@@ -265,17 +265,16 @@ Crusher.addRecipe(<ore:dustCinnabar>.firstItem * 4, <contenttweaker:cinnabar_ore
 Crusher.addRecipe(<ore:dustFluorite>.firstItem * 4, <contenttweaker:nether_fluorite_ore>, 4000);
 
 //Dyes
-removeAndHide(<futuremc:dye:*>);
 removeAndHide(<quark:root_dye:*>);
 recipes.addShapeless(<biomesoplenty:black_dye>, [<quark:root_flower:1>]);
-recipes.addShapeless(<biomesoplenty:black_dye>, [<futuremc:wither_rose>]);
+recipes.addShapeless(<biomesoplenty:black_dye>, [<backportedflora:wither_rose>]);
 recipes.addShapeless(<biomesoplenty:black_dye>, [<minecraft:dye:0>]);
 recipes.addShapeless(<biomesoplenty:white_dye>, [<quark:root_flower:2>]);
-recipes.addShapeless(<biomesoplenty:white_dye>, [<futuremc:lily_of_the_valley>]);
+recipes.addShapeless(<biomesoplenty:white_dye>, [<backportedflora:lily_of_the_valley>]);
 recipes.addShapeless(<biomesoplenty:white_dye>, [<minecraft:dye:15>]);
 recipes.addShapeless(<biomesoplenty:brown_dye>, [<minecraft:dye:3>]);
 recipes.addShapeless(<biomesoplenty:blue_dye>, [<quark:root_flower:0>]);
-recipes.addShapeless(<biomesoplenty:blue_dye>, [<futuremc:cornflower>]);
+recipes.addShapeless(<biomesoplenty:blue_dye>, [<backportedflora:cornflower>]);
 recipes.addShapeless(<biomesoplenty:blue_dye>, [<minecraft:dye:4>]);
 
 //Unused BoP Gems

@@ -22,33 +22,26 @@ import mods.immersiveengineering.BottlingMachine;
 //Dyes
 <ore:dyeWhite>.remove(<minecraft:dye:15>);
 <ore:dyeWhite>.remove(<quark:root_dye:2>);
-<ore:dyeWhite>.remove(<futuremc:dye:0>);
 <ore:dyeBlack>.remove(<minecraft:dye:0>);
 <ore:dyeBlack>.remove(<quark:root_dye:1>);
-<ore:dyeBlack>.remove(<futuremc:dye:3>);
 <ore:dyeBrown>.remove(<minecraft:dye:3>);
-<ore:dyeBrown>.remove(<futuremc:dye:2>);
 <ore:dyeBlue>.remove(<minecraft:dye:4>);
 <ore:dyeBlue>.remove(<quark:root_dye:2>);
-<ore:dyeBlue>.remove(<futuremc:dye:1>);
 <ore:dye>.remove(<minecraft:dye:15>);
 <ore:dye>.remove(<minecraft:dye:0>);
 <ore:dye>.remove(<minecraft:dye:3>);
 <ore:dye>.remove(<minecraft:dye:4>);
 <ore:dye>.remove(<quark:root_dye:*>);
-<ore:dye>.remove(<futuremc:dye:*>);
 
 //Rustic seeds
 <ore:seed>.add(<rustic:chili_pepper_seeds>);
 <ore:seed>.add(<rustic:apple_seeds>);
 <ore:seed>.add(<rustic:tomato_seeds>);
 <ore:seed>.add(<rustic:grape_stem>);
+<ore:plantCattail>.add(<pvj:cattail>);
 
 //Debarked logs
 <ore:logWood>.addAll(<ore:debarkedLogWood>);
-
-//Soul Sand
-<ore:soulsand>.add(<minecraft:soul_sand>);
 
 //Constantan -> Molybdenum
 <ore:plateMolybdenum>.addAll(<ore:plateConstantan>);
