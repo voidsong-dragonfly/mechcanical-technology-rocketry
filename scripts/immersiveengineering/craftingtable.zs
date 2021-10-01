@@ -100,12 +100,6 @@ recipes.addShaped(<immersiveengineering:wooden_device0:4>,
  [[<ore:gunpowder>, <ore:fiberHemp>, <ore:gunpowder>],
  [<ore:gunpowder>, <immersiveengineering:wooden_device0:1>, <ore:gunpowder>]]);
  
-//Fix & de-constantan AF's transformer
-recipes.addShaped(<alternatingflux:connector:1>,
- [[<immersiveengineering:connector:4>, null, <alternatingflux:connector:0>],
- [<ore:ingotAnnealedCopper>, <immersiveengineering:metal_decoration0:2>, <ore:ingotAnnealedCopper>],
- [<ore:ingotIron>, <ore:ingotIron>, <ore:ingotIron>]]);
- 
 //Give Engineer's Decor machines some more sensical recipes
 recipes.remove(<engineersdecor:panzerglass_block>);
 recipes.remove(<engineersdecor:small_block_breaker>);
@@ -132,14 +126,6 @@ recipes.addShaped(<engineersdecor:passive_fluid_accumulator>,
 recipes.addShaped(<engineersdecor:straight_pipe_valve> * 2, 
  [[<immersiveengineering:metal_device1:6>, <ore:mechanicalComponentAny>, <immersiveengineering:metal_device1:6>]]);
 recipes.replaceAllOccurences(<minecraft:obsidian>, <ore:blockSheetmetalSteel>, <engineersdecor:small_mineral_smelter>);
-
-//Allow conveyor belts to be made of HDPE or hemp cloth
-recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 4,
- [[<ore:fabricHemp>, <ore:fabricHemp>, <ore:fabricHemp>],
- [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
-recipes.addShaped(<immersiveengineering:conveyor>.withTag({conveyorType: "immersiveengineering:conveyor"}) * 8,
- [[<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
- [<ore:ingotIron>, <ore:dustRedstone>, <ore:ingotIron>]]);
 
 //Clay from stone dust
 recipes.addShaped(<minecraft:clay_ball> * 8,
