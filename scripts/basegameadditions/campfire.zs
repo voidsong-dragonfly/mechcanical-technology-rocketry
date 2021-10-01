@@ -18,6 +18,13 @@ Campfire.addRecipe(<abyssaldepths:spotfin_butterflyfish>, <abyssaldepths:cooked_
 Campfire.addRecipe(<abyssaldepths:raccoon_butterflyfish>, <abyssaldepths:cooked_butterflyfish>, 600);
 Campfire.addRecipe(<abyssaldepths:masked_butterflyfish>, <abyssaldepths:cooked_butterflyfish>, 600);
 
+//Cattails to baked potatoes
+Campfire.addRecipe(<pvj:cattail>, <minecraft:baked_potato>, 600);
+Campfire.addRecipe(<biomesoplenty:plant_1:4>, <minecraft:baked_potato>, 600);
+//Furnace version(s) of that
+furnace.addRecipe(<minecraft:baked_potato>, <pvj:cattail>);
+furnace.addRecipe(<minecraft:baked_potato>, <biomesoplenty:plant_1:4>);
+
 //Food campfire cooking, skewers
 /*
 Campfire.addRecipe(<skewers:skewer_veggie_cooked>, <skewers:skewer_veggie_raw>, 300);

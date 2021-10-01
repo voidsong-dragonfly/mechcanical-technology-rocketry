@@ -32,27 +32,28 @@ recipes.addShaped(<realistictorches:matchbox>,
  [[<ore:dustSulfur>, <ore:dustSulfur>, <ore:dustSulfur>],
  [<ore:paper>, <ore:paper>, <ore:paper>]]);
 //Lamps need ethanol, glowstone is later
+var anyLamp = <liquid:ethanol> * 1000 | <charm:smooth_glowstone> | <biomesoplenty:crystal:0> | <liquid:gasoline> * 1000 | <liquid:kerosene> * 1000;
 recipes.remove(<rustic:iron_lantern>);
 recipes.remove(<rustic:silver_lantern>);
 recipes.remove(<rustic:golden_lantern>);
 recipes.remove(<immersiveengineering:metal_decoration2:4>);
 recipes.addShaped(<rustic:iron_lantern>,
  [[<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>],
- [<ore:nuggetIron>, <liquid:ethanol> * 1000, <ore:nuggetIron>],
+ [<ore:nuggetIron>, anyLamp, <ore:nuggetIron>],
  [null, <ore:nuggetIron>, null]]);
 recipes.addShaped(<rustic:silver_lantern>,
  [[<ore:nuggetSilver>, <ore:plateSilver>, <ore:nuggetSilver>],
- [<ore:nuggetSilver>, <liquid:ethanol> * 1000, <ore:nuggetSilver>],
+ [<ore:nuggetSilver>, anyLamp, <ore:nuggetSilver>],
  [null, <ore:nuggetSilver>, null]]);
 recipes.addShaped(<rustic:golden_lantern>,
  [[<ore:nuggetGold>, <ore:plateGold>, <ore:nuggetGold>],
- [<ore:nuggetGold>, <liquid:ethanol> * 1000, <ore:nuggetGold>],
+ [<ore:nuggetGold>, anyLamp, <ore:nuggetGold>],
  [null, <ore:nuggetGold>, null]]);
-recipes.replaceAllOccurences(<minecraft:torch>, <liquid:ethanol> * 1000, <rustic:lantern_wood>);
+recipes.replaceAllOccurences(<minecraft:torch>, anyLamp, <rustic:lantern_wood>);
 recipes.addShaped(<immersiveengineering:metal_decoration2:4>,
  [[<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>],
- [<ore:paneGlass>, <liquid:ethanol> * 1000, <ore:paneGlass>],
+ [<ore:paneGlass>, anyLamp, <ore:paneGlass>],
  [<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>]]);
-recipes.replaceAllOccurences(<ore:glowstone>, <liquid:ethanol> * 1000, <quark:paper_lantern>);
+recipes.replaceAllOccurences(<ore:glowstone>, anyLamp, <quark:paper_lantern>);
 //Replace torch uses
 recipes.replaceAllOccurences(<minecraft:torch>, <realistictorches:torch_lit>);

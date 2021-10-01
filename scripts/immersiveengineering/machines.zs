@@ -96,6 +96,8 @@ BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:water> * 12
 BottlingMachine.addRecipe(<stygian:endobsidian>, <stygian:endmagma>, <liquid:water> * 125);
 BottlingMachine.addRecipe(<quark:basalt>, <minecraft:magma>, <liquid:distwater> * 125);
 BottlingMachine.addRecipe(<stygian:endobsidian>, <stygian:endmagma>, <liquid:distwater> * 125);
+BottlingMachine.addRecipe(<minecraft:obsidian>, <minecraft:magma>, <liquid:ice> * 250);
+BottlingMachine.addRecipe(<advancedrocketry:crystal>, <stygian:endmagma>, <liquid:ice> * 250);
 
 //Bottling machine filling recipes
 BottlingMachine.addRecipe(<mekanism:gastank>.withTag({tier: 0, mekData: {stored: {amount: 64000, gasName: "nitrogen"}}}), <mekanism:gastank>.withTag({tier: 0}), <liquid:nitrogen> * 8000);
@@ -113,7 +115,7 @@ furnace.addRecipe(<contenttweaker:calcined_crushed_marble>, <contenttweaker:crus
 
 //Blaze Powder to sulfur & soul sand to nitrate (gunpowder!) & netherrack to redstone
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
-BlastFurnace.addRecipe(<minecraft:sand> * 3, <ore:soulsand>.firstItem * 3, 600, <immersiveengineering:material:24> * 2);
+BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 BlastFurnace.addRecipe(<contenttweaker:fine_sand> * 3, <contenttweaker:fine_soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 BlastFurnace.addRecipe(<minecraft:netherbrick> * 12, <minecraft:netherrack> * 12, 2400, <minecraft:redstone>);
 
@@ -207,6 +209,8 @@ Squeezer.addRecipe(<futuremc:blue_ice>, <liquid:ice> * 3000, <biomesoplenty:hard
 Squeezer.removeFluidRecipe(<liquid:blood>);
 Squeezer.addRecipe(<minecraft:skull:1>, <liquid:endacid> * 250, <witherskelefix:fragment> * 16, 512000);
 Squeezer.addRecipe(<minecraft:gravel>, <liquid:blood> * 125, <minecraft:netherrack>, 25600);
+Squeezer.addRecipe(null, <liquid:blood> * 1000, <biomesoplenty:flesh>, 19200);
+Squeezer.addRecipe(null, <liquid:blood> * 250, <biomesoplenty:fleshchunk>, 6400);
 Squeezer.addRecipe(<contenttweaker:end_gravel>, <liquid:helium> * 125, <minecraft:end_stone>, 25600);
 Squeezer.addRecipe(<minecraft:obsidian>, <liquid:endacid> * 125, <stygian:endobsidian>, 25600);
 Squeezer.addRecipe(<minecraft:glowstone_dust> * 4, <liquid:endacid> * 250, <biomesoplenty:crystal>, 25600);
