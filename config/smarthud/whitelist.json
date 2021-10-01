@@ -1,0 +1,21 @@
+[
+    { "item": "minecraft:clock" },
+    { "item": "minecraft:compass" },
+    { "item": "sereneseasons:season_clock" },
+    { "item": "leatherworks:ender_pack" },
+    { "item": "leatherworks:pack_brown" },
+    { "item": "leatherworks:pack_red" },
+    { "item": "leatherworks:pack_orange" },
+    { "item": "leatherworks:pack_yellow" },
+    { "item": "leatherworks:pack_lime" },
+    { "item": "leatherworks:pack_black" },
+    { "item": "leatherworks:pack_gray" },
+    { "item": "leatherworks:pack_silver" },
+    { "item": "leatherworks:pack_pink" },
+    { "item": "leatherworks:pack_magenta" },
+    { "item": "leatherworks:pack_purple" },
+    { "item": "leatherworks:pack_blue" },
+    { "item": "leatherworks:pack_light_blue" },
+    { "item": "leatherworks:pack_cyan" },
+    { "item": "leatherworks:pack_green" }
+]
