@@ -1,0 +1,3083 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<galaxy>
+    <star blackHole="false" name="Sol" numGasGiants="0" numPlanets="0" size="1.0" temp="100" x="0" y="0">
+        <planet DIMID="3" name="Mercury" customIcon="moon">
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>38</orbitalDistance>
+            <rotationalPeriod>1344000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <orbitalTheta>212</orbitalTheta>
+            <biomeIds>biometweaker:metallic_lowlands;10,biometweaker:metallic_highlands;20</biomeIds>
+        </planet>
+        <planet DIMID="4" name="Venus" customIcon="venusian">
+            <skyColor>0.86,0.79,0.68</skyColor>
+            <fogColor>0.86,0.79,0.68</fogColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>90</gravitationalMultiplier>
+            <orbitalDistance>72</orbitalDistance>
+            <rotationalPeriod>5832000</rotationalPeriod>
+            <gasGiant>true</gasGiant>
+            <gas>carbondioxide</gas>
+            <gas>nitrogen</gas>
+            <gas>sulfurdioxide</gas>
+            <orbitalTheta>300</orbitalTheta>
+        </planet>
+        <planet DIMID="0" dimMapping="" name="Earth" customIcon="earthlike">
+            <planet DIMID="2" name="Luna" customIcon="moon">
+                <gravitationalMultiplier>16</gravitationalMultiplier>
+                <orbitalDistance>100</orbitalDistance>
+                <rotationalPeriod>192000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <orbitalTheta>194</orbitalTheta>
+                <biomeIds>biometweaker:solar_wind_swept_mare;10,biometweaker:solar_wind_swept_highlands;10,biometweaker:solar_wind_swept_boulder_fields;10</biomeIds>
+            </planet>
+            <orbitalTheta>94</orbitalTheta>
+        </planet>
+        <planet DIMID="5" name="Mars" customIcon="marslike">
+            <skyColor>0.67,0.58,0.52</skyColor>
+            <fogColor>0.67,0.58,0.52</fogColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>38</gravitationalMultiplier>
+            <orbitalDistance>150</orbitalDistance>
+            <rotationalPeriod>24700</rotationalPeriod>
+            <atmosphereDensity>1</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <orbitalTheta>72</orbitalTheta>
+            <biomeIds>biometweaker:oxidized_lowlands;20,biometweaker:oxidized_boulder_fields;10,biometweaker:oxidized_highlands;70,biometweaker:oxidized_mountains;20</biomeIds>
+        </planet>
+        <planet DIMID="6" name="Jupiter" customIcon="gasgiantred">
+            <skyColor>0.78,0.54,0.4</skyColor>
+            <fogColor>0.78,0.54,0.4</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>400</gravitationalMultiplier>
+            <orbitalDistance>525</orbitalDistance>
+            <rotationalPeriod>9925</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <gas>helium3</gas>
+            <gas>precipitategasmix</gas>
+            <orbitalTheta>271</orbitalTheta>
+            <planet DIMID="14" name="Io" customIcon="venusian">
+                <gravitationalMultiplier>18</gravitationalMultiplier>
+                <orbitalDistance>109</orbitalDistance>
+                <rotationalPeriod>109247</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>33</orbitalTheta>
+                <biomeIds>biometweaker:sulfur_dioxide_snow_fields;10,biometweaker:sulfur_snow_fields;10,biometweaker:damaged_sulfur_fields;10,biometweaker:volcanic_sulfuric_mountains;50,biometweaker:sulfuric_lava_barrens;30</biomeIds>
+            </planet>
+            <planet DIMID="15" name="Europa" customIcon="iceworld">
+                <gravitationalMultiplier>13</gravitationalMultiplier>
+                <orbitalDistance>175</orbitalDistance>
+                <rotationalPeriod>222243</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>257</orbitalTheta>
+                <biomeIds>biometweaker:ice_flats;70,biometweaker:exotic_salt_barrens;10,biometweaker:tholinated_ice_plains;20</biomeIds>
+            </planet>
+            <planet DIMID="16" name="Ganymede" customIcon="iceworld">
+                <gravitationalMultiplier>15</gravitationalMultiplier>
+                <orbitalDistance>279</orbitalDistance>
+                <rotationalPeriod>447381</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>169</orbitalTheta>
+                <biomeIds>biometweaker:ice_flats;70,biometweaker:exotic_salt_barrens;10,biometweaker:ice_regolith_highlands;20</biomeIds>
+            </planet>
+            <planet DIMID="17" name="Callisto" customIcon="iceworld">
+                <gravitationalMultiplier>13</gravitationalMultiplier>
+                <orbitalDistance>490</orbitalDistance>
+                <rotationalPeriod>1041275</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <orbitalTheta>73</orbitalTheta>
+                <biomeIds>biometweaker:ice_flats;70,biometweaker:ice_regolith_highlands;40</biomeIds>
+            </planet>
+        </planet>
+        <planet DIMID="7" name="Saturn" customIcon="gasgiantbrown">
+            <skyColor>0.67,0.58,0.48</skyColor>
+            <fogColor>0.67,0.58,0.48</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>350</gravitationalMultiplier>
+            <orbitalDistance>9600</orbitalDistance>
+            <rotationalPeriod>10500</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <orbitalTheta>6</orbitalTheta>
+            <planet DIMID="13" name="Titan" customIcon="venusian">
+                <skyColor>0.67,0.58,0.48</skyColor>
+                <fogColor>0.67,0.58,0.48</fogColor>
+                <hasColorOverride>true</hasColorOverride>
+                <gravitationalMultiplier>14</gravitationalMultiplier>
+                <orbitalDistance>317</orbitalDistance>
+                <rotationalPeriod>579237</rotationalPeriod>
+                <atmosphereDensity>160</atmosphereDensity>
+                <hasOxygen>false</hasOxygen>
+                <orbitalTheta>150</orbitalTheta>
+                <gasGiant>true</gasGiant>
+                <gas>methane</gas>
+                <gas>ethylene</gas>
+            </planet>
+        </planet>
+        <planet DIMID="8" name="Uranus" customIcon="gasgiantblue">
+            <skyColor>0.37,0.47,0.72</skyColor>
+            <fogColor>0.37,0.47,0.72</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>175</gravitationalMultiplier>
+            <orbitalDistance>1920</orbitalDistance>
+            <rotationalPeriod>17250</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <gas>helium3</gas>
+            <gas>precipitategasmix</gas>
+            <orbitalTheta>128</orbitalTheta>
+        </planet>
+        <planet DIMID="9" name="Neptune" customIcon="gasgiantblue">
+            <skyColor>0.37,0.47,0.72</skyColor>
+            <fogColor>0.37,0.47,0.72</fogColor>
+            <ringColor>0.69,0.60,0.41</ringColor>
+            <hasColorOverride>true</hasColorOverride>
+            <gravitationalMultiplier>160</gravitationalMultiplier>
+            <orbitalDistance>3000</orbitalDistance>
+            <rotationalPeriod>1600</rotationalPeriod>
+            <hasRings>true</hasRings>
+            <gasGiant>true</gasGiant>
+            <gas>hydrogen</gas>
+            <gas>helium</gas>
+            <gas>methane</gas>
+            <gas>ammonia</gas>
+            <gas>water</gas>
+            <gas>deuterium</gas>
+            <gas>precipitategasmix</gas>
+            <orbitalTheta>61</orbitalTheta>
+            <planet DIMID="12" name="Triton" customIcon="iceworld">
+                <gravitationalMultiplier>8</gravitationalMultiplier>
+                <orbitalDistance>92</orbitalDistance>
+                <rotationalPeriod>141000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <orbitalTheta>351</orbitalTheta>
+                <biomeIds>biometweaker:frigid_ice_flats;50,biometweaker:nitrogen_ice_flats;60,biometweaker:carbon_dioxide_ice_flats;10</biomeIds>
+            </planet>
+        </planet>
+        <planet DIMID="10" name="Pluto" customIcon="iceworld">
+            <gravitationalMultiplier>6</gravitationalMultiplier>
+            <orbitalDistance>3950</orbitalDistance>
+            <rotationalPeriod>153000</rotationalPeriod>
+            <atmosphereDensity>0</atmosphereDensity>
+            <generateCraters>true</generateCraters>
+            <orbitalTheta>249</orbitalTheta>
+            <biomeIds>biometweaker:nitrogen_ice_flats;60,biometweaker:carbon_dioxide_ice_flats;10,biometweaker:oxygen_ice_mountains;25,biometweaker:tholinated_hydrocarbon_ice_flats;15</biomeIds>
+            <planet DIMID="11" name="Charon" customIcon="iceworld">
+                <gravitationalMultiplier>3</gravitationalMultiplier>
+                <orbitalDistance>5</orbitalDistance>
+                <rotationalPeriod>153000</rotationalPeriod>
+                <atmosphereDensity>0</atmosphereDensity>
+                <generateCraters>true</generateCraters>
+                <orbitalTheta>228</orbitalTheta>
+                <biomeIds>biometweaker:frigid_ice_flats;100,biometweaker:nitrogen_ice_flats;40,biometweaker:carbon_dioxide_ice_flats;10,biometweaker:oxygen_ice_mountains;20,biometweaker:tholinated_hydrocarbon_ice_flats;5</biomeIds>
+            </planet>
+        </planet>
+<planet DIMID="18" name="Ceres" customIcon="moon">
+    <gravitationalMultiplier>3</gravitationalMultiplier>
+    <orbitalDistance>270</orbitalDistance>
+    <rotationalPeriod>9000</rotationalPeriod>
+    <atmosphereDensity>0</atmosphereDensity>
+    <orbitalTheta>0</orbitalTheta>
+    <biomeIds>biometweaker:ice_flats;40,biometweaker:exotic_salt_barrens;10,biometweaker:exotic_clay_pits;20,biometweaker:ice_regolith_highlands;70</biomeIds>
+    <fillerBlock>contenttweaker:icebound_regolith</fillerBlock>
+</planet>
+<planet name="Asteroid Belt" DIMID="19">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>1</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="20">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>2</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="21">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>3</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="22">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>4</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="23">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>5</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="24">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>6</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="25">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>7</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="26">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>8</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="27">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>9</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="28">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>10</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="29">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>11</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="30">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>12</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="31">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>13</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="32">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>14</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="33">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>15</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="34">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>16</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="35">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>17</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="36">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>18</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="37">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>19</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="38">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>20</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="39">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>21</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="40">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>22</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="41">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>23</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="42">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>24</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="43">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>25</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="44">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>26</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="45">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>27</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="46">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>28</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="47">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>29</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="48">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>30</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="49">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>31</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="50">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>32</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="51">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>33</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="52">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>34</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="53">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>35</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="54">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>36</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="55">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>37</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="56">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>38</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="57">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>39</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="58">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>40</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="59">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>41</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="60">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>42</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="61">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>43</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="62">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>44</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="63">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>45</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="64">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>46</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="65">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>47</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="66">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>48</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="67">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>49</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="68">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>50</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="69">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>51</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="70">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>52</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="71">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>53</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="72">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>54</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="73">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>55</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="74">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>56</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="75">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>57</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="76">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>58</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="77">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>59</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="78">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>60</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="79">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>61</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="80">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>62</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="81">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>63</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="82">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>64</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="83">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>65</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="84">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>66</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="85">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>67</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="86">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>68</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="87">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>69</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="88">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>70</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="89">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>71</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="90">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>72</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="91">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>73</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="92">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>74</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="93">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>75</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="94">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>76</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="95">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>77</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="96">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>78</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="97">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>79</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="98">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>80</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="99">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>81</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="100">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>82</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="101">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>83</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="102">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>84</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="103">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>85</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="104">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>86</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="105">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>87</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="106">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>88</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="107">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>89</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="108">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>90</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="109">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>91</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="110">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>92</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="111">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>93</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="112">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>94</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="113">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>95</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="114">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>96</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="115">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>97</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="116">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>98</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="117">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>99</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="118">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>100</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="119">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>101</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="120">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>102</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="121">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>103</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="122">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>104</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="123">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>105</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="124">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>106</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="125">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>107</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="126">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>108</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="127">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>109</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="128">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>110</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="129">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>111</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="130">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>112</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="131">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>113</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="132">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>114</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="133">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>115</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="134">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>116</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="135">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>117</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="136">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>118</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="137">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>119</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="138">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>120</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="139">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>121</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="140">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>122</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="141">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>123</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="142">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>124</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="143">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>125</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="144">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>126</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="145">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>127</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="146">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>128</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="147">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>129</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="148">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>130</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="149">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>131</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="150">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>132</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="151">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>133</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="152">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>134</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="153">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>135</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="154">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>136</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="155">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>137</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="156">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>138</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="157">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>139</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="158">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>140</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="159">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>141</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="160">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>142</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="161">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>143</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="162">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>144</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="163">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>145</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="164">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>146</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="165">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>147</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="166">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>148</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="167">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>149</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="168">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>150</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="169">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>151</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="170">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>152</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="171">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>153</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="172">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>154</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="173">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>155</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="174">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>156</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="175">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>157</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="176">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>158</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="177">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>159</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="178">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>160</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="179">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>161</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="180">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>162</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="181">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>163</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="182">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>164</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="183">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>165</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="184">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>166</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="185">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>167</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="186">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>168</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="187">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>169</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="188">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>170</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="189">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>171</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="190">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>172</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="191">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>173</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="192">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>174</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="193">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>175</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="194">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>176</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="195">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>177</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="196">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>178</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="197">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>179</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="198">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>180</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="199">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>181</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="200">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>182</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="201">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>183</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="202">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>184</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="203">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>185</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="204">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>186</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="205">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>187</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="206">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>188</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="207">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>189</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="208">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>190</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="209">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>191</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="210">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>192</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="211">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>193</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="212">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>194</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="213">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>195</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="214">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>196</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="215">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>197</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="216">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>198</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="217">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>199</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="218">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>200</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="219">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>201</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="220">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>202</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="221">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>203</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="222">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>204</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="223">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>205</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="224">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>206</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="225">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>207</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="226">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>208</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="227">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>209</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="228">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>210</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="229">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>211</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="230">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>212</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="231">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>213</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="232">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>214</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="233">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>215</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="234">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>216</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="235">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>217</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="236">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>218</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="237">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>219</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="238">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>220</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="239">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>221</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="240">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>222</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="241">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>223</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="242">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>224</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="243">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>225</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="244">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>226</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="245">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>227</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="246">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>228</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="247">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>229</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="248">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>230</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="249">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>231</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="250">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>232</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="251">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>233</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="252">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>234</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="253">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>235</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="254">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>236</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="255">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>237</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="256">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>238</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="257">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>239</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="258">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>240</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="259">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>241</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="260">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>242</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="261">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>243</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="262">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>244</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="263">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>245</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="264">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>246</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="265">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>247</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="266">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>248</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="267">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>249</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="268">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>250</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="269">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>251</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="270">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>252</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="271">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>253</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="272">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>254</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="273">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>255</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="274">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>256</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="275">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>257</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="276">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>258</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="277">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>259</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="278">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>260</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="279">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>261</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="280">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>262</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="281">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>263</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="282">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>264</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="283">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>265</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="284">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>266</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="285">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>267</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="286">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>268</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="287">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>269</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="288">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>270</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="289">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>271</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="290">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>272</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="291">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>273</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="292">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>274</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="293">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>275</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="294">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>276</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="295">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>277</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="296">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>278</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="297">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>279</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="298">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>280</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="299">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>281</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="300">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>282</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="301">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>283</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="302">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>284</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="303">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>285</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="304">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>286</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="305">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>287</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="306">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>288</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="307">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>289</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="308">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>290</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="309">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>291</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="310">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>292</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="311">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>293</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="312">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>294</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="313">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>295</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="314">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>296</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="315">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>297</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="316">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>298</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="317">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>299</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="318">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>300</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="319">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>301</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="320">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>302</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="321">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>303</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="322">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>304</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="323">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>305</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="324">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>306</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="325">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>307</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="326">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>308</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="327">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>309</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="328">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>310</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="329">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>311</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="330">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>312</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="331">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>313</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="332">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>314</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="333">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>315</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="334">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>316</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="335">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>317</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="336">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>318</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="337">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>319</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="338">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>320</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="339">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>321</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="340">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>322</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="341">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>323</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="342">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>324</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="343">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>325</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="344">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>326</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="345">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>327</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="346">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>328</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="347">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>329</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="348">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>330</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="349">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>331</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="350">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>332</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="351">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>333</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="352">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>334</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="353">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>335</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="354">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>336</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="355">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>337</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="356">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>338</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="357">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>339</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="358">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>340</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="359">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>341</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="360">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>342</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="361">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>343</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="362">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>344</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="363">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>345</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="364">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>346</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="365">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>347</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="366">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>348</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="367">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>349</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="368">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>350</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="369">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>351</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="370">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>352</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="371">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>353</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="372">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>354</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="373">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>355</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="374">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>356</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="375">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>357</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="376">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>358</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+<planet name="Asteroid Belt" DIMID="377">
+    <orbitalDistance>270</orbitalDistance>
+    <orbitalTheta>359</orbitalTheta>
+    <rotationalPeriod>5110909</rotationalPeriod>
+    <genType>2</genType>
+    <gravitationalMultiplier>0</gravitationalMultiplier>
+    <atmosphereDensity>0</atmosphereDensity>
+</planet>
+
+    </star>
+</galaxy>

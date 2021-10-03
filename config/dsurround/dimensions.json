@@ -1,0 +1,71 @@
+{
+        "dimensions":[
+                {
+                        "dimId": 2,
+                        "weather": false,
+                        "haze": false,
+                        "aurora": false
+                },
+                {
+                        "dimId": 3,
+                        "weather": false,
+                        "haze": false,
+                        "aurora": false
+                },
+                {
+                        "dimId": 5,
+                        "weather": false,
+                        "haze": false,
+                        "aurora": false
+                },
+                {
+                        "dimId": 10,
+                        "weather": false,
+                        "haze": false,
+                        "aurora": false
+                },
+                {
+                        "dimId": 11,
+                        "weather": false,
+                        "haze": false,
+                        "aurora": false
+                },
+                {
+                        "dimId": 12,
+                        "weather": false,
+                        "fog": false,
+                        "aurora": true
+                },
+                {
+                        "dimId": 14,
+                        "weather": false,
+                        "fog": false,
+                        "aurora": true
+                },
+                {
+                        "dimId": 15,
+                        "weather": false,
+                        "fog": false,
+                        "aurora": true
+                },
+                {
+                        "dimId": 16,
+                        "weather": false,
+                        "fog": false,
+                        "aurora": true
+                },
+                {
+                        "dimId": 17,
+                        "weather": false,
+                        "fog": false,
+                        "aurora": true
+                },
+                {
+                        "dimId": 18,
+                        "weather": false,
+                        "fog": false,
+                        "aurora": false
+                }
+        ]
+}
+
