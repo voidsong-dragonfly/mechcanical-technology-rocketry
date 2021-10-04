@@ -28,13 +28,55 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1024,
+    "rarity": 2253,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
     "min_y": -24,
     "use_relative_y": true,
     "max_y": 0,
+    "density": 192
+  },
+  "chalcopyrite": {
+    "type": "sphere",
+    "vertical_size": 8,
+    "horizontal_size": 32,
+    "ore": [
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 35
+      },
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 50,
+        "meta": 0
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockcopper", "weight": 35}, {"block": "simpleoresamples:sampleblockiron", "weight": 35}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", 
+              {"block": "minecraft:stone", "meta": 1},
+              {"block": "minecraft:stone", "meta": 3},
+              {"block": "minecraft:stone", "meta": 5},
+              "pvj:siltstone",
+              "rustic:slate",
+              "quark:marble",
+              "quark:slate",
+              "quark:jasper",
+              "quark:limestone",
+              "earthworks:block_chalk",
+              "earthworks:block_slate",
+              "earthworks:block_slate_green",
+              "earthworks:block_slate_purple"],
+    "rarity": 1877,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 12,
+    "max_y": 36,
     "density": 192
   },
   "pentlandite": {
@@ -71,54 +113,12 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1280,
+    "rarity": 2816,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
     "min_y": 4,
     "max_y": 28,
-    "density": 192
-  },
-  "chalcopyrite": {
-    "type": "sphere",
-    "vertical_size": 8,
-    "horizontal_size": 32,
-    "ore": [
-      {
-        "block": "minecraft:iron_ore",
-        "weight": 35
-      },
-      {
-        "block": "immersiveengineering:ore",
-        "weight": 35,
-        "meta": 0
-      }
-    ],
-    "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockcopper", "weight": 35}, {"block": "simpleoresamples:sampleblockiron", "weight": 35}],
-      "rarity": 16,
-      "max_depth": 128
-    },
-    "stone": ["minecraft:stone", 
-              {"block": "minecraft:stone", "meta": 1},
-              {"block": "minecraft:stone", "meta": 3},
-              {"block": "minecraft:stone", "meta": 5},
-              "pvj:siltstone",
-              "rustic:slate",
-              "quark:marble",
-              "quark:slate",
-              "quark:jasper",
-              "quark:limestone",
-              "earthworks:block_chalk",
-              "earthworks:block_slate",
-              "earthworks:block_slate_green",
-              "earthworks:block_slate_purple"],
-    "rarity": 1024,
-    "count": 1,
-    "dimensions": [0],
-    "dimensions_is_whitelist": true,
-    "min_y": 12,
-    "max_y": 36,
     "density": 192
   },
   "laterite": {
@@ -155,11 +155,11 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1280,
+    "rarity": 2816,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
-    "min_y": -16,
+    "min_y": -20,
     "use_relative_y": true,
     "max_y": 0,
     "density": 192
@@ -193,7 +193,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1024,
+    "rarity": 2253,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -201,23 +201,22 @@
     "max_y": 24,
     "density": 128
   },
-  "auricupride": {
+  "cinnabar": {
     "type": "sphere",
     "vertical_size": 7,
     "horizontal_size": 28,
     "ore": [
       {
-        "block": "immersiveengineering:ore",
-        "weight": 87.5,
-        "meta": 0
+        "block": "minecraft:redstone_ore",
+        "weight": 80
       },
       {
-        "block": "minecraft:gold_ore",
-        "weight": 12.5
+        "ore": "oreCinnabar",
+        "weight": 10
       }
     ],
     "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockcopper", "weight": 87.5}, {"block": "simpleoresamples:sampleblockgold", "weight": 12.5}],
+      "blocks": [{"block": "simpleoresamples:sampleblockredstone", "weight": 80}, {"block": "simpleoresamples:sampleblockcinnabar", "weight": 10}],
       "rarity": 16,
       "max_depth": 128
     },
@@ -235,12 +234,12 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1536,
+    "rarity": 2816,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
-    "min_y": 16,
-    "max_y": 40,
+    "min_y": 4,
+    "max_y": 24,
     "density": 128
   },
   "galena": {
@@ -278,53 +277,12 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1536,
+    "rarity": 3755,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
     "min_y": 20,
     "max_y": 40,
-    "density": 128
-  },
-  "cinnabar": {
-    "type": "sphere",
-    "vertical_size": 7,
-    "horizontal_size": 28,
-    "ore": [
-      {
-        "block": "minecraft:redstone_ore",
-        "weight": 80
-      },
-      {
-        "ore": "oreCinnabar",
-        "weight": 10
-      }
-    ],
-    "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblockredstone", "weight": 80}, {"block": "simpleoresamples:sampleblockcinnabar", "weight": 10}],
-      "rarity": 16,
-      "max_depth": 128
-    },
-    "stone": ["minecraft:stone", 
-              {"block": "minecraft:stone", "meta": 1},
-              {"block": "minecraft:stone", "meta": 3},
-              {"block": "minecraft:stone", "meta": 5},
-              "pvj:siltstone",
-              "rustic:slate",
-              "quark:marble",
-              "quark:slate",
-              "quark:jasper",
-              "quark:limestone",
-              "earthworks:block_chalk",
-              "earthworks:block_slate",
-              "earthworks:block_slate_green",
-              "earthworks:block_slate_purple"],
-    "rarity": 1280,
-    "count": 1,
-    "dimensions": [0],
-    "dimensions_is_whitelist": true,
-    "min_y": 4,
-    "max_y": 24,
     "density": 128
   },
   "cassiterite": {
@@ -357,12 +315,54 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 1536,
+    "rarity": 3755,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
     "min_y": 52,
     "max_y": 72,
+    "density": 128
+  },
+  "auricupride": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "immersiveengineering:ore",
+        "weight": 75,
+        "meta": 0
+      },
+      {
+        "block": "minecraft:gold_ore",
+        "weight": 25
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblockcopper", "weight": 87.5}, {"block": "simpleoresamples:sampleblockgold", "weight": 12.5}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", 
+              {"block": "minecraft:stone", "meta": 1},
+              {"block": "minecraft:stone", "meta": 3},
+              {"block": "minecraft:stone", "meta": 5},
+              "pvj:siltstone",
+              "rustic:slate",
+              "quark:marble",
+              "quark:slate",
+              "quark:jasper",
+              "quark:limestone",
+              "earthworks:block_chalk",
+              "earthworks:block_slate",
+              "earthworks:block_slate_green",
+              "earthworks:block_slate_purple"],
+    "rarity": 5632,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 16,
+    "max_y": 40,
     "density": 128
   },
   "uraninite": {
@@ -405,13 +405,54 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 2048,
+    "rarity": 5632,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
     "min_y": 4,
     "max_y": 24,
     "density": 256
+  },
+  "lapis": {
+    "type": "sphere",
+    "vertical_size": 7,
+    "horizontal_size": 28,
+    "ore": [
+      {
+        "block": "minecraft:lapis_ore",
+        "weight": 70
+      },
+      {
+        "block": "minecraft:iron_ore",
+        "weight": 25
+      }
+    ],
+    "indicator": {
+      "blocks": [{"block": "simpleoresamples:sampleblocklapis", "weight": 70}, {"block": "simpleoresamples:sampleblocklapis", "weight": 25}],
+      "rarity": 16,
+      "max_depth": 128
+    },
+    "stone": ["minecraft:stone", 
+              {"block": "minecraft:stone", "meta": 1},
+              {"block": "minecraft:stone", "meta": 3},
+              {"block": "minecraft:stone", "meta": 5},
+              "pvj:siltstone",
+              "rustic:slate",
+              "quark:marble",
+              "quark:slate",
+              "quark:jasper",
+              "quark:limestone",
+              "earthworks:block_chalk",
+              "earthworks:block_slate",
+              "earthworks:block_slate_green",
+              "earthworks:block_slate_purple"],
+    "rarity": 5632,
+    "count": 1,
+    "dimensions": [0],
+    "dimensions_is_whitelist": true,
+    "min_y": 12,
+    "max_y": 24,
+    "density": 128
   },
   "beryl": {
     "type": "sphere",
@@ -447,7 +488,7 @@
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
     "comment": "This differentiates from the patterns because it's biome restricted",
-    "rarity": 1024,
+    "rarity": 11264,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -497,53 +538,12 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 3072,
+    "rarity": 11264,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
     "min_y": 4,
     "max_y": 48,
-    "density": 128
-  },
-  "lapis": {
-    "type": "sphere",
-    "vertical_size": 7,
-    "horizontal_size": 28,
-    "ore": [
-      {
-        "block": "minecraft:lapis_ore",
-        "weight": 70
-      },
-      {
-        "block": "minecraft:iron_ore",
-        "weight": 25
-      }
-    ],
-    "indicator": {
-      "blocks": [{"block": "simpleoresamples:sampleblocklapis", "weight": 70}, {"block": "simpleoresamples:sampleblocklapis", "weight": 25}],
-      "rarity": 16,
-      "max_depth": 128
-    },
-    "stone": ["minecraft:stone", 
-              {"block": "minecraft:stone", "meta": 1},
-              {"block": "minecraft:stone", "meta": 3},
-              {"block": "minecraft:stone", "meta": 5},
-              "pvj:siltstone",
-              "rustic:slate",
-              "quark:marble",
-              "quark:slate",
-              "quark:jasper",
-              "quark:limestone",
-              "earthworks:block_chalk",
-              "earthworks:block_slate",
-              "earthworks:block_slate_green",
-              "earthworks:block_slate_purple"],
-    "rarity": 2048,
-    "count": 1,
-    "dimensions": [0],
-    "dimensions_is_whitelist": true,
-    "min_y": 12,
-    "max_y": 24,
     "density": 128
   },
   "cooperite": {
@@ -585,7 +585,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 3072,
+    "rarity": 11264,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -631,7 +631,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 3072,
+    "rarity": 11264,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -668,7 +668,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 2048,
+    "rarity": 5632,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
@@ -814,7 +814,7 @@
               "earthworks:block_slate",
               "earthworks:block_slate_green",
               "earthworks:block_slate_purple"],
-    "rarity": 512,
+    "rarity": 2816,
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": false,
