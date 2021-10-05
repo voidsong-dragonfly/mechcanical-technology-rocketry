@@ -1,6 +1,6 @@
 setIcon(<lostquiver:quiver>)
 setTitle("External Inventory Storage")
-setDescription("Craft a quiver, able to store significant excess arrors")
+setDescription("Craft a quiver, able to store significant excess arrows")
 addParent("triumph:vanilla/adventure/shoot_arrow")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<lostquiver:quiver>)
