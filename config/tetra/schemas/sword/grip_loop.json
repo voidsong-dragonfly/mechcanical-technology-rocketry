@@ -76,7 +76,7 @@
             },
             {
                 "material": {
-                    "item": "flintmod:tool_part_flint"
+                    "item": "minecraft:flint"
                 },
                 "requiredCapabilities": {
                     "hammer": 3

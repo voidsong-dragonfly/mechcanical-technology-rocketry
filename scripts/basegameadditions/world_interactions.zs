@@ -10,52 +10,6 @@ import crafttweaker.event.PlayerInteractBlockEvent;
 
        
 
-//Flint interactions
-//Blocks we can't use to flake
-function isNotInteractableFlint(block as IBlock) as bool {
-	if(! isNull(block)) {
-	    var material = block.definition.defaultState.material;
-		return !(material.matches(IMaterial.anvil()) || material.matches(IMaterial.iron()) || material.matches(IMaterial.rock()));
-    }
-    return true;
-}
-//We're not holding flint
-function isNotInteractingFlint(player as IPlayer) as bool {
-	return isNull(player) || isNull(player.currentItem) || !(<ore:itemFlint> has player.currentItem);
-}
-//Both Combined
-function playerCannotInteractFlint(evt as PlayerInteractBlockEvent) as bool {
-	if (isNull(evt) || isNull(evt.world) || evt.canceled || evt.useItem == "DENY")
-		return true;
-	return isNotInteractingFlint(evt.player) || isNotInteractableFlint(evt.block);
-}
-//Did we actually do it?
-events.onPlayerInteractBlock(function(evt as PlayerInteractBlockEvent) as void {
-	if (playerCannotInteractFlint(evt))
-		return;
-
-    if (dropItemFlint(evt, <flintmod:tool_part_flint>)) {
-        evt.cancellationResult = "SUCCESS";
-        evt.cancel();
-	}
-});
-//Dropping items
-function dropItemFlint(evt as PlayerInteractBlockEvent, stack as IItemStack) as bool {
-    if (evt.world.remote)
-        return true;
-
-    // dummy entity to drop the item with
-    val dummy = <entity:minecraft:arrow>.createEntity(evt.world);
-    dummy.posX = evt.x as double + 0.5;
-    dummy.posY = evt.y as double + 1.5;
-    dummy.posZ = evt.z as double + 0.5;
-
-    evt.player.dropItem(false).setDead();
-    dummy.dropItem(stack);
-}
-
-
-
 //Log interactions
 //Logs that can be converted to debarked variants, and their debarked variants
 static logDuals  as IBlockState[][string] = {"oakx": [<blockstate:debark:debarked_log_minecraft_log:variant=0,axis=x> as IBlockState, <blockstate:minecraft:log:variant=oak,axis=x> as IBlockState],

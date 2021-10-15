@@ -82,7 +82,7 @@
             },
             {
                 "material": {
-                    "item": "flintmod:tool_part_flint",
+                    "item": "minecraft:flint",
                     "count": 3
                 },
                 "requiredCapabilities": {

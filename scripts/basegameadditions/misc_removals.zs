@@ -33,3 +33,7 @@ removeAndHide(<valkyrielib:guide>);
 removeAndHide(<simplecorn:corn>);
 removeAndHide(<transport:diamond_crossing>);
 removeAndHide(<backportedflora:mod_icon>);
+
+//Carry on
+removeAndHide(<carryon:tile_item>);
+removeAndHide(<carryon:entity_item>);
