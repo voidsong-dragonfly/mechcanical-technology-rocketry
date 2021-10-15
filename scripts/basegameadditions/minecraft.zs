@@ -12,11 +12,6 @@ var minecraftToRemove = [<minecraft:command_block>,
                          <minecraft:structure_block>,
                          <minecraft:command_block_minecart>,
                          <minecraft:knowledge_book>,
-                         <minecraft:stone_axe>,
-                         <minecraft:stone_hoe>,
-                         <minecraft:stone_pickaxe>,
-                         <minecraft:stone_shovel>,
-                         <minecraft:stone_sword>,
                          <forge:bucketfilled>.withTag({FluidName: "heat", Amount: 1000})
                          ] as IItemStack[];
 for item in minecraftToRemove{
@@ -43,7 +38,11 @@ var toolsToRemove = [<minecraft:iron_axe>,
                      <minecraft:diamond_chestplate>,
                      <minecraft:diamond_leggings>,
                      <minecraft:diamond_boots>,
-                     <flintmod:tool_part_flint>
+                     <minecraft:stone_axe>,
+                     <minecraft:stone_hoe>,
+                     <minecraft:stone_pickaxe>,
+                     <minecraft:stone_shovel>,
+                     <minecraft:stone_sword>
                      ] as IItemStack[];
 for item in toolsToRemove{
     recipes.remove(item);
@@ -90,27 +89,19 @@ recipes.addShaped(<enderhopper:enderhopper>,
  [[<ore:obsidian>, <ore:gemEnderBiotite>, <ore:obsidian>],
  [<ore:dustObsidian>, <minecraft:ender_chest>, <ore:dustObsidian>],
  [null, <ore:obsidian>, null]]);
- 
-//Remove Quark recipes for Minecraft items that interfere
-recipes.removeByRecipeName("quark:hopper");
-recipes.removeByRecipeName("quark:chest_minecart");
-recipes.removeByRecipeName("quark:furnace_minecart");
-recipes.removeByRecipeName("quark:hopper_minecart");
-recipes.removeByRecipeName("quark:tnt_minecart");
-recipes.removeByRecipeName("quark:chest_minecart_1");
-recipes.remove(<charm:composter>);
-recipes.addShaped(<charm:composter>,
- [[<ore:plankWood>, null, <ore:plankWood>],
- [<ore:trapdoorWood>, null, <ore:trapdoorWood>],
- [<ore:plankWood>, <ore:slabWood>, <ore:plankWood>]]);
-recipes.remove(<filteredhopper:filteredhopper>);
-recipes.addShaped(<filteredhopper:filteredhopper>,
- [[<minecraft:iron_bars>],
- [<minecraft:hopper>]]);
- 
-//Compass Nuggets
-recipes.replaceAllOccurences(<ore:ingotIron>, <ore:nuggetIron>, <minecraft:compass>);
 
+//Catalyst item recipes
+recipes.remove(<respect-your-elders:eldercrystal>);
+recipes.remove(<respect-your-elders:emeraldsoup>);
+recipes.addShaped(<respect-your-elders:eldercrystal>,
+ [[<ore:dustPrismarine>, <minecraft:lapis_block>, <ore:dustPrismarine>],
+ [<minecraft:lapis_block>, <minecraft:prismarine:1>, <minecraft:lapis_block>],
+ [<ore:dustPrismarine>, <minecraft:lapis_block>, <ore:dustPrismarine>]]);
+recipes.addShaped(<respect-your-elders:emeraldsoup>,
+ [[<ore:gemEmerald>, <minecraft:ender_eye>, <ore:gemEmerald>],
+ [<minecraft:poisonous_potato>, <minecraft:fish:2>, <minecraft:poisonous_potato>],
+ [<ore:gemEmerald>, <charm:suspicious_soup>, <ore:gemEmerald>]]);
+ 
 //Remove Charcoal from furnace
 furnace.remove(<minecraft:coal:1>);
 
@@ -131,11 +122,11 @@ recipes.remove(<minecraft:arrow>);
 recipes.remove(<quark:arrow_ender>);
 recipes.remove(<inspirations:arrow>);
 recipes.addShaped(<minecraft:arrow> * 8,
- [[null, null, <flintmod:tool_part_flint>],
+ [[null, null, <ore:flint>],
  [null, <ore:stickWood>, null],
  [<ore:feather>, null, null]]);
 recipes.addShaped(<minecraft:arrow> * 4,
- [[null, null, <flintmod:tool_part_flint>],
+ [[null, null, <ore:flint>],
  [null, <ore:stickWood>, null],
  [<ore:paper>, null, null]]);
 recipes.addShaped(<minecraft:arrow> * 12,
@@ -179,24 +170,22 @@ recipes.addShaped(<antiqueatlas:empty_antique_atlas>,
  [[<minecraft:writable_book>, <minecraft:compass>],
  [<minecraft:map>, <minecraft:map>]]);
 
-//Totem recipes
-val totems = <minecraft:totem_of_undying> | <charm:totem_of_returning> | <charm:totem_of_shielding>;
-recipes.addShaped(<minecraft:totem_of_undying>,
- [[<pvj:unstable_essence>, <inspirations:edibles>, <pvj:unstable_essence>],
- [<ore:dustBlaze>, totems, <ore:dustBlaze>],
- [<pvj:unstable_essence>, <ore:dustBlaze>, <pvj:unstable_essence>]]);
-recipes.addShaped(<charm:totem_of_returning>,
- [[<pvj:unstable_essence>, <minecraft:ender_eye>, <pvj:unstable_essence>],
- [<charm:endermite_powder>, totems, <charm:endermite_powder>],
- [<pvj:unstable_essence>, <charm:endermite_powder>, <pvj:unstable_essence>]]);
-recipes.addShaped(<charm:totem_of_shielding>,
- [[<pvj:unstable_essence>, <eerieentities:nether_shield>, <pvj:unstable_essence>],
- [<inspirations:materials:6>, totems, <inspirations:materials:6>],
- [<pvj:unstable_essence>, <inspirations:materials:6>, <pvj:unstable_essence>]]);
-recipes.addShaped(<eerieentities:nether_shield>,
- [[<minecraft:nether_brick>, <ore:ingotIron>, <minecraft:nether_brick>],
- [<minecraft:nether_brick>, <stygian:endplanks>, <minecraft:nether_brick>],
- [null, <minecraft:nether_brick>, null]]);
+//Stone tool recipes
+recipes.addShaped(<minecraft:stone_axe>,
+ [[<minecraft:flint>, <minecraft:flint>],
+ [<minecraft:flint>, <ore:stickWood>]]);
+recipes.addShaped(<minecraft:stone_pickaxe>,
+ [[<minecraft:flint>, <minecraft:flint>],
+ [<ore:stickWood>, <minecraft:flint>]]);
+recipes.addShaped(<minecraft:stone_hoe>,
+ [[<minecraft:flint>, <minecraft:flint>],
+ [<ore:stickWood>, null]]);
+recipes.addShaped(<minecraft:stone_sword>,
+ [[null, <minecraft:flint>],
+ [<ore:stickWood>, null]]);
+recipes.addShaped(<minecraft:stone_shovel>,
+ [[<minecraft:flint>],
+ [<ore:stickWood>]]);
  
 /*
 //Bones from animals for bonemeal early
