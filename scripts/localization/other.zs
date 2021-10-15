@@ -49,7 +49,6 @@ game.setLocalization("material.Rutile.name", "Ilmenite");
 game.setLocalization("mekores.ore.aluminum", "Bauxite");
 game.setLocalization("mekores.ore.titanium", "Ilmenite");
 game.setLocalization("material.Aluminum.name", "Aluminium");
-game.setLocalization("mekores.ore.dilithium", "Niobium");
 //Mekanism Ores
 game.setLocalization("item.mekores:dustDirty.name", "%s Ore Dust");
 //Mekanism
@@ -64,9 +63,6 @@ game.setLocalization("item.dirtyLeadDust.name", "Lead Ore Dust");
 //Redone alloys & materials
 game.setLocalization("material.TitaniumAluminide.name", "Aluminium Magnesium Titanide");
 game.setLocalization("material.Copper.name", "Annealed Copper");
-
-//Induction Tablet
-<ore:inductionTabletItem>.firstItem.addShiftTooltip("A Lithium-Ion battery cell designed for long life, large storage, and a slim profile. Many of these can be slotted into a casing, along with a circuit to control them, to make an induction cell. Note that by being designed for an Induction Matrix, they are theyfore not able to hold a charge outside of one.", "Hold" ~ format.darkBlue(" LSHIFT ") ~ format.gray("for details."));
 
 //AF to "HVDC"
 //Blocks
@@ -172,9 +168,6 @@ game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.vacuum.name", 
 <modularmachinery:blockfluidoutputhatch:6>.removeTooltip("mb");
 <modularmachinery:blockfluidoutputhatch:7>.removeTooltip("mb");
 
-//Turn Traverse Crag blocks into crucible bits
-game.setLocalization("fluid.enrichedLava", "Sulfuric Lava");
-
 //Redo Biomes O Plenty logs that conflict in naming
 //Willow -> Cypress
 game.setLocalization("tile.log_2.willow_log.name", "Cypress Wood");
@@ -233,12 +226,6 @@ game.setLocalization("item.boat_willow.name", "Cypress Boat");
 <biomesoplenty:boat_palm>.addTooltip("Oasis Palm");
 
 //Make Vanilla tools describe themselves as 'Shoddy' (Flint, Iron, & Gold), or 'Monocrystalline' (Diamond)
-game.setLocalization("item.sword_flint.name", "Shoddy Flint Sword");
-game.setLocalization("item.knife_flint.name", "Shoddy Flint Knife");
-game.setLocalization("item.spade_flint.name", "Shoddy Flint Spade");
-game.setLocalization("item.pickaxe_flint.name", "Shoddy Flint Pick");
-game.setLocalization("item.axe_flint.name", "Shoddy Flint Hatchet");
-game.setLocalization("item.hoe_flint.name", "Shoddy Flint Hoe");
 game.setLocalization("item.hoeIron.name", "Shoddy Iron Hoe");
 game.setLocalization("item.swordIron.name", "Shoddy Iron Sword");
 game.setLocalization("item.shovelIron.name", "Shoddy Iron Shovel");
@@ -273,3 +260,27 @@ game.setLocalization("item.retrocomputers:screwdriver.name", "Engineer's Compute
 
 //Bullseye diamond arrow to steel
 game.setLocalization("item.diamond_arrow.name", "Steel-Tipped Arrow");
+
+//Earthworks adobe
+game.setLocalization("tile.earthworks.block_adobe.name", "Fired Adobe Brick");
+game.setLocalization("tile.earthworks.slab_adobe.name", "Fired Adobe Brick Slab");
+game.setLocalization("tile.earthworks.stair_adobe.name", "Fired Adobe Brick Stairs");
+game.setLocalization("tile.earthworks.wall_adobe.name", "Fired Adobe Brick Wall");
+game.setLocalization("item.earthworks.item_adobe.name", "Fired Adobe Brick");
+//PVJ stone blocks
+game.setLocalization("tile.limestone.name", "Weathered Buffed Marble");
+game.setLocalization("tile.limestone_stairs.name", "Weathered Buffed Marble Stairs");
+game.setLocalization("tile.limestone_slab.name", "Weathered Buffed Marble Slab");
+game.setLocalization("tile.marble.name", "Buffed Marble");
+game.setLocalization("tile.marble_stairs.name", "Buffed Marble Stairs");
+game.setLocalization("tile.marble_slab.name", "Buffed Marble Slab");
+game.setLocalization("tile.marble_brick.name", "Buffed Marble Bricks");
+game.setLocalization("tile.marble_brick_stairs.name", "Buffed Marble Brick Stairs");
+game.setLocalization("tile.marble_brick_slab.name", "Buffed Marble Brick Slab");
+//PVJ outer space stone(s)
+game.setLocalization("tile.basalt.name", "Cast Regolith Basalt");
+game.setLocalization("tile.basalt_stairs.name", "Cast Regolith Basalt Stairs");
+game.setLocalization("tile.basalt_slab.name", "Cast Regolith Basalt Slab");
+game.setLocalization("tile.basalt_brick.name", "Cast Regolith Basalt Bricks");
+game.setLocalization("tile.basalt_brick_stairs.name", "Cast Regolith Basalt Brick Stairs");
+game.setLocalization("tile.basalt_brick_slab.name", "Cast Regolith Basalt Brick Slab");

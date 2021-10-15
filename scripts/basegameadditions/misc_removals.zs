@@ -29,7 +29,6 @@ removeAndHide(<charset:icon>);
 
 //Sorta useful but not to us items
 removeAndHide(<theoneprobe:probenote>);
-removeAndHide(<valkyrielib:guide>);
 removeAndHide(<simplecorn:corn>);
 removeAndHide(<transport:diamond_crossing>);
 removeAndHide(<backportedflora:mod_icon>);

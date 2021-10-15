@@ -19,28 +19,21 @@ var pvjBlocksToRemove = [<pvj:willow_door>,
                          <pvj:ice_formation>,
                          <pvj:rock_formation>,
                          <pvj:pvj_cobweb>,
-                         <pvj:basalt>,
-                         <pvj:basalt_brick>,
-                         <pvj:basalt_stairs>,
-                         <pvj:basalt_brick_stairs>,
-                         <pvj:basalt_slab>,
-                         <pvj:basalt_brick_slab>,
-                         <pvj:limestone>,
-                         <pvj:limestone_stairs>,
-                         <pvj:limestone_slab>,
-                         <pvj:marble>,
-                         <pvj:marble_brick>,
-                         <pvj:marble_stairs>,
-                         <pvj:marble_brick_stairs>,
-                         <pvj:marble_slab>,
-                         <pvj:marble_brick_slab>,
-                         <pvj:wet_adobe>,
-                         <pvj:adobe>,
-                         <pvj:adobe_brick>,
-                         <pvj:adobe_stairs>,
-                         <pvj:adobe_brick_stairs>,
-                         <pvj:adobe_slab>,
-                         <pvj:adobe_brick_slab>,
+                         //<pvj:basalt>,
+                         //<pvj:basalt_brick>,
+                         //<pvj:basalt_stairs>,
+                         //<pvj:basalt_brick_stairs>,
+                         //<pvj:basalt_slab>,
+                         //<pvj:basalt_brick_slab>,
+                         //<pvj:limestone>,
+                         //<pvj:limestone_stairs>,
+                         //<pvj:limestone_slab>,
+                         //<pvj:marble>,
+                         //<pvj:marble_brick>,
+                         //<pvj:marble_stairs>,
+                         //<pvj:marble_brick_stairs>,
+                         //<pvj:marble_slab>,
+                         //<pvj:marble_brick_slab>,
                          <pvj:fallenleaves_juniper_berried>,
                          <pvj:fallenleaves_bop_magic>,
                          <pvj:fallenleaves_bop_sacred_oak>,
@@ -73,7 +66,11 @@ var pvjBlocksToRemove = [<pvj:willow_door>,
                          <pvj:yellow_autumn_traverse_twigs>,
                          <pvj:orange_autumn_traverse_twigs>,
                          <pvj:brown_autumn_traverse_twigs>,
-                         <pvj:red_autumn_traverse_twigs>
+                         <pvj:red_autumn_traverse_twigs>,
+                         <pvj:wild_wheat>,
+                         <pvj:wild_potato>,
+                         <pvj:wild_carrot>,
+                         <pvj:wild_beetroot>
                        ] as IItemStack[];
 for item in pvjBlocksToRemove{
     removeAndHide(item);
@@ -91,4 +88,15 @@ recipes.removeByRecipeName("pvj:red_sandstone");
 recipes.addShaped(<minecraft:gravel>, 
  [[<ore:rocks>, <ore:rocks>],
  [<ore:rocks>, <ore:rocks>]]);
- recipes.addShapeless(<minecraft:glowstone_dust>, [<pvj:glowcap>]);
+recipes.addShapeless(<minecraft:glowstone_dust>, [<pvj:glowcap>]);
+
+//Polished Marble
+recipes.addShaped(<pvj:marble> * 8,
+ [[<quark:marble>, <quark:marble>, <quark:marble>],
+ [<quark:marble>, <ore:sand>, <quark:marble>],
+ [<quark:marble>, <quark:marble>, <quark:marble>]]);
+//Weathered polished marble
+recipes.addShaped(<pvj:limestone> * 8,
+ [[<pvj:marble>, <pvj:marble>, <pvj:marble>],
+ [<pvj:marble>, <liquid:water> * 1000, <pvj:marble>],
+ [<pvj:marble>, <pvj:marble>, <pvj:marble>]]);

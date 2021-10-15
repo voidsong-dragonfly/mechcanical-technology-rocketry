@@ -154,16 +154,6 @@ recipes.addShaped(<inspirations:arrow> * 4,
  [null, <ore:stickWood>, null],
  [<ore:paper>, null, null]]);
 
-//Stone types
-recipes.removeByRecipeName("environmentalmaterials:m_alabaster/normal/alabaster_c_white_temp");
-recipes.removeByRecipeName("environmentalmaterials:m_basalt/normal/c_block");
-recipes.removeByRecipeName("environmentalmaterials:m_hardened_stone/normal/c_block");
-furnace.addRecipe(<environmentalmaterials:basalt>, <quark:basalt>);
-furnace.addRecipe(<environmentalmaterials:hardened_stone>, <ore:stone>);
-furnace.addRecipe(<environmentalmaterials:alabaster>, <ore:stoneMarblePolished>);
-furnace.addRecipe(<environmentalmaterials:alabaster>, <ore:stoneLimestonePolished>);
-furnace.addRecipe(<environmentalmaterials:alabaster>, <quark:slate:1>);
-
 //Atlas
 recipes.remove(<antiqueatlas:empty_antique_atlas>);
 recipes.addShaped(<antiqueatlas:empty_antique_atlas>,
