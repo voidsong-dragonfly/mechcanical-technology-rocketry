@@ -405,4 +405,38 @@
 		</output>
 	</Recipe>
 
+    
+    
+    <Recipe timeRequired="2400" power="7680">
+		<input>
+			<itemStack>contenttweaker:high_current_superconductive_coil</itemStack>
+            <oreDict>circuitUltimate;2</oreDict>
+            <oreDict>sheetSteel;8</oreDict>
+            <oreDict>stickMolybdenum;3</oreDict>
+            <itemStack>charm:ender_pearl_block</itemStack>
+            <oreDict>compressorAluminiumMagnesiumTitanide</oreDict>
+            <oreDict>smallPipeTitanium;4</oreDict>
+            <oreDict>mechanicalComponentMaragingSteel;2</oreDict>
+            <itemStack>portalgun:item_miniature_black_hole</itemStack>
+        </input>
+		<output>
+			<itemStack>gravitygun:gravitygun</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="7680">
+		<input>
+			<itemStack>contenttweaker:high_current_superconductive_coil;2</itemStack>
+            <oreDict>perfectCircuitItem;4</oreDict>
+            <oreDict>sheetTitaniumIridium;12</oreDict>
+            <oreDict>stickMolybdenum;7</oreDict>
+            <itemStack>portalgun:item_miniature_black_hole</itemStack>
+            <oreDict>smallPipeTitanium;4</oreDict>
+            <oreDict>mechanicalComponentMaragingSteel;2</oreDict>
+            <oreDict>enderpearl;8</oreDict>
+            <oreDict>compressorAluminiumMagnesiumTitanide</oreDict>
+        </input>
+		<output>
+			<itemStack>portalgun:item_portalgun</itemStack>
+		</output>
+	</Recipe>
 </Recipes>

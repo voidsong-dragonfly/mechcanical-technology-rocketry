@@ -63,7 +63,7 @@ recipes.remove(<engineersdecor:rebar_concrete>);
 recipes.remove(<engineersdecor:gas_concrete>);
 BottlingMachine.addRecipe(<earthworks:block_concrete> * 8, <ore:gravel>, <liquid:concrete> * 1000);
 BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5> * 8, <ore:sand>, <liquid:concrete> * 1000);
-BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 8, <ore:dustAluminium>, <liquid:concrete> * 125);
+BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 8, <ore:dustAluminum>, <liquid:concrete> * 125);
 BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:scaffoldingSteel>, <liquid:concrete> * 125);
 
 //Plastic bottling machine recipes
@@ -117,7 +117,7 @@ furnace.addRecipe(<contenttweaker:calcined_crushed_marble>, <contenttweaker:crus
 BlastFurnace.addRecipe(<immersiveengineering:material:25> * 2, <minecraft:blaze_powder> * 3, 600, <immersiveengineering:material:7> * 1);
 BlastFurnace.addRecipe(<minecraft:sand> * 3, <minecraft:soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
 BlastFurnace.addRecipe(<contenttweaker:fine_sand> * 3, <contenttweaker:fine_soul_sand> * 3, 600, <immersiveengineering:material:24> * 2);
-BlastFurnace.addRecipe(<minecraft:netherbrick> * 12, <minecraft:netherrack> * 12, 2400, <minecraft:redstone>);
+BlastFurnace.addRecipe(<minecraft:netherbrick> * 12, <minecraft:netherrack> * 12, 2400, <ore:dustCinnabar>.firstItem);
 
 //Wither ash to charcoal dust and stygian acid (tiny tiny bits), and bitumen to petcoke
 CokeOven.addRecipe(<minecraft:coal:1>, 500, <ore:sludgeCharcoalPrecursor>, 900);
@@ -172,7 +172,7 @@ Crusher.removeRecipe(<minecraft:string>);
 //Add soul sandstone recipe & other crushing recipes
 Crusher.addRecipe(<minecraft:soul_sand> * 2, <quark:soul_sandstone:*>, 1600, <immersiveengineering:material:24>, 0.875);
 Crusher.addRecipe(<contenttweaker:end_gravel>, <minecraft:end_stone>, 2400);
-Crusher.addRecipe(<minecraft:gravel>, <minecraft:netherrack>, 1600, <minecraft:redstone>, 0.05);
+Crusher.addRecipe(<minecraft:gravel>, <minecraft:netherrack>, 1600, <ore:dustCinnabar>.firstItem, 0.05);
 
 //Add petroleum related recipes
 Crusher.addRecipe(<ore:dustCharcoal>.firstItem, <minecraft:coal:1>, 2400);

@@ -20,6 +20,7 @@ ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 5, <ore:ingotEquivalent
 //Silicon Production
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 4, <contenttweaker:silicon_dioxide_dust_block>, null, 1600, 512, [<ore:dustAnyCarbon> * 4]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:gemQuartz>, null, 400, 512, [<ore:dustAnyCarbon>]);
+ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:itemFlint>, null, 800, 512, [<ore:dustAnyCarbon>]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 2, <contenttweaker:fine_sand> * 3, <immersiveengineering:material:7>, 1600, 256, [<ore:dustAnyCarbon> * 2]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:sand> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
 //ALON (Aluminium Oxynitride) for Panzer Glass - ~2x as bulletproof as standard bulletproof glass
