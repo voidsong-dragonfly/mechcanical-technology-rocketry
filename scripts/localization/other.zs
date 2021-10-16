@@ -35,8 +35,6 @@ game.setLocalization("tile.quark:slate_speleothem.name", "Dolomite Speleothem");
 game.setLocalization("tile.quark:stone_slate_pavement.name", "Dolomite Pavement");
 
 //Capacitor to battery rename
-game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_lv.name", "LV Battery Bank");
-game.setLocalization("tile.immersiveengineering.metal_device0.capacitor_mv.name", "LV Capacitor");
 <immersiveengineering:metal_device0:0>.addTooltip("Maximum Storage: 1400000 IF, Maximum Output: 256 IF/t");
 <immersiveengineering:metal_device0:1>.addTooltip("Maximum Storage: 1600 IF, Maximum Output: 256 IF/t");
 <immersiveengineering:metal_device0:2>.addTooltip("Maximum Storage: 400000 IF, Maximum Output: 4096 IF/t");
@@ -72,7 +70,6 @@ game.setLocalization("tile.alternatingflux.connector.transformer_af.name", "HVDC
 //Items
 game.setLocalization("item.alternatingflux.wirecoil.af.name", "HVDC Wire Coil");
 game.setLocalization("itemGroup.alternatingflux", "HVDC");
-game.setLocalization("tile.immersiveengineering.metal_decoration0.coil_mv.name", "Medium-Voltage Coil Block");
 //Manual stuff is in lang file because it didn't work here
 
 //Rustic stone pillar to Fission Reactor Fuel Assembly Channel
@@ -101,16 +98,6 @@ game.setLocalization("item.circuitIC.3.name", "Item IO Circuit Board");
 game.setLocalization("item.circuitIC.4.name", "Energy IO Circuit Board");
 game.setLocalization("item.circuitIC.5.name", "Liquid IO Circuit Board");
 
-//Rename Uranium items to Uranium Dioxide items
-game.setLocalization("tile.immersiveengineering.storage.uranium.name", "Block of Uranium Dioxide");
-game.setLocalization("tile.immersiveengineering.storage_slab.uranium.name", "Uranium Dioxide Slab");
-game.setLocalization("tile.immersiveengineering.sheetmetal.uranium.name", "Uranium Dioxide Sheetmetal");
-game.setLocalization("tile.immersiveengineering.sheetmetal_slab.uranium.name", "Uranium Dioxide Sheetmetal Slab");
-game.setLocalization("item.immersiveengineering.metal.ingot_uranium.name", "Uranium Dioxide Ingot");
-game.setLocalization("item.immersiveengineering.metal.dust_uranium.name", "Uranium Dioxide Grit");
-game.setLocalization("item.immersiveengineering.metal.nugget_uranium.name", "Uranium Dioxide Nugget");
-game.setLocalization("item.immersiveengineering.metal.plate_uranium.name", "Uranium Dioxide Plate");
-
 game.setLocalization("tile.immersiveposts.uraniumpost.name", "Uranium Dioxide Post");
 game.setLocalization("tile.immersiveposts.fence_uranium.name", "Uranium Dioxide Fence");
 game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
@@ -118,23 +105,12 @@ game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Urani
 game.setLocalization("index.page_0_entry.13", "Uranium Dioxide");
 
 //Rename Constantan items to Molybdenum items
-game.setLocalization("tile.immersiveengineering.storage.constantan.name", "Block of Molybdenum");
-game.setLocalization("tile.immersiveengineering.storage_slab.constantan.name", "Molybdenum Slab");
-game.setLocalization("tile.immersiveengineering.sheetmetal.constantan.name", "Molybdenum Sheetmetal");
-game.setLocalization("tile.immersiveengineering.sheetmetal_slab.constantan.name", "Molybdenum Sheetmetal Slab");
-game.setLocalization("item.immersiveengineering.metal.ingot_constantan.name", "Molybdenum Ingot");
-game.setLocalization("item.immersiveengineering.metal.dust_constantan.name", "Molybdenum Grit");
-game.setLocalization("item.immersiveengineering.metal.nugget_constantan.name", "Molybdenum Nugget");
-game.setLocalization("item.immersiveengineering.metal.plate_constantan.name", "Molybdenum Plate");
-
 game.setLocalization("tile.immersiveposts.constantanpost.name", "Molybdenum Post");
 game.setLocalization("tile.immersiveposts.fence_constantan.name", "Molybdenum Fence");
 game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Molybdenum Rod");
 game.setLocalization("item.immersiveposts.metal_rods.stick_constantan.name", "Molybdenum Rod");
 
 game.setLocalization("item.alternatingflux.material.wire_constantan.name", "Molybdenum Wire");
-
-game.setLocalization("ie.manual.entry.alloys0", "Mixing dusts creates an alloy blend that can then be smelted into alloyed ingots. Nickel and copper have thermo-electric properties and are used in creating the <link;generator;§o§nthermoelectric §o§ngenerator§r;1> and electrum is an excellent electric conductor used in circuitry.");
 
 //Osmium to LEU rename
 game.setLocalization("tile.BasicBlock.OsmiumBlock.name", "Lightly Enriched Uranium Dioxide Block");
