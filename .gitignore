@@ -3,6 +3,7 @@
 /coremods
 /llibrary
 /logs
+/cache
 /.mixin.out
 /mods
 /saves
@@ -28,4 +29,5 @@ icon.png
 /config/ichunutil_keybinds.cfg
 /config/cherishedworlds/favorites.dat
 /config/randomtweaks/data.json
+/config/chiselsandbits_clipboard.cfg
 
