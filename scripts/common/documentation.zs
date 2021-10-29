@@ -86,20 +86,3 @@ for fluid in fluids {
         "---Nuclear Propellants---",
         "Liquid Hydrogen      20mB/s"]);
 }
-
-
-
-//Diamond tools & armor description
-var diamondTools = [<minecraft:diamond_hoe>,
-                    <minecraft:diamond_sword>,
-                    <minecraft:diamond_shovel>,
-                    <minecraft:diamond_pickaxe>,
-                    <minecraft:diamond_axe>,
-                    <minecraft:diamond_helmet>,
-                    <minecraft:diamond_chestplate>,
-                    <minecraft:diamond_leggings>,
-                    <minecraft:diamond_boots>
-                    ] as IItemStack[];
-for item in diamondTools {
-    addDescription(item, "This tool or armor piece has been carved from a single, large diamond gem. You're not sure how it was made, or how those whom you took it from came into possession of it. You know, however, that you have no hope of replicating it.");
-}

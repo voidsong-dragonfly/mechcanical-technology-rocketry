@@ -100,7 +100,7 @@ game.setLocalization("item.circuitIC.5.name", "Liquid IO Circuit Board");
 
 game.setLocalization("tile.immersiveposts.uraniumpost.name", "Uranium Dioxide Post");
 game.setLocalization("tile.immersiveposts.fence_uranium.name", "Uranium Dioxide Fence");
-game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
+// game.setLocalization("item.immersiveposts.tal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("index.page_0_entry.13", "Uranium Dioxide");
 
@@ -201,7 +201,7 @@ game.setLocalization("item.boat_willow.name", "Cypress Boat");
 <biomesoplenty:sapling_2:1>.addTooltip("Oasis Palm");
 <biomesoplenty:boat_palm>.addTooltip("Oasis Palm");
 
-//Make Vanilla tools describe themselves as 'Shoddy' (Flint, Iron, & Gold), or 'Monocrystalline' (Diamond)
+//Make Vanilla tools describe themselves as 'Shoddy' (Flint, Iron, & Gold), or 'Decorative' (Diamond)
 game.setLocalization("item.hoeIron.name", "Shoddy Iron Hoe");
 game.setLocalization("item.swordIron.name", "Shoddy Iron Sword");
 game.setLocalization("item.shovelIron.name", "Shoddy Iron Shovel");
@@ -212,15 +212,15 @@ game.setLocalization("item.swordGold.name", "Shoddy Golden Sword");
 game.setLocalization("item.shovelGold.name", "Shoddy Golden Shovel");
 game.setLocalization("item.pickaxeGold.name", "Shoddy Golden Pickaxe");
 game.setLocalization("item.hatchetGold.name", "Shoddy Golden Axe");
-game.setLocalization("item.hoeDiamond.name", "Monocrystalline Diamond Hoe");
-game.setLocalization("item.swordDiamond.name", "Monocrystalline Diamond Sword");
-game.setLocalization("item.shovelDiamond.name", "Monocrystalline Diamond Shovel");
-game.setLocalization("item.pickaxeDiamond.name", "Monocrystalline Diamond Pickaxe");
+game.setLocalization("item.hoeDiamond.name", "Decorative Diamond Hoe");
+game.setLocalization("item.swordDiamond.name", "Decorative Diamond Sword");
+game.setLocalization("item.shovelDiamond.name", "Decorative Diamond Shovel");
+game.setLocalization("item.pickaxeDiamond.name", "Decorative Diamond Pickaxe");
 game.setLocalization("item.hatchetDiamond.name", "Monocrystalline Diamond Axe");
-game.setLocalization("item.helmetDiamond.name", "Monocrystalline Diamond Helmet");
-game.setLocalization("item.chestplateDiamond.name", "Monocrystalline Diamond Chestplate");
-game.setLocalization("item.leggingsDiamond.name", "Monocrystalline Diamond Leggings");
-game.setLocalization("item.bootsDiamond.name", "Monocrystalline Diamond Boots");
+game.setLocalization("item.helmetDiamond.name", "Diamond Scale Helmet");
+game.setLocalization("item.chestplateDiamond.name", "Diamond Scale Chestplate");
+game.setLocalization("item.leggingsDiamond.name", "Diamond Scale Leggings");
+game.setLocalization("item.bootsDiamond.name", "Diamond Scale Boots");
    
 //Turn Earthworks compass into "Engineer's Chisel"
 game.setLocalization("item.earthworks.tool_compass.name", "Engineer's Chisel");

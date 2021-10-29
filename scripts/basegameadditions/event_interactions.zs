@@ -7,6 +7,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.EntityLivingEquipmentChangeEvent;
+import crafttweaker.entity.IEntityEquipmentSlot;
 
        
 
@@ -157,3 +159,27 @@ function dropItemWood(evt as PlayerInteractBlockEvent, stack as IItemStack) as b
 }
 
 
+
+//Deal with diamond-scaled armor stuff
+events.onEntityLivingEquipmentChange(function(evt as EntityLivingEquipmentChangeEvent) as void {
+    if(isNull(evt.oldItem) || !isNull(evt.newItem)) 
+        return;
+    //Stacks from the event
+    var oldStack = evt.oldItem.anyDamage();
+    
+    //Booleans for checks
+    var stackCheck = evt.oldItem.isEmpty || isNull(evt.slot);
+	if (evt.slot == IEntityEquipmentSlot.mainHand() || evt.slot == IEntityEquipmentSlot.offhand() || stackCheck)
+		return;
+		
+    print(oldStack.matches(<minecraft:diamond_helmet>));
+    //Place the correct armor in there
+    if(oldStack.matches(<minecraft:diamond_helmet>)) 
+        evt.entityLivingBase.setItemToSlot(IEntityEquipmentSlot.head(), <immersiveengineering:steel_armor_head>);
+    if(oldStack.matches(<minecraft:diamond_chestplate>))
+        evt.entityLivingBase.setItemToSlot(IEntityEquipmentSlot.chest(), <immersiveengineering:steel_armor_chest>);
+    if(oldStack.matches(<minecraft:diamond_leggings>))
+        evt.entityLivingBase.setItemToSlot(IEntityEquipmentSlot.legs(), <immersiveengineering:steel_armor_legs>);
+    if(oldStack.matches(<minecraft:diamond_boots>))
+        evt.entityLivingBase.setItemToSlot(IEntityEquipmentSlot.feet(), <immersiveengineering:steel_armor_feet>);
+});
