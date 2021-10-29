@@ -41,7 +41,10 @@ recipes.addShaped(<earthworks:block_dry_stone> * 4,
 furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:slate>);
 furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:limestone>);
 furnace.addRecipe(<earthworks:item_quicklime> * 3, <quark:marble>);
+
+//Adobe compat
 furnace.addRecipe(<earthworks:item_adobe> * 4, <pvj:wet_adobe>);
+recipes.remove(<earthworks:item_adobe>);
 
 //Concrete
 recipes.remove(<earthworks:block_concrete>);

@@ -79,7 +79,7 @@
         <ore itemStack="contenttweaker:methane_ice" chance="2" />
 	</asteroid>
     <asteroid name="M-Type [H]" distance="80" mass="3000" massVariability="0.25" minLevel="0" probability="0.005" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="40">
-        <ore itemStack="contenttweaker:iron_dust_block" chance="75" />
+        <ore itemStack="contenttweaker:iron_dust_block" chance="76" />
         <ore itemStack="contenttweaker:nickel_dust_block" chance="12" />
         <ore itemStack="contenttweaker:cobalt_dust_block" chance="5" />
         <ore itemStack="contenttweaker:copper_dust_block" chance="4" />
@@ -87,7 +87,6 @@
         <ore itemStack="contenttweaker:silver_dust_block" chance="1" />
         <ore itemStack="contenttweaker:platinum_dust_block" chance="0.675" />
         <ore itemStack="contenttweaker:iridium_dust_block" chance="0.275" />
-        <ore itemStack="contenttweaker:niobium_dust_block" chance="1" />
 	</asteroid>
     <asteroid name="S-Type [H,P]" distance="50" mass="3000" massVariability="0.25" minLevel="0" probability="0.0175" richness="1.0" richnessVariability="0.0" baseStack="contenttweaker:silicon_dioxide_dust_block" timeMultiplier="25">
         <ore itemStack="minecraft:ice" chance="20" />
