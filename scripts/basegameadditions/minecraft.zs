@@ -177,6 +177,12 @@ recipes.addShaped(<minecraft:stone_shovel>,
  [[<minecraft:flint>],
  [<ore:stickWood>]]);
  
+//End teleporter frame
+recipes.remove(<endteleporters:ender_frame>);
+recipes.addShaped(<endteleporters:ender_frame>,
+ [[<ore:obsidian>, <ore:enderpearl>, <ore:obsidian>],
+ [<quark:biotite_block>, <minecraft:end_crystal>, <quark:biotite_block>],
+ [<ore:obsidian>, <ore:enderpearl>, <ore:obsidian>]]);
 /*
 //Bones from animals for bonemeal early
 //This would be enabled if it didn't cause @$#@#$ random crashes I can't trace

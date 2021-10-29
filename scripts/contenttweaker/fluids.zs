@@ -91,10 +91,9 @@ create_solid_fluid("polyethene", "FFFFFF", 400, 800, 2250);
 create_fluid("magnesiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 
-//Molten Magnesium, Lithium, and Calcium Chloride, and Molten Magnesium
+//Molten Magnesium, Lithium, and Molten Magnesium
 create_molten_fluid("moltenmagnesium", "AB9F9E", 930, 1580, 10000);
 create_molten_fluid("moltenlithium", "D9E9ED", 520, 930, 10000);
-create_molten_fluid("moltencalcium", "D4CFB2", 1100, 1380, 10000);
 create_molten_fluid("moltenmagnesiumchloride", "807A79", 2300, 800, 10000);
 create_molten_fluid("moltenlithiumchloride", "847F68", 880, 2000, 10000);
 

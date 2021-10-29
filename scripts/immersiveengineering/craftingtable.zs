@@ -127,12 +127,16 @@ recipes.addShaped(<engineersdecor:straight_pipe_valve> * 2,
  [[<immersiveengineering:metal_device1:6>, <ore:mechanicalComponentAny>, <immersiveengineering:metal_device1:6>]]);
 recipes.replaceAllOccurences(<minecraft:obsidian>, <ore:blockSheetmetalSteel>, <engineersdecor:small_mineral_smelter>);
 
-//Clay from stone dust
+//Clay from stone dust, hempcrete from slag
 recipes.addShaped(<minecraft:clay_ball> * 8,
  [[<ore:dustStone>, <ore:dustStone>, <ore:dustStone>],
  [<ore:dustStone>, <liquid:water> * 1000, <ore:dustStone>],
  [<ore:dustStone>, <ore:dustStone>, <ore:dustStone>]]);
-
+recipes.addShaped(<immersiveengineering:stone_decoration:4> * 4,
+ [[<ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>],
+ [<ore:fiberHemp>, <ore:fiberHemp>, <ore:fiberHemp>],
+ [<ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>]]);
+ 
 //Treated wood with plant oil
 recipes.addShaped(<immersiveengineering:treated_wood> * 4,
  [[null, <ore:plankWood>, null],

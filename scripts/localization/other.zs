@@ -19,6 +19,7 @@ game.setLocalization("gas.hydrogen", "Pressurized Hydrogen");
 game.setLocalization("gas.oxygen", "Pressurized Oxygen");
 game.setLocalization("gas.sulfuricacid", "Pressurized Sulfuric Acid");
 game.setLocalization("fluid.heavywater", "Semiheavy Water");
+game.setLocalization("fluid.rocketFuel", "Liquid Fertilizer");
 
 //Make Quark slate dolomite because I need a good spawn for that
 game.setLocalization("tile.quark:stone_slate.name", "Dolomite");

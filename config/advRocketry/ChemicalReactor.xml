@@ -66,6 +66,15 @@
             <fluidStack>dilutedsulfuricacid;800</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="100" power="120">
+		<input>
+			<fluidStack>distwater;800</fluidStack>
+            <fluidStack>ammonia;200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>rocketfuel;1000</fluidStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="900" power="960">
 		<input>
 			<itemStack>contenttweaker:calcined_crushed_dolomite;2</itemStack>

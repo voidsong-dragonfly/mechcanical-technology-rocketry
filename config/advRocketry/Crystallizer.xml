@@ -65,4 +65,16 @@
             <fluidStack>helium;3900</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="3600" power="1920">
+		<input>
+			<itemStack>contenttweaker:hop_graphite_dust_block</itemStack>
+            <fluidStack>methane;3200</fluidStack>
+            <fluidStack>helium;4000</fluidStack>
+        </input>
+		<output>
+			<oreDict>fiberGraphene;32</oreDict>
+            <fluidStack>hydrogen;12800</fluidStack>
+            <fluidStack>helium;3900</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>

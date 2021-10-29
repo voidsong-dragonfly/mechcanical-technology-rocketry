@@ -22,6 +22,7 @@ ArcFurnace.addRecipe(<libvulpes:productdust:3> * 4, <contenttweaker:silicon_diox
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:gemQuartz>, null, 400, 512, [<ore:dustAnyCarbon>]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:itemFlint>, null, 800, 512, [<ore:dustAnyCarbon>]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 2, <contenttweaker:fine_sand> * 3, <immersiveengineering:material:7>, 1600, 256, [<ore:dustAnyCarbon> * 2]);
+ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:dustStone> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:sand> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
 //ALON (Aluminium Oxynitride) for Panzer Glass - ~2x as bulletproof as standard bulletproof glass
 ArcFurnace.addRecipe(<engineersdecor:panzerglass_block>, <ore:dustAluminum> * 3, <immersiveengineering:material:7>, 400, 512, [<ore:dustSaltpeter>]);
@@ -30,6 +31,7 @@ ArcFurnace.addRecipe(<minecraft:glass>, <ore:sand>, null, 400, 512);
 ArcFurnace.addRecipe(<minecraft:glass> * 4, <contenttweaker:silicon_dioxide_dust_block>, null, 400, 512);
 ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 6, <ore:sand> * 8, <immersiveengineering:material:7> * 2, 400, 512, [<ore:dustIron>]);
 ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <contenttweaker:fine_sand> * 8, null, 400, 512, [<ore:dustIron>]);
+ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <contenttweaker:silicon_dioxide_dust_block> * 2, null, 400, 512, [<ore:dustIron>]);
 
 //Ore processing
 ArcFurnace.addRecipe(<ore:slagLeadSinter>.firstItem * 48, <ore:dustDirtyLead> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);

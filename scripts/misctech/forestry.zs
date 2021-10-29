@@ -49,7 +49,7 @@ for item in forestryRemovals{
 //Forestry crafting changes
 //Fertilizer
 recipes.remove(<forestry:fertilizer_bio>);
-var calcium_sources = <ore:dustCalcium> | <ore:dustAsh> | <minecraft:dye:15>;
+var calcium_sources = <ore:dustAsh> | <minecraft:dye:15>;
 recipes.addShaped(<forestry:fertilizer_compound> * 4,
  [[<mekanism:biofuel>, <mekanism:biofuel>],
  [calcium_sources, <ore:dustSaltpeter>]]);
@@ -59,7 +59,8 @@ recipes.addShaped(<forestry:fertilizer_compound> * 6,
 
 //Fertilizers
 ImmersiveEngineering.addItemFertilizer(<mekanism:biofuel> | <forestry:fertilizer_bio>, 9.0);
-ImmersiveEngineering.addItemFertilizer(<ore:dustAsh> | <ore:dustCalcium>, 10.0);
+ImmersiveEngineering.addItemFertilizer(<ore:dustAsh>, 10.0);
+ImmersiveEngineering.addLiquidFertilizer(<liquid:rocketfuel> * 125, 4.0);
 
 //Remove can recipes
 recipes.removeByRecipeName("forestry:can_bog_earth");

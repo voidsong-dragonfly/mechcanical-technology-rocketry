@@ -407,6 +407,19 @@
 
     
     
+    <Recipe timeRequired="19200" power="960">
+		<input>
+			<itemStack>endteleporters:ender_frame</itemStack>
+            <oreDict>gemEnderBiotite;6</oreDict>
+            <oreDict>stickTitaniumIridium;8</oreDict>
+            <itemStack>minecraft:nether_star</itemStack>
+            <oreDict>dustEnderPearl;16</oreDict>
+            <oreDict>sheetPlatinum;6</oreDict>
+        </input>
+		<output>
+			<itemStack>portalgun:item_miniature_black_hole</itemStack>
+		</output>
+	</Recipe>
     <Recipe timeRequired="2400" power="7680">
 		<input>
 			<itemStack>contenttweaker:high_current_superconductive_coil</itemStack>

@@ -168,11 +168,18 @@ MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>,
 
 //Remove string recipe
 Crusher.removeRecipe(<minecraft:string>);
+Crusher.removeRecipesForInput(<ore:itemSlag>.firstItem);
 
 //Add soul sandstone recipe & other crushing recipes
 Crusher.addRecipe(<minecraft:soul_sand> * 2, <quark:soul_sandstone:*>, 1600, <immersiveengineering:material:24>, 0.875);
 Crusher.addRecipe(<contenttweaker:end_gravel>, <minecraft:end_stone>, 2400);
 Crusher.addRecipe(<minecraft:gravel>, <minecraft:netherrack>, 1600, <ore:dustCinnabar>.firstItem, 0.05);
+
+//Coarse dirt -> dirt recipes
+Crusher.addRecipe(<minecraft:dirt>, <minecraft:dirt:1>, 1600);
+Crusher.addRecipe(<biomesoplenty:dirt:0>, <biomesoplenty:dirt:8>, 1600);
+Crusher.addRecipe(<biomesoplenty:dirt:1>, <biomesoplenty:dirt:9>, 1600);
+Crusher.addRecipe(<biomesoplenty:dirt:2>, <biomesoplenty:dirt:10>, 1600);
 
 //Add petroleum related recipes
 Crusher.addRecipe(<ore:dustCharcoal>.firstItem, <minecraft:coal:1>, 2400);
