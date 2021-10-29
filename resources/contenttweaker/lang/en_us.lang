@@ -208,36 +208,28 @@ tile.contenttweaker.fresh_sulfated_mega_regolith.name=Fresh Sulfate Rock
 tile.contenttweaker.sulfated_mega_regolith.name=Sulfate Rock
 tile.contenttweaker.sulfated_mega_regolith_cobblestone.name=Sulfate Rock Cobblestone
 tile.contenttweaker.sulfated_mega_regolith_gravel.name=Sulfate Rock Gravel
-tile.contenttweaker.mixed_exotic_salts.name=Mixed Exotic Salts
-tile.contenttweaker.mixed_exotic_clays.name=Mixed Exotic Clays
 #Regoliths
 tile.contenttweaker.icebound_regolith.name=Icebound Regolith
-tile.contenttweaker.fine_highland_regolith_volatiles.name=Fine Highland Regolith
-tile.contenttweaker.fine_lowland_regolith_volatiles.name=Fine Lowland Regolith
-tile.contenttweaker.fine_highland_regolith_iron.name=Fine Highland Regolith
-tile.contenttweaker.fine_lowland_regolith_iron.name=Fine Lowland Regolith
-tile.contenttweaker.fine_highland_regolith_metals.name=Fine Highland Regolith
-tile.contenttweaker.fine_lowland_regolith_metals.name=Fine Lowland Regolith
-tile.contenttweaker.compacted_highland_regolith_volatiles.name=Compacted Highland Regolith
-tile.contenttweaker.compacted_lowland_regolith_volatiles.name=Compacted Lowland Regolith
-tile.contenttweaker.compacted_highland_regolith_iron.name=Compacted Highland Regolith
-tile.contenttweaker.compacted_lowland_regolith_iron.name=Compacted Lowland Regolith
-tile.contenttweaker.compacted_highland_regolith_metals.name=Compacted Highland Regolith
-tile.contenttweaker.compacted_lowland_regolith_metals.name=Compacted Lowland Regolith
+tile.contenttweaker.highland_regolith_volatiles.name=Highland Regolith
+tile.contenttweaker.lowland_regolith_volatiles.name=Lowland Regolith
+tile.contenttweaker.highland_regolith_iron.name=Highland Regolith
+tile.contenttweaker.lowland_regolith_iron.name=Lowland Regolith
+tile.contenttweaker.highland_regolith_metals.name=Highland Regolith
+tile.contenttweaker.lowland_regolith_metals.name=Lowland Regolith
 #Rocks
-tile.contenttweaker.mega_highland_regolith_volatiles.name=Highland Rock
-tile.contenttweaker.mega_lowland_regolith_volatiles.name=Lowland Rock
-tile.contenttweaker.mega_highland_regolith_iron.name=Highland Rock
-tile.contenttweaker.mega_lowland_regolith_iron.name=Lowland Rock
-tile.contenttweaker.mega_highland_regolith_metals.name=Highland Rock
-tile.contenttweaker.mega_lowland_regolith_metals.name=Lowland Rock
+tile.contenttweaker.highland_rock_volatiles.name=Highland Rock
+tile.contenttweaker.lowland_rock_volatiles.name=Lowland Rock
+tile.contenttweaker.highland_rock_iron.name=Highland Rock
+tile.contenttweaker.lowland_rock_iron.name=Lowland Rock
+tile.contenttweaker.highland_rock_metals.name=Highland Rock
+tile.contenttweaker.lowland_rock_metals.name=Lowland Rock
 #Rock cobbles
-tile.contenttweaker.mega_highland_regolith_volatiles_cobblestone.name=Highland Rock Cobblestone
-tile.contenttweaker.mega_lowland_regolith_volatiles_cobblestone.name=Lowland Rock Cobblestone
-tile.contenttweaker.mega_highland_regolith_iron_cobblestone.name=Highland Rock Cobblestone
-tile.contenttweaker.mega_lowland_regolith_iron_cobblestone.name=Lowland Rock Cobblestone
-tile.contenttweaker.mega_highland_regolith_metals_cobblestone.name=Highland Rock Cobblestone
-tile.contenttweaker.mega_lowland_regolith_metals_cobblestone.name=Lowland Rock Cobblestone
+tile.contenttweaker.highland_rock_volatiles_cobblestone.name=Highland Rock Cobblestone
+tile.contenttweaker.lowland_rock_volatiles_cobblestone.name=Lowland Rock Cobblestone
+tile.contenttweaker.highland_rock_iron_cobblestone.name=Highland Rock Cobblestone
+tile.contenttweaker.lowland_rock_iron_cobblestone.name=Lowland Rock Cobblestone
+tile.contenttweaker.highland_rock_metals_cobblestone.name=Highland Rock Cobblestone
+tile.contenttweaker.lowland_rock_metals_cobblestone.name=Lowland Rock Cobblestone
 
 #Asteroid mining dust blocks
 #Nonmetals
