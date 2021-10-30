@@ -3,16 +3,16 @@
   "defaults": {
     "transform": "forge:default-block",
     "model": "cube_all",
-    "textures": { "all": "contenttweaker:blocks/mixed_exotic_salts" }
+    "textures": { "all": "contenttweaker:blocks/lowland_rock_volatiles" }
   },
   "variants": {
     "inventory": {
       "model": "cube_all",
-      "textures": { "all": "contenttweaker:blocks/mixed_exotic_salts" }
+      "textures": { "all": "contenttweaker:blocks/lowland_rock_volatiles" }
     },
     "normal": {
       "model": "cube_all",
-      "textures": { "all": "contenttweaker:blocks/mixed_exotic_salts" }
+      "textures": { "all": "contenttweaker:blocks/lowland_rock_volatiles" }
     }
   }
 }

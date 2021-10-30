@@ -73,23 +73,17 @@ fluorite_ore.register();
 create_block("shattered_end_stone", <blockmaterial:rock>, 3.0, 3.0, "pickaxe", 4);
 
 //Ices
-create_block_transparent("oxygen_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("nitrogen_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("carbon_dioxide_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("ammonia_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("methane_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("ethene_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
+create_block_sound("oxygen_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
+create_block_sound("nitrogen_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
+create_block_sound("carbon_dioxide_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
+create_block_sound("ammonia_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
+create_block_sound("methane_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
+create_block_sound("ethene_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
 
 //Snows & planetary ices
-create_block_transparent("tholinated_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("lightly_tholinated_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_transparent("sooty_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
-create_block_sound("soot", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
+create_block_sound("lightly_tholinated_ice", <blockmaterial:ice>, 0.5, 0.5, "pickaxe", <soundtype:glass>, 0);
 create_block_sound("sulfur_dioxide_snow", <blockmaterial:snow>, 0.5, 0.5, "shovel", <soundtype:snow>, 0);
-create_block_sound("sulfur_snow", <blockmaterial:snow>, 0.5, 0.5, "shovel", <soundtype:snow>, 0);
 create_block_sound("damaged_sulfur_snow", <blockmaterial:snow>, 0.5, 0.5, "shovel", <soundtype:snow>, 0);
-create_block_sound("mixed_exotic_salts", <blockmaterial:snow>, 0.5, 0.5, "shovel", <soundtype:snow>, 0);
-create_block_sound("mixed_exotic_clays", <blockmaterial:clay>, 0.5, 0.5, "shovel", <soundtype:ground>, 0);
 //Regoliths
 create_block_sound("icebound_regolith", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
 create_block("fresh_sulfated_mega_regolith", <blockmaterial:rock>, 2.0, 3.0, "pickaxe", 1);
@@ -98,37 +92,31 @@ create_block("sulfated_mega_regolith_cobblestone", <blockmaterial:rock>, 2.0, 3.
 create_block("sulfated_mega_regolith_gravel", <blockmaterial:rock>, 2.0, 3.0, "pickaxe", 1);
 //Volatilic
 //Highland
-create_block_sound("fine_highland_regolith_volatiles", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
-create_block_sound("compacted_highland_regolith_volatiles", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
-create_block("mega_highland_regolith_volatiles", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
-create_block("mega_highland_regolith_volatiles_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
+create_block_sound("highland_regolith_volatiles", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
+create_block("highland_rock_volatiles", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
+create_block("highland_rock_volatiles_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
 //Lowland
-create_block_sound("fine_lowland_regolith_volatiles", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
-create_block_sound("compacted_lowland_regolith_volatiles", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
-create_block("mega_lowland_regolith_volatiles", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
-create_block("mega_lowland_regolith_volatiles_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
+create_block_sound("lowland_regolith_volatiles", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
+create_block("lowland_rock_volatiles", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
+create_block("lowland_rock_volatiles_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
 //Metallic
 //Highland
-create_block_sound("fine_highland_regolith_metals", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
-create_block_sound("compacted_highland_regolith_metals", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
-create_block("mega_highland_regolith_metals", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
-create_block("mega_highland_regolith_metals_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
+create_block_sound("highland_regolith_metals", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
+create_block("highland_rock_metals", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
+create_block("highland_rock_metals_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
 //Lowland
-create_block_sound("fine_lowland_regolith_metals", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
-create_block_sound("compacted_lowland_regolith_metals", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
-create_block("mega_lowland_regolith_metals", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
-create_block("mega_lowland_regolith_metals_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
+create_block_sound("lowland_regolith_metals", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
+create_block("lowland_rock_metals", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
+create_block("lowland_rock_metals_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
 //Oxidized
 //Highland
-create_block_sound("fine_highland_regolith_iron", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
-create_block_sound("compacted_highland_regolith_iron", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
-create_block("mega_highland_regolith_iron", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
-create_block("mega_highland_regolith_iron_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
+create_block_sound("highland_regolith_iron", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
+create_block("highland_rock_iron", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
+create_block("highland_rock_iron_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
 //Lowland
-create_block_sound("fine_lowland_regolith_iron", <blockmaterial:sand>, 0.5, 0.8, "shovel", <soundtype:sand>, 1);
-create_block_sound("compacted_lowland_regolith_iron", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
-create_block("mega_lowland_regolith_iron", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
-create_block("mega_lowland_regolith_iron_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
+create_block_sound("lowland_regolith_iron", <blockmaterial:sand>, 0.7, 0.8, "shovel", <soundtype:sand>, 1);
+create_block("lowland_rock_iron", <blockmaterial:rock>, 2.0, 6.0, "pickaxe", 1);
+create_block("lowland_rock_iron_cobblestone", <blockmaterial:rock>, 1.75, 6.0, "pickaxe", 1);
 
 //Asteroid mining dust blocks
 //Nonmetals

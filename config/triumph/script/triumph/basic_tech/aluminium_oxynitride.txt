@@ -1,7 +1,0 @@
-setIcon(<engineersdecor:panzerglass_block>)
-setTitle("Transparent Aluminium")
-setDescription("Craft aluminium oxynitride glass for a blastproof glass harder than corrundum")
-addParent("triumph:basic_tech/arc_furnace")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<engineersdecor:panzerglass_block>)
-setPos(-25,-140)

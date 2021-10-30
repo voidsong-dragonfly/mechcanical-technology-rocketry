@@ -32,8 +32,6 @@ recipes.replaceAllOccurences(<advancedrocketry:misc>, <ore:paneGlass>);
 removeAndHide(<advancedrocketry:blockpump>);
 removeAndHide(<advancedrocketry:electrolyser>);
 removeAndHide(<advancedrocketry:platepress>);
-removeAndHide(<advancedrocketry:arcfurnace>);
-removeAndHide(<advancedrocketry:blastbrick>);
 
 //Remove highest tier tank, so oxygen is more of a concern and something to be engaged in
 removeAndHide(<advancedrocketry:pressuretank:3>);
