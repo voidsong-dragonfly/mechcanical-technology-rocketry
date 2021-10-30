@@ -66,15 +66,6 @@
             <fluidStack>dilutedsulfuricacid;800</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="100" power="120">
-		<input>
-			<fluidStack>distwater;800</fluidStack>
-            <fluidStack>ammonia;200</fluidStack>
-        </input>
-		<output>
-			<fluidStack>rocketfuel;1000</fluidStack>
-		</output>
-	</Recipe>
     <Recipe timeRequired="1920" power="960">
 		<input>
 			<fluidStack>ethylene;1600</fluidStack>

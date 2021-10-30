@@ -152,6 +152,12 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:basaltSourceAny>.add(<contenttweaker:lowland_rock_volatiles>);
 <ore:basaltSourceAny>.add(<contenttweaker:lowland_rock_iron>);
 <ore:basaltSourceAny>.add(<contenttweaker:lowland_rock_metals>);
+<ore:regolithAnyCobblestone>.add(<contenttweaker:highland_rock_volatiles_cobblestone>);
+<ore:regolithAnyCobblestone>.add(<contenttweaker:highland_rock_iron_cobblestone>);
+<ore:regolithAnyCobblestone>.add(<contenttweaker:highland_rock_metals_cobblestone>);
+<ore:regolithAnyCobblestone>.add(<contenttweaker:lowland_rock_volatiles_cobblestone>);
+<ore:regolithAnyCobblestone>.add(<contenttweaker:lowland_rock_iron_cobblestone>);
+<ore:regolithAnyCobblestone>.add(<contenttweaker:lowland_rock_metals_cobblestone>);
 
 //Sulfate rock
 <ore:anySulfateStone>.add(<contenttweaker:sulfated_mega_regolith>);

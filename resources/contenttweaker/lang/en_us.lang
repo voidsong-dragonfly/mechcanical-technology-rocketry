@@ -113,7 +113,6 @@ fluid.lithiumchloridesolution=Lithium Chloride Solution
 #Molten metals from salts
 fluid.moltenmagnesium=Molten Magnesium
 fluid.moltenlithium=Molten Lithium
-fluid.moltencalcium=Molten Calcium
 
 #Molten salts
 fluid.moltenmagnesiumchloride=Molten Magnesium Chloride
@@ -169,7 +168,6 @@ fluid.uraniumtailingssolution=Uranium Tailings Solution
 #Iron Processing
 fluid.moltencrudeiron=Molten Crude Iron
 fluid.moltensteel=Molten Steel
-fluid.moltenslag=Molten Slag
 #Copper Processing
 fluid.coppersulfatesolution=Copper Sulfate Solution
 fluid.coppersulfatesolutionresidue=Copper Sulfate Solution Residue
@@ -184,6 +182,26 @@ fluid.impuremoltentin=Impure Molten Tin
 fluid.moltenlead=Molten Lead
 #Titanium Processing
 fluid.titaniumtetrachloride=Titanium Tetrachloride
+
+#Regolith processing
+fluid.moltenhighlandvoltaileregolith=Molten Highland Gas-Rich Regolith
+fluid.moltenlowlandvoltaileregolith=Molten Lowland Gas-Rich Regolith
+fluid.moltenhighlandironregolith=Molten Highland Iron-Rich Regolith
+fluid.moltenlowlandironregolith=Molten Lowland Iron-Rich Regolith
+fluid.moltenhighlandmetalregolith=Molten Highland Metal-Rich Regolith
+fluid.moltenlowlandmetalregolith=Molten Lowland Metal-Rich Regolith
+fluid.moltenhighlandvoltailemetals=Molten Highland Gas-Rich Metal Mix
+fluid.moltenlowlandvoltailemetals=Molten Lowland Gas-Rich Metal Mix
+fluid.moltenhighlandironmetals=Molten Highland Iron-Rich Metal Mix
+fluid.moltenlowlandironmetals=Molten Lowland Iron-Rich Metal Mix
+fluid.moltenhighlandmetalmetals=Molten Highland Metal-Rich Metal Mix
+fluid.moltenlowlandmetalmetals=Molten Lowland Metal-Rich Metal Mix
+fluid.molteniron=Molten Iron
+fluid.moltentitanium=Molten Titanium
+fluid.moltensilicon=Molten Silicon
+fluid.moltenmischmetal=Molten Mischmetal
+fluid.moltenslag=Molten Slag
+fluid.moltensulfur=Molten Sulfur
 
 
 

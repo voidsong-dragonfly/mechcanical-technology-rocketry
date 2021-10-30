@@ -20,8 +20,9 @@ import mods.immersiveengineering.AlloySmelter;
    Machine recipes - anything that goes in an IE machine
 */
 
-//Air gasses mix
+//Air gasses mix & fertilizer
 Refinery.addRecipe(<liquid:oxynitrogenmix> * 100, <liquid:nitrogen> * 80, <liquid:oxygen> * 20, 80);
+Refinery.addRecipe(<liquid:rocketfuel> * 100, <liquid:distwater> * 80, <liquid:ammonia> * 20, 80);
 
 //Petrochem recipes
 //Add hydrotreated oil/gas recipe
@@ -65,6 +66,12 @@ BottlingMachine.addRecipe(<earthworks:block_concrete> * 8, <ore:gravel>, <liquid
 BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5> * 8, <ore:sand>, <liquid:concrete> * 1000);
 BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 8, <ore:dustAluminum>, <liquid:concrete> * 125);
 BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:scaffoldingSteel>, <liquid:concrete> * 125);
+BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:fiberBasalt> * 8, <liquid:concrete> * 125);
+
+//Lunar concrete bottling machine recipes
+BottlingMachine.addRecipe(<earthworks:block_concrete>, <ore:regolithAnyCobblestone>, <liquid:moltensulfur> * 125);
+BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5>, <ore:regolithAny>, <liquid:moltensulfur> * 125);
+BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <advancedrocketry:concrete>, <liquid:moltensulfur> * 125);
 
 //Plastic bottling machine recipes
 BottlingMachine.addRecipe(<ore:injectionMoldHDPERod>.firstItem, <immersiveengineering:mold:2>, <liquid:polyethene> * 125);
@@ -144,6 +151,8 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> 
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> * 800, null, null, <liquid:distwater> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogendeuteride> * 1600, <liquid:oxygen> * 800, null, null, <liquid:heavywater> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:deuterium> * 400, <liquid:hydrogen> * 400, null, null, <liquid:hydrogendeuteride> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:moltensulfur> * 800, <liquid:oxygen> * 800, null, null, <liquid:sulfurdioxide> * 800, 384000, 100);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfurdioxide> * 800, <liquid:oxygen> * 400, null, null, <liquid:sulfurtrioxide> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 800, <liquid:chlorine> * 800, <liquid:sodiumhydroxidesolution> * 8000, null, <liquid:brine> * 8000, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltensodium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltensalt> * 800, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenmagnesium> * 800, <liquid:chlorine> * 800, null, null, <liquid:moltenmagnesiumchloride> * 800, 384000, 100);
@@ -165,6 +174,9 @@ MeltingCrucible.addRecipe(<liquid:methane> * 1000, <contenttweaker:methane_ice>,
 MeltingCrucible.addRecipe(<liquid:carbondioxide> * 1000, <contenttweaker:carbon_dioxide_ice>, 76800, 160);
 MeltingCrucible.addRecipe(<liquid:ethylene> * 1000, <contenttweaker:ethene_ice>, 76800, 160);
 MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 76800, 160);
+//Sulfur
+MeltingCrucible.addRecipe(<liquid:moltensulfur> * 100, <ore:dustSulfur>, 9600, 160);
+MeltingCrucible.addRecipe(<liquid:moltensulfur> * 800, <contenttweaker:sulfur_dust_block>, 76800, 160);
 
 //Remove string recipe
 Crusher.removeRecipe(<minecraft:string>);

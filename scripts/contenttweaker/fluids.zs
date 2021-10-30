@@ -148,3 +148,24 @@ create_molten_fluid("impuremoltentin", "F2E9E0", 1800, 7000, 10000);
 create_molten_fluid("moltenlead", "404046", 1800, 10600, 10000);
 //Titanium processing
 create_gas("titaniumtetrachloride", "E7EBC8");
+
+//Regolith processing
+//Partially processed
+create_molten_fluid("moltenlowlandvoltaileregolith", "717171", 1750, 3200, 10000);
+create_molten_fluid("moltenlowlandvoltailemetals", "717171", 1750, 3200, 10000);
+create_molten_fluid("moltenhighlandvoltaileregolith", "a5a5a5", 1750, 2800, 10000);
+create_molten_fluid("moltenhighlandvoltailemetals", "a5a5a5", 1750, 2800, 10000);
+create_molten_fluid("moltenlowlandironregolith", "856954", 1750, 3700, 10000);
+create_molten_fluid("moltenlowlandironmetals", "856954", 1750, 3700, 10000);
+create_molten_fluid("moltenhighlandironregolith", "aa7a56", 1750, 3100, 10000);
+create_molten_fluid("moltenhighlandironmetals", "aa7a56", 1750, 3100, 10000);
+create_molten_fluid("moltenlowlandmetalregolith", "7a7a7a", 1750, 3100, 10000);
+create_molten_fluid("moltenlowlandmetalmetals", "7a7a7a", 1750, 3100, 10000);
+create_molten_fluid("moltenhighlandmetalregolith", "9c9c9c", 1750, 2700, 10000);
+create_molten_fluid("moltenhighlandmetalmetals", "9c9c9c", 1750, 2700, 10000);
+//End products
+create_molten_fluid("molteniron", "989898", 1810, 6980, 10000);
+create_molten_fluid("moltentitanium", "CCC8FA", 1940, 4110, 10000);
+create_molten_fluid("moltensilicon", "070707", 1680, 2570, 10000);
+create_molten_fluid("moltenmischmetal", "7E8084", 2000, 9000, 10000);
+create_molten_fluid("moltensulfur", "B08D25", 390, 1920, 10000);

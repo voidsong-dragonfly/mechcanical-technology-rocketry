@@ -157,4 +157,72 @@
             <fluidStack>helium;3500</fluidStack>
 		</output>
 	</Recipe>
+    
+    <Recipe timeRequired="400" power ="1536">
+		<input>
+            <itemStack>contenttweaker:lowland_regolith_volatiles;48</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:lowland_rock_volatiles_cobblestone;48</itemStack>
+            <fluidStack>hydrogen;58</fluidStack>
+            <fluidStack>helium;58</fluidStack>
+            <fluidStack>helium3;1</fluidStack>
+            <fluidStack>nitrogen;3</fluidStack>
+            <fluidStack>carbondioxide;12</fluidStack>
+            <fluidStack>sulfurdioxide;45</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="1536">
+		<input>
+            <itemStack>contenttweaker:highland_regolith_volatiles;48</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:highland_rock_volatiles_cobblestone;48</itemStack>
+            <fluidStack>hydrogen;101</fluidStack>
+            <fluidStack>helium;101</fluidStack>
+            <fluidStack>helium3;2</fluidStack>
+            <fluidStack>nitrogen;14</fluidStack>
+            <fluidStack>fluorine;9</fluidStack>
+            <fluidStack>carbondioxide;45</fluidStack>
+            <fluidStack>sulfurdioxide;15</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="1536">
+		<input>
+            <itemStack>contenttweaker:lowland_regolith_iron;48</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:lowland_rock_iron_cobblestone;48</itemStack>
+            <fluidStack>chlorine;672</fluidStack>
+            <fluidStack>sulfurtrioxide;4176</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="1536">
+		<input>
+            <itemStack>contenttweaker:highland_regolith_iron;48</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:highland_rock_iron_cobblestone;48</itemStack>
+            <fluidStack>chlorine;576</fluidStack>
+            <fluidStack>sulfurtrioxide;1824</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="1536">
+		<input>
+            <itemStack>contenttweaker:lowland_regolith_metals;48</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:lowland_rock_metals_cobblestone;48</itemStack>
+            <fluidStack>sulfurdioxide;1776</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="1536">
+		<input>
+            <itemStack>contenttweaker:highland_regolith_metals;48</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:highland_rock_metals_cobblestone;48</itemStack>
+            <fluidStack>sulfurdioxide;2016</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>

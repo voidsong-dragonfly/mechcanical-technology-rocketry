@@ -102,7 +102,7 @@ game.setLocalization("item.circuitIC.5.name", "Liquid IO Circuit Board");
 
 //Make AR EAF into electric kiln
 game.setLocalization("tile.blastBrick.name", "Reinforced Kiln Brick");
-game.setLocalization("item.electricArcFurnace.name", "Electric Kiln");
+game.setLocalization("tile.electricArcFurnace.name", "Electric Kiln");
 
 game.setLocalization("tile.immersiveposts.uraniumpost.name", "Uranium Dioxide Post");
 game.setLocalization("tile.immersiveposts.fence_uranium.name", "Uranium Dioxide Fence");
