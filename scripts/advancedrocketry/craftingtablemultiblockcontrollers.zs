@@ -4,6 +4,13 @@ import mods.jei.JEI.hide;
 
 
 
+//Kiln
+recipes.remove(<advancedrocketry:arcfurnace>);
+recipes.addShaped(<advancedrocketry:arcfurnace>,
+ [[<ore:sheetSteel>, <ore:paneGlass>, <ore:sheetSteel>],
+ [<advancedrocketry:ic:5>, <advancedrocketry:blastbrick>, <advancedrocketry:ic:3>],
+ [<ore:circuitBasic>, <advancedrocketry:ic:4>, <ore:circuitBasic>]]);
+
 //Cutting machine
 recipes.remove(<advancedrocketry:cuttingmachine>);
 recipes.addShaped(<advancedrocketry:cuttingmachine>,

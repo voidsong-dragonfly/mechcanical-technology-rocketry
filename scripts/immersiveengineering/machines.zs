@@ -169,6 +169,10 @@ MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>,
 //Remove string recipe
 Crusher.removeRecipe(<minecraft:string>);
 
+//Make cobble recipe only take MC cobble
+Crusher.removeRecipe(<minecraft:gravel>);
+Crusher.addRecipe(<minecraft:gravel>, <minecraft:cobblestone>, 1600);
+
 //Add soul sandstone recipe & other crushing recipes
 Crusher.addRecipe(<minecraft:soul_sand> * 2, <quark:soul_sandstone:*>, 1600, <immersiveengineering:material:24>, 0.875);
 Crusher.addRecipe(<contenttweaker:end_gravel>, <minecraft:end_stone>, 2400);

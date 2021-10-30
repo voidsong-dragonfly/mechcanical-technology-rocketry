@@ -51,6 +51,12 @@ recipes.addShaped(<immersivetech:stone_decoration> * 3,
  [<ore:ingotBrickNether>, <quark:soul_sandstone>, <ore:ingotBrickNether>],
  [<ore:plateSteel>, <ore:ingotBrickNether>, <ore:plateSteel>]]);
  
+//Add moon-useable and moon-locked blast brick recipe
+recipes.addShaped(<immersiveengineering:stone_decoration:2> * 3,
+ [[<ore:plateSteel>, <quark:world_stone_bricks:3>, <ore:plateSteel>],
+ [<quark:world_stone_bricks:3>, <engineersdecor:panzerglass_block>, <quark:world_stone_bricks:3>],
+ [<ore:plateSteel>, <quark:world_stone_bricks:3>, <ore:plateSteel>]]);
+ 
 //Slightly changed generator block recipe
 recipes.remove(<immersiveengineering:metal_decoration0:6>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2,

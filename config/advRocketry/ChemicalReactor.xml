@@ -66,26 +66,6 @@
             <fluidStack>dilutedsulfuricacid;800</fluidStack>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="900" power="960">
-		<input>
-			<itemStack>contenttweaker:calcined_crushed_dolomite;2</itemStack>
-            <oreDict>dustSilicon</oreDict>
-        </input>
-		<output>
-            <oreDict>dustMagnesium;2</oreDict>
-            <itemStack>immersiveengineering:material;1;7</itemStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="900" power="960">
-		<input>
-			<itemStack>contenttweaker:calcined_crushed_marble;4</itemStack>
-            <oreDict>dustSilicon;3</oreDict>
-        </input>
-		<output>
-            <oreDict>dustMagnesium;2</oreDict>
-            <itemStack>immersiveengineering:material;5;7</itemStack>
-		</output>
-	</Recipe>
     <Recipe timeRequired="1920" power="960">
 		<input>
 			<fluidStack>ethylene;1600</fluidStack>
@@ -258,28 +238,6 @@
             <fluidStack>nitrogen;3000</fluidStack>
 		</output>
 	</Recipe>
-    
-    <Recipe timeRequired="1600" power="960">
-		<input>
-			<oreDict>fiberBitumen;16</oreDict>
-            <fluidStack>nitrogen;4000</fluidStack>
-        </input>
-		<output>
-            <oreDict>fiberCarbonizedBitumen;16</oreDict>
-            <fluidStack>nitrogen;3500</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="2400" power="960">
-		<input>
-			<oreDict>fiberCarbonizedBitumen;16</oreDict>
-            <fluidStack>helium;4000</fluidStack>
-        </input>
-		<output>
-            <oreDict>fiberCarbon;16</oreDict>
-            <fluidStack>helium;3500</fluidStack>
-		</output>
-	</Recipe>
-    
     
     <Recipe timeRequired="300" power="960">
 		<input>

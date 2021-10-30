@@ -16,19 +16,13 @@ ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 12, <ore:ingotEquivalen
 ArcFurnace.addRecipe(<ore:ingotMaragingSteel>.firstItem * 20, <ore:ingotEquivalentTitanium>, null, 4000, 512, [<ore:ingotEquivalentIron> * 12, <ore:ingotEquivalentNickel> * 4, <ore:dustCobalt> * 2, <ore:ingotEquivalentMolybdenum>], "Alloying & Steelmaking");
 ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 5, <ore:ingotEquivalentTitanium>, null, 2000, 1024, [<ore:ingotEquivalentIridium> * 4], "Alloying & Steelmaking");
 
-//Glassmaking and silicon production
 //Silicon Production
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 4, <contenttweaker:silicon_dioxide_dust_block>, null, 1600, 512, [<ore:dustAnyCarbon> * 4]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:gemQuartz>, null, 400, 512, [<ore:dustAnyCarbon>]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 2, <contenttweaker:fine_sand> * 3, <immersiveengineering:material:7>, 1600, 256, [<ore:dustAnyCarbon> * 2]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:sand> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
-//ALON (Aluminium Oxynitride) for Panzer Glass - ~2x as bulletproof as standard bulletproof glass
-ArcFurnace.addRecipe(<engineersdecor:panzerglass_block>, <ore:dustAluminum> * 3, <immersiveengineering:material:7>, 400, 512, [<ore:dustSaltpeter>]);
-//Sand for normal glass & insulating glass
-ArcFurnace.addRecipe(<minecraft:glass>, <ore:sand>, null, 400, 512);
-ArcFurnace.addRecipe(<minecraft:glass> * 4, <contenttweaker:silicon_dioxide_dust_block>, null, 400, 512);
-ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 6, <ore:sand> * 8, <immersiveengineering:material:7> * 2, 400, 512, [<ore:dustIron>]);
-ArcFurnace.addRecipe(<immersiveengineering:stone_decoration:8> * 8, <contenttweaker:fine_sand> * 8, null, 400, 512, [<ore:dustIron>]);
+//Basalt production
+ArcFurnace.addRecipe(<quark:basalt>, <ore:basaltSourceAny>, null, 100, 512);
 
 //Ore processing
 ArcFurnace.addRecipe(<ore:slagLeadSinter>.firstItem * 48, <ore:dustDirtyLead> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);

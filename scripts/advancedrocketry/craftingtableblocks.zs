@@ -7,10 +7,10 @@ import mods.immersiveengineering.CokeOven;
  
 //Turn AR concrete into Cement
 recipes.remove(<advancedrocketry:concrete>);
-recipes.addShaped(<advancedrocketry:concrete> * 8,
- [[<contenttweaker:fine_sand>, <earthworks:item_quicklime>, <contenttweaker:fine_sand>],
- [<ore:itemClay>, <liquid:water> * 1000, <ore:itemClay>],
- [<contenttweaker:fine_sand>, <earthworks:item_quicklime>, <contenttweaker:fine_sand>]]);
+recipes.addShaped(<advancedrocketry:concrete>,
+ [[<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>],
+ [<ore:fiberBasalt>, <ore:regolithAny>, <ore:fiberBasalt>],
+ [<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>]]);
 
 //Rocket pieces need more involved recipes than three ingots and three plates
 recipes.remove(<advancedrocketry:rocketmotor>);
@@ -208,3 +208,14 @@ recipes.addShaped(<advancedrocketry:launchpad> * 2,
 //Iridium Crubible & asteroid mining
 recipes.remove(<advancedrocketry:iquartzcrucible>);
 recipes.remove(<advancedrocketry:drill>); 
+
+//Kiln Brick, pre- and post- moon recipes
+recipes.remove(<advancedrocketry:blastbrick>);
+recipes.addShaped(<advancedrocketry:blastbrick> * 3,
+ [[<ore:itemSlag>, <ore:ingotBrickNether>, <ore:itemSlag>],
+ [<ore:ingotBrickNether>, <engineersdecor:slag_brick_block>, <ore:ingotBrickNether>],
+ [<ore:itemSlag>, <ore:ingotBrickNether>, <ore:itemSlag>]]);
+recipes.addShaped(<advancedrocketry:blastbrick> * 3,
+ [[<ore:itemSlag>, <quark:world_stone_bricks:3>, <ore:itemSlag>],
+ [<quark:world_stone_bricks:3>, <engineersdecor:panzerglass_block>, <quark:world_stone_bricks:3>],
+ [<ore:itemSlag>, <quark:world_stone_bricks:3>, <ore:itemSlag>]]);

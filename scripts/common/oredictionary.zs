@@ -137,6 +137,43 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:crystalLargeCitrine>.add(<advancedrocketry:crystal:4>);
 <ore:crystalLargeWulfentite>.add(<advancedrocketry:crystal:5>);
 
+//Any regolith entries
+<ore:regolithAny>.add(<contenttweaker:highland_regolith_volatiles>);
+<ore:regolithAny>.add(<contenttweaker:highland_regolith_iron>);
+<ore:regolithAny>.add(<contenttweaker:highland_regolith_metals>);
+<ore:regolithAny>.add(<contenttweaker:lowland_regolith_volatiles>);
+<ore:regolithAny>.add(<contenttweaker:lowland_regolith_iron>);
+<ore:regolithAny>.add(<contenttweaker:lowland_regolith_metals>);
+
+//Any planetary rock entries
+<ore:basaltSourceAny>.add(<contenttweaker:highland_rock_volatiles>);
+<ore:basaltSourceAny>.add(<contenttweaker:highland_rock_iron>);
+<ore:basaltSourceAny>.add(<contenttweaker:highland_rock_metals>);
+<ore:basaltSourceAny>.add(<contenttweaker:lowland_rock_volatiles>);
+<ore:basaltSourceAny>.add(<contenttweaker:lowland_rock_iron>);
+<ore:basaltSourceAny>.add(<contenttweaker:lowland_rock_metals>);
+
+//Sulfate rock
+<ore:anySulfateStone>.add(<contenttweaker:sulfated_mega_regolith>);
+<ore:anySulfateStone>.add(<contenttweaker:fresh_sulfated_mega_regolith>);
+
+//Add panzer glass to glass OD
+<ore:blockGlassColorless>.add(<engineersdecor:panzerglass_block>);
+
+//Stone and cobble ODs for megaregolith
+<ore:cobblestone>.add(<contenttweaker:highland_rock_volatiles_cobblestone>);
+<ore:cobblestone>.add(<contenttweaker:highland_rock_iron_cobblestone>);
+<ore:cobblestone>.add(<contenttweaker:highland_rock_metals_cobblestone>);
+<ore:cobblestone>.add(<contenttweaker:lowland_rock_volatiles_cobblestone>);
+<ore:cobblestone>.add(<contenttweaker:lowland_rock_iron_cobblestone>);
+<ore:cobblestone>.add(<contenttweaker:lowland_rock_metals_cobblestone>);
+<ore:stone>.add(<contenttweaker:highland_rock_volatiles>);
+<ore:stone>.add(<contenttweaker:highland_rock_iron>);
+<ore:stone>.add(<contenttweaker:highland_rock_metals>);
+<ore:stone>.add(<contenttweaker:lowland_rock_volatiles>);
+<ore:stone>.add(<contenttweaker:lowland_rock_iron>);
+<ore:stone>.add(<contenttweaker:lowland_rock_metals>);
+
 //LibVulpes coil entries
 <ore:blockCoil>.remove(<libvulpes:coil0:*>);
 <ore:coilCopper>.remove(<libvulpes:coil0:4>);

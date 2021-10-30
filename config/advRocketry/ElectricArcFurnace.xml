@@ -32,4 +32,129 @@
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
 <Recipes useDefault="false">
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<itemStack>minecraft:clay;12</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:hardened_clay;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<itemStack>ceramics:clay_soft;12</itemStack>
+		</input>
+		<output>
+			<itemStack>ceramics:porcelain;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<itemStack>minecraft:quartz_block;12</itemStack>
+		</input>
+		<output>
+			<itemStack>futuremc:smooth_quartz;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<itemStack>minecraft:glowstone;12</itemStack>
+		</input>
+		<output>
+			<itemStack>charm:smooth_glowstone;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<itemStack>contenttweaker:crushed_dolomite;12</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:calcined_crushed_dolomite;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<itemStack>contenttweaker:crushed_marble;12</itemStack>
+		</input>
+		<output>
+			<itemStack>contenttweaker:calcined_crushed_marble;12</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="100" power ="6144">
+		<input>
+			<oreDict>sand;12</oreDict>
+		</input>
+		<output>
+			<itemStack>minecraft:glass;12</itemStack>
+		</output>
+	</Recipe>
+    
+    <Recipe timeRequired="400" power ="6144">
+		<input>
+			<itemStack>contenttweaker:silicon_dioxide_dust_block;12</itemStack>
+		</input>
+		<output>
+			<itemStack>minecraft:glass;48</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="6144">
+		<input>
+			<itemStack>minecraft:glass;12</itemStack>
+            <oreDict>dustIron;2</oreDict>
+		</input>
+		<output>
+			<itemStack>immersiveengineering:stone_decoration;12;8</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power ="6144">
+		<input>
+            <oreDict>regolithAny;12</oreDict>
+            <oreDict>stoneBasaltAny;4</oreDict>
+		</input>
+		<output>
+			<itemStack>engineersdecor:panzerglass_block;16</itemStack>
+		</output>
+	</Recipe>
+    
+    <Recipe timeRequired="400" power="3072">
+		<input>
+			<itemStack>contenttweaker:calcined_crushed_dolomite;12</itemStack>
+            <oreDict>dustSilicon;6</oreDict>
+        </input>
+		<output>
+            <oreDict>dustMagnesium;12</oreDict>
+            <itemStack>immersiveengineering:material;6;7</itemStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="400" power="3072">
+		<input>
+			<itemStack>contenttweaker:calcined_crushed_marble;12</itemStack>
+            <oreDict>dustSilicon;9</oreDict>
+        </input>
+		<output>
+            <oreDict>dustMagnesium;6</oreDict>
+            <itemStack>immersiveengineering:material;15;7</itemStack>
+		</output>
+	</Recipe>
+    
+    <Recipe timeRequired="1600" power="960">
+		<input>
+			<oreDict>fiberBitumen;16</oreDict>
+            <fluidStack>nitrogen;4000</fluidStack>
+        </input>
+		<output>
+            <oreDict>fiberCarbonizedBitumen;16</oreDict>
+            <fluidStack>nitrogen;3500</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="2400" power="960">
+		<input>
+			<oreDict>fiberCarbonizedBitumen;16</oreDict>
+            <fluidStack>helium;4000</fluidStack>
+        </input>
+		<output>
+            <oreDict>fiberCarbon;16</oreDict>
+            <fluidStack>helium;3500</fluidStack>
+		</output>
+	</Recipe>
 </Recipes>
