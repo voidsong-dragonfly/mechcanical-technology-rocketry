@@ -80,8 +80,9 @@ game.setLocalization("tile.rustic.stone_pillar.name", "Fission Reactor Fuel Asse
 //Quartz Crucible to Iridium Crucible
 game.setLocalization("tile.qcrucible.name", "Iridium Crucible");
 
-//AR Concrete to cement
-game.setLocalization("tile.concrete.name", "Cement");
+//AR lunar construction materials
+game.setLocalization("tile.concrete.name", "Regolith Rebar Concrete Frame");
+game.setLocalization("tile.engineersdecor.panzerglass_block.name", "Regolith Glass Block");
 
 //AR Crystals to their actual names
 game.setLocalization("tile.ruby.name", "Large Ruby Crystal");
@@ -98,6 +99,10 @@ game.setLocalization("data.undefined.name", "Undefined Data Type");
 game.setLocalization("item.circuitIC.3.name", "Item IO Circuit Board");
 game.setLocalization("item.circuitIC.4.name", "Energy IO Circuit Board");
 game.setLocalization("item.circuitIC.5.name", "Liquid IO Circuit Board");
+
+//Make AR EAF into electric kiln
+game.setLocalization("tile.blastBrick.name", "Reinforced Kiln Brick");
+game.setLocalization("item.electricArcFurnace.name", "Electric Kiln");
 
 game.setLocalization("tile.immersiveposts.uraniumpost.name", "Uranium Dioxide Post");
 game.setLocalization("tile.immersiveposts.fence_uranium.name", "Uranium Dioxide Fence");
