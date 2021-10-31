@@ -162,6 +162,7 @@ create_block_sound("uranium_tailings", <blockmaterial:sand>, 0.75, 0.8, "shovel"
 
 //Frames
 create_block_transparent("beryllium_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
+create_block_transparent("aluminium_magnesium_titanide_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 create_block_transparent("maraging_steel_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 create_block_transparent("titanium_iridium_alloy_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 //Plascrete

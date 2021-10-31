@@ -1,0 +1,32 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "transform": "forge:default-block",
+    "model": "orientable",
+    "textures": {
+      "particle": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side",
+      "side": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side",
+      "front": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side",
+      "top": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_top",
+      "down": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side"
+    }
+  },
+  "variants": {
+    "normal": {
+      "transform": "forge:default-block",
+      "textures": {
+        "particle": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side",
+        "side": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side",
+        "front": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side",
+        "top": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_top",
+        "down": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_side"
+      }
+    },
+    "inventory": {
+      "model": "cube_bottom_top",
+      "textures": {
+        "top": "contenttweaker:blocks/aluminium_magnesium_titanide_frame_top"
+      }
+    }
+  }
+}

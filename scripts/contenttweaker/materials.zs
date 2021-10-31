@@ -25,7 +25,6 @@ MaterialSystem.getPartBuilder().setName("amalgam").setPartType(MaterialSystem.ge
 MaterialSystem.getPartBuilder().setName("wire").setPartType(MaterialSystem.getPartType("item")).setOreDictName("wire").build();
 MaterialSystem.getPartBuilder().setName("sheet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("sheet").build();
 MaterialSystem.getPartBuilder().setName("mechanicalcomponent").setPartType(MaterialSystem.getPartType("item")).setOreDictName("mechanicalComponent").build();
-MaterialSystem.getPartBuilder().setName("scaffoldingpanel").setPartType(MaterialSystem.getPartType("item")).setOreDictName("scaffoldingPanel").build();
 MaterialSystem.getPartBuilder().setName("smallpipe").setPartType(MaterialSystem.getPartType("item")).setOreDictName("smallPipe").build();
 MaterialSystem.getPartBuilder().setName("fuelpellet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fuelPellet").build();
 MaterialSystem.getPartBuilder().setName("compressor").setPartType(MaterialSystem.getPartType("item")).setOreDictName("compressor").build();
@@ -75,27 +74,24 @@ MaterialSystem.getPartBuilder().setName("injectionmold").setPartType(MaterialSys
 
 
 //Order
-static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "scaffoldingpanel", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
+static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
 
 
 
 //Materials
 static materials as Material[string] = {
     //Metals
-    "Steel" : MaterialSystem.getMaterialBuilder().setName("Steel").setColor(Color.fromHex("707070")).build(),
     "Maraging Steel" : MaterialSystem.getMaterialBuilder().setName("Maraging Steel").setColor(Color.fromHex("83919E")).build(),
     "Titanium" : MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("CCC8FA")).build(),
     "Aluminium Magnesium Titanide" : MaterialSystem.getMaterialBuilder().setName("Aluminium Magnesium Titanide").setColor(Color.fromHex("aec2de")).build(),
     "Titanium Nitride" : MaterialSystem.getMaterialBuilder().setName("Titanium Nitride").setColor(Color.fromHex("DDDAFA")).build(),
     "Beryllium" : MaterialSystem.getMaterialBuilder().setName("Beryllium").setColor(Color.fromHex("999A8D")).build(),
     "Silver" : MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("d0dce4")).build(),
-    "Aluminium" : MaterialSystem.getMaterialBuilder().setName("Aluminium").setColor(Color.fromHex("b3babd")).build(),
     "Platinum" : MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("C9E3F9")).build(),
     "Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     "Depleted Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranium Dioxide").setColor(Color.fromHex("363636")).build(),
     "Lightly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium Dioxide").setColor(Color.fromHex("55614c")).build(),
     "Mischmetal" : MaterialSystem.getMaterialBuilder().setName("Mischmetal").setColor(Color.fromHex("7e8084")).build(),
-    "Titanium Iridium Alloy" : MaterialSystem.getMaterialBuilder().setName("Titanium Iridium Alloy").setColor(Color.fromHex("d7dfe4")).build(),
     "Annealed Copper" : MaterialSystem.getMaterialBuilder().setName("Annealed Copper").setColor(Color.fromHex("d55e28")).build(),
     //Metals, ore dust(s) only
     "Mercury Gold" : MaterialSystem.getMaterialBuilder().setName("Mercury Gold").setColor(Color.fromHex("8b7e43")).build(),
@@ -171,20 +167,17 @@ static materials as Material[string] = {
 
 static parts as string[][string] = {
     //Metals
-    "Steel" : ["scaffoldingpanel"],
-    "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "rod", "mechanicalcomponent", "scaffoldingpanel" , "block", "smallpipe"],
+    "Maraging Steel" : ["ingot", "plate", "nugget", "dust", "mechanicalcomponent", "block", "smallpipe"],
     "Titanium" : ["smallpipe", "wire"],
-    "Aluminium Magnesium Titanide" : ["scaffoldingpanel", "compressor"],
+    "Aluminium Magnesium Titanide" : ["compressor"],
     "Titanium Nitride" : ["wire"],
-    "Beryllium" : ["ingot", "nugget", "dust", "scaffoldingpanel", "smallpipe"],
+    "Beryllium" : ["ingot", "nugget", "dust", "smallpipe"],
     "Silver" : ["wire"],
-    "Aluminium" : ["scaffoldingpanel"],
     "Platinum" : ["ingot", "plate", "nugget", "dust", "sheet", "wire"],
     "Mixed Platinum Group Metal" : ["dust"],
     "Depleted Uranium Dioxide" : ["ingot", "plate", "nugget", "dust"],
     "Lightly Enriched Uranium Dioxide" : ["fuelpellet"],
     "Mischmetal" : ["ingot", "nugget", "dust", "wire"],
-    "Titanium Iridium Alloy" : ["scaffoldingpanel"],
     "Annealed Copper" : ["wire"],
     //Metals, ore dust only
     "Mercury Gold" : ["amalgam"],
@@ -281,5 +274,8 @@ Constantan - ef876c
 Bronze - b88c5d
 Lithium - 
 Tungsten - 3e424b
+Steel - 707070
+Aluminium - b3babd
+Titanium Iridium Alloy - d7dfe4
 */
 

@@ -89,13 +89,13 @@ recipes.addShaped(<modularmachinery:blockcontroller>,
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:circuitAdvanced>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockinputbus:0>,
- [[<ore:sheetSteel>, <ore:scaffoldingPanelBeryllium>, <ore:sheetSteel>],
+ [[<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
  [<ore:sheetSteel>, null, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockoutputbus:0>,
  [[<ore:sheetSteel>, null, <ore:sheetSteel>],
  [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:scaffoldingPanelBeryllium>, <ore:sheetSteel>]]);
+ [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcasing:5>, 
  [[<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
@@ -125,42 +125,42 @@ air_collection.build();
 */
 
 //Scaffolding
-var aluminium_scaffolding_panel = newBuilder("aluminium_scaffolding_panel", "heavy_metal_press", 400);
-aluminium_scaffolding_panel.addEnergyPerTickInput(11520);
-aluminium_scaffolding_panel.addItemInput(<ore:ingotAluminum>, 1);
-aluminium_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-aluminium_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelAluminium>.firstItem * 12);
-aluminium_scaffolding_panel.build();
-var steel_scaffolding_panel = newBuilder("steel_scaffolding_panel", "heavy_metal_press", 400);
-steel_scaffolding_panel.addEnergyPerTickInput(11520);
-steel_scaffolding_panel.addItemInput(<ore:ingotSteel>);
-steel_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-steel_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelSteel>.firstItem * 12);
-steel_scaffolding_panel.build();
-var maraging_steel_scaffolding_panel = newBuilder("maraging_steel_scaffolding_panel", "heavy_metal_press", 400);
-maraging_steel_scaffolding_panel.addEnergyPerTickInput(11520);
-maraging_steel_scaffolding_panel.addItemInput(<ore:ingotMaragingSteel>, 1);
-maraging_steel_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-maraging_steel_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelMaragingSteel>.firstItem * 12);
-maraging_steel_scaffolding_panel.build();
-var beryllium_scaffolding_panel = newBuilder("beryllium_scaffolding_panel", "heavy_metal_press", 400);
-beryllium_scaffolding_panel.addEnergyPerTickInput(11520);
-beryllium_scaffolding_panel.addItemInput(<ore:ingotBeryllium>, 1);
-beryllium_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-beryllium_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelBeryllium>.firstItem * 12);
-beryllium_scaffolding_panel.build();
-var titanium_aluminide_scaffolding_panel = newBuilder("titanium_aluminide_scaffolding_panel", "heavy_metal_press", 400);
-titanium_aluminide_scaffolding_panel.addEnergyPerTickInput(11520);
-titanium_aluminide_scaffolding_panel.addItemInput(<ore:ingotTitaniumAluminide>, 1);
-titanium_aluminide_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-titanium_aluminide_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelAluminiumMagnesiumTitanide>.firstItem * 12);
-titanium_aluminide_scaffolding_panel.build();
-var titanium_iridium_scaffolding_panel = newBuilder("titanium_iridium_scaffolding_panel", "heavy_metal_press", 400);
-titanium_iridium_scaffolding_panel.addEnergyPerTickInput(11520);
-titanium_iridium_scaffolding_panel.addItemInput(<ore:ingotTitaniumIridium>, 1);
-titanium_iridium_scaffolding_panel.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-titanium_iridium_scaffolding_panel.addItemOutput(<ore:scaffoldingPanelTitaniumIridiumAlloy>.firstItem * 12);
-titanium_iridium_scaffolding_panel.build();
+var aluminium_scaffolding = newBuilder("aluminium_scaffolding", "heavy_metal_press", 400);
+aluminium_scaffolding.addEnergyPerTickInput(11520);
+aluminium_scaffolding.addItemInput(<ore:ingotAluminum>, 1);
+aluminium_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+aluminium_scaffolding.addItemOutput(<ore:scaffoldingAluminum>.firstItem * 2);
+aluminium_scaffolding.build();
+var steel_scaffolding = newBuilder("steel_scaffolding", "heavy_metal_press", 400);
+steel_scaffolding.addEnergyPerTickInput(11520);
+steel_scaffolding.addItemInput(<ore:ingotSteel>);
+steel_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+steel_scaffolding.addItemOutput(<ore:scaffoldingSteel>.firstItem * 2);
+steel_scaffolding.build();
+var maraging_steel_scaffolding = newBuilder("maraging_steel_scaffolding", "heavy_metal_press", 400);
+maraging_steel_scaffolding.addEnergyPerTickInput(11520);
+maraging_steel_scaffolding.addItemInput(<ore:ingotMaragingSteel>, 1);
+maraging_steel_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+maraging_steel_scaffolding.addItemOutput(<contenttweaker:maraging_steel_frame> * 2);
+maraging_steel_scaffolding.build();
+var beryllium_scaffolding = newBuilder("beryllium_scaffolding", "heavy_metal_press", 400);
+beryllium_scaffolding.addEnergyPerTickInput(11520);
+beryllium_scaffolding.addItemInput(<ore:ingotBeryllium>, 1);
+beryllium_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+beryllium_scaffolding.addItemOutput(<contenttweaker:beryllium_frame> * 2);
+beryllium_scaffolding.build();
+var titanium_aluminide_scaffolding = newBuilder("titanium_aluminide_scaffolding", "heavy_metal_press", 400);
+titanium_aluminide_scaffolding.addEnergyPerTickInput(11520);
+titanium_aluminide_scaffolding.addItemInput(<ore:ingotTitaniumAluminide>, 1);
+titanium_aluminide_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+titanium_aluminide_scaffolding.addItemOutput(<contenttweaker:aluminium_magnesium_titanide_frame> * 2);
+titanium_aluminide_scaffolding.build();
+var titanium_iridium_scaffolding = newBuilder("titanium_iridium_scaffolding", "heavy_metal_press", 400);
+titanium_iridium_scaffolding.addEnergyPerTickInput(11520);
+titanium_iridium_scaffolding.addItemInput(<ore:ingotTitaniumIridium>, 1);
+titanium_iridium_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
+titanium_iridium_scaffolding.addItemOutput(<contenttweaker:titanium_iridium_alloy_frame> * 2);
+titanium_iridium_scaffolding.build();
 //Engine Bells & Crucibles
 var rocket_engine_bell = newBuilder("rocket_engine_bell", "heavy_metal_press", 1600);
 rocket_engine_bell.addEnergyPerTickInput(11520);

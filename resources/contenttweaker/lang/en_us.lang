@@ -9,13 +9,11 @@ contenttweaker.part.amalgam=%s Amalgam
 contenttweaker.part.wire=%s Wire
 contenttweaker.part.sheet=%s Sheet
 contenttweaker.part.mechanicalcomponent=%s Mechanical Component
-contenttweaker.part.scaffoldingpanel=%s Scaffolding Panel
 contenttweaker.part.smallpipe=%s Small Pipe
 contenttweaker.part.fuelpellet=%s Fuel Pellet
 contenttweaker.part.compressor=%s Compressor
 #New parts - nonmetal types
 contenttweaker.part.fiber=%s Fiber
-contenttweaker.part.slag=%s Slag
 contenttweaker.part.sludge=%s Sludge
 #New parts - silicon types
 contenttweaker.part.boule=%s Boule
@@ -215,10 +213,7 @@ tile.contenttweaker.methane_ice.name=Methane Ice
 tile.contenttweaker.ethene_ice.name=Ethylene Ice
 
 #Snows & planetary ices
-tile.contenttweaker.tholinated_ice.name=Tholiated Ice
 tile.contenttweaker.lightly_tholinated_ice.name=Lightly Tholinated Ice
-tile.contenttweaker.sooty_ice.name=Sooty Ice
-tile.contenttweaker.soot.name=Soot
 tile.contenttweaker.sulfur_dioxide_snow.name=Sulfur Dioxide Snow
 tile.contenttweaker.sulfur_snow.name=Sulfur Snow
 tile.contenttweaker.damaged_sulfur_snow.name=Damaged Sulfur Snow
@@ -319,6 +314,7 @@ tile.contenttweaker.shattered_end_stone.name=Shattered End Stone
 #Mech blocks
 #Frames
 tile.contenttweaker.beryllium_frame.name=Beryllium Scaffolding
+tile.contenttweaker.aluminium_magnesium_titanide_frame.name=Aluminium Magnesium Titanide Scaffolding
 tile.contenttweaker.maraging_steel_frame.name=Maraging Steel Scaffolding
 tile.contenttweaker.titanium_iridium_alloy_frame.name=Titanium Iridium Alloy Scaffolding
 #Plascrete

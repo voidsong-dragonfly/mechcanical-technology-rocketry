@@ -228,7 +228,7 @@ register([<ore:nuggetPlatinum>, <ore:ingotPlatinum>]);
 register([<ore:nuggetDepletedUraniumDioxide>, <ore:ingotDepletedUraniumDioxide>]);
 register([<ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:ingotLightlyEnrichedUraniumDioxide>]);
 register([<ore:nuggetBeryllium>, <ore:ingotBeryllium>, <ore:dustBeryllium>]);
-register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:stickMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>]);
+register([<ore:nuggetMaragingSteel>, <ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, <ore:plateMaragingSteel>, <ore:dustMaragingSteel>]);
 register([<ore:nuggetMischmetal>, <ore:ingotMischmetal>]);
 
 //CT sheets

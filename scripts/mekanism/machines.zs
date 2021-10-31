@@ -26,12 +26,12 @@ thermalevaporation.addRecipe(<liquid:magnesiumchloridesolution> * 4, <liquid:lit
 
 //The PRC is an atomizer, no matter what you said
 reaction.removeAllRecipes();
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:molteniron> * 1600, <gas:nitrogen> * 100, <immersiveengineering:metal:18> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenmagnesium> * 1600, <gas:nitrogen> * 100, <contenttweaker:material_part:60> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenaluminium> * 1600, <gas:nitrogen> * 100, <immersiveengineering:metal:10> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltentitanium> * 1600, <gas:nitrogen> * 100, <libvulpes:productdust:7> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltensilicon> * 1600, <gas:nitrogen> * 100, <libvulpes:productdust:3> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenslag> * 1600, <gas:nitrogen> * 100, <immersiveengineering:material:7> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltensulfur> * 1600, <gas:nitrogen> * 100, <immersiveengineering:material:25> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenlithium> * 1600, <gas:nitrogen> * 100, <mekanism:otherdust:4> * 16, <gas:nitrogen> * 100, 10000, 320);
-reaction.addRecipe(<minecraft:iron_nugget>, <liquid:pahoehoelava> * 1000, <gas:nitrogen> * 100, <minecraft:magma>, <gas:nitrogen> * 100, 10000, 50);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:molteniron> * 1600, <gas:nitrogen> * 100, <immersiveengineering:metal:18> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenmagnesium> * 1600, <gas:nitrogen> * 100, <contenttweaker:material_part:60> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenaluminium> * 1600, <gas:nitrogen> * 100, <immersiveengineering:metal:10> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltentitanium> * 1600, <gas:nitrogen> * 100, <libvulpes:productdust:7> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltensilicon> * 1600, <gas:nitrogen> * 100, <libvulpes:productdust:3> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenslag> * 1600, <gas:nitrogen> * 100, <immersiveengineering:material:7> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltensulfur> * 1600, <gas:nitrogen> * 100, <immersiveengineering:material:25> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:moltenlithium> * 1600, <gas:nitrogen> * 100, <mekanism:otherdust:4> * 16, <gas:nitrogen> * 100, 500, 320);
+reaction.addRecipe(<minecraft:iron_nugget>, <liquid:pahoehoelava> * 1000, <gas:nitrogen> * 100, <minecraft:magma>, <gas:nitrogen> * 100, 500, 50);

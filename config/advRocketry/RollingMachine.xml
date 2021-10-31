@@ -79,7 +79,7 @@
 	</Recipe>
 	<Recipe timeRequired="120" power ="160">
 		<input>
-			<oreDict>ingotTungsten</oreDict>
+			<oreDict>ingotMolybdenum</oreDict>
 			<fluidStack>lubricant;300</fluidStack>
 		</input>
 		<output>

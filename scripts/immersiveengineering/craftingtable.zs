@@ -97,7 +97,7 @@ recipes.addShaped(<contenttweaker:lubricated_bearing> * 2,
  [<ore:ingotSteel>, <immersiveengineering:toolupgrade:1>, <ore:ingotSteel>]]);
 recipes.addShaped(<contenttweaker:magnetic_bearing> * 2,
  [[<ore:ingotMaragingSteel>, <contenttweaker:superconductive_coil> |  <contenttweaker:high_current_superconductive_coil>, <ore:ingotMaragingSteel>],
- [<ore:mechanicalComponentMaragingSteel>, <ore:stickMaragingSteel>, <ore:mechanicalComponentMaragingSteel>],
+ [<ore:mechanicalComponentMaragingSteel>, <ore:mechanicalComponentMaragingSteel>, <ore:mechanicalComponentMaragingSteel>],
  [<ore:ingotMaragingSteel>, <contenttweaker:superconductive_coil> |  <contenttweaker:high_current_superconductive_coil>, <ore:ingotMaragingSteel>]]);
 
 //Make powder barrels more appealing
@@ -242,28 +242,6 @@ recipes.addShaped(<immersivetech:metal_barrel:2>,
  [[<ore:plateSteel>],
  [<contenttweaker:steel_barrel_shell>],
  [<ore:plateSteel>]]);
-
-//Scaffolding recipes
-recipes.addShaped(<immersiveengineering:metal_decoration1:1>,
- [[null, <ore:scaffoldingPanelSteel>, <ore:scaffoldingPanelSteel>],
- [<ore:scaffoldingPanelSteel>, null, <ore:scaffoldingPanelSteel>],
- [<ore:scaffoldingPanelSteel>, <ore:scaffoldingPanelSteel>, null]]);
-recipes.addShaped(<immersiveengineering:metal_decoration1:5>,
- [[null, <ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>],
- [<ore:scaffoldingPanelAluminium>, null, <ore:scaffoldingPanelAluminium>],
- [<ore:scaffoldingPanelAluminium>, <ore:scaffoldingPanelAluminium>, null]]);
-recipes.addShaped(<contenttweaker:beryllium_frame>,
- [[null, <ore:scaffoldingPanelBeryllium>, <ore:scaffoldingPanelBeryllium>],
- [<ore:scaffoldingPanelBeryllium>, null, <ore:scaffoldingPanelBeryllium>],
- [<ore:scaffoldingPanelBeryllium>, <ore:scaffoldingPanelBeryllium>, null]]);
-recipes.addShaped(<contenttweaker:maraging_steel_frame>,
- [[null, <ore:scaffoldingPanelMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>],
- [<ore:scaffoldingPanelMaragingSteel>, null, <ore:scaffoldingPanelMaragingSteel>],
- [<ore:scaffoldingPanelMaragingSteel>, <ore:scaffoldingPanelMaragingSteel>, null]]);
-recipes.addShaped(<contenttweaker:titanium_iridium_alloy_frame>,
- [[null, <ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
- [<ore:scaffoldingPanelTitaniumIridiumAlloy>, null, <ore:scaffoldingPanelTitaniumIridiumAlloy>],
- [<ore:scaffoldingPanelTitaniumIridiumAlloy>, <ore:scaffoldingPanelTitaniumIridiumAlloy>, null]]);
  
 //HVDC, HV, & MV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!

@@ -58,10 +58,10 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
-			<oreDict>ingotTungsten</oreDict>
+			<oreDict>ingotMolybdenum</oreDict>
 		</input>
 		<output>
-			<oreDict>stickTungsten;2</oreDict>
+			<oreDict>stickMolybdenum;2</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
@@ -90,14 +90,6 @@
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
 		<input>
-			<oreDict>ingotSilverIndiumAlloy</oreDict>
-		</input>
-		<output>
-			<oreDict>stickSilverIndiumAlloy;2</oreDict>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
 			<oreDict>ingotGold</oreDict>
 		</input>
 		<output>
@@ -118,14 +110,6 @@
 		</input>
 		<output>
 			<oreDict>stickSteel;2</oreDict>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="150" power ="160">
-		<input>
-			<oreDict>ingotMaragingSteel</oreDict>
-		</input>
-		<output>
-			<oreDict>stickMaragingSteel;2</oreDict>
 		</output>
 	</Recipe>
 	<Recipe timeRequired="150" power ="160">
