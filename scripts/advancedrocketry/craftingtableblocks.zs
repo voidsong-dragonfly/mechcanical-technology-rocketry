@@ -4,13 +4,6 @@ import mods.jei.JEI.hide;
 import mods.immersiveengineering.CokeOven;
 
 
- 
-//Turn AR concrete into precursor stuff
-recipes.remove(<advancedrocketry:concrete>);
-recipes.addShaped(<advancedrocketry:concrete>,
- [[<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>],
- [<ore:fiberBasalt>, <ore:regolithAny>, <ore:fiberBasalt>],
- [<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>]]);
 
 //Rocket pieces need more involved recipes than three ingots and three plates
 recipes.remove(<advancedrocketry:rocketmotor>);

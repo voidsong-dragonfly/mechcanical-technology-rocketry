@@ -82,7 +82,9 @@ game.setLocalization("tile.rustic.stone_pillar.name", "Fission Reactor Fuel Asse
 game.setLocalization("tile.qcrucible.name", "Iridium Crucible");
 
 //AR lunar construction materials
-game.setLocalization("tile.concrete.name", "Regolith Rebar Concrete Frame");
+game.setLocalization("tile.turf.name", "Regolith Concrete Mix");
+game.setLocalization("tile.turfDark.name", "Regolith Coarse Concrete Mix");
+game.setLocalization("tile.hotDryturf.name", "Regolith Rebar Concrete Frame");
 game.setLocalization("tile.engineersdecor.panzerglass_block.name", "Regolith Glass Block");
 
 //AR Crystals to their actual names

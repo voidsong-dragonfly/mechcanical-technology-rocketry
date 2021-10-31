@@ -68,11 +68,6 @@ BottlingMachine.addRecipe(<engineersdecor:gas_concrete> * 8, <ore:dustAluminum>,
 BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:scaffoldingSteel>, <liquid:concrete> * 125);
 BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <ore:fiberBasalt> * 8, <liquid:concrete> * 125);
 
-//Lunar concrete bottling machine recipes
-BottlingMachine.addRecipe(<earthworks:block_concrete>, <ore:regolithAnyCobblestone>, <liquid:moltensulfur> * 125);
-BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5>, <ore:regolithAny>, <liquid:moltensulfur> * 125);
-BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <advancedrocketry:concrete>, <liquid:moltensulfur> * 125);
-
 //Plastic bottling machine recipes
 BottlingMachine.addRecipe(<ore:injectionMoldHDPERod>.firstItem, <immersiveengineering:mold:2>, <liquid:polyethene> * 125);
 BottlingMachine.addRecipe(<ore:injectionMoldHDPESheet>.firstItem, <immersiveengineering:mold:0>, <liquid:polyethene> * 250);

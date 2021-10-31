@@ -59,3 +59,18 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenlowlandironmetals> * 487, <l
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenhighlandironmetals> * 453, <liquid:oxygen> * 729, null, null, <liquid:moltenhighlandironregolith> * 1000, 3072000, 800);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenlowlandmetalmetals> * 593, <liquid:oxygen> * 925, null, null, <liquid:moltenlowlandmetalregolith> * 1000, 3072000, 800);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenhighlandmetalmetals> * 508, <liquid:oxygen> * 810, null, null, <liquid:moltenhighlandmetalregolith> * 1000, 3072000, 800);
+
+//Concrete-Related recipes
+//Turn AR planet turfs into precursor stuff
+recipes.addShapeless(<advancedrocketry:moonturf> * 6, [<ore:regolithAny>, <ore:regolithAny>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>]);
+recipes.addShapeless(<advancedrocketry:moonturf_dark> * 6, [<ore:regolithAnyCobblestone>, <ore:regolithAnyCobblestone>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>]);
+recipes.addShaped(<advancedrocketry:hotturf>,
+ [[<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>],
+ [<ore:fiberBasalt>, <advancedrocketry:moonturf> | <advancedrocketry:moonturf_dark>, <ore:fiberBasalt>],
+ [<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>]]);
+//Lunar concrete bottling machine recipes
+BottlingMachine.addRecipe(<earthworks:block_concrete>, <ore:regolithAnyCobblestone>, <liquid:moltensulfur> * 125);
+BottlingMachine.addRecipe(<earthworks:block_concrete>, <advancedrocketry:moonturf_dark>, <liquid:moltensulfur> * 125);
+BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5>, <ore:regolithAny>, <liquid:moltensulfur> * 125);
+BottlingMachine.addRecipe(<immersiveengineering:stone_decoration:5>, <advancedrocketry:moonturf>, <liquid:moltensulfur> * 125);
+BottlingMachine.addRecipe(<engineersdecor:rebar_concrete>, <advancedrocketry:hotturf>, <liquid:moltensulfur> * 125);

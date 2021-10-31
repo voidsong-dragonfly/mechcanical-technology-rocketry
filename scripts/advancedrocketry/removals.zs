@@ -37,9 +37,7 @@ removeAndHide(<advancedrocketry:platepress>);
 removeAndHide(<advancedrocketry:pressuretank:3>);
 
 //Don't need AR environment blocks
-removeAndHide(<advancedrocketry:moonturf>);
-removeAndHide(<advancedrocketry:moonturf_dark>);
-removeAndHide(<advancedrocketry:hotturf>);
+removeAndHide(<advancedrocketry:concrete>);
 removeAndHide(<advancedrocketry:basalt>);
 
 //Don't need laser
