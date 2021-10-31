@@ -213,15 +213,24 @@ recipes.addShaped(<immersiveengineering:railgun>,
  [<immersiveengineering:metal_decoration0:1>, <ore:ingotSteel>, null]]);
 recipes.replaceAllOccurences(<immersiveengineering:metal_device0:2>, <immersiveengineering:metal_device0:1>, <immersiveengineering:toolupgrade:9>);
  
-//Add T3+ drill head(s)
+//Add T3+ drill head(s), and rotate head recipes to be closer to 1.16
+recipes.remove(<immersiveengineering:drillhead:*>);
+recipes.addShaped(<immersiveengineering:drillhead:1>,
+ [[null, <ore:ingotIron>, <ore:ingotIron>],
+ [<ore:ingotIron>, <ore:blockIron>, <ore:ingotIron>],
+ [<ore:blockIron>, <ore:ingotIron>, null]]);
+recipes.addShaped(<immersiveengineering:drillhead>,
+ [[null, <ore:ingotSteel>, <ore:ingotSteel>],
+ [<ore:ingotSteel>, <ore:blockSteel>, <ore:ingotSteel>],
+ [<ore:blockSteel>, <ore:ingotSteel>, null]]);
 recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -14000}),
- [[<ore:dustDiamond>, <ore:dustDiamond>, null],
- [<ore:blockSteel>, <ore:blockSteel>, <ore:ingotSteel>],
- [<ore:dustDiamond>, <ore:dustDiamond>, null]]);
+ [[null, <ore:dustDiamond>, <ore:ingotSteel>],
+ [<ore:dustDiamond>, <ore:blockSteel>, <ore:dustDiamond>],
+ [<ore:blockSteel>, <ore:dustDiamond>, null]]);
 recipes.addShaped(<immersiveengineering:drillhead>.withTag({headDamage: -30000}),
- [[<ore:ingotMaragingSteel>, <ore:dustDiamond>, null],
- [<ore:blockMaragingSteel>, <ore:blockMolybdenum>, <ore:dustDiamond>],
- [<ore:ingotMaragingSteel>, <ore:dustDiamond>, null]]);
+ [[null, <ore:dustDiamond>, <ore:dustDiamond>],
+ [<ore:ingotMaragingSteel>, <ore:blockMolybdenum>, <ore:dustDiamond>],
+ [<ore:blockMaragingSteel>, <ore:ingotMaragingSteel>, null]]);
 
 //Redo handheld core sample drill recipe
 recipes.remove(<engineersprospecting:handheld_core_sampler>);
