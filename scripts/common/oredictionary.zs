@@ -419,3 +419,8 @@ hide(<libvulpes:productboule:3>);
 <ore:stoneDolomiteAny>.add(<quark:world_stone_carved:7>);
 <ore:stoneDolomiteAny>.add(<quark:world_stone_pavement:7>);
 recipes.replaceAllOccurences(<ore:stoneSlate>, <ore:stoneDolomite>, <quark:slate_speleothem>);
+//PVJ lunar basalt stuff
+<ore:stoneBasaltAny>.add(<pvj:basalt>);
+<ore:stoneBasaltAny>.add(<pvj:basalt_brick>);
+<ore:brickBasaltAny>.add(<pvj:basalt_brick>);
+<ore:brickBasaltAny>.add(<quark:world_stone_bricks:3>);

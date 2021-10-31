@@ -127,10 +127,6 @@ static materials as Material[string] = {
     "Graphene" : MaterialSystem.getMaterialBuilder().setName("Graphene").setColor(Color.fromHex("101010")).build(),
     "Carbon" : MaterialSystem.getMaterialBuilder().setName("Carbon").setColor(Color.fromHex("202020")).build(),
     "Basalt" : MaterialSystem.getMaterialBuilder().setName("Basalt").setColor(Color.fromHex("171717")).build(),
-    //Metal slag intermediates
-    "Impure Tin" : MaterialSystem.getMaterialBuilder().setName("Impure Tin").setColor(Color.fromHex("928c87")).build(),
-    "Nickel Matte" : MaterialSystem.getMaterialBuilder().setName("Nickel Matte").setColor(Color.fromHex("5b574f")).build(),
-    "Lead Sinter" : MaterialSystem.getMaterialBuilder().setName("Lead Sinter").setColor(Color.fromHex("242023")).build(),
     //Metal Sludge
     "Copper Derived Anode" : MaterialSystem.getMaterialBuilder().setName("Copper Derived Anode").setColor(Color.fromHex("474643")).build(),
     "Nickel Derived Anode" : MaterialSystem.getMaterialBuilder().setName("Nickel Derived Anode").setColor(Color.fromHex("434347")).build(),
@@ -159,7 +155,6 @@ static materials as Material[string] = {
     "Deformed" : MaterialSystem.getMaterialBuilder().setName("Deformed").setColor(Color.fromHex("ffffff")).build(),
     "Control" : MaterialSystem.getMaterialBuilder().setName("Control").setColor(Color.fromHex("ffffff")).build(),
     //Molds and dies
-    "Ingot" : MaterialSystem.getMaterialBuilder().setName("Ingot").setColor(Color.fromHex("ffffff")).build(),
     "Small Pipe" : MaterialSystem.getMaterialBuilder().setName("Small Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Pipe" : MaterialSystem.getMaterialBuilder().setName("Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Barrel" : MaterialSystem.getMaterialBuilder().setName("Barrel").setColor(Color.fromHex("ffffff")).build(),
@@ -221,10 +216,6 @@ static parts as string[][string] = {
     "Graphene" : ["fiber"],
     "Carbon" : ["fiber"],
     "Basalt" : ["fiber"],
-    //Metal slag intermediates
-    "Impure Tin" : ["slag"],
-    "Nickel Matte" : ["slag"],
-    "Lead Sinter" : ["slag"],
     //Metal Sludge
     "Copper Derived Anode" : ["sludge"],
     "Nickel Derived Anode" : ["sludge"],
@@ -253,7 +244,6 @@ static parts as string[][string] = {
     "Deformed" : ["fuelbundle"],
     "Control" : ["rodbundle"],
     //Molds & dies
-    "Ingot" : ["metalpressmold"],
     "Small Pipe" : ["metalpressmold"],
     "Pipe" : ["metalpressmold"],
     "Barrel" : ["metalpressmold"],

@@ -5,7 +5,7 @@ import mods.immersiveengineering.CokeOven;
 
 
  
-//Turn AR concrete into Cement
+//Turn AR concrete into precursor stuff
 recipes.remove(<advancedrocketry:concrete>);
 recipes.addShaped(<advancedrocketry:concrete>,
  [[<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>],
@@ -216,6 +216,6 @@ recipes.addShaped(<advancedrocketry:blastbrick> * 3,
  [<ore:ingotBrickNether>, <engineersdecor:slag_brick_block>, <ore:ingotBrickNether>],
  [<ore:itemSlag>, <ore:ingotBrickNether>, <ore:itemSlag>]]);
 recipes.addShaped(<advancedrocketry:blastbrick> * 3,
- [[<ore:itemSlag>, <quark:world_stone_bricks:3>, <ore:itemSlag>],
- [<quark:world_stone_bricks:3>, <engineersdecor:panzerglass_block>, <quark:world_stone_bricks:3>],
- [<ore:itemSlag>, <quark:world_stone_bricks:3>, <ore:itemSlag>]]);
+ [[<ore:itemSlag>, <ore:brickBasaltAny>, <ore:itemSlag>],
+ [<ore:brickBasaltAny>, <engineersdecor:panzerglass_block>, <ore:brickBasaltAny>],
+ [<ore:itemSlag>, <ore:brickBasaltAny>, <ore:itemSlag>]]);

@@ -92,7 +92,6 @@ create_fluid("magnesiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 
 //Molten Magnesium, Lithium, and Molten Magnesium
-create_molten_fluid("moltenmagnesium", "AB9F9E", 930, 1580, 10000);
 create_molten_fluid("moltenlithium", "D9E9ED", 520, 930, 10000);
 create_molten_fluid("moltenmagnesiumchloride", "807A79", 2300, 800, 10000);
 create_molten_fluid("moltenlithiumchloride", "847F68", 880, 2000, 10000);
@@ -126,26 +125,17 @@ create_fluid("impuresodiumaluminatesolution", "1A1A20", 300, 3100, 7800);
 create_fluid("sodiumaluminatesolution", "1A1A20", 300, 2000, 7800);
 create_molten_fluid("moltencryolite", "ECCEDB", 1350, 2950, 10000);
 create_molten_fluid("moltencryolitesolution", "ECCEDB", 1350, 3050, 10000);
-create_molten_fluid("moltenaluminium", "899596", 940, 2375, 10000);
 //Uranium processing fluids
 create_fluid("uraniumsulfatesolution", "6E6D31", 300, 2000, 1000);
 create_fluid("uraniumtailingssolution", "1E221C", 300, 2000, 1000);
-//Iron processing fluids
-create_molten_fluid("moltencrudeiron", "BE8972", 1800, 6900, 10000);
-create_molten_fluid("moltensteel", "CB8A44", 2000, 7750, 10000);
-create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
 //Copper processing fluids
 create_fluid("coppersulfatesolution", "6E6D31", 300, 2000, 1000);
 create_fluid("coppersulfatesolutionresidue", "6E6D31", 300, 2000, 1000);
 //Nickel processing fluids
 create_fluid("nickelsulfatesolution", "6E6D31", 300, 2000, 1000);
 create_fluid("nickelsulfatesolutionresidue", "6E6D31", 300, 2000, 1000);
-create_molten_fluid("moltennickelmatte", "948E7F", 1800, 8900, 10000);
 //Tin processing fluids
 create_fluid("tinsulfatesolution", "6E6D31", 300, 2000, 1000);
-create_molten_fluid("impuremoltentin", "F2E9E0", 1800, 7000, 10000);
-//Lead processing fluids
-create_molten_fluid("moltenlead", "404046", 1800, 10600, 10000);
 //Titanium processing
 create_gas("titaniumtetrachloride", "E7EBC8");
 
@@ -165,7 +155,10 @@ create_molten_fluid("moltenhighlandmetalregolith", "9c9c9c", 1750, 2700, 10000);
 create_molten_fluid("moltenhighlandmetalmetals", "9c9c9c", 1750, 2700, 10000);
 //End products
 create_molten_fluid("molteniron", "989898", 1810, 6980, 10000);
+create_molten_fluid("moltenmagnesium", "AB9F9E", 930, 1580, 10000);
+create_molten_fluid("moltenaluminium", "899596", 940, 2375, 10000);
 create_molten_fluid("moltentitanium", "CCC8FA", 1940, 4110, 10000);
-create_molten_fluid("moltensilicon", "070707", 1680, 2570, 10000);
 create_molten_fluid("moltenmischmetal", "7E8084", 2000, 9000, 10000);
+create_molten_fluid("moltensilicon", "070707", 1680, 2570, 10000);
+create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
 create_molten_fluid("moltensulfur", "B08D25", 390, 1920, 10000);

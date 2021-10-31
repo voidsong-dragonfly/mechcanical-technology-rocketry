@@ -215,6 +215,15 @@
             <fluidStack>water;1600</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="100" power="480">
+		<input>
+			<oreDict>dustSilicon;4</oreDict>
+            <fluidStack>oxygen;400</fluidStack>
+        </input>
+		<output>
+			<itemStack>contenttweaker:silicon_dioxide_dust_block</itemStack>
+		</output>
+	</Recipe>
     
     <Recipe timeRequired="4800" power="960">
 		<input>

@@ -15,6 +15,7 @@ game.setLocalization("tile.Transmitter.UltimateUniversalCable.name", "Supercondu
 game.setLocalization("item.BioFuel.name", "Lightly Sulfated Ethanol Resiude");
 
 //Make mekanism gasses "pressurized" but fluids normal
+game.setLocalization("tile.MachineBlock2.PressurizedReactionChamber.name", "Metal Atomizer");
 game.setLocalization("gas.hydrogen", "Pressurized Hydrogen");
 game.setLocalization("gas.oxygen", "Pressurized Oxygen");
 game.setLocalization("gas.sulfuricacid", "Pressurized Sulfuric Acid");

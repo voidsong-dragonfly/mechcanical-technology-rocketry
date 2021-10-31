@@ -88,15 +88,15 @@
 			<itemStack>minecraft:glass;12</itemStack>
 		</output>
 	</Recipe>
-    
-    <Recipe timeRequired="400" power ="6144">
+    <Recipe timeRequired="100" power ="6144">
 		<input>
 			<itemStack>contenttweaker:silicon_dioxide_dust_block;12</itemStack>
 		</input>
 		<output>
-			<itemStack>minecraft:glass;48</itemStack>
+			<itemStack>minecraft:glass;12</itemStack>
 		</output>
 	</Recipe>
+
     <Recipe timeRequired="400" power ="6144">
 		<input>
 			<itemStack>minecraft:glass;12</itemStack>

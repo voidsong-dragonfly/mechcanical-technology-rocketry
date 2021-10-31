@@ -25,10 +25,11 @@ ArcFurnace.addRecipe(<libvulpes:productdust:3> * 2, <contenttweaker:fine_sand> *
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:dustStone> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
 ArcFurnace.addRecipe(<libvulpes:productdust:3>, <ore:sand> * 2, <immersiveengineering:material:7>, 3200, 128, [<ore:dustAnyCarbon>]);
 //Basalt production
-ArcFurnace.addRecipe(<quark:basalt>, <ore:basaltSourceAny>, null, 100, 512);
+ArcFurnace.addRecipe(<pvj:basalt>, <ore:basaltSourceAny>, null, 100, 512);
 
 //Ore processing
-ArcFurnace.addRecipe(<ore:slagLeadSinter>.firstItem * 48, <ore:dustDirtyLead> * 32, null, 400, 512, [<ore:dustIron> * 8, <ore:sand> * 16, <ore:flux> * 16]);
+ArcFurnace.addRecipe(<ore:ingotLead>.firstItem * 6, <ore:dustDirtyLead> * 4, <immersiveengineering:material:7> * 4, 400, 512, [<ore:dustIron>, <ore:sand> * 2, <ore:flux> * 2, <ore:dustAnyCarbon> * 6]);
+ArcFurnace.addRecipe(<ore:ingotIron>.firstItem * 6, <ore:dustDirtyIron> * 4, <immersiveengineering:material:7> * 3, 400, 512, [<ore:dustAnyCarbon> * 4, <ore:flux> * 2]);
 
 //Smelting (dusts)
 ArcFurnace.addRecipe(<minecraft:iron_ingot>, <ore:dustIron>, null, 100, 512, null, "Smelting");

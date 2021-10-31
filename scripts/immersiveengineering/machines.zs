@@ -243,3 +243,26 @@ MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 4
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotLead>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotAluminum>, <immersiveengineering:mold:4>, 3600);
+
+
+//Ore processing stuff
+//Blast furnace ore processing
+BlastFurnace.addRecipe(<ore:dustRutile>.firstItem, <mekores:mekanismore:88>, 1800, <ore:nuggetIron>.firstItem * 4);
+//Sulfuric acid dissolution
+Mixer.addRecipe(<liquid:coppersulfatesolution> * 150, <liquid:sulfuric_acid> * 150, [<ore:dustDirtyCopper>.firstItem], 4000);
+Mixer.addRecipe(<liquid:tinsulfatesolution> * 150, <liquid:sulfuric_acid> * 150, [<mekanism:dirtydust:4>], 4000);
+Mixer.addRecipe(<liquid:nickelsulfatesolution> * 150, <liquid:sulfuric_acid> * 150, [<mekores:mekanismore:13>], 4000);
+Mixer.addRecipe(<liquid:uraniumsulfatesolution> * 100, <liquid:sulfuric_acid> * 100, [<mekores:mekanismore:3>], 4000);
+//Sulfate solution electrolysis
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1200, null, <liquid:coppersulfatesolutionresidue> * 400, <immersiveengineering:metal:30> * 16, <liquid:coppersulfatesolution> * 1600, 1536000, 400);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1600, null, null, <libvulpes:productplate:5> * 16, <liquid:tinsulfatesolution> * 1600, 1920000, 400);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:sulfuric_acid> * 1200, null, <liquid:nickelsulfatesolutionresidue> * 400, <immersiveengineering:metal:34> * 16, <liquid:nickelsulfatesolution> * 1600, 1920000, 400);
+//Aluminium Processing
+furnace.addRecipe(<ore:dustAlumina>.firstItem, <ore:dustAluminiumHydroxide>.firstItem);
+furnace.addRecipe(<ore:dustAlumina>.firstItem, <mekores:mekanismore:33>);
+Mixer.addRecipe(<liquid:moltencryolitesolution> * 100, <liquid:moltencryolite> * 100, [<ore:dustAlumina>.firstItem], 4000);
+ElectrolyticCrucibleBattery.addRecipe(<liquid:oxygen> * 4800, <liquid:moltenaluminium> * 3200, <liquid:moltencryolite> * 3200, null, <liquid:moltencryolitesolution> * 3200, 18432000, 1600);
+//Other
+furnace.addRecipe(<ore:dustYellowcake>.firstItem, <ore:dustAmmoniumDiuranate>.firstItem);
+furnace.addRecipe(<minecraft:gold_ingot>, <ore:amalgamMercuryGold>.firstItem);
+furnace.addRecipe(<immersiveengineering:metal:3>, <ore:amalgamMercurySilver>.firstItem);

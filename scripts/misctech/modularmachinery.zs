@@ -12,14 +12,19 @@ hide(<modulardiversity:blockjackhatch>);
 hide(<modulardiversity:blockmekheatoutput>);
 hide(<modulardiversity:blockdaylightdetector>);
 hide(<modulardiversity:blockweatherdetector>);
+hide(<modulardiversity:blockbiomedetector>);
+hide(<modulardiversity:blockmeklaseracceptor>);
 removeAndHide(<modularmachinery:itemmodularium>);
 removeAndHide(<modularmachinery:blockinputbus:2>);
 removeAndHide(<modularmachinery:blockinputbus:3>);
 removeAndHide(<modularmachinery:blockinputbus:4>);
 removeAndHide(<modularmachinery:blockinputbus:5>);
 removeAndHide(<modularmachinery:blockinputbus:6>);
+removeAndHide(<modularmachinery:blockcasing:0>);
+removeAndHide(<modularmachinery:blockcasing:1>);
 removeAndHide(<modularmachinery:blockcasing:2>);
 removeAndHide(<modularmachinery:blockcasing:3>);
+removeAndHide(<modularmachinery:blockcasing:4>);
 removeAndHide(<modularmachinery:blockoutputbus:2>);
 removeAndHide(<modularmachinery:blockoutputbus:3>);
 removeAndHide(<modularmachinery:blockoutputbus:4>);
@@ -79,14 +84,10 @@ recipes.addShaped(<modularmachinery:blockenergyoutputhatch:2>,
  [[<ore:sheetSteel>, <libvulpes:battery>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, null, <ore:sheetSteel>]]);
-recipes.addShaped(<modularmachinery:blockcasing:1>,
- [[<ore:sheetSteel>, <libvulpes:productfan:6>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <quark:quilted_wool>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcontroller>,
- [[<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>],
+ [[<ore:sheetSteel>, <ore:circuitAdvanced>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>]]);
+ [<ore:sheetSteel>, <ore:circuitAdvanced>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockinputbus:0>,
  [[<ore:sheetSteel>, <ore:scaffoldingPanelBeryllium>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
@@ -103,10 +104,6 @@ recipes.addShaped(<modulardiversity:blockmekheatinput>,
  [[<ore:sheetSteel>, <ore:ingotCopper>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:ingotCopper>, <ore:sheetSteel>]]);
-recipes.addShaped(<modulardiversity:blockbiomedetector>,
- [[<ore:sheetSteel>, <ore:circuitBasic>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:fanSteel>, <ore:sheetSteel>]]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:1>, [<modularmachinery:blockfluidinputhatch:2>]);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidoutputhatch:2>]);
 
@@ -286,34 +283,3 @@ graphite_fiber.addItemInput(<ore:ingotHOPGraphite>);
 graphite_fiber.addItemInput(<ore:metalPressMoldFiber>).setChance(0);
 graphite_fiber.addItemOutput(<ore:fiberBitumen>.firstItem * 4);
 graphite_fiber.build();
-
-
-
-/*
-    Miscellaneous Casting - anything needing casting I haven't covered yet
-*/
-
-//Molten magnesium to magnesium
-var magnesium = newBuilder("magnesium", "casting_basin", 200);
-magnesium.addFluidInput(<liquid:moltenmagnesium> * 1200);
-magnesium.addItemOutput(<ore:dustMagnesium>,  12);
-magnesium.build();
-var lithium = newBuilder("lithium", "casting_basin", 200);
-lithium.addFluidInput(<liquid:moltenlithium> * 1200);
-lithium.addItemOutput(<mekanism:otherdust:4> * 12);
-lithium.build();
-//Lava & pahoehoe lava to magma
-var magma = newBuilder("magma", "casting_basin", 40);
-magma.addFluidInput(<liquid:lava> * 1000);
-magma.addItemOutput(<minecraft:magma>);
-magma.addItemOutput(<ore:dustCopper>).setChance(0.03);
-magma.addItemOutput(<ore:dustGold>).setChance(0.015);
-magma.addItemOutput(<ore:dustMolybdenum>).setChance(0.005);
-magma.build();
-var pahoehoemagma = newBuilder("pahoehoemagma", "casting_basin", 40);
-pahoehoemagma.addFluidInput(<liquid:pahoehoelava> * 1000);
-pahoehoemagma.addItemOutput(<minecraft:magma>);
-pahoehoemagma.addItemOutput(<ore:dustCopper>).setChance(0.06);
-pahoehoemagma.addItemOutput(<ore:dustGold>).setChance(0.03);
-pahoehoemagma.addItemOutput(<ore:dustMolybdenum>).setChance(0.01);
-pahoehoemagma.build();
