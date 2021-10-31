@@ -224,6 +224,15 @@
 			<itemStack>contenttweaker:silicon_dioxide_dust_block</itemStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="100" power="480">
+		<input>
+            <itemStack>contenttweaker:charcoal_dust_block</itemStack>
+            <fluidStack>oxygen;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>carbondioxide;800</fluidStack>
+		</output>
+	</Recipe>
     
     <Recipe timeRequired="4800" power="960">
 		<input>

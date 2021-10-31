@@ -146,7 +146,7 @@ MarxGenerator.addRecipe(<ore:oreNetherCinnabar>, 1.25, 6, <ore:dustCinnabar>.fir
 MarxGenerator.addRecipe(<ore:oreFluorite>, 1.25, 6, <ore:dustFluorite>.firstItem);
 		
 
-//Non-ore-processing electrolysis recipes!
+//Non-ore-processing non-ISRU electrolysis recipes!
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> * 800, null, null, <liquid:water> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 1600, <liquid:oxygen> * 800, null, null, <liquid:distwater> * 1600, 384000, 100);
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogendeuteride> * 1600, <liquid:oxygen> * 800, null, null, <liquid:heavywater> * 1600, 384000, 100);
@@ -160,23 +160,11 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenlithium> * 1600, <liquid:chl
 ElectrolyticCrucibleBattery.addRecipe(<liquid:hydrogen> * 800, <liquid:fluorine> * 800, null, null, <liquid:hydrofluoricacid> * 1600, 1536000, 400);
 
 //Melting recipes
-//Non-ices
 MeltingCrucible.addRecipe(<liquid:moltensalt> * 100, <ore:dustSalt>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltenmagnesiumchloride> * 100, <ore:dustMagnesiumChloride>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:moltenlithiumchloride> * 100, <ore:dustLithiumChloride>, 9600, 40);
 MeltingCrucible.addRecipe(<liquid:polyethene> * 125, <mekanism:polyethene>, 1200, 5);
 MeltingCrucible.addRecipe(<liquid:moltencryolite> * 1000, <ore:oreCryolite>, 153600, 320);
-//Ices
-MeltingCrucible.addRecipe(<liquid:distwater> * 1000, <minecraft:ice>, 76800, 160);
-MeltingCrucible.addRecipe(<liquid:oxygen> * 1000, <contenttweaker:oxygen_ice>, 76800, 160);
-MeltingCrucible.addRecipe(<liquid:nitrogen> * 1000, <contenttweaker:nitrogen_ice>, 76800, 160);
-MeltingCrucible.addRecipe(<liquid:methane> * 1000, <contenttweaker:methane_ice>, 76800, 160);
-MeltingCrucible.addRecipe(<liquid:carbondioxide> * 1000, <contenttweaker:carbon_dioxide_ice>, 76800, 160);
-MeltingCrucible.addRecipe(<liquid:ethylene> * 1000, <contenttweaker:ethene_ice>, 76800, 160);
-MeltingCrucible.addRecipe(<liquid:ammonia> * 1000, <contenttweaker:ammonia_ice>, 76800, 160);
-//Sulfur
-MeltingCrucible.addRecipe(<liquid:moltensulfur> * 100, <ore:dustSulfur>, 9600, 160);
-MeltingCrucible.addRecipe(<liquid:moltensulfur> * 800, <contenttweaker:sulfur_dust_block>, 76800, 160);
 
 //Remove string recipe
 Crusher.removeRecipe(<minecraft:string>);

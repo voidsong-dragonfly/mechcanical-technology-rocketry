@@ -180,6 +180,26 @@ import mods.immersiveengineering.BottlingMachine;
 <ore:stone>.add(<contenttweaker:lowland_rock_iron>);
 <ore:stone>.add(<contenttweaker:lowland_rock_metals>);
 
+//ODs for various types of regolith
+<ore:rockLowVolatile>.add(<contenttweaker:lowland_regolith_volatiles>);
+<ore:rockLowVolatile>.add(<contenttweaker:lowland_rock_volatiles>);
+<ore:rockLowVolatile>.add(<contenttweaker:lowland_rock_volatiles_cobblestone>);
+<ore:rockHighVolatile>.add(<contenttweaker:highland_regolith_volatiles>);
+<ore:rockHighVolatile>.add(<contenttweaker:highland_rock_volatiles>);
+<ore:rockHighVolatile>.add(<contenttweaker:highland_rock_volatiles_cobblestone>);
+<ore:rockLowIron>.add(<contenttweaker:lowland_regolith_iron>);
+<ore:rockLowIron>.add(<contenttweaker:lowland_rock_iron>);
+<ore:rockLowIron>.add(<contenttweaker:lowland_rock_iron_cobblestone>);
+<ore:rockHighIron>.add(<contenttweaker:highland_regolith_iron>);
+<ore:rockHighIron>.add(<contenttweaker:highland_rock_iron>);
+<ore:rockHighIron>.add(<contenttweaker:highland_rock_iron_cobblestone>);
+<ore:rockLowMetals>.add(<contenttweaker:lowland_regolith_metals>);
+<ore:rockLowMetals>.add(<contenttweaker:lowland_rock_metals>);
+<ore:rockLowMetals>.add(<contenttweaker:lowland_rock_metals_cobblestone>);
+<ore:rockHighMetals>.add(<contenttweaker:highland_regolith_metals>);
+<ore:rockHighMetals>.add(<contenttweaker:highland_rock_metals>);
+<ore:rockHighMetals>.add(<contenttweaker:highland_rock_metals_cobblestone>);
+
 //LibVulpes coil entries
 <ore:blockCoil>.remove(<libvulpes:coil0:*>);
 <ore:coilCopper>.remove(<libvulpes:coil0:4>);

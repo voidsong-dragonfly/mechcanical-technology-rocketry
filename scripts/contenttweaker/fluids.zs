@@ -158,7 +158,6 @@ create_molten_fluid("molteniron", "989898", 1810, 6980, 10000);
 create_molten_fluid("moltenmagnesium", "AB9F9E", 930, 1580, 10000);
 create_molten_fluid("moltenaluminium", "899596", 940, 2375, 10000);
 create_molten_fluid("moltentitanium", "CCC8FA", 1940, 4110, 10000);
-create_molten_fluid("moltenmischmetal", "7E8084", 2000, 9000, 10000);
 create_molten_fluid("moltensilicon", "070707", 1680, 2570, 10000);
 create_molten_fluid("moltenslag", "725E55", 1800, 2600, 10000);
 create_molten_fluid("moltensulfur", "B08D25", 390, 1920, 10000);
