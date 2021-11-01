@@ -4,4 +4,4 @@ setDescription("Craft a lamp from a bucket of ethanol to make a permanent light 
 addParent("triumph:basic_tech/fermenter")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal_decoration2:4>)
-setPos(-95,-185)
+setPos(-60,-185)

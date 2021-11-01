@@ -5,6 +5,7 @@ addParent("triumph:nuclear/deuterium1")
 addParent("triumph:nuclear/tritium1")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidfusionfuel",Amount:1000}>)
-setPos(285,5)
+setPos(285,260)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
+setFrameType("challenge")

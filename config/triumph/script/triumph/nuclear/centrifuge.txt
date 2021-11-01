@@ -7,3 +7,4 @@ criteria.addItem(<advancedrocketry:centrifuge>)
 setPos(-170,125)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
+setFrameType("goal")

@@ -1,6 +1,6 @@
 setIcon(<minecraft:flint>)
 setTitle("Sharp And Flakeable")
-setDescription("Acquire a piece of flint")
+setDescription("Acquire a piece of flint. Gravel can be crafted from the rocks on the ground!")
 addParent("triumph:starting/root")
 criteria = addCriteria("flint", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:flint>)

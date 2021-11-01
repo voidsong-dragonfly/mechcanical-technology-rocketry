@@ -1,0 +1,14 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenlowlandvoltailemetals",Amount:1000}>)
+setTitle("Pure Alloy")
+setDescription("Electrolyse molten regolith for molten alloy metals and an important source of oxygen")
+addParent("triumph:rocketry_tech/molten_regolith")
+
+criteria = addCriteria("highland_volatiles", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenhighlandvoltailemetals",Amount:1000}>)
+criteria = addCriteria("lowland_volatiles", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenlowlandvoltailermetals",Amount:1000}>)
+setRequirements("any")
+
+setPos(75,-80)
+visibleIf("triumph:nuclear/rocketry_tech")
+setFrameType("goal")

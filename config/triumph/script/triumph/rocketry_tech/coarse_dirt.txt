@@ -1,0 +1,11 @@
+setIcon(<minecraft:dirt:1>)
+setTitle("Just As Watney Did")
+setDescription("Combine compost, fertilizer, dirt, and regolith together for more dirt")
+addParent("triumph:rocketry_tech/lunar_sediment")
+addParent("triumph:rocketry_tech/fertilizer")
+
+criteria = addCriteria("coarse_dirt", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:dirt:1>)
+setRequiresParents()
+
+setPos(40,-110)

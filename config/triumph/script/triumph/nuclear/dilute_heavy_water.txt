@@ -4,6 +4,6 @@ setDescription("Distill water for dilute semiheavy water, water with a higher co
 addParent("triumph:nuclear/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"semiheavywater",Amount:1000}>)
-setPos(-275,5)
+setPos(-275,275)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

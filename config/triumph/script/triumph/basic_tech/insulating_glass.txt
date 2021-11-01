@@ -4,6 +4,6 @@ setDescription("Craft some insulating glass for use in circuits")
 addParent("triumph:basic_tech/circuit_blueprint")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:stone_decoration:8>)
-setPos(-200,155)
+setPos(-200,55)
 //Force starting chapter
 setRequiresParents()

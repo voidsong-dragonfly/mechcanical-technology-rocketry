@@ -4,4 +4,5 @@ setDescription("Craft a fission reactor calandria casing - This is the (early) s
 addParent("triumph:basic_tech/leaded_concrete")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:fission_reactor_calandria_casing>)
-setPos(10,-65)
+setPos(45,-65)
+setFrameType("challenge")

@@ -1,0 +1,11 @@
+setIcon(<contenttweaker:material_part:16>)
+setTitle("Diamonds In The Rough")
+setDescription("Lunar and some other regolith has minute quantities of rare earth metals, used for renewable superconductors and high-tech machinery")
+addParent("triumph:rocketry_tech/molten_metals")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<ore:nuggetMischmetal>)
+
+setPos(110,-50)
+visibleIf("triumph:nuclear/rocketry_tech")
+setFrameType("challenge")

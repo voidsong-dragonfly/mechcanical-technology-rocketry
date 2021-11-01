@@ -1,0 +1,13 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenlowlandvoltaileregolith",Amount:1000}>)
+setTitle("Ironfall Be Upon Us")
+setDescription("Melt regolith of any kind for molten regolith, the first step to producing metals")
+addParent("triumph:rocketry_tech/lunar_cobble")
+
+criteria = addCriteria("highland_volatiles", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenhighlandvoltaileregolith",Amount:1000}>)
+criteria = addCriteria("lowland_volatiles", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenlowlandvoltaileregolith",Amount:1000}>)
+setRequirements("any")
+
+setPos(40,-80)
+visibleIf("triumph:nuclear/rocketry_tech")

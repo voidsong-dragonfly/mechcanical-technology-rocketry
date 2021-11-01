@@ -4,4 +4,4 @@ setDescription("Craft a components blueprint to create mechanical components che
 addParent("triumph:basic_tech/workbench")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:blueprint, meta:0, count:1, nbt:{blueprint:"components"}>)
-setPos(-235,185)
+setPos(-235,85)

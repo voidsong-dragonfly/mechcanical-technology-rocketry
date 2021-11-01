@@ -1,0 +1,7 @@
+setIcon(<immersiveengineering:revolver>)
+setTitle("Make My Day")
+setDescription("Craft a revolver")
+addParent("triumph:basic_tech/gunpowder")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:revolver>)
+setPos(-165,-95)

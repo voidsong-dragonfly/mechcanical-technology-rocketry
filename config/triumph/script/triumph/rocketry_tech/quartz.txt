@@ -1,0 +1,8 @@
+setIcon(<minecraft:quartz_block>)
+setTitle("Crystallic Fabrication")
+setDescription("Compress silicon dioxide into quartz, a reweable production route for quartz")
+addParent("triumph:rocketry_tech/asteroid_chip")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<minecraft:quartz_block, meta:0, count:1, nbt:{asteroid:"true"}>)
+setPos(5,-170)
+visibleIf("triumph:nuclear/rocketry_tech")

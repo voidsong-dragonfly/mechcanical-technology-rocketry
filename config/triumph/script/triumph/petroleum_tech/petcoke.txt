@@ -7,3 +7,4 @@ criteria.addItem(<ore:fuelCoke>)
 setPos(-205,170)
 //Force starting chapter
 setRequiresParents()
+setFrameType("goal")

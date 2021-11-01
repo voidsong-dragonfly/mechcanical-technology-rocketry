@@ -1,0 +1,11 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltensilicon",Amount:1000}>)
+setTitle("Black Gold 2: Electric Circuitry")
+setDescription("Molten silicon can be used to produce circuits as well as in carbonless steel and concrete for construction")
+addParent("triumph:rocketry_tech/molten_metals")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltensilicon",Amount:1000}>)
+
+setPos(110,-80)
+visibleIf("triumph:nuclear/rocketry_tech")
+setFrameType("goal")

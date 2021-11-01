@@ -1,0 +1,11 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenslag",Amount:1000}>)
+setTitle("Constructive Criticism Product")
+setDescription("Molten slag can be used to produce concrete more cheaply along with its other uses")
+addParent("triumph:rocketry_tech/molten_metals")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"moltenslag",Amount:1000}>)
+
+setPos(110,-110)
+visibleIf("triumph:nuclear/rocketry_tech")
+setFrameType("goal")

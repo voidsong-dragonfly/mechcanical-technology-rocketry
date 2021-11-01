@@ -4,4 +4,5 @@ setDescription("Craft an inserter for more precise item movement than routers an
 addParent("triumph:basic_tech/first_circuit")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<magneticraft:inserter>)
-setPos(-130,155)
+setPos(-130,55)
+setFrameType("goal")

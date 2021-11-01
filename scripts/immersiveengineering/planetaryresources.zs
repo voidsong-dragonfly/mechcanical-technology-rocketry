@@ -62,8 +62,8 @@ ElectrolyticCrucibleBattery.addRecipe(<liquid:moltenhighlandmetalmetals> * 508, 
 
 //Concrete-Related recipes
 //Turn AR planet turfs into precursor stuff
-recipes.addShapeless(<advancedrocketry:moonturf> * 6, [<ore:regolithAny>, <ore:regolithAny>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>]);
-recipes.addShapeless(<advancedrocketry:moonturf_dark> * 6, [<ore:regolithAnyCobblestone>, <ore:regolithAnyCobblestone>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>, <ore:itemSlag>]);
+recipes.addShapeless(<advancedrocketry:moonturf> * 6, [<ore:regolithAny>, <ore:regolithAny>, <ore:itemSlag> | <contenttweaker:silicon_dioxide_dust_block>, <ore:itemSlag> | <contenttweaker:silicon_dioxide_dust_block>, <ore:itemSlag> | <contenttweaker:silicon_dioxide_dust_block>, <ore:itemSlag>]);
+recipes.addShapeless(<advancedrocketry:moonturf_dark> * 6, [<ore:regolithAnyCobblestone>, <ore:regolithAnyCobblestone>, <ore:itemSlag> | <contenttweaker:silicon_dioxide_dust_block>, <ore:itemSlag> | <contenttweaker:silicon_dioxide_dust_block>, <ore:itemSlag> | <contenttweaker:silicon_dioxide_dust_block>, <ore:itemSlag>]);
 recipes.addShaped(<advancedrocketry:hotturf>,
  [[<ore:fiberBasalt>, <ore:fiberBasalt>, <ore:fiberBasalt>],
  [<ore:fiberBasalt>, <advancedrocketry:moonturf> | <advancedrocketry:moonturf_dark>, <ore:fiberBasalt>],

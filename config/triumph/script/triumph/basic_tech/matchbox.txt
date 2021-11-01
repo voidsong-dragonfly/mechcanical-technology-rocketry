@@ -1,7 +1,0 @@
-setIcon(<realistictorches:matchbox>)
-setTitle("It's Lit")
-setDescription("Craft a matchbox for a cheap, easy way to light torches and fires")
-addParent("triumph:basic_tech/sulfur")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<realistictorches:matchbox>)
-setPos(-200,-110)

@@ -4,4 +4,4 @@ setDescription("Form a steam engine with a kinetic dynamo for a much better powe
 addParent("triumph:basic_tech/kinetic_dynamo")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<magneticraft:steam_engine>)
-setPos(-235,35)
+setPos(-235,-5)

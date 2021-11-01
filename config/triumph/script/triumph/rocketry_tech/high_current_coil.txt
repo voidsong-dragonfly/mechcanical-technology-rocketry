@@ -1,0 +1,10 @@
+setIcon(<contenttweaker:high_current_superconductive_coil>)
+setTitle("Extrusion Confusion")
+setDescription("Mischmetal can be made into high-current superconductive coils, the best coil in the game and used for some of the most powerful machinery")
+addParent("triumph:rocketry_tech/mischmetal")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:high_current_superconductive_coil>)
+
+setPos(145,-50)
+visibleIf("triumph:nuclear/rocketry_tech")

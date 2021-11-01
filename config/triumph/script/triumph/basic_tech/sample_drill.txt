@@ -4,4 +4,5 @@ setDescription("Craft a core sample drill to assist in oil and mineral prospecti
 addParent("triumph:basic_tech/improved_blast_furnace")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<immersiveengineering:metal_device1:7>)
-setPos(-130,-215)
+setPos(-95,-215)
+setFrameType("challenge")

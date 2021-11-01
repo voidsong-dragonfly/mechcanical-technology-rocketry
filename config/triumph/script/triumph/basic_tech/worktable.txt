@@ -4,4 +4,4 @@ setDescription("Craft a treated wood crafting table for a table that stores item
 addParent("triumph:basic_tech/root")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<engineersdecor:treated_wood_crafting_table>)
-setPos(-275,155)
+setPos(-275,55)

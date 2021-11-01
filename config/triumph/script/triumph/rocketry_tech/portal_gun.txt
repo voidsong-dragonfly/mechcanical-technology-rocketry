@@ -1,0 +1,12 @@
+setIcon(<portalgun:item_portalgun>)
+setTitle("Aperture Handheld Portal Device")
+setDescription("The best materials in the game can procure you the pinnacle of personal technology: the AHPD")
+addParent("triumph:rocketry_tech/high_current_coil")
+addParent("triumph:rocketry_tech/t5_circuit")
+
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<portalgun:item_portalgun>)
+
+setPos(180,-30)
+visibleIf("triumph:nuclear/rocketry_tech")
+setFrameType("challenge")

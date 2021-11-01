@@ -1,0 +1,8 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"rocketfuel",Amount:1000}>)
+setTitle("Spacebourne Growth Modifier")
+setDescription("Mix ammonia and distilled water together to get potent liquid fertilizer")
+addParent("triumph:rocketry_tech/asteroid_chip")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"rocketfuel",Amount:1000}>)
+setPos(5,-140)
+visibleIf("triumph:nuclear/rocketry_tech")

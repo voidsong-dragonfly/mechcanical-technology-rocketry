@@ -4,6 +4,6 @@ setDescription("Acquire a bucket of hydrogen deuteride (HDO) from electrolysing 
 addParent("triumph:nuclear/heavy_water")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"hydrogendeuteride",Amount:1000}>)
-setPos(-205,5)
+setPos(-205,275)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

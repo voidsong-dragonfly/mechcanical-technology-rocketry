@@ -1,0 +1,13 @@
+setIcon(<contenttweaker:lowland_rock_volatiles_cobblestone>)
+setTitle("Trapped Within The Matrix")
+setDescription("Bake lunar regolith for regolith cobblestone and important volatiles")
+addParent("triumph:rocketry_tech/lunar_sediment")
+
+criteria = addCriteria("highland_volatiles", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:highland_rock_volatiles_cobblestone>)
+criteria = addCriteria("lowland_volatiles", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:lowland_rock_volatiles_cobblestone>)
+setRequirements("any")
+
+setPos(5,-80)
+visibleIf("triumph:nuclear/rocketry_tech")

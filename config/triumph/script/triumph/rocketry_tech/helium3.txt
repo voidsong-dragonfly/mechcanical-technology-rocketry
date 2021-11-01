@@ -1,0 +1,8 @@
+setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium3",Amount:1000}>)
+setTitle("Peak Efficiency")
+setDescription("Gather helium-3 from a gas giant, where it is in much larger abundance than on Luna")
+addParent("triumph:rocketry_tech/uva_builder")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium3",Amount:1000}>)
+setPos(75,20)
+visibleIf("triumph:nuclear/rocketry_tech")

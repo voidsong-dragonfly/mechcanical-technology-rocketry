@@ -13,7 +13,8 @@ recipes.addShaped(<mekanism:basicblock:8>,
  [<mekanism:polyethene:2>, <ore:scaffoldingSteel>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:ingotPGMAny>, <mekanism:polyethene:2>]]);
 
-//Make reinforced HDPE take magnesium
+//Make reinforced HDPE take magnesium, road take sand or slag
+recipes.replaceAllOccurences(<ore:sand>, <ore:sand> | <ore:itemSlag>, <mekanism:roadplasticblock:*>);
 recipes.addShaped(<mekanism:reinforcedplasticblock:15> * 4,
  [[<mekanism:polyethene:2>, <mekanism:polyethene:2>, <mekanism:polyethene:2>],
  [<mekanism:polyethene:2>, <ore:dustMagnesium>, <mekanism:polyethene:2>],

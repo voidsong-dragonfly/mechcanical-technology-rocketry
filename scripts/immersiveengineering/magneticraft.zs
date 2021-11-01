@@ -4,7 +4,7 @@ import mods.magneticraft.Sieve;
 import mods.magneticraft.SluiceBox;
 
 //Hydraulic Press compaction recipes
-HydraulicPress.addRecipe(<contenttweaker:silicon_dioxide_dust_block>, <minecraft:quartz_block>, 350, 2, false);
+HydraulicPress.addRecipe(<contenttweaker:silicon_dioxide_dust_block>, <minecraft:quartz_block>.withTag({"asteroid": "true"}), 350, 2, false);
 HydraulicPress.addRecipe(<contenttweaker:hop_graphite_dust_block>, <minecraft:diamond>, 1050, 2, false);
 
 //Sieve non-ore recipes

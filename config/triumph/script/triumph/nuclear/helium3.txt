@@ -4,6 +4,6 @@ setDescription("Helium-3 is the second-heaviest fusion fuel, and one of the more
 addParent("triumph:nuclear/t1_fusion")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"helium3",Amount:1000}>)
-setPos(250,50)
+setPos(250,305)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

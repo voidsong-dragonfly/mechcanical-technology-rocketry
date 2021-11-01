@@ -1,0 +1,10 @@
+setIcon(<immersiveengineering:bullet, meta:2, count:1, nbt:{bullet:"floof_shooter"}>)
+setTitle("Beauty In Conversion")
+setDescription("Craft a dynamic floof cartridge")
+addParent("triumph:basic_tech/revolver")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<immersiveengineering:bullet, meta:2, count:1, nbt:{bullet:"floof_shooter"}>)
+setPos(-130,-95)
+//Force starting chapter
+setRequiresParents()
+setFrameType("goal")

@@ -4,4 +4,5 @@ setDescription("Form a fermenter to make ethanol from - The other start of the P
 addParent("triumph:basic_tech/improved_blast_furnace")
 criteria = addCriteria("formed", "immersiveengineering:multiblock_formed")
 criteria.setMultiblock("IE:Fermenter")
-setPos(-130,-185)
+setPos(-95,-185)
+setFrameType("challenge")

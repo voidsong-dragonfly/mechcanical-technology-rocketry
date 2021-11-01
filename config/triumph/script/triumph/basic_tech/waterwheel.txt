@@ -1,7 +1,0 @@
-setIcon(<immersiveengineering:wooden_device1>)
-setTitle("Early Industrial Revolution")
-setDescription("Craft a waterwheel to place upon your kinetic dynamo")
-addParent("triumph:basic_tech/kinetic_dynamo")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<immersiveengineering:wooden_device1>)
-setPos(-235,65)

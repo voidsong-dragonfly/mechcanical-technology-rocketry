@@ -5,6 +5,7 @@ addParent("triumph:nuclear/deuterium")
 addParent("triumph:nuclear/tritium")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<contenttweaker:superconductive_coil>)
-setPos(215,5)
+setPos(215,260)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
+setFrameType("challenge")

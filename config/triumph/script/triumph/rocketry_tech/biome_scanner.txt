@@ -4,5 +4,5 @@ setDescription("Form a biome scanner to take a look at biomes on orbited planets
 addParent("triumph:rocketry_tech/arrival")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<advancedrocketry:biomescanner>)
-setPos(5, 50)
+setPos(5, 80)
 visibleIf("triumph:nuclear/rocketry_tech")
