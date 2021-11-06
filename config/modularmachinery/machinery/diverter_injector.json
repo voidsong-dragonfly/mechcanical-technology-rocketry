@@ -1,0 +1,279 @@
+{
+    "registryname": "diverter_injector",
+    "localizedname": "Fusion Reactor Diverter/Injector System",
+    "modifiers": [
+        {
+            "x": 0,
+            "y": 0,
+            "z": 8,
+            "nbt": {"machine":"modularmachinery:fusion_reactor_t2"},
+            "elements": [
+                "modularmachinery:blockcontroller"
+            ],
+            "description": "High-Field Fusion Reactor consumes fuel at 3x rate",
+            "modifier": {
+                "io": "input",
+                "target": "duration",
+                "operation": 1,
+                "multiplier": 0.33333333333
+            }
+        }
+    ],
+    "parts": [
+        {
+            "x": 1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": -2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": -3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 8,
+            "z": 3,
+            "elements": [
+                "modularmachinery:blockfluidinputhatch@1"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockfluidoutputhatch@1"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch@2"
+            ]
+        }
+    ]}

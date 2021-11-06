@@ -1,12 +1,24 @@
 {
-    "machine": "fusion_reactor_3_toroid",
-    "registryName": "toroid_upkeep_3",
+    "machine": "fusion_reactor",
+    "registryName": "toroid",
     "recipeTime": 1,
     "requirements": [
         {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 2000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 2000
+        },
+        {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 8192
+            "energyPerTick": 6144
         },
         {
             "type": "fluid",

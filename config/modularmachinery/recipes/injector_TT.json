@@ -1,7 +1,7 @@
 {
-    "machine": ["fusion_reactor_injector"],
+    "machine": ["diverter_injector"],
     "registryName": "injector_TT",
-    "recipeTime": 17400,
+    "recipeTime": 17466,
     "requirements": [
         {
             "type": "fluid",
@@ -12,12 +12,18 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 1024
+            "energyPerTick": 3072
         },
         {
             "type": "fluid",
             "io-type": "input",
             "fluid": "tritium",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "helium",
             "amount": 1
         }
     ]

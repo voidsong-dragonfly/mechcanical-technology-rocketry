@@ -1,7 +1,7 @@
 {
-    "machine": ["fusion_reactor_injector"],
+    "machine": ["diverter_injector"],
     "registryName": "injector_He3He3",
-    "recipeTime": 19900,
+    "recipeTime": 19938,
     "requirements": [
         {
             "type": "fluid",
@@ -12,12 +12,24 @@
         {
             "type": "energy",
             "io-type": "input",
-            "energyPerTick": 1024
+            "energyPerTick": 3072
         },
         {
             "type": "fluid",
             "io-type": "input",
             "fluid": "helium3",
+            "amount": 1
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "hydrogen",
+            "amount": 2
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "helium",
             "amount": 1
         }
     ]

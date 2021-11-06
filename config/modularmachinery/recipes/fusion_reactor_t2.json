@@ -1,0 +1,60 @@
+{
+    "machine": "fusion_reactor_t2",
+    "registryName": "toroid_t2",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 2000
+        },
+         {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 2000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 2000
+        },
+         {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 2000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 2000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 2000
+        },
+        {
+            "type": "energy",
+            "io-type": "input",
+            "energyPerTick": 12288
+        },
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "liquid_nitrogen",
+            "amount": 48
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "nitrogen",
+            "amount": 48
+        }
+    ]
+}
