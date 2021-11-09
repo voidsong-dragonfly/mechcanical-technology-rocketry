@@ -100,7 +100,6 @@ create_molten_fluid("moltenlithiumchloride", "847F68", 880, 2000, 10000);
 create_gas("hydrogendeuteride", "FE9393");
 create_fluid("semiheavywater", "374399", 300, 1050, 1000);
 create_fluid("superheatedwater", "609EED", 1500, 1000, 1000);
-create_fluid("heat", "EC422E", 1000000, 1000, 1000);
 
 //Uranium enrichment fluids
 create_fluid("uraniumhexafluoride_000", "F1EDDA", 300, 5030, 1000);

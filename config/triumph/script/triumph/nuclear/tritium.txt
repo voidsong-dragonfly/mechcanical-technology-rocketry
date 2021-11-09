@@ -2,10 +2,10 @@ setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"tritium",Amount:10
 setTitle("Tritium At Last")
 setDescription("Collect tritium from a tritium breeder, after an extremely long time")
 addParent("triumph:nuclear/molten_lithium")
-addParent("triumph:nuclear/fuelrod")
+addParent("triumph:nuclear/reactor")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"tritium",Amount:1000}>)
-setPos(180,245)
+setPos(145,245)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
 setFrameType("goal")

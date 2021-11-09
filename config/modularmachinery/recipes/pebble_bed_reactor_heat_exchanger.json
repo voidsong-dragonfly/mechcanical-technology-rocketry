@@ -1,0 +1,19 @@
+{
+    "machine": "fission_reactor_heat_exchanger",
+    "registryName": "pebble_bed_heat_exchanger",
+    "recipeTime": 1,
+    "requirements": [
+        {
+            "type": "fluid",
+            "io-type": "input",
+            "fluid": "distwater",
+            "amount": 2000
+        },
+        {
+            "type": "fluid",
+            "io-type": "output",
+            "fluid": "superheatedwater",
+            "amount": 2000
+        }
+    ]
+}

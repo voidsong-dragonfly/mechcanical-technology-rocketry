@@ -57,6 +57,13 @@ recipes.addShaped(<immersiveengineering:stone_decoration:2> * 3,
  [<ore:brickBasaltAny>, <engineersdecor:panzerglass_block>, <ore:brickBasaltAny>],
  [<ore:plateSteel>, <ore:brickBasaltAny>, <ore:plateSteel>]]);
  
+//Change leaded concrete to take more lead and to also take DU
+recipes.remove(<immersiveengineering:stone_decoration:7>);
+recipes.addShaped(<immersiveengineering:stone_decoration:7>,
+ [[null, <ore:plateLead> | <ore:plateDepletedUraniumDioxide>, null],
+ [<ore:plateLead> | <ore:plateDepletedUraniumDioxide>, <engineersdecor:rebar_concrete>, <ore:plateLead> | <ore:plateDepletedUraniumDioxide>],
+ [null, <ore:plateLead> | <ore:plateDepletedUraniumDioxide>, null]]);
+ 
 //Slightly changed generator block recipe
 recipes.remove(<immersiveengineering:metal_decoration0:6>);
 recipes.addShaped(<immersiveengineering:metal_decoration0:6> * 2,

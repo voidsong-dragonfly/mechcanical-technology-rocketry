@@ -26,7 +26,7 @@ MaterialSystem.getPartBuilder().setName("wire").setPartType(MaterialSystem.getPa
 MaterialSystem.getPartBuilder().setName("sheet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("sheet").build();
 MaterialSystem.getPartBuilder().setName("mechanicalcomponent").setPartType(MaterialSystem.getPartType("item")).setOreDictName("mechanicalComponent").build();
 MaterialSystem.getPartBuilder().setName("smallpipe").setPartType(MaterialSystem.getPartType("item")).setOreDictName("smallPipe").build();
-MaterialSystem.getPartBuilder().setName("fuelpellet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fuelPellet").build();
+MaterialSystem.getPartBuilder().setName("fuelpellet").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("fuelPellet").build();
 MaterialSystem.getPartBuilder().setName("compressor").setPartType(MaterialSystem.getPartType("item")).setOreDictName("compressor").build();
 //New parts - nonmetal types
 MaterialSystem.getPartBuilder().setName("fiber").setPartType(MaterialSystem.getPartType("item")).setOreDictName("fiber").build();
@@ -49,9 +49,6 @@ MaterialSystem.getPartBuilder().setName("circuitdesignic").setPartType(MaterialS
 MaterialSystem.getPartBuilder().setName("circuitdesigncpu").setPartType(MaterialSystem.getPartType("item")).setOreDictName("circuitDesignCentralProcessingUnit").build();
 MaterialSystem.getPartBuilder().setName("circuitdesignmemory").setPartType(MaterialSystem.getPartType("item")).setOreDictName("circuitDesignMemory").build();
 MaterialSystem.getPartBuilder().setName("solder").setPartType(MaterialSystem.getPartType("item")).setOreDictName("solder").build();
-//New parts - fuel rods
-MaterialSystem.getPartBuilder().setName("fuelbundle").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("fuelBundle").build();
-MaterialSystem.getPartBuilder().setName("rodbundle").setPartType(MaterialSystem.getPartType("item")).setHasOverlay(false).setOreDictName("rodBundle").build();
 //New parts - power items
 MaterialSystem.getPartBuilder().setName("smallbatteryhull").setPartType(MaterialSystem.getPartType("item")).setOreDictName("smallBatteryHull").build();
 MaterialSystem.getPartBuilder().setName("inductiontablet").setPartType(MaterialSystem.getPartType("item")).setOreDictName("inductionTablet").build();
@@ -74,7 +71,7 @@ MaterialSystem.getPartBuilder().setName("injectionmold").setPartType(MaterialSys
 
 
 //Order
-static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "smallpipe", "mechanicalcomponent", "fuelpellet", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelbundle", "rodbundle", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
+static order as string[] = ["ingot", "plate", "nugget", "rod", "gear", "fiber", "wire", "sheet", "smallpipe", "mechanicalcomponent", "compressor", "dust", "nonmetaldust", "dustunshaded", "salt", "amalgam", "sludge", "slag", "boule", "boulewafer", "wafer", "circuitplate", "etchingplate", "preparedwafer", "grapheneprocessorcrystal", "perfectcircuit", "circuitboard", "smd", "gpsunit", "circuitdesignic", "circuitdesigncpu", "circuitdesignmemory", "solder", "fuelpellet", "smallbatteryhull", "inductiontablet", "unfilledsuperconductorcable", "unfilledhighcurrentsuperconductorcable", "enginebell", "advancedenginebell", "catalyticturbopump", "turbopump", "pressurizedheliumtank", "fueltankshell", "reactionwheel", "solarpanel", "mirrorarray", "collectionarray", "metalpressmold", "heavymetalpressdie", "injectionmold", "block"];
 
 
 
@@ -85,12 +82,10 @@ static materials as Material[string] = {
     "Titanium" : MaterialSystem.getMaterialBuilder().setName("Titanium").setColor(Color.fromHex("CCC8FA")).build(),
     "Aluminium Magnesium Titanide" : MaterialSystem.getMaterialBuilder().setName("Aluminium Magnesium Titanide").setColor(Color.fromHex("aec2de")).build(),
     "Titanium Nitride" : MaterialSystem.getMaterialBuilder().setName("Titanium Nitride").setColor(Color.fromHex("DDDAFA")).build(),
-    "Beryllium" : MaterialSystem.getMaterialBuilder().setName("Beryllium").setColor(Color.fromHex("999A8D")).build(),
     "Silver" : MaterialSystem.getMaterialBuilder().setName("Silver").setColor(Color.fromHex("d0dce4")).build(),
     "Platinum" : MaterialSystem.getMaterialBuilder().setName("Platinum").setColor(Color.fromHex("C9E3F9")).build(),
     "Mixed Platinum Group Metal" : MaterialSystem.getMaterialBuilder().setName("Mixed Platinum Group Metal").setColor(Color.fromHex("c6d0d1")).build(),
     "Depleted Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Depleted Uranium Dioxide").setColor(Color.fromHex("363636")).build(),
-    "Lightly Enriched Uranium Dioxide" : MaterialSystem.getMaterialBuilder().setName("Lightly Enriched Uranium Dioxide").setColor(Color.fromHex("55614c")).build(),
     "Mischmetal" : MaterialSystem.getMaterialBuilder().setName("Mischmetal").setColor(Color.fromHex("7e8084")).build(),
     "Annealed Copper" : MaterialSystem.getMaterialBuilder().setName("Annealed Copper").setColor(Color.fromHex("d55e28")).build(),
     //Metals, ore dust(s) only
@@ -142,20 +137,15 @@ static materials as Material[string] = {
     "Unprepared Platinum Backed Plastic" : MaterialSystem.getMaterialBuilder().setName("Unprepared Platinum Backed Plastic").setColor(Color.fromHex("ffffff")).build(),
     "Platinum Backed Plastic" : MaterialSystem.getMaterialBuilder().setName("Platinum Backed Plastic").setColor(Color.fromHex("ffffff")).build(),
     "Resistor" : MaterialSystem.getMaterialBuilder().setName("Resistor").setColor(Color.fromHex("ffffff")).build(),
-    //Railgin bits
+    //Uranium bits
+    "Enriched Uranium TRISO" : MaterialSystem.getMaterialBuilder().setName("Enriched Uranium TRISO").setColor(Color.fromHex("ffffff")).build(),
+    "Depleted Uranium TRISO" :MaterialSystem.getMaterialBuilder().setName("Depleted Uranium TRISO").setColor(Color.fromHex("ffffff")).build(),
     "Graphite Depleted Uranium Composite" : MaterialSystem.getMaterialBuilder().setName("Graphite Depleted Uranium Composite").setColor(Color.fromHex("323232")).build(),
-    //Fuel rods
-    "Fresh" : MaterialSystem.getMaterialBuilder().setName("Fresh").setColor(Color.fromHex("ffffff")).build(),
-    "Depleted" : MaterialSystem.getMaterialBuilder().setName("Depleted").setColor(Color.fromHex("ffffff")).build(),
-    "Spent" : MaterialSystem.getMaterialBuilder().setName("Spent").setColor(Color.fromHex("ffffff")).build(),
-    "Deformed" : MaterialSystem.getMaterialBuilder().setName("Deformed").setColor(Color.fromHex("ffffff")).build(),
-    "Control" : MaterialSystem.getMaterialBuilder().setName("Control").setColor(Color.fromHex("ffffff")).build(),
     //Molds and dies
     "Small Pipe" : MaterialSystem.getMaterialBuilder().setName("Small Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Pipe" : MaterialSystem.getMaterialBuilder().setName("Pipe").setColor(Color.fromHex("ffffff")).build(),
     "Barrel" : MaterialSystem.getMaterialBuilder().setName("Barrel").setColor(Color.fromHex("ffffff")).build(),
     "Fiber" : MaterialSystem.getMaterialBuilder().setName("Fiber").setColor(Color.fromHex("ffffff")).build(),
-    "Fuel Pellet" : MaterialSystem.getMaterialBuilder().setName("Fuel Pellet").setColor(Color.fromHex("ffffff")).build(),
     "Scaffolding Panel" : MaterialSystem.getMaterialBuilder().setName("Scaffolding Panel").setColor(Color.fromHex("ffffff")).build(),
     "Bell" : MaterialSystem.getMaterialBuilder().setName("Bell").setColor(Color.fromHex("ffffff")).build(),
     "HDPE Sheet" : MaterialSystem.getMaterialBuilder().setName("HDPE Sheet").setColor(Color.fromHex("ffffff")).build(),
@@ -171,12 +161,10 @@ static parts as string[][string] = {
     "Titanium" : ["smallpipe", "wire"],
     "Aluminium Magnesium Titanide" : ["compressor"],
     "Titanium Nitride" : ["wire"],
-    "Beryllium" : ["ingot", "nugget", "dust", "smallpipe"],
     "Silver" : ["wire"],
     "Platinum" : ["ingot", "plate", "nugget", "dust", "sheet", "wire"],
     "Mixed Platinum Group Metal" : ["dust"],
     "Depleted Uranium Dioxide" : ["ingot", "plate", "nugget", "dust"],
-    "Lightly Enriched Uranium Dioxide" : ["fuelpellet"],
     "Mischmetal" : ["ingot", "nugget", "dust", "wire"],
     "Annealed Copper" : ["wire"],
     //Metals, ore dust only
@@ -228,20 +216,15 @@ static parts as string[][string] = {
     "Unprepared Platinum Backed Plastic" : ["circuitboard"],
     "Platinum Backed Plastic" : ["circuitboard"],
     "Resistor" : ["smd"],
-    //Railgin bits
+    //Uranium bits
+    "Enriched Uranium TRISO" : ["fuelpellet"],
+    "Depleted Uranium TRISO" : ["fuelpellet"],
     "Graphite Depleted Uranium Composite" : ["rod"],
-    //Fuel rods
-    "Fresh" : ["fuelbundle"],
-    "Depleted" : ["fuelbundle"],
-    "Spent" : ["fuelbundle"],
-    "Deformed" : ["fuelbundle"],
-    "Control" : ["rodbundle"],
     //Molds & dies
     "Small Pipe" : ["metalpressmold"],
     "Pipe" : ["metalpressmold"],
     "Barrel" : ["metalpressmold"],
     "Fiber" : ["metalpressmold"],
-    "Fuel Pellet" : ["metalpressmold"],
     "Scaffolding Panel" : ["heavymetalpressdie"],
     "Bell" : ["heavymetalpressdie"],
     "HDPE Sheet" : ["injectionmold"],
@@ -277,5 +260,6 @@ Tungsten - 3e424b
 Steel - 707070
 Aluminium - b3babd
 Titanium Iridium Alloy - d7dfe4
+Lightly Enriched Uranium Dioxide - 55614c
 */
 

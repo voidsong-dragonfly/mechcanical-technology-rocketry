@@ -130,5 +130,3 @@ hide(<liquid:liquidethene>);
 hide(<liquid:liquidfusionfuel>);
 hide(<liquid:sulfuricacid>);
 hide(<forge:bucketfilled>.withTag({FluidName: "liquidlithium", Amount: 1000}));
-hide(<forge:bucketfilled>.withTag({FluidName: "heat", Amount: 1000}));
-hide(<liquid:heat>);

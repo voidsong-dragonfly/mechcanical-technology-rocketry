@@ -1,0 +1,9 @@
+setIcon(<immersiveengineering:storage:3>)
+setTitle("Antineutronic Adsorber")
+setDescription("Nuclear reactors take large amounts of silver in blocks for neutron absorbtion")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("block", "minecraft:inventory_changed")
+criteria.addItem(<ore:blockSilver>)
+setPos(-275,185)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

@@ -222,7 +222,6 @@ Squeezer.addRecipe(<minecraft:obsidian>, <liquid:endacid> * 125, <stygian:endobs
 Squeezer.addRecipe(<minecraft:glowstone_dust> * 4, <liquid:endacid> * 250, <biomesoplenty:crystal>, 25600);
 
 //Add in some extra metal press recipes
-MetalPress.addRecipe(<ore:fuelPelletLightlyEnrichedUraniumDioxide>.firstItem * 4, <ore:nuggetLightlyEnrichedUraniumDioxide>, <ore:metalPressMoldFuelPellet>.firstItem, 7200);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotTin>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotLead>, <immersiveengineering:mold:4>, 3600);
 MetalPress.addRecipe(<ore:solderItem>.firstItem * 4, <ore:ingotAluminum>, <immersiveengineering:mold:4>, 3600);

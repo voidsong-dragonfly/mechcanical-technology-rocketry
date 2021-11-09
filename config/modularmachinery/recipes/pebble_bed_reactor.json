@@ -1,0 +1,26 @@
+{
+    "machine": "fission_reactor",
+    "registryName": "pebble_bed",
+    "recipeTime": 20226360,
+    "requirements": [
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@133",
+            "amount": 140,
+            "chance": 0.0
+        },
+        {
+            "type": "item",
+            "io-type": "input",
+            "item": "contenttweaker:material_part@133",
+            "amount": 20
+        },
+        {
+            "type": "item",
+            "io-type": "output",
+            "item": "contenttweaker:material_part@134",
+            "amount": 20
+        }
+    ]
+}

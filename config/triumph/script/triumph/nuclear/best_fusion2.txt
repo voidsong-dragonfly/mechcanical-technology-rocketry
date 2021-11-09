@@ -1,11 +1,11 @@
 setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidfusionfuel",Amount:1000}>)
 setTitle("Best is Always Subjective #2")
-setDescription("... and hydrogen-helium 3 for its longest duration")
+setDescription("... and the other is hydrogen-helium 3 for the longest overall combination duration")
 addParent("triumph:nuclear/hydrogen")
 addParent("triumph:nuclear/helium3")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidfusionfuel",Amount:1000}>)
-setPos(320,260)
+setPos(285,260)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
 setFrameType("challenge")

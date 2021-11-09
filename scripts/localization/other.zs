@@ -74,10 +74,6 @@ game.setLocalization("item.alternatingflux.wirecoil.af.name", "HVDC Wire Coil");
 game.setLocalization("itemGroup.alternatingflux", "HVDC");
 //Manual stuff is in lang file because it didn't work here
 
-//Rustic stone pillar to Fission Reactor Fuel Assembly Channel
-//This wouldn't need to be done if ContentTweaker could make log or pillar-style blocks
-game.setLocalization("tile.rustic.stone_pillar.name", "Fission Reactor Fuel Assembly Channel");
-
 //Quartz Crucible to Iridium Crucible
 game.setLocalization("tile.qcrucible.name", "Iridium Crucible");
 
@@ -109,7 +105,6 @@ game.setLocalization("tile.electricArcFurnace.name", "Electric Kiln");
 
 game.setLocalization("tile.immersiveposts.uraniumpost.name", "Uranium Dioxide Post");
 game.setLocalization("tile.immersiveposts.fence_uranium.name", "Uranium Dioxide Fence");
-// game.setLocalization("item.immersiveposts.tal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("item.immersiveposts.metal_rods.stick_uranium.name", "Uranium Dioxide Rod");
 game.setLocalization("index.page_0_entry.13", "Uranium Dioxide");
 
@@ -128,8 +123,6 @@ game.setLocalization("item.osmiumIngot.name", "Lightly Enriched Uranium Dioxide 
 game.setLocalization("item.osmiumNugget.name", "Lightly Enriched Uranium Dioxide Nugget");
 
 //Modular Machinery hatches
-game.setLocalization("tile.modularmachinery.blockinputbus.tiny.name", "Fission Reactor Fuel Bundle Holder Input");
-game.setLocalization("tile.modularmachinery.blockoutputbus.tiny.name", "Fission Reactor Fuel Bundle Holder Output");
 game.setLocalization("tile.modularmachinery.blockinputbus.small.name", "Input Bus");
 game.setLocalization("tile.modularmachinery.blockoutputbus.small.name", "Output Bus");
 game.setLocalization("tile.modularmachinery.blockfluidinputhatch.normal.name", "Input Hatch");
@@ -138,20 +131,6 @@ game.setLocalization("tile.modularmachinery.blockfluidinputhatch.small.name", "S
 game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.small.name", "Secondary Output Hatch");
 game.setLocalization("tile.modularmachinery.blockenergyinputhatch.normal.name", "Energy Input Hatch");
 game.setLocalization("tile.modularmachinery.blockenergyoutputhatch.normal.name", "Energy Output Hatch");
-
-//Fusion reactor MM pieces
-game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.tiny.name", "Fusion Plasma Heater - 800MK");
-game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.reinforced.name", "Fusion Plasma Heater - 3600MK");
-game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.big.name", "Fusion Plasma Heater - 8000MK");
-game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.huge.name", "Fusion Plasma Heater - 10000MK");
-game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.ludicrous.name", "Fusion Plasma Heater - 12300MK");
-game.setLocalization("tile.modularmachinery.blockfluidoutputhatch.vacuum.name", "Fusion Plasma Heater - 17500MK");
-<modularmachinery:blockfluidoutputhatch:0>.removeTooltip("mb");
-<modularmachinery:blockfluidoutputhatch:3>.removeTooltip("mb");
-<modularmachinery:blockfluidoutputhatch:4>.removeTooltip("mb");
-<modularmachinery:blockfluidoutputhatch:5>.removeTooltip("mb");
-<modularmachinery:blockfluidoutputhatch:6>.removeTooltip("mb");
-<modularmachinery:blockfluidoutputhatch:7>.removeTooltip("mb");
 
 //Redo Biomes O Plenty logs that conflict in naming
 //Willow -> Cypress

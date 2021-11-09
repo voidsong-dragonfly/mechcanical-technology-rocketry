@@ -1,11 +1,11 @@
 setIcon(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidfusionfuel",Amount:1000}>)
 setTitle("Best is Always Subjective #1")
-setDescription("Best fuels are always subjective. However, there are two definite 'bests' in fusion fuels - One is D-T, for its ease of ignition...")
+setDescription("Best fuels are always subjective. However, there are two definite 'bests' in fusion fuels - One is D-T, for the longest duration without spacebourne materials...")
 addParent("triumph:nuclear/deuterium1")
 addParent("triumph:nuclear/tritium1")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"liquidfusionfuel",Amount:1000}>)
-setPos(285,260)
+setPos(250,260)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")
 setFrameType("challenge")

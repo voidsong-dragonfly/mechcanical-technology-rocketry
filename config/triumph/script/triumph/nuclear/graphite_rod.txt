@@ -1,6 +1,6 @@
 setIcon(<contenttweaker:material_part:24>)
 setTitle("Control Rod Ammunition")
-setDescription("Craft a graphite-DU composite rod, both the best railgun ammo and a control rod")
+setDescription("Craft a graphite-DU composite rod, the best railgun ammo")
 addParent("triumph:nuclear/00uo2")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:stickGraphiteDepletedUraniumComposite>)

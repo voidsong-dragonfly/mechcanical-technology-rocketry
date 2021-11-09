@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:130>)
-setTitle("One Long Time and 4B FE Later")
-setDescription("Exhaust the energy from a nuclear fuel rod to get spent rods")
-addParent("triumph:nuclear/fuelrod")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:fuelBundleSpent>)
-setPos(145,185)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

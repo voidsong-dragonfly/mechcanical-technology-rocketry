@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:3>)
-setTitle("Reactor Construction Materials")
-setDescription("Refine beryllium to get a metal suitable for reactor interiors")
-addParent("triumph:nuclear/root")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:ingotBeryllium>)
-setPos(-275,200)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

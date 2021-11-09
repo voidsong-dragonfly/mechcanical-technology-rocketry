@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:material_part:46>)
-setTitle("Miles of Internal Tubing")
-setDescription("Form beryllium into small pipes")
-addParent("triumph:nuclear/beryllium")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<ore:smallPipeBeryllium>)
-setPos(-240,185)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

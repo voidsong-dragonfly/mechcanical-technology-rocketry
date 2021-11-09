@@ -1,0 +1,11 @@
+setIcon(<contenttweaker:steel_barrel_shell>)
+setTitle("Pressure Vessel Steel")
+setDescription("Nuclear reactors take enormous amounts of steel in many forms, including barrels shells and blocks")
+addParent("triumph:nuclear/root")
+criteria = addCriteria("barrel_shell", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:steel_barrel_shell>)
+criteria1 = addCriteria("block", "minecraft:inventory_changed")
+criteria1.addItem(<ore:blockSteel>)
+setPos(-275,215)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")

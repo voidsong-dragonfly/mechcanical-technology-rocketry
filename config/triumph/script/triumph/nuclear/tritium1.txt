@@ -4,6 +4,6 @@ setDescription("Tritium is the heaviest fusion fuel, and because of its rarity a
 addParent("triumph:nuclear/t1_fusion")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"tritium",Amount:1000}>)
-setPos(250,275)
+setPos(215,275)
 //Force starting chapter
 visibleIf("triumph:nuclear/root")

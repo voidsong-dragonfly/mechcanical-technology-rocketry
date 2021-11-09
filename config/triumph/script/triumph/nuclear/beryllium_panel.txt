@@ -1,9 +1,0 @@
-setIcon(<contenttweaker:beryllium_frame>)
-setTitle("Moderative Frame")
-setDescription("Form beryllium into scaffolding")
-addParent("triumph:nuclear/beryllium")
-criteria = addCriteria("criteria", "minecraft:inventory_changed")
-criteria.addItem(<contenttweaker:beryllium_frame>)
-setPos(-240,215)
-//Force starting chapter
-visibleIf("triumph:nuclear/root")

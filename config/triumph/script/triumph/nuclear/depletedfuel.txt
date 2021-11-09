@@ -1,0 +1,10 @@
+setIcon(<contenttweaker:material_part:134>)
+setTitle("INFINITE POWAAAAAH")
+setDescription("Exhaust the energy from a TRISO fuel pellet to get a depleted fuel pellet")
+addParent("triumph:nuclear/reactor")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:material_part:134>)
+setPos(145,185)
+//Force starting chapter
+visibleIf("triumph:nuclear/root")
+setFrameType("challenge")

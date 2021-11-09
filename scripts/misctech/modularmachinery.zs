@@ -8,13 +8,8 @@ import mods.jei.JEI.removeAndHide;
 */
 
 //Hide unused Modular Machinery blocks
-hide(<modulardiversity:blockjackhatch>);
-hide(<modulardiversity:blockmekheatoutput>);
-hide(<modulardiversity:blockdaylightdetector>);
-hide(<modulardiversity:blockweatherdetector>);
-hide(<modulardiversity:blockbiomedetector>);
-hide(<modulardiversity:blockmeklaseracceptor>);
 removeAndHide(<modularmachinery:itemmodularium>);
+removeAndHide(<modularmachinery:blockinputbus:0>);
 removeAndHide(<modularmachinery:blockinputbus:2>);
 removeAndHide(<modularmachinery:blockinputbus:3>);
 removeAndHide(<modularmachinery:blockinputbus:4>);
@@ -25,6 +20,7 @@ removeAndHide(<modularmachinery:blockcasing:1>);
 removeAndHide(<modularmachinery:blockcasing:2>);
 removeAndHide(<modularmachinery:blockcasing:3>);
 removeAndHide(<modularmachinery:blockcasing:4>);
+removeAndHide(<modularmachinery:blockoutputbus:0>);
 removeAndHide(<modularmachinery:blockoutputbus:2>);
 removeAndHide(<modularmachinery:blockoutputbus:3>);
 removeAndHide(<modularmachinery:blockoutputbus:4>);
@@ -36,6 +32,12 @@ removeAndHide(<modularmachinery:blockfluidinputhatch:4>);
 removeAndHide(<modularmachinery:blockfluidinputhatch:5>);
 removeAndHide(<modularmachinery:blockfluidinputhatch:6>);
 removeAndHide(<modularmachinery:blockfluidinputhatch:7>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:0>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:3>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:4>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:5>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:6>);
+removeAndHide(<modularmachinery:blockfluidoutputhatch:7>);
 removeAndHide(<modularmachinery:blockenergyinputhatch:0>);
 removeAndHide(<modularmachinery:blockenergyinputhatch:1>);
 removeAndHide(<modularmachinery:blockenergyinputhatch:3>);
@@ -88,24 +90,16 @@ recipes.addShaped(<modularmachinery:blockcontroller>,
  [[<ore:sheetSteel>, <ore:circuitAdvanced>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:circuitAdvanced>, <ore:sheetSteel>]]);
-recipes.addShaped(<modularmachinery:blockinputbus:0>,
- [[<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
- [<ore:sheetSteel>, null, <ore:sheetSteel>]]);
-recipes.addShaped(<modularmachinery:blockoutputbus:0>,
- [[<ore:sheetSteel>, null, <ore:sheetSteel>],
- [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <contenttweaker:beryllium_frame>, <ore:sheetSteel>]]);
 recipes.addShaped(<modularmachinery:blockcasing:5>, 
  [[<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
  [<ore:sheetSteel>, <ore:circuitUltimate>, <ore:sheetSteel>]]);
-recipes.addShaped(<modulardiversity:blockmekheatinput>,
- [[<ore:sheetSteel>, <ore:ingotCopper>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:scaffoldingSteel>, <ore:sheetSteel>],
- [<ore:sheetSteel>, <ore:ingotCopper>, <ore:sheetSteel>]]);
 recipes.addShapeless(<modularmachinery:blockfluidinputhatch:1>, [<modularmachinery:blockfluidinputhatch:2>]);
 recipes.addShapeless(<modularmachinery:blockfluidoutputhatch:1>, [<modularmachinery:blockfluidoutputhatch:2>]);
+recipes.addShaped(<contenttweaker:fission_control_drum>,
+ [[<ore:plateDepletedUraniumDioxide>, <ore:mechanicalComponentSteel>, <ore:plateDepletedUraniumDioxide>],
+ [<ore:plateDepletedUraniumDioxide>, <contenttweaker:steel_barrel_shell>, <ore:plateDepletedUraniumDioxide>],
+ [<ore:plateDepletedUraniumDioxide>, <ore:blockSilver>, <ore:plateDepletedUraniumDioxide>]]);
 
 
 
@@ -143,12 +137,6 @@ maraging_steel_scaffolding.addItemInput(<ore:ingotMaragingSteel>, 1);
 maraging_steel_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
 maraging_steel_scaffolding.addItemOutput(<contenttweaker:maraging_steel_frame> * 2);
 maraging_steel_scaffolding.build();
-var beryllium_scaffolding = newBuilder("beryllium_scaffolding", "heavy_metal_press", 400);
-beryllium_scaffolding.addEnergyPerTickInput(11520);
-beryllium_scaffolding.addItemInput(<ore:ingotBeryllium>, 1);
-beryllium_scaffolding.addItemInput(<ore:heavyMetalPressDieScaffoldingPanel>).setChance(0);
-beryllium_scaffolding.addItemOutput(<contenttweaker:beryllium_frame> * 2);
-beryllium_scaffolding.build();
 var titanium_aluminide_scaffolding = newBuilder("titanium_aluminide_scaffolding", "heavy_metal_press", 400);
 titanium_aluminide_scaffolding.addEnergyPerTickInput(11520);
 titanium_aluminide_scaffolding.addItemInput(<ore:ingotTitaniumAluminide>, 1);
@@ -189,12 +177,6 @@ iridium_crucible.build();
 
 //Base heating time is 100, time to extrude 1m is 100
 //Small Pipes
-var small_beryllium_pipe = newBuilder("small_beryllium_pipe", "extrusion_press", 500);
-small_beryllium_pipe.addEnergyPerTickInput(720);
-small_beryllium_pipe.addItemInput(<ore:ingotBeryllium>, 1);
-small_beryllium_pipe.addItemInput(<ore:metalPressMoldSmallPipe>).setChance(0);
-small_beryllium_pipe.addItemOutput(<ore:smallPipeBeryllium>.firstItem * 4);
-small_beryllium_pipe.build();
 var small_titanium_pipe = newBuilder("small_titanium_pipe", "extrusion_press", 500);
 small_titanium_pipe.addEnergyPerTickInput(2160);
 small_titanium_pipe.addItemInput(<ore:ingotTitanium>, 1);

@@ -225,4 +225,14 @@
             <fluidStack>sulfurdioxide;2016</fluidStack>
 		</output>
 	</Recipe>
+    <Recipe timeRequired="1600" power ="6144">
+		<input>
+            <oreDict>dustSilicon;12</oreDict>
+            <oreDict>dustHOPGraphite;48</oreDict>
+            <oreDict>dustLightlyEnrichedUraniumDioxide;36</oreDict>
+		</input>
+		<output>
+			<oreDict>fuelPelletEnrichedUraniumTRISO;48</oreDict>
+		</output>
+	</Recipe>
 </Recipes>

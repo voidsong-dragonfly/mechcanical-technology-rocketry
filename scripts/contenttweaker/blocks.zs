@@ -161,7 +161,6 @@ create_block_sound("spent_red_mud", <blockmaterial:sand>, 0.75, 0.8, "shovel", <
 create_block_sound("uranium_tailings", <blockmaterial:sand>, 0.75, 0.8, "shovel", <soundtype:ground>, 0);
 
 //Frames
-create_block_transparent("beryllium_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 create_block_transparent("aluminium_magnesium_titanide_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 create_block_transparent("maraging_steel_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
 create_block_transparent("titanium_iridium_alloy_frame", <blockmaterial:iron>, 3.0, 3.0, "pickaxe", <soundtype:metal>, 0);
@@ -178,8 +177,7 @@ create_block("basalt_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0,
 create_block("carbon_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
 create_block("graphene_fiber_flywheel_component", <blockmaterial:iron>, 4.0, 16.0, "pickaxe", 2);
 //Fission reactor pieces
-create_block("fission_reactor_calandria_casing", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);
-create_block("fission_reactor_fuel_rod_assembly_pipe_connector", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);
+create_block("fission_control_drum", <blockmaterial:iron>, 8.0, 20.0, "pickaxe", 3);
 //Fusion reactor pieces
 create_block("superconductive_coil", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);
 create_block("fusion_reactor_inner_casing", <blockmaterial:iron>, 12.0, 100.0, "pickaxe", 4);

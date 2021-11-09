@@ -10,7 +10,6 @@ contenttweaker.part.wire=%s Wire
 contenttweaker.part.sheet=%s Sheet
 contenttweaker.part.mechanicalcomponent=%s Mechanical Component
 contenttweaker.part.smallpipe=%s Small Pipe
-contenttweaker.part.fuelpellet=%s Fuel Pellet
 contenttweaker.part.compressor=%s Compressor
 #New parts - nonmetal types
 contenttweaker.part.fiber=%s Fiber
@@ -33,8 +32,7 @@ contenttweaker.part.circuitdesigncpu=Central Processing Unit Design
 contenttweaker.part.circuitdesignmemory=Memory Unit Design
 contenttweaker.part.solder=Solder
 #New parts - fuel rods
-contenttweaker.part.fuelbundle=%s Fuel Rod Bundle
-contenttweaker.part.rodbundle=%s Rod Bundle
+contenttweaker.part.fuelpellet=%s Fuel Pellet
 #New parts - power items
 contenttweaker.part.inductiontablet=Induction Tablet
 contenttweaker.part.unfilledsuperconductorcable=Unfilled Superconductor Cable
@@ -142,8 +140,6 @@ fluid.uraniumhexafluoride_000=Depleted Uranium Hexafluoride
 fluid.hydrogendeuteride=Hydrogen Deuteride
 fluid.semiheavywater=Dilute Semiheavy Water
 fluid.superheatedwater=Superheated Water
-fluid.heat=Temperature - MK
-
 #Gas giant mining fluids
 fluid.precipitategas=Precipitate Gas Mix
 
@@ -313,7 +309,6 @@ tile.contenttweaker.shattered_end_stone.name=Shattered End Stone
 
 #Mech blocks
 #Frames
-tile.contenttweaker.beryllium_frame.name=Beryllium Scaffolding
 tile.contenttweaker.aluminium_magnesium_titanide_frame.name=Aluminium Magnesium Titanide Scaffolding
 tile.contenttweaker.maraging_steel_frame.name=Maraging Steel Scaffolding
 tile.contenttweaker.titanium_iridium_alloy_frame.name=Titanium Iridium Alloy Scaffolding
@@ -330,8 +325,7 @@ tile.contenttweaker.basalt_fiber_flywheel_component.name=Basalt Fiber Flywheel C
 tile.contenttweaker.carbon_fiber_flywheel_component.name=Carbon Fiber Flywheel Component
 tile.contenttweaker.graphene_fiber_flywheel_component.name=Graphene Fiber Flywheel Component
 #Fission reactor pieces
-tile.contenttweaker.fission_reactor_calandria_casing.name=Fission Reactor Calandria Casing
-tile.contenttweaker.fission_reactor_fuel_rod_assembly_pipe_connector.name=Fission Reactor Fuel Rod Assembly Pipe Connector
+tile.contenttweaker.fission_control_drum.name=Fission Control Drum
 #Fusion reactor pieces
 tile.contenttweaker.superconductive_coil.name=Superconductive Coil
 tile.contenttweaker.fusion_reactor_inner_casing.name=Fusion Reactor Inner Casing
