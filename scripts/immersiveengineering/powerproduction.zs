@@ -69,7 +69,7 @@ Boiler.addFuel(<liquid:creosote> * 80, 10, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 10000, null, <liquid:distwater> * 250, <liquid:fluegas> * 16000, 320, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 10000, <liquid:pahoehoelava> * 2400, <liquid:distwater> * 250, <liquid:lava> * 2400, 320, 10);
 HeatExchanger.addRecipe(<liquid:steam> * 10000, <liquid:moltensodium> * 3200, <liquid:distwater> * 250, <liquid:superheatedmoltensodium> * 3200, 320, 10);
-HeatExchanger.addRecipe(<liquid:highpressuresteam> * 10000, <liquid:distwater> * 10000, <liquid:distwater> * 500, <liquid:superheatedwater> * 10000, 320, 10);
+HeatExchanger.addRecipe(<liquid:steam> * 5000, <liquid:steam> * 5000, <liquid:highpressuresteam> * 2500, <liquid:distwater> * 125, 160, 5);
 HeatExchanger.addRecipe(<liquid:distwater> * 250, <liquid:hot_spring_water> * 4500, <liquid:exhauststeam> * 10000, <liquid:water> * 4500, 160, 5);
 
 //TEG

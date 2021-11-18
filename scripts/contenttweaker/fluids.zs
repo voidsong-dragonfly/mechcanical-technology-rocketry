@@ -48,6 +48,10 @@ create_gas("ammonia", "B3CDE2");
 create_fluid("hydrogenperoxide", "DBF1FF", 300, 1540, 1260);
 create_fluid("hydrazine", "B3C4E2", 300, 1020, 1000);
 
+//Deuterium production
+create_gas("hydrogendeuteride", "FE9393");
+create_fluid("semiheavywater", "374399", 300, 1050, 1000);
+
 //Oil Processing fluids
 //Oil is special to make it look like IP oil
 var desulfurisedoil = createFluid("desulfurisedoil", Color.fromHex("FFFFFF"));
@@ -95,11 +99,6 @@ create_fluid("lithiumchloridesolution", "A8953E", 300, 1000, 1000);
 create_molten_fluid("moltenlithium", "D9E9ED", 520, 930, 10000);
 create_molten_fluid("moltenmagnesiumchloride", "807A79", 2300, 800, 10000);
 create_molten_fluid("moltenlithiumchloride", "847F68", 880, 2000, 10000);
-
-//Reactor fluids 7079E0
-create_gas("hydrogendeuteride", "FE9393");
-create_fluid("semiheavywater", "374399", 300, 1050, 1000);
-create_fluid("superheatedwater", "609EED", 1500, 1000, 1000);
 
 //Uranium enrichment fluids
 create_fluid("uraniumhexafluoride_000", "F1EDDA", 300, 5030, 1000);
