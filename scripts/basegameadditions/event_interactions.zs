@@ -7,6 +7,8 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.data.IData;
 import crafttweaker.player.IPlayer;
 import crafttweaker.event.PlayerInteractBlockEvent;
+import crafttweaker.event.PlayerLeftClickBlockEvent;
+import crafttweaker.event.PlayerInteractEvent;
 import crafttweaker.event.EntityLivingEquipmentChangeEvent;
 import crafttweaker.entity.IEntityEquipmentSlot;
 
@@ -158,6 +160,51 @@ function dropItemWood(evt as PlayerInteractBlockEvent, stack as IItemStack) as b
     dummy.dropItem(stack);
 }
 
+
+
+//Fire!
+//We're not holding a stick
+function isNotMakingFire(player as IPlayer) as bool {
+	return isNull(player) || isNull(player.currentItem) || (((player.currentItem.amount < 2) && !(player.currentItem.withAmount(1).matches(<minecraft:stick>.withAmount(1)))) && !(player.currentItem.withAmount(1).matches(<realistictorches:torch_lit>.withAmount(1))));
+}
+//Both Combined
+function playerCannotMakeFire(evt as PlayerLeftClickBlockEvent) as bool {
+	if (isNull(evt) || isNull(evt.world) || evt.canceled || evt.useItem == "DENY")
+		return true;
+	return isNotMakingFire(evt.player);
+}
+//Did we actually do it?
+events.onPlayerLeftClickBlock(function(evt as PlayerLeftClickBlockEvent) as void {
+	if (playerCannotMakeFire(evt))
+		return;
+
+    if (lightFire(evt)) {
+        evt.cancellationResult = "SUCCESS";
+        evt.cancel();
+	}
+});
+//Dropping items
+function lightFire(evt as PlayerLeftClickBlockEvent) as bool {
+    if (evt.world.remote)
+        return true;
+
+    if(evt.world.getBlockState(crafttweaker.util.Position3f.create(evt.x, evt.y+1, evt.z).asBlockPos()) has <blockstate:minecraft:air>) {
+        evt.world.setBlockState(<blockstate:minecraft:fire>, crafttweaker.util.Position3f.create(evt.x, evt.y+1, evt.z).asBlockPos());
+        if((evt.player.currentItem.withAmount(1).matches(<realistictorches:torch_lit>.withAmount(1)))) {
+            if (evt.item.amount > 1)
+                evt.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), evt.item.withAmount(evt.item.amount - 1));
+            else
+                evt.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), null);
+        } else {
+            if (evt.item.amount > 2)
+                evt.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), evt.item.withAmount(evt.item.amount - 2));
+            else
+                evt.player.setItemToSlot(IEntityEquipmentSlot.mainHand(), null);
+        }
+        return true;
+    }
+    return false;
+}
 
 
 //Deal with diamond-scaled armor stuff

@@ -1,6 +1,9 @@
 [
     { "item": "minecraft:clock" },
     { "item": "minecraft:compass" },
+    { "item": "inspirations:north_compass" },
+    { "item": "inspirations:waypoint_compass" },
+    { "item": "charm:bound_compass" },
     { "item": "sereneseasons:season_clock" },
     { "item": "leatherworks:ender_pack" },
     { "item": "leatherworks:pack_brown" },

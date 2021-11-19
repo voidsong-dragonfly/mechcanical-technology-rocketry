@@ -36,24 +36,32 @@ var anyLamp = <liquid:ethanol> * 1000 | <charm:smooth_glowstone> | <biomesoplent
 recipes.remove(<rustic:iron_lantern>);
 recipes.remove(<rustic:silver_lantern>);
 recipes.remove(<rustic:golden_lantern>);
+recipes.remove(<rustic:lantern_wood>);
+recipes.remove(<quark:paper_lantern>);
 recipes.remove(<immersiveengineering:metal_decoration2:4>);
-recipes.addShaped(<rustic:iron_lantern>,
+recipes.addShaped(<rustic:iron_lantern> * 4,
  [[<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>],
  [<ore:nuggetIron>, anyLamp, <ore:nuggetIron>],
  [null, <ore:nuggetIron>, null]]);
-recipes.addShaped(<rustic:silver_lantern>,
+recipes.addShaped(<rustic:silver_lantern> * 4,
  [[<ore:nuggetSilver>, <ore:plateSilver>, <ore:nuggetSilver>],
  [<ore:nuggetSilver>, anyLamp, <ore:nuggetSilver>],
  [null, <ore:nuggetSilver>, null]]);
-recipes.addShaped(<rustic:golden_lantern>,
+recipes.addShaped(<rustic:golden_lantern> * 4,
  [[<ore:nuggetGold>, <ore:plateGold>, <ore:nuggetGold>],
  [<ore:nuggetGold>, anyLamp, <ore:nuggetGold>],
  [null, <ore:nuggetGold>, null]]);
-recipes.replaceAllOccurences(<minecraft:torch>, anyLamp, <rustic:lantern_wood>);
-recipes.addShaped(<immersiveengineering:metal_decoration2:4>,
+recipes.addShaped(<rustic:lantern_wood> * 4,
+ [[<ore:stickWoodAny>, <ore:plankWood>, <ore:stickWoodAny>],
+ [<ore:paneGlass>, anyLamp, <ore:paneGlass>],
+ [<ore:stickWoodAny>, <ore:plankWood>, <ore:stickWoodAny>]]);
+recipes.addShaped(<immersiveengineering:metal_decoration2:4> * 4,
  [[<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>],
  [<ore:paneGlass>, anyLamp, <ore:paneGlass>],
  [<ore:nuggetIron>, <ore:plateIron>, <ore:nuggetIron>]]);
-recipes.replaceAllOccurences(<ore:glowstone>, anyLamp, <quark:paper_lantern>);
+recipes.addShaped(<quark:paper_lantern> * 4,
+ [[<ore:paper>, <ore:stickWoodAny>, <ore:paper>],
+ [<ore:paper>, anyLamp, <ore:paper>],
+ [<ore:paper>, <ore:stickWoodAny>, <ore:paper>]]);
 //Replace torch uses
 recipes.replaceAllOccurences(<minecraft:torch>, <realistictorches:torch_lit>);

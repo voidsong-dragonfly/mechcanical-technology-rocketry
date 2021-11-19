@@ -3,6 +3,9 @@ import mods.magneticraft.HydraulicPress;
 import mods.magneticraft.Sieve;
 import mods.magneticraft.SluiceBox;
 
+//Sluice recipe tweak
+recipes.replaceAllOccurences(<ore:slabStone>, <ceramics:unfired_clay:9>, <magneticraft:sluice_box>);
+
 //Hydraulic Press compaction recipes
 HydraulicPress.addRecipe(<contenttweaker:silicon_dioxide_dust_block>, <minecraft:quartz_block>.withTag({"asteroid": "true"}), 350, 2, false);
 HydraulicPress.addRecipe(<contenttweaker:hop_graphite_dust_block>, <minecraft:diamond>, 1050, 2, false);
@@ -47,6 +50,7 @@ Sieve.addRecipe(<ore:dustRichMixedPlatinumGroupMetal>.firstItem, <ore:dustPlatin
 Sieve.addRecipe(<ore:dustAsh>.firstItem, <ore:dyeLightGray>.firstItem, 0.4, <ore:dyeGray>.firstItem, 0.3, <earthworks:item_quicklime>, 0.3, 40, true);
 
 //Sluice
+SluiceBox.addRecipe(<minecraft:dirt>, 1.0, <earthworks:item_dirt>, 0.125, <earthworks:item_dirt>, 0.125, <minecraft:flint>, 0.0625, <minecraft:wheat_seeds>, 0.0625, <immersiveengineering:seed>, true);
 SluiceBox.addRecipe(<ore:dustStone>.firstItem, 0.75, <minecraft:clay_ball>, 0.125, <minecraft:clay_ball>, 0.0625, <minecraft:clay_ball>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_iron_ore>, 1, <mekanism:dirtydust> * 2, 0.1, <mekores:mekanismore:13>, true);
 SluiceBox.addRecipe(<contenttweaker:crushed_gold_ore>, 1, <mekanism:dirtydust:1> * 2, 0.05, <mekanism:dirtydust:3>, true);
