@@ -12,7 +12,7 @@
     },
     {
         "predicate": {
-            "item": "flintmod:pickaxe_flint"
+            "item": "minecraft:stone_pickaxe"
         },
         "item": "tetra:duplex_tool_modular",
         "modules": {

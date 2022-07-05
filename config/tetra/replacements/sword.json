@@ -13,7 +13,7 @@
     },
     {
         "predicate": {
-            "item": "flintmod:knife_flint"
+            "item": "minecraft:stone_sword"
         },
         "item": "tetra:sword_modular",
         "modules": {

@@ -12,7 +12,7 @@
     },
     {
         "predicate": {
-            "item": "flintmod:axe_flint"
+            "item": "minecraft:stone_axe"
         },
         "item": "tetra:duplex_tool_modular",
         "modules": {

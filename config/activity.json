@@ -1,15 +1,1 @@
-[
-  {
-    "user": {
-      "type": "player",
-      "name": "Silfryi",
-      "uniqueId": "30829481-579d-46a8-9d2e-265b8731e163"
-    },
-    "time": 1633720282441,
-    "type": "Profiler",
-    "data": {
-      "type": "url",
-      "value": "https://spark.lucko.me/8iuKUTTsQW"
-    }
-  }
-]
+[]

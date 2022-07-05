@@ -165,7 +165,10 @@ function dropItemWood(evt as PlayerInteractBlockEvent, stack as IItemStack) as b
 //Fire!
 //We're not holding a stick
 function isNotMakingFire(player as IPlayer) as bool {
-	return isNull(player) || isNull(player.currentItem) || (((player.currentItem.amount < 2) && !(player.currentItem.withAmount(1).matches(<minecraft:stick>.withAmount(1)))) && !(player.currentItem.withAmount(1).matches(<realistictorches:torch_lit>.withAmount(1))));
+	return isNull(player) ||
+	       isNull(player.currentItem) ||
+	       !(player.currentItem.withAmount(1).matches(<minecraft:stick>.withAmount(1)) || (player.currentItem.withAmount(1).matches(<realistictorches:torch_lit>.withAmount(1)))) ||
+	       ((player.currentItem.amount < 2) && (player.currentItem.withAmount(1).matches(<minecraft:stick>.withAmount(1))));
 }
 //Both Combined
 function playerCannotMakeFire(evt as PlayerLeftClickBlockEvent) as bool {

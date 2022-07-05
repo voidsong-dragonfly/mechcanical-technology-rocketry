@@ -18,7 +18,7 @@
             {
                 "material": {
                     "item": "leatherworks:leather_strip",
-                    "count": 4
+                    "count": 2
                 },
                 "requiredCapabilities": {
                     "cut": 1
@@ -96,7 +96,7 @@
             {
                 "material": {
                     "item": "leatherworks:leather_strip",
-                    "count": 4
+                    "count": 2
                 },
                 "requiredCapabilities": {
                     "cut": 1
@@ -156,7 +156,7 @@
             {
                 "material": {
                     "item": "leatherworks:leather_strip",
-                    "count": 4
+                    "count": 2
                 },
                 "requiredCapabilities": {
                     "cut": 2

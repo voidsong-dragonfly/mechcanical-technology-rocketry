@@ -12,7 +12,7 @@
     },
     {
         "predicate": {
-            "item": "flintmod:hoe_flint"
+            "item": "minecraft:stone_hoe"
         },
         "item": "tetra:duplex_tool_modular",
         "modules": {

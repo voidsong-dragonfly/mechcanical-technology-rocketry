@@ -16,7 +16,7 @@ var minecraftToRemove = [<minecraft:command_block>,
                          ] as IItemStack[];
 for item in minecraftToRemove{
     removeAndHide(item);
-    }
+}
 //Remove recipes for some tools. Find them
 //Seriously, how do you make a solid diamond tool other than "magic". Yes, I _do_ know the vanilla crafting table is magic. I aim to fix that.
 var toolsToRemove = [<minecraft:iron_axe>,
@@ -122,11 +122,11 @@ recipes.remove(<minecraft:arrow>);
 recipes.remove(<quark:arrow_ender>);
 recipes.remove(<inspirations:arrow>);
 recipes.addShaped(<minecraft:arrow> * 8,
- [[null, null, <ore:flint>],
+ [[null, null, <minecraft:flint>],
  [null, <ore:stickWood>, null],
  [<ore:feather>, null, null]]);
 recipes.addShaped(<minecraft:arrow> * 4,
- [[null, null, <ore:flint>],
+ [[null, null, <minecraft:flint>],
  [null, <ore:stickWood>, null],
  [<ore:paper>, null, null]]);
 recipes.addShaped(<minecraft:arrow> * 12,

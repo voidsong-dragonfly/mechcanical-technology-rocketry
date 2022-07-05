@@ -96,15 +96,6 @@
 	</Recipe>
     <Recipe timeRequired="100" power="480">
 		<input>
-			<oreDict>dustSulfur;8</oreDict>
-            <fluidStack>air;800</fluidStack>
-        </input>
-		<output>
-			<fluidStack>sulfurdioxide;600</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="100" power="480">
-		<input>
 			<fluidStack>sulfurdioxide;800</fluidStack>
             <fluidStack>air;400</fluidStack>
         </input>
@@ -120,15 +111,6 @@
 		<output>
 			<fluidStack>sulfurdioxide;800</fluidStack>
             <fluidStack>water;800</fluidStack>
-		</output>
-	</Recipe>
-    <Recipe timeRequired="100" power="480">
-		<input>
-			<oreDict>dustSulfur;8</oreDict>
-            <fluidStack>oxygen;800</fluidStack>
-        </input>
-		<output>
-			<fluidStack>sulfurdioxide;800</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="100" power="480">

@@ -319,8 +319,9 @@
     "count": 1,
     "dimensions": [0],
     "dimensions_is_whitelist": true,
-    "min_y": 52,
-    "max_y": 72,
+    "min_y": -16,
+    "use_relative_y": true,
+    "max_y": 4,
     "density": 128
   },
   "auricupride": {

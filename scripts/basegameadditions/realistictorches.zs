@@ -19,6 +19,7 @@ for item in torchesToRemove{
 recipes.addShapeless(<realistictorches:torch_unlit> * 8, [<ore:fuelCoke>, <ore:stickWood>, <ore:stickWood>]);
 recipes.addShapeless(<realistictorches:torch_unlit> * 12, [<ore:wool>, <liquid:creosote> * 1000, <ore:stickWood>, <ore:stickWood>, <ore:stickWood>]);
 //Campfire recipes
+recipes.addShapeless(<pvj:cobblestone_rocks> * 4, [<minecraft:gravel>]);
 Campfire.addRecipe(<minecraft:stick>, <realistictorches:torch_lit>, 30);
 Campfire.addRecipe(<realistictorches:torch_unlit>, <realistictorches:torch_lit>, 30);
 recipes.remove(<futuremc:campfire>);

@@ -1,4 +1,4 @@
-//Combined vars
+///Combined vars
 var plates = <ore:plateAluminum> | <ore:plateNickel> | <ore:plateIron>;
 var ingots = <ore:ingotAluminum> | <ore:ingotNickel> | <ore:ingotIron>;
 var sticks = <ore:stickAluminum> | <ore:stickNickel> | <ore:stickIron>;
@@ -198,12 +198,12 @@ recipes.addShaped(<immersivetech:valve:2> * 2,
 recipes.addShaped(<immersivetech:metal_trash:0>,
  [[plates, plates, plates],
  [plates, <ore:chestWood>, plates],
- [null, <ore:blockSheetmetalAluminum>, null]]);
+ [null, <ore:blockSheetmetalAluminum> | <ore:blockSheetmetalIron> | <ore:blockSheetmetalNickel>, null]]);
 recipes.addShaped(<immersivetech:metal_trash:1>,
  [[plates, plates, plates],
  [plates, <immersiveengineering:metal_device0:4>, plates],
- [null, <ore:blockSheetmetalAluminum>, null]]);
+ [null, <ore:blockSheetmetalAluminum> | <ore:blockSheetmetalIron> | <ore:blockSheetmetalNickel>, null]]);
 recipes.addShaped(<immersivetech:metal_trash:2>,
  [[plates, plates, plates],
  [plates, <immersiveengineering:metal_decoration0:2>, plates],
- [null, <ore:blockSheetmetalAluminum>, null]]);
+ [null, <ore:blockSheetmetalAluminum> | <ore:blockSheetmetalIron> | <ore:blockSheetmetalNickel>, null]]);

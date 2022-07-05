@@ -137,6 +137,25 @@
 		</output>
 	</Recipe>
     
+    <Recipe timeRequired="150" power="480">
+		<input>
+			<oreDict>dustSulfur;12</oreDict>
+            <fluidStack>air;800</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfurdioxide;600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="150" power="480">
+		<input>
+			<oreDict>dustSulfur;12</oreDict>
+            <fluidStack>oxygen;1200</fluidStack>
+        </input>
+		<output>
+			<fluidStack>sulfurdioxide;1200</fluidStack>
+		</output>
+	</Recipe>
+    
     <Recipe timeRequired="1600" power="960">
 		<input>
 			<oreDict>fiberBitumen;16</oreDict>
