@@ -1,0 +1,9 @@
+setIcon(<advancedrocketry:arcfurnace>)
+setTitle("Sulfuric Spit-Roast")
+setDescription("Form an Electric Kiln, to turn cinnabar or sulfur into sulfur dioxide for sulfuric acid")
+addParent("triumph:petroleum_tech/cinnabar")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:arcfurnace>)
+setPos(-240,260)
+//Force starting chapter
+setRequiresParents()

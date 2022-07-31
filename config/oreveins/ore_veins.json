@@ -605,11 +605,11 @@
         "weight": 60
       },
       {
-        "ore": "oreNiobium",
+        "block": "minecraft:iron_ore",
         "weight": 25
       },
       {
-        "block": "minecraft:iron_ore",
+        "ore": "stoneGranite",
         "weight": 15
       }
     ],

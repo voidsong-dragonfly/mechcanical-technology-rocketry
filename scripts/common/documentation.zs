@@ -25,3 +25,5 @@ for fluid in fluids {
         "---Nuclear Propellants---",
         "Liquid Hydrogen      20mB/s"]);
 }
+
+<liquid:air>.addTooltip("Made via crafting an IE metal barrel");

@@ -1,6 +1,8 @@
 //Import
-import mods.immersivetweaker.Recycling;
 import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.recipes.IRecipeFunction;
+import crafttweaker.player.IPlayer;
 import mods.jei.JEI.removeAndHide;
 import mods.jei.JEI.hide;
 
@@ -244,7 +246,7 @@ recipes.remove(<engineersprospecting:handheld_core_sampler>);
 recipes.addShaped(<engineersprospecting:handheld_core_sampler>,
  [[<ore:fenceTreatedWood>, <immersiveengineering:metal_decoration0:4>, <ore:fenceTreatedWood>],
  [<ore:ingotBronze>, <ore:fenceSteel>, <ore:ingotBronze>],
- [null, <ore:fenceMolybdenum>, null]]);
+ [null, <ore:fenceSteel>, null]]);
 
 //Add Barrel recipes from barrel shells
 recipes.addShaped(<immersivetech:metal_barrel:1>,
@@ -259,6 +261,16 @@ recipes.addShaped(<immersivetech:metal_barrel:2>,
  [<contenttweaker:steel_barrel_shell>],
  [<ore:plateSteel>]]);
  
+//Allow crafting an air-filled barrel from a non-filled one, providing a source of air
+recipes.addShapeless(<immersiveengineering:metal_device0:4>.withTag({tank: {FluidName: "air", Amount: 12000}}), [<immersiveengineering:metal_device0:4>] as IIngredient[],
+    function(out as IItemStack, ins, cInfo){
+        if(!isNull(cInfo.player) && !(cInfo.player.getDimension() == 0 || cInfo.player.getDimension() == 1 || cInfo.player.getDimension() == -1)) {
+            return <immersiveengineering:metal_device0:4>;
+        }
+        return out;
+    } as IRecipeFunction
+);
+
 //HVDC, HV, & MV changes
 //Serving up some lovely consistency by renaming and retexturing and rereciping 95% of a mod, what fun!
 //MV
@@ -305,14 +317,7 @@ recipes.addShapeless(<ore:sludgeCharcoalPrecursor>.firstItem, [<ore:dustWood>, <
 
 
 /*
-    Recycling and hiding items
-*/
-
-/*Recycling 
-Recycling.makeStackInvalidRecyclingOutput(<immersiveengineering:metal:21> * 2);
-Recycling.allowItemForRecycling(<immersiveengineering:metal_decoration1:*>);
-Recycling.allowItemForRecycling(<immersiveengineering:metal_decoration2:*>);
-Recycling.makeStackInvalidRecyclingOutput(<immersiveengineering:metal_decoration0:2>);
+    Hiding items
 */
 
 //Remove Ore Crushing Hammer from JEI, and its recipes

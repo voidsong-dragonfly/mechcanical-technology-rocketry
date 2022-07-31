@@ -4,5 +4,5 @@ setDescription("Acquire a bucket of molten polyethylene from the polymerization 
 addParent("triumph:petroleum_tech/ethylene3")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<forge:bucketfilled, meta:0, count:1, nbt:{FluidName:"polyethene",Amount:1000}>)
-setPos(-65,290)
+setPos(-65,320)
 setFrameType("goal")

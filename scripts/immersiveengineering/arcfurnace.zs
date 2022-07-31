@@ -8,14 +8,14 @@ ArcFurnace.removeAll();
 
 //Alloying
 ArcFurnace.addRecipe(<libvulpes:productingot:4>, <ore:ingotCopper>, null, 300, 512, [], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<immersiveengineering:metal:7> * 4, <ore:ingotEquivalentSilver>, null, 300, 512, [<ore:ingotEquivalentGold> * 3], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotEquivalentTin>, null, 300, 512, [<ore:ingotEquivalentCopper> * 3], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotEquivalentAluminum>, null, 300, 512, [<ore:ingotEquivalentCopper> * 3], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<immersiveengineering:metal:8>, <ore:ingotEquivalentIron>, <immersiveengineering:material:7>, 400, 512, [<ore:dustAnyCarbon>], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<immersiveengineering:metal:8> * 12, <ore:dustSilicon>, null, 4800, 512, [<ore:ingotEquivalentIron> * 10, <ore:dustMagnesium>], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 12, <ore:ingotEquivalentTitanium>, null, 2400, 768, [<ore:ingotEquivalentAluminum> * 8, <ore:dustMagnesium> * 3], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<ore:ingotMaragingSteel>.firstItem * 20, <ore:ingotEquivalentTitanium>, null, 4000, 512, [<ore:ingotEquivalentIron> * 12, <ore:ingotEquivalentNickel> * 4, <ore:dustCobalt> * 2, <ore:ingotEquivalentMolybdenum>], "Alloying & Steelmaking");
-ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 5, <ore:ingotEquivalentTitanium>, null, 2000, 1024, [<ore:ingotEquivalentIridium> * 4], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<immersiveengineering:metal:7> * 4, <ore:ingotSilver>, null, 300, 512, [<ore:ingotGold> * 3], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotTin>, null, 300, 512, [<ore:ingotCopper> * 3], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotAluminum>, null, 300, 512, [<ore:ingotCopper> * 3], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<immersiveengineering:metal:8>, <ore:ingotIron>, <immersiveengineering:material:7>, 400, 512, [<ore:dustAnyCarbon>], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<immersiveengineering:metal:8> * 12, <ore:dustSilicon>, null, 4800, 512, [<ore:ingotIron> * 10, <ore:dustMagnesium>], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<advancedrocketry:productingot:0> * 12, <ore:ingotTitanium>, null, 2400, 768, [<ore:ingotAluminum> * 8, <ore:dustMagnesium> * 3], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<ore:ingotMaragingSteel>.firstItem * 20, <ore:ingotTitanium>, null, 4000, 512, [<ore:ingotIron> * 12, <ore:ingotNickel> * 4, <ore:dustCobalt> * 2, <ore:ingotMolybdenum>], "Alloying & Steelmaking");
+ArcFurnace.addRecipe(<advancedrocketry:productingot:1> * 5, <ore:ingotTitanium>, null, 2000, 1024, [<ore:ingotIridium> * 4], "Alloying & Steelmaking");
 
 //Silicon Production
 ArcFurnace.addRecipe(<libvulpes:productdust:3> * 4, <contenttweaker:silicon_dioxide_dust_block>, null, 1600, 512, [<ore:dustAnyCarbon> * 4]);

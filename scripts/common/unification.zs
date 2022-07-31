@@ -144,11 +144,11 @@ furnace.addRecipe(<immersiveengineering:metal:4> * 2, <contenttweaker:crushed_ni
 
 //Bronze
 AlloySmelter.removeRecipe(<forestry:ingot_bronze>);
-AlloySmelter.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotEquivalentCopper> * 3, <ore:ingotEquivalentTin>, 300);
+AlloySmelter.addRecipe(<mekanism:ingot:2> * 4, <ore:ingotCopper> * 3, <ore:ingotTin>, 300);
 
 //Electrum
 AlloySmelter.removeRecipe(<immersiveengineering:metal:7>);
-AlloySmelter.addRecipe(<immersiveengineering:metal:7> * 4, <ore:ingotEquivalentGold> * 3, <ore:ingotEquivalentSilver>, 300);
+AlloySmelter.addRecipe(<immersiveengineering:metal:7> * 4, <ore:ingotGold> * 3, <ore:ingotSilver>, 300);
 
 //Uranium
 Crusher.removeRecipesForInput(<immersiveengineering:ore:5>);

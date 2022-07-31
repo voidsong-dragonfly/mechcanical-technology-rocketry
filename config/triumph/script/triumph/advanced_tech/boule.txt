@@ -1,0 +1,8 @@
+setIcon(<contenttweaker:material_part, meta:95, count:1>)
+setTitle("Single-Crystal Display Supreme")
+setDescription("Grow a gold-doped boule, the first boule usable in high-tier circuits")
+addParent("triumph:advanced_tech/chemical_reactor")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:material_part, meta:95, count:1>)
+setPos(-135,50)
+setFrameType("goal")

@@ -1,0 +1,7 @@
+setIcon(<advancedrocketry:chemicalreactor>)
+setTitle("Reaction Engines Not Included")
+setDescription("Form a chemical reactor to make many chemicals more efficiently, and to make some in the first place")
+addParent("triumph:advanced_tech/advancedrocketry")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<advancedrocketry:chemicalreactor>)
+setPos(-170,50)

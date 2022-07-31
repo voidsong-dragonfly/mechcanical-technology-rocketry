@@ -221,6 +221,9 @@ import mods.immersiveengineering.BottlingMachine;
 //OD for rabbit hide
 <ore:rawhide>.add(<minecraft:rabbit_hide>);
 
+//OD for soulsand
+<ore:soulsand>.add(<minecraft:soul_sand>);
+
 
 
 /*
@@ -323,7 +326,7 @@ removeAndHide(<forestry:charcoal>);
 <ore:nuggetCopper>.remove(<mekanism:nugget:5>);
 <ore:nuggetCopper>.remove(<libvulpes:productnugget:4>);
 <ore:nuggetTin>.remove(<mekanism:nugget:6>);
-<ore:nuggetAluminum>.remove(<libvulpes:productnugget:9>);
+//<ore:nuggetAluminum>.remove(<libvulpes:productnugget:9>);
 hide(<mekanism:nugget:4>);
 hide(<libvulpes:productnugget:6>);
 hide(<mekanism:nugget:5>);
@@ -361,41 +364,6 @@ hide(<libvulpes:productplate:3>);
 removeAndHide(<forestry:gear_copper>);
 removeAndHide(<forestry:gear_tin>);
 removeAndHide(<forestry:gear_bronze>);
-
-//Ingot equivalents
-<ore:ingotEquivalentIron>.addAll(<ore:ingotIron>);
-<ore:ingotEquivalentIron>.addAll(<ore:dustIron>);
-<ore:ingotEquivalentIron>.addAll(<ore:plateIron>);
-<ore:ingotEquivalentCopper>.addAll(<ore:ingotCopper>);
-<ore:ingotEquivalentCopper>.addAll(<ore:dustCopper>);
-<ore:ingotEquivalentCopper>.addAll(<ore:plateCopper>);
-<ore:ingotEquivalentTin>.addAll(<ore:ingotTin>);
-<ore:ingotEquivalentTin>.addAll(<ore:dustTin>);
-<ore:ingotEquivalentTin>.addAll(<ore:plateTin>);
-<ore:ingotEquivalentNickel>.addAll(<ore:ingotNickel>);
-<ore:ingotEquivalentNickel>.addAll(<ore:dustNickel>);
-<ore:ingotEquivalentNickel>.addAll(<ore:plateNickel>);
-<ore:ingotEquivalentSilver>.addAll(<ore:ingotSilver>);
-<ore:ingotEquivalentSilver>.addAll(<ore:dustSilver>);
-<ore:ingotEquivalentSilver>.addAll(<ore:plateSilver>);
-<ore:ingotEquivalentGold>.addAll(<ore:ingotGold>);
-<ore:ingotEquivalentGold>.addAll(<ore:dustGold>);
-<ore:ingotEquivalentGold>.addAll(<ore:plateGold>);
-<ore:ingotEquivalentAluminum>.addAll(<ore:ingotAluminum>);
-<ore:ingotEquivalentAluminum>.addAll(<ore:dustAluminum>);
-<ore:ingotEquivalentAluminum>.addAll(<ore:plateAluminum>);
-<ore:ingotEquivalentSteel>.addAll(<ore:ingotSteel>);
-<ore:ingotEquivalentSteel>.addAll(<ore:dustSteel>);
-<ore:ingotEquivalentSteel>.addAll(<ore:plateSteel>);
-<ore:ingotEquivalentMolybdenum>.addAll(<ore:ingotMolybdenum>);
-<ore:ingotEquivalentMolybdenum>.addAll(<ore:dustMolybdenum>);
-<ore:ingotEquivalentMolybdenum>.addAll(<ore:plateMolybdenum>);
-<ore:ingotEquivalentTitanium>.addAll(<ore:ingotTitanium>);
-<ore:ingotEquivalentTitanium>.addAll(<ore:dustTitanium>);
-<ore:ingotEquivalentTitanium>.addAll(<ore:plateTitanium>);
-<ore:ingotEquivalentIridium>.addAll(<ore:ingotIridium>);
-<ore:ingotEquivalentIridium>.addAll(<ore:dustIridium>);
-<ore:ingotEquivalentIridium>.addAll(<ore:plateIridium>);
 
 //Ores
 <ore:oreCopper>.remove(<mekanism:oreblock:1>);

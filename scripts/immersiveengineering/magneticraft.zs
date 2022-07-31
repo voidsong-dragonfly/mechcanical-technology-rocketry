@@ -32,7 +32,7 @@ Sieve.addRecipe(<ore:sludgeNickelDerivedAnode>.firstItem, <immersiveengineering:
 Sieve.addRecipe(<contenttweaker:crushed_iron_ore>, <mekanism:dirtydust> * 2, 1, <mekores:mekanismore:13>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_gold_ore>, <mekanism:dirtydust:1> * 2, 1, <mekanism:dirtydust:3>, 0.05, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_copper_ore>, <mekanism:dirtydust:3> * 2, 1, <mekanism:dirtydust:1>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
-Sieve.addRecipe(<contenttweaker:crushed_bauxite_ore>, <mekores:mekanismore:33> * 2, 1, <ore:dustIron>.firstItem, 0.025, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
+Sieve.addRecipe(<contenttweaker:crushed_bauxite_ore>, <mekores:mekanismore:33> * 2, 1, <mekanism:dirtydust>, 0.15, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_lead_ore>, <mekanism:dirtydust:6> * 2, 1, <mekanism:dirtydust:5>, 0.15, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_silver_ore>, <mekanism:dirtydust:5> * 2, 1, <mekanism:dirtydust:6>, 0.1, <contenttweaker:crushed_ore_spoils>, 1, 25, true);
 Sieve.addRecipe(<contenttweaker:crushed_nickel_ore>, <mekores:mekanismore:13> * 2, 1, <mekores:mekanismore:18>, 0.01, <contenttweaker:crushed_ore_spoils>, 1, 25, true);

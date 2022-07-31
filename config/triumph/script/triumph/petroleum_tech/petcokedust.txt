@@ -4,7 +4,7 @@ setDescription("Acquire coke dust from cracking methane, a very viable source of
 addParent("triumph:petroleum_tech/cracked_methane")
 criteria = addCriteria("criteria", "minecraft:inventory_changed")
 criteria.addItem(<ore:dustCoke>)
-setPos(-170,335)
+setPos(-170,365)
 //Force starting chapter
 setRequiresParents()
 setFrameType("goal")

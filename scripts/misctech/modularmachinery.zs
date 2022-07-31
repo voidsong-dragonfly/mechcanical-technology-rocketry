@@ -104,17 +104,6 @@ recipes.addShaped(<contenttweaker:fission_control_drum>,
 
 
 /*
-    Liquid Air Processing - Air collection, liquefaction
-*/
-
-//Air Collection
-var air_collection = newBuilder("air_collection", "air_collection_funnel", 1);
-air_collection.addFluidOutput(<liquid:air> * 2000);
-air_collection.build();
-
-
-
-/*
     Large Metal Press recipes - anything that wouldn't make sense in the small IE metal press, but does here
 */
 

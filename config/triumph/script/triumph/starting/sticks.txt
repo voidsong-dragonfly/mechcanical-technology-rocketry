@@ -1,6 +1,6 @@
 setIcon(<minecraft:stick>)
-setTitle("A Primitive Tool Rod")
-setDescription("Acquire a stick from the ground or leaves")
+setTitle("Use Two For Fire")
+setDescription("Acquire a stick from the ground or leaves, making fire optional")
 addParent("triumph:starting/root")
 criteria = addCriteria("stick", "minecraft:inventory_changed")
 criteria.addItem(<minecraft:stick>)

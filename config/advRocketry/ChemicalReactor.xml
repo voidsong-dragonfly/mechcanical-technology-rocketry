@@ -287,16 +287,6 @@
             <oreDict>dustAluminiumHydroxide;25</oreDict>
 		</output>
 	</Recipe>
-    <Recipe timeRequired="600" power="240">
-		<input>
-			<oreDict>dustCinnabar;48</oreDict>
-            <fluidStack>oxygen;4800</fluidStack>
-        </input>
-		<output>
-            <fluidStack>mercury;4800</fluidStack>
-            <fluidStack>sulfurdioxide;4800</fluidStack>
-		</output>
-	</Recipe>
     <Recipe timeRequired="300" power="120">
 		<input>
 			<oreDict>dustDirtyGold;6</oreDict>

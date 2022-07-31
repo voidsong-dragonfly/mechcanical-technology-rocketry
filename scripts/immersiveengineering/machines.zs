@@ -34,7 +34,7 @@ Refinery.addRecipe(<liquid:crackedethene> * 25, <liquid:ethylene> * 20, <liquid:
 Refinery.addRecipe(<liquid:crackedmethane> * 25, <liquid:methane> * 20, <liquid:steam> * 200, 320);
 //Basic plastic recipe(s)
 Refinery.addRecipe(<liquid:sulfurtrioxide> * 6, <liquid:sulfurdioxide> * 8, <liquid:air> * 4, 480);
-Refinery.addRecipe(<liquid:sulfuricacid> * 8, <liquid:sulfurtrioxide> * 8, <liquid:water> * 8, 480);
+Refinery.addRecipe(<liquid:sulfuric_acid> * 8, <liquid:sulfurtrioxide> * 8, <liquid:water> * 8, 480);
 Refinery.addRecipe(<liquid:ethylene> * 2, <liquid:ethanol> * 2, <liquid:sulfuricacid> * 1, 180);
 Refinery.addRecipe(<liquid:polyethene> * 15, <liquid:ethylene> * 8, <liquid:air> * 1, 1920);
 

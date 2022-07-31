@@ -137,13 +137,35 @@
 		</output>
 	</Recipe>
     
+    <Recipe timeRequired="600" power="240">
+		<input>
+			<oreDict>dustCinnabar;48</oreDict>
+            <fluidStack>air;4800</fluidStack>
+        </input>
+		<output>
+            <fluidStack>mercury;4800</fluidStack>
+            <fluidStack>sulfurdioxide;3600</fluidStack>
+		</output>
+	</Recipe>
+    <Recipe timeRequired="600" power="240">
+		<input>
+			<oreDict>dustCinnabar;48</oreDict>
+            <fluidStack>oxygen;4800</fluidStack>
+        </input>
+		<output>
+            <fluidStack>mercury;4800</fluidStack>
+            <fluidStack>sulfurdioxide;4800</fluidStack>
+		</output>
+	</Recipe>
+    
+    
     <Recipe timeRequired="150" power="480">
 		<input>
 			<oreDict>dustSulfur;12</oreDict>
-            <fluidStack>air;800</fluidStack>
+            <fluidStack>air;1200</fluidStack>
         </input>
 		<output>
-			<fluidStack>sulfurdioxide;600</fluidStack>
+			<fluidStack>sulfurdioxide;900</fluidStack>
 		</output>
 	</Recipe>
     <Recipe timeRequired="150" power="480">

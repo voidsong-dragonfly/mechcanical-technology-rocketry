@@ -1,0 +1,9 @@
+setIcon(<contenttweaker:material_part:75>)
+setTitle("Trapped Sulfides")
+setDescription("Acquire cinnabar dust from the nether, a good source of sulfur for the organic route")
+addParent("triumph:petroleum_tech/root")
+criteria = addCriteria("criteria", "minecraft:inventory_changed")
+criteria.addItem(<contenttweaker:material_part:75>)
+setPos(-275,260)
+//Force starting chapter
+setRequiresParents()
