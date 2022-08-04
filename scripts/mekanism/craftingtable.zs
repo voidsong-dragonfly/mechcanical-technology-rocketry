@@ -112,8 +112,8 @@ recipes.addShaped(<mekanism:machineblock2:9>,
  [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <engineersdecor:thick_steel_pole>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:10>,
- [[<ore:ingotSteel>, <immersiveengineering:toolupgrade:7>, <ore:ingotSteel>],
- [<ore:circuitBasic>, <mekanism:basicblock:8>, <ore:circuitBasic>],
+ [[<ore:ingotSteel>, <engineersdecor:straight_pipe_valve_redstone>, <ore:ingotSteel>],
+ [<ore:circuitBasic>, <immersiveengineering:metal_decoration0:5>, <ore:circuitBasic>],
  [<ore:ingotSteel>, <ore:mechanicalComponentSteel>, <ore:ingotSteel>]]);
 recipes.addShaped(<mekanism:machineblock2:13>,
  [[<ore:ingotSteel>, <ore:itemLens>, <ore:ingotSteel>],
