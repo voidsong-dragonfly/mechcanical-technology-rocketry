@@ -124,6 +124,9 @@ Blueprint.addRecipe("components", <ore:itemBattery>.firstItem * 4, [<ore:stickCo
 //Superconductors
 Blueprint.addRecipe("Specialty Electric Components", <ore:unfilledSuperconductorCableItem>.firstItem, [<ore:sheetSteel>, <ore:sheetSteel>, <ore:wireTitaniumNitride>, <ore:smallPipeMaragingSteel>]);
 Blueprint.addRecipe("Specialty Electric Components", <ore:unfilledHighCurrentSuperconductorCableItem>.firstItem, [<ore:sheetSteel>, <ore:sheetSteel>, <ore:wireMischmetal>, <ore:smallPipeMaragingSteel>]);
+Blueprint.addRecipe("Specialty Electric Components", <ore:circuitDesignIntegratedCircuitItem>.firstItem, [<mekanism:configurationcard>]);
+Blueprint.addRecipe("Specialty Electric Components", <ore:circuitDesignCentralProcessingUnitItem>.firstItem, [<mekanism:configurationcard>]);
+Blueprint.addRecipe("Specialty Electric Components", <ore:circuitDesignMemoryItem>.firstItem, [<mekanism:configurationcard>]);
 
 //Circuit pieces blueprint
 Blueprint.removeRecipe(<immersiveengineering:material:27>);
